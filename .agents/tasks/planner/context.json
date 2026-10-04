@@ -1,0 +1,25 @@
+{
+  "project_type": "React 19 SPA + Vite + Tailwind v4, PWA via vite-plugin-pwa",
+  "language": "JavaScript (JSX), no TypeScript",
+  "build_system": "Vite 7 — `npm run build` produces dist/. No special quirks. ESM project (\"type\": \"module\" in package.json).",
+  "test_framework": "None. Verification = `npm run build` succeeds (zero errors) + manual browser smoke test.",
+  "build_command": "npm run build",
+  "test_command": "npm run build",
+  "verification_instructions": "Run `npm run build` from c:\\Users\\KING\\number-academy. Expect output ending with 'built in Xms' and zero error lines. Then optionally run `npm run dev` and navigate to /planner to smoke-test.",
+  "snapshot_or_generated_files": null,
+  "environment_constraints": "Windows PowerShell. Workspace root: c:\\Users\\KING\\number-academy. All file paths must be absolute or relative to that root. Never write outside the workspace.",
+  "contribution_requirements": "No AGENTS.md/CONTRIBUTING.md found. Follow existing patterns: named exports for components, default exports for pages, Tailwind design tokens only (no arbitrary values unless unavoidable), mobile-first with pb-24 on all pages.",
+  "key_patterns": "1. Dexie db singleton in src/db/database.js — extend via db.version(N).stores({}). 2. useLiveQuery from dexie-react-hooks for reactive reads. 3. Button variants: primary/secondary/ghost. Card wraps sections. 4. Modal pattern: fixed inset-0 z-50 bg-black/50 flex items-center justify-center overlay, bg-card rounded-xl p-5 max-w-sm w-full mx-4 panel. 5. AppShell: desktop header hidden md:block + BottomNav md:hidden. 6. Curriculum data: curriculumMap[subjectId][classId] → strand[] → subStrands[] → contentStandards[] → indicators[]. Known subjects: 'mathematics','science'; known classes: 'B7','B8','B9'.",
+  "relevant_files": [
+    "src/db/database.js",
+    "src/data/curriculumData.js",
+    "src/App.jsx",
+    "src/components/layout/AppShell.jsx",
+    "src/components/layout/BottomNav.jsx",
+    "src/components/ui/Button.jsx",
+    "src/components/ui/Card.jsx",
+    "src/pages/Curriculum.jsx"
+  ],
+  "directory_structure": "src/db/ — Dexie setup; src/data/ — static curriculum JSON; src/pages/ — one file per route; src/components/layout/ — AppShell + BottomNav; src/components/ui/ — Button, Card primitives; src/components/planner/ — NEW planner-specific components",
+  "integration_notes": "Iteration 1 (no verdict.json). Build passed zero-error on first run. Verified all integration seams: (1) App.jsx correctly imports and routes Planner, PlannerTerm, PlannerSubject at /planner, /planner/:termId, /planner/:termId/:subjectId; (2) AppShell desktop nav includes /planner link; (3) BottomNav includes /planner with CalendarDays icon; (4) planner.js CRUD functions are all correctly imported in the three page files; (5) all db.terms/classGroups/subjects/weekPlans/weekTopics table and index references match the Dexie version(2) schema in database.js (createdAt, termId, classGroupId, subjectId, weekPlanId are all declared indexes). No code changes were required — all seams were already correct."
+}
