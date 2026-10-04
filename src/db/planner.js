@@ -119,3 +119,17 @@ export async function removeWeekTopic(id) {
 export async function getWeekTopics(weekPlanId) {
   return db.weekTopics.where("weekPlanId").equals(weekPlanId).toArray();
 }
+
+// ─── Lesson Notes ─────────────────────────────────────────────────────────────
+
+export async function upsertLessonNote(topicId, data) {
+  const existing = await db.lessonNotes.where('topicId').equals(topicId).first();
+  if (existing) {
+    return db.lessonNotes.update(existing.id, { ...data, topicId, updatedAt: Date.now() });
+  }
+  return db.lessonNotes.add({ ...data, topicId, updatedAt: Date.now() });
+}
+
+export async function getLessonNote(topicId) {
+  return db.lessonNotes.where('topicId').equals(topicId).first();
+}

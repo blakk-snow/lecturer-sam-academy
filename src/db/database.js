@@ -20,4 +20,12 @@ db.version(2).stores({
   weekTopics: "++id, weekPlanId, strandId, subStrandId, contentStandardId",
 });
 
+db.version(3).stores({
+  lessonNotes: "++id, topicId, day, date, weekNumber, starter, mainLearning, plenary, resourceUrl, resourceType, evaluation, homework, status, updatedAt",
+});
+
+db.version(3).stores({
+  lessonNotes: '++id, topicId, day, date, weekNumber, starter, mainLearning, plenary, resourceUrl, resourceType, evaluation, homework, status, updatedAt',
+});
+
 export const LOCAL_STUDENT_ID = "local-student";

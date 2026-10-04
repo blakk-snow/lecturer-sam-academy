@@ -272,12 +272,13 @@ export default function PlannerSubject() {
 
                     return (
                       <li key={topic.id}>
-                        {/* Summary row — clickable toggle */}
-                        <button
-                          onClick={() =>
-                            setExpandedTopicId(id => id === topic.id ? null : topic.id)
-                          }
-                          className="flex items-center justify-between gap-2 w-full text-left text-sm py-1"
+                        {/* Summary row — div with role="button" to allow nested real button */}
+                        <div
+                          role="button"
+                          tabIndex={0}
+                          onClick={() => setExpandedTopicId(id => id === topic.id ? null : topic.id)}
+                          onKeyDown={e => { if (e.key === 'Enter' || e.key === ' ') setExpandedTopicId(id => id === topic.id ? null : topic.id); }}
+                          className="flex items-center justify-between gap-2 w-full text-left text-sm py-1 cursor-pointer"
                         >
                           <span className="flex-1 min-w-0">
                             {label && (
@@ -306,11 +307,19 @@ export default function PlannerSubject() {
                               <span className="text-ink-soft italic">No description</span>
                             )}
                           </span>
+                          {/* Quick navigate button — stops propagation to avoid toggling accordion */}
+                          <button
+                            onClick={e => { e.stopPropagation(); navigate(`/planner/${termId}/${subjectId}/${topic.id}`); }}
+                            className="shrink-0 text-accent hover:text-accent/80 text-xs font-medium px-1"
+                            aria-label="Open lesson plan"
+                          >
+                            →
+                          </button>
                           {isExpanded
                             ? <ChevronUp size={14} className="shrink-0 text-ink-soft" />
                             : <ChevronDown size={14} className="shrink-0 text-ink-soft" />
                           }
-                        </button>
+                        </div>
 
                         {/* Expanded detail panel */}
                         {isExpanded && (
@@ -373,6 +382,12 @@ export default function PlannerSubject() {
                             {/* Actions */}
                             <div className="flex items-center gap-3 pt-1">
                               <button
+                                onClick={() => navigate(`/planner/${termId}/${subjectId}/${topic.id}`)}
+                                className="text-sm text-accent hover:text-accent/80 font-medium"
+                              >
+                                View Lesson Plan →
+                              </button>
+                              <button
                                 onClick={() => setEditingTopic(topic)}
                                 className="text-sm text-accent hover:text-accent/80 font-medium"
                               >
@@ -417,9 +432,10 @@ export default function PlannerSubject() {
         />
       )}
 
-      {/* Edit topic modal */}
+      {/* Edit topic modal — key ensures fresh state for each distinct topic */}
       {editingTopic !== null && (
         <AddTopicModal
+          key={editingTopic.id}
           subjectName={subject.name}
           curriculumSubjectId={subject.curriculumSubjectId}
           curriculumClassId={subject.curriculumClassId}
