@@ -12,14 +12,21 @@
   "key_patterns": "1. Dexie db singleton in src/db/database.js — extend via db.version(N).stores({}). 2. useLiveQuery from dexie-react-hooks for reactive reads. 3. Button variants: primary/secondary/ghost. Card wraps sections. 4. Modal pattern: fixed inset-0 z-50 bg-black/50 flex items-center justify-center overlay, bg-card rounded-xl p-5 max-w-sm w-full mx-4 panel. 5. AppShell: desktop header hidden md:block + BottomNav md:hidden. 6. Curriculum data: curriculumMap[subjectId][classId] → strand[] → subStrands[] → contentStandards[] → indicators[]. Known subjects: 'mathematics','science'; known classes: 'B7','B8','B9'.",
   "relevant_files": [
     "src/db/database.js",
+    "src/db/planner.js",
     "src/data/curriculumData.js",
     "src/App.jsx",
     "src/components/layout/AppShell.jsx",
     "src/components/layout/BottomNav.jsx",
     "src/components/ui/Button.jsx",
     "src/components/ui/Card.jsx",
-    "src/pages/Curriculum.jsx"
+    "src/pages/Curriculum.jsx",
+    "src/pages/Planner.jsx",
+    "src/pages/PlannerTerm.jsx",
+    "src/pages/PlannerSubject.jsx",
+    "src/components/planner/TermForm.jsx",
+    "src/components/planner/AddTopicModal.jsx"
   ],
   "directory_structure": "src/db/ — Dexie setup; src/data/ — static curriculum JSON; src/pages/ — one file per route; src/components/layout/ — AppShell + BottomNav; src/components/ui/ — Button, Card primitives; src/components/planner/ — NEW planner-specific components",
-  "integration_notes": "Iteration 1 (no verdict.json). Build passed zero-error on first run. Verified all integration seams: (1) App.jsx correctly imports and routes Planner, PlannerTerm, PlannerSubject at /planner, /planner/:termId, /planner/:termId/:subjectId; (2) AppShell desktop nav includes /planner link; (3) BottomNav includes /planner with CalendarDays icon; (4) planner.js CRUD functions are all correctly imported in the three page files; (5) all db.terms/classGroups/subjects/weekPlans/weekTopics table and index references match the Dexie version(2) schema in database.js (createdAt, termId, classGroupId, subjectId, weekPlanId are all declared indexes). No code changes were required — all seams were already correct."
+  "integration_notes": "Iteration 1 (no verdict.json). Build passed zero-error on first run. Verified all integration seams: (1) App.jsx correctly imports and routes Planner, PlannerTerm, PlannerSubject at /planner, /planner/:termId, /planner/:termId/:subjectId; (2) AppShell desktop nav includes /planner link; (3) BottomNav includes /planner with CalendarDays icon; (4) planner.js CRUD functions are all correctly imported in the three page files; (5) all db.terms/classGroups/subjects/weekPlans/weekTopics table and index references match the Dexie version(2) schema in database.js (createdAt, termId, classGroupId, subjectId, weekPlanId are all declared indexes). No code changes were required — all seams were already correct.",
+  "implementation_summary": "Full Lesson Planner CRUD feature shipped across 4 workflow steps. Step 1 (FEAT-001): Extended Dexie DB to version 2 with five new tables — terms, classGroups, subjects, weekPlans, weekTopics — and created src/db/planner.js with all CRUD helpers. Step 2 (FEAT-002/003): Built three route pages (Planner.jsx, PlannerTerm.jsx, PlannerSubject.jsx) and two planner components (TermForm.jsx, AddTopicModal.jsx). Teachers create Terms → Class Groups → Subjects → up to 16 weekly plans, selecting content from the static curriculumMap data. Step 3: Registered the /planner, /planner/:termId, /planner/:termId/:subjectId routes in App.jsx, added /planner to AppShell desktop nav and BottomNav mobile nav. Step 4: Expanded curriculumData.js to cover Mathematics and Science across Basic 7/8/9, updated Curriculum.jsx to the new multi-subject browser. Final build clean at 1739 modules, zero errors."
 }

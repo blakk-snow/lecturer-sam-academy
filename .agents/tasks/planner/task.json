@@ -1,0 +1,7 @@
+{
+  "task_id": "task-lesson-planner-crud",
+  "task_description": "Add a full Lesson Planner CRUD feature to Number Academy. Teachers create Terms → Class Groups → Subjects → 16-week plans, picking content from curriculum data. New /planner route family, Dexie v2 schema, and nav updates.",
+  "status": "completed",
+  "feature_order": ["FEAT-001", "FEAT-002", "FEAT-003"],
+  "blocked_reason": null
+}
