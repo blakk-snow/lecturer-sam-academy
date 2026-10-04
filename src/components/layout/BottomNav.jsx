@@ -1,9 +1,9 @@
-import { BookOpen, Home, LineChart, UserRound, BookMarked } from "lucide-react";
+import { CalendarDays, Home, LineChart, UserRound, BookMarked } from "lucide-react";
 import { NavLink } from "react-router-dom";
 
 const items = [
   { to: "/", label: "Home", icon: Home, end: true },
-  { to: "/course", label: "Course", icon: BookOpen },
+  { to: "/planner", label: "Planner", icon: CalendarDays },
   { to: "/curriculum", label: "Curriculum", icon: BookMarked },
   { to: "/dashboard", label: "Progress", icon: LineChart },
   { to: "/profile", label: "Profile", icon: UserRound },

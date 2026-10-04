@@ -10,6 +10,9 @@ import Quiz from "./pages/Quiz";
 import Results from "./pages/Results";
 import Profile from "./pages/Profile";
 import Curriculum from "./pages/Curriculum";
+import Planner from "./pages/Planner";
+import PlannerTerm from "./pages/PlannerTerm";
+import PlannerSubject from "./pages/PlannerSubject";
 
 export default function App() {
   return (
@@ -23,6 +26,9 @@ export default function App() {
         <Route path="/lesson/:lessonId" element={<Lesson />} />
         <Route path="/practice" element={<Practice />} />
         <Route path="/curriculum" element={<Curriculum />} />
+        <Route path="/planner" element={<Planner />} />
+        <Route path="/planner/:termId" element={<PlannerTerm />} />
+        <Route path="/planner/:termId/:subjectId" element={<PlannerSubject />} />
         <Route path="/quiz/:quizId" element={<Quiz />} />
         <Route path="/results/:resultId" element={<Results />} />
         <Route path="/profile" element={<Profile />} />
