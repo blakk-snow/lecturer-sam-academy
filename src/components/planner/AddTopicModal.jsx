@@ -3,19 +3,40 @@ import { X } from 'lucide-react';
 import { curriculumMap } from '../../data/curriculumData';
 import { Button } from '../../components/ui/Button';
 
-export function AddTopicModal({ subjectName, curriculumSubjectId, curriculumClassId, onAdd, onClose }) {
+export function AddTopicModal({
+  subjectName,
+  curriculumSubjectId,
+  curriculumClassId,
+  onAdd,
+  onClose,
+  initialData,
+  onUpdate,
+}) {
   const strands = (curriculumMap[curriculumSubjectId] ?? {})[curriculumClassId] ?? [];
   const hasCurriculum = strands.length > 0;
 
+  const parseIds = (raw) =>
+    Array.isArray(raw) ? raw : (typeof raw === 'string' ? JSON.parse(raw || '[]') : []);
+
   // Step 1: strand
-  const [activeStrandId, setActiveStrandId] = useState(strands[0]?.id ?? null);
+  const [activeStrandId, setActiveStrandId] = useState(
+    initialData?.strandId ?? strands[0]?.id ?? null
+  );
   // Step 2: sub-strand
-  const [activeSubStrandId, setActiveSubStrandId] = useState(null);
+  const [activeSubStrandId, setActiveSubStrandId] = useState(
+    initialData?.subStrandId ?? null
+  );
   // Step 3: content standard + indicators
-  const [activeStandardId, setActiveStandardId] = useState(null);
-  const [selectedIndicatorIds, setSelectedIndicatorIds] = useState([]);
+  const [activeStandardId, setActiveStandardId] = useState(
+    initialData?.contentStandardId ?? null
+  );
+  const [selectedIndicatorIds, setSelectedIndicatorIds] = useState(
+    parseIds(initialData?.indicatorIds)
+  );
   // Notes
-  const [notes, setNotes] = useState('');
+  const [notes, setNotes] = useState(initialData?.notes ?? '');
+  // Resources
+  const [resources, setResources] = useState(initialData?.resources ?? '');
 
   const activeStrand = strands.find(s => s.id === activeStrandId);
   const activeSubStrand = activeStrand?.subStrands.find(ss => ss.id === activeSubStrandId);
@@ -47,15 +68,20 @@ export function AddTopicModal({ subjectName, curriculumSubjectId, curriculumClas
     setSelectedIndicatorIds([]);
   }
 
-  function handleAdd() {
-    if (hasCurriculum) {
-      onAdd({
-        strandId: activeStrandId,
-        subStrandId: activeSubStrandId,
-        contentStandardId: activeStandardId,
-        indicatorIds: selectedIndicatorIds,
-        notes,
-      });
+  function handleSubmit() {
+    const payload = {
+      strandId: activeStrandId,
+      subStrandId: activeSubStrandId,
+      contentStandardId: hasCurriculum ? activeStandardId : null,
+      indicatorIds: selectedIndicatorIds,
+      notes,
+      resources,
+    };
+
+    if (onUpdate) {
+      onUpdate(payload);
+    } else if (hasCurriculum) {
+      onAdd(payload);
     } else {
       onAdd({
         strandId: null,
@@ -63,11 +89,14 @@ export function AddTopicModal({ subjectName, curriculumSubjectId, curriculumClas
         contentStandardId: null,
         indicatorIds: [],
         notes,
+        resources,
       });
     }
   }
 
-  const canAdd = hasCurriculum ? Boolean(activeStandardId) : notes.trim().length > 0;
+  const canSubmit = hasCurriculum ? Boolean(activeStandardId) : notes.trim().length > 0;
+
+  const isEditMode = Boolean(onUpdate);
 
   return (
     <div className="fixed inset-0 z-50 bg-black/50 flex items-center justify-center">
@@ -75,7 +104,8 @@ export function AddTopicModal({ subjectName, curriculumSubjectId, curriculumClas
         {/* Header */}
         <div className="flex items-center justify-between mb-4">
           <h2 className="font-semibold text-ink">
-            Add Topic{subjectName ? ` — ${subjectName}` : ''}
+            {isEditMode ? 'Edit Topic' : 'Add Topic'}
+            {subjectName ? ` — ${subjectName}` : ''}
           </h2>
           <button
             onClick={onClose}
@@ -187,13 +217,25 @@ export function AddTopicModal({ subjectName, curriculumSubjectId, curriculumClas
           className="border border-line rounded-xl bg-paper px-3 py-2 w-full text-ink text-sm focus:outline-none focus:border-accent resize-none mb-4"
         />
 
+        {/* Resources */}
+        <p className="text-xs text-ink-soft uppercase font-semibold tracking-wide mb-2">
+          Resources (optional)
+        </p>
+        <textarea
+          value={resources}
+          onChange={e => setResources(e.target.value)}
+          rows={2}
+          placeholder="Links, textbook pages, materials…"
+          className="border border-line rounded-xl bg-paper px-3 py-2 w-full text-ink text-sm focus:outline-none focus:border-accent resize-none mb-4"
+        />
+
         <Button
           variant="primary"
           className="w-full"
-          onClick={handleAdd}
-          disabled={!canAdd}
+          onClick={handleSubmit}
+          disabled={!canSubmit}
         >
-          {hasCurriculum ? 'Add Topic' : 'Add Note'}
+          {isEditMode ? 'Update Topic' : (hasCurriculum ? 'Add Topic' : 'Add Note')}
         </Button>
       </div>
     </div>
