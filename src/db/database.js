@@ -1,0 +1,23 @@
+import Dexie from "dexie";
+
+export const db = new Dexie("numberAcademy");
+
+db.version(1).stores({
+  students: "id, name, createdAt, lastActive",
+  progress: "[studentId+lessonId], studentId, lessonId, status, lastAccessed",
+  attempts: "++id, studentId, questionId, timestamp",
+  quizResults: "++id, studentId, quizId, completedAt",
+  misconceptions: "[studentId+misconceptionId], studentId, topicId, lastDetected",
+  settings: "id",
+});
+
+db.version(2).stores({
+  // Planner tables
+  terms: "++id, name, year, termNumber, startDate, endDate, createdAt",
+  classGroups: "++id, termId, classLevel",
+  subjects: "++id, classGroupId, name, curriculumSubjectId, curriculumClassId",
+  weekPlans: "++id, subjectId, weekNumber, weekType, status, updatedAt",
+  weekTopics: "++id, weekPlanId, strandId, subStrandId, contentStandardId",
+});
+
+export const LOCAL_STUDENT_ID = "local-student";
