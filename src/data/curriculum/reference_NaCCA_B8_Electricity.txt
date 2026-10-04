@@ -1,0 +1,64 @@
+ 
+72  © NaCCA, Ministry of Education 2021 
+ 
+STRAND 4: FORCES AND ENERGY 
+SUB-STRAND 2: ELECTRICITY AND ELECTRONICS 
+ 
+ 
+ 
+CONTENT STANDARD INDICATORS AND EXEMPLARS CORE COMPETENCIES 
+B8/JHS2.4.2.1 
+Demonstrate 
+knowledge of electricity 
+transmission 
+B8/JHS2.4.2.1.1 Explain how electricity transmission occurs. 
+ 
+ 
+ 
+Exemplars: 
+1. Identify different stages of electricity transmission. 
+ 
+ 
+2. Draw a flow chart to show the stages of electricity transmission from 
+the point of generation to the point of consumption. 
+Critical Thinking and Problem Solving (CP),  
+Communication and Collaboration (CC),  
+Digital Literacy (DL), Creativity and Innovation 
+(CI) 
+ 
+CP 5.1: Ability to combine Information 
+and ideas from several sources to reach a 
+conclusion 
+CP 5.3: Create simple logic trees to think 
+through problems 
+B8/JHS2.4.2.2 
+Demonstrate 
+understanding of the 
+functions of capacitors 
+in relation to LEDs, 
+Diodes and resistors in 
+electronic circuits 
+B8/JHS2.4.2.2.1 Demonstrate the charging and discharging 
+action of a capacitor in a DC electronic circuit 
+ 
+Exemplars: 
+1. Research information about capacitors in electronic circuits and 
+explain their functions when connected with direct current (DC). 
+ 
+ 
+ 
+2. Describe the charging and discharging actions of a capacitor and 
+explain the role of LEDs, diodes and resistors in an electronic circuit. 
+Critical Thinking and Problem Solving 
+(CP), Communication and Collaboration 
+(CC), Creativity and Innovation (CI) 
+ 
+DL 5.5: Evaluate the quality and validity of 
+information 
+ CC 8.2: Explain ideas in a clear order with  
+relevant details, using correct construction and 
+structure of speech 
+ CP 5.1: Ability to combine Information 
+and ideas from several sources to reach a 
+conclusion 
+ 

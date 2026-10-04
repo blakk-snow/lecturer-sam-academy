@@ -1,0 +1,22 @@
+{
+  "id": "FEAT-003",
+  "type": "feat",
+  "description": "Routing and navigation: register the three new planner routes in App.jsx, update BottomNav to add a Planner entry, and update the AppShell desktop nav links. Depends on FEAT-002 pages existing. Independent from FEAT-001 for ordering purposes but must run after FEAT-002.",
+  "status": "completed",
+  "steps": [
+    "Update src/App.jsx: add three imports at the top — import Planner from './pages/Planner'; import PlannerTerm from './pages/PlannerTerm'; import PlannerSubject from './pages/PlannerSubject'. Inside the <AppShell> Route block, add after the /curriculum route: <Route path=\"/planner\" element={<Planner />} />, <Route path=\"/planner/:termId\" element={<PlannerTerm />} />, <Route path=\"/planner/:termId/:subjectId\" element={<PlannerSubject />} />.",
+    "Update src/components/layout/BottomNav.jsx: add CalendarDays to the lucide-react import. Change the items array entry { to: '/course', label: 'Course', icon: BookOpen } to { to: '/planner', label: 'Planner', icon: CalendarDays }. Remove BookOpen from the import if it is no longer referenced elsewhere in the file.",
+    "Update src/components/layout/AppShell.jsx: in the links array, change { to: '/course', label: 'Course' } to { to: '/planner', label: 'Planner' }. The /course route remains in App.jsx but is removed from the prominent nav."
+  ],
+  "acceptance_criteria": [
+    "npm run build completes with zero errors",
+    "App.jsx imports and registers all three /planner routes",
+    "BottomNav shows 'Planner' with CalendarDays icon on mobile (5-column grid still intact)",
+    "AppShell desktop nav includes 'Planner' link pointing to /planner"
+  ],
+  "verification": [
+    "cd c:\\Users\\KING\\number-academy && npm run build"
+  ],
+  "blocked_reason": null,
+  "findings": ""
+}

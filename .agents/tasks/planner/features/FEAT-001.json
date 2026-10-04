@@ -1,0 +1,21 @@
+{
+  "id": "FEAT-001",
+  "type": "feat",
+  "description": "Data layer: extend Dexie to version 2 with planner tables and create all CRUD helper functions in src/db/planner.js. This is the foundation all UI features depend on.",
+  "status": "completed",
+  "steps": [
+    "Read src/db/database.js to confirm current v1 schema, then append db.version(2).stores({}) keeping v1 intact. New tables: terms ('++id, name, year, termNumber, startDate, endDate, createdAt'), classGroups ('++id, termId, classLevel'), subjects ('++id, classGroupId, name, curriculumSubjectId, curriculumClassId'), weekPlans ('++id, subjectId, weekNumber, weekType, status, updatedAt'), weekTopics ('++id, weekPlanId, strandId, subStrandId, contentStandardId, indicatorIds, resources, notes'). File: src/db/database.js.",
+    "Create src/db/planner.js importing db from './database'. Export the following async functions: createTerm(data) — adds {name,year,termNumber,startDate,endDate,createdAt:Date.now()} to db.terms; updateTerm(id,changes) — db.terms.update(id,changes); deleteTerm(id) — cascades: deletes all classGroups for term (and their subjects/weekPlans/weekTopics), then deletes term; getTerms() — db.terms.orderBy('createdAt').reverse().toArray(); addClassGroup(termId,classLevel) — db.classGroups.add({termId,classLevel}); removeClassGroup(id) — cascades: deletes subjects→weekPlans→weekTopics, then classGroup; getClassGroups(termId) — db.classGroups.where('termId').equals(termId).toArray(); addSubject(classGroupId,name,curriculumSubjectId,curriculumClassId) — db.subjects.add({classGroupId,name,curriculumSubjectId:curriculumSubjectId||null,curriculumClassId:curriculumClassId||null}); updateSubject(id,changes) — db.subjects.update(id,changes); removeSubject(id) — cascades weekPlans→weekTopics then subject; getSubjects(classGroupId) — db.subjects.where('classGroupId').equals(classGroupId).toArray(); upsertWeekPlan(subjectId,weekNumber,fields) — check if exists by subjectId+weekNumber, update if found or add if not; getWeekPlans(subjectId) — db.weekPlans.where('subjectId').equals(subjectId).toArray(); addWeekTopic(weekPlanId,topicData) — db.weekTopics.add({weekPlanId,...topicData}); updateWeekTopic(id,changes) — db.weekTopics.update(id,changes); removeWeekTopic(id) — db.weekTopics.delete(id); getWeekTopics(weekPlanId) — db.weekTopics.where('weekPlanId').equals(weekPlanId).toArray()."
+  ],
+  "acceptance_criteria": [
+    "npm run build completes with zero errors after both file changes",
+    "db.version(2) block exists in database.js with all 5 new tables",
+    "planner.js exports all 17 named functions",
+    "Cascade deletes are implemented so removing a term also removes all descendant records"
+  ],
+  "verification": [
+    "cd c:\\Users\\KING\\number-academy && npm run build"
+  ],
+  "blocked_reason": null,
+  "findings": "Implemented db.version(2).stores() with all 5 planner tables in database.js (keeping v1 intact). Created planner.js with all 17 named async functions including cascade deletes for deleteTerm, removeClassGroup, and removeSubject. Build passes with zero errors (1733 modules transformed, built in 15.62s)."
+}
