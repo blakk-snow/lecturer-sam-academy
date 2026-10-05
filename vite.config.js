@@ -20,10 +20,10 @@ export default defineConfig({
       registerType: "autoUpdate",
       includeAssets: ["favicon.svg", "icons/icon-192.png", "icons/icon-512.png"],
       manifest: {
-        name: "Number & Algebra Academy",
-        short_name: "Number Academy",
+        name: "Lecturer Sam Academy",
+        short_name: "Lecturer Sam",
         description:
-          "Learn, practise, apply and master Number and Algebra — one concept at a time.",
+          "An interactive learning platform for Ghanaian JHS teachers and students, aligned to the NaCCA Common Core Programme.",
         theme_color: "#12263a",
         background_color: "#f4f0e8",
         display: "standalone",

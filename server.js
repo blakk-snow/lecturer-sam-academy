@@ -1,5 +1,5 @@
 /**
- * server.js — Lightweight AI proxy server for Number Academy
+ * server.js — Lightweight AI proxy server for Lecturer Sam Academy
  *
  * Uses only Node.js built-ins. No Express, no external dependencies.
  * Reads OPENROUTER_API_KEY from .env and proxies POST /api/generate
@@ -39,7 +39,7 @@ loadEnv();
 const PORT = parseInt(process.env.SERVER_PORT || '3001', 10);
 const OPENROUTER_API_KEY = process.env.OPENROUTER_API_KEY || '';
 const SITE_URL = process.env.SITE_URL || 'http://localhost:5173';
-const SITE_NAME = process.env.SITE_NAME || 'Number Academy';
+const SITE_NAME = process.env.SITE_NAME || 'Lecturer Sam Academy';
 
 if (!OPENROUTER_API_KEY) {
   console.warn('[server] ⚠  OPENROUTER_API_KEY not set — AI requests will fail with 401.');

@@ -1,6 +1,6 @@
 import Dexie from "dexie";
 
-export const db = new Dexie("numberAcademy");
+export const db = new Dexie("lecturerSamAcademy");
 
 db.version(1).stores({
   students: "id, name, createdAt, lastActive",

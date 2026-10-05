@@ -131,7 +131,7 @@ npm run preview # preview the production build locally
 |---------------------|----------|-----------------------|--------------------------------------------------|
 | `OPENROUTER_API_KEY`| Yes      | —                     | Your OpenRouter API key                          |
 | `SITE_URL`          | No       | `http://localhost:5173` | Sent as `HTTP-Referer` to OpenRouter           |
-| `SITE_NAME`         | No       | `Number Academy`      | Display name sent to OpenRouter                  |
+| `SITE_NAME`         | No       | `Lecturer Sam Academy` | Display name sent to OpenRouter                  |
 | `SERVER_PORT`       | No       | `3001`                | Port for the dev proxy server                    |
 
 ---

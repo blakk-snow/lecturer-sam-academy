@@ -46,8 +46,8 @@ export default async function handler(req, res) {
       method: 'POST',
       headers: {
         'Authorization': `Bearer ${apiKey}`,
-        'HTTP-Referer': process.env.SITE_URL || 'https://number-academy.vercel.app',
-        'X-Title': process.env.SITE_NAME || 'Number Academy',
+        'HTTP-Referer': process.env.SITE_URL || 'https://lecturer-sam-academy.vercel.app',
+        'X-Title': process.env.SITE_NAME || 'Lecturer Sam Academy',
         'Content-Type': 'application/json',
       },
       body: JSON.stringify({

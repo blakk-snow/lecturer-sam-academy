@@ -1,5 +1,5 @@
 /**
- * ai.js — Client-side AI service for Number Academy
+ * ai.js — Client-side AI service for Lecturer Sam Academy
  *
  * All functions POST to /api/generate (proxied to OpenRouter in dev,
  * or a serverless function in production). The API key never touches
