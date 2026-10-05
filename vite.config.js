@@ -4,6 +4,15 @@ import tailwindcss from "@tailwindcss/vite";
 import { VitePWA } from "vite-plugin-pwa";
 
 export default defineConfig({
+  server: {
+    proxy: {
+      // In dev, proxy /api/* → Node AI server on port 3001
+      '/api': {
+        target: 'http://localhost:3001',
+        changeOrigin: true,
+      },
+    },
+  },
   plugins: [
     react(),
     tailwindcss(),
@@ -41,6 +50,7 @@ export default defineConfig({
       },
       workbox: {
         globPatterns: ["**/*.{js,css,html,ico,svg,png,woff2}"],
+        maximumFileSizeToCacheInBytes: 4 * 1024 * 1024, // 4 MB
       },
     }),
   ],

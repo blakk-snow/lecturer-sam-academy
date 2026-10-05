@@ -51,9 +51,18 @@ export function AddTopicModal({
   }
 
   function selectSubStrand(ssId) {
+    // When toggling a sub-strand closed (ssId is null), keep the existing
+    // standard and indicators so they are not silently discarded in edit mode.
+    if (ssId === null) {
+      setActiveSubStrandId(null);
+      return;
+    }
+    // Switching to a different sub-strand — reset dependent state
+    if (ssId !== activeSubStrandId) {
+      setActiveStandardId(null);
+      setSelectedIndicatorIds([]);
+    }
     setActiveSubStrandId(ssId);
-    setActiveStandardId(null);
-    setSelectedIndicatorIds([]);
   }
 
   function selectStrandTab(strandId) {

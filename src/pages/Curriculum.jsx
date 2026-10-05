@@ -1,10 +1,235 @@
-import { useState } from 'react';
-import { ChevronDown, ChevronUp, GraduationCap } from 'lucide-react';
+import { useState, useCallback, useEffect, useRef } from 'react';
+import { useNavigate } from 'react-router-dom';
+import { ChevronDown, ChevronUp, GraduationCap, X, Copy, Check, Loader2, ArrowRight } from 'lucide-react';
 import { curriculumMap, subjects, classes } from '../data/curriculumData';
+import { generateLessonPlan, generateActivities, generateAssessment, explainIndicator } from '../services/ai';
 
-function StandardCard({ standard }) {
+// ── AI action definitions ─────────────────────────────────────────────────────
+
+const AI_ACTIONS = [
+  { key: 'lesson',     label: '✨ Generate Lesson',      icon: '✨' },
+  { key: 'activities', label: '📋 Activities',           icon: '📋' },
+  { key: 'assessment', label: '📝 Assessment',           icon: '📝' },
+  { key: 'explain',    label: '💡 Explain',              icon: '💡' },
+];
+
+const ACTION_TITLES = {
+  lesson:     '✨ Generated Lesson Plan',
+  activities: '📋 Classroom Activities',
+  assessment: '📝 Assessment',
+  explain:    '💡 Indicator Explained',
+};
+
+// ── Markdown-lite renderer ────────────────────────────────────────────────────
+// Renders **bold** and newlines from AI text without a markdown library.
+
+function AiText({ text }) {
+  if (!text) return null;
+  const paragraphs = text.split(/\n{2,}/);
+  return (
+    <div className="space-y-3">
+      {paragraphs.map((para, i) => {
+        const lines = para.split('\n');
+        return (
+          <div key={i} className="space-y-1">
+            {lines.map((line, j) => {
+              // Bold headings like **STARTER ACTIVITY**
+              const boldHeading = line.match(/^\*\*(.+)\*\*\s*:?\s*(.*)$/);
+              if (boldHeading) {
+                return (
+                  <div key={j}>
+                    <span className="font-semibold text-ink">{boldHeading[1]}</span>
+                    {boldHeading[2] && <span className="text-ink"> — {boldHeading[2]}</span>}
+                  </div>
+                );
+              }
+              // Numbered / bulleted list items
+              if (/^(\d+\.|[-•*])\s/.test(line)) {
+                return <p key={j} className="text-sm text-ink pl-3">{line}</p>;
+              }
+              return line.trim()
+                ? <p key={j} className="text-sm text-ink leading-relaxed">{line}</p>
+                : null;
+            })}
+          </div>
+        );
+      })}
+    </div>
+  );
+}
+
+// ── AI Drawer (slide-up modal) ────────────────────────────────────────────────
+
+function AIDrawer({ open, onClose, context, action, onPlanToPlanner }) {
+  const [loading, setLoading]   = useState(false);
+  const [result, setResult]     = useState(null);
+  const [error, setError]       = useState(null);
+  const [copied, setCopied]     = useState(false);
+  const prevActionRef           = useRef(null);
+
+  // Trigger generation when drawer opens or action changes
+  useEffect(() => {
+    if (!open || !action || !context) return;
+    const key = `${action}::${context.indicatorId}`;
+    if (prevActionRef.current === key) return;
+    prevActionRef.current = key;
+
+    setResult(null);
+    setError(null);
+    setLoading(true);
+
+    const params = {
+      level:           context.level,
+      subject:         context.subject,
+      strand:          context.strand,
+      subStrand:       context.subStrand,
+      contentStandard: `${context.standardCode} — ${context.standardDesc}`,
+      indicator:       `${context.indicatorCode} — ${context.indicatorDesc}`,
+    };
+
+    const fn = {
+      lesson:     generateLessonPlan,
+      activities: generateActivities,
+      assessment: generateAssessment,
+      explain:    explainIndicator,
+    }[action];
+
+    fn(params)
+      .then(text => { setResult(text); setLoading(false); })
+      .catch(err => { setError(err.message); setLoading(false); });
+  }, [open, action, context]);
+
+  // Reset when drawer closes
+  useEffect(() => {
+    if (!open) {
+      prevActionRef.current = null;
+    }
+  }, [open]);
+
+  async function handleCopy() {
+    if (!result) return;
+    try {
+      await navigator.clipboard.writeText(result);
+      setCopied(true);
+      setTimeout(() => setCopied(false), 2000);
+    } catch {
+      // clipboard may not be available
+    }
+  }
+
+  if (!open) return null;
+
+  return (
+    <>
+      {/* Backdrop */}
+      <div
+        className="fixed inset-0 z-40 bg-black/40 backdrop-blur-sm"
+        onClick={onClose}
+        aria-hidden="true"
+      />
+
+      {/* Drawer */}
+      <div
+        role="dialog"
+        aria-modal="true"
+        aria-label={ACTION_TITLES[action]}
+        className="fixed inset-x-0 bottom-0 z-50 max-h-[85dvh] flex flex-col bg-card rounded-t-2xl shadow-2xl"
+      >
+        {/* Handle */}
+        <div className="flex justify-center pt-3 pb-1 shrink-0">
+          <div className="w-10 h-1 rounded-full bg-line" />
+        </div>
+
+        {/* Header */}
+        <div className="flex items-center justify-between px-4 pb-3 border-b border-line shrink-0">
+          <h2 className="font-semibold text-ink text-base">
+            {ACTION_TITLES[action] || 'AI Assistant'}
+          </h2>
+          <button
+            onClick={onClose}
+            className="p-1.5 rounded-lg text-ink-soft hover:text-ink hover:bg-paper"
+            aria-label="Close"
+          >
+            <X size={18} />
+          </button>
+        </div>
+
+        {/* Context chip */}
+        {context && (
+          <div className="px-4 pt-3 shrink-0">
+            <div className="rounded-xl bg-accent/5 border border-accent/20 px-3 py-2 text-xs text-accent space-y-0.5">
+              <p className="font-mono font-semibold">{context.indicatorCode}</p>
+              <p className="text-ink-soft leading-snug line-clamp-2">{context.indicatorDesc}</p>
+            </div>
+          </div>
+        )}
+
+        {/* Scrollable content */}
+        <div className="flex-1 overflow-y-auto px-4 py-4 space-y-4 min-h-0">
+          {loading && (
+            <div className="flex flex-col items-center justify-center gap-3 py-16">
+              <Loader2 size={32} className="text-accent animate-spin" />
+              <p className="text-sm text-ink-soft">Generating with AI…</p>
+            </div>
+          )}
+
+          {error && !loading && (
+            <div className="rounded-xl bg-red-50 border border-red-200 px-4 py-3 text-sm text-red-700">
+              <p className="font-semibold mb-1">Generation failed</p>
+              <p>{error}</p>
+              <p className="mt-2 text-xs text-red-500">
+                Make sure the AI server is running: <code className="font-mono">node server.js</code>
+              </p>
+            </div>
+          )}
+
+          {result && !loading && (
+            <div className="rounded-xl bg-paper border border-line p-4">
+              <AiText text={result} />
+            </div>
+          )}
+        </div>
+
+        {/* Footer actions */}
+        {result && !loading && (
+          <div className="shrink-0 border-t border-line px-4 py-3 flex items-center gap-2 flex-wrap">
+            <button
+              onClick={handleCopy}
+              className="flex items-center gap-1.5 px-3 py-2 rounded-xl border border-line text-sm text-ink hover:bg-paper transition"
+            >
+              {copied ? <Check size={15} className="text-green-600" /> : <Copy size={15} />}
+              {copied ? 'Copied!' : 'Copy'}
+            </button>
+
+            {action === 'lesson' && onPlanToPlanner && (
+              <button
+                onClick={onPlanToPlanner}
+                className="flex items-center gap-1.5 px-3 py-2 rounded-xl bg-accent text-white text-sm font-medium hover:bg-accent/90 transition"
+              >
+                Plan in Planner
+                <ArrowRight size={15} />
+              </button>
+            )}
+
+            <button
+              onClick={onClose}
+              className="ml-auto px-3 py-2 rounded-xl border border-line text-sm text-ink-soft hover:text-ink hover:bg-paper transition"
+            >
+              Close
+            </button>
+          </div>
+        )}
+      </div>
+    </>
+  );
+}
+
+// ── StandardCard (with AI buttons per indicator) ──────────────────────────────
+
+function StandardCard({ standard, strand, subStrand, classLabel, subjectLabel, onAIAction }) {
   const [open, setOpen] = useState(false);
   const indicatorCount = standard.indicators.length;
+
   return (
     <div className="border border-line rounded-xl bg-card overflow-hidden">
       <button
@@ -27,12 +252,40 @@ function StandardCard({ standard }) {
           {open ? <ChevronUp size={18} /> : <ChevronDown size={18} />}
         </div>
       </button>
+
       {open && indicatorCount > 0 && (
         <ul className="border-t border-line divide-y divide-line">
           {standard.indicators.map(ind => (
-            <li key={ind.id} className="px-4 py-3 flex gap-2">
-              <span className="font-mono text-xs font-bold text-accent shrink-0 mt-0.5">{ind.code}</span>
-              <span className="text-sm text-ink">{ind.description}</span>
+            <li key={ind.id} className="px-4 py-3 space-y-2">
+              {/* Indicator header */}
+              <div className="flex gap-2 items-start">
+                <span className="font-mono text-xs font-bold text-accent shrink-0 mt-0.5">{ind.code}</span>
+                <span className="text-sm text-ink leading-relaxed">{ind.description}</span>
+              </div>
+
+              {/* AI action buttons */}
+              <div className="flex flex-wrap gap-1.5 pt-0.5">
+                {AI_ACTIONS.map(act => (
+                  <button
+                    key={act.key}
+                    onClick={() => onAIAction({
+                      action: act.key,
+                      level:           classLabel,
+                      subject:         subjectLabel,
+                      strand:          strand.title,
+                      subStrand:       subStrand.title,
+                      standardCode:    standard.code,
+                      standardDesc:    standard.description,
+                      indicatorId:     ind.id,
+                      indicatorCode:   ind.code,
+                      indicatorDesc:   ind.description,
+                    })}
+                    className="px-2.5 py-1 rounded-lg bg-paper border border-line text-xs text-ink-soft hover:text-accent hover:border-accent hover:bg-accent/5 transition-colors"
+                  >
+                    {act.label}
+                  </button>
+                ))}
+              </div>
             </li>
           ))}
         </ul>
@@ -41,16 +294,24 @@ function StandardCard({ standard }) {
   );
 }
 
-export default function Curriculum() {
-  const [activeSubjectId, setActiveSubjectId] = useState('mathematics');
-  const [activeClassId, setActiveClassId] = useState('B7');
-  const [activeStrandId, setActiveStrandId] = useState(null);
+// ── Main Curriculum page ──────────────────────────────────────────────────────
 
-  // When subject changes, reset to first available class for that subject
+export default function Curriculum() {
+  const navigate = useNavigate();
+
+  const [activeSubjectId, setActiveSubjectId] = useState('mathematics');
+  const [activeClassId,   setActiveClassId]   = useState('B7');
+  const [activeStrandId,  setActiveStrandId]  = useState(null);
+
+  // AI drawer state
+  const [drawerOpen,    setDrawerOpen]    = useState(false);
+  const [drawerAction,  setDrawerAction]  = useState(null);
+  const [drawerContext, setDrawerContext] = useState(null);
+
   function handleSubjectChange(subjectId) {
     setActiveSubjectId(subjectId);
     const subjectData = curriculumMap[subjectId] || {};
-    const firstAvailableClass = classes.find(c => subjectData[c.id]);
+    const firstAvailableClass = classes.find(c => subjectData[c.id]?.length > 0);
     const newClassId = firstAvailableClass ? firstAvailableClass.id : 'B7';
     setActiveClassId(newClassId);
     setActiveStrandId(null);
@@ -61,36 +322,41 @@ export default function Curriculum() {
     setActiveStrandId(null);
   }
 
+  const handleAIAction = useCallback((ctx) => {
+    const { action, ...context } = ctx;
+    setDrawerAction(action);
+    setDrawerContext(context);
+    setDrawerOpen(true);
+  }, []);
+
   const strands = (curriculumMap[activeSubjectId] || {})[activeClassId] || [];
 
-  // Default to first strand when strands change
   const resolvedStrandId = activeStrandId && strands.find(s => s.id === activeStrandId)
     ? activeStrandId
     : (strands[0]?.id ?? null);
 
-  const activeStrand = strands.find(s => s.id === resolvedStrandId);
-
+  const activeStrand  = strands.find(s => s.id === resolvedStrandId);
   const activeSubject = subjects.find(s => s.id === activeSubjectId);
-  const activeClass = classes.find(c => c.id === activeClassId);
-  const subjectData = curriculumMap[activeSubjectId] || {};
+  const activeClass   = classes.find(c => c.id === activeClassId);
+  const subjectData   = curriculumMap[activeSubjectId] || {};
 
   return (
     <div className="pb-24">
-      {/* Header */}
+      {/* ── Header ───────────────────────────────────────────────────────── */}
       <div className="px-4 pt-6 pb-4">
         <div className="flex items-center gap-2 mb-1">
           <GraduationCap size={22} className="text-accent" />
           <h1 className="text-xl font-bold text-ink">Curriculum</h1>
         </div>
         <p className="text-sm text-ink-soft">
-          {activeClass?.label} {activeSubject?.label}
+          {activeClass?.label} · {activeSubject?.label}
         </p>
         <span className="mt-2 inline-block rounded-full bg-accent/10 text-accent text-xs px-3 py-1 font-medium">
           NaCCA Common Core Programme
         </span>
       </div>
 
-      {/* Subject pills */}
+      {/* ── Subject pills ─────────────────────────────────────────────────── */}
       <div className="flex gap-2 px-4 pb-3 overflow-x-auto scrollbar-none">
         {subjects.map(subject => (
           <button
@@ -107,11 +373,11 @@ export default function Curriculum() {
         ))}
       </div>
 
-      {/* Class pills */}
+      {/* ── Class pills ───────────────────────────────────────────────────── */}
       <div className="flex gap-2 px-4 pb-4 overflow-x-auto scrollbar-none">
         {classes.map(cls => {
-          const available = Boolean(subjectData[cls.id]);
-          const isActive = cls.id === activeClassId;
+          const available = (subjectData[cls.id]?.length ?? 0) > 0;
+          const isActive  = cls.id === activeClassId;
           return (
             <button
               key={cls.id}
@@ -137,7 +403,7 @@ export default function Curriculum() {
         </div>
       ) : (
         <>
-          {/* Strand tabs */}
+          {/* ── Strand tabs ─────────────────────────────────────────────── */}
           <div className="flex gap-2 px-4 pb-4 overflow-x-auto scrollbar-none">
             {strands.map(strand => (
               <button
@@ -154,7 +420,7 @@ export default function Curriculum() {
             ))}
           </div>
 
-          {/* Sub-strands and standards */}
+          {/* ── Sub-strands and standards ────────────────────────────────── */}
           {activeStrand && (
             <div className="px-4 space-y-6">
               {activeStrand.subStrands.map(ss => (
@@ -164,7 +430,15 @@ export default function Curriculum() {
                   </h2>
                   <div className="space-y-2">
                     {ss.contentStandards.map(std => (
-                      <StandardCard key={std.id} standard={std} />
+                      <StandardCard
+                        key={std.id}
+                        standard={std}
+                        strand={activeStrand}
+                        subStrand={ss}
+                        classLabel={activeClass?.label ?? activeClassId}
+                        subjectLabel={activeSubject?.label ?? activeSubjectId}
+                        onAIAction={handleAIAction}
+                      />
                     ))}
                   </div>
                 </section>
@@ -173,6 +447,30 @@ export default function Curriculum() {
           )}
         </>
       )}
+
+      {/* ── AI Drawer ─────────────────────────────────────────────────────── */}
+      <AIDrawer
+        open={drawerOpen}
+        onClose={() => setDrawerOpen(false)}
+        context={drawerContext}
+        action={drawerAction}
+        onPlanToPlanner={() => {
+          setDrawerOpen(false);
+          navigate('/planner');
+        }}
+      />
+
+      {/* ── AI Assistant entry point ───────────────────────────────────────── */}
+      <div className="fixed bottom-20 right-4 z-30 md:bottom-6">
+        <button
+          onClick={() => navigate('/ai-assistant')}
+          className="flex items-center gap-2 bg-accent text-white rounded-full px-4 py-2.5 shadow-lg text-sm font-medium hover:bg-accent/90 transition-all active:scale-95"
+          aria-label="Open AI Curriculum Assistant"
+        >
+          <span className="text-base leading-none">✨</span>
+          AI Assistant
+        </button>
+      </div>
     </div>
   );
 }

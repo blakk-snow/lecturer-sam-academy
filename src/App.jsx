@@ -14,6 +14,7 @@ import Planner from "./pages/Planner";
 import PlannerTerm from "./pages/PlannerTerm";
 import PlannerSubject from "./pages/PlannerSubject";
 import PlannerLesson from "./pages/PlannerLesson";
+import AIAssistant from "./pages/AIAssistant";
 
 export default function App() {
   return (
@@ -31,6 +32,7 @@ export default function App() {
         <Route path="/planner/:termId" element={<PlannerTerm />} />
         <Route path="/planner/:termId/:subjectId" element={<PlannerSubject />} />
         <Route path="/planner/:termId/:subjectId/:topicId" element={<PlannerLesson />} />
+        <Route path="/ai-assistant" element={<AIAssistant />} />
         <Route path="/quiz/:quizId" element={<Quiz />} />
         <Route path="/results/:resultId" element={<Results />} />
         <Route path="/profile" element={<Profile />} />

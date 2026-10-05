@@ -1,0 +1,7 @@
+{
+  "task_id": "task-curriculum-platform",
+  "task_description": "Add curriculum parser script, Node proxy server, AI service layer, AI-enhanced Curriculum browser, AI-enhanced PlannerLesson stepper, and AIAssistant chat page to Number Academy.",
+  "status": "pending",
+  "feature_order": ["FEAT-001", "FEAT-002", "FEAT-003", "FEAT-004", "FEAT-005"],
+  "blocked_reason": null
+}

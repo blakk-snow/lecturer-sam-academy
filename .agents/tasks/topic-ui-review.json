@@ -1,0 +1,8 @@
+{
+  "verdict": "APPROVED",
+  "findings": [
+    "One-shot state initialization in edit modal — AddTopicModal initializes state from initialData via useState(initialData?.x ?? ...). If React reuses the component instance across two consecutive edits (key prop is absent from the edit-mode AddTopicModal), the second topic opens pre-filled with the first topic's data. Fix: add key={editingTopic.id} to the edit-mode <AddTopicModal> in PlannerSubject.jsx.",
+    "selectSubStrand clears indicators when toggling same sub-strand closed — clicking an already-open sub-strand resets activeStandardId and selectedIndicatorIds to empty defaults, silently discarding pre-filled indicator selection in edit mode. Low impact (unusual gesture) but worth noting."
+  ],
+  "reviewDoc": "c:\\Users\\KING\\number-academy\\.agents\\tasks\\topic-ui-review.md"
+}

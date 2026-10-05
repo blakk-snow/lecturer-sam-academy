@@ -1,0 +1,39 @@
+{
+  "id": "FEAT-001",
+  "type": "feat",
+  "description": "Write scripts/parse-curriculum.mjs to parse all non-empty curriculum .md files and produce src/data/curriculumData.js with the full curriculumMap (mathematics B7 data merged/preserved from the existing file, all other subjects parsed from their .md files).",
+  "status": "pending",
+  "steps": [
+    "1. READ src/data/curriculumData.js in full to capture the existing mathematics B7 and science B7 data exactly as it is — this is the merge baseline.",
+    "2. CREATE c:\\Users\\KING\\number-academy\\scripts\\parse-curriculum.mjs as an ESM Node script using only built-in modules (fs, path, url). At the top of the file resolve __dirname via import.meta.url + fileURLToPath.",
+    "3. Define the FILE_MAP constant in the script:\n   science:          { B7:'CCP_SCIENCE_JHS_2023_Basic7_Full.md', B8:'CCP_SCIENCE_JHS_2023_Basic8_Full.md', B9:'CCP_SCIENCE_JHS_2023_Basic9_Full.md' }\n   english:          { B7:'ENGLISH_LANGUAGE_Basic7_Full.md', B8:'ENGLISH_LANGUAGE_Basic8_Full.md', B9:'ENGLISH_LANGUAGE_Basic9_Full.md' }\n   socialStudies:    { B7:'Social_Studies_Basic7_Full.md', B8:'Social_Studies_Basic8_Full.md', B9:'Social_Studies_Basic9_Full.md' }\n   computing:        { B7:'COMPUTING_Basic7_Full.md', B8:'COMPUTING_Basic8_Full.md', B9:'COMPUTING_Basic9_Full.md' }\n   rme:              { B7:'Religious_and_Moral_Education_Basic7_Full.md', B8:'Religious_and_Moral_Education_Basic8_Full.md', B9:'Religious_and_Moral_Education_Basic9_Full.md' }\n   careerTech:       { B7:'Career_Technology_k_9_3rd_Aug_08_2021_Basic7_Full.md', B8:'Career_Technology_k_9_3rd_Aug_08_2021_Basic8_Full.md', B9:'Career_Technology_k_9_3rd_Aug_08_2021_Basic9_Full.md' }\n   creativeArts:     { B7:'CREATIVE_ARTS_AND_DESIGN_Basic7_Full.md', B8:'CREATIVE_ARTS_AND_DESIGN_Basic8_Full.md', B9:'CREATIVE_ARTS_AND_DESIGN_Basic9_Full.md' }\n   french:           { B7:'FRENCH_LANGUAGE_Basic7_Full.md', B8:'FRENCH_LANGUAGE_Basic8_Full.md', B9:'FRENCH_LANGUAGE_Basic9_Full.md' }\n   ghanaianLanguage: { B7:'GHANAIAN_LANGUAGE_Basic7_Full.md', B8:'GHANAIAN_LANGUAGE_Basic8_Full.md', B9:'GHANAIAN_LANGUAGE_Basic9_Full.md' }\n   NOTE: mathematics is NOT in FILE_MAP — it is injected from HARDCODED_MATH below.",
+    "4. Implement the parseFile(filePath) function with this line-by-line state machine:\n   - Variables: currentStrand=null, currentSubStrand=null, currentCS=null, currentIndicator=null, strands=[]\n   - Skip preamble lines before the first '# STRAND' heading (the header table, NOTES section, CONTENTS table).\n   - '# STRAND ...' line (starts with '# ' and contains 'STRAND'): extract strand number and title after the colon. Push a new strand object { id:'strand-N', code:'N', title:'TITLE', subStrands:[] }. Reset currentSubStrand, currentCS, currentIndicator to null.\n   - '## SUB-STRAND ...' line (starts with '## '): extract sub-strand number+title after colon. The number may be fractional (e.g. 'B7.1'). Use a sequential counter ss_n within the strand. Push { id:'ss-strandCode-N', code:'strandCode.N', title:'TITLE', contentStandards:[] }.\n   - '### Content Standard CODE' or '### Content Standard ...' (starts with '### '): extract the CODE (the first token after '### Content Standard ' — or if '### Content Standard' is absent, use the whole heading text as code). Store as currentCS = { id:CODE, code:CODE, description:'', indicators:[] }. Push onto currentSubStrand.contentStandards.\n   - '**...**' bold line immediately after a ### heading (and before the first #### heading): strip the '**' markers, trim. Append to currentCS.description. Multiple bold lines may appear — concatenate with ' '.\n   - '#### Indicator CODE' (starts with '#### '): extract CODE from the heading (stop at double-space or '*(printed' or end of meaningful text). Strip the '*(printed in the curriculum as...)*' parenthetical. Create currentIndicator = { id:CODE, code:CODE, description:'' } and push onto currentCS.indicators. Inline description text on the same line after the code (some files inline it) goes into description.\n   - Plain text paragraph line (no leading '#', not bold, not a list, not a table row): if currentIndicator exists and description not yet populated from a bold line, append to currentIndicator.description (trimmed). Stop appending at the next '**Exemplars**', '**Core competencies**', '- CC', '- CP', '- CI', '- DL', '- PL', '- CG' lines.\n   - '---' separator: do nothing (reset indicator capture state only).\n   - Return strands array (may be empty if the file was a stub).",
+    "5. Write the slugify helper: replace non-alphanumeric runs with '-', lowercase. Used only for strand/sub-strand IDs for non-code-based subjects.",
+    "6. Call parseFile for each entry in FILE_MAP and build parsedData[subjectId][classId] = strands[].",
+    "7. Define HARDCODED_MATH as the verbatim mathematics B7 object from the existing curriculumData.js (copy it directly as a JS value — do not re-parse). Set parsedData.mathematics = { B7: HARDCODED_MATH }.",
+    "8. Define the full subjects array (10 entries in this order): mathematics, science, english, socialStudies, computing, rme, careerTech, creativeArts, french, ghanaianLanguage — each with { id, label }. Labels: 'Mathematics','Science','English','Social Studies','Computing','RME','Career Technology','Creative Arts','French','Ghanaian Language'.",
+    "9. Define classes array: [{ id:'B7', label:'Basic 7' }, { id:'B8', label:'Basic 8' }, { id:'B9', label:'Basic 9' }].",
+    "10. Serialise to JS: write the output file as: `export const subjects = [...]; export const classes = [...]; export const curriculumMap = { ... };` using JSON.stringify for the map value embedded in a template literal. The output must be valid ES module syntax.",
+    "11. At the end of the script, print a summary: for each subject+class, log `subject classId: N strands` (even zeros for empty stubs).",
+    "12. Run the script: `node c:\\Users\\KING\\number-academy\\scripts\\parse-curriculum.mjs`",
+    "13. Verify the output: `node --check c:\\Users\\KING\\number-academy\\src\\data\\curriculumData.js`"
+  ],
+  "acceptance_criteria": [
+    "`node --check src/data/curriculumData.js` exits 0 with no syntax errors.",
+    "curriculumData.js exports subjects (10 entries), classes (3 entries), curriculumMap.",
+    "curriculumMap.mathematics.B7 is identical to the pre-existing data (same strand codes, indicator IDs, indicator descriptions).",
+    "curriculumMap.science.B7 has at least 5 strands with indicators (parsed from CCP_SCIENCE_JHS_2023_Basic7_Full.md).",
+    "curriculumMap.english.B7 has at least 5 strands.",
+    "curriculumMap.creativeArts.B7 equals [] (empty — stub file produces no strands).",
+    "curriculumMap.mathematics.B8 equals [] or is absent (CCP_MATHEMATICS stubs are empty).",
+    "French and Ghanaian Language have non-empty strand arrays for all three classes.",
+    "Running `npm run build` still succeeds after the file is updated."
+  ],
+  "verification": [
+    "node c:\\Users\\KING\\number-academy\\scripts\\parse-curriculum.mjs  (should print summary, exit 0)",
+    "node --check c:\\Users\\KING\\number-academy\\src\\data\\curriculumData.js  (must exit 0)",
+    "npm run build  (must complete without errors)"
+  ],
+  "blocked_reason": null,
+  "findings": ""
+}

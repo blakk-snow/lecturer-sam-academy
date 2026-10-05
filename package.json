@@ -9,6 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@openrouter/sdk": "^1.4.21",
     "dexie": "^4.2.0",
     "dexie-react-hooks": "^1.1.7",
     "lucide-react": "^0.544.0",
