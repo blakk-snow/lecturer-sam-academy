@@ -31,28 +31,38 @@ function PageLoader() {
   );
 }
 
+// ── Shell with Suspense boundary ───────────────────────────────────────────────
+// <Suspense> cannot be a direct child of <Routes> — it must live inside the
+// layout element so React Router only sees <Route> nodes as its children.
+
+function SuspenseShell() {
+  return (
+    <Suspense fallback={<PageLoader />}>
+      <AppShell />
+    </Suspense>
+  );
+}
+
 export default function App() {
   return (
     <Routes>
-      <Route element={<AppShell />}>
-        <Suspense fallback={<PageLoader />}>
-          <Route path="/"                                            element={<Home />} />
-          <Route path="/dashboard"                                   element={<Dashboard />} />
-          <Route path="/progress"                                    element={<Navigate to="/dashboard" replace />} />
-          <Route path="/course"                                      element={<Course />} />
-          <Route path="/course/:unitId"                              element={<Unit />} />
-          <Route path="/lesson/:lessonId"                            element={<Lesson />} />
-          <Route path="/practice"                                    element={<Practice />} />
-          <Route path="/curriculum"                                  element={<Curriculum />} />
-          <Route path="/planner"                                     element={<Planner />} />
-          <Route path="/planner/:termId"                             element={<PlannerTerm />} />
-          <Route path="/planner/:termId/:subjectId"                  element={<PlannerSubject />} />
-          <Route path="/planner/:termId/:subjectId/:topicId"         element={<PlannerLesson />} />
-          <Route path="/ai-assistant"                                element={<AIAssistant />} />
-          <Route path="/quiz/:quizId"                                element={<Quiz />} />
-          <Route path="/results/:resultId"                           element={<Results />} />
-          <Route path="/profile"                                     element={<Profile />} />
-        </Suspense>
+      <Route element={<SuspenseShell />}>
+        <Route path="/"                                        element={<Home />} />
+        <Route path="/dashboard"                               element={<Dashboard />} />
+        <Route path="/progress"                                element={<Navigate to="/dashboard" replace />} />
+        <Route path="/course"                                  element={<Course />} />
+        <Route path="/course/:unitId"                          element={<Unit />} />
+        <Route path="/lesson/:lessonId"                        element={<Lesson />} />
+        <Route path="/practice"                                element={<Practice />} />
+        <Route path="/curriculum"                              element={<Curriculum />} />
+        <Route path="/planner"                                 element={<Planner />} />
+        <Route path="/planner/:termId"                         element={<PlannerTerm />} />
+        <Route path="/planner/:termId/:subjectId"              element={<PlannerSubject />} />
+        <Route path="/planner/:termId/:subjectId/:topicId"     element={<PlannerLesson />} />
+        <Route path="/ai-assistant"                            element={<AIAssistant />} />
+        <Route path="/quiz/:quizId"                            element={<Quiz />} />
+        <Route path="/results/:resultId"                       element={<Results />} />
+        <Route path="/profile"                                 element={<Profile />} />
       </Route>
     </Routes>
   );
