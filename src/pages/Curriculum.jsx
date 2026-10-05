@@ -1,8 +1,10 @@
 import { useState, useCallback, useEffect, useRef } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { ChevronDown, ChevronUp, GraduationCap, X, Copy, Check, Loader2, ArrowRight } from 'lucide-react';
-import { curriculumMap, subjects, classes } from '../data/curriculumData';
 import { generateLessonPlan, generateActivities, generateAssessment, explainIndicator } from '../services/ai';
+
+// curriculumData is loaded lazily — it's ~600 KB and only needed on this page.
+const curriculumDataPromise = import('../data/curriculumData');
 
 // ── AI action definitions ─────────────────────────────────────────────────────
 
@@ -177,9 +179,11 @@ function AIDrawer({ open, onClose, context, action, onPlanToPlanner }) {
             <div className="rounded-xl bg-red-50 border border-red-200 px-4 py-3 text-sm text-red-700">
               <p className="font-semibold mb-1">Generation failed</p>
               <p>{error}</p>
-              <p className="mt-2 text-xs text-red-500">
-                Make sure the AI server is running: <code className="font-mono">node server.js</code>
-              </p>
+              {import.meta.env.DEV && (
+                <p className="mt-2 text-xs text-red-500">
+                  Make sure the AI proxy is running: <code className="font-mono">node server.js</code>
+                </p>
+              )}
             </div>
           )}
 
@@ -299,6 +303,16 @@ function StandardCard({ standard, strand, subStrand, classLabel, subjectLabel, o
 export default function Curriculum() {
   const navigate = useNavigate();
 
+  // ── Load curriculum data lazily ──────────────────────────────────────────
+  const [currData, setCurrData] = useState(null);
+  useEffect(() => {
+    curriculumDataPromise.then(mod => setCurrData(mod));
+  }, []);
+
+  const curriculumMap = currData?.curriculumMap ?? {};
+  const subjects      = currData?.subjects      ?? [];
+  const classes       = currData?.classes       ?? [];
+
   const [activeSubjectId, setActiveSubjectId] = useState('mathematics');
   const [activeClassId,   setActiveClassId]   = useState('B7');
   const [activeStrandId,  setActiveStrandId]  = useState(null);
@@ -339,6 +353,14 @@ export default function Curriculum() {
   const activeSubject = subjects.find(s => s.id === activeSubjectId);
   const activeClass   = classes.find(c => c.id === activeClassId);
   const subjectData   = curriculumMap[activeSubjectId] || {};
+
+  if (!currData) {
+    return (
+      <div className="flex items-center justify-center min-h-[60dvh]">
+        <div className="w-6 h-6 rounded-full border-2 border-accent border-t-transparent animate-spin" />
+      </div>
+    );
+  }
 
   return (
     <div className="pb-24">

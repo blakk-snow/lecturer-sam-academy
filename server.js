@@ -47,18 +47,29 @@ if (!OPENROUTER_API_KEY) {
 
 // ── CORS headers ──────────────────────────────────────────────────────────────
 
+const ALLOWED_ORIGIN = process.env.ALLOWED_ORIGIN || SITE_URL;
+
 function setCors(res) {
-  res.setHeader('Access-Control-Allow-Origin', '*');
+  res.setHeader('Access-Control-Allow-Origin', ALLOWED_ORIGIN);
   res.setHeader('Access-Control-Allow-Methods', 'POST, OPTIONS');
   res.setHeader('Access-Control-Allow-Headers', 'Content-Type');
+  res.setHeader('Vary', 'Origin');
 }
 
 // ── Body reader ───────────────────────────────────────────────────────────────
 
-function readBody(req) {
+function readBody(req, maxBytes = 64 * 1024) {
   return new Promise((resolve, reject) => {
     let data = '';
-    req.on('data', chunk => { data += chunk; });
+    let size = 0;
+    req.on('data', chunk => {
+      size += chunk.length;
+      if (size > maxBytes) {
+        req.destroy();
+        return reject(Object.assign(new Error('Request body too large'), { status: 413 }));
+      }
+      data += chunk;
+    });
     req.on('end', () => resolve(data));
     req.on('error', reject);
   });
@@ -149,6 +160,11 @@ const server = http.createServer(async (req, res) => {
       res.writeHead(status, { 'Content-Type': 'application/json' });
       res.end(body);
     } catch (err) {
+      if (err.status === 413) {
+        res.writeHead(413, { 'Content-Type': 'application/json' });
+        res.end(JSON.stringify({ error: 'Request body too large' }));
+        return;
+      }
       console.error('[server] Error:', err.message);
       res.writeHead(500, { 'Content-Type': 'application/json' });
       res.end(JSON.stringify({ error: 'Internal server error', detail: err.message }));

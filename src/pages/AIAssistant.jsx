@@ -240,9 +240,11 @@ export default function AIAssistant() {
           <div className="rounded-xl bg-red-50 border border-red-200 px-4 py-3 text-sm text-red-700">
             <p className="font-semibold mb-0.5">Request failed</p>
             <p>{error}</p>
-            <p className="mt-1.5 text-xs text-red-500">
-              Make sure the AI server is running: <code className="font-mono">node server.js</code>
-            </p>
+            {import.meta.env.DEV && (
+              <p className="mt-1.5 text-xs text-red-500">
+                Make sure the AI proxy is running: <code className="font-mono">node server.js</code>
+              </p>
+            )}
           </div>
         )}
 

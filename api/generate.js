@@ -13,9 +13,11 @@ export const config = { runtime: 'nodejs' };
 
 export default async function handler(req, res) {
   // CORS preflight
-  res.setHeader('Access-Control-Allow-Origin', '*');
+  const allowedOrigin = process.env.ALLOWED_ORIGIN || process.env.SITE_URL || 'https://lecturer-sam-academy.vercel.app';
+  res.setHeader('Access-Control-Allow-Origin', allowedOrigin);
   res.setHeader('Access-Control-Allow-Methods', 'POST, OPTIONS');
   res.setHeader('Access-Control-Allow-Headers', 'Content-Type');
+  res.setHeader('Vary', 'Origin');
 
   if (req.method === 'OPTIONS') {
     res.status(204).end();

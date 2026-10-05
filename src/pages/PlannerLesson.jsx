@@ -1,11 +1,13 @@
-import { useState, useEffect, useRef, useCallback } from 'react';
+import { useState, useEffect, useRef, useCallback, useMemo } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import { useLiveQuery } from 'dexie-react-hooks';
 import { ArrowLeft, ChevronLeft, ChevronRight, Sparkles, Loader2 } from 'lucide-react';
 import { db } from '../db/database';
 import { upsertLessonNote } from '../db/planner';
-import { curriculumMap } from '../data/curriculumData';
 import { generateLessonPlan, generateAssessment } from '../services/ai';
+
+// curriculumData is loaded lazily — it's ~600 KB and only needed on this page.
+const curriculumDataPromise = import('../data/curriculumData');
 
 // ── Constants ──────────────────────────────────────────────────────────────────
 
@@ -101,6 +103,12 @@ export default function PlannerLesson() {
     () => db.lessonNotes.where('topicId').equals(numericTopicId).first(),
     [numericTopicId]
   );
+
+  // ── Lazy curriculum data ─────────────────────────────────────────────────────
+  const [curriculumMap, setCurriculumMap] = useState(null);
+  useEffect(() => {
+    curriculumDataPromise.then(mod => setCurriculumMap(mod.curriculumMap));
+  }, []);
 
   // ── Stepper state ───────────────────────────────────────────────────────────
   const [step, setStep] = useState(0);
@@ -201,7 +209,6 @@ export default function PlannerLesson() {
         ? currDetails.resolvedIndicators.map(i => `${i.code} — ${i.description}`).join('; ')
         : currDetails.contentStandard.description,
     };
-  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [currDetails, classGroup?.classLevel, subject?.name]);
 
   /**
@@ -246,9 +253,8 @@ export default function PlannerLesson() {
       }
       setAiLoading(stepKey, false);
     } catch (err) {
-      setAiError(stepKey, err.message || 'AI generation failed. Make sure the server is running.');
+      setAiError(stepKey, err.message || 'AI generation failed. Please try again.');
     }
-  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [buildAiParams, save]);
 
   // Save when leaving a step
@@ -259,8 +265,8 @@ export default function PlannerLesson() {
   }, [save]);
 
   // ── Curriculum lookup ───────────────────────────────────────────────────────
-  const currDetails = (() => {
-    if (!topic?.contentStandardId || !subject) return null;
+  const currDetails = useMemo(() => {
+    if (!curriculumMap || !topic?.contentStandardId || !subject) return null;
     let indicatorIds;
     try {
       indicatorIds = typeof topic.indicatorIds === 'string'
@@ -278,7 +284,7 @@ export default function PlannerLesson() {
       }
     }
     return null;
-  })();
+  }, [curriculumMap, topic, subject]);
 
   // ── Guards ──────────────────────────────────────────────────────────────────
   if ([topic, weekPlan, subject, classGroup, term].some(v => v === undefined)) {
