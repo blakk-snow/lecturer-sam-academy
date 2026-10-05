@@ -1,32 +1,33 @@
 import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { useLiveQuery } from 'dexie-react-hooks';
-import { CalendarDays, ChevronRight, Pencil, Trash2 } from 'lucide-react';
-import { db } from '../db/database';
-import { createTerm, updateTerm, deleteTerm } from '../db/planner';
+import { CalendarDays, ChevronRight, Pencil, Trash2, LogIn } from 'lucide-react';
 import { TermForm } from '../components/planner/TermForm';
 import { Button } from '../components/ui/Button';
+import { useTerms, usePlannerActions } from '../hooks/usePlanner';
+import { useAuth } from '../context/AuthContext';
 
 export default function Planner() {
   const navigate = useNavigate();
-  const terms = useLiveQuery(() => db.terms.orderBy('createdAt').reverse().toArray(), []);
+  const { user, signInWithGoogle } = useAuth();
+  const terms   = useTerms();
+  const actions = usePlannerActions();
 
   const [showCreate, setShowCreate] = useState(false);
   const [editingTerm, setEditingTerm] = useState(null);
 
   async function handleCreate(formData) {
-    await createTerm(formData);
+    await actions.createTerm(formData);
     setShowCreate(false);
   }
 
   async function handleEdit(formData) {
-    await updateTerm(editingTerm.id, formData);
+    await actions.updateTerm(editingTerm.id, formData);
     setEditingTerm(null);
   }
 
   async function handleDelete(term) {
     if (window.confirm(`Delete "${term.name}"? This will also remove all classes, subjects and week plans inside it.`)) {
-      await deleteTerm(term.id);
+      await actions.deleteTerm(term.id);
     }
   }
 
@@ -51,6 +52,22 @@ export default function Planner() {
         </div>
         <p className="text-sm text-ink-soft mt-1">Plan your teaching terms, classes and weekly topics.</p>
       </div>
+
+      {/* Sign-in nudge for unauthenticated users */}
+      {!user && (
+        <div className="mx-4 mb-4 rounded-xl border border-accent/30 bg-accent/5 px-4 py-3 flex items-center justify-between gap-3">
+          <p className="text-sm text-ink-soft">
+            <span className="font-medium text-ink">Sign in</span> to sync your plans across devices.
+          </p>
+          <button
+            onClick={signInWithGoogle}
+            className="shrink-0 flex items-center gap-1.5 px-3 py-1.5 rounded-xl bg-accent text-white text-sm font-medium hover:bg-accent/90 transition"
+          >
+            <LogIn size={14} />
+            Sign in
+          </button>
+        </div>
+      )}
 
       {/* Terms list */}
       <div className="px-4">
