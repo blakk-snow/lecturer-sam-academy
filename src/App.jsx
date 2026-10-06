@@ -9,6 +9,8 @@ import { ChatProvider } from "./context/ChatContext";
 const Home           = lazy(() => import("./pages/Home"));
 const Dashboard      = lazy(() => import("./pages/Dashboard"));
 const Course         = lazy(() => import("./pages/Course"));
+const LegacyCourse   = lazy(() => import("./pages/LegacyCourse"));
+const LibraryIndicator = lazy(() => import("./pages/LibraryIndicator"));
 const Unit           = lazy(() => import("./pages/Unit"));
 const Lesson         = lazy(() => import("./pages/Lesson"));
 const Practice       = lazy(() => import("./pages/Practice"));
@@ -56,7 +58,9 @@ export default function App() {
         <Route path="/dashboard"                               element={<Dashboard />} />
         <Route path="/progress"                                element={<Navigate to="/dashboard" replace />} />
         <Route path="/course"                                  element={<Course />} />
+        <Route path="/course/legacy"                           element={<LegacyCourse />} />
         <Route path="/course/:unitId"                          element={<Unit />} />
+        <Route path="/library/:subjectId/:classId/:indicatorCode" element={<LibraryIndicator />} />
         <Route path="/lesson/:lessonId"                        element={<Lesson />} />
         <Route path="/practice"                                element={<Practice />} />
         <Route path="/curriculum"                              element={<Curriculum />} />

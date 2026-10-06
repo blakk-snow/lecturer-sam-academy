@@ -55,7 +55,10 @@ export async function sectionMastery(sectionId, studentId = LOCAL_STUDENT_ID) {
 
 export async function courseCompletion(studentId = LOCAL_STUDENT_ID) {
   const rows = await getStudentProgress(studentId);
-  const completed = rows.filter((row) => row.status === "completed").length;
+  // Only legacy course lessons count toward the course percent — library
+  // (lib-*) progress rows are tracked separately.
+  const legacyIds = new Set(lessons.map((lesson) => lesson.id));
+  const completed = rows.filter((row) => legacyIds.has(row.lessonId) && row.status === "completed").length;
   const total = Math.max(lessons.length, 1);
   return clampPercentage((completed / total) * 100);
 }

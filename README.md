@@ -4,94 +4,101 @@ An installable, offline-capable learning and teaching app for Ghanaian JHS teach
 
 ## Features
 
-- **Student learning:** A course → unit → lesson flow with worked examples and interactive activities, plus practice, quizzes, results, and locally saved progress. The original Number & Algebra course remains available alongside the newer course-upload index.
-- **NaCCA curriculum browser:** Browse strands, sub-strands, content standards, and indicators for the curriculum subjects and classes embedded in the app.
-- **Scheme of Learning browser:** Browse the 2026/2027 Mathematics and Science scheme for Basic 7 and Basic 8 across all three terms, including weekly indicators, resources, expanded curriculum wording, examples, and competencies. It is bundled for offline use; source errata are shown in the app.
-- **Teacher lesson planner:** Build terms, class groups, subjects, weekly plans, and curriculum-linked topics. Generate and save lesson notes with AI assistance.
-- **Offline-first planner storage and account sync:** Planner records use Dexie/IndexedDB when signed out and Firebase Firestore when signed in. Google Sign-In enables per-user cloud sync; local planner data is migrated to a new account when appropriate. Lesson-note, week-plan, and topic edits use revision checks to detect concurrent changes rather than silently overwriting newer work.
-- **Teacher/student AI modes:** The assistant supports practical NaCCA-focused teacher guidance and a scaffolded, age-appropriate student tutor mode with Basic 7–9 context. Teacher mode can answer “What am I teaching tomorrow?” from the current sample timetable and schedule data. The full 2026/2027 Mathematics and Science scheme is separately browsable from the Scheme page; the source document does not provide a daily timetable or school-specific term dates.
-- **Teacher schedule persistence:** When a teacher signs in, the sample timetable and scheme-of-learning are initialized once in the private Firestore path `/users/{uid}/teacher_schedules/sample`. The assistant reads the signed-in teacher’s schedule, keeps a local IndexedDB cache for offline access, and falls back to the bundled sample while the cloud copy is unavailable. The current sample is copied per account; schedule editing/import is not implemented yet.
-- **Markdown course uploads:** Markdown materials under `src/data/courses-data/` are indexed into a generated metadata module. The Course page summarizes the indexed packs, class levels, subjects, and curriculum-code coverage.
-- **Installable PWA:** The app shell and bundled resources are available offline after the first visit.
+- **Course Library:** A curriculum-driven browser — subject → class → strand → content standard → indicator — where each indicator with uploaded content opens lesson notes, practice questions, and a generated quiz. The original interactive "Number & Algebra" course (worked examples, classify activities, mastery quizzes) remains available from the library.
+- **NaCCA curriculum browser:** Strands, sub-strands, content standards, and indicators for all 10 subjects across Basic 7–9, including Mathematics B8/B9.
+- **BECE question bank:** All 66 bundled BECE-style science mock papers (~2,600 multiple-choice questions with answer keys) parsed into a structured bank with an interactive practice runner on the Practice page.
+- **Sample lesson plans:** Bundled Week-5 lesson notes (Maths and Science, Basic 7 and 8) that can be loaded into a planner lesson note in one tap.
+- **AI assistant:** A floating chat panel on every page (and a full-page view) with a greeting and action chips — create a timetable, create a lesson plan (guided flow that builds real planner rows), browse sample lesson plans, or research a topic online. Research mode searches the web (OpenRouter web plugin with educational-domain filters) and cites sources. Teacher and student personas; answers are grounded in the embedded curriculum.
+- **Teacher timetable:** A weekly grid editor per class (`/timetable`). The assistant can generate the initial timetable and save it; edits sync to Firestore when signed in and to the device always.
+- **Teacher lesson planner:** Terms, class groups, subjects, weekly plans, and curriculum-linked topics, with AI-assisted lesson notes and auto-save.
+- **Scheme of Learning browser:** The 2026/2027 Mathematics and Science scheme for Basic 7 and 8 across all three terms, with weekly indicators, resources, and source errata.
+- **Offline-first storage and account sync:** Dexie/IndexedDB when signed out, Firebase Firestore when signed in (Google Sign-In). Local planner data migrates to a new account when appropriate; lesson-note, week-plan, and topic edits use revision checks to detect concurrent changes.
+- **Installable PWA:** The app shell and bundled resources work offline after the first visit.
 
 ## Course content uploads
 
-Place Markdown lesson or assessment files under `src/data/courses-data/`. The parser scans nested folders, excluding `README.md` and the `curriculum/` source-material folder. Files without frontmatter are indexed using their filename and content.
+Uploaded markdown is compiled by `scripts/parse-course-content.mjs` into the Course Library. Two file kinds are supported:
 
-For new materials, frontmatter is recommended:
+**Lesson notes** — `src/data/courses-data/<subject>/<class>/notes/<indicator-code>.md`. The filename is the NaCCA indicator code; `## Objectives`, `## Explanation`, `## Worked Example`, and `## Practice` sections become the note.
 
 ```md
 ---
-title: Agricultural Tools
-class: Basic 7
-subject: Integrated Science
-indicators: B7.1.2.2.1
+title: Add and subtract up to four-digit numbers
 ---
 
-# Agricultural Tools
+# Add and subtract up to four-digit numbers
 
 ## Objectives
-- Identify common farm tools
+- Add numbers up to four digits
+- Subtract numbers up to four digits
 
 ## Explanation
-...
+Free markdown prose…
+
+## Worked Example
+Step-by-step example…
 
 ## Practice
-1. Which tool is used to clear weeds?
+Optional practice pointers.
 ```
 
-Refresh the generated `src/data/courseUploads.js` index after adding or editing content:
+**Practice questions** — `src/data/courses-data/<subject>/<class>/questions/<indicator-code>.md`, with `### Q1` blocks (`type: mcq | trueFalse | fillBlank`, `question:`, `- [x]` marks the correct option, `explanation:`, `difficulty:`). See `src/data/courses-data/README.md` for the full convention.
+
+Any other `.md` file (for example the BECE mock packs) is indexed as metadata only.
 
 ```bash
-npm run parse:course-data
+npm run parse:course-data     # refresh courseUploads.js and the courseLibrary modules
+npm run check:course-data     # validate against the embedded curriculum (also writes)
 ```
 
-Validate class metadata, headings, duplicate IDs, and explicitly declared curriculum codes against the embedded NaCCA curriculum:
+Validation covers: filename/frontmatter class agreement, duplicate ids, indicator codes that must exist in the embedded curriculum, and malformed question blocks (reported with file and question number).
 
-```bash
-npm run check:course-data
-```
+## AI assistant
 
-Legacy files may produce warnings when curriculum codes found in their content do not match the embedded curriculum. Explicitly declared frontmatter codes that do not match are errors. The current index is metadata only: the uploaded Markdown is not yet rendered as interactive lessons or imported into the quiz/practice flows.
-
-## AI assistant behavior
-
-AI calls go through the server-side `/api/generate` proxy; the OpenRouter key is not exposed to the browser. Teacher mode uses a Ghanaian JHS curriculum-specialist prompt and has a local schedule response for tomorrow questions. That response currently uses sample Basic 7/8 timetable and Week 5 scheme data in `src/data/ai/teacherSchedule.js`; it is a prototype, not a personalized school timetable. Student mode asks the assistant to explain in smaller steps and adapt to the selected class level.
+AI calls go through the server-side `/api/generate` proxy; the OpenRouter key is never exposed to the browser. The proxy forwards all client parameters and streams responses (SSE). Research mode adds OpenRouter's web plugin with an educational-domain allowlist; answers come back with source citations.
 
 ## Architecture
 
 ```
 src/
-├── pages/                 # Route-level views: student learning, curriculum,
-│                          # planner, AI assistant, results, and profile
-├── components/            # Shared layout, course, planner, quiz, and UI pieces
-├── context/               # Student profile/settings and Firebase auth contexts
-├── db/                    # Dexie and Firestore planner data layers + migration
-├── hooks/                 # Course/progress and auth-aware planner hooks
-├── services/ai.js         # Client AI service and teacher schedule response
+├── pages/                 # Route views: library, learning, planner, timetable,
+│                          # curriculum, scheme, AI assistant, results, profile
+├── components/
+│   ├── chat/              # ChatPanel, launcher, guided flows, Markdown renderer
+│   ├── course|lesson|quiz # Legacy interactive course + question bank runner
+│   ├── planner|progress|layout|ui
+├── context/               # Auth, Student, and shared Chat contexts
+├── db/                    # Dexie tables + Firestore layers + migration
+├── hooks/                 # useCourse, usePlanner, useTeacherSchedule, …
+├── services/              # ai.js (chat/research/generators), curriculumSearch.js
 └── data/
-    ├── curriculum/        # NaCCA source markdown
-    ├── curriculumData.js  # Generated curriculum structure
-    ├── schemeOfLearning.json # Imported Mathematics/Science scheme and source errata
-    ├── courses-data/      # Markdown course/assessment uploads
+    ├── curriculum/        # NaCCA source markdown + maths B8/B9 JSON
+    ├── curriculumData.js  # Generated curriculum structure (10 subjects × B7–9)
+    ├── courses-data/      # Landing zone: <subject>/<class>/{notes,questions}/
+    ├── courseLibrary/     # Generated per-class content modules + manifest
+    ├── questionBank/      # Generated BECE question-bank modules + manifest
+    ├── sampleLessonPlans.js # Generated bundled lesson notes
+    ├── schemeOfLearning.json # Imported Maths/Science scheme + source errata
     └── courseUploads.js   # Generated upload metadata index
 
 scripts/
-├── parse-curriculum.mjs      # Builds curriculumData.js
-└── parse-course-content.mjs  # Builds/validates courseUploads.js
+├── parse-curriculum.mjs         # Builds curriculumData.js (incl. maths B8/B9)
+├── parse-course-content.mjs     # Builds courseUploads.js + courseLibrary/
+├── parse-question-bank.mjs      # Builds questionBank/ from the BECE papers
+├── parse-sample-lesson-plans.mjs# Builds sampleLessonPlans.js
+└── seed-course-notes.mjs        # One-time converter for the enriched notes
 
-server.js                 # Dependency-free local AI proxy
-api/generate.js           # Serverless AI proxy for deployment
+server.js                 # Dependency-free local AI proxy (streaming pass-through)
+api/generate.js           # Serverless AI proxy for deployment (Vercel)
 firestore.rules           # Per-user Firestore isolation
 ```
 
 ### Storage and sync
 
-- Student profile, progress, attempts, quiz results, and signed-out planner work are stored locally in IndexedDB through Dexie.
-- Signed-in planner data is stored under `/users/{uid}/...` in Firestore; the security rules restrict access to the authenticated owner.
-- On sign-in, local planner data is copied to Firestore only when the account has no planner terms yet. This avoids overwriting an existing cloud planner with local data.
-- The sample teacher schedule is created transactionally only when that teacher’s `teacher_schedules/sample` document does not exist. It is owner-private under the existing `/users/{uid}/...` Firestore rules and is cached locally after a successful Firestore snapshot.
-- Planner hooks select the storage path based on authentication state. Lesson-note, week-plan, and topic writes carry revisions to detect stale edits; lesson notes provide actions to load the latest version or explicitly overwrite it.
+- Student profile, progress, attempts, quiz results, chat threads, timetable cache, and signed-out planner work live in IndexedDB through Dexie.
+- Signed-in planner data and teacher schedules live under `/users/{uid}/...` in Firestore; the security rules restrict access to the authenticated owner.
+- On sign-in, local planner data is copied to Firestore only when the account has no planner terms yet, and the sample teacher schedule is created only if absent.
+- Planner hooks select the storage path based on authentication state; lesson-note, week-plan, and topic writes carry revisions to detect stale edits.
 
 ## Getting started
 
@@ -114,7 +121,7 @@ cp .env.example .env
 # Set OPENROUTER_API_KEY and the Firebase variables used by src/firebase.js.
 ```
 
-The Firebase web-app configuration is read by the app from the `VITE_FIREBASE_*` environment variables. Google Sign-In also requires the deployed/local domain to be authorized in Firebase Authentication. Without Firebase configuration, use the app's local-first features and keep planner data on the device.
+Google Sign-In requires the deployed/local domain to be authorized in Firebase Authentication. Without Firebase configuration, the app's local-first features work and planner data stays on the device.
 
 ### Run locally
 
@@ -128,7 +135,7 @@ node server.js
 npm run dev
 ```
 
-The app is served at `http://localhost:5173`; Vite proxies AI requests to the local server on port 3001.
+The app is served at `http://localhost:5173` (or the next free port); Vite proxies AI requests to the local server on port 3001.
 
 ### Build and preview
 
@@ -154,8 +161,6 @@ The production output is written to `dist/`.
 | `VITE_FIREBASE_MESSAGING_SENDER_ID` | As configured | — | Firebase messaging sender ID |
 | `VITE_FIREBASE_APP_ID` | For Firebase | — | Firebase web app ID |
 
-Check `.env.example` and `src/firebase.js` for the exact Firebase configuration fields used by this checkout.
-
 ## Tech stack
 
 | Area | Technology |
@@ -163,8 +168,9 @@ Check `.env.example` and `src/firebase.js` for the exact Firebase configuration 
 | UI | React 19, Vite 7, React Router v7 |
 | Styling | Tailwind CSS v4 |
 | Icons | Lucide React |
+| Markdown / math | react-markdown, remark-gfm, remark-math, KaTeX |
 | Local database | Dexie / IndexedDB |
 | Cloud auth and planner sync | Firebase Authentication and Cloud Firestore |
-| AI | OpenRouter via server proxy |
+| AI | OpenRouter (chat, structured generation, web search) via server proxy |
 | PWA | `vite-plugin-pwa` |
 | Local AI proxy | Node.js built-ins |

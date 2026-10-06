@@ -11,7 +11,8 @@
     "check:course-data": "node scripts/parse-course-content.mjs --check",
     "parse:question-bank": "node scripts/parse-question-bank.mjs",
     "check:question-bank": "node scripts/parse-question-bank.mjs --check",
-    "parse:sample-plans": "node scripts/parse-sample-lesson-plans.mjs"
+    "parse:sample-plans": "node scripts/parse-sample-lesson-plans.mjs",
+    "seed:course-notes": "node scripts/seed-course-notes.mjs"
   },
   "dependencies": {
     "dexie": "^4.2.0",
