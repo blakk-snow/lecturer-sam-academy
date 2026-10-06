@@ -89,18 +89,13 @@ function SignInButton({ onSignIn, loading }) {
 // ── AppShell ──────────────────────────────────────────────────────────────────
 
 export function AppShell() {
-  const { user, loading, signInWithGoogle, signOut } = useAuth();
+  const { user, loading, signInWithGoogle, signOut, authError, clearAuthError } = useAuth();
   const [signingIn, setSigningIn] = useState(false);
-  const [authError, setAuthError] = useState('');
 
   async function handleSignIn() {
     setSigningIn(true);
-    setAuthError('');
     try {
       await signInWithGoogle();
-    } catch (err) {
-      const message = err?.message || 'Unable to sign in right now. Please try again.';
-      setAuthError(message);
     } finally {
       setSigningIn(false);
     }
@@ -141,9 +136,16 @@ export function AppShell() {
         </div>
       </header>
       {authError && (
-        <div className="mx-auto max-w-5xl px-4 pt-3 md:px-6">
-          <div className="rounded-xl border border-red-200 bg-red-50 px-3 py-2 text-sm text-red-700">
-            {authError}
+        <div className="mx-auto max-w-5xl px-4 pt-3 md:px-6" role="alert">
+          <div className="flex items-start gap-2 rounded-xl border border-red-200 bg-red-50 px-3 py-2 text-sm text-red-700">
+            <span className="flex-1">{authError}</span>
+            <button
+              onClick={clearAuthError}
+              className="shrink-0 text-red-400 hover:text-red-600"
+              aria-label="Dismiss sign-in error"
+            >
+              ✕
+            </button>
           </div>
         </div>
       )}
