@@ -6,6 +6,8 @@
  * the browser.
  */
 
+import { getTomorrowSchedule } from '../data/ai/teacherSchedule';
+
 const MODEL = 'openai/gpt-4o-mini';
 
 // ── Low-level fetch helper ────────────────────────────────────────────────────
@@ -168,6 +170,33 @@ Provide:
 }
 
 /**
+ * Resolve a teacher's "what am I teaching tomorrow?" question using the scheme
+ * and a lightweight in-app timetable template. This follows the planning rule in
+ * src/data/ai/README.txt while keeping the app usable without a real timetable file.
+ */
+function resolveTomorrowTeachingQuestion(text) {
+  const normalized = (text ?? '').toLowerCase();
+  const mentionsTomorrow = /(what am i teaching tomorrow|teaching tomorrow|tomorrow.*teach|what.*tomorrow)/i.test(normalized);
+  if (!mentionsTomorrow) return null;
+
+  const classMatch = /(basic\s*[78]|b[78])/.exec(text || '');
+  const classLevel = classMatch ? `Basic ${classMatch[0].match(/[78]/)?.[0] ?? '7'}` : 'Basic 7';
+  const schedule = getTomorrowSchedule(classLevel, new Date());
+
+  if (!schedule.lessons.length) {
+    return `Tomorrow (${schedule.date.toLocaleDateString('en-GB', { weekday: 'long', day: 'numeric', month: 'long', year: 'numeric' })}) is ${schedule.dayName}, but there is no timetable entry for ${classLevel} yet. I can still use the scheme-of-learning context for Week ${schedule.week} (Term ${schedule.term}).`;
+  }
+
+  const lessonNames = schedule.lessons.map(item => `${item.subject} (Period ${item.period})`).join('; ');
+  const schemeInfo = schedule.scheme?.lessons ? Object.entries(schedule.scheme.lessons)
+    .filter(([subject]) => schedule.lessons.some(item => item.subject === subject))
+    .map(([subject, detail]) => `${subject}: ${detail.strand} → ${detail.subStrand} (${detail.indicators.join(', ')})`)
+    .join('; ') : 'No scheme information loaded.';
+
+  return `Tomorrow is ${schedule.date.toLocaleDateString('en-GB', { weekday: 'long', day: 'numeric', month: 'long', year: 'numeric' })}. For ${classLevel}, you are scheduled to teach: ${lessonNames}.\n\nUsing the scheme-of-learning for Week ${schedule.week}, Term ${schedule.term}, the relevant topics are: ${schemeInfo}.`;
+}
+
+/**
  * General-purpose curriculum assistant chat.
  * Maintains conversation history.
  *
@@ -175,6 +204,12 @@ Provide:
  * @returns {Promise<string>}
  */
 export async function curriculumChat(history) {
+  const latestUserText = [...(history ?? [])].reverse().find(msg => msg.role === 'user')?.content ?? '';
+  const tomorrowAnswer = resolveTomorrowTeachingQuestion(latestUserText);
+  if (tomorrowAnswer) {
+    return tomorrowAnswer;
+  }
+
   return chat([
     {
       role: 'system',
@@ -182,7 +217,8 @@ export async function curriculumChat(history) {
 Help teachers understand curriculum requirements, plan lessons, generate activities, explain concepts, 
 and create assessments. Keep responses practical and relevant to Ghanaian classroom contexts.
 When discussing specific curriculum codes (like B7.1.1.1.1), explain what they mean in full.
-Format your responses clearly with headings where appropriate.`,
+Format your responses clearly with headings where appropriate.
+If asked about tomorrow's teaching, check the timetable and the scheme of learning, then answer using the date, class, and week context.`,
     },
     ...history,
   ]);

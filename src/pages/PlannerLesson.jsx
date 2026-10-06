@@ -1,9 +1,10 @@
 import { useState, useEffect, useRef, useCallback, useMemo } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
-import { useLiveQuery } from 'dexie-react-hooks';
 import { ArrowLeft, ChevronLeft, ChevronRight, Sparkles, Loader2 } from 'lucide-react';
-import { db } from '../db/database';
-import { upsertLessonNote } from '../db/planner';
+import {
+  useSubject, useWeekPlans, useWeekTopicsForSubject, useLessonNote,
+  useTerm, useClassGroups, usePlannerActions,
+} from '../hooks/usePlanner';
 import { generateLessonPlan, generateAssessment } from '../services/ai';
 
 // curriculumData is loaded lazily — it's ~600 KB and only needed on this page.
@@ -79,30 +80,29 @@ function AIError({ message, onDismiss }) {
 export default function PlannerLesson() {
   const { termId, subjectId, topicId } = useParams();
   const navigate = useNavigate();
-  const numericTopicId = Number(topicId);
 
-  // ── Data loading ────────────────────────────────────────────────────────────
-  const topic = useLiveQuery(() => db.weekTopics.get(numericTopicId), [numericTopicId]);
-  const weekPlan = useLiveQuery(
-    () => topic?.weekPlanId != null ? db.weekPlans.get(topic.weekPlanId) : undefined,
-    [topic?.weekPlanId]
-  );
-  const subject = useLiveQuery(
-    () => weekPlan?.subjectId != null ? db.subjects.get(weekPlan.subjectId) : undefined,
-    [weekPlan?.subjectId]
-  );
-  const classGroup = useLiveQuery(
-    () => subject?.classGroupId != null ? db.classGroups.get(subject.classGroupId) : undefined,
-    [subject?.classGroupId]
-  );
-  const term = useLiveQuery(
-    () => classGroup?.termId != null ? db.terms.get(classGroup.termId) : undefined,
-    [classGroup?.termId]
-  );
-  const lessonNote = useLiveQuery(
-    () => db.lessonNotes.where('topicId').equals(numericTopicId).first(),
-    [numericTopicId]
-  );
+  // ── Data loading (auth-aware: Firestore when signed in, Dexie otherwise) ──
+  const subject = useSubject(termId, subjectId);
+  const cgId = subject?.classGroupId;
+  const weekPlans = useWeekPlans(termId, cgId, subjectId);
+  const weekTopics = useWeekTopicsForSubject(termId, cgId, subjectId, weekPlans);
+  const classGroups = useClassGroups(termId);
+  const term = useTerm(termId);
+  const lessonNote = useLessonNote(topicId);
+  const actions = usePlannerActions();
+
+  // Resolve the topic and its week plan from the merged live lists.
+  // A Firestore topic's weekPlanId equals its week-plan doc id; a Dexie
+  // topic's weekPlanId equals the numeric plan id — both match wp.id.
+  const topic = (weekPlans === undefined || weekTopics === undefined)
+    ? undefined
+    : (weekTopics.find(t => String(t.id) === String(topicId)) ?? null);
+  const weekPlan = (topic == null)
+    ? topic
+    : (weekPlans ?? []).find(wp => String(wp.id) === String(topic.weekPlanId)) ?? null;
+  const classGroup = (classGroups === undefined || cgId == null)
+    ? (classGroups === undefined ? undefined : null)
+    : classGroups.find(cg => String(cg.id) === String(cgId)) ?? null;
 
   // ── Lazy curriculum data ─────────────────────────────────────────────────────
   const [curriculumMap, setCurriculumMap] = useState(null);
@@ -172,12 +172,13 @@ export default function PlannerLesson() {
   }, [form, weekPlan?.weekNumber]);
 
   const save = useCallback(async (overrides = {}) => {
+    if (topicId == null) return;
     setSaveState('saving');
-    await upsertLessonNote(numericTopicId, buildPayload(overrides));
+    await actions.upsertLessonNote(topicId, buildPayload(overrides));
     setSaveState('saved');
     if (saveTimer.current) clearTimeout(saveTimer.current);
     saveTimer.current = setTimeout(() => setSaveState('idle'), 2000);
-  }, [buildPayload, numericTopicId]);
+  }, [actions, buildPayload, topicId]);
 
   const handleBlur  = useCallback(() => save(), [save]);
 

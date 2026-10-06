@@ -52,7 +52,9 @@ export async function createTerm(uid, data) {
     termNumber: data.termNumber,
     startDate: data.startDate ?? '',
     endDate: data.endDate ?? '',
-    createdAt: serverTimestamp(),
+    // Numeric ms timestamp (not serverTimestamp) — keeps orderBy('createdAt')
+    // consistent with terms uploaded by the Dexie→Firestore migration.
+    createdAt: Date.now(),
   });
   return ref.id;
 }

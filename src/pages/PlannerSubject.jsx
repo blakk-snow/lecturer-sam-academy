@@ -1,9 +1,9 @@
 import { useState } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
-import { useLiveQuery } from 'dexie-react-hooks';
 import { ArrowLeft, Plus, ChevronDown, ChevronUp } from 'lucide-react';
-import { db } from '../db/database';
-import { upsertWeekPlan, addWeekTopic, removeWeekTopic, updateWeekTopic } from '../db/planner';
+import {
+  useSubject, useWeekPlans, useWeekTopicsForSubject, usePlannerActions,
+} from '../hooks/usePlanner';
 import { AddTopicModal } from '../components/planner/AddTopicModal';
 import { curriculumMap } from '../data/curriculumData';
 
@@ -25,23 +25,15 @@ const TOTAL_WEEKS = 16;
 export default function PlannerSubject() {
   const { termId, subjectId } = useParams();
   const navigate = useNavigate();
-  const numericSubjectId = Number(subjectId);
 
-  const subject = useLiveQuery(() => db.subjects.get(numericSubjectId), [numericSubjectId]);
-
-  const weekPlans = useLiveQuery(
-    () => db.weekPlans.where('subjectId').equals(numericSubjectId).toArray(),
-    [numericSubjectId]
-  );
-
-  const weekTopics = useLiveQuery(
-    () => {
-      if (!weekPlans?.length) return Promise.resolve([]);
-      const planIds = weekPlans.map(wp => wp.id);
-      return db.weekTopics.where('weekPlanId').anyOf(planIds).toArray();
-    },
-    [weekPlans]
-  );
+  // Auth-aware data: Firestore when signed in, Dexie otherwise.
+  // The subject doc carries its classGroupId, which Firestore needs as path
+  // context for week-plan reads and writes.
+  const subject = useSubject(termId, subjectId);
+  const cgId = subject?.classGroupId;
+  const weekPlans = useWeekPlans(termId, cgId, subjectId);
+  const weekTopics = useWeekTopicsForSubject(termId, cgId, subjectId, weekPlans);
+  const actions = usePlannerActions();
 
   // Modal / expand state
   const [addTopicForWeek, setAddTopicForWeek] = useState(null); // weekNumber
@@ -60,60 +52,55 @@ export default function PlannerSubject() {
 
   async function handleWeekTypeChange(weekNum, value) {
     const existing = weekPlanByWeekNumber[weekNum];
-    await upsertWeekPlan(numericSubjectId, weekNum, {
+    await actions.upsertWeekPlan(subjectId, weekNum, {
       weekType: value,
       status: existing?.status ?? 'planned',
-    });
+    }, termId, cgId);
   }
 
   async function handleStatusChange(weekNum, value) {
     const existing = weekPlanByWeekNumber[weekNum];
-    await upsertWeekPlan(numericSubjectId, weekNum, {
+    await actions.upsertWeekPlan(subjectId, weekNum, {
       weekType: existing?.weekType ?? 'teaching',
       status: value,
-    });
+    }, termId, cgId);
   }
 
   async function handleAddTopic(weekNum, topicData) {
-    const existing = weekPlanByWeekNumber[weekNum];
-    let planId;
-    if (existing) {
-      planId = existing.id;
-    } else {
-      await upsertWeekPlan(numericSubjectId, weekNum, {
-        weekType: 'teaching',
-        status: 'planned',
-      });
-      const newPlan = await db.weekPlans
-        .where('subjectId').equals(numericSubjectId)
-        .filter(wp => wp.weekNumber === weekNum)
-        .first();
-      planId = newPlan?.id;
-    }
+    // upsertWeekPlan returns the plan id on both data paths (creating the
+    // plan with defaults if it doesn't exist yet).
+    const planId = await actions.upsertWeekPlan(subjectId, weekNum, {
+      weekType: 'teaching',
+      status: 'planned',
+    }, termId, cgId);
     if (planId != null) {
-      await addWeekTopic(planId, {
+      await actions.addWeekTopic(planId, {
         ...topicData,
         indicatorIds: JSON.stringify(topicData.indicatorIds ?? []),
-      });
+      }, termId, cgId, subjectId, weekNum);
     }
     setAddTopicForWeek(null);
   }
 
-  async function handleRemoveTopic(topicId) {
-    await removeWeekTopic(topicId);
+  async function handleRemoveTopic(topic) {
+    // In Firestore the topic's weekPlanId IS the week-number doc id, so it
+    // doubles as the weekNum path segment. Dexie ignores the extra args.
+    await actions.removeWeekTopic(
+      topic.id, termId, cgId, subjectId, topic.weekPlanId
+    );
     setExpandedTopicId(null);
   }
 
   async function handleUpdateTopic(topicData) {
     if (!editingTopic) return;
-    await updateWeekTopic(editingTopic.id, {
+    await actions.updateWeekTopic(editingTopic.id, {
       strandId: topicData.strandId,
       subStrandId: topicData.subStrandId,
       contentStandardId: topicData.contentStandardId,
       indicatorIds: JSON.stringify(topicData.indicatorIds ?? []),
       notes: topicData.notes,
       resources: topicData.resources,
-    });
+    }, termId, cgId, subjectId, editingTopic.weekPlanId);
     setEditingTopic(null);
     setExpandedTopicId(null);
   }
@@ -394,7 +381,7 @@ export default function PlannerSubject() {
                                 Edit
                               </button>
                               <button
-                                onClick={() => handleRemoveTopic(topic.id)}
+                                onClick={() => handleRemoveTopic(topic)}
                                 className="text-sm text-red-500 hover:text-red-600 font-medium"
                               >
                                 Delete

@@ -42,6 +42,7 @@ function AiText({ text }) {
 
 const SUGGESTIONS = [
   'What is the difference between a content standard and an indicator?',
+  'What am I teaching tomorrow?',
   'Suggest 3 starter activities for teaching fractions to Basic 7 learners.',
   'How do I teach the water cycle in a school with no internet access?',
   'What are the NaCCA core competencies and how do I embed them in a lesson?',

@@ -12,9 +12,11 @@ import { createContext, useContext, useEffect, useState } from 'react';
 import {
   onAuthStateChanged,
   signInWithPopup,
+  signInWithRedirect,
   signOut as firebaseSignOut,
 } from 'firebase/auth';
 import { auth, googleProvider } from '../firebase';
+import { migrateLocalPlannerToFirestore } from '../db/plannerMigration';
 
 const AuthContext = createContext(null);
 
@@ -24,9 +26,17 @@ export function AuthProvider({ children }) {
 
   // Listen to Firebase auth state changes
   useEffect(() => {
-    const unsubscribe = onAuthStateChanged(auth, (firebaseUser) => {
+    const unsubscribe = onAuthStateChanged(auth, async (firebaseUser) => {
       setUser(firebaseUser);
       setLoading(false);
+
+      if (firebaseUser?.uid) {
+        try {
+          await migrateLocalPlannerToFirestore(firebaseUser.uid);
+        } catch (err) {
+          console.warn('Planner migration failed:', err);
+        }
+      }
     });
     return unsubscribe;
   }, []);
@@ -35,11 +45,24 @@ export function AuthProvider({ children }) {
     try {
       await signInWithPopup(auth, googleProvider);
     } catch (err) {
-      // Ignore popup-closed-by-user errors; re-throw others
-      if (err.code !== 'auth/popup-closed-by-user' &&
-          err.code !== 'auth/cancelled-popup-request') {
-        throw err;
+      const code = err?.code;
+      const silentCodes = ['auth/popup-closed-by-user', 'auth/cancelled-popup-request'];
+      const redirectCodes = [
+        'auth/popup-blocked',
+        'auth/operation-not-supported-in-this-environment',
+        'auth/unauthorized-domain',
+      ];
+
+      if (silentCodes.includes(code)) {
+        return;
       }
+
+      if (redirectCodes.includes(code)) {
+        await signInWithRedirect(auth, googleProvider);
+        return;
+      }
+
+      throw err;
     }
   }
 

@@ -1,9 +1,7 @@
 import { useState } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
-import { useLiveQuery } from 'dexie-react-hooks';
 import { ArrowLeft, ChevronRight, Plus, Trash2, BookOpen } from 'lucide-react';
-import { db } from '../db/database';
-import { addClassGroup, removeClassGroup, addSubject, removeSubject } from '../db/planner';
+import { useTerm, useClassGroups, useSubjectsForTerm, usePlannerActions } from '../hooks/usePlanner';
 import { subjects as curriculumSubjects, classes as curriculumClasses, curriculumMap } from '../data/curriculumData';
 import { Button } from '../components/ui/Button';
 
@@ -22,21 +20,11 @@ const CLASS_LEVELS = [
 export default function PlannerTerm() {
   const { termId } = useParams();
   const navigate = useNavigate();
-  const numericTermId = Number(termId);
 
-  const term = useLiveQuery(() => db.terms.get(numericTermId), [numericTermId]);
-  const classGroups = useLiveQuery(
-    () => db.classGroups.where('termId').equals(numericTermId).toArray(),
-    [numericTermId]
-  );
-  const allSubjects = useLiveQuery(
-    () => {
-      if (!classGroups?.length) return Promise.resolve([]);
-      const ids = classGroups.map(cg => cg.id);
-      return db.subjects.where('classGroupId').anyOf(ids).toArray();
-    },
-    [classGroups]
-  );
+  const term        = useTerm(termId);
+  const classGroups = useClassGroups(termId);
+  const allSubjects = useSubjectsForTerm(termId, classGroups);
+  const actions     = usePlannerActions();
 
   // Add class group state
   const [showAddClass, setShowAddClass] = useState(false);
@@ -49,24 +37,25 @@ export default function PlannerTerm() {
   const [subjectCurriculumClassId, setSubjectCurriculumClassId] = useState('');
 
   async function handleAddClass() {
-    await addClassGroup(numericTermId, classLevelInput);
+    await actions.addClassGroup(termId, classLevelInput);
     setShowAddClass(false);
     setClassLevelInput('B7');
   }
 
   async function handleRemoveClass(cg) {
     if (window.confirm(`Remove ${getClassLabel(cg.classLevel)}? All subjects and week plans inside will be deleted.`)) {
-      await removeClassGroup(cg.id);
+      await actions.removeClassGroup(cg.id, termId);
     }
   }
 
   async function handleAddSubject() {
     if (!subjectNameInput.trim()) return;
-    await addSubject(
+    await actions.addSubject(
       addSubjectForGroup,
       subjectNameInput.trim(),
       subjectCurriculumSubjectId || null,
-      subjectCurriculumClassId || null
+      subjectCurriculumClassId || null,
+      termId
     );
     closeAddSubjectModal();
   }
@@ -80,7 +69,7 @@ export default function PlannerTerm() {
 
   async function handleRemoveSubject(subject) {
     if (window.confirm(`Remove "${subject.name}"? All week plans will be deleted.`)) {
-      await removeSubject(subject.id);
+      await actions.removeSubject(subject.id, termId, subject.classGroupId);
     }
   }
 

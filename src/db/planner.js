@@ -88,7 +88,8 @@ export async function upsertWeekPlan(subjectId, weekNumber, fields) {
     .first();
 
   if (existing) {
-    return db.weekPlans.update(existing.id, { ...fields, updatedAt: Date.now() });
+    await db.weekPlans.update(existing.id, { ...fields, updatedAt: Date.now() });
+    return existing.id;
   }
   return db.weekPlans.add({
     subjectId,

@@ -90,11 +90,16 @@ function SignInButton({ onSignIn, loading }) {
 export function AppShell() {
   const { user, loading, signInWithGoogle, signOut } = useAuth();
   const [signingIn, setSigningIn] = useState(false);
+  const [authError, setAuthError] = useState('');
 
   async function handleSignIn() {
     setSigningIn(true);
+    setAuthError('');
     try {
       await signInWithGoogle();
+    } catch (err) {
+      const message = err?.message || 'Unable to sign in right now. Please try again.';
+      setAuthError(message);
     } finally {
       setSigningIn(false);
     }
@@ -134,6 +139,13 @@ export function AppShell() {
           </div>
         </div>
       </header>
+      {authError && (
+        <div className="mx-auto max-w-5xl px-4 pt-3 md:px-6">
+          <div className="rounded-xl border border-red-200 bg-red-50 px-3 py-2 text-sm text-red-700">
+            {authError}
+          </div>
+        </div>
+      )}
       <main className="mx-auto w-full max-w-5xl px-4 pb-24 pt-6 md:px-6 md:pb-12">
         <Outlet />
       </main>
