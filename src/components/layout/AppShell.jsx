@@ -8,6 +8,7 @@ const links = [
   { to: "/", label: "Home", end: true },
   { to: "/planner", label: "Planner" },
   { to: "/curriculum", label: "Curriculum" },
+  { to: "/scheme", label: "Scheme" },
   { to: "/practice", label: "Practice" },
   { to: "/dashboard", label: "Progress" },
   { to: "/profile", label: "Profile" },
@@ -112,7 +113,7 @@ export function AppShell() {
           <NavLink to="/" className="font-serif text-lg tracking-wide">
             Lecturer Sam Academy
           </NavLink>
-          <nav className="flex gap-5 text-sm font-medium" aria-label="Desktop navigation">
+          <nav className="flex gap-3 text-xs font-medium lg:gap-5 lg:text-sm" aria-label="Desktop navigation">
             {links.map((link) => (
               <NavLink
                 key={link.to}

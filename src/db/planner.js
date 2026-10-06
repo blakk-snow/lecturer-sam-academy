@@ -80,22 +80,31 @@ export async function getSubjects(classGroupId) {
 
 // ─── Week Plans ───────────────────────────────────────────────────────────────
 
-export async function upsertWeekPlan(subjectId, weekNumber, fields) {
-  const existing = await db.weekPlans
-    .where("subjectId")
-    .equals(subjectId)
-    .filter((wp) => wp.weekNumber === weekNumber)
-    .first();
+export async function upsertWeekPlan(subjectId, weekNumber, fields, expectedRevision) {
+  return db.transaction('rw', db.weekPlans, async () => {
+    const existing = await db.weekPlans
+      .where("subjectId")
+      .equals(subjectId)
+      .filter((wp) => wp.weekNumber === weekNumber)
+      .first();
 
-  if (existing) {
-    await db.weekPlans.update(existing.id, { ...fields, updatedAt: Date.now() });
-    return existing.id;
-  }
-  return db.weekPlans.add({
-    subjectId,
-    weekNumber,
-    ...fields,
-    updatedAt: Date.now(),
+    if (expectedRevision !== undefined && (existing?.revision ?? null) !== expectedRevision) {
+      const error = new Error('This week plan changed elsewhere. Refresh it before saving.');
+      error.code = 'planner/conflict';
+      error.currentRecord = existing ?? null;
+      throw error;
+    }
+
+    const updated = {
+      ...fields,
+      revision: `${Date.now()}-${Math.random().toString(36).slice(2)}`,
+      updatedAt: Date.now(),
+    };
+    if (existing) {
+      await db.weekPlans.update(existing.id, updated);
+      return existing.id;
+    }
+    return db.weekPlans.add({ subjectId, weekNumber, ...updated });
   });
 }
 
@@ -106,11 +115,27 @@ export async function getWeekPlans(subjectId) {
 // ─── Week Topics ──────────────────────────────────────────────────────────────
 
 export async function addWeekTopic(weekPlanId, topicData) {
-  return db.weekTopics.add({ weekPlanId, ...topicData });
+  return db.weekTopics.add({
+    weekPlanId,
+    ...topicData,
+    revision: `${Date.now()}-${Math.random().toString(36).slice(2)}`,
+  });
 }
 
-export async function updateWeekTopic(id, changes) {
-  return db.weekTopics.update(id, changes);
+export async function updateWeekTopic(id, changes, expectedRevision) {
+  return db.transaction('rw', db.weekTopics, async () => {
+    const current = await db.weekTopics.get(id);
+    if (expectedRevision !== undefined && (current?.revision ?? null) !== expectedRevision) {
+      const error = new Error('This topic changed elsewhere. Refresh it before saving.');
+      error.code = 'planner/conflict';
+      error.currentRecord = current ?? null;
+      throw error;
+    }
+    return db.weekTopics.update(id, {
+      ...changes,
+      revision: `${Date.now()}-${Math.random().toString(36).slice(2)}`,
+    });
+  });
 }
 
 export async function removeWeekTopic(id) {
@@ -123,12 +148,29 @@ export async function getWeekTopics(weekPlanId) {
 
 // ─── Lesson Notes ─────────────────────────────────────────────────────────────
 
-export async function upsertLessonNote(topicId, data) {
-  const existing = await db.lessonNotes.where('topicId').equals(topicId).first();
-  if (existing) {
-    return db.lessonNotes.update(existing.id, { ...data, topicId, updatedAt: Date.now() });
-  }
-  return db.lessonNotes.add({ ...data, topicId, updatedAt: Date.now() });
+export async function upsertLessonNote(topicId, data, expectedRevision) {
+  return db.transaction('rw', db.lessonNotes, async () => {
+    const existing = await db.lessonNotes.where('topicId').equals(topicId).first();
+    if (expectedRevision !== undefined && (existing?.revision ?? null) !== expectedRevision) {
+      const error = new Error('This lesson note changed elsewhere. Review the latest version before saving.');
+      error.code = 'planner/conflict';
+      error.currentRecord = existing ?? null;
+      throw error;
+    }
+
+    const updated = {
+      ...data,
+      topicId,
+      revision: `${Date.now()}-${Math.random().toString(36).slice(2)}`,
+      updatedAt: Date.now(),
+    };
+    if (existing) {
+      await db.lessonNotes.update(existing.id, updated);
+      return { ...existing, ...updated };
+    }
+    const id = await db.lessonNotes.add(updated);
+    return { id, ...updated };
+  });
 }
 
 export async function getLessonNote(topicId) {

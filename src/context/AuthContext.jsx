@@ -17,6 +17,7 @@ import {
 } from 'firebase/auth';
 import { auth, googleProvider } from '../firebase';
 import { migrateLocalPlannerToFirestore } from '../db/plannerMigration';
+import { ensureSampleTeacherSchedule } from '../db/teacherSchedule';
 
 const AuthContext = createContext(null);
 
@@ -31,10 +32,14 @@ export function AuthProvider({ children }) {
       setLoading(false);
 
       if (firebaseUser?.uid) {
-        try {
-          await migrateLocalPlannerToFirestore(firebaseUser.uid);
-        } catch (err) {
-          console.warn('Planner migration failed:', err);
+        const results = await Promise.allSettled([
+          migrateLocalPlannerToFirestore(firebaseUser.uid),
+          ensureSampleTeacherSchedule(firebaseUser.uid),
+        ]);
+        for (const result of results) {
+          if (result.status === 'rejected') {
+            console.warn('Signed-in data initialization failed:', result.reason);
+          }
         }
       }
     });

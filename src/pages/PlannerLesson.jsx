@@ -122,8 +122,71 @@ export default function PlannerLesson() {
     status: 'draft',
   });
   const [saveState, setSaveState] = useState('idle');
+  const [saveError, setSaveError] = useState(null);
+  const [isDirty, setIsDirty] = useState(false);
+  const [conflict, setConflict] = useState(null);
   const saveTimer = useRef(null);
   const initializedRef = useRef(false);
+  const revisionRef = useRef(undefined);
+  const editSequenceRef = useRef(0);
+  const saveInProgressRef = useRef(false);
+
+  // ── Curriculum lookup ───────────────────────────────────────────────────────
+  const currDetails = useMemo(() => {
+    if (!curriculumMap || !topic?.contentStandardId || !subject) return null;
+    let indicatorIds;
+    try {
+      indicatorIds = typeof topic.indicatorIds === 'string'
+        ? JSON.parse(topic.indicatorIds)
+        : (topic.indicatorIds ?? []);
+    } catch { indicatorIds = []; }
+    const curriculumSubjectId = topic.curriculumSubjectId ?? subject.curriculumSubjectId;
+    const curriculumClassId = topic.curriculumClassId ?? subject.curriculumClassId;
+    const strands = (curriculumMap[curriculumSubjectId] ?? {})[curriculumClassId] ?? [];
+    for (const strand of strands) {
+      for (const ss of strand.subStrands) {
+        const cs = ss.contentStandards.find(c => c.id === topic.contentStandardId);
+        if (cs) {
+          return { strand, subStrand: ss, contentStandard: cs,
+            resolvedIndicators: cs.indicators.filter(i => indicatorIds.includes(i.id)) };
+        }
+      }
+    }
+    return null;
+  }, [curriculumMap, topic, subject]);
+
+  const buildAiParams = useCallback(() => {
+    if (!currDetails) return null;
+    return {
+      level:           classGroup?.classLevel ?? '',
+      subject:         subject?.name ?? '',
+      strand:          currDetails.strand.title,
+      subStrand:       currDetails.subStrand.title,
+      contentStandard: `${currDetails.contentStandard.code} — ${currDetails.contentStandard.description}`,
+      indicator:       currDetails.resolvedIndicators.length > 0
+        ? currDetails.resolvedIndicators.map(i => `${i.code} — ${i.description}`).join('; ')
+        : currDetails.contentStandard.description,
+    };
+  }, [currDetails, classGroup?.classLevel, subject?.name]);
+
+  const noteToForm = useCallback(note => ({
+    day:          note?.day          ?? '',
+    date:         note?.date         ?? '',
+    starter:      note?.starter      ?? '',
+    mainLearning: note?.mainLearning ?? '',
+    plenary:      note?.plenary      ?? '',
+    resourceUrl:  note?.resourceUrl  ?? '',
+    resourceType: note?.resourceType ?? 'none',
+    evaluation:   note?.evaluation   ?? '',
+    homework:     note?.homework     ?? '',
+    status:       note?.status       ?? 'draft',
+  }), []);
+
+  const updateForm = useCallback((field, value) => {
+    editSequenceRef.current += 1;
+    setIsDirty(true);
+    setForm(current => ({ ...current, [field]: value }));
+  }, []);
 
   // ── AI state ────────────────────────────────────────────────────────────────
   // keyed by step key: { loading: bool, error: string|null }
@@ -140,22 +203,22 @@ export default function PlannerLesson() {
   }
 
   useEffect(() => {
-    if (lessonNote && !initializedRef.current) {
+    if (lessonNote === undefined) return;
+    const incoming = lessonNote ?? null;
+    if (!initializedRef.current) {
       initializedRef.current = true;
-      setForm({
-        day:          lessonNote.day          ?? '',
-        date:         lessonNote.date         ?? '',
-        starter:      lessonNote.starter      ?? '',
-        mainLearning: lessonNote.mainLearning ?? '',
-        plenary:      lessonNote.plenary      ?? '',
-        resourceUrl:  lessonNote.resourceUrl  ?? '',
-        resourceType: lessonNote.resourceType ?? 'none',
-        evaluation:   lessonNote.evaluation   ?? '',
-        homework:     lessonNote.homework     ?? '',
-        status:       lessonNote.status       ?? 'draft',
-      });
+      revisionRef.current = incoming?.revision ?? null;
+      setForm(noteToForm(incoming));
+      return;
     }
-  }, [lessonNote]);
+    if ((incoming?.revision ?? null) === revisionRef.current || saveInProgressRef.current) return;
+    if (isDirty) {
+      setConflict({ record: incoming });
+      return;
+    }
+    revisionRef.current = incoming?.revision ?? null;
+    setForm(noteToForm(incoming));
+  }, [isDirty, lessonNote, noteToForm]);
 
   // ── Save ────────────────────────────────────────────────────────────────────
   const buildPayload = useCallback((overrides = {}) => {
@@ -171,46 +234,69 @@ export default function PlannerLesson() {
     };
   }, [form, weekPlan?.weekNumber]);
 
-  const save = useCallback(async (overrides = {}) => {
+  const save = useCallback(async (overrides = {}, allowConflict = false) => {
     if (topicId == null) return;
+    if (conflict && !allowConflict) return;
+    if (!isDirty && Object.keys(overrides).length === 0) return;
+    const sequenceAtSave = editSequenceRef.current;
     setSaveState('saving');
-    await actions.upsertLessonNote(topicId, buildPayload(overrides));
-    setSaveState('saved');
-    if (saveTimer.current) clearTimeout(saveTimer.current);
-    saveTimer.current = setTimeout(() => setSaveState('idle'), 2000);
-  }, [actions, buildPayload, topicId]);
+    setSaveError(null);
+    saveInProgressRef.current = true;
+    try {
+      const saved = await actions.upsertLessonNote(
+        topicId,
+        buildPayload(overrides),
+        revisionRef.current,
+      );
+      revisionRef.current = saved?.revision ?? revisionRef.current;
+      setConflict(null);
+      if (editSequenceRef.current === sequenceAtSave) setIsDirty(false);
+      setSaveState('saved');
+      if (saveTimer.current) clearTimeout(saveTimer.current);
+      saveTimer.current = setTimeout(() => setSaveState('idle'), 2000);
+    } catch (err) {
+      if (err?.code === 'planner/conflict') {
+        setConflict({ record: err.currentRecord ?? null });
+        setSaveState('conflict');
+      } else {
+        setSaveError(err?.message ?? 'Could not save this lesson note.');
+        setSaveState('error');
+      }
+    } finally {
+      saveInProgressRef.current = false;
+    }
+  }, [actions, buildPayload, conflict, isDirty, topicId]);
 
   const handleBlur  = useCallback(() => save(), [save]);
 
   const handleStatusCycle = useCallback(async () => {
     const next = STATUSES[(STATUSES.indexOf(form.status) + 1) % STATUSES.length];
-    setForm(f => ({ ...f, status: next }));
+    updateForm('status', next);
     await save({ status: next });
-  }, [form.status, save]);
+  }, [form.status, save, updateForm]);
 
   const handleRadioChange = useCallback(async (newType) => {
-    setForm(f => ({ ...f, resourceType: newType }));
+    updateForm('resourceType', newType);
     await save({ resourceType: newType });
-  }, [save]);
+  }, [save, updateForm]);
+
+  const reloadAfterConflict = useCallback(() => {
+    const record = conflict?.record ?? null;
+    revisionRef.current = record?.revision ?? null;
+    setForm(noteToForm(record));
+    setIsDirty(false);
+    setConflict(null);
+    setSaveError(null);
+    setSaveState('idle');
+  }, [conflict, noteToForm]);
+
+  const overwriteAfterConflict = useCallback(async () => {
+    revisionRef.current = conflict?.record?.revision ?? null;
+    setConflict(null);
+    await save({}, true);
+  }, [conflict, save]);
 
   // ── AI generation ───────────────────────────────────────────────────────────
-
-  /**
-   * Build AI params from currDetails (if available) plus fallback subject info.
-   */
-  const buildAiParams = useCallback(() => {
-    if (!currDetails) return null;
-    return {
-      level:           classGroup?.classLevel ?? '',
-      subject:         subject?.name ?? '',
-      strand:          currDetails.strand.title,
-      subStrand:       currDetails.subStrand.title,
-      contentStandard: `${currDetails.contentStandard.code} — ${currDetails.contentStandard.description}`,
-      indicator:       currDetails.resolvedIndicators.length > 0
-        ? currDetails.resolvedIndicators.map(i => `${i.code} — ${i.description}`).join('; ')
-        : currDetails.contentStandard.description,
-    };
-  }, [currDetails, classGroup?.classLevel, subject?.name]);
 
   /**
    * Extract a named section from a full lesson plan response.
@@ -243,20 +329,20 @@ export default function PlannerLesson() {
       if (stepKey === 'evaluation') {
         // Use dedicated assessment generator
         const text = await generateAssessment(params);
-        setForm(f => ({ ...f, evaluation: text }));
+        updateForm('evaluation', text);
         await save({ evaluation: text });
       } else {
         // Generate full lesson plan and extract the relevant section
         const fullPlan = await generateLessonPlan(params);
         const section = extractSection(fullPlan, stepKey);
-        setForm(f => ({ ...f, [stepKey]: section }));
+        updateForm(stepKey, section);
         await save({ [stepKey]: section });
       }
       setAiLoading(stepKey, false);
     } catch (err) {
       setAiError(stepKey, err.message || 'AI generation failed. Please try again.');
     }
-  }, [buildAiParams, save]);
+  }, [buildAiParams, save, updateForm]);
 
   // Save when leaving a step
   const goTo = useCallback((next) => {
@@ -264,28 +350,6 @@ export default function PlannerLesson() {
     setStep(next);
     window.scrollTo({ top: 0, behavior: 'smooth' });
   }, [save]);
-
-  // ── Curriculum lookup ───────────────────────────────────────────────────────
-  const currDetails = useMemo(() => {
-    if (!curriculumMap || !topic?.contentStandardId || !subject) return null;
-    let indicatorIds;
-    try {
-      indicatorIds = typeof topic.indicatorIds === 'string'
-        ? JSON.parse(topic.indicatorIds)
-        : (topic.indicatorIds ?? []);
-    } catch { indicatorIds = []; }
-    const strands = (curriculumMap[subject.curriculumSubjectId] ?? {})[subject.curriculumClassId] ?? [];
-    for (const strand of strands) {
-      for (const ss of strand.subStrands) {
-        const cs = ss.contentStandards.find(c => c.id === topic.contentStandardId);
-        if (cs) {
-          return { strand, subStrand: ss, contentStandard: cs,
-            resolvedIndicators: cs.indicators.filter(i => indicatorIds.includes(i.id)) };
-        }
-      }
-    }
-    return null;
-  }, [curriculumMap, topic, subject]);
 
   // ── Guards ──────────────────────────────────────────────────────────────────
   if ([topic, weekPlan, subject, classGroup, term].some(v => v === undefined)) {
@@ -335,7 +399,7 @@ export default function PlannerLesson() {
               <input
                 type="text"
                 value={form.day}
-                onChange={e => setForm(f => ({ ...f, day: e.target.value }))}
+                onChange={e => updateForm('day', e.target.value)}
                 onBlur={handleBlur}
                 placeholder="Mon"
                 className="w-12 bg-transparent text-ink text-xs focus:outline-none"
@@ -346,7 +410,7 @@ export default function PlannerLesson() {
               <input
                 type="date"
                 value={form.date}
-                onChange={e => setForm(f => ({ ...f, date: e.target.value }))}
+                onChange={e => updateForm('date', e.target.value)}
                 onBlur={handleBlur}
                 className="bg-transparent text-ink text-xs focus:outline-none"
               />
@@ -423,7 +487,7 @@ export default function PlannerLesson() {
           <textarea
             rows={8}
             value={form.starter}
-            onChange={e => setForm(f => ({ ...f, starter: e.target.value }))}
+            onChange={e => updateForm('starter', e.target.value)}
             onBlur={handleBlur}
             placeholder="Describe your starter activity…"
             className={textareaClass}
@@ -453,7 +517,7 @@ export default function PlannerLesson() {
           <textarea
             rows={10}
             value={form.mainLearning}
-            onChange={e => setForm(f => ({ ...f, mainLearning: e.target.value }))}
+            onChange={e => updateForm('mainLearning', e.target.value)}
             onBlur={handleBlur}
             placeholder="Describe the main teaching and learning activity…"
             className={textareaClass}
@@ -483,7 +547,7 @@ export default function PlannerLesson() {
           <textarea
             rows={8}
             value={form.plenary}
-            onChange={e => setForm(f => ({ ...f, plenary: e.target.value }))}
+            onChange={e => updateForm('plenary', e.target.value)}
             onBlur={handleBlur}
             placeholder="Describe your plenary / closing activity…"
             className={textareaClass}
@@ -505,7 +569,7 @@ export default function PlannerLesson() {
             <textarea
               rows={4}
               value={form.resourceUrl}
-              onChange={e => setForm(f => ({ ...f, resourceUrl: e.target.value }))}
+              onChange={e => updateForm('resourceUrl', e.target.value)}
               onBlur={handleBlur}
               placeholder="Paste a URL or describe the resource…"
               className={textareaClass}
@@ -561,7 +625,7 @@ export default function PlannerLesson() {
           <textarea
             rows={8}
             value={form.evaluation}
-            onChange={e => setForm(f => ({ ...f, evaluation: e.target.value }))}
+            onChange={e => updateForm('evaluation', e.target.value)}
             onBlur={handleBlur}
             placeholder="Describe your evaluation / assessment approach…"
             className={textareaClass}
@@ -591,7 +655,7 @@ export default function PlannerLesson() {
           <textarea
             rows={8}
             value={form.homework}
-            onChange={e => setForm(f => ({ ...f, homework: e.target.value }))}
+            onChange={e => updateForm('homework', e.target.value)}
             onBlur={handleBlur}
             placeholder="Describe the homework task…"
             className={textareaClass}
@@ -657,9 +721,39 @@ export default function PlannerLesson() {
           <p className="text-xs text-ink-soft">
             {saveState === 'saving' && 'Saving…'}
             {saveState === 'saved'  && 'Saved ✓'}
+            {saveState === 'conflict' && 'Changes need review'}
+            {saveState === 'error' && 'Save failed'}
           </p>
         </div>
       </div>
+
+      {conflict && (
+        <div className="mx-4 mt-4 rounded-xl border border-amber-300 bg-amber-50 px-4 py-3 text-sm text-amber-950 md:mx-6">
+          <p className="font-semibold">This lesson note changed on another device.</p>
+          <p className="mt-1">Reload the latest version, or deliberately overwrite it with your draft.</p>
+          <div className="mt-3 flex flex-wrap gap-2">
+            <button
+              type="button"
+              onClick={reloadAfterConflict}
+              className="rounded-lg border border-amber-400 bg-white px-3 py-1.5 text-xs font-medium hover:bg-amber-100"
+            >
+              Load latest version
+            </button>
+            <button
+              type="button"
+              onClick={overwriteAfterConflict}
+              className="rounded-lg bg-amber-800 px-3 py-1.5 text-xs font-medium text-white hover:bg-amber-900"
+            >
+              Overwrite with my draft
+            </button>
+          </div>
+        </div>
+      )}
+      {saveError && (
+        <div role="alert" className="mx-4 mt-4 rounded-xl border border-red-200 bg-red-50 px-4 py-3 text-sm text-red-800 md:mx-6">
+          {saveError}
+        </div>
+      )}
 
       {/* ── Slide ─────────────────────────────────────────────────────────── */}
       <div className="flex-1 px-4 pt-6 pb-4 md:px-6">

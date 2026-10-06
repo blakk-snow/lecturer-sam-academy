@@ -15,9 +15,9 @@
  */
 
 import {
-  collection, doc, addDoc, setDoc, updateDoc, deleteDoc,
+  collection, doc, addDoc, updateDoc, deleteDoc,
   getDocs, getDoc, query, where, orderBy, serverTimestamp,
-  writeBatch,
+  writeBatch, runTransaction,
 } from 'firebase/firestore';
 import { db } from '../firebase';
 
@@ -116,11 +116,27 @@ export async function getSubjects(uid, termId, cgId) {
 
 // ── Week Plans ────────────────────────────────────────────────────────────────
 
-export async function upsertWeekPlan(uid, termId, cgId, subId, weekNumber, fields) {
+export async function upsertWeekPlan(uid, termId, cgId, subId, weekNumber, fields, expectedRevision) {
   // Use weekNumber as the document id for easy lookup
   const ref = wpRef(uid, termId, cgId, subId, String(weekNumber));
-  await setDoc(ref, { subjectId: subId, weekNumber, ...fields, updatedAt: serverTimestamp() }, { merge: true });
-  return ref.id;
+  return runTransaction(db, async transaction => {
+    const snapshot = await transaction.get(ref);
+    const currentRecord = snap(snapshot);
+    if (expectedRevision !== undefined && (currentRecord?.revision ?? null) !== expectedRevision) {
+      const error = new Error('This week plan changed elsewhere. Refresh it before saving.');
+      error.code = 'planner/conflict';
+      error.currentRecord = currentRecord;
+      throw error;
+    }
+    transaction.set(ref, {
+      subjectId: subId,
+      weekNumber,
+      ...fields,
+      revision: `${Date.now()}-${Math.random().toString(36).slice(2)}`,
+      updatedAt: serverTimestamp(),
+    }, { merge: true });
+    return ref.id;
+  });
 }
 
 export async function getWeekPlans(uid, termId, cgId, subId) {
@@ -134,15 +150,27 @@ export async function addWeekTopic(uid, termId, cgId, subId, weekNumber, topicDa
   const ref = await addDoc(topCol(uid, termId, cgId, subId, String(weekNumber)), {
     weekPlanId: String(weekNumber),
     ...topicData,
+    revision: `${Date.now()}-${Math.random().toString(36).slice(2)}`,
   });
   return ref.id;
 }
 
-export async function updateWeekTopic(uid, termId, cgId, subId, weekNumber, topicId, changes) {
-  return updateDoc(
-    doc(topCol(uid, termId, cgId, subId, String(weekNumber)), topicId),
-    changes,
-  );
+export async function updateWeekTopic(uid, termId, cgId, subId, weekNumber, topicId, changes, expectedRevision) {
+  const ref = doc(topCol(uid, termId, cgId, subId, String(weekNumber)), topicId);
+  return runTransaction(db, async transaction => {
+    const snapshot = await transaction.get(ref);
+    const currentRecord = snap(snapshot);
+    if (expectedRevision !== undefined && (currentRecord?.revision ?? null) !== expectedRevision) {
+      const error = new Error('This topic changed elsewhere. Refresh it before saving.');
+      error.code = 'planner/conflict';
+      error.currentRecord = currentRecord;
+      throw error;
+    }
+    transaction.update(ref, {
+      ...changes,
+      revision: `${Date.now()}-${Math.random().toString(36).slice(2)}`,
+    });
+  });
 }
 
 export async function removeWeekTopic(uid, termId, cgId, subId, weekNumber, topicId) {
@@ -157,9 +185,30 @@ export async function getWeekTopics(uid, termId, cgId, subId, weekNumber) {
 // ── Lesson Notes ──────────────────────────────────────────────────────────────
 // Stored flat under /users/{uid}/lessonNotes/{topicId} for O(1) lookup.
 
-export async function upsertLessonNote(uid, topicId, data) {
+export async function upsertLessonNote(uid, topicId, data, expectedRevision) {
   const ref = doc(notesCol(uid), String(topicId));
-  await setDoc(ref, { ...data, topicId: String(topicId), updatedAt: serverTimestamp() }, { merge: true });
+  return runTransaction(db, async transaction => {
+    const snapshot = await transaction.get(ref);
+    const currentRecord = snap(snapshot);
+    if (
+      expectedRevision !== undefined &&
+      (currentRecord?.revision ?? null) !== expectedRevision
+    ) {
+      const error = new Error('This lesson note changed elsewhere. Review the latest version before saving.');
+      error.code = 'planner/conflict';
+      error.currentRecord = currentRecord;
+      throw error;
+    }
+
+    const saved = {
+      ...data,
+      topicId: String(topicId),
+      revision: `${Date.now()}-${Math.random().toString(36).slice(2)}`,
+      updatedAt: Date.now(),
+    };
+    transaction.set(ref, saved, { merge: true });
+    return { id: String(topicId), ...currentRecord, ...saved };
+  });
 }
 
 export async function getLessonNote(uid, topicId) {

@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import { ArrowLeft, Plus, ChevronDown, ChevronUp } from 'lucide-react';
 import {
-  useSubject, useWeekPlans, useWeekTopicsForSubject, usePlannerActions,
+  useSubject, useWeekPlans, useWeekTopicsForSubject, usePlannerActions, useClassGroups,
 } from '../hooks/usePlanner';
 import { AddTopicModal } from '../components/planner/AddTopicModal';
 import { curriculumMap } from '../data/curriculumData';
@@ -30,6 +30,11 @@ export default function PlannerSubject() {
   // The subject doc carries its classGroupId, which Firestore needs as path
   // context for week-plan reads and writes.
   const subject = useSubject(termId, subjectId);
+  const classGroups = useClassGroups(termId);
+  const classGroup = classGroups?.find(group =>
+    String(group.id) === String(subject?.classGroupId),
+  );
+  const plannerClassId = classGroup?.classLevel;
   const cgId = subject?.classGroupId;
   const weekPlans = useWeekPlans(termId, cgId, subjectId);
   const weekTopics = useWeekTopicsForSubject(termId, cgId, subjectId, weekPlans);
@@ -52,27 +57,36 @@ export default function PlannerSubject() {
 
   async function handleWeekTypeChange(weekNum, value) {
     const existing = weekPlanByWeekNumber[weekNum];
-    await actions.upsertWeekPlan(subjectId, weekNum, {
-      weekType: value,
-      status: existing?.status ?? 'planned',
-    }, termId, cgId);
+    try {
+      await actions.upsertWeekPlan(subjectId, weekNum, {
+        weekType: value,
+        status: existing?.status ?? 'planned',
+      }, termId, cgId, existing?.revision ?? null);
+    } catch (error) {
+      if (error?.code !== 'planner/conflict') throw error;
+      window.alert('This week plan changed on another device. The latest version has been loaded; please try your change again.');
+    }
   }
 
   async function handleStatusChange(weekNum, value) {
     const existing = weekPlanByWeekNumber[weekNum];
-    await actions.upsertWeekPlan(subjectId, weekNum, {
-      weekType: existing?.weekType ?? 'teaching',
-      status: value,
-    }, termId, cgId);
+    try {
+      await actions.upsertWeekPlan(subjectId, weekNum, {
+        weekType: existing?.weekType ?? 'teaching',
+        status: value,
+      }, termId, cgId, existing?.revision ?? null);
+    } catch (error) {
+      if (error?.code !== 'planner/conflict') throw error;
+      window.alert('This week plan changed on another device. The latest version has been loaded; please try your change again.');
+    }
   }
 
   async function handleAddTopic(weekNum, topicData) {
-    // upsertWeekPlan returns the plan id on both data paths (creating the
-    // plan with defaults if it doesn't exist yet).
-    const planId = await actions.upsertWeekPlan(subjectId, weekNum, {
+    const existing = weekPlanByWeekNumber[weekNum];
+    const planId = existing?.id ?? await actions.upsertWeekPlan(subjectId, weekNum, {
       weekType: 'teaching',
       status: 'planned',
-    }, termId, cgId);
+    }, termId, cgId, null);
     if (planId != null) {
       await actions.addWeekTopic(planId, {
         ...topicData,
@@ -93,28 +107,38 @@ export default function PlannerSubject() {
 
   async function handleUpdateTopic(topicData) {
     if (!editingTopic) return;
-    await actions.updateWeekTopic(editingTopic.id, {
-      strandId: topicData.strandId,
-      subStrandId: topicData.subStrandId,
-      contentStandardId: topicData.contentStandardId,
-      indicatorIds: JSON.stringify(topicData.indicatorIds ?? []),
-      notes: topicData.notes,
-      resources: topicData.resources,
-    }, termId, cgId, subjectId, editingTopic.weekPlanId);
+    try {
+      await actions.updateWeekTopic(editingTopic.id, {
+        curriculumSubjectId: topicData.curriculumSubjectId ?? null,
+        curriculumClassId: topicData.curriculumClassId ?? null,
+        strandId: topicData.strandId,
+        subStrandId: topicData.subStrandId,
+        contentStandardId: topicData.contentStandardId,
+        indicatorIds: JSON.stringify(topicData.indicatorIds ?? []),
+        notes: topicData.notes,
+        resources: topicData.resources,
+      }, termId, cgId, subjectId, editingTopic.weekPlanId, editingTopic.revision ?? null);
+    } catch (error) {
+      if (error?.code !== 'planner/conflict') throw error;
+      window.alert('This topic changed on another device. Close and reopen it to review the latest version before editing.');
+      return;
+    }
     setEditingTopic(null);
     setExpandedTopicId(null);
   }
 
   // ── Curriculum lookup helpers ──────────────────────────────────────────────
 
-  function getStrands() {
+  function getStrands(topic) {
     if (!subject) return [];
-    return (curriculumMap[subject.curriculumSubjectId] ?? {})[subject.curriculumClassId] ?? [];
+    const curriculumSubjectId = topic?.curriculumSubjectId ?? subject.curriculumSubjectId;
+    const curriculumClassId = topic?.curriculumClassId ?? subject.curriculumClassId;
+    return (curriculumMap[curriculumSubjectId] ?? {})[curriculumClassId] ?? [];
   }
 
   function lookupTopicLabel(topic) {
     if (!topic.contentStandardId || !subject) return null;
-    const strands = getStrands();
+    const strands = getStrands(topic);
     for (const strand of strands) {
       for (const ss of strand.subStrands) {
         const cs = ss.contentStandards.find(c => c.id === topic.contentStandardId);
@@ -133,7 +157,7 @@ export default function PlannerSubject() {
         : topic.indicatorIds;
     } catch { ids = []; }
     if (!Array.isArray(ids) || ids.length === 0) return [];
-    const strands = getStrands();
+    const strands = getStrands(topic);
     const codes = [];
     for (const strand of strands) {
       for (const ss of strand.subStrands) {
@@ -156,7 +180,7 @@ export default function PlannerSubject() {
         : (topic.indicatorIds ?? []);
     } catch { indicatorIds = []; }
 
-    const strands = getStrands();
+    const strands = getStrands(topic);
     for (const strand of strands) {
       for (const ss of strand.subStrands) {
         const cs = ss.contentStandards.find(c => c.id === topic.contentStandardId);
@@ -414,6 +438,8 @@ export default function PlannerSubject() {
           subjectName={subject.name}
           curriculumSubjectId={subject.curriculumSubjectId}
           curriculumClassId={subject.curriculumClassId}
+          plannerClassId={plannerClassId}
+          className={plannerClassId ?? subject.curriculumClassId ?? ''}
           onAdd={(topicData) => handleAddTopic(addTopicForWeek, topicData)}
           onClose={() => setAddTopicForWeek(null)}
         />
@@ -426,6 +452,8 @@ export default function PlannerSubject() {
           subjectName={subject.name}
           curriculumSubjectId={subject.curriculumSubjectId}
           curriculumClassId={subject.curriculumClassId}
+          plannerClassId={plannerClassId}
+          className={plannerClassId ?? editingTopic.curriculumClassId ?? subject.curriculumClassId ?? ''}
           initialData={editingTopic}
           onUpdate={(topicData) => handleUpdateTopic(topicData)}
           onClose={() => setEditingTopic(null)}

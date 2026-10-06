@@ -2,6 +2,8 @@ import { useState, useRef, useEffect, useCallback } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { ArrowLeft, Send, Bot, User, Loader2, Trash2 } from 'lucide-react';
 import { curriculumChat } from '../services/ai';
+import { useTeacherSchedule } from '../hooks/useTeacherSchedule';
+import { useAuth } from '../context/AuthContext';
 
 // ── Markdown-lite renderer (same pattern as Curriculum.jsx) ───────────────────
 
@@ -103,7 +105,7 @@ function ThinkingBubble() {
 
 const WELCOME = {
   role: 'assistant',
-  content: `Hello! I'm your NaCCA curriculum assistant. I can help you:
+  content: `Hello! Choose Teacher mode or Student mode, then ask me about the NaCCA curriculum. I can help with:
 
 • **Understand curriculum indicators** — explain what any code means
 • **Plan lessons** — suggest activities, starters, plenaries and resources
@@ -116,10 +118,14 @@ What would you like help with today?`,
 
 export default function AIAssistant() {
   const navigate = useNavigate();
+  const { user } = useAuth();
+  const { schedule, source: scheduleSource, error: scheduleError, loading: scheduleLoading } = useTeacherSchedule();
   const [messages, setMessages] = useState([WELCOME]);
   const [input, setInput]       = useState('');
   const [loading, setLoading]   = useState(false);
   const [error, setError]       = useState(null);
+  const [persona, setPersona]   = useState('teacher');
+  const [classLevel, setClassLevel] = useState('Basic 7');
   const bottomRef               = useRef(null);
   const inputRef                = useRef(null);
 
@@ -146,7 +152,12 @@ export default function AIAssistant() {
         userMsg,
       ].map(m => ({ role: m.role === 'assistant' ? 'assistant' : 'user', content: m.content }));
 
-      const reply = await curriculumChat(history);
+      const reply = await curriculumChat(history, {
+        persona,
+        classLevel,
+        scheduleData: schedule,
+        scheduleSource,
+      });
       setMessages(prev => [...prev, { role: 'assistant', content: reply }]);
     } catch (err) {
       const msg = err?.message ?? String(err) ?? 'Something went wrong. Make sure the AI server is running.';
@@ -157,7 +168,7 @@ export default function AIAssistant() {
       setLoading(false);
       inputRef.current?.focus();
     }
-  }, [input, loading, messages]);
+  }, [classLevel, input, loading, messages, persona, schedule, scheduleSource]);
 
   function handleKeyDown(e) {
     if (e.key === 'Enter' && !e.shiftKey) {
@@ -194,7 +205,9 @@ export default function AIAssistant() {
             <Bot size={16} className="text-accent" />
           </div>
           <div className="min-w-0">
-            <p className="text-sm font-semibold text-ink leading-tight">Curriculum Assistant</p>
+            <p className="text-sm font-semibold text-ink leading-tight">
+              {persona === 'teacher' ? 'Teacher Assistant' : 'Student Tutor'}
+            </p>
             <p className="text-xs text-ink-soft truncate">NaCCA Common Core Programme</p>
           </div>
         </div>
@@ -209,6 +222,59 @@ export default function AIAssistant() {
           </button>
         )}
       </div>
+
+      <div className="shrink-0 border-b border-line bg-card px-4 py-2">
+        <div className="mx-auto flex max-w-2xl items-center gap-2">
+          <div className="flex rounded-lg border border-line bg-paper p-1" role="group" aria-label="Assistant mode">
+            {['teacher', 'student'].map(mode => (
+              <button
+                key={mode}
+                type="button"
+                onClick={() => setPersona(mode)}
+                aria-pressed={persona === mode}
+                className={`rounded-md px-3 py-1.5 text-xs font-medium capitalize transition-colors ${
+                  persona === mode ? 'bg-accent text-white' : 'text-ink-soft hover:text-ink'
+                }`}
+              >
+                {mode} mode
+              </button>
+            ))}
+          </div>
+          {persona === 'student' && (
+            <label className="ml-auto flex items-center gap-2 text-xs text-ink-soft">
+              <span>Class</span>
+              <select
+                value={classLevel}
+                onChange={event => setClassLevel(event.target.value)}
+                className="rounded-lg border border-line bg-paper px-2 py-1.5 text-xs text-ink"
+                aria-label="Student class level"
+              >
+                {['Basic 7', 'Basic 8', 'Basic 9'].map(level => (
+                  <option key={level} value={level}>{level}</option>
+                ))}
+              </select>
+            </label>
+          )}
+        </div>
+      </div>
+      {persona === 'teacher' && (
+        <div className="shrink-0 border-b border-line bg-paper px-4 py-1.5">
+          <p className="mx-auto max-w-2xl text-xs text-ink-soft" role="status">
+            {scheduleLoading
+              ? 'Loading your saved timetable…'
+              : scheduleSource === 'cloud'
+                ? 'Teacher schedule: saved to your account and synced from Firestore.'
+                : scheduleSource === 'offline'
+                  ? 'Teacher schedule: using your locally cached copy while offline.'
+                  : scheduleSource === 'local'
+                    ? 'Teacher schedule: using the copy saved on this device.'
+                    : user
+                      ? 'Teacher schedule: using the local sample while cloud sync is unavailable.'
+                      : 'Teacher schedule: using sample data. Sign in to save it to your account.'}
+            {scheduleError && ' Cloud sync is currently unavailable.'}
+          </p>
+        </div>
+      )}
 
       {/* ── Message thread ────────────────────────────────────────────────── */}
       <div className="flex-1 overflow-y-auto px-4 py-5 space-y-4 pb-4">

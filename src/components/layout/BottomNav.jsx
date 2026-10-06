@@ -1,10 +1,11 @@
-import { CalendarDays, Home, LineChart, UserRound, BookMarked } from "lucide-react";
+import { CalendarDays, ClipboardList, Home, LineChart, UserRound, BookMarked } from "lucide-react";
 import { NavLink } from "react-router-dom";
 
 const items = [
   { to: "/", label: "Home", icon: Home, end: true },
   { to: "/planner", label: "Planner", icon: CalendarDays },
   { to: "/curriculum", label: "Curriculum", icon: BookMarked },
+  { to: "/scheme", label: "Scheme", icon: ClipboardList },
   { to: "/dashboard", label: "Progress", icon: LineChart },
   { to: "/profile", label: "Profile", icon: UserRound },
 ];
@@ -15,7 +16,7 @@ export function BottomNav() {
       className="fixed inset-x-0 bottom-0 z-20 border-t border-line bg-card/95 backdrop-blur md:hidden"
       aria-label="Primary"
     >
-      <ul className="grid grid-cols-5">
+      <ul className="grid grid-cols-6">
         {items.map((item) => {
           const Icon = item.icon;
           return (

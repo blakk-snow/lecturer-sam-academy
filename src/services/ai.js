@@ -174,17 +174,20 @@ Provide:
  * and a lightweight in-app timetable template. This follows the planning rule in
  * src/data/ai/README.txt while keeping the app usable without a real timetable file.
  */
-function resolveTomorrowTeachingQuestion(text) {
+function resolveTomorrowTeachingQuestion(text, scheduleData, scheduleSource) {
   const normalized = (text ?? '').toLowerCase();
   const mentionsTomorrow = /(what am i teaching tomorrow|teaching tomorrow|tomorrow.*teach|what.*tomorrow)/i.test(normalized);
   if (!mentionsTomorrow) return null;
 
-  const classMatch = /(basic\s*[78]|b[78])/.exec(text || '');
-  const classLevel = classMatch ? `Basic ${classMatch[0].match(/[78]/)?.[0] ?? '7'}` : 'Basic 7';
-  const schedule = getTomorrowSchedule(classLevel, new Date());
+  const classMatch = /(basic\s*[789]|b[789])/.exec(text || '');
+  const classLevel = classMatch ? `Basic ${classMatch[0].match(/[789]/)?.[0] ?? '7'}` : 'Basic 7';
+  const schedule = getTomorrowSchedule(classLevel, new Date(), scheduleData);
+  const schemeLabel = schedule.scheme
+    ? `Term ${schedule.scheme.term}, Week ${schedule.scheme.week}`
+    : `Term ${schedule.term}, Week ${schedule.week}`;
 
   if (!schedule.lessons.length) {
-    return `Tomorrow (${schedule.date.toLocaleDateString('en-GB', { weekday: 'long', day: 'numeric', month: 'long', year: 'numeric' })}) is ${schedule.dayName}, but there is no timetable entry for ${classLevel} yet. I can still use the scheme-of-learning context for Week ${schedule.week} (Term ${schedule.term}).`;
+    return `Tomorrow (${schedule.date.toLocaleDateString('en-GB', { weekday: 'long', day: 'numeric', month: 'long', year: 'numeric' })}) is ${schedule.dayName}, but there is no timetable entry for ${classLevel}. The saved sample scheme covers ${schemeLabel}.`;
   }
 
   const lessonNames = schedule.lessons.map(item => `${item.subject} (Period ${item.period})`).join('; ');
@@ -193,7 +196,12 @@ function resolveTomorrowTeachingQuestion(text) {
     .map(([subject, detail]) => `${subject}: ${detail.strand} → ${detail.subStrand} (${detail.indicators.join(', ')})`)
     .join('; ') : 'No scheme information loaded.';
 
-  return `Tomorrow is ${schedule.date.toLocaleDateString('en-GB', { weekday: 'long', day: 'numeric', month: 'long', year: 'numeric' })}. For ${classLevel}, you are scheduled to teach: ${lessonNames}.\n\nUsing the scheme-of-learning for Week ${schedule.week}, Term ${schedule.term}, the relevant topics are: ${schemeInfo}.`;
+  const sourceLabel = scheduleSource === 'cloud'
+    ? 'your saved schedule'
+    : scheduleSource === 'offline' || scheduleSource === 'local'
+      ? 'your locally cached sample schedule'
+      : 'the bundled sample schedule';
+  return `Tomorrow is ${schedule.date.toLocaleDateString('en-GB', { weekday: 'long', day: 'numeric', month: 'long', year: 'numeric' })}. For ${classLevel}, ${sourceLabel} shows: ${lessonNames}.\n\nThe scheme-of-learning loaded is ${schemeLabel}. Relevant topics are: ${schemeInfo}.`;
 }
 
 /**
@@ -203,23 +211,33 @@ function resolveTomorrowTeachingQuestion(text) {
  * @param {Array<{role: string, content: string}>} history - Full message history
  * @returns {Promise<string>}
  */
-export async function curriculumChat(history) {
+export async function curriculumChat(history, { persona = 'teacher', classLevel = 'Basic 7', scheduleData, scheduleSource } = {}) {
   const latestUserText = [...(history ?? [])].reverse().find(msg => msg.role === 'user')?.content ?? '';
-  const tomorrowAnswer = resolveTomorrowTeachingQuestion(latestUserText);
+  const tomorrowAnswer = persona === 'teacher'
+    ? resolveTomorrowTeachingQuestion(latestUserText, scheduleData, scheduleSource)
+    : null;
   if (tomorrowAnswer) {
     return tomorrowAnswer;
   }
 
-  return chat([
-    {
-      role: 'system',
-      content: `You are a curriculum assistant for Ghanaian JHS teachers using the NaCCA Common Core Programme. 
-Help teachers understand curriculum requirements, plan lessons, generate activities, explain concepts, 
+  const systemPrompt = persona === 'student'
+    ? `You are a patient Ghanaian JHS learning tutor helping a ${classLevel} student.
+Use simple, age-appropriate language and examples from everyday life in Ghana.
+Break difficult ideas into small steps, ask one guiding question at a time, and encourage the learner to try before revealing a full solution.
+Never shame the learner. If the question is outside the NaCCA JHS curriculum, say so clearly and still offer a helpful, safe explanation.
+Format responses clearly and keep them focused on the learner's question.`
+    : `You are a curriculum assistant for Ghanaian JHS teachers using the NaCCA Common Core Programme.
+Help teachers understand curriculum requirements, plan lessons, generate activities, explain concepts,
 and create assessments. Keep responses practical and relevant to Ghanaian classroom contexts.
 When discussing specific curriculum codes (like B7.1.1.1.1), explain what they mean in full.
 Format your responses clearly with headings where appropriate.
-If asked about tomorrow's teaching, check the timetable and the scheme of learning, then answer using the date, class, and week context.`,
+If asked about tomorrow's teaching, check the timetable and the scheme of learning, then answer using the date, class, and week context.`;
+
+  return chat([
+    {
+      role: 'system',
+      content: systemPrompt,
     },
-    ...history,
+    ...(history ?? []),
   ]);
 }

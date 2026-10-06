@@ -202,6 +202,13 @@ export const WEEK_5_SCHEME = {
   },
 };
 
+export const SAMPLE_TEACHER_SCHEDULE = {
+  scheduleId: 'sample',
+  scheduleVersion: 1,
+  weeklyTimetable: SAMPLE_WEEKLY_TIMETABLE,
+  schemesOfLearning: WEEK_5_SCHEME,
+};
+
 export function getSchoolWeekInfo(date = new Date()) {
   const current = new Date(date);
   const termStart = new Date('2026-09-07T00:00:00');
@@ -211,13 +218,14 @@ export function getSchoolWeekInfo(date = new Date()) {
   return { term, week: Math.max(1, week) };
 }
 
-export function getTomorrowSchedule(classLevel = 'Basic 7', date = new Date()) {
+export function getTomorrowSchedule(classLevel = 'Basic 7', date = new Date(), scheduleData = SAMPLE_TEACHER_SCHEDULE) {
   const tomorrow = new Date(date);
   tomorrow.setDate(tomorrow.getDate() + 1);
   const dayName = DAY_ORDER[(tomorrow.getDay() + 6) % 7];
-  const weekdayLessons = SAMPLE_WEEKLY_TIMETABLE[classLevel]?.[dayName] ?? [];
+  const timetable = scheduleData?.weeklyTimetable ?? SAMPLE_WEEKLY_TIMETABLE;
+  const weekdayLessons = timetable[classLevel]?.[dayName] ?? [];
   const { term, week } = getSchoolWeekInfo(tomorrow);
-  const scheme = WEEK_5_SCHEME[classLevel];
+  const scheme = scheduleData?.schemesOfLearning?.[classLevel] ?? WEEK_5_SCHEME[classLevel];
 
   return {
     date: tomorrow,
@@ -227,5 +235,6 @@ export function getTomorrowSchedule(classLevel = 'Basic 7', date = new Date()) {
     week,
     lessons: weekdayLessons,
     scheme,
+    scheduleId: scheduleData?.scheduleId ?? 'sample',
   };
 }

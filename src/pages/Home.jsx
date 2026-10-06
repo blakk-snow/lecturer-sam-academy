@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { BookOpen, CalendarDays, GraduationCap } from "lucide-react";
+import { BookMarked, BookOpen, CalendarDays, GraduationCap } from "lucide-react";
 import { Button } from "../components/ui/Button";
 import { useStudent } from "../context/StudentContext";
 
@@ -35,6 +35,11 @@ export default function Home() {
                   Browse Curriculum
                 </Button>
               </Link>
+              <Link to="/scheme">
+                <Button variant="secondary" className="w-full sm:w-auto">
+                  View Scheme
+                </Button>
+              </Link>
             </div>
           </div>
 
@@ -61,7 +66,7 @@ export default function Home() {
       </section>
 
       {/* Feature cards */}
-      <section className="grid gap-4 sm:grid-cols-3">
+      <section className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
         {[
           {
             icon: CalendarDays,
@@ -74,6 +79,12 @@ export default function Home() {
             title: "Curriculum Browser",
             text: "Explore the full NaCCA Common Core Programme for Basic 7–9 across all subjects — strands, standards and indicators.",
             to: "/curriculum",
+          },
+          {
+            icon: BookMarked,
+            title: "Scheme of Learning",
+            text: "Browse the 2026/2027 Mathematics and Science scheme for Basic 7 and 8, with week-by-week curriculum details.",
+            to: "/scheme",
           },
           {
             icon: BookOpen,

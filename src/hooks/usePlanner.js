@@ -309,17 +309,18 @@ export function usePlannerActions() {
       removeSubject:   (subId, termId, cgId)           =>
                                                           fsCrud.removeSubject(uid, String(termId), String(cgId), String(subId)),
       // Week plans (need termId, cgId as extra args)
-      upsertWeekPlan:  (subId, weekNum, fields, termId, cgId) =>
-                                                          fsCrud.upsertWeekPlan(uid, String(termId), String(cgId), String(subId), weekNum, fields),
+      upsertWeekPlan:  (subId, weekNum, fields, termId, cgId, expectedRevision) =>
+                                                          fsCrud.upsertWeekPlan(uid, String(termId), String(cgId), String(subId), weekNum, fields, expectedRevision),
       // Week topics (need termId, cgId, subId, weekNum)
       addWeekTopic:    (planId, data, termId, cgId, subId, weekNum) =>
                                                           fsCrud.addWeekTopic(uid, String(termId), String(cgId), String(subId), weekNum, data),
-      updateWeekTopic: (topicId, changes, termId, cgId, subId, weekNum) =>
-                                                          fsCrud.updateWeekTopic(uid, String(termId), String(cgId), String(subId), String(weekNum), String(topicId), changes),
+      updateWeekTopic: (topicId, changes, termId, cgId, subId, weekNum, expectedRevision) =>
+                                                          fsCrud.updateWeekTopic(uid, String(termId), String(cgId), String(subId), String(weekNum), String(topicId), changes, expectedRevision),
       removeWeekTopic: (topicId, termId, cgId, subId, weekNum) =>
                                                           fsCrud.removeWeekTopic(uid, String(termId), String(cgId), String(subId), String(weekNum), String(topicId)),
       // Lesson notes (flat under uid)
-      upsertLessonNote:(topicId, data)                 => fsCrud.upsertLessonNote(uid, String(topicId), data),
+      upsertLessonNote:(topicId, data, expectedRevision) =>
+                                                          fsCrud.upsertLessonNote(uid, String(topicId), data, expectedRevision),
       getLessonNote:   (topicId)                       => fsCrud.getLessonNote(uid, String(topicId)),
     };
   }
@@ -339,13 +340,16 @@ export function usePlannerActions() {
     updateSubject:   (subId, changes)     => dexiePlanner.updateSubject(subId, changes),
     removeSubject:   (subId)              => dexiePlanner.removeSubject(subId),
     // Week plans
-    upsertWeekPlan:  (subId, weekNum, fields) => dexiePlanner.upsertWeekPlan(subId, weekNum, fields),
+    upsertWeekPlan:  (subId, weekNum, fields, _termId, _cgId, expectedRevision) =>
+                                          dexiePlanner.upsertWeekPlan(subId, weekNum, fields, expectedRevision),
     // Week topics
     addWeekTopic:    (planId, data)       => dexiePlanner.addWeekTopic(planId, data),
-    updateWeekTopic: (topicId, changes)   => dexiePlanner.updateWeekTopic(topicId, changes),
+    updateWeekTopic: (topicId, changes, _termId, _cgId, _subId, _weekNum, expectedRevision) =>
+                                          dexiePlanner.updateWeekTopic(topicId, changes, expectedRevision),
     removeWeekTopic: (topicId)            => dexiePlanner.removeWeekTopic(topicId),
     // Lesson notes
-    upsertLessonNote:(topicId, data)      => dexiePlanner.upsertLessonNote(topicId, data),
+    upsertLessonNote:(topicId, data, expectedRevision) =>
+                                          dexiePlanner.upsertLessonNote(topicId, data, expectedRevision),
     getLessonNote:   (topicId)            => dexiePlanner.getLessonNote(topicId),
   };
 }

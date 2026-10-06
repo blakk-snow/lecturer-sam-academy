@@ -1,19 +1,36 @@
 import { useState } from 'react';
 import { X } from 'lucide-react';
-import { curriculumMap } from '../../data/curriculumData';
+import { classes as curriculumClasses, curriculumMap, subjects as curriculumSubjects } from '../../data/curriculumData';
 import { Button } from '../../components/ui/Button';
 
 export function AddTopicModal({
   subjectName,
   curriculumSubjectId,
   curriculumClassId,
+  plannerClassId,
+  className,
   onAdd,
   onClose,
   initialData,
   onUpdate,
 }) {
-  const strands = (curriculumMap[curriculumSubjectId] ?? {})[curriculumClassId] ?? [];
+  const [selectedCurriculumSubjectId, setSelectedCurriculumSubjectId] = useState(
+    initialData?.curriculumSubjectId ?? curriculumSubjectId ?? '',
+  );
+  const [selectedCurriculumClassId, setSelectedCurriculumClassId] = useState(
+    plannerClassId ?? initialData?.curriculumClassId ?? curriculumClassId ?? '',
+  );
+  const availableClasses = curriculumClasses.filter(cl =>
+    (!plannerClassId || cl.id === plannerClassId) &&
+    (curriculumMap[selectedCurriculumSubjectId] ?? {})[cl.id]?.length > 0,
+  );
+  const subjectHasCurriculum = subjectId => curriculumClasses.some(cl =>
+    (!plannerClassId || cl.id === plannerClassId) &&
+    (curriculumMap[subjectId] ?? {})[cl.id]?.length > 0,
+  );
+  const strands = (curriculumMap[selectedCurriculumSubjectId] ?? {})[selectedCurriculumClassId] ?? [];
   const hasCurriculum = strands.length > 0;
+  const inputClass = 'border border-line rounded-xl bg-paper px-3 py-2 w-full text-ink text-sm focus:outline-none focus:border-accent';
 
   const parseIds = (raw) =>
     Array.isArray(raw) ? raw : (typeof raw === 'string' ? JSON.parse(raw || '[]') : []);
@@ -72,6 +89,28 @@ export function AddTopicModal({
     setSelectedIndicatorIds([]);
   }
 
+  function handleCurriculumSubjectChange(nextSubjectId) {
+    setSelectedCurriculumSubjectId(nextSubjectId);
+    const nextClassId = curriculumClasses.find(cl =>
+      (!plannerClassId || cl.id === plannerClassId) &&
+      (curriculumMap[nextSubjectId] ?? {})[cl.id]?.length > 0,
+    )?.id ?? '';
+    setSelectedCurriculumClassId(nextClassId);
+    setActiveStrandId((curriculumMap[nextSubjectId] ?? {})[nextClassId]?.[0]?.id ?? null);
+    setActiveSubStrandId(null);
+    setActiveStandardId(null);
+    setSelectedIndicatorIds([]);
+  }
+
+  function handleCurriculumClassChange(nextClassId) {
+    const nextStrands = (curriculumMap[selectedCurriculumSubjectId] ?? {})[nextClassId] ?? [];
+    setSelectedCurriculumClassId(nextClassId);
+    setActiveStrandId(nextStrands[0]?.id ?? null);
+    setActiveSubStrandId(null);
+    setActiveStandardId(null);
+    setSelectedIndicatorIds([]);
+  }
+
   function selectStandard(csId) {
     setActiveStandardId(csId);
     setSelectedIndicatorIds([]);
@@ -79,37 +118,32 @@ export function AddTopicModal({
 
   function handleSubmit() {
     const payload = {
-      strandId: activeStrandId,
-      subStrandId: activeSubStrandId,
+      curriculumSubjectId: selectedCurriculumSubjectId || null,
+      curriculumClassId: selectedCurriculumClassId || null,
+      strandId: hasCurriculum ? activeStrandId : null,
+      subStrandId: hasCurriculum ? activeSubStrandId : null,
       contentStandardId: hasCurriculum ? activeStandardId : null,
-      indicatorIds: selectedIndicatorIds,
+      indicatorIds: hasCurriculum ? selectedIndicatorIds : [],
       notes,
       resources,
     };
 
     if (onUpdate) {
       onUpdate(payload);
-    } else if (hasCurriculum) {
-      onAdd(payload);
     } else {
-      onAdd({
-        strandId: null,
-        subStrandId: null,
-        contentStandardId: null,
-        indicatorIds: [],
-        notes,
-        resources,
-      });
+      onAdd(payload);
     }
   }
 
-  const canSubmit = hasCurriculum ? Boolean(activeStandardId) : notes.trim().length > 0;
+  const canSubmit = hasCurriculum
+    ? Boolean(activeStandardId)
+    : Boolean(notes.trim() || resources.trim());
 
   const isEditMode = Boolean(onUpdate);
 
   return (
     <div className="fixed inset-0 z-50 bg-black/50 flex items-center justify-center">
-      <div className="bg-card rounded-xl p-5 max-w-sm w-full mx-4 max-h-[80vh] overflow-y-auto">
+      <div className="bg-card rounded-xl p-5 max-w-lg w-full mx-4 max-h-[85vh] overflow-y-auto">
         {/* Header */}
         <div className="flex items-center justify-between mb-4">
           <h2 className="font-semibold text-ink">
@@ -123,6 +157,57 @@ export function AddTopicModal({
           >
             <X size={20} />
           </button>
+        </div>
+
+        <div className="mb-5 space-y-3 rounded-xl border border-line bg-paper p-3">
+          <p className="text-xs font-semibold uppercase tracking-wide text-ink-soft">
+            Link this topic to the NaCCA curriculum
+          </p>
+          <label className="block text-sm text-ink-soft">
+            Curriculum subject
+            <select
+              value={selectedCurriculumSubjectId}
+              onChange={event => handleCurriculumSubjectChange(event.target.value)}
+              className={`${inputClass} mt-1`}
+            >
+              <option value="">Select a curriculum subject</option>
+              {curriculumSubjects.map(item => (
+                <option
+                  key={item.id}
+                  value={item.id}
+                  disabled={!subjectHasCurriculum(item.id)}
+                >
+                  {item.label}{subjectHasCurriculum(item.id) ? '' : ' — curriculum data unavailable'}
+                </option>
+              ))}
+            </select>
+          </label>
+          {selectedCurriculumSubjectId && (
+            <label className="block text-sm text-ink-soft">
+              Curriculum class
+              <select
+                value={selectedCurriculumClassId}
+                onChange={event => handleCurriculumClassChange(event.target.value)}
+                className={`${inputClass} mt-1`}
+              >
+                <option value="">Select a curriculum class</option>
+                {selectedCurriculumClassId && !availableClasses.some(item => item.id === selectedCurriculumClassId) && (
+                  <option value={selectedCurriculumClassId} disabled>
+                    {curriculumClasses.find(item => item.id === selectedCurriculumClassId)?.label ?? selectedCurriculumClassId}
+                    {' — no curriculum data for this class'}
+                  </option>
+                )}
+                {availableClasses.map(item => (
+                  <option key={item.id} value={item.id}>{item.label}</option>
+                ))}
+              </select>
+            </label>
+          )}
+          {className && (
+            <p className="text-xs text-ink-soft">
+              Planner class: {className}. Choose the matching NaCCA class above.
+            </p>
+          )}
         </div>
 
         {hasCurriculum ? (
@@ -212,18 +297,25 @@ export function AddTopicModal({
               </>
             )}
           </>
-        ) : null}
+        ) : (
+          <p className="mb-4 rounded-xl border border-line bg-paper p-3 text-sm text-ink-soft">
+            Choose a curriculum subject and class to browse strands, sub-strands, content standards, and indicators.
+            {selectedCurriculumSubjectId && selectedCurriculumClassId && !hasCurriculum
+              ? ` The embedded curriculum has no entries for this subject and class${className ? ` (${className})` : ''}. Choose an available subject or add notes without a curriculum link.`
+              : ''}
+          </p>
+        )}
 
         {/* Notes */}
         <p className="text-xs text-ink-soft uppercase font-semibold tracking-wide mb-2">
-          {hasCurriculum ? 'Notes (optional)' : 'Note'}
+          {hasCurriculum ? 'Notes (optional)' : 'Notes'}
         </p>
         <textarea
           value={notes}
           onChange={e => setNotes(e.target.value)}
           rows={3}
           placeholder="Add a note or description..."
-          className="border border-line rounded-xl bg-paper px-3 py-2 w-full text-ink text-sm focus:outline-none focus:border-accent resize-none mb-4"
+          className={`${inputClass} resize-none mb-4`}
         />
 
         {/* Resources */}
@@ -235,7 +327,7 @@ export function AddTopicModal({
           onChange={e => setResources(e.target.value)}
           rows={2}
           placeholder="Links, textbook pages, materials…"
-          className="border border-line rounded-xl bg-paper px-3 py-2 w-full text-ink text-sm focus:outline-none focus:border-accent resize-none mb-4"
+          className={`${inputClass} resize-none mb-4`}
         />
 
         <Button

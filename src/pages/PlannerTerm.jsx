@@ -89,7 +89,10 @@ export default function PlannerTerm() {
 
   // Classes available for the selected curriculum subject
   const availableCurriculumClasses = subjectCurriculumSubjectId
-    ? curriculumClasses.filter(c => Boolean((curriculumMap[subjectCurriculumSubjectId] ?? {})[c.id]))
+    ? curriculumClasses.filter(c =>
+      c.id === classGroups?.find(group => String(group.id) === String(addSubjectForGroup))?.classLevel &&
+      (curriculumMap[subjectCurriculumSubjectId] ?? {})[c.id]?.length > 0,
+    )
     : [];
 
   const inputClass = 'border border-line rounded-xl bg-paper px-3 py-2 w-full text-ink focus:outline-none focus:border-accent text-sm';
@@ -278,25 +281,43 @@ export default function PlannerTerm() {
                   className={`${inputClass} mt-1`}
                 >
                   <option value="">— None —</option>
-                  {curriculumSubjects.map(s => (
-                    <option key={s.id} value={s.id}>{s.label}</option>
-                  ))}
+                  {curriculumSubjects.map(s => {
+                    const groupClassLevel = classGroups?.find(group =>
+                      String(group.id) === String(addSubjectForGroup),
+                    )?.classLevel;
+                    const hasClassCurriculum = Boolean(
+                      groupClassLevel && (curriculumMap[s.id] ?? {})[groupClassLevel]?.length > 0,
+                    );
+                    return (
+                      <option key={s.id} value={s.id} disabled={!hasClassCurriculum}>
+                        {s.label}{hasClassCurriculum ? '' : ' — unavailable for this class'}
+                      </option>
+                    );
+                  })}
                 </select>
               </div>
 
               {subjectCurriculumSubjectId && (
                 <div>
-                  <label className="text-sm text-ink-soft font-medium">Curriculum Class</label>
-                  <select
-                    value={subjectCurriculumClassId}
-                    onChange={e => setSubjectCurriculumClassId(e.target.value)}
-                    className={`${inputClass} mt-1`}
-                  >
-                    <option value="">— Select class —</option>
-                    {availableCurriculumClasses.map(c => (
-                      <option key={c.id} value={c.id}>{c.label}</option>
-                    ))}
-                  </select>
+                  {availableCurriculumClasses.length > 0 ? (
+                    <>
+                      <label className="text-sm text-ink-soft font-medium">Curriculum Class</label>
+                      <select
+                        value={subjectCurriculumClassId}
+                        onChange={e => setSubjectCurriculumClassId(e.target.value)}
+                        className={`${inputClass} mt-1`}
+                      >
+                        <option value="">— Select class —</option>
+                        {availableCurriculumClasses.map(c => (
+                          <option key={c.id} value={c.id}>{c.label}</option>
+                        ))}
+                      </select>
+                    </>
+                  ) : (
+                    <p className="mt-1 text-xs text-amber-700">
+                      Curriculum data is not available for this subject in the selected class.
+                    </p>
+                  )}
                 </div>
               )}
             </div>
@@ -306,7 +327,10 @@ export default function PlannerTerm() {
                 variant="primary"
                 className="flex-1"
                 onClick={handleAddSubject}
-                disabled={!subjectNameInput.trim()}
+                disabled={
+                  !subjectNameInput.trim() ||
+                  Boolean(subjectCurriculumSubjectId && !subjectCurriculumClassId)
+                }
               >
                 Add Subject
               </Button>

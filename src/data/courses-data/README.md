@@ -12,24 +12,17 @@ Examples:
 - `B7_NUMBER_OPERATIONS_Week_3.md`
 - `Basic8_English_Language_Adjectives.md`
 
-## Required conventions
-
-1. Start each file with a top-level heading (`# Title`)
-2. Include the class level in the filename (Basic 7, Basic 8, Basic 9)
-3. Where available, include the exact NaCCA indicator code using a format like `B7.1.2.2.1`
-4. Keep a single topic per file so the app can later map it to the correct curriculum strand/sub-strand
-5. Prefer plain Markdown with clear sections for objectives, explanation, worked examples, and practice questions
-
-## Suggested markdown format
+For new uploads, use frontmatter with a title, class, subject, and exact NaCCA indicator code(s). Keep the class level in the filename too, which makes files easy to identify outside the app.
 
 ```md
+---
+title: Agricultural Tools
+class: Basic 7
+subject: Integrated Science
+indicators: B7.1.2.2.1
+---
+
 # Agricultural Tools
-
-## Class
-Basic 7
-
-## Curriculum code
-B7.1.1.1.1
 
 ## Objectives
 - Identify common farm tools
@@ -38,16 +31,9 @@ B7.1.1.1.1
 ## Explanation
 A simple agricultural tool is one that is operated by hand and needs no engine.
 
-## Worked Example
-...
-
 ## Practice
 1. Which tool is used to clear weeds?
 2. Which tool is used to carry farm produce?
 ```
 
-## Parsing and indexing
-
-A build script (`scripts/parse-course-content.mjs`) scans this folder and generates a searchable index file at `src/data/courseUploads.js` for future app features.
-
-This is intentionally lightweight and upload-friendly: the app can grow from raw markdown files to a richer course library without forcing a rigid database schema up front.
+The parser scans markdown packs in this folder and generates `src/data/courseUploads.js`; the `curriculum` subfolder is excluded because the curriculum is already embedded separately. Run `npm run parse:course-data` to refresh the index, or `npm run check:course-data` to validate uploads against the embedded NaCCA curriculum. It reports unmatched codes inferred from legacy papers as warnings; explicitly declared frontmatter codes must match an embedded standard or indicator.

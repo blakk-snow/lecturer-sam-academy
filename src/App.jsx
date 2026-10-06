@@ -20,6 +20,7 @@ const PlannerTerm    = lazy(() => import("./pages/PlannerTerm"));
 const PlannerSubject = lazy(() => import("./pages/PlannerSubject"));
 const PlannerLesson  = lazy(() => import("./pages/PlannerLesson"));
 const AIAssistant    = lazy(() => import("./pages/AIAssistant"));
+const SchemeOfLearning = lazy(() => import("./pages/SchemeOfLearning"));
 
 // ── Fallback shown while a page chunk is loading ───────────────────────────────
 
@@ -55,6 +56,7 @@ export default function App() {
         <Route path="/lesson/:lessonId"                        element={<Lesson />} />
         <Route path="/practice"                                element={<Practice />} />
         <Route path="/curriculum"                              element={<Curriculum />} />
+        <Route path="/scheme"                                  element={<SchemeOfLearning />} />
         <Route path="/planner"                                 element={<Planner />} />
         <Route path="/planner/:termId"                         element={<PlannerTerm />} />
         <Route path="/planner/:termId/:subjectId"              element={<PlannerSubject />} />

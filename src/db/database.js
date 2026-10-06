@@ -24,4 +24,8 @@ db.version(3).stores({
   lessonNotes: "++id, topicId, day, date, weekNumber, starter, mainLearning, plenary, resourceUrl, resourceType, evaluation, homework, status, updatedAt",
 });
 
+db.version(4).stores({
+  teacherSchedules: "id, scheduleId, updatedAt",
+});
+
 export const LOCAL_STUDENT_ID = "local-student";
