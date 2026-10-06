@@ -14,13 +14,14 @@ const MODEL = 'openai/gpt-4o-mini';
 
 /**
  * @param {Array<{role: string, content: string}>} messages
+ * @param {object} [extra] - extra OpenRouter params (plugins, response_format, …)
  * @returns {Promise<string>} The assistant's text response
  */
-async function chat(messages) {
+async function chat(messages, extra = {}) {
   const res = await fetch('/api/generate', {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
-    body: JSON.stringify({ model: MODEL, messages }),
+    body: JSON.stringify({ model: MODEL, messages, ...extra }),
   });
 
   if (!res.ok) {
@@ -240,4 +241,249 @@ If asked about tomorrow's teaching, check the timetable and the scheme of learni
     },
     ...(history ?? []),
   ]);
+}
+
+// ── Streaming ─────────────────────────────────────────────────────────────────
+
+/**
+ * Stream a chat completion from OpenRouter (SSE pass-through via /api/generate).
+ *
+ * @param {object} opts
+ * @param {Array<{role: string, content: string}>} opts.messages
+ * @param {object} [opts.extra] - extra OpenRouter params (plugins, …)
+ * @param {(delta: string) => void} [opts.onToken] - called per text delta
+ * @param {AbortSignal} [opts.signal]
+ * @returns {Promise<{ text: string, sources: Array<{url: string, title: string}> }>}
+ */
+export async function chatStream({ messages, extra = {}, onToken, signal }) {
+  const res = await fetch('/api/generate', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ model: MODEL, messages, stream: true, ...extra }),
+    signal,
+  });
+
+  if (!res.ok || !res.body) {
+    const err = await res.json().catch(() => ({}));
+    const errObj = err.error;
+    const detail = typeof errObj === 'string'
+      ? errObj
+      : errObj?.message ?? JSON.stringify(errObj) ?? `AI request failed (${res.status})`;
+    throw new Error(`${res.status}: ${detail}`);
+  }
+
+  const reader = res.body.getReader();
+  const decoder = new TextDecoder();
+  let buffer = '';
+  let text = '';
+  const sources = [];
+  const seenUrls = new Set();
+
+  const collectCitations = (message) => {
+    const annotations = message?.annotations ?? message?.citations ?? [];
+    for (const ann of annotations) {
+      const cite = ann?.url_citation ?? ann;
+      const url = cite?.url;
+      if (url && !seenUrls.has(url)) {
+        seenUrls.add(url);
+        sources.push({ url, title: cite?.title ?? url });
+      }
+    }
+  };
+
+  while (true) {
+    const { done, value } = await reader.read();
+    if (done) break;
+    buffer += decoder.decode(value, { stream: true });
+    const lines = buffer.split('\n');
+    buffer = lines.pop() ?? '';
+    for (const line of lines) {
+      const trimmed = line.trim();
+      if (!trimmed.startsWith('data:')) continue;
+      const data = trimmed.slice(5).trim();
+      if (data === '[DONE]') continue;
+      let parsed;
+      try { parsed = JSON.parse(data); } catch { continue; }
+      const choice = parsed.choices?.[0];
+      const delta = choice?.delta?.content ?? '';
+      if (delta) { text += delta; onToken?.(delta); }
+      if (choice?.message) collectCitations(choice.message);
+    }
+  }
+
+  return { text, sources };
+}
+
+// ── Persona prompts ───────────────────────────────────────────────────────────
+
+const TEACHER_SYSTEM = `You are a curriculum assistant for Ghanaian JHS teachers using the NaCCA Common Core Programme.
+Help teachers understand curriculum requirements, plan lessons, generate activities, explain concepts,
+and create assessments. Keep responses practical and relevant to Ghanaian classroom contexts.
+When discussing specific curriculum codes (like B7.1.1.1.1), explain what they mean in full.
+Format your responses clearly with headings where appropriate.
+If asked about tomorrow's teaching, check the timetable and the scheme of learning, then answer using the date, class, and week context.`;
+
+const STUDENT_SYSTEM = (classLevel) => `You are a patient Ghanaian JHS learning tutor helping a ${classLevel} student.
+Use simple, age-appropriate language and examples from everyday life in Ghana.
+Break difficult ideas into small steps, ask one guiding question at a time, and encourage the learner to try before revealing a full solution.
+Never shame the learner. If the question is outside the NaCCA JHS curriculum, say so clearly and still offer a helpful, safe explanation.
+Format responses clearly and keep them focused on the learner's question.`;
+
+const RESEARCH_SYSTEM = `You are a research assistant for Ghanaian JHS teachers using the NaCCA Common Core Programme.
+The user wants authoritative information about curriculum content standards and indicators.
+You have web search results available. Use them: base your answer on the search results, and cite sources with URLs where they back a claim.
+If the search results contradict what you know, trust the search results.
+Structure your answer clearly: summary, key details, and sources at the end.
+Keep language practical for a Ghanaian classroom.`;
+
+// Curated educational domains for the research mode's web search.
+const RESEARCH_DOMAINS = [
+  'nacca.gov.gh',
+  'mgb.gov.gh',
+  'ghanaeducation.org',
+  'khanacademy.org',
+  'bbc.co.uk',
+  'openstax.org',
+  'geeksforgeeks.org',
+  'byjus.com',
+  'wikipedia.org',
+  'edu.gov.gh',
+];
+
+/**
+ * Streaming curriculum chat with local curriculum grounding.
+ * Indicator codes found in the latest message are looked up in the embedded
+ * curriculum tree and injected into the system prompt.
+ */
+export async function curriculumChatStream(history, {
+  persona = 'teacher',
+  classLevel = 'Basic 7',
+  scheduleData,
+  scheduleSource,
+  onToken,
+  signal,
+} = {}) {
+  const latestUserText = [...(history ?? [])].reverse().find(msg => msg.role === 'user')?.content ?? '';
+  const tomorrowAnswer = persona === 'teacher'
+    ? resolveTomorrowTeachingQuestion(latestUserText, scheduleData, scheduleSource)
+    : null;
+  if (tomorrowAnswer) {
+    onToken?.(tomorrowAnswer);
+    return { text: tomorrowAnswer, sources: [] };
+  }
+
+  const { findCurriculumEntries, formatEntriesContext } = await import('./curriculumSearch');
+  const entries = await findCurriculumEntries(latestUserText);
+  const grounding = formatEntriesContext(entries);
+
+  const systemPrompt = persona === 'student'
+    ? STUDENT_SYSTEM(classLevel)
+    : TEACHER_SYSTEM;
+
+  return chatStream({
+    messages: [
+      { role: 'system', content: grounding ? `${systemPrompt}\n\n${grounding}` : systemPrompt },
+      ...(history ?? []),
+    ],
+    onToken,
+    signal,
+  });
+}
+
+/**
+ * Streaming research chat with OpenRouter web search.
+ * Returns source citations alongside the text.
+ */
+export async function researchChatStream(history, { onToken, signal } = {}) {
+  const latestUserText = [...(history ?? [])].reverse().find(msg => msg.role === 'user')?.content ?? '';
+  const { findCurriculumEntries, formatEntriesContext } = await import('./curriculumSearch');
+  const entries = await findCurriculumEntries(latestUserText);
+  const grounding = formatEntriesContext(entries);
+
+  const systemPrompt = grounding
+    ? `${RESEARCH_SYSTEM}\n\n${grounding}`
+    : RESEARCH_SYSTEM;
+
+  return chatStream({
+    messages: [
+      { role: 'system', content: systemPrompt },
+      ...(history ?? []),
+    ],
+    extra: {
+      plugins: [{
+        id: 'web',
+        include_domains: RESEARCH_DOMAINS,
+        max_results: 5,
+      }],
+    },
+    onToken,
+    signal,
+  });
+}
+
+// ── Structured generation ─────────────────────────────────────────────────────
+
+/** Extract a JSON object from a model response that may contain markdown fences. */
+export function parseJsonObject(text) {
+  const cleaned = (text ?? '').replace(/```(?:json)?/gi, '').trim();
+  const start = cleaned.indexOf('{');
+  const end = cleaned.lastIndexOf('}');
+  if (start < 0 || end <= start) {
+    throw new Error('The model did not return a JSON object.');
+  }
+  return JSON.parse(cleaned.slice(start, end + 1));
+}
+
+/**
+ * Generate a weekly timetable as structured JSON:
+ * { "<Class>": { "Monday": [{ subject, period }], … }, … }
+ */
+export async function generateTimetable({ classLevels, subjects, periodsPerDay }) {
+  const dayNames = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'];
+  const text = await chat([
+    { role: 'system', content: 'You generate school timetables as strict JSON. Output ONLY the JSON object, no markdown, no commentary.' },
+    {
+      role: 'user',
+      content: `Create a weekly school timetable JSON for a Ghanaian JHS.
+
+Classes: ${classLevels.join(', ')}
+Subjects: ${subjects.join(', ')}
+Periods per day: ${periodsPerDay}
+Days: ${dayNames.join(', ')}
+
+Return a JSON object keyed by class name (exactly ${classLevels.map(c => `"${c}"`).join(', ')}). Each class maps to an object keyed by day name (${dayNames.map(d => `"${d}"`).join(', ')}). Each day is an array of ${periodsPerDay} objects: { "subject": "<subject name>", "period": <1..${periodsPerDay}> }, covering every period exactly once.
+Distribute subjects evenly across the week, avoid the same subject in consecutive periods where possible, and give Mathematics and English more frequent slots than others.`,
+    },
+  ], { response_format: { type: 'json_object' } });
+
+  const parsed = parseJsonObject(text);
+  for (const classLevel of classLevels) {
+    if (!parsed[classLevel]) throw new Error('Timetable JSON is missing a class.');
+  }
+  return parsed;
+}
+
+/**
+ * Split a generated full lesson plan into the fields the lesson note stores.
+ * Returns { starter, mainLearning, plenary, evaluation, homework }.
+ */
+export function extractLessonPlanSections(text) {
+  const aliases = {
+    starter:      ['STARTER ACTIVITY', 'STARTER'],
+    mainLearning: ['MAIN LEARNING', 'MAIN ACTIVITY', 'MAIN TEACHING'],
+    plenary:      ['PLENARY'],
+    evaluation:   ['EVALUATION', 'ASSESSMENT', 'FORMATIVE ASSESSMENT'],
+    homework:     ['HOMEWORK', 'TAKE-HOME', 'HOME ACTIVITY'],
+  };
+  const result = {};
+  for (const [field, keys] of Object.entries(aliases)) {
+    let found = null;
+    for (const key of keys) {
+      const re = new RegExp(`\\*\\*${key}[^*]*\\*\\*[:\\s]*([\\s\\S]*?)(?=\\n\\*\\*[A-Z]|$)`, 'i');
+      const m = (text ?? '').match(re);
+      if (m) { found = m[1].trim(); break; }
+    }
+    result[field] = found ?? '';
+  }
+  return result;
 }

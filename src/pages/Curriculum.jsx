@@ -2,6 +2,7 @@ import { useState, useCallback, useEffect, useRef } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { ChevronDown, ChevronUp, GraduationCap, X, Copy, Check, Loader2, ArrowRight } from 'lucide-react';
 import { generateLessonPlan, generateActivities, generateAssessment, explainIndicator } from '../services/ai';
+import { Markdown } from '../components/chat/Markdown';
 
 // curriculumData is loaded lazily — it's ~600 KB and only needed on this page.
 const curriculumDataPromise = import('../data/curriculumData');
@@ -21,44 +22,6 @@ const ACTION_TITLES = {
   assessment: '📝 Assessment',
   explain:    '💡 Indicator Explained',
 };
-
-// ── Markdown-lite renderer ────────────────────────────────────────────────────
-// Renders **bold** and newlines from AI text without a markdown library.
-
-function AiText({ text }) {
-  if (!text) return null;
-  const paragraphs = text.split(/\n{2,}/);
-  return (
-    <div className="space-y-3">
-      {paragraphs.map((para, i) => {
-        const lines = para.split('\n');
-        return (
-          <div key={i} className="space-y-1">
-            {lines.map((line, j) => {
-              // Bold headings like **STARTER ACTIVITY**
-              const boldHeading = line.match(/^\*\*(.+)\*\*\s*:?\s*(.*)$/);
-              if (boldHeading) {
-                return (
-                  <div key={j}>
-                    <span className="font-semibold text-ink">{boldHeading[1]}</span>
-                    {boldHeading[2] && <span className="text-ink"> — {boldHeading[2]}</span>}
-                  </div>
-                );
-              }
-              // Numbered / bulleted list items
-              if (/^(\d+\.|[-•*])\s/.test(line)) {
-                return <p key={j} className="text-sm text-ink pl-3">{line}</p>;
-              }
-              return line.trim()
-                ? <p key={j} className="text-sm text-ink leading-relaxed">{line}</p>
-                : null;
-            })}
-          </div>
-        );
-      })}
-    </div>
-  );
-}
 
 // ── AI Drawer (slide-up modal) ────────────────────────────────────────────────
 
@@ -189,7 +152,7 @@ function AIDrawer({ open, onClose, context, action, onPlanToPlanner }) {
 
           {result && !loading && (
             <div className="rounded-xl bg-paper border border-line p-4">
-              <AiText text={result} />
+              <Markdown text={result} />
             </div>
           )}
         </div>

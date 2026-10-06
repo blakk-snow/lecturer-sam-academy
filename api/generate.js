@@ -35,13 +35,17 @@ export default async function handler(req, res) {
     return;
   }
 
-  // Parse body — Vercel provides req.body already parsed when Content-Type is application/json
-  const { model, messages } = req.body ?? {};
+  // Parse body — Vercel provides req.body already parsed when Content-Type is application/json.
+  // Forward everything the client sent (plugins, web_search_options, stream,
+  // temperature, …) so web search and streaming work without function changes.
+  const { model, messages, ...rest } = req.body ?? {};
 
   if (!Array.isArray(messages) || messages.length === 0) {
     res.status(400).json({ error: 'messages array is required' });
     return;
   }
+
+  const stream = rest.stream === true;
 
   try {
     const orRes = await fetch('https://openrouter.ai/api/v1/chat/completions', {
@@ -55,18 +59,37 @@ export default async function handler(req, res) {
       body: JSON.stringify({
         model: model || 'openai/gpt-4o-mini',
         messages,
+        ...rest,
       }),
     });
 
-    const data = await orRes.json();
-
     if (!orRes.ok) {
-      console.error('[api/generate] OpenRouter error:', orRes.status, JSON.stringify(data).slice(0, 300));
+      const errData = await orRes.json().catch(() => ({}));
+      console.error('[api/generate] OpenRouter error:', orRes.status, JSON.stringify(errData).slice(0, 300));
+      res.status(orRes.status).json(errData);
+      return;
     }
 
-    res.status(orRes.status).json(data);
+    if (stream && orRes.body) {
+      // Pipe the SSE stream through to the client.
+      res.status(200);
+      res.setHeader('Content-Type', orRes.headers.get('content-type') || 'text/event-stream');
+      res.setHeader('Cache-Control', 'no-cache, no-transform');
+      for await (const chunk of orRes.body) {
+        res.write(chunk);
+      }
+      res.end();
+      return;
+    }
+
+    const data = await orRes.json();
+    res.status(200).json(data);
   } catch (err) {
     console.error('[api/generate] Fetch error:', err.message);
-    res.status(500).json({ error: 'Failed to reach OpenRouter', detail: err.message });
+    if (!res.headersSent) {
+      res.status(500).json({ error: 'Failed to reach OpenRouter', detail: err.message });
+    } else {
+      res.end();
+    }
   }
 }

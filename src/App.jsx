@@ -1,6 +1,7 @@
 import { Suspense, lazy } from "react";
 import { Navigate, Route, Routes } from "react-router-dom";
 import { AppShell } from "./components/layout/AppShell";
+import { ChatProvider } from "./context/ChatContext";
 
 // ── Lazy-loaded pages ──────────────────────────────────────────────────────────
 // Each page becomes a separate Vite chunk, loaded only when first visited.
@@ -21,6 +22,7 @@ const PlannerSubject = lazy(() => import("./pages/PlannerSubject"));
 const PlannerLesson  = lazy(() => import("./pages/PlannerLesson"));
 const AIAssistant    = lazy(() => import("./pages/AIAssistant"));
 const SchemeOfLearning = lazy(() => import("./pages/SchemeOfLearning"));
+const Timetable      = lazy(() => import("./pages/Timetable"));
 
 // ── Fallback shown while a page chunk is loading ───────────────────────────────
 
@@ -39,7 +41,9 @@ function PageLoader() {
 function SuspenseShell() {
   return (
     <Suspense fallback={<PageLoader />}>
-      <AppShell />
+      <ChatProvider>
+        <AppShell />
+      </ChatProvider>
     </Suspense>
   );
 }
@@ -57,6 +61,7 @@ export default function App() {
         <Route path="/practice"                                element={<Practice />} />
         <Route path="/curriculum"                              element={<Curriculum />} />
         <Route path="/scheme"                                  element={<SchemeOfLearning />} />
+        <Route path="/timetable"                               element={<Timetable />} />
         <Route path="/planner"                                 element={<Planner />} />
         <Route path="/planner/:termId"                         element={<PlannerTerm />} />
         <Route path="/planner/:termId/:subjectId"              element={<PlannerSubject />} />

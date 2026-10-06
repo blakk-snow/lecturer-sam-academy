@@ -28,4 +28,8 @@ db.version(4).stores({
   teacherSchedules: "id, scheduleId, updatedAt",
 });
 
+db.version(5).stores({
+  chatThreads: "id, updatedAt",
+});
+
 export const LOCAL_STUDENT_ID = "local-student";

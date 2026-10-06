@@ -1,10 +1,12 @@
 import { Link } from "react-router-dom";
-import { BookMarked, BookOpen, CalendarDays, GraduationCap } from "lucide-react";
+import { BookMarked, BookOpen, Bot, CalendarDays, GraduationCap } from "lucide-react";
 import { Button } from "../components/ui/Button";
 import { useStudent } from "../context/StudentContext";
+import { useChat } from "../context/ChatContext";
 
 export default function Home() {
   const { student } = useStudent();
+  const { openPanel } = useChat();
   const startTo = student ? "/dashboard" : "/profile";
 
   return (
@@ -103,6 +105,20 @@ export default function Home() {
             </article>
           </Link>
         ))}
+      </section>
+
+      {/* AI assistant banner */}
+      <section className="rounded-2xl border border-accent/30 bg-accent/5 p-6 flex flex-col sm:flex-row items-start sm:items-center gap-4">
+        <div className="w-11 h-11 rounded-full bg-accent/10 flex items-center justify-center shrink-0">
+          <Bot size={22} className="text-accent" />
+        </div>
+        <div className="flex-1">
+          <h2 className="font-serif text-xl">Ask your AI assistant</h2>
+          <p className="mt-1 text-sm text-ink-soft">
+            Create a timetable, draft a lesson plan from any curriculum indicator, or research a topic online — right from a chat.
+          </p>
+        </div>
+        <Button onClick={openPanel} className="shrink-0">Start a chat</Button>
       </section>
 
       {/* Quote strip */}

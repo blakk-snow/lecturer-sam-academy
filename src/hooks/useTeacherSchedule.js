@@ -1,10 +1,10 @@
-import { useEffect, useState } from 'react';
+import { useEffect, useState, useCallback } from 'react';
 import { doc, onSnapshot } from 'firebase/firestore';
 import { useLiveQuery } from 'dexie-react-hooks';
 import { db as firestore } from '../firebase';
 import { useAuth } from '../context/AuthContext';
 import { db as dexieDb } from '../db/database';
-import { cacheTeacherSchedule } from '../db/teacherSchedule';
+import { cacheTeacherSchedule, saveTeacherSchedule } from '../db/teacherSchedule';
 import { SAMPLE_TEACHER_SCHEDULE } from '../data/ai/teacherSchedule';
 
 export function useTeacherSchedule() {
@@ -39,8 +39,25 @@ export function useTeacherSchedule() {
     );
   }, [user?.uid]);
 
+  // Save a timetable: Firestore when signed in, local cache always.
+  const save = useCallback((weeklyTimetable) => {
+    const current = cloudState.uid === user?.uid && cloudState.schedule
+      ? cloudState.schedule
+      : localSchedule ?? SAMPLE_TEACHER_SCHEDULE;
+    return saveTeacherSchedule(user?.uid ?? null, {
+      ...current,
+      weeklyTimetable,
+    });
+  }, [cloudState, localSchedule, user?.uid]);
+
   if (user?.uid && cloudState.uid === user.uid && cloudState.schedule) {
-    return { schedule: cloudState.schedule, source: 'cloud', error: cloudState.error, loading: false };
+    return {
+      schedule: cloudState.schedule,
+      source: 'cloud',
+      error: cloudState.error,
+      loading: false,
+      save,
+    };
   }
   if (localSchedule) {
     return {
@@ -48,6 +65,7 @@ export function useTeacherSchedule() {
       source: user ? 'offline' : 'local',
       error: cloudState.uid === user?.uid ? cloudState.error : null,
       loading: false,
+      save,
     };
   }
   return {
@@ -55,5 +73,6 @@ export function useTeacherSchedule() {
     source: 'sample',
     error: cloudState.uid === user?.uid ? cloudState.error : null,
     loading: Boolean(user?.uid && cloudState.uid !== user.uid),
+    save,
   };
 }

@@ -1,4 +1,4 @@
-import { doc, runTransaction, serverTimestamp } from 'firebase/firestore';
+import { doc, runTransaction, serverTimestamp, setDoc } from 'firebase/firestore';
 import { db as firestore } from '../firebase';
 import { SAMPLE_TEACHER_SCHEDULE } from '../data/ai/teacherSchedule';
 import { db as dexieDb } from './database';
@@ -40,4 +40,30 @@ export async function ensureSampleTeacherSchedule(uid) {
       updatedAt: serverTimestamp(),
     });
   });
+}
+
+/**
+ * Save a user-edited timetable.
+ * Signed in: writes to /users/{uid}/teacher_schedules/{scheduleId} (last-write-wins
+ * with a scheduleVersion bump) AND caches locally. Signed out: local cache only,
+ * matching the planner's offline-first behaviour.
+ */
+export async function saveTeacherSchedule(uid, schedule) {
+  const record = toLocalRecord(schedule);
+  record.scheduleVersion = (schedule.scheduleVersion ?? 0) + 1;
+
+  if (uid) {
+    const ref = teacherScheduleRef(uid);
+    await setDoc(ref, {
+      scheduleId: record.scheduleId,
+      scheduleVersion: record.scheduleVersion,
+      weeklyTimetable: record.weeklyTimetable,
+      schemesOfLearning: record.schemesOfLearning,
+      authorId: uid,
+      updatedAt: serverTimestamp(),
+    }, { merge: true });
+  }
+
+  await cacheTeacherSchedule(record);
+  return record;
 }

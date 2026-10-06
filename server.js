@@ -77,6 +77,17 @@ function readBody(req, maxBytes = 64 * 1024) {
 
 // ── OpenRouter proxy ──────────────────────────────────────────────────────────
 
+function openRouterHeaders(payloadLength) {
+  return {
+    'Authorization': `Bearer ${OPENROUTER_API_KEY}`,
+    'HTTP-Referer': SITE_URL,
+    'X-Title': SITE_NAME,
+    'Content-Type': 'application/json',
+    'Content-Length': payloadLength,
+  };
+}
+
+/** Buffered (non-streaming) proxy — returns { status, body }. */
 function proxyToOpenRouter(body) {
   return new Promise((resolve, reject) => {
     const payload = Buffer.from(body, 'utf8');
@@ -85,13 +96,7 @@ function proxyToOpenRouter(body) {
       hostname: 'openrouter.ai',
       path: '/api/v1/chat/completions',
       method: 'POST',
-      headers: {
-        'Authorization': `Bearer ${OPENROUTER_API_KEY}`,
-        'HTTP-Referer': SITE_URL,
-        'X-Title': SITE_NAME,
-        'Content-Type': 'application/json',
-        'Content-Length': payload.length,
-      },
+      headers: openRouterHeaders(payload.length),
     };
 
     const req = https.request(options, (res) => {
@@ -103,6 +108,49 @@ function proxyToOpenRouter(body) {
     req.on('error', reject);
     req.write(payload);
     req.end();
+  });
+}
+
+/**
+ * Streaming proxy — pipes OpenRouter's SSE stream straight to the client.
+ * Resolves { streamed: true } on success, or { status, body } when the
+ * upstream returns a non-2xx status (the body is buffered so the client
+ * receives the error as JSON).
+ */
+function streamFromOpenRouter(body, clientRes) {
+  return new Promise((resolve, reject) => {
+    const payload = Buffer.from(body, 'utf8');
+
+    const options = {
+      hostname: 'openrouter.ai',
+      path: '/api/v1/chat/completions',
+      method: 'POST',
+      headers: openRouterHeaders(payload.length),
+    };
+
+    const upstream = https.request(options, (upRes) => {
+      // Upstream error — buffer it and let the caller answer with JSON.
+      if (upRes.statusCode < 200 || upRes.statusCode >= 300) {
+        let data = '';
+        upRes.on('data', chunk => { data += chunk; });
+        upRes.on('end', () => resolve({ status: upRes.statusCode, body: data }));
+        return;
+      }
+
+      clientRes.writeHead(upRes.statusCode, {
+        'Content-Type': upRes.headers['content-type'] || 'text/event-stream',
+        'Cache-Control': 'no-cache, no-transform',
+        'Connection': 'keep-alive',
+        'X-Accel-Buffering': 'no',
+      });
+      upRes.pipe(clientRes);
+      upRes.on('end', () => { clientRes.end(); resolve({ streamed: true }); });
+      upRes.on('error', err => { clientRes.destroy(); reject(err); });
+    });
+
+    upstream.on('error', reject);
+    upstream.write(payload);
+    upstream.end();
   });
 }
 
@@ -140,8 +188,10 @@ const server = http.createServer(async (req, res) => {
         return;
       }
 
-      // Build OpenRouter payload
-      const model = parsed.model || 'openai/gpt-4o-mini';
+      // Build OpenRouter payload — forward everything the client sent
+      // (plugins, web_search_options, stream, temperature, …) so web search
+      // and streaming work without server changes. Only `messages` is
+      // validated and `model` given a default.
       const messages = parsed.messages;
       if (!Array.isArray(messages) || messages.length === 0) {
         res.writeHead(400, { 'Content-Type': 'application/json' });
@@ -149,7 +199,23 @@ const server = http.createServer(async (req, res) => {
         return;
       }
 
-      const orPayload = JSON.stringify({ model, messages });
+      const orPayload = JSON.stringify({
+        ...parsed,
+        model: parsed.model || 'openai/gpt-4o-mini',
+      });
+
+      if (parsed.stream === true) {
+        const result = await streamFromOpenRouter(orPayload, res);
+        if (!result.streamed) {
+          if (result.status >= 400) {
+            console.error(`[server] OpenRouter returned ${result.status}:`, (result.body ?? '').slice(0, 500));
+          }
+          res.writeHead(result.status, { 'Content-Type': 'application/json' });
+          res.end(result.body);
+        }
+        return;
+      }
+
       const { status, body } = await proxyToOpenRouter(orPayload);
 
       // Log non-2xx responses to help with debugging
@@ -166,6 +232,12 @@ const server = http.createServer(async (req, res) => {
         return;
       }
       console.error('[server] Error:', err.message);
+      // In the streaming path headers may already be sent — just destroy
+      // the socket in that case.
+      if (res.headersSent) {
+        res.destroy();
+        return;
+      }
       res.writeHead(500, { 'Content-Type': 'application/json' });
       res.end(JSON.stringify({ error: 'Internal server error', detail: err.message }));
     }

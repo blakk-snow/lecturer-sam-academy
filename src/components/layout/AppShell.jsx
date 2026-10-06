@@ -2,11 +2,13 @@ import { useState } from "react";
 import { NavLink, Outlet } from "react-router-dom";
 import { LogIn, LogOut, Loader2 } from "lucide-react";
 import { BottomNav } from "./BottomNav";
+import { ChatLauncher } from "../chat/ChatLauncher";
 import { useAuth } from "../../context/AuthContext";
 
 const links = [
   { to: "/", label: "Home", end: true },
   { to: "/planner", label: "Planner" },
+  { to: "/timetable", label: "Timetable" },
   { to: "/curriculum", label: "Curriculum" },
   { to: "/scheme", label: "Scheme" },
   { to: "/practice", label: "Practice" },
@@ -153,6 +155,7 @@ export function AppShell() {
         <Outlet />
       </main>
       <BottomNav />
+      <ChatLauncher />
     </div>
   );
 }
