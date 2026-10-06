@@ -6,6 +6,7 @@ import {
   useTerm, useClassGroups, usePlannerActions,
 } from '../hooks/usePlanner';
 import { generateLessonPlan, generateAssessment } from '../services/ai';
+import { findSamplePlans } from '../data/sampleLessonPlans';
 
 // curriculumData is loaded lazily — it's ~600 KB and only needed on this page.
 const curriculumDataPromise = import('../data/curriculumData');
@@ -296,6 +297,29 @@ export default function PlannerLesson() {
     await save({}, true);
   }, [conflict, save]);
 
+  // ── Sample lesson plans ──────────────────────────────────────────────────────
+  // Bundled Week-5 notes matched by curriculum subject + class level.
+  const samplePlans = useMemo(() => (
+    subject && classGroup
+      ? findSamplePlans(subject.curriculumSubjectId, classGroup.classLevel)
+      : []
+  ), [subject, classGroup]);
+
+  const handleLoadSamplePlan = useCallback(async (plan) => {
+    const overrides = {
+      starter: plan.starter,
+      mainLearning: plan.mainLearning,
+      plenary: plan.plenary,
+      evaluation: plan.evaluation,
+      homework: plan.homework,
+      resourceUrl: plan.resources ?? '',
+      resourceType: plan.resources ? 'link' : 'none',
+      status: 'draft',
+    };
+    Object.entries(overrides).forEach(([key, value]) => updateForm(key, value));
+    await save(overrides);
+  }, [save, updateForm]);
+
   // ── AI generation ───────────────────────────────────────────────────────────
 
   /**
@@ -461,6 +485,32 @@ export default function PlannerLesson() {
           ) : (
             <div className="border border-line rounded-xl bg-paper p-4 text-sm text-ink-soft">
               No curriculum link — this subject was added without linking to the NaCCA curriculum.
+            </div>
+          )}
+
+          {/* Bundled sample lesson plans matching this subject + class */}
+          {samplePlans.length > 0 && (
+            <div className="border border-line rounded-xl bg-card p-4 space-y-3">
+              <p className="text-xs font-semibold text-ink-soft uppercase tracking-widest">
+                Bundled sample lesson plans
+              </p>
+              {samplePlans.map(plan => (
+                <div key={plan.id} className="flex items-center justify-between gap-3 flex-wrap">
+                  <div className="min-w-0">
+                    <p className="text-sm font-medium text-ink">{plan.title}</p>
+                    {plan.contentStandard && (
+                      <p className="text-xs text-ink-soft font-mono">{plan.contentStandard}</p>
+                    )}
+                  </div>
+                  <button
+                    type="button"
+                    onClick={() => handleLoadSamplePlan(plan)}
+                    className="shrink-0 rounded-xl border border-accent/40 text-accent text-xs font-medium px-3 py-1.5 hover:bg-accent/10 transition"
+                  >
+                    Load into this note
+                  </button>
+                </div>
+              ))}
             </div>
           )}
         </div>

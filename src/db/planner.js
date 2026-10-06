@@ -148,9 +148,14 @@ export async function getWeekTopics(weekPlanId) {
 
 // ─── Lesson Notes ─────────────────────────────────────────────────────────────
 
+// topicId arrives from the URL as a string; the read hook (useLessonNote)
+// queries by Number(topicId), so normalize here or notes save but never reload.
+const numericTopicId = (topicId) => Number(topicId);
+
 export async function upsertLessonNote(topicId, data, expectedRevision) {
+  const topicNum = numericTopicId(topicId);
   return db.transaction('rw', db.lessonNotes, async () => {
-    const existing = await db.lessonNotes.where('topicId').equals(topicId).first();
+    const existing = await db.lessonNotes.where('topicId').equals(topicNum).first();
     if (expectedRevision !== undefined && (existing?.revision ?? null) !== expectedRevision) {
       const error = new Error('This lesson note changed elsewhere. Review the latest version before saving.');
       error.code = 'planner/conflict';
@@ -160,7 +165,7 @@ export async function upsertLessonNote(topicId, data, expectedRevision) {
 
     const updated = {
       ...data,
-      topicId,
+      topicId: topicNum,
       revision: `${Date.now()}-${Math.random().toString(36).slice(2)}`,
       updatedAt: Date.now(),
     };
@@ -174,5 +179,5 @@ export async function upsertLessonNote(topicId, data, expectedRevision) {
 }
 
 export async function getLessonNote(topicId) {
-  return db.lessonNotes.where('topicId').equals(topicId).first();
+  return db.lessonNotes.where('topicId').equals(numericTopicId(topicId)).first();
 }

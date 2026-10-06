@@ -11548,7 +11548,1042 @@ export const curriculumMap = {
         ]
       }
     ],
-    "B8": [],
-    "B9": []
+    "B8": [
+      {
+        "id": "strand-1",
+        "code": "1",
+        "title": "NUMBER",
+        "subStrands": [
+          {
+            "id": "ss-1-1",
+            "code": "1.1",
+            "title": "Number and Numeration Systems",
+            "contentStandards": [
+              {
+                "id": "B8.1.1.1",
+                "code": "B8.1.1.1",
+                "description": "Demonstrate understanding and the use of place value for expressing quantities in standard form and rounding numbers and decimals to significant figures and a given number of decimal places",
+                "indicators": [
+                  {
+                    "id": "B8.1.1.1.1",
+                    "code": "B8.1.1.1.1",
+                    "description": "Apply the understanding of place value to read and write in number quantities over 1,000,000,000. Communication and Collaboration (CC) E.g.1. Read and write numbers in words and vice versa. (i) 2408321: Two million, four hundred and eight thousand, three hundred and twenty-one. (ii) the numeral part of the serial number on a currency note TD1567451, i.e., 1567451: One million, five hundred and sixty- seven thousand, four hundred and fifty-one."
+                  },
+                  {
+                    "id": "B8.1.1.1.2",
+                    "code": "B8.1.1.1.2",
+                    "description": "Skip count forwards and backwards in 10,000s, 100,000s, 500,000s, etc. E.g.1 Count forward in 500000s up to the fifth number. (i) 200,000, 700,000, ... E.g. 2. Count backwards in 100,500s up to the fifth number. (I) 1,800,000, 1699500, 1599000, ..."
+                  },
+                  {
+                    "id": "B8.1.1.1.3",
+                    "code": "B8.1.1.1.3",
+                    "description": "Compare and order whole numbers using “>, <, and =” Critical Thinking and Problem solving (CP) E.g. 1 Identify numbers which are 100,000, 1500,000, etc. more or less than given 8 to 9-digit number."
+                  },
+                  {
+                    "id": "B8.1.1.1.4",
+                    "code": "B8.1.1.1.4",
+                    "description": "Express integers of any size into standard form Critical Thinking and Problem solving (CP) E.g.1 Write integers as a power of 10: (i) 1 = 100 10 = 101 100 =102 1000 = 103 E.g. 2. Write multiples of 10 in standard form: (I) 10 = 1 x 10 100 = 1x 101 1000 = 1x 103 etc. E.g.3. Write integers in standard form: (i) 26 = 2.6 x 10 (ii) 375 = 3.75 x 102 (iii) 8,765,049 = 8.765049 x 106"
+                  },
+                  {
+                    "id": "B8.1.1.1.5",
+                    "code": "B8.1.1.1.5",
+                    "description": "Express integers in a given number of significant and decimal places Critical Thinking and Problem solving (CP) E.g.1. Express any given integer to a given number of significant figures. (i) Express 56734 correct to two significant figures as 57000. E.g. 2. Express 975.8674, correct to (i) two decimal places; (ii) three decimal places."
+                  },
+                  {
+                    "id": "B8.1.1.1.6",
+                    "code": "B8.1.1.1.6",
+                    "description": "Create and solve word or real-life problems on place values Creativity and Innovation (CI) E.g. 1 Solve word or story problems. (i) Adom earns Gh₵2500 a month after tax and his elder brother Arko earns three times as much. How much is their total income after five years if there are no increases in their earnings?"
+                  }
+                ]
+              },
+              {
+                "id": "B8.1.1.2",
+                "code": "B8.1.1.2",
+                "description": "Apply the concepts and vocabulary of sets on sets of factors of numbers to identify perfect squares, determine their square root and solve real life problems involving union and intersection of two sets",
+                "indicators": [
+                  {
+                    "id": "B8.1.1.2.1",
+                    "code": "B8.1.1.2.1",
+                    "description": "Use the concept of sets to identify perfect squares and determine the square roots. Use the knowledge on sets and sets of factors of numbers to solve problems Critical Thinking and Problem solving (CP) E.g. 1. Identify perfect squares or perfect numbers. (i) List sets of multiples of numbers and identify a set of perfect numbers among them 5, 10, 15, 20, 25, 30, 35, 40, 45, 50, 55, … 2, 4, 6, 9, 12, 16, 18, … 4, 8, 12, 16, 20, 24, … Perfect squares 4, 9, 16, 25, 36, …... E.g. 2. Use the knowledge on odd numbers to determine the square root of perfect numbers. (i) Determine the square root of 49. Think subtract the consecutive odd numbers starting from 1 from 49 until the remainder is zero. Then count the number of odd numbers subtracted as the square root of the given number."
+                  },
+                  {
+                    "id": "B8.1.1.2.2",
+                    "code": "B8.1.1.2.2",
+                    "description": "Use the knowledge on sets and sets of factors of numbers to solve real life problems involving union and intersection Critical Thinking and Problem solving (CP) E.g. 1. Identify the set of factors of given numbers. (i) List the factors of 42 and 36 and determine their common factors: 42: 1, 2, 3, 6, 7, 14, 21 and 42 36: 1, 2, 3, 4, 6, 9,12,18 and 36 The common factors: 1, 2, 3 and 6. E.g. 2. Solve story and real-life problems involving union and intersection of sets (i) There are 80 farmers in a certain village who grow maize and rice or both. Out of the 80 farmers, 50 grow maize and 60 grow rice. (a) Represent the information on a Venn diagram. (b) If x of them grows both crops, write an equation in x and solve for it."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "ss-1-2",
+            "code": "1.2",
+            "title": "Number Operations",
+            "contentStandards": [
+              {
+                "id": "B8.1.2.1",
+                "code": "B8.1.2.1",
+                "description": "Apply mental mathematics strategies and number properties used to solve problems",
+                "indicators": [
+                  {
+                    "id": "B8.1.2.1.1",
+                    "code": "B8.1.2.1.1",
+                    "description": "Multiply and divide by power of 10 including decimals and the benchmark fractions E.g.1. Recall multiplication facts up to 144 and related division facts. E.g.2. Recall decimal names of the benchmark fractions converted to decimals or percentages (and vice versa). E.g. 3. Determine a product when a decimal number is a multiple of 10, 100, 1000, 1 10 , 1 100, 1 1000, etc. Critical Thinking and Problem solving (CP)"
+                  },
+                  {
+                    "id": "B8.1.2.1.2",
+                    "code": "B8.1.2.1.2",
+                    "description": "Apply mental mathematics strategies and number properties to do calculation E.g. 1. Apply halving and doubling to determine the product given product of two given numbers."
+                  },
+                  {
+                    "id": "B8.1.2.1.3",
+                    "code": "B8.1.2.1.3",
+                    "description": "Apply mental mathematics strategies to solve word problems. E.g. 1. Play mental maths word games. E.g.2. Play mental maths word games: - should provide opportunities for learners to use mental strategies, short methods and sundry tables to develop fluency in solving problems."
+                  }
+                ]
+              },
+              {
+                "id": "B8.1.2.2",
+                "code": "B8.1.2.2",
+                "description": "Apply the understanding of the addition, subtraction, multiplication and division of (i) whole numbers within 10,000, and (ii) decimals up to 1/1000, to solve problems and round answers to given decimal places.",
+                "indicators": [
+                  {
+                    "id": "B8.1.2.2.1",
+                    "code": "B8.1.2.2.1",
+                    "description": "Add and subtract more than four-digit numbers. Critical Thinking and Problem solving (CP) E.g.1. Use partitioning (or expanded form) and place value system to add and subtract whole and decimal numbers. (i) Add 896854 and 76329 896854 = 800,000+90000+6000+800+50+4 +76329 = 70000+6000+300+20+9 973183 = 900000+70000+3000+100+80+3 (ii) Add 3627.6 and 854.13 3627.60 + 854.13 = 3000+600 + 20 + 7 + 60 100 + 800+50 +4 + 1 10+ 3 100---- 3000+800 +600+ 20+ 50 + 7+ 4 + 60 100+ 1 10+ 3 100---- = 3000+1400+ 70+ 11+ 7 10+ 3 100 3000+(1000+400) + 70+ (10+1) + 70 100+ 3 100 4481.73 4000+400+80+1+ 73 100 (iii) Subtract 37.85 from 193.6 193.60 − 37.85 = 100 + 90 + 3+ 6 10+ 0 100 - (30 + 7+ 85 100) = 100 + 90 + 3+ 60 100−30-7− 85 100 = 100+ 90 – 30 + 3−7 + 60 100− 85 100 = 100+ 60 −7 +3+ 60 100− 85 100 = 100 + 53 + 2 + 160 100− 85 100 155.75 = 155 + 75 100"
+                  },
+                  {
+                    "id": "B8.1.2.2.2",
+                    "code": "B8.1.2.2.2",
+                    "description": "Multiply or divide multi-digit numbers by 2- and 3-digit numbers. Critical Thinking and Problem solving (CP) E.g.1 Use the area model (Expand and Box method) to multiply and divide efficiently. 526 × 54 = ∴ 𝟓𝟓𝟐𝟐𝟓𝟓 × 𝟓𝟓𝟓𝟓 = 𝟐𝟐𝟓𝟓, 𝟑𝟑𝟑𝟑𝟑𝟑 + 𝟐𝟐, 𝟑𝟑𝟑𝟑𝟑𝟑 + 𝟏𝟏, 𝟑𝟑𝟑𝟑𝟑𝟑 + 𝟑𝟑𝟑𝟑𝟑𝟑 + 𝟖𝟖𝟑𝟑 + 𝟐𝟐𝟓𝟓 = 𝟐𝟐𝟖𝟖, 𝟓𝟓𝟑𝟑𝟓𝟓 E.g.2. Multiply whole numbers using the vertical place value method: (i.e. 657 × 27 =) 657 x27 4599 + 1314 17739"
+                  },
+                  {
+                    "id": "B8.1.2.2.3",
+                    "code": "B8.1.2.2.3",
+                    "description": "Create and solve story problems involving decimals on the four basic operations. E.g. 1. Solve word problems (i) Kofi bought 8 notebooks at GHȻ 12.00 each. Ama bought 12 pens at GHȻ 5.00 each. How much altogether they spend on the items. (ii) A man gave an amount of GHȻ 2477.25 to be shared equally among his three children. How much did each receive? (iii) On Adwoa’s birthday, the father bought her a pack of chocolate containing 250 bars. If Adwoa took 90 bars of the chocolates and gave the rest to her four friends to share equally, how many bars of chocolates did each receive? (iv) Mrs Yaboi bought 25.25 metres of cloth for her five children. If they share the material equally, how many metres of cloth did each receive? Communication and Collaboration (CC) Creativity and Innovation (CI)"
+                  }
+                ]
+              },
+              {
+                "id": "B8.1.2.3",
+                "code": "B8.1.2.3",
+                "description": "Demonstrate understanding and the use of the laws of indices in solving problems (including real life problems) involving powers of natural numbers",
+                "indicators": [
+                  {
+                    "id": "B8.1.2.3.1",
+                    "code": "B8.1.2.3.1",
+                    "description": "Identify and explain the laws of indices E.g.1 State the Laws of Indices. For real numbers m, n and valid bases a, b, the following basic laws hold i. Law1: 𝑎𝑎𝑚𝑚 × 𝑎𝑎𝑛𝑛 = 𝑎𝑎(𝑚𝑚+𝑛𝑛) ii. Law 2: 𝑎𝑎𝑚𝑚 𝑎𝑎𝑛𝑛 = 𝑎𝑎(𝑚𝑚−𝑛𝑛) For applying the above Law, if we choose both m = 1 and n = 1, then we get: 𝑎𝑎1 𝑎𝑎1 = 𝑎𝑎(1−1) = 𝑎𝑎0 = 1 iii. Law 3: (𝑎𝑎𝑚𝑚 )n = 𝑎𝑎𝑚𝑚×𝑛𝑛 = 𝑎𝑎𝑚𝑚𝑛𝑛 iv. Law 4: (𝑎𝑎𝑎𝑎)𝑛𝑛 = 𝑎𝑎𝑛𝑛𝑎𝑎𝑛𝑛 Critical Thinking and Problem solving (CP) Communication and Collaboration (CC) Creativity and Innovation (CI)"
+                  },
+                  {
+                    "id": "B8.1.2.3.2",
+                    "code": "B8.1.2.3.2",
+                    "description": "Apply the laws of indices to simplify and evaluate numbers involving powers of numbers. (PEDMAS) E.g.1 Use the laws of indices to solve problems involving powers of number. i) Simplify 25 × 162 ii) Simplify 27 32 iii) Simplify 𝑦𝑦 = 𝑥𝑥𝑎𝑎−𝑎𝑎 × 𝑥𝑥𝑎𝑎−𝑎𝑎 × 𝑥𝑥𝑎𝑎−𝑎𝑎 × 𝑥𝑥−𝑎𝑎−𝑎𝑎 iv) Simplify and evaluate ( 16 81)−3 4 v) Evaluate (52)3"
+                  },
+                  {
+                    "id": "B8.1.2.3.3",
+                    "code": "B8.1.2.3.3",
+                    "description": "Solve exponential equations E.g.1 Solve these equations i. 25 = 52𝑥𝑥 ii. 2𝑥𝑥+2 = 16 iii. 25 23 = 22𝑥𝑥 iv. 1 27 = 3𝑥𝑥 Critical Thinking and Problem solving (CP) Communication and Collaboration (CC) Creativity and Innovation (CI)"
+                  },
+                  {
+                    "id": "B8.1.2.3.4",
+                    "code": "B8.1.2.3.4",
+                    "description": "Solve real life problems involving powers of natural numbers. E.g.1: Solve real-life problems on populations. While studying her family’s history , Saratu discovers records of ancestors 12 generations back. She wonders how many ancestors she has had in the past 12 generations. She starts to make a diagram to help her figure this out. The diagram soon becomes very complex. i. Make a table and a graph showing the number of ancestors in each of the 12 generations. ii. Write an equation for the number of ancestors in a given generation n. Saratu 1st Generation 2ndGeneration 3rd Generation"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "ss-1-3",
+            "code": "1.3",
+            "title": "Fractions, Decimals and Percentages",
+            "contentStandards": [
+              {
+                "id": "B8.1.3.1",
+                "code": "B8.1.3.1",
+                "description": "Apply the understanding of operation on fractions to solve problems involving fractions of given quantities and round the results to given decimal and significant places",
+                "indicators": [
+                  {
+                    "id": "B8.1.3.1.1",
+                    "code": "B8.1.3.1.1",
+                    "description": "Review fractions and solve problems involving basic operations on fractions Critical Thinking and Problem solving (CP) E.g. 1. Review the concept of fractions. i. Shade given fraction of squares in a shape or find the fraction shaded in the shape: i.e. shade 3 4 of the rectangle. ii. Write down 3 fractions equivalent to 2 3. iii. Express the fraction 6 10 in its simplest form. iv. Express 12 5 as a mixed number. v. Express 2 5 9t as an improper fraction. E.g. 2. Review the basic operations on fractions. i. Adding and subtracting fractions. Work out answers to the following: a) 3 4 + 7 8 b) 4 5− 1 6 ii. Multiplying and dividing fractions. Work out answers to the following: a) 2 3× 3 4 b) 5 8÷2 1 2"
+                  },
+                  {
+                    "id": "B8.1.3.1.2",
+                    "code": "B8.1.3.1.2",
+                    "description": "Add and/or subtract, multiply and/or divide given fractions, by using the principle of the order of operations (the rule of BODMAS or PEMDAS), and apply the understanding to solve problems. Critical Thinking and Problem solving (CP) E.g. 1. Use the order of operations (BODMAS or PEDMAS) to simplify whole number expressions with more than two operations. PEDMAS is Parenthesis, Exponents, Multiply/Divide (going from left to right), Add/Subtract (going from left to right). i. 21 ÷ 3 + (3 × 9) × 9 + 5 ii. 18 ÷ 6 × (4 - 3) + 6 iii. 34 ÷ 9 + 40 – 23 × 32 ÷ 9 E.g. 2. Use the order of operations (BODMAS or PEDMAS) to simplify whole number expressions with more than two operations. a) 3 4 + 5 8 × 4 5− 1 6 b) 3 4 ÷ 3 8 + ( 4 5− 1 2) c) ( 3 4 + 5 8) × 4 11− 1 2"
+                  },
+                  {
+                    "id": "B8.1.3.1.3",
+                    "code": "B8.1.3.1.3",
+                    "description": "Review word problems involving basic operations on fractions and related concepts. E.g. 1. Solve word problems involving fractions. i. Determine the (i) perimeter and (ii) area of a rectangle whose sides measure 1 1 3 cm by 3 3 4cm."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "ss-1-4",
+            "code": "1.4",
+            "title": "Number: Ratios and Proportion",
+            "contentStandards": [
+              {
+                "id": "B8.1.4.1",
+                "code": "B8.1.4.1",
+                "description": "Demonstrate an understanding of ratio, rate and proportions and use it these to solve real-world mathematical problems",
+                "indicators": [
+                  {
+                    "id": "B8.1.4.1.1",
+                    "code": "B8.1.4.1.1",
+                    "description": "Use ratio reasoning to convert measurement units; manipulate and transform units appropriately when multiplying or dividing quantities. Critical Thinking and Problem solving (CP) Creativity and Innovation (CI) Personal Development and Leadership (PL) E.g.1 Convert (cm to m; km to m; ml to cm; etc.) one unit of measure to another using ratio reasoning. • 1m = 100cm is a conversion factor, and we can write from it the ratios 1 𝑚𝑚 100 𝑎𝑎𝑚𝑚and 100 𝑎𝑎𝑚𝑚 1 𝑚𝑚 , with each being equivalent to 1. Then, to convert a meas urement in metres into centimetres, we can multiply it by the ratio 1m/100cm. E.g.2 Manipulate and use units appropriately to solve problems. • Agbo walks 4km to school every day. He uses 60minutes. Rukiya uses 45minutes to cover 4200m. Which of the two learners is faster?"
+                  },
+                  {
+                    "id": "B8.1.4.1.2",
+                    "code": "B8.1.4.1.2",
+                    "description": "Solve unit rate problems including those involving unit pricing and constant speed; and speed translation. E.g.1 If it took 7 hours to mow 4 lawns, then at that rate, how many lawns could be mowed in 35 hours? At what rate were lawns being mowed?"
+                  },
+                  {
+                    "id": "B8.1.4.1.3",
+                    "code": "B8.1.4.1.3",
+                    "description": "Apply the knowledge of speed to draw and interpret travel graphs or distance-time graphs. Critical Thinking and Problem solving (CP) Creativity and Innovation (CI) Personal Development and Leadership (PL) E.g.1 Draw a graph for a passage on a distance time graph. i) A trader travels in a car from Buduata to Adawso. The distance between the two towns is 20miles. After 60 minutes, the trader makes a stop at Assin which is 8 miles from Buduata. 36 minutes later, he continues his journey to Adawso in 24 minutes. After resting for 12 minutes, he makes a return journey to Buduata in 48 minutes. Notes: put a passage for the graph"
+                  },
+                  {
+                    "id": "B8.1.4.1.4",
+                    "code": "B8.1.4.1.4",
+                    "description": "Recognise and represent proportional relationships between quantities by deciding whether two quantities are in a proportional relationship. (e.g. by testing for equivalent ratios in a table or graphing on a coordinate plane and observing whether the graph is a straight line through the origin). Critical Thinking and Problem solving (CP) Creativity and Innovation (CI) Personal Development and Leadership (PL) E.g.1 Use given tables to check proportional relationships. E.g.2 Use graphs to check proportional and non-proportional relationship The graph shows a non-proportional relationship because the straight line does not go through the origin."
+                  },
+                  {
+                    "id": "B8.1.4.1.5",
+                    "code": "B8.1.4.1.5",
+                    "description": "Identify the constant of proportionality (unit rate) in tables, graphs, equations, diagrams, and verbal descriptions of proportional relationships. Critical Thinking and Problem solving (CP) Creativity and Innovation (CI) E.g.1 E.g.2 An ant travels 9 8inches in 45 seconds and 27 8 inches in 2 minutes and 15 seconds. What is the constant of proportionality? E.g.3"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "strand-2",
+        "code": "2",
+        "title": "ALGEBRA",
+        "subStrands": [
+          {
+            "id": "ss-2-1",
+            "code": "2.1",
+            "title": "Patterns and Relations",
+            "contentStandards": [
+              {
+                "id": "B8.2.1.1",
+                "code": "B8.2.1.1",
+                "description": "Demonstrate the ability to draw table of values for a linear relation, graph the relation in a number plane, determine the gradient of the line and use it to write equation of a line of the form y = mx + c.",
+                "indicators": [
+                  {
+                    "id": "B8.2.1.1.1",
+                    "code": "B8.2.1.1.1",
+                    "description": "Calculate the gradient of a line and use it to write equation of a line of the form y = mx + c. Critical Thinking and Problem solving (CP) Personal Development and Leadership (PL) Creativity and Innovation (CI) E.g.1 Explain the concept of gradient using real life examples and to discover the practical meaning of gradient. The gradient is the measure of how steep the hill the rider is climbing is. The gradient is the slope (or steepness) of the roofing of the building. E.g.2 Determine the formula for calculating the gradient of a line. The formula for calculating the gradient of a straight line is given as: ∆𝑦𝑦 ∆𝑥𝑥 = 𝑦𝑦2−𝑦𝑦1 𝑥𝑥2−𝑥𝑥1"
+                  },
+                  {
+                    "id": "B8.2.1.1.2",
+                    "code": "B8.2.1.1.2",
+                    "description": "Use graph of a linear relation to determine subsequent missing elements in the ordered pairs of the relation. Critical Thinking and Problem solving (CP) Personal Development and Leadership (PL) Creativity and Innovation (CI) E.g.1 Use information from a graph to find missing elements The graph represents the relation 𝑦𝑦 = 20𝑥𝑥, where y is the cost (in Ghana cedis) of the weight (in kilograms) of meat sold in a market. Use the graph to find: i. the cost of 3.5kg of meat ii. the weight of meat that can be bought with GH₵80. iii. Using the relation from the graph, how many kilograms of meat can be bought at a cost of GH₵240."
+                  },
+                  {
+                    "id": "B8.2.1.1.3",
+                    "code": "B8.2.1.1.3",
+                    "description": "Use graphs of linear relations to solve real life problems. E.g.1 Draw graphs for real life problems. i. Every morning, you go for a walk. The distance you walk can be modelled by the equation 𝑎𝑎 = 1 3 ℎ,where d is the distance walked in kilometers and h is the number of hours you’ve walked. Make a table for the relation and draw a graph with the values to see how far you’ve walked after 6hours."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "ss-2-2",
+            "code": "2.2",
+            "title": "Algebraic Expressions",
+            "contentStandards": [
+              {
+                "id": "B8.2.2.1",
+                "code": "B8.2.2.1",
+                "description": "Solve problems involving algebraic expressions (including multiplication of binomial expressions) factorise given expressions and substitute values to evaluate algebraic expressions.",
+                "indicators": [
+                  {
+                    "id": "B8.2.2.1.1",
+                    "code": "B8.2.2.1.1",
+                    "description": "Use the distributive property to remove brackets and solve multiplication of binomial expression. E.g.1 Expand these expressions: Critical Thinking and Problem solving (CP) Creativity and Innovation (CI) Personal Development and Leadership (PL) • 6(𝑥𝑥 + 3) • −5𝑥𝑥(3𝑥𝑥 + 4) • 3(𝑥𝑥 + 4) − 2(𝑥𝑥 − 5) • 2(6 − 5𝑥𝑥) − 3(2 + 2𝑥𝑥) − 4(3𝑥𝑥 − 1) • 8 − (4 − 𝑎𝑎) − (6 − 𝑎𝑎) • (𝑚𝑚 + 𝑜𝑜 − 𝑔𝑔) − (𝑚𝑚 − 𝑜𝑜 + 𝑔𝑔) E.g.2 Multiply binomial expressions Simplify i. (𝑎𝑎 + 2)(𝑎𝑎 + 3) ii. (2𝑥𝑥 + 𝑦𝑦)(2𝑥𝑥 − 𝑦𝑦) iii. 𝑚𝑚𝑣𝑣𝑣𝑣𝑎𝑎𝑖𝑖𝑝𝑝𝑣𝑣𝑦𝑦 (3𝑥𝑥 − 2𝑦𝑦) 𝑎𝑎𝑦𝑦 (3𝑥𝑥 + 2𝑦𝑦) iv. (2𝑥𝑥 + 3)2 v. (𝑥𝑥 − 2𝑥𝑥)2 vi. (𝑎𝑎 + 2)2"
+                  },
+                  {
+                    "id": "B8.2.2.1.2",
+                    "code": "B8.2.2.1.2",
+                    "description": "Perform addition, subtraction, multiplication and division of algebraic expressions including fractions. E.g.1 Solve problems based on multiplication and division of algebraic fractions."
+                  },
+                  {
+                    "id": "B8.2.2.1.3",
+                    "code": "B8.2.2.1.3",
+                    "description": "Substitute values to evaluate algebraic expressions including fractions and use these to solve problems. 𝑖𝑖𝑜𝑜 𝑥𝑥 = 2, 𝑦𝑦 = −2, 𝑧𝑧 = 3, 𝑎𝑎 = 1 𝑎𝑎𝑚𝑚𝑎𝑎 𝑎𝑎 = −1, simplify, then substitute in the value to evaluate the following expressions: i. 3 𝑥𝑥+1 − 2 𝑥𝑥−1 𝑖𝑖𝑣𝑣. 3𝑎𝑎𝑎𝑎 15𝑎𝑎2𝑑𝑑2 × 10𝑑𝑑 9𝑎𝑎2 ii. 1 𝑥𝑥−1 + 2 𝑥𝑥+1 𝑣𝑣. 6𝑥𝑥2+2𝑥𝑥𝑦𝑦 5𝑧𝑧 × 15𝑧𝑧2 3𝑥𝑥+𝑦𝑦 iii. 12𝑥𝑥𝑦𝑦 7 × 14𝑥𝑥 20 𝑣𝑣𝑖𝑖. 5𝑥𝑥 + 7𝑧𝑧2 − 4𝑎𝑎 + 3𝑦𝑦2"
+                  },
+                  {
+                    "id": "B8.2.2.1.4",
+                    "code": "B8.2.2.1.4",
+                    "description": "Factorise given expressions involving the four operations and use the experiences gained to solve problems. Critical Thinking and Problem solving (CP) Creativity and Innovation (CI) Personal Development and Leadership (PL) E.g.1 Factorise the following expressions i. Common factors • 3𝑎𝑎𝑥𝑥 + 6𝑎𝑎𝑦𝑦 • 54 − 81𝑥𝑥 • 100𝑥𝑥 − 25𝑥𝑥2 ii. Method of grouping • 2𝑎𝑎𝑝𝑝 + 𝑎𝑎𝑞𝑞 − 𝑎𝑎𝑞𝑞 − 2𝑎𝑎𝑝𝑝 • 𝑎𝑎𝑎𝑎 − 𝑎𝑎𝑦𝑦 − 𝑎𝑎𝑦𝑦 + 𝑦𝑦2 • 3𝑥𝑥2 + 2𝑥𝑥𝑦𝑦 − 12𝑥𝑥𝑦𝑦 − 8𝑦𝑦𝑧𝑧"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "ss-2-3",
+            "code": "2.3",
+            "title": "Variables and Equations",
+            "contentStandards": [
+              {
+                "id": "B8.2.3.1",
+                "code": "B8.2.3.1",
+                "description": "Demonstrate an understanding of linear inequalities of the form x + a ≥ b (where a and b are integers) by modelling problems as a linear inequalities and solving the problems concretely, pictorially, and symbolically.",
+                "indicators": [
+                  {
+                    "id": "B8.2.3.1.1",
+                    "code": "B8.2.3.1.1",
+                    "description": "Translate word problems into linear inequalities in one variable and vice versa E.g.1 Make mathematical sentences involving linear inequalities from word problems. i. Think of a whole number less than 17 i.e. x < 17 ii. Eight less than the product of -3 and a number is greater than -26. Write and solve an inequality to represent this relationship. i.e.-3x-8>-26 iii. Kwaakye’s profit for March of GH₵ 32 was at least GH₵ 12 less than his February profit. What was his February profit? I.e. March profit was at least GH₵12 less than February’s profit. GH₵23 ≥ _12 + p Critical Thinking and Problem solving (CP) Creativity and Innovation (CI)"
+                  },
+                  {
+                    "id": "B8.2.3.1.2",
+                    "code": "B8.2.3.1.2",
+                    "description": "Solve simple linear inequalities E.g.1 Use the idea of balancing to solve simple linear inequalities. i. 𝟐𝟐𝒙𝒙 − 𝟏𝟏𝟑𝟑 > 29 ii. 𝟓𝟓𝒙𝒙 − 𝟗𝟗 > −5 iii. 𝟏𝟏𝟓𝟓 < 8 − 2𝒙𝒙 iv. 𝟑𝟑𝒙𝒙 ≤ 𝟖𝟖 + 𝒙𝒙 v. 𝒙𝒙 − 𝟓𝟓 > 1 vi. 𝟏𝟏𝟑𝟑 − 𝒙𝒙 < 12 vii. 𝒙𝒙 − 𝟑𝟑 ≥ 𝟐𝟐 viii. 𝟐𝟐𝒙𝒙 − 𝟓𝟓 ≤ 𝟑𝟑𝟓𝟓 − 𝒙𝒙"
+                  },
+                  {
+                    "id": "B8.2.3.1.3",
+                    "code": "B8.2.3.1.3",
+                    "description": "Determine solution sets of simple linear inequalities in given domains Critical Thinking and Problem solving (CP) Creativity and Innovation (CI) E.g.1 Find solution sets for the following linear inequalities i. If x < 4 for whole numbers, then the domain is whole numbers and the solution set = {0, 1, 2, 3} ii. 2𝑥𝑥 > 24 iii. 𝑥𝑥 + 4 ≤ 3𝑥𝑥 − 16 iv. 9 − 5𝑥𝑥 < 6"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "strand-3",
+        "code": "3",
+        "title": "GEOMETRY AND MEASUREMENT",
+        "subStrands": [
+          {
+            "id": "ss-3-1",
+            "code": "3.1",
+            "title": "Shapes and Space",
+            "contentStandards": [
+              {
+                "id": "B8.3.1.1",
+                "code": "B8.3.1.1",
+                "description": "Demonstrate understanding and use of the relationship between parallel lines and alternate and corresponding angles and use the sum of angles in a triangle to deduce the angle sum in any polygon.",
+                "indicators": [
+                  {
+                    "id": "B8.3.1.1.1",
+                    "code": "B8.3.1.1.1",
+                    "description": "Draw and determine the values of alternate and corresponding angles E.g.1. Draw the diagram and calculate the values of the angles marked 1, 3,4,5,6,7,8 E.g. 2 Calculate the value of the angles a, b, c, and d Creativity and Innovation (CI)"
+                  },
+                  {
+                    "id": "B8.3.1.1.2",
+                    "code": "B8.3.1.1.2",
+                    "description": "Determine the values of angles in a triangle using knowledge of the sum of interior angles in a triangle and other properties. E.g. 1 Calculate the values of y and the angles in the triangle E.g. 2 Deduce the formula for the sum of interior angles in a polygon and determine the value of an angle in a regular hexagon. E.g. 3 Use the formula for finding the sum of interior angles in a polygon (n- 2)180 to determine the value of x in the hexagon. Creativity and Innovation (CI)"
+                  }
+                ]
+              },
+              {
+                "id": "B8.3.1.2",
+                "code": "B8.3.1.2",
+                "description": "Demonstrate the ability to perform geometric constructions of the angles (75˚, 105˚, 60˚, 135˚ and 150˚), and construct triangles and find locus of points under given conditions.",
+                "indicators": [
+                  {
+                    "id": "B8.3.1.2.1",
+                    "code": "B8.3.1.2.1",
+                    "description": "Construct and bisect angles of 120˚, 105˚, 135˚ and 150˚ E.g.1: Use a pair of compasses and a ruler to perform geometric construction of an angle (∠𝐶𝐶𝐴𝐴𝐴𝐴) =120˚ [Draw a semi-circle over the point B to meet ⃒BC⃒ in Q and using the same radius and Q as centre to make the arcs R and P respectively) and confirm the value using a protractor. Creativity and Innovation (CI) E.g.2: Use a pair of compasses and a ruler to perform geometric construction of an angle of (∠SQC) 150˚ and measure with aprotractor to confirm."
+                  },
+                  {
+                    "id": "B8.3.1.2.2",
+                    "code": "B8.3.1.2.2",
+                    "description": ": Construct scalene triangles, isosceles triangles, equilateral triangles, obtuse-angled triangle, and acute-angled triangles in different orientations under given conditions. Creativity and Innovation (CI) E.g.1: Use a pair of compasses and a ruler to construct an equilateral triangle when a side is given and justify why it is an equilateral triangle (i.e. draw the line segment 𝑉𝑉𝑉𝑉 = 6.2𝑎𝑎𝑚𝑚 and use this radius at V and J respectively to strike arcs to intersect in N. Verify the measure of the size of the angle with a protractor)"
+                  },
+                  {
+                    "id": "B8.3.1.2.3",
+                    "code": "B8.3.1.2.3",
+                    "description": ": Construct loci under given conditions including: (i) the locus of sets of points from a fixed point; (ii) the locus of points equidistant from two fixed points; (iii) the locus of points equidistant from two intersecting straight lines, and (iv) the locus of points equidistant from two parallel lines. Creativity and Innovation (CI) E.g.1: Describe the locus of a circle by tracing the path of a point P which moves in such a way that its distance from a fixed point, say O, is always the same to construct circles."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "ss-3-2",
+            "code": "3.2",
+            "title": "Measurement",
+            "contentStandards": [
+              {
+                "id": "B8.3.2.1",
+                "code": "B8.3.2.1",
+                "description": "Apply the Pythagoras theorem, the primary trigonometric ratios and the formulas for determining the area of a circle to solve real problems.",
+                "indicators": [
+                  {
+                    "id": "B8.3.2.1.1",
+                    "code": "B8.3.2.1.1",
+                    "description": "Use the relationship between the diameter and circumference of a circle to deduce the formula for finding its area, and use this to solve problems. Critical Thinking and Problem solving (CP) Personal Development and Leadership (PL) E.g.1: Divide a circle into sectors (minimum of 16) then cut the sectors and arrange to form a rectangle to deduce the area of the circle. Thus, length of the rectangle = 𝜋𝜋𝑜𝑜 width = 𝑜𝑜 ∴ 𝐴𝐴 = 𝜋𝜋𝑜𝑜 × 𝑜𝑜 = 𝜋𝜋𝑜𝑜2 E.g. 2 Solve problems on area of a circle. (i) Find the area of a circle whose radius is 14cm (Take π = 22/7). (ii) Find the area of a semi-circle whose radius is 7cm (Take π = 22/7) (iii) Two circles have a common centre; the small circle has radius 7cm, the big circle has radius 14cm.Find the shaded area. (Take π = 22/7)."
+                  },
+                  {
+                    "id": "B8.3.2.1.2",
+                    "code": "B8.3.2.1.2",
+                    "description": "Establish the relationship between the hypotenuse ‘c’ and the two other sides ‘a’ and ‘b’ of a right-angled triangle (i.e. a2 + b2 = c2) and use it to solve problems. Critical Thinking and Problem solving (CP) Personal Development and Leadership (PL) E.g.1Construct squares on the three sides of a right -angled triangle in a square grid and compare the area of the square on the hypotenuse to the squares on the other two sides to state the relationship between the hypotenuse ‘c’ and the two other sides ‘a’ and ‘b’ of a right-angled triangle i.e. a2 + b2 = c2 E.g. 2 Using a pair of compasses and ruler, construct squares on the three sides of a right-angled triangle and measure the area of the square on the hypotenuse and compare to the squares on the other two sides to state the relationship between the hypotenuse ‘ c’ and the two other sides ‘a’ and ‘b’ of a right- angled triangle i.e. a2 + b2 = c2."
+                  },
+                  {
+                    "id": "B8.3.2.1.3",
+                    "code": "B8.3.2.1.3",
+                    "description": "Use the Pythagorean theorem to solve problems on right- angled triangle. E.g.1 An isosceles triangle has equal sides, 6cm long and a base of 4cm long. Find the altitude of the triangle. E.g.2 Find the length of each of the diagrams indicated below: (i) the length x (ii) the length CB (iii) the longer length"
+                  },
+                  {
+                    "id": "B8.3.2.1.4",
+                    "code": "B8.3.2.1.4",
+                    "description": "Use the Pythagoras theorem to calculate the area of a triangle in real life problems. E.g.1 A boat travels 2m South and then 9m East. How far is the boat from its starting point? E.g.2 Yeboah hangs a picture frame of width 15cm on the wall. The distance from the nail to the edge of the picture frame is 10cm. (i) Find the length of the wire used to hang the picture frame. (ii) Find the area of the triangle. E.g.3 A ladder leans against a vertical wall of height 13m. If the foot of the ladder is 6m away from the wall, calculate the length of the ladder. E.g.4 The length of a side of an equilateral triangle is 12cm. Find i. the height of the triangle ii. the area of the triangle iii. the perimeter of the triangle Critical Thinking and Problem solving (CP) Personal Development and Leadership (PL)"
+                  },
+                  {
+                    "id": "B8.3.2.1.5",
+                    "code": "B8.3.2.1.5",
+                    "description": "Establish the relationship between the basic trigonometric ratios and solve problems involving right-angled triangles. E.g.1 Identify and recognise the three primary trigonometric ratios. i. Establish the sine, cosine and tangent of an angle in a right-angled triangle"
+                  }
+                ]
+              },
+              {
+                "id": "B8.3.2.2",
+                "code": "B8.3.2.2",
+                "description": "Demonstrate understanding of addition and subtraction of vectors and their applications in solving basic problems",
+                "indicators": [
+                  {
+                    "id": "B8.3.2.2.1",
+                    "code": "B8.3.2.2.1",
+                    "description": "Add, subtract and find the scalar multiplication of vectors in the component form. E.g1 Add vectors using the graphical method. E.g.2 Add and subtract vectors in their corresponding components. If AB =       b a and BC =       d c then AC = AB + BC =       b a +       d c =       + + db ca If AB =       b a and BC =       d c then AC = AB - BC =       b a -       d c = �𝑎𝑎 − 𝑎𝑎 𝑎𝑎 − 𝑎𝑎� E.g3 Multiply a vector by a scalar k�𝑥𝑥 𝑦𝑦�=k�𝑘𝑘𝑥𝑥 𝑘𝑘𝑦𝑦� E.g.4 If p=�−1 2 � , q=�4 3� , and r=� 3 −2�, find (i) 3q-2p (ii) r-3p (ii) q-p+2r Critical Thinking and Problem solving (CP)"
+                  },
+                  {
+                    "id": "B8.3.2.2.2",
+                    "code": "B8.3.2.2.2",
+                    "description": "Demonstrate understanding of vector equality. E.g.1 Investigate the properties of equal vectors. i. If a=�3 5� ,b=�7 2� and c=�−3 −4�, Caculate |𝑝𝑝|, if p=a+ ½(b-c) ii. If M = N, find the value of x and y given that M=�𝑥𝑥−2 𝑥𝑥−𝑦𝑦� and N=� 1 2𝑥𝑥−1� Critical Thinking and Problem solving (CP)"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "ss-3-3",
+            "code": "3.3",
+            "title": "Position and Transformation",
+            "contentStandards": [
+              {
+                "id": "B8.3.3.1",
+                "code": "B8.3.3.1",
+                "description": "Perform a single transformation (i.e. rotation) on a 2D shape using graph paper (including technology) and describe the properties of the image under the transformation (i.e. congruence)",
+                "indicators": [
+                  {
+                    "id": "B8.3.3.1.1",
+                    "code": "B8.3.3.1.1",
+                    "description": "Understand rotation and identify real-life situations involving rotation. Critical Thinking and Problem solving (CP) Creativity and Innovation (CI) Digital Literacy (DL) E.g.1. Identify examples of rotation situations in everyday life and the nature of rotational movements as clockwise and anti-clockwise."
+                  },
+                  {
+                    "id": "B8.3.3.1.2",
+                    "code": "B8.3.3.1.2",
+                    "description": "Draw rotation image in a coordinate plane and determine the angle of rotation. Critical Thinking and Problem solving (CP) Creativity and Innovation (CI) Digital Literacy (DL) E.g. 1. Rotate a shape through a given centre of rotation and angle of rotation using rotation rules. E.g. 2. Determine the angle of rotation using the points of an object, its images and centre."
+                  },
+                  {
+                    "id": "B8.3.3.1.3",
+                    "code": "B8.3.3.1.3",
+                    "description": "Investigate the concept of congruent shapes. E.g. 1. Use multiple and varied examples of rotation on coordinate planes to verify congruent shapes based on their properties. i. State the object points and its corresponding image points under a given rotation. ii. Draw points of shapes under a clockwise or anti-clockwise rotation through a given angle about the origin (90º, 180º, 270º)."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "strand-4",
+        "code": "4",
+        "title": "HANDLING DATA",
+        "subStrands": [
+          {
+            "id": "ss-4-1",
+            "code": "4.1",
+            "title": "Data",
+            "contentStandards": [
+              {
+                "id": "B8.4.1.1",
+                "code": "B8.4.1.1",
+                "description": "Select, justify, and use appropriate methods to collect data (quantitative and qualitative), use the data (grouped/ungrouped) to construct and interpret frequency tables, bar charts, pie charts, and pictograms to solve and/or pose problems.",
+                "indicators": [
+                  {
+                    "id": "B8.4.1.1.1",
+                    "code": "B8.4.1.1.1",
+                    "description": "Identify types of given data including numerical, categorical, ungrouped and grouped data Critical Thinking and Problem solving (CP) Communication and Collaboration (CC) Personal Development and Leadership (PL) Digital Literacy (DL) E.g. 1 Discuss, in small groups, information collected in the process of investigation which may be numeric. i. Numeric (and discrete): the number of Nissan cars sold by Japan Motors, Ghana in a year; the number of children in a family; the number of learners in B8 class. ii. Numeric (and continuous): the weights of babies in a crèche (e.g. 4.5kg) which contains fractional values. E.g. 2 Discuss (in groups)information collected in the process of investigation which may be non-numeric. i. Non-numeric (cannot be quantified): sex (male or female); income group, movie type, age group, marital status, boxers’ weight class, etc. ii. Sort out the examples of the non-numeric information in (i) with values that can be put on ordinal scale (boxers’ weight class; age group) iii. Sort out the examples of the non-numeric information in (i) that can be put into categories (Categorical data): sex (male or female); marital status; income group, etc. E.g. 3 i. The scores for 11 learners in a class test are 25, 30, 35, 40, 45, 26, 29, 50, 45, 37 and 47(these individual scores are not grouped in any way). ii. Find out those in the group 25 to 35 (i.e. 5) and those in the group 36 to 50 (i.e. 6)Data is now grouped."
+                  },
+                  {
+                    "id": "B8.4.1.1.2",
+                    "code": "B8.4.1.1.2",
+                    "description": "- Select and justify a method to collect data (quantitative and qualitative) to answer a given question. Critical Thinking and Problem solving (CP) Communication and Collaboration (CC) Personal Development and Leadership (PL) Digital Literacy (DL) E.g. 1- To study how eating cream crackers affects one’s output of work (productivity), identify which method can be used to gather the facts for each of the following situations. (i.e. refer to methods stated in E.g. 2 of B7.4.1.1.1) i. Will eating twice a person's normal number of cream crackers increase their productivity? ii. Are people who eat more cream crackers more productive? iii. Does a group of students study better when cream crackers are present or absent? E.g. 2 -Select any study to be undertaken and design an appropriate form to be used in collecting data."
+                  },
+                  {
+                    "id": "B8.4.1.1.3",
+                    "code": "B8.4.1.1.3",
+                    "description": "- Organise data (grouped/ungrouped), present it in frequency tables, line graphs, pie graphs, bar graphs and/or pictographs (representations include info graphics, waffle diagrams, box and whisker plots and stem and leaf plots) and analyse it to solve and/or pose problems. E.g. 1The following set of raw data shows the lengths, in millimetres, measured to the nearest mm, of 40 leaves taken from plants of a certain species. 40 54 25 50 58 45 47 49 30 28 52 31 52 41 47 44 46 39 51 59 49 38 43 48 43 43 40 51 40 56 31 53 44 37 35 37 33 38 46 36 (i) Copy and complete the frequency distribution table below, using the data set above. Lengths (mm) Tally Frequency 25 – 29 30 – 34 35 - 39 40 – 44 45 – 49 50 – 54 55 - 59 Critical Thinking and Problem solving (CP) Communication and Collaboration (CC) Personal Development and Leadership (PL) Digital Literacy (DL)"
+                  }
+                ]
+              },
+              {
+                "id": "B8.4.1.2",
+                "code": "B8.4.1.2",
+                "description": "Demonstrate an understanding of measures of central tendency (mean, median, mode) and range for grouped data and explain when it’s most appropriate to use the mean, median, or mode.",
+                "indicators": [
+                  {
+                    "id": "B8.4.1.2.1",
+                    "code": "B8.4.1.2.1",
+                    "description": "Calculate the mean, median and mode for a given set of ungrouped data, and explain why these values may be the same or different. Critical Thinking and Problem solving (CP) Communication and Collaboration (CC) E.g. 1 The bar graph on the right shows the sales of a small business from Monday to Friday. Calculate the mean, median and mode for amounts collected during the period and explain your findings (i.e. why the values are the same). 1 0 50 100 150 200 250 300 350 Sales Collected (GH₵) Mon Tue Wed Thu Fri ONTENT STANDARDS INDICATORS AND EXEMPLARS CORE COMPETENCIES"
+                  },
+                  {
+                    "id": "B8.4.1.2.2",
+                    "code": "B8.4.1.2.2",
+                    "description": "Justify a context in which the mean, median or mode is the most appropriate measure of central tendency to use when reporting findings. Critical Thinking and Problem solving (CP) Communication and Collaboration (CC) E.g.1 Kojo’s says his taxi makes a number of trips each day as shown in the table below: Monday Tuesday Wednesday Thursday Friday Saturday Sunday 8 6 10 10 9 10 3 i. Calculate the mean, median and mode for Kojo’s trips for the week ii. Which measure of central tendency best represents or describes the number of trips that Kojo makes each day? iii. Justify the choice of central tendency in (ii)."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "ss-4-2",
+            "code": "4.2",
+            "title": "Chance or Probability",
+            "contentStandards": [
+              {
+                "id": "B8.4.2.1",
+                "code": "B8.4.2.1",
+                "description": "Identify the sample space for a probability experiment involving two independent events and express the probabilities of given events as fractions, decimals, percentages and/or ratios to solve problems.",
+                "indicators": [
+                  {
+                    "id": "B8.4.2.1.1",
+                    "code": "B8.4.2.1.1",
+                    "description": "Perform a probability experiment involving two independent events such as drawing coloured bottle tops from a bag with replacement and list the elements of the sample space Critical Thinking and Problem solving (CP) Communication and Collaboration (CC) Cultural Identity and Global Citizenship (CG) Personal Development and Leadership (PL) E.g. 1In an experiment, Emmanuel was asked to pick one bottle top from a bag, three times, which contains 3 red, 2 green and 1 pink bottle tops. i. List the elements of the sample space of the events. ii. The sample space of the event of picking a red bottle top, R, with replacement is? iii. The probability of picking a red bottle top is …………. E.g. 2 Consider the following two events: (a) throwing of a fair six-sided die and (b) tossing a fair coin i. What is the sample space for (a) and for (b)? ii. Does the occurrence of event (a) affect the occurrence of event (b)? iii. What is the probability of an even number showing up in (a)? What is the probability of a head showing up in (b)? iv. What is the relationship between the two events? E.g. 3 Ampofo and Serwa are two learners from a school. Ampofo walks to school daily and Serwa travels to school on a bus daily. i. Does the event of Ampofo affect that of Serwa? ii. Can the two events occur together?"
+                  },
+                  {
+                    "id": "B8.4.2.1.2",
+                    "code": "B8.4.2.1.2",
+                    "description": "Express the probabilities of the events as fractions, decimals, percentages and/or ratios. e.g.by using a tree diagram, table or other graphic organiser. Critical Thinking and Problem solving (CP) Personal Development and Leadership (PL) E.g. 1The arrow on the spinner if spun twice and the number of wins recorded; i. identify the sample space. ii. calculate the probability of a win P(W) and the probability of a lose, P(L). iii. copy and complete the probability tree diagram below that represents the events, i.e. the 1st and 2nd spins. iv. express the probabilities stated on the branches in decimals, percentages and ratios. E.g. 2-A box contains 3 blue pens and 4 pink pens. A pen is taken from the box, its colour noted, and then replaced. Another pen is taken and its colour noted. i. What is the sample space of the 1st and the 2nd trials? ii. Draw a probability tree diagram to represent the event."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "B9": [
+      {
+        "id": "strand-1",
+        "code": "1",
+        "title": "NUMBER",
+        "subStrands": [
+          {
+            "id": "ss-1-1",
+            "code": "1.1",
+            "title": "Number and Numeration System",
+            "contentStandards": [
+              {
+                "id": "B9.1.1.1",
+                "code": "B9.1.1.1",
+                "description": "Apply the understanding of place value in solving real life problems involving integers of any size, rounding this to given decimal places and significant figures",
+                "indicators": [
+                  {
+                    "id": "B9.1.1.1.1",
+                    "code": "B9.1.1.1.1",
+                    "description": "Express integers to a given number of significant and decimal places Communication and Collaboration (CC) Creativity and Innovation (CI) Personal Development and Leadership (PL) E.g.1. Express integers to a number of significant figures. (i) 857,386,321 -five significant figures -four significant figures -three significant figures. E.g.2. Express decimal numbers to a given number of decimal places. (i) Write 98745.9674 correct to -three decimal places -two decimal places -one decimal place"
+                  },
+                  {
+                    "id": "B9.1.1.1.2",
+                    "code": "B9.1.1.1.2",
+                    "description": "Use knowledge and understanding of place value to solve real life problems E.g.1. Create and solve a real-life problem or a story problem and write the answer in standard form. (I) I am a 6-digit number. My first digit is 5 more than the last digit, but 2 less than my second digit. My second digit is the third multiple of 3, while my fourth digit is the second multiple of 3. My third digit is the quotient when the fourth digit is divided by my last digit. However, my fourth and fifth digits are consecutive numbers. What number am I? Think second digit: 3x3=9 fourth digit: 2x3=6 first digit: 9-2=7 last digit: 7-5=2 fifth digit: 6-1=5 third digit: 6 So, the number is 793652 = 7.93652 x 105 E.g.2 Create similar real story problems and solve"
+                  }
+                ]
+              },
+              {
+                "id": "B9.1.1.2",
+                "code": "B9.1.1.2",
+                "description": "Demonstrate an understanding of the relationship between members of the rational number system and solve real life problems involving union and intersection of three sets",
+                "indicators": [
+                  {
+                    "id": "B9.1.1.2.1",
+                    "code": "B9.1.1.2.1",
+                    "description": "Solve problems on relationship between members of the rational number system using knowledge and understanding of the concept of union and intersection of two sets. Communication and Collaboration (CC) Creativity and Innovation (CI) E.g. 1 Use sets diagrams to show the relationship among the Real numbers namely -Irrational numbers (QI) -Rational numbers (Q) - Integers (Z) -Whole numbers (W) -Natural or Counting numbers (N)"
+                  },
+                  {
+                    "id": "B9.1.1.2.2",
+                    "code": "B9.1.1.2.2",
+                    "description": "Apply the concept of sets to solve problems on relationship between members of rational number system and solve real life problems involving union and intersection of two sets E.g.1 Create and solve real life problems to show the union and intersection of two sets. i. There are 80 farmers in a certain village who grow either maize or beans. Fifty of them grow beans while sixty grow maize. If each farmer grows at least one of the two crops, represent the information on a Venn diagram and hence find the number of farmers who grow: a. both crops. b. only one crop."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "ss-1-2",
+            "code": "1.2",
+            "title": "Number Operations",
+            "contentStandards": [
+              {
+                "id": "B9.1.2.1",
+                "code": "B9.1.2.1",
+                "description": "Apply mental mathematics and properties to determine answers for addition and subtraction of basic facts.",
+                "indicators": [
+                  {
+                    "id": "B9.1.2.1.1",
+                    "code": "B9.1.2.1.1",
+                    "description": "Multiply and divide given numbers by powers of 10 including decimals and benchmark fractions Creativity and Innovation (CI) E.g.1. Recall multiplication facts up to 144 and related division facts. E.g.2. Recall decimal names of given benchmark fractions converted to decimals or percentages (and vice versa) E.g. 3. Find the product of a given decimal number when it is multiplied by 10, 100, 1000, 1 10 , 1 100, 1 1000, etc."
+                  },
+                  {
+                    "id": "B9.1.2.1.2",
+                    "code": "B9.1.2.1.2",
+                    "description": "Demonstrate the ability to determine commutative properties of addition and multiplication. E.g1. Recognise that for any two numbers a and b; i. a + b = b + a i.e. 25 + 32 = 32 + 25 = 57 ii. a × b = b × a i.e. 17 × 8 = 8 × 17 = 136"
+                  },
+                  {
+                    "id": "B9.1.2.1.3",
+                    "code": "B9.1.2.1.3",
+                    "description": "Use the associative property of addition and multiplication. E.g1. Recognise that for any three numbers a, b and c; i. a + (b + c) = (a + b) + c or a + (b + c) = (a + c) + b i.e. 15 + (6 + 9) = (15 + 6) + 9 = 30 ii. (a × b) × c = a × (b × c) i.e. (12 × 5) × 4 = 12 × (5 × 4) = 240"
+                  },
+                  {
+                    "id": "B9.1.2.1.4",
+                    "code": "B9.1.2.1.4",
+                    "description": "Use the distributive property in solving problems. E.g1. Recognise that for any three numbers a, b and c; i. a × (b + c) = (a × b) + (a × c) i.e. 5 × (10 + 7) = (5 × 10) + (5 × 7) = 85 ii. a × (b - c) = (a × b) - (a × c) i.e. 5 × (10 - 7) = (5 × 10) - (5 × 7) = 15"
+                  }
+                ]
+              },
+              {
+                "id": "B9.1.2.2",
+                "code": "B9.1.2.2",
+                "description": "Apply the understanding of addition, subtraction, multiplication and division of decimal numbers to solve problems, and round answers to given decimal places and significant figures",
+                "indicators": [
+                  {
+                    "id": "B9.1.2.2.1",
+                    "code": "B9.1.2.2.1",
+                    "description": "Solve operations involving addition, subtraction, multiplication and division using word problems. Critical Thinking and Problem solving (CP) Communication and Collaboration (CC) E.g. Create and solve story problems involving a combination of two or more of the basic operations. (×, ÷, ─,+). i) A trader sells oranges from two baskets, A and B. Basket A contained 85 oranges and she sold 48. She sold 59 oranges from basket B and was left with the same number of oranges as in Basket A. How many oranges were originally in Basket B?"
+                  },
+                  {
+                    "id": "B9.1.2.2.2",
+                    "code": "B9.1.2.2.2",
+                    "description": "Solve word problems involving the four basic operations and round the answers to the nearest two decimal figures or to some significant figures. ii) The price of a jacket is three times that of a shirt. The price of a jacket is GH₵560.65. Mr Mensa bought two of the jackets and four shirts for his twin sons. Calculate the total amount Mr Mensa paid for the items, correct your answer to: 𝛼𝛼) two decimal places 𝛽𝛽)three significant figures"
+                  }
+                ]
+              },
+              {
+                "id": "B9.1.2.3",
+                "code": "B9.1.2.3",
+                "description": "[Description missing/illegible in the official CCP PDF — the standard heading and indicators .1–.3 are not legible in the published document; only indicator .4 below is legible.]",
+                "indicators": [
+                  {
+                    "id": "B9.1.2.3.4",
+                    "code": "B9.1.2.3.4",
+                    "description": "Approximate the square roots of non-perfect squares with calculators/tables. E.g.1 Square roots of non-perfect squares i. √2 ii. √5 iii. √12 iv. √30 Personal Development and Leadership (PL) Cultural Identity and Global Citizenship (CG)"
+                  }
+                ]
+              },
+              {
+                "id": "B9.1.2.4",
+                "code": "B9.1.2.4",
+                "description": "Demonstrate understanding of surds as real numbers, the process of adding and subtracting of surds as well as determining (using a calculator) the approximate square root of a number that is not a perfect square.",
+                "indicators": [
+                  {
+                    "id": "B9.1.2.4.1",
+                    "code": "B9.1.2.4.1",
+                    "description": "Identify simple and compound surds. Critical Thinking and Problem solving (CP) Communication and Collaboration (CC) Creativity and Innovation (CI) E.g. i. √2, ii. 7√3, iii. 2√5 iv. (√3 + √7 − √5)"
+                  },
+                  {
+                    "id": "B9.1.2.4.2",
+                    "code": "B9.1.2.4.2",
+                    "description": "Explain the identities/rules of surds Rule 1 √𝑎𝑎 × 𝑎𝑎 = √𝑎𝑎 × √𝑎𝑎 Rule 2 √𝑎𝑎 𝑎𝑎 = √𝑎𝑎 √𝑎𝑎 Rule 3 𝑎𝑎 √𝑎𝑎 = 𝑎𝑎 √𝑎𝑎 × √𝑎𝑎 √𝑎𝑎 = 𝑎𝑎√𝑎𝑎 𝑎𝑎 Rule 4 𝑎𝑎√𝑎𝑎 ± 𝑎𝑎√𝑎𝑎 = (𝑎𝑎 ± 𝑎𝑎)√𝑎𝑎 Rule 5 𝑎𝑎 𝑎𝑎 + 𝑎𝑎√𝑚𝑚 = 𝑎𝑎 𝑎𝑎 + 𝑎𝑎√𝑚𝑚 × 𝑎𝑎 − 𝑎𝑎√𝑚𝑚 𝑎𝑎 − 𝑎𝑎√𝑚𝑚 Rule 6 𝑎𝑎 𝑎𝑎 − 𝑎𝑎√𝑚𝑚 = 𝑎𝑎 𝑎𝑎 − 𝑎𝑎√𝑚𝑚 × 𝑎𝑎 + 𝑎𝑎√𝑚𝑚 𝑎𝑎 + 𝑎𝑎√𝑚𝑚"
+                  },
+                  {
+                    "id": "B9.1.2.4.3",
+                    "code": "B9.1.2.4.3",
+                    "description": "Simplify given surds ) E.g.1 Simplify: i. √27 i. √72 ii. √8 16 iii. √12 121 iv. (√2)2"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "ss-1-3",
+            "code": "1.3",
+            "title": "Fractions, Decimals and Percentages",
+            "contentStandards": [
+              {
+                "id": "B9.1.3.1",
+                "code": "B9.1.3.1",
+                "description": "Apply the understanding of operations on fractions to solve problems involving fractions of given quantities and round the results to given decimal and significant places",
+                "indicators": [
+                  {
+                    "id": "B9.1.3.1.1",
+                    "code": "B9.1.3.1.1",
+                    "description": "Review fractions and solve problems involving basic operations on fractions Critical Thinking and Problem solving (CP) Communication and Collaboration (CC) Personal Development and Leadership (PL) Creativity and Innovation (CI) E.g. 1. Review the concept of fraction. i. Shade the fraction of squares in the rectangle that is equal to the shaded portion of the circle. ii. Write down 3 fractions equivalent to 2 5 iii. Express the fraction 15 10 in its simplest form: 15 10 iv. Express 12 5 as a mixed number: 12 5 v. Express 2 5 9as an improper fraction: 2 5 9 E.g. 2. Review the basic operations on fractions. i. Adding and subtracting fractions: Work out answers to the following: a) 3 4 + 7 8 b) 1 1 2 + 4 5− 5 6 ii. Multiplying and dividing fractions. Work out answers to the following: a) 2 3 × 3 4− 3 8 b) 5 8 ÷ 2 1 2 + 2 3"
+                  },
+                  {
+                    "id": "B9.1.3.1.2",
+                    "code": "B9.1.3.1.2",
+                    "description": "Add and/or subtract, multiply and/or divide given fractions, using the principle of order of operations including the use of the BODMAS or PEMDAS rule, and apply the understanding of these to solve problems. E.g. 1. Use the order of operations (BODMAS or PEDMAS) to simplify whole number expressions with more than two operations. PEDMAS is Parenthesis, Exponents, Multiply/Divide (going from left to right)and Add/subtract (going from left to right). i. 34 ÷ 32 + 40 – 23 × 32 ÷ 9 ii. 18 ÷ 6 × (4 - 3) + 6 iii. 18 ÷ 32 × (4 - 3) × 10 Creativity and Innovation (CI) Personal Development and Leadership (PL) E.g. 2. Use the order of operations (BODMAS or PEDMAS) to simplify fractions with more than two operations. a) 2 3 × 3 4− 5 8÷ 2 1 2 b) 3 4 ÷ 3 8 + ( 4 5− 1 2) c) ( 3 4 + 5 8) × 4 11− 1 2"
+                  },
+                  {
+                    "id": "B9.1.3.1.3",
+                    "code": "B9.1.3.1.3",
+                    "description": "Review word problems involving basic operations on fractions. Creativity and Innovation (CI) Cultural Identity and Global Citizenship (CG) E.g. 1. Solve word problems based on fractions. i. A test is made up of 20 questions, how many questions must you answer correctly to get a score of 80%? ii. By what percentage was a television set reduced if it was marked GH₵2,250 and sold for GH₵2,025? iii. In an election involving two contestants, one candidate claimed 52% of the votes, while the other candidate claimed 2,681 votes. If 5000 people voted, how do you know the election results are invalid? iv. Esi and Fusena prepared orange drink by mixing orange squash and water. Esi’s drink was made of 3 8 orange squash and Fusena’s was made up of 2 5 orange squash. Whose drink tasted stronger of orange?"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "ss-1-4",
+            "code": "1.4",
+            "title": "Number: Ratios and Proportion",
+            "contentStandards": [
+              {
+                "id": "B9.1.4.1",
+                "code": "B9.1.4.1",
+                "description": "Apply the understanding of ratio, rate and proportions to solve problems that involve rates, ratios, and proportional reasoning and use it to solve real- world mathematical problems.",
+                "indicators": [
+                  {
+                    "id": "B9.1.4.1.1",
+                    "code": "B9.1.4.1.1",
+                    "description": "Represent proportional relationships by equations. Critical Thinking and Problem solving (CP) Creativity and Innovation (CI) Personal Development and Leadership (PL) Digital Literacy (DL) E.g.1 If total cost (t) is proportional to the number of items (n) purchased at a constant price (p), the relationship between the total cost and the number of items can be expressed as t = pn."
+                  },
+                  {
+                    "id": "B9.1.4.1.2",
+                    "code": "B9.1.4.1.2",
+                    "description": "Use proportional relationships to solve multistep ratio and percent problems, examples: simple interest, tax, discount and commissions, NHIL, depreciation, insurance, etc. E.g.1 Solve problems on simple interest. i. A girl deposited GH₵ 4500 at the bank at a rate of 3% per annum for three years. Find the simple interest. What is the amount at the end of the fifth year? E.g.2 Solve problems on tax (VAT). i. The VAT rate of Ghana is 12.5%. A man bought an item at GH₵ 4500.00, VAT inclusive. Calculate: b) the basic cost of the item. c) the VAT paid by the man. E.g.3 Solve problems on discount. i. If a car costs GH₵ 80,500.00,what is its new value if there is a discount of 10%? E.g.4 Solve problems on commission. ii. A car agent’s commission on the sale of a car is 3 1 2%. Calculate the commission on a car sold for GH₵68,000.00."
+                  },
+                  {
+                    "id": "B9.1.4.1.3",
+                    "code": "B9.1.4.1.3",
+                    "description": "Use knowledge of rates and proportional reasoning to solve problems involving SSNIT benefits and contributions. E.g.1 Describe the obligations of the employer/employee and the contribution rates. Act 766 PNDC Law 247 Employer 13.0% of basic salary 12.5 of basic salary Worker 5.5% of basic salary 5.0% of basic salary Total 18.5% of basic salary 17.5% of basic salary"
+                  },
+                  {
+                    "id": "B9.1.4.1.4",
+                    "code": "B9.1.4.1.4",
+                    "description": "Recognise and graph proportional relationships, interpreting the unit rate as the slope of the graph and use these to solve problems. Digital Literacy (DL) Creativity and Innovation (CI) E.g.1The graph below shows the cost of avocados. The unit rate, from the data, is ₵1.50 per avocado, which is the same as the slope of the line connecting the data points ( 3 2). i. From the graph, how much does eight avocados cost? ii. Also, using the graph how much does 15 avocados cost?"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "strand-2",
+        "code": "2",
+        "title": "ALGEBRA",
+        "subStrands": [
+          {
+            "id": "ss-2-1",
+            "code": "2.1",
+            "title": "Patterns and Relations",
+            "contentStandards": [
+              {
+                "id": "B9.2.1.1",
+                "code": "B9.2.1.1",
+                "description": "Demonstrate the ability to construct tables of values for pairs of linear relations, graph the relations in a number plane and determine the intersection of the lines to solve simultaneous linear equations.",
+                "indicators": [
+                  {
+                    "id": "B9.2.1.1.1",
+                    "code": "B9.2.1.1.1",
+                    "description": "Construct a table of values for two linear relations and graph the relation Critical Thinking and Problem solving (CP) Communication and Collaboration (CC) Creativity and Innovation (CI) Cultural Identity and Global Citizenship (CG) E.g.1Construct a table of values for two linear relations and draw the graphs of the relations Copy and complete the table of values for the relations 𝑦𝑦1 = −𝑥𝑥 + 5; and 𝑦𝑦2 = 1 2 𝑥𝑥 − 3 for 𝑥𝑥 from - 4 to 3. 𝑥𝑥 -3 -2 -1 0 1 2 3 𝑦𝑦1 = −𝑥𝑥 + 5 8 4 𝑦𝑦2 = 1 2 𝑥𝑥 − 3 -4 - 1.5 E.g.2 Draw graph for two linear relations. E.g.3Construct a table of values for two linear relations. (i) Copy and complete the table of values for the relations 𝑥𝑥 − 2𝑦𝑦 = −2 and 𝑥𝑥 − 2𝑦𝑦 = 2 for 𝑥𝑥 from -2 to 2. 𝑥𝑥 x -2 -1 0 1 2 𝑥𝑥 − 2𝑦𝑦 = −2 y= (𝑥𝑥 + 2)/ 2 0 2 𝑥𝑥 − 2𝑦𝑦 = 2 = (𝑥𝑥 − 2)/2 -1 1 2 0 E.g.4 Draw a graph for two linear relations."
+                  },
+                  {
+                    "id": "B9.2.1.1.2",
+                    "code": "B9.2.1.1.2",
+                    "description": "Use graphs of two linear relations to determine subsequent missing elements in ordered pairs of the relation. E.g.1 Find the missing elements of ordered pairs on graphs of two linear relations. The graph below is drawn from two linear relations: 𝑦𝑦 = −𝑥𝑥 + 4 𝑦𝑦 = 𝑥𝑥 − 2 i. Determine the coordinates for the intersection of the two lines. ii. Determine the corresponding values for y for both straight lines if x = -1. iii. Use the graph to find the values for y for the two relations. 𝑥𝑥 6-3 7-2 8-1 90 1 2 𝑦𝑦 = −𝑥𝑥 + 4 𝑦𝑦 = 𝑥𝑥 − 2 Creativity and Innovation (CI)"
+                  },
+                  {
+                    "id": "B9.2.1.1.3",
+                    "code": "B9.2.1.1.3",
+                    "description": "Use graphs to solve equations involving two linear relations. Creativity and Innovation (CI) E.g.1 Solve two linear equations simultaneously using the graph shown. i. Solve the following equations simultaneously using a graph. 𝑦𝑦 = −𝑥𝑥 + 7 𝑦𝑦 = 2𝑥𝑥 + 1 Hint: Draw the graph and find the coordinates for the intersection of the two lines. In the graph shown the values of (x, y) = (2, 5) E.g.2 Solve two linear equations simultaneously using the graph. From the graph, determine the values of x and y that makes the linear equations true. 𝑦𝑦 = 𝑥𝑥 + 4 𝑦𝑦 = 6 − 𝑥𝑥"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "ss-2-2",
+            "code": "2.2",
+            "title": "Algebraic Expressions",
+            "contentStandards": [
+              {
+                "id": "B9.2.2.1",
+                "code": "B9.2.2.1",
+                "description": "Demonstrate an understanding of (i) change of subject (ii) substituting values to evaluate expressions, and (iii) factorize expressions that have simple binomial as a factor.",
+                "indicators": [
+                  {
+                    "id": "B9.2.2.1.1",
+                    "code": "B9.2.2.1.1",
+                    "description": "Perform change of subject of a given formula and use it to solve problems. Critical Thinking and Problem solving (CP) Communication and Collaboration (CC) Creativity and Innovation (CI) Digital Literacy (DL) E.g.1 Perform change of subject for given formulae (i) Make 𝑥𝑥 the subject of the following formulae"
+                  },
+                  {
+                    "id": "B9.2.2.1.2",
+                    "code": "B9.2.2.1.2",
+                    "description": "Substitute values into given formulae to evaluate it and use it to solve problems. Creativity and Innovation (CI) E.g.1 i. Find the value of (𝒙𝒙 − 𝒃𝒃)𝟐𝟐 – 𝟑𝟑(𝒙𝒙 − 𝒃𝒃) 𝒊𝒊𝒊𝒊𝒙𝒙 = 𝟐𝟐 𝒂𝒂𝒂𝒂𝒂𝒂 𝒃𝒃 = −𝟓𝟓 ii. Make 𝒌𝒌 the subject of the formula: 𝟏𝟏 𝒂𝒂 = √(𝒌𝒌𝟐𝟐 + 𝒂𝒂𝟐𝟐 𝒉𝒉𝒉𝒉 ) If 𝒂𝒂 = 8 5 , 𝑎𝑎 = 3, ℎ = 2, 𝑔𝑔 = 32, find the value of k. iii. The formula for finding the volume of the shape below is given as 1 3 𝜋𝜋𝑜𝑜2ℎ . Find the volume if r = 7, h = 21, and π = 22 7"
+                  },
+                  {
+                    "id": "B9.2.2.1.3",
+                    "code": "B9.2.2.1.3",
+                    "description": "Factorise expressions that have simple binomial. E.g. Factorise the following expressions. i. 3x + 4xy = x (3 +4y) ii. 12ab + 16b = 4b (3a + 4) iii. -13xy + 39x= -13x(y-3) iv. 5y-2y2+3y=-3y+3y v. 8y-2y2= 2y(4-y) vi. -6x+12=-3(2x-4) Critical Thinking and Problem solving (CP) Communication and Collaboration (CC) Creativity and Innovation (CI) Digital Literacy (DL)"
+                  },
+                  {
+                    "id": "B9.2.2.1.4",
+                    "code": "B9.2.2.1.4",
+                    "description": "Use the knowledge of simplifying and factorising expressions to solve real world problems. Creativity and Innovation (CI) Digital Literacy (DL) E.g.1 You purchased 10 items from a shopping plaza, and now you need plastic bags to carry them home. If each bag can hold only 3 items, how many plastic bags will you need to accommodate the10 items? Solution: We use simple algebraic formula 𝑥𝑥 𝑦𝑦 to calculate the number of bags. x = Number of items purchased = 10 y = Capacity of 1 bag = 3 Hence, 10 3 = 3.333 bags = 4 bags So, we need 4 shopping bags to carry 10 items."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "ss-2-3",
+            "code": "2.3",
+            "title": "Variables and Equations",
+            "contentStandards": [
+              {
+                "id": "B9.2.3.1",
+                "code": "B9.2.3.1",
+                "description": "Demonstrate understanding of single variable linear inequalities with rational coefficients including: • solving inequalities • verifying • comparing • graphing",
+                "indicators": [
+                  {
+                    "id": "B9.2.3.1.1",
+                    "code": "B9.2.3.1.1",
+                    "description": "Solve single variable linear inequalities with rational coefficients. Critical Thinking and Problem solving (CP) Personal Development and Leadership (PL) Digital Literacy (DL) i. 𝟐𝟐𝒙𝒙 + 𝟕𝟕 > 𝟓𝟓 𝟐𝟐 ii. 𝟓𝟓 𝟓𝟓 − 𝟏𝟏 𝟓𝟓 𝒙𝒙 > 𝟐𝟐 𝟕𝟕 iii. 𝟑𝟑 𝟐𝟐 𝒚𝒚 − 𝟐𝟐 𝟓𝟓 < 𝟓𝟓 𝟓𝟓 iv. 𝟏𝟏 𝟐𝟐 (𝟓𝟓𝒙𝒙 − 𝟓𝟓) < 𝑥𝑥 + 𝟏𝟏𝟏𝟏 𝟐𝟐𝟓𝟓 v. 𝟏𝟏 𝟑𝟑 > 𝑥𝑥 − 𝟓𝟓 𝟓𝟓 vi. 𝟏𝟏 𝟐𝟐 (𝟐𝟐𝒙𝒙 + 𝟑𝟑) ≤ 𝒙𝒙 + 𝟏𝟏 vii. 𝒙𝒙 + 𝟏𝟏 𝟐𝟐 ≥ − 𝟑𝟑 𝟐𝟐 viii. − 𝟐𝟐 𝟑𝟑 𝒙𝒙 + 𝟑𝟑 ≥ 𝟑𝟑"
+                  },
+                  {
+                    "id": "B9.2.3.1.2",
+                    "code": "B9.2.3.1.2",
+                    "description": "Illustrate solution sets of linear inequalities on the number line E.g.1 Illustrate and explain the inequality signs"
+                  },
+                  {
+                    "id": "B9.2.3.1.3",
+                    "code": "B9.2.3.1.3",
+                    "description": "Solve real-life problems involving linear equations and inequalities. Critical Thinking and Problem solving (CP) E.g.1 Solve real-life problems involving linear equations. i. A man has 260metres of fencing which he is going to put around a rectangular field which is 50metres wide. How long is the field? Solution: Since we need to find the length of the field, let x metresbe the length. 𝑥𝑥 + 50 + 𝑥𝑥 + 50 𝑜𝑜𝑜𝑜 2(𝑥𝑥 + 50) But this expression is given as 260m ∴ 2(𝑥𝑥 + 50) = 260 𝑥𝑥 + 50 = 130 𝑥𝑥 = 80m"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "strand-3",
+        "code": "3",
+        "title": "GEOMETRY AND MEASUREMENT",
+        "subStrands": [
+          {
+            "id": "ss-3-1",
+            "code": "3.1",
+            "title": "Shapes and Space",
+            "contentStandards": [
+              {
+                "id": "B9.3.1.1",
+                "code": "B9.3.1.1",
+                "description": "Apply the properties of angles at a point, angles on a straight line, vertically opposite angles, corresponding, angles to` solve problems.",
+                "indicators": [
+                  {
+                    "id": "B9.3.1.1.1",
+                    "code": "B9.3.1.1.1",
+                    "description": "Derive the formula for calculating the sum of angles in any polygon and use this to calculate the value of missing angles in polygons Communication and Collaboration (CC) E.g.1. Identify and name the various polygons such as a triangle, quadrilaterals, pentagons, and hexagons, etc."
+                  },
+                  {
+                    "id": "B9.3.1.1.2",
+                    "code": "B9.3.1.1.2",
+                    "description": "Identify similar and congruent triangles and use the knowledge to solve related problems E.g.1. Recognise similar triangles and solve for the values of the indicated angles in the diagram below: Critical Thinking and Problem solving (CP) Creativity and Innovation (CI) E.g.2. Recognise congruent triangles and solve for the values of the indicated angles in the diagram below: E.g. 3. Determine the value of x (using knowledge in similarity and congruency)."
+                  }
+                ]
+              },
+              {
+                "id": "B9.3.1.2",
+                "code": "B9.3.1.2",
+                "description": "Construct inscribed and circumscribed triangles and parallelograms with given dimensions.",
+                "indicators": [
+                  {
+                    "id": "B9.3.1.2.1",
+                    "code": "B9.3.1.2.1",
+                    "description": "Draw inscribed and circumscribed circles for triangles under given conditions Critical Thinking and Problem solving (CP) Communication and Collaboration (CC) Creativity and Innovation (CI) Personal Development and Leadership (PL) Digital Literacy (DL) E.g.1: Use a pair of compasses and a ruler to construct a triangle (say ∆ABC) under a given condition and locate the incentre of the triangle (the incentre is the point of concurrency of the three angle bisectors of a triangle); measure the shortest distance from the incentre to the line segments AB, AC and BC. What do you observe about the lengths?"
+                  },
+                  {
+                    "id": "B9.3.1.2.2",
+                    "code": "B9.3.1.2.2",
+                    "description": "Construct parallelograms (i.e. square, rectangle, rhombus) under given conditions. Communication and Collaboration (CC) E.g.1: Perform geometric construction of a square with a given side."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "ss-3-2",
+            "code": "3.2",
+            "title": "Measurement",
+            "contentStandards": [
+              {
+                "id": "B9.3.2.1",
+                "code": "B9.3.2.1",
+                "description": "Derive the formulas for determining the surface area of prisms (i.e. cuboid and triangular prism) and use to solve problems.",
+                "indicators": [
+                  {
+                    "id": "B9.3.2.1.1",
+                    "code": "B9.3.2.1.1",
+                    "description": "Identify cuboids and triangular prisms; draw their nets to construct the 3-D shapes and use it to determine the surface area. E.g.1 Sort out shapes that are triangular prisms and cuboids. Critical Thinking and Problem solving (CP) Creativity and Innovation (CI) E.g.2 Identify each of the nets below: A net of…………….. A net of…………….."
+                  },
+                  {
+                    "id": "B9.3.2.1.2",
+                    "code": "B9.3.2.1.2",
+                    "description": "Use the net of a cuboid to determine its surface area. E.g.1 Find the surface area of each of the cuboids"
+                  },
+                  {
+                    "id": "B9.3.2.1.3",
+                    "code": "B9.3.2.1.3",
+                    "description": "Use the net of a triangular prism to determine its surface area. E.g.1Find the surface area of each of the triangular prims. Z"
+                  },
+                  {
+                    "id": "B9.3.2.1.4",
+                    "code": "B9.3.2.1.4",
+                    "description": "Express points in the Cartesian plane as position vectors Creativity and Innovation (CI) E.g.1 Identity the following using the diagram below: (i) the origin (ii) the position vector E.g.2 Draw and write the position vectors of the following with 0 as the origin: (i) M(2,3) (ii) N(-1,2)"
+                  }
+                ]
+              },
+              {
+                "id": "B9.3.2.2",
+                "code": "B9.3.2.2",
+                "description": "Solve problems involving bearings and addition/subtraction of vectors",
+                "indicators": [
+                  {
+                    "id": "B9.3.2.2.1",
+                    "code": "B9.3.2.2.1",
+                    "description": "Show an understanding of parallel vectors and perpendicular vectors E.g.1 Investigate conditions for parallel vectors and perpendicular vectors. E.g.2 Use the result from the investigation to solve the following questions: (i) Find the value(s) of x, if the vectors �3𝑥𝑥 2 � and �6 𝑥𝑥� are parallel. (ii) Which of the vectors is perpendicular to �3 4� (a) �−3 4 � (b) �−3 −4� (c) �−4 3 � (d) �−4 −3� Digital Literacy (DL)"
+                  },
+                  {
+                    "id": "B9.3.2.2.2",
+                    "code": "B9.3.2.2.2",
+                    "description": "Apply the triangular and parallelogram laws of addition to resolve vectors E.g.1 Deduce the triangle law of vector addition. 𝐴𝐴𝐴𝐴�����⃗ +𝐴𝐴𝐶𝐶�����⃗ = 𝐴𝐴𝐶𝐶�����⃗ Where ABC are points in the 0xy plane. E.g.2 The vertices of a triangle are P(1,-3), Q(7,5) and R(-3,5) (i) Express 𝑃𝑃𝑃𝑃,������⃗ 𝑃𝑃𝑃𝑃�����⃗, and 𝑃𝑃𝑃𝑃�����⃗ as column vectors. (ii) Show that triangle PQR is an isosceles. (iii) Find the equation of the line𝑃𝑃𝑃𝑃�����⃗. Eg3 Investigate the parallelogram law of vector addition. Eg.4P,Q,R,S is a parallelogram whose vertices are P (x ,y), Q (5,7), R(2,4) and S(1,3) (i) Find 𝑃𝑃𝑃𝑃,������⃗ and𝑆𝑆𝑃𝑃�����⃗ hence find the values of x and y. Creativity and Innovation (CI)"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "ss-3-3",
+            "code": "3.3",
+            "title": "Position and Transformation",
+            "contentStandards": [
+              {
+                "id": "B9.3.3.1",
+                "code": "B9.3.3.1",
+                "description": "Demonstrate understanding of how to perform an enlargement on a geometrical shape given a scale factor and describe the properties of the image under the transformation (i.e. congruence, similarity, etc.)",
+                "indicators": [
+                  {
+                    "id": "B9.3.3.1.1",
+                    "code": "B9.3.3.1.1",
+                    "description": "Know examples of situations in everyday life that depict enlargement situations in everyday life. E.g. 1. Know examples of situations that relate to enlargement situations in everyday life and the nature of movements – vertical and horizontal. Creativity and Innovation (CI) Digital Literacy (DL)"
+                  },
+                  {
+                    "id": "B9.3.3.1.2",
+                    "code": "B9.3.3.1.2",
+                    "description": "Understand enlargement and identify real-life situations involving enlargement. Creativity and Innovation (CI) E.g. 1. Draw an enlargement of shapes using a given scale factor. i. State the single transformation that maps triangle P onto Q. ii. State the single transformation that maps triangle P onto R. iii. Investigate the characteristics of enlargements under the following conditions of scale factor: • if the scale factor (K) is negative • if the scale factor (K) is greater than 1 or less than –1 • if the scale factor (K) is between –1 and 1 (i.e., fraction) E.g. 2. Using an object, and its image, determine the scale factor in a transformation?"
+                  },
+                  {
+                    "id": "B9.3.3.1.3",
+                    "code": "B9.3.3.1.3",
+                    "description": "Investigate the concept of congruent and similar shapes E.g. 1. Using multiple and varied examples of enlargement on a coordinate plane, verify congruent and similar shapes using their properties."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "strand-4",
+        "code": "4",
+        "title": "HANDLING DATA",
+        "subStrands": [
+          {
+            "id": "ss-4-1",
+            "code": "4.1",
+            "title": "Data",
+            "contentStandards": [
+              {
+                "id": "B9.4.1.1",
+                "code": "B9.4.1.1",
+                "description": "Select, justify, and use appropriate methods of collecting data (grouped/ungrouped), use the data to construct and interpret frequency tables and histogram and use it to determine the mode and to solve and/or pose problems.",
+                "indicators": [
+                  {
+                    "id": "B9.4.1.1.1",
+                    "code": "B9.4.1.1.1",
+                    "description": "Select and justify a method to collect data (quantitative and qualitative) to answer a given question. E. g. 1 Discuss and decide (i) from where/whom to collect data for the studies presented below; (ii) which data collection methods to use; and (iii) justify the choices for (i) and (ii) above Areas of study are described as follows: a. Musa has started a book club for Ayisha and her friends. He wants Ayisha to find out books that are most popular among her friends. b. Find the most common mode of travel by learners in Oyoko Junior and Senior High Schools. Critical Thinking and Problem solving (CP) Communication and Collaboration (CC) Creativity and Innovation (CI)"
+                  },
+                  {
+                    "id": "B9.4.1.1.2",
+                    "code": "B9.4.1.1.2",
+                    "description": "Organise data (grouped/ungrouped) present it in frequency tables, line graphs, pie graphs, bar graphs and/or pictographs (representations include infographics, waffle diagrams, box and whisker plots and stem and leaf plots) and analyse it to solve and/or pose problems. E.g. 1 -Thirty bulbs were life-tested and their lifespan to the nearest hour are as follows:"
+                  },
+                  {
+                    "id": "B9.4.1.1.3",
+                    "code": "B9.4.1.1.3",
+                    "description": "Use a histogram to determine the mode of a given data to solve and/or pose real life cases. Critical Thinking and Problem solving (CP) Communication and Collaboration (CC) Creativity and Innovation (CI) E.g. 1- The waiting times, x minutes, for 60 patients at a certain clinic are as follows i. Construct a frequency table using class intervals 0 – 10.5; 10.5 – 20.5; 20.5– 30.5, and so on. ii. Construct a frequency table using class intervals 0 <×≤ 10; 10 <×≤ 20; 20 <×≤ 30, and so on. iv. Draw a histogram and find the modal class."
+                  }
+                ]
+              },
+              {
+                "id": "B9.4.1.2",
+                "code": "B9.4.1.2",
+                "description": "Select, justify, and use appropriate methods of collecting data (quantitative and qualitative), organise and analyse the data (grouped/ungrouped) to interpret the results using the descriptive statistics (measures of central tendency and range).",
+                "indicators": [
+                  {
+                    "id": "B9.4.1.2.1",
+                    "code": "B9.4.1.2.1",
+                    "description": "- Select a method for collecting data (quantitative and qualitative), taking into consideration how bias (use of language, ethics, cost, time and timing, privacy or cultural sensitivity) may influence data. E. g. 1 Suppose in a school survey form the following question was asked: The designer of the survey form has a bias for the methodology used in math lessons and the bias influences how the question was written. The language used in writing the question may lead people to just answer yes or no. A better question would be: Overall, how will you rate the teaching of mathematics? Critical Thinking and Problem solving (CP) Communication and Collaboration (CC) Creativity and Innovation (CI) Personal Development and Leadership (PL) Digital Literacy (DL) E.g. 2 Ama Mereku in B9 wants to write an article for their school magazine on sport-related injuries. The responses for the survey question stated below were collected from only the schools’ football team. The influencing factors in this survey question are: time and bias. Football is a contact sport. The chances are that the answers from her targeted respondents will be high in favour of injuries and thus negatively affect the conclusion/report. In order to report accurately on sport-related injuries Ama needs to ask more people (time needed) who participate in a variety of sports, including contact and non-contact sports (e.g. athletics tennis, volleyball, and so on). Overall, don’t you think the teaching of mathematics is very good? Very poor Poor Fair Good Very Good"
+                  },
+                  {
+                    "id": "B9.4.1.2.2",
+                    "code": "B9.4.1.2.2",
+                    "description": "Organise and analyse data and interpret the results using the descriptive statistics (i.e. minimum, maximum, measures of central tendency and range) to answer a given question. Refer to E.g. 1 of B9.4.1.1.2 and find (minimum, maximum, measures of central tendency and range) i. The minimum lifespan, to the nearest hour, of the bulbs tested. ii. The maximum lifespan, to the nearest hour, of the bulbs tested. iii. The range of the data collected from the life-testing. iv. What is the mean lifespan of the bulbs? v. What is the median of the lifespan of the bulbs? vi. What is the mode of the lifespan of the bulbs? vii. When placing an order for the bulbs tested to sell in your shop, which of them will you consider buying? If you eat pork please name the favourite method you cook it. Grilling Frying Boiling"
+                  },
+                  {
+                    "id": "B9.4.1.2.3",
+                    "code": "B9.4.1.2.3",
+                    "description": "Demonstrate the effect on the mean, median, and mode when extreme data is included in a data set E.g.1 Refer to E.g. 1 of B9.4.1.1.2. i. Find the mean of the data, if one of the bulbs is replaced with a new bulb with lifespan of 300 hours, find the new mean of the bulbs and compare it to the original mean ii. In small groups, find the mean of the data, if the lifespan of one of the bulbs tested was 70 hours, and compare it to the original mean. iii. Continue to replace the values of the lifespan in the data with extreme values (small and large), calculate the mean, median, and mode and discuss the findings. Critical Thinking and Problem solving (CP) Communication and Collaboration (CC) Creativity and Innovation (CI) Personal Development and Leadership (PL) Digital Literacy (DL)"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "ss-4-2",
+            "code": "4.2",
+            "title": "Chance or Probability",
+            "contentStandards": [
+              {
+                "id": "B9.4.2.1",
+                "code": "B9.4.2.1",
+                "description": "Identify the sample space for a probability experiment involving two dependent events and express the probabilities of given events as fractions, decimals, percentages and/or ratios to solve problems.",
+                "indicators": [
+                  {
+                    "id": "B9.4.2.1.1",
+                    "code": "B9.4.2.1.1",
+                    "description": "Perform a probability experiment involving two dependent events e.g. drawing coloured bottle tops from a bag without replacement E.g. 1In an experiment, Anita was asked to pick one bottle top, in three trials, from a bag which contains 3 red, 2 green and 1 pink bottle tops without replacement. i. List the elements of the sample space of the events. ii. Does the occurrence of the one trial affect the occurrence of the other trials? Critical Thinking and Problem solving (CP) Personal Development and Leadership (PL)"
+                  },
+                  {
+                    "id": "B9.4.2.1.2",
+                    "code": "B9.4.2.1.2",
+                    "description": "Express the probabilities of the events as fractions, decimals, percentages and/or ratios; e.g. using a tree diagram, table or another graphic organiser E.g. 1 Draw a probability tree diagram for the experiment in B9.4.2.1.1, E.g. 1. Express the probabilities of the events (on their respective branches) as decimals, percentages and ratios. E.g. 2: i. Consider the experiment of drawing two Aces (in two trials) in a standard deck of cards without replacement. ii. Calculate the probability of each trial and express the probabilities of the events as decimals, percentages and ratios. E.g. 3: i. Consider the experiment of drawing an Ace and a Jack (in two trials) in a standard deck of cards without replacement. ii. Calculate the probability of each trial and express the probabilities of the events as decimals, percentages and ratios."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
   }
 };

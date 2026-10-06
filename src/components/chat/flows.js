@@ -17,6 +17,7 @@ import { generateTimetable, generateLessonPlan, extractLessonPlanSections } from
 export const ACTION_CHIPS = [
   { id: 'timetable', label: '⏰ Create a timetable' },
   { id: 'lessonplan', label: '📋 Create a lesson plan' },
+  { id: 'sampleplans', label: '📄 Browse sample lesson plans' },
   { id: 'research', label: '🔍 Research a topic online' },
 ];
 

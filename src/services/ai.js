@@ -372,9 +372,14 @@ export async function curriculumChatStream(history, {
     return { text: tomorrowAnswer, sources: [] };
   }
 
-  const { findCurriculumEntries, formatEntriesContext } = await import('./curriculumSearch');
+  const { findCurriculumEntries, formatEntriesContext, findLocalResources, formatLocalContext } =
+    await import('./curriculumSearch');
   const entries = await findCurriculumEntries(latestUserText);
-  const grounding = formatEntriesContext(entries);
+  const local = await findLocalResources(latestUserText);
+  const grounding = [
+    formatEntriesContext(entries),
+    formatLocalContext(local),
+  ].filter(Boolean).join('\n\n');
 
   const systemPrompt = persona === 'student'
     ? STUDENT_SYSTEM(classLevel)
@@ -396,9 +401,14 @@ export async function curriculumChatStream(history, {
  */
 export async function researchChatStream(history, { onToken, signal } = {}) {
   const latestUserText = [...(history ?? [])].reverse().find(msg => msg.role === 'user')?.content ?? '';
-  const { findCurriculumEntries, formatEntriesContext } = await import('./curriculumSearch');
+  const { findCurriculumEntries, formatEntriesContext, findLocalResources, formatLocalContext } =
+    await import('./curriculumSearch');
   const entries = await findCurriculumEntries(latestUserText);
-  const grounding = formatEntriesContext(entries);
+  const local = await findLocalResources(latestUserText);
+  const grounding = [
+    formatEntriesContext(entries),
+    formatLocalContext(local),
+  ].filter(Boolean).join('\n\n');
 
   const systemPrompt = grounding
     ? `${RESEARCH_SYSTEM}\n\n${grounding}`

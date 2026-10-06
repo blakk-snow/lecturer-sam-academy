@@ -8,7 +8,10 @@
     "build": "vite build",
     "preview": "vite preview",
     "parse:course-data": "node scripts/parse-course-content.mjs",
-    "check:course-data": "node scripts/parse-course-content.mjs --check"
+    "check:course-data": "node scripts/parse-course-content.mjs --check",
+    "parse:question-bank": "node scripts/parse-question-bank.mjs",
+    "check:question-bank": "node scripts/parse-question-bank.mjs --check",
+    "parse:sample-plans": "node scripts/parse-sample-lesson-plans.mjs"
   },
   "dependencies": {
     "dexie": "^4.2.0",

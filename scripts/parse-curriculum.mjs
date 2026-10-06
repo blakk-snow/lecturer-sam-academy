@@ -615,10 +615,75 @@ const mathB7 = [
   },
 ];
 
+// ── Mathematics B8/B9 from the structured JSON ────────────────────────────────
+// Source: src/data/curriculum/nacca_maths_ccp_structured_b8_b9.json
+// Per class level ("8" | "9"): { "<CS code>": { description, indicators:
+// { code: text }, strand: [number, TITLE], sub: [number, Title] } }
+
+const MATHS_JSON_PATH = path.join(CURRICULUM_DIR, 'nacca_maths_ccp_structured_b8_b9.json');
+
+function buildMathFromJson(levelNumber) {
+  const raw = JSON.parse(fs.readFileSync(MATHS_JSON_PATH, 'utf8'))[String(levelNumber)] ?? {};
+  const strands = [];
+  const strandByNum = new Map();
+  const subByKey = new Map();
+
+  for (const [csCode, csData] of Object.entries(raw)) {
+    const [strandNum, strandTitle] = csData.strand;
+    const [subNum, subTitle] = csData.sub;
+
+    if (!strandByNum.has(strandNum)) {
+      strandByNum.set(strandNum, {
+        id: `strand-${strandNum}`,
+        code: String(strandNum),
+        title: strandTitle,
+        subStrands: [],
+      });
+      strands.push(strandByNum.get(strandNum));
+    }
+    const strand = strandByNum.get(strandNum);
+
+    const subKey = `${strandNum}:${subNum}`;
+    if (!subByKey.has(subKey)) {
+      subByKey.set(subKey, {
+        id: `ss-${strandNum}-${subNum}`,
+        code: `${strandNum}.${subNum}`,
+        title: subTitle,
+        contentStandards: [],
+      });
+      strand.subStrands.push(subByKey.get(subKey));
+    }
+    const subStrand = subByKey.get(subKey);
+
+    const indicators = Object.entries(csData.indicators ?? {}).map(([code, description]) => ({
+      id: code,
+      code,
+      description,
+    }));
+    subStrand.contentStandards.push({
+      id: csCode,
+      code: csCode,
+      description: csData.description,
+      indicators,
+    });
+  }
+  return strands;
+}
+
+let mathB8 = [];
+let mathB9 = [];
+try {
+  mathB8 = buildMathFromJson(8);
+  mathB9 = buildMathFromJson(9);
+  console.log(`  ✓  mathematics B8/B9 — ${mathB8.length} / ${mathB9.length} strands from structured JSON`);
+} catch (err) {
+  console.warn(`  ⚠  Could not parse mathematics B8/B9 JSON: ${err.message}`);
+}
+
 if (!parsed.mathematics) parsed.mathematics = {};
 parsed.mathematics.B7 = mathB7;
-if (!parsed.mathematics.B8) parsed.mathematics.B8 = [];
-if (!parsed.mathematics.B9) parsed.mathematics.B9 = [];
+parsed.mathematics.B8 = mathB8;
+parsed.mathematics.B9 = mathB9;
 
 // ── Build output ──────────────────────────────────────────────────────────────
 

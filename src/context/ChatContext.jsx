@@ -252,6 +252,19 @@ export function ChatProvider({ children }) {
       });
       return;
     }
+    if (chipId === 'sampleplans') {
+      const { sampleLessonPlans } = await import('../data/sampleLessonPlans');
+      const list = sampleLessonPlans.map(p =>
+        `- **${p.title}** — Content Standard ${p.contentStandard || '—'} (Indicators: ${p.indicators.map(i => i.code).join(', ') || '—'})`,
+      ).join('\n');
+      appendMessage({
+        id: nextId(),
+        role: 'assistant',
+        content: `Here are the bundled sample lesson notes (Week 5):\n\n${list}\n\nCreate a lesson plan slot for the same subject and class, then use "Load into this note" on the lesson page.`,
+        links: [{ label: 'Open Planner →', to: '/planner' }],
+      });
+      return;
+    }
     if (FLOWS[chipId]) {
       await beginFlow(chipId);
     }
