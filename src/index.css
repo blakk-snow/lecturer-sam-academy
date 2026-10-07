@@ -45,3 +45,29 @@ html[data-font="lg"] {
   outline: 3px solid var(--color-accent);
   outline-offset: 2px;
 }
+
+/* ── Print / Download as PDF ────────────────────────────────────────────────── */
+
+@page {
+  margin: 16mm 14mm;
+}
+
+@media print {
+  body {
+    background: #fff;
+  }
+
+  /* Hide app chrome; the printable lesson plan is the only visible content. */
+  .print-hidden {
+    display: none !important;
+  }
+
+  .print-only {
+    display: block !important;
+  }
+
+  /* Keep section cards together on a page where possible. */
+  .print-lesson-plan section {
+    page-break-inside: avoid;
+  }
+}

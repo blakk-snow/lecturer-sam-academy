@@ -18,7 +18,7 @@ export function ChatLauncher() {
       {!panelOpen && (
         <button
           onClick={openPanel}
-          className="fixed right-4 bottom-20 md:bottom-6 z-40 w-12 h-12 rounded-full bg-accent text-white shadow-lg flex items-center justify-center hover:bg-accent/90 transition"
+          className="fixed right-4 bottom-20 md:bottom-6 z-40 w-12 h-12 rounded-full bg-accent text-white shadow-lg flex items-center justify-center hover:bg-accent/90 transition print:hidden"
           aria-label="Open AI assistant"
         >
           <Bot size={22} />
@@ -29,12 +29,12 @@ export function ChatLauncher() {
         <>
           {/* Backdrop — click outside to close (mobile) */}
           <div
-            className="fixed inset-0 z-40 bg-black/30 md:bg-transparent md:pointer-events-none"
+            className="fixed inset-0 z-40 bg-black/30 md:bg-transparent md:pointer-events-none print:hidden"
             onClick={closePanel}
             aria-hidden="true"
           />
 
-          <div className="fixed z-50 right-0 top-0 bottom-0 w-full sm:w-[26rem] max-w-full bg-paper shadow-2xl flex flex-col">
+          <div className="fixed z-50 right-0 top-0 bottom-0 w-full sm:w-[26rem] max-w-full bg-paper shadow-2xl flex flex-col print:hidden">
             <div className="flex items-center gap-2 border-b border-line bg-card px-3 py-2.5 shrink-0">
               <div className="w-8 h-8 rounded-full bg-accent/10 flex items-center justify-center shrink-0">
                 <Bot size={16} className="text-accent" />

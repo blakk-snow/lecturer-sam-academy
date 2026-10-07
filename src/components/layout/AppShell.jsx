@@ -105,7 +105,7 @@ export function AppShell() {
 
   return (
     <div className="min-h-dvh bg-paper text-ink">
-      <header className="hidden border-b border-line bg-card md:block">
+      <header className="hidden border-b border-line bg-card md:block print:hidden">
         <div className="mx-auto flex max-w-5xl items-center justify-between px-6 py-4">
           <NavLink to="/" className="font-serif text-lg tracking-wide">
             Lecturer Sam Academy

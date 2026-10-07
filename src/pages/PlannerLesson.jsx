@@ -1,6 +1,6 @@
 import { useState, useEffect, useRef, useCallback, useMemo } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
-import { ArrowLeft, ChevronLeft, ChevronRight, Sparkles, Loader2 } from 'lucide-react';
+import { ArrowLeft, ChevronLeft, ChevronRight, Sparkles, Loader2, Download } from 'lucide-react';
 import {
   useSubject, useWeekPlans, useWeekTopicsForSubject, useLessonNote,
   useTerm, useClassGroups, usePlannerActions,
@@ -9,6 +9,7 @@ import { generateLessonPlan, generateAssessment, generateMethodLessonPlan, extra
 import { getMethodForSubject, methodSectionsToFields } from '../data/teachingMethods';
 import { findSamplePlans } from '../data/sampleLessonPlans';
 import { Markdown } from '../components/chat/Markdown';
+import { PrintLessonPlan } from '../components/lesson/PrintLessonPlan';
 
 // curriculumData is loaded lazily — it's ~600 KB and only needed on this page.
 const curriculumDataPromise = import('../data/curriculumData');
@@ -805,10 +806,10 @@ export default function PlannerLesson() {
   const isLast  = step === totalSteps - 1;
 
   return (
-    <div className="pb-24 flex flex-col min-h-dvh">
+    <div className="pb-24 flex flex-col min-h-dvh print:min-h-0">
 
       {/* ── Fixed top bar ─────────────────────────────────────────────────── */}
-      <div className="sticky top-0 z-10 bg-card border-b border-line px-4 pt-4 pb-3 md:px-6">
+      <div className="sticky top-0 z-10 bg-card border-b border-line px-4 pt-4 pb-3 md:px-6 print:hidden">
         {/* Back + breadcrumb row */}
         <div className="flex items-center justify-between mb-3">
           <button
@@ -818,13 +819,23 @@ export default function PlannerLesson() {
             <ArrowLeft size={16} />
             Back
           </button>
-          {/* Status badge */}
-          <button
-            onClick={handleStatusCycle}
-            className={`px-3 py-1 rounded-full text-xs font-semibold transition ${STATUS_STYLES[form.status]}`}
-          >
-            {STATUS_LABELS[form.status]}
-          </button>
+          {/* Status badge + Download PDF */}
+          <div className="flex items-center gap-2">
+            <button
+              onClick={() => window.print()}
+              className="flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-medium border border-line text-ink hover:border-accent hover:text-accent transition"
+              aria-label="Download lesson plan as PDF"
+            >
+              <Download size={13} />
+              Download PDF
+            </button>
+            <button
+              onClick={handleStatusCycle}
+              className={`px-3 py-1 rounded-full text-xs font-semibold transition ${STATUS_STYLES[form.status]}`}
+            >
+              {STATUS_LABELS[form.status]}
+            </button>
+          </div>
         </div>
 
         {/* Progress bar */}
@@ -860,7 +871,7 @@ export default function PlannerLesson() {
       </div>
 
       {conflict && (
-        <div className="mx-4 mt-4 rounded-xl border border-amber-300 bg-amber-50 px-4 py-3 text-sm text-amber-950 md:mx-6">
+        <div className="mx-4 mt-4 rounded-xl border border-amber-300 bg-amber-50 px-4 py-3 text-sm text-amber-950 md:mx-6 print:hidden">
           <p className="font-semibold">This lesson note changed on another device.</p>
           <p className="mt-1">Reload the latest version, or deliberately overwrite it with your draft.</p>
           <div className="mt-3 flex flex-wrap gap-2">
@@ -882,13 +893,13 @@ export default function PlannerLesson() {
         </div>
       )}
       {saveError && (
-        <div role="alert" className="mx-4 mt-4 rounded-xl border border-red-200 bg-red-50 px-4 py-3 text-sm text-red-800 md:mx-6">
+        <div role="alert" className="mx-4 mt-4 rounded-xl border border-red-200 bg-red-50 px-4 py-3 text-sm text-red-800 md:mx-6 print:hidden">
           {saveError}
         </div>
       )}
 
       {/* ── Slide ─────────────────────────────────────────────────────────── */}
-      <div className="flex-1 px-4 pt-6 pb-4 md:px-6">
+      <div className="flex-1 px-4 pt-6 pb-4 md:px-6 print:hidden">
         {/* Step heading */}
         <div className="mb-5">
           <span className="text-2xl mb-1 block">{currentStep.icon}</span>
@@ -900,7 +911,7 @@ export default function PlannerLesson() {
       </div>
 
       {/* ── Navigation bar ─────────────────────────────────────────────────── */}
-      <div className="sticky bottom-16 md:bottom-0 bg-card border-t border-line px-4 py-3 md:px-6">
+      <div className="sticky bottom-16 md:bottom-0 bg-card border-t border-line px-4 py-3 md:px-6 print:hidden">
         <div className="flex items-center justify-between gap-3 max-w-5xl mx-auto">
           <button
             onClick={() => goTo(step - 1)}
@@ -941,6 +952,27 @@ export default function PlannerLesson() {
             {!isLast && <ChevronRight size={16} />}
           </button>
         </div>
+      </div>
+
+      {/* ── Print-only lesson plan (Download PDF) ──────────────────────────── */}
+      <div className="hidden print:block print-only px-2 py-4">
+        <PrintLessonPlan
+          subjectName={subject?.name}
+          classLevel={classGroup?.classLevel}
+          termName={term?.name}
+          weekNumber={weekPlan?.weekNumber}
+          day={form.day}
+          date={form.date}
+          statusLabel={STATUS_LABELS[form.status]}
+          currDetails={currDetails}
+          sections={form.sections}
+          starter={form.starter}
+          mainLearning={form.mainLearning}
+          plenary={form.plenary}
+          resourceUrl={form.resourceUrl}
+          evaluation={form.evaluation}
+          homework={form.homework}
+        />
       </div>
 
     </div>
