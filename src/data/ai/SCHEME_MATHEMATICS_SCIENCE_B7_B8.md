@@ -1,7 +1,7 @@
 # SCHEME OF LEARNING — MATHEMATICS & SCIENCE
 ## Basic 7 and Basic 8 · All weeks · All three terms
 
-**Source:** *Annual Scheme of Learning for the 2026/2027 Academic Year for Junior High Schools (Basic 7 / Basic 8), based on the New Syllabus 2020* — Alpha Examinations, Accra.
+**Source:** *Annual Scheme of Learning for the 2026/2027 Academic Year for Junior High Schools (Basic 7 / Basic 8), based on the New Syllabus 2020* — Beacon Educational Consult.
 
 Reproduced from `BASIC 7 SCHEME OF LEARNING.pdf` and `BASIC 8 SCHEME OF LEARNING.pdf`. Column headings and wording are as printed in the source; only line-wrapping inside cells has been flattened. Page references are to the source PDFs.
 

@@ -1,7 +1,7 @@
 # SCIENCE — ENRICHED SCHEME OF LEARNING
 ## Basic 7 and Basic 8 · All weeks · All three terms
 
-The week-by-week scheme from `BASIC 7 SCHEME OF LEARNING.pdf` / `BASIC 8 SCHEME OF LEARNING.pdf` (Alpha Examinations, Accra, 2026/2027), joined to the full NaCCA Common Core Programme Science JHS 2023 curriculum from `CCP_SCIENCE_JHS_2023_Basic7_Full.md` / `..._Basic8_Full.md`.
+The week-by-week scheme from `BASIC 7 SCHEME OF LEARNING.pdf` / `BASIC 8 SCHEME OF LEARNING.pdf` (Beacon Educational Consult, 2026/2027), joined to the full NaCCA Common Core Programme Science JHS 2023 curriculum from `CCP_SCIENCE_JHS_2023_Basic7_Full.md` / `..._Basic8_Full.md`.
 
 Each week gives the scheme's strand, sub-strand and resources, then — for every indicator the scheme cites — the curriculum's content standard wording, the indicator wording, the exemplars and the core competencies.
 

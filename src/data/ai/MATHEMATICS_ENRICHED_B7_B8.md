@@ -1,7 +1,7 @@
 # MATHEMATICS — ENRICHED SCHEME OF LEARNING
 ## Basic 7 and Basic 8 · All weeks · All three terms
 
-The week-by-week scheme from `BASIC 7 SCHEME OF LEARNING.pdf` / `BASIC 8 SCHEME OF LEARNING.pdf` (Alpha Examinations, Accra, 2026/2027), joined to the NaCCA Mathematics Common Core Programme curriculum for JHS 1–3 (September 2020) from `maths_ccp_2023.pdf`.
+The week-by-week scheme from `BASIC 7 SCHEME OF LEARNING.pdf` / `BASIC 8 SCHEME OF LEARNING.pdf` (Beacon Educational Consult, 2026/2027), joined to the NaCCA Mathematics Common Core Programme curriculum for JHS 1–3 (September 2020) from `maths_ccp_2023.pdf`.
 
 Each week gives the scheme's strand, sub-strand and resources, then — for every indicator the scheme cites — the curriculum's content standard wording, the indicator wording with its worked examples, and the core competencies.
 

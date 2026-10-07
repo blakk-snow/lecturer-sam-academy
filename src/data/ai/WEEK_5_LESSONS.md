@@ -1,6 +1,6 @@
 # WEEK 5 — LESSONS AT A GLANCE
 
-**Source:** *Annual Scheme of Learning for the 2026/2027 Academic Year, Junior High Schools* — Alpha Examinations, Accra (based on the New Syllabus 2020 / NaCCA Common Core Programme).
+**Source:** *Annual Scheme of Learning for the 2026/2027 Academic Year, Junior High Schools* — Beacon Educational Consult (based on the New Syllabus 2020 / NaCCA Common Core Programme).
 
 **Files scanned:** `BASIC 7 SCHEME OF LEARNING.pdf` (70 pp.) and `BASIC 8 SCHEME OF LEARNING.pdf` (72 pp.) — 11 subjects × 3 terms × 2 classes = 67 scheme sections (Career Technology splits into Home Economics and Pre-Tech), 1,431 week-rows parsed.
 
