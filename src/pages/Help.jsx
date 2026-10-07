@@ -19,7 +19,7 @@ const SECTIONS = [
     title: 'Course Library',
     what: 'Curriculum-driven content for learners — notes, practice questions and quizzes aligned to the NaCCA indicators.',
     steps: [
-      'Open Course from the menu.',
+      'Open Notes from the Library or Student menu.',
       'Pick a subject, then a class (Basic 7–9).',
       'Browse the strands and choose an indicator with a 📖 notes or 🎯 questions badge.',
       'Read the notes, attempt the practice questions, or take the indicator quiz — progress is saved on the device.',
@@ -47,7 +47,7 @@ const SECTIONS = [
     title: 'Lesson Planner',
     what: 'Build your terms, classes, subjects and weekly topics, then write or AI-generate lesson notes with auto-save.',
     steps: [
-      'Open Planner and create a term (e.g. First Term, 2026/2027).',
+      'Open Planner from the Teacher menu and create a term (e.g. First Term, 2026/2027).',
       'Add a class group (Basic 7–9), then subjects — link each subject to its curriculum subject and class.',
       'Open a subject and add topics per week, picking strands, content standards and indicators from the curriculum.',
       'Open a topic to write its lesson note — use the ✨ buttons to generate any part, or the whole plan, with AI.',
@@ -76,7 +76,7 @@ const SECTIONS = [
     title: 'Timetable',
     what: 'Your weekly teaching timetable, one grid per class, saved to your account when signed in.',
     steps: [
-      'Open Timetable from the menu.',
+      'Open Timetable from the Teacher menu.',
       'Pick a class (add new classes with the + Add class chip).',
       'Tap any period cell and type the subject; add more periods with "Add period".',
       'Save changes — they sync to your Google account, and stay on the device when offline.',
@@ -105,9 +105,9 @@ const SECTIONS = [
     title: 'Curriculum browser & Scheme of Learning',
     what: 'Explore the complete NaCCA Common Core Programme (all 10 subjects, Basic 7–9) and the 2026/2027 Maths & Science scheme.',
     steps: [
-      'Open Curriculum, pick a subject and class, and drill into strands, sub-strands, content standards and indicators.',
+      'Open Curriculum from the Library menu, pick a subject and class, and drill into strands, sub-strands, content standards and indicators.',
       'Use the AI drawer (✨ button) on any standard to generate a lesson, activities, an assessment, or a plain-language explanation.',
-      'Open Scheme to browse the week-by-week Maths and Science scheme with resources and source notes.',
+      'Open Scheme from the Teacher menu to browse the week-by-week Maths and Science scheme with resources and source notes.',
     ],
     to: '/curriculum',
     linkLabel: 'Open the Curriculum',
@@ -118,7 +118,7 @@ const SECTIONS = [
     title: 'Practice & the BECE question bank',
     what: 'Course practice questions plus a full bank of BECE-style mock papers parsed from the bundled science papers.',
     steps: [
-      'Open Practice and choose the Course Practice or BECE Question Bank tab.',
+      'Open Practice from the Student menu and choose the Course Practice or BECE Question Bank tab.',
       'In the bank, pick a class, then a mock paper (each has 40 objective questions and theory questions).',
       'Answer questions for instant feedback, and finish for your score — attempts are recorded on the device.',
       'Bundled sample lesson notes can also be loaded into any matching lesson plan from its overview page.',
@@ -132,9 +132,9 @@ const SECTIONS = [
     title: 'Profile, progress & accounts',
     what: 'Student progress lives on the device; an optional Google account syncs teacher data (planner + timetable) across devices.',
     steps: [
-      'Open Profile to set the learner\'s name and text size — no account is needed for learning.',
+      'Open Profile from the Settings menu to set the learner\'s name and text size — no account is needed for learning.',
       'In the Teacher account card, sign in with Google to sync your lesson plans and timetable to your account.',
-      'The Progress page shows lesson and planning progress. The whole app works offline after the first visit and can be installed like an app.',
+      'Progress (also in Settings) shows lesson and planning progress. The whole app works offline after the first visit and can be installed like an app.',
     ],
     to: '/profile',
     linkLabel: 'Open Profile',

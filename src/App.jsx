@@ -1,7 +1,8 @@
-import { Suspense, lazy } from "react";
+import { Suspense, lazy, useEffect, useState } from "react";
 import { Navigate, Route, Routes } from "react-router-dom";
 import { AppShell } from "./components/layout/AppShell";
 import { ChatProvider } from "./context/ChatContext";
+import { db } from "./db/database";
 
 // ── Lazy-loaded pages ──────────────────────────────────────────────────────────
 // Each page becomes a separate Vite chunk, loaded only when first visited.
@@ -13,6 +14,7 @@ const LegacyCourse   = lazy(() => import("./pages/LegacyCourse"));
 const LibraryIndicator = lazy(() => import("./pages/LibraryIndicator"));
 const BookReader      = lazy(() => import("./pages/BookReader"));
 const Help            = lazy(() => import("./pages/Help"));
+const Onboarding      = lazy(() => import("./pages/Onboarding"));
 const Unit           = lazy(() => import("./pages/Unit"));
 const Lesson         = lazy(() => import("./pages/Lesson"));
 const Practice       = lazy(() => import("./pages/Practice"));
@@ -52,7 +54,24 @@ function SuspenseShell() {
   );
 }
 
-export default function App() {
+// ── First-run onboarding gate ─────────────────────────────────────────────────
+// Before the `onboarded` settings flag exists, every route (except the
+// onboarding itself) redirects to Welcome → About → Sign in.
+
+function GatedApp() {
+  const [onboarded, setOnboarded] = useState(undefined);
+
+  useEffect(() => {
+    let cancelled = false;
+    db.settings.get('onboarded').then(row => {
+      if (!cancelled) setOnboarded(Boolean(row));
+    });
+    return () => { cancelled = true; };
+  }, []);
+
+  if (onboarded === undefined) return <PageLoader />;
+  if (!onboarded) return <Navigate to="/onboarding" replace />;
+
   return (
     <Routes>
       <Route element={<SuspenseShell />}>
@@ -79,6 +98,15 @@ export default function App() {
         <Route path="/results/:resultId"                       element={<Results />} />
         <Route path="/profile"                                 element={<Profile />} />
       </Route>
+    </Routes>
+  );
+}
+
+export default function App() {
+  return (
+    <Routes>
+      <Route path="/onboarding" element={<Onboarding />} />
+      <Route path="/*" element={<GatedApp />} />
     </Routes>
   );
 }

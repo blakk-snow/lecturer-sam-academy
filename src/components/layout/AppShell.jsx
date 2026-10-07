@@ -1,21 +1,51 @@
 import { useState } from "react";
-import { NavLink, Outlet } from "react-router-dom";
-import { LogIn, LogOut, Loader2 } from "lucide-react";
+import { NavLink, Outlet, useLocation } from "react-router-dom";
+import { LogIn, LogOut, Loader2, ChevronDown } from "lucide-react";
 import { BottomNav } from "./BottomNav";
 import { ChatLauncher } from "../chat/ChatLauncher";
+import { NAV_GROUPS, getGroupForPath } from "./navGroups";
 import { useAuth } from "../../context/AuthContext";
 
-const links = [
-  { to: "/", label: "Home", end: true },
-  { to: "/planner", label: "Planner" },
-  { to: "/timetable", label: "Timetable" },
-  { to: "/curriculum", label: "Curriculum" },
-  { to: "/scheme", label: "Scheme" },
-  { to: "/practice", label: "Practice" },
-  { to: "/dashboard", label: "Progress" },
-  { to: "/profile", label: "Profile" },
-  { to: "/help", label: "Help" },
-];
+// ── Group menu (desktop dropdown) ─────────────────────────────────────────────
+
+function GroupMenu({ group, active }) {
+  const [open, setOpen] = useState(false);
+
+  return (
+    <div className="relative">
+      <button
+        onClick={() => setOpen(o => !o)}
+        className={`flex items-center gap-1 text-sm font-medium transition ${
+          active ? "text-accent" : "text-ink-soft hover:text-ink"
+        }`}
+        aria-expanded={open}
+      >
+        {group.label}
+        <ChevronDown size={13} className={`transition-transform ${open ? "rotate-180" : ""}`} />
+      </button>
+      {open && (
+        <>
+          <div className="fixed inset-0 z-40" onClick={() => setOpen(false)} aria-hidden="true" />
+          <div className="absolute left-0 top-8 z-50 w-52 rounded-xl bg-card border border-line shadow-lg py-1.5 text-sm">
+            {group.items.map(item => (
+              <NavLink
+                key={`${group.id}-${item.to}`}
+                to={item.to}
+                end={item.to === "/"}
+                onClick={() => setOpen(false)}
+                className={({ isActive }) =>
+                  `block px-4 py-2 ${isActive ? "text-accent bg-accent/5" : "text-ink-soft hover:text-ink hover:bg-paper"}`
+                }
+              >
+                {item.label}
+              </NavLink>
+            ))}
+          </div>
+        </>
+      )}
+    </div>
+  );
+}
 
 // ── User menu (avatar + sign-out) ─────────────────────────────────────────────
 
@@ -94,6 +124,8 @@ function SignInButton({ onSignIn, loading }) {
 export function AppShell() {
   const { user, loading, signInWithGoogle, signOut, authError, clearAuthError } = useAuth();
   const [signingIn, setSigningIn] = useState(false);
+  const location = useLocation();
+  const activeGroup = getGroupForPath(location.pathname);
 
   async function handleSignIn() {
     setSigningIn(true);
@@ -112,17 +144,8 @@ export function AppShell() {
             Lecturer Sam Academy
           </NavLink>
           <nav className="flex gap-3 text-xs font-medium lg:gap-5 lg:text-sm" aria-label="Desktop navigation">
-            {links.map((link) => (
-              <NavLink
-                key={link.to}
-                to={link.to}
-                end={link.end}
-                className={({ isActive }) =>
-                  isActive ? "text-accent" : "text-ink-soft hover:text-ink"
-                }
-              >
-                {link.label}
-              </NavLink>
+            {NAV_GROUPS.map(group => (
+              <GroupMenu key={group.id} group={group} active={activeGroup === group.id} />
             ))}
           </nav>
 
