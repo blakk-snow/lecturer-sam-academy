@@ -3,6 +3,14 @@ rules_version = '2';
 service cloud.firestore {
   match /databases/{database}/documents {
 
+    // Quota/plan documents are readable by their owner but only writable
+    // by the server (Admin SDK) — clients must not be able to upgrade
+    // themselves or reset their counters.
+    match /users/{uid}/usage {
+      allow read: if request.auth != null && request.auth.uid == uid;
+      allow write: if false;
+    }
+
     // Each teacher can only read and write their own data.
     // No user can access another user's documents.
     match /users/{uid}/{document=**} {

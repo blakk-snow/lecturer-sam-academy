@@ -9,6 +9,7 @@ import { Button } from '../components/ui/Button';
 import { saveQuizResult } from '../db/attempts';
 import { completeLesson } from '../db/progress';
 import { useChat } from '../context/ChatContext';
+import { track } from '../services/analytics';
 
 const normalizeCode = (code) => (code ?? '').replace(/\/JHS\d+/g, '').toUpperCase();
 const lessonIdFor = (code) => `lib-${normalizeCode(code).toLowerCase()}`;
@@ -32,6 +33,7 @@ function IndicatorQuiz({ code, questions, onRestart }) {
       saveQuizResult({ quizId: lessonIdFor(code), score: correct, percentage }),
       completeLesson(lessonIdFor(code), percentage),
     ]);
+    track('quiz_completed', { percentage });
     setFinished(true);
   }
 

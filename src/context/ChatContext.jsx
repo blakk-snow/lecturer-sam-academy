@@ -13,6 +13,7 @@ import { useAuth } from './AuthContext';
 import { usePlannerActions, useTerms } from '../hooks/usePlanner';
 import { useTeacherSchedule } from '../hooks/useTeacherSchedule';
 import { curriculumChatStream, researchChatStream } from '../services/ai';
+import { track } from '../services/analytics';
 import { db } from '../db/database';
 import { ACTION_CHIPS, FLOWS } from '../components/chat/flows';
 import { getMethodForSubject } from '../data/teachingMethods';
@@ -363,10 +364,27 @@ export function ChatProvider({ children }) {
           });
       const { text: reply, sources } = await call;
       updateMessage(assistantId, { content: reply || '_(no response)_', sources });
+      track('ai_generation', { mode });
     } catch (err) {
       const msg = err?.message ?? String(err) ?? 'Something went wrong. Please try again.';
       setMessages(prev => prev.filter(m => m.id !== assistantId));
-      setError(msg);
+      if (err?.code === 'quota-exceeded') {
+        appendMessage({
+          id: nextId(),
+          role: 'assistant',
+          content: 'Your free plan includes 10 AI generations per month and they are all used. Upgrade to Pro for unlimited generations.',
+          links: [{ label: 'Upgrade to Pro →', to: '/profile' }],
+        });
+      } else if (err?.code === 'auth-required') {
+        appendMessage({
+          id: nextId(),
+          role: 'assistant',
+          content: 'Please sign in to use the assistant.',
+          links: [{ label: 'Sign in →', to: '/profile' }],
+        });
+      } else {
+        setError(msg);
+      }
     } finally {
       setLoading(false);
     }

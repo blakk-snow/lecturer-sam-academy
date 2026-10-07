@@ -15,6 +15,8 @@ const LibraryIndicator = lazy(() => import("./pages/LibraryIndicator"));
 const BookReader      = lazy(() => import("./pages/BookReader"));
 const Help            = lazy(() => import("./pages/Help"));
 const Onboarding      = lazy(() => import("./pages/Onboarding"));
+const Terms           = lazy(() => import("./pages/Terms"));
+const Privacy         = lazy(() => import("./pages/Privacy"));
 const Unit           = lazy(() => import("./pages/Unit"));
 const Lesson         = lazy(() => import("./pages/Lesson"));
 const Practice       = lazy(() => import("./pages/Practice"));
@@ -84,6 +86,8 @@ function GatedApp() {
         <Route path="/library/:subjectId/:classId/:indicatorCode" element={<LibraryIndicator />} />
         <Route path="/library/:subjectId/:classId/book/:bookId" element={<BookReader />} />
         <Route path="/help"                                    element={<Help />} />
+        <Route path="/terms"                                   element={<Terms />} />
+        <Route path="/privacy"                                 element={<Privacy />} />
         <Route path="/lesson/:lessonId"                        element={<Lesson />} />
         <Route path="/practice"                                element={<Practice />} />
         <Route path="/curriculum"                              element={<Curriculum />} />

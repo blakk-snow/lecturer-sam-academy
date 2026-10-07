@@ -7,7 +7,10 @@
  *
  * The OPENROUTER_API_KEY environment variable must be set in the platform
  * dashboard (Vercel → Project Settings → Environment Variables).
+ * Auth + quota enforcement (FIREBASE_SERVICE_ACCOUNT) is always active here.
  */
+
+import { gateAiRequest } from './_aiGate.mjs';
 
 export const config = { runtime: 'nodejs' };
 
@@ -42,6 +45,13 @@ export default async function handler(req, res) {
 
   if (!Array.isArray(messages) || messages.length === 0) {
     res.status(400).json({ error: 'messages array is required' });
+    return;
+  }
+
+  // Auth + monthly quota gate — always enforced in production.
+  const gate = await gateAiRequest(req.headers.authorization);
+  if (gate.status !== 200) {
+    res.status(gate.status).json(gate.body);
     return;
   }
 

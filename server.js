@@ -14,6 +14,7 @@ import https from 'https';
 import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
+import { gateAiRequest } from './api/_aiGate.mjs';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
@@ -196,6 +197,14 @@ const server = http.createServer(async (req, res) => {
       if (!Array.isArray(messages) || messages.length === 0) {
         res.writeHead(400, { 'Content-Type': 'application/json' });
         res.end(JSON.stringify({ error: 'messages array required' }));
+        return;
+      }
+
+      // Auth + monthly quota gate (disabled in dev without a service account).
+      const gate = await gateAiRequest(req.headers.authorization);
+      if (gate.status !== 200) {
+        res.writeHead(gate.status, { 'Content-Type': 'application/json' });
+        res.end(JSON.stringify(gate.body));
         return;
       }
 

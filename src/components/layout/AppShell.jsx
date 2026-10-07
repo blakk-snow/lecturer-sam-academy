@@ -28,17 +28,30 @@ function GroupMenu({ group, active }) {
           <div className="fixed inset-0 z-40" onClick={() => setOpen(false)} aria-hidden="true" />
           <div className="absolute left-0 top-8 z-50 w-52 rounded-xl bg-card border border-line shadow-lg py-1.5 text-sm">
             {group.items.map(item => (
-              <NavLink
-                key={`${group.id}-${item.to}`}
-                to={item.to}
-                end={item.to === "/"}
-                onClick={() => setOpen(false)}
-                className={({ isActive }) =>
-                  `block px-4 py-2 ${isActive ? "text-accent bg-accent/5" : "text-ink-soft hover:text-ink hover:bg-paper"}`
-                }
-              >
-                {item.label}
-              </NavLink>
+              item.external ? (
+                <a
+                  key={`${group.id}-${item.label}`}
+                  href={item.to}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  onClick={() => setOpen(false)}
+                  className="block px-4 py-2 text-ink-soft hover:text-ink hover:bg-paper"
+                >
+                  {item.label}
+                </a>
+              ) : (
+                <NavLink
+                  key={`${group.id}-${item.to}`}
+                  to={item.to}
+                  end={item.to === "/"}
+                  onClick={() => setOpen(false)}
+                  className={({ isActive }) =>
+                    `block px-4 py-2 ${isActive ? "text-accent bg-accent/5" : "text-ink-soft hover:text-ink hover:bg-paper"}`
+                  }
+                >
+                  {item.label}
+                </NavLink>
+              )
             ))}
           </div>
         </>

@@ -3,14 +3,47 @@
  *
  * All functions POST to /api/generate (proxied to OpenRouter in dev,
  * or a serverless function in production). The API key never touches
- * the browser.
+ * the browser. Requests carry the signed-in user's Firebase ID token;
+ * the server enforces the monthly generation quota.
  */
 
 import { getTomorrowSchedule } from '../data/ai/teacherSchedule';
+import { auth } from '../firebase';
 
 const MODEL = 'openai/gpt-4o-mini';
 
 // ── Low-level fetch helper ────────────────────────────────────────────────────
+
+async function authHeaders() {
+  const headers = { 'Content-Type': 'application/json' };
+  const token = auth.currentUser ? await auth.currentUser.getIdToken() : null;
+  if (token) headers.Authorization = `Bearer ${token}`;
+  return headers;
+}
+
+/** POST to /api/generate and normalise error responses into Error.code. */
+async function aiFetch(body, signal) {
+  const res = await fetch('/api/generate', {
+    method: 'POST',
+    headers: await authHeaders(),
+    body: JSON.stringify(body),
+    signal,
+  });
+
+  if (!res.ok) {
+    const err = await res.json().catch(() => ({}));
+    // Server errors: { error: { code, message } } (gate) or OpenRouter shapes.
+    const errObj = err.error;
+    const detail = typeof errObj === 'string'
+      ? errObj
+      : errObj?.message ?? JSON.stringify(errObj) ?? `AI request failed (${res.status})`;
+    const error = new Error(`${res.status}: ${detail}`);
+    error.status = res.status;
+    if (errObj && typeof errObj === 'object') error.code = errObj.code ?? null;
+    throw error;
+  }
+  return res;
+}
 
 /**
  * @param {Array<{role: string, content: string}>} messages
@@ -18,21 +51,7 @@ const MODEL = 'openai/gpt-4o-mini';
  * @returns {Promise<string>} The assistant's text response
  */
 async function chat(messages, extra = {}) {
-  const res = await fetch('/api/generate', {
-    method: 'POST',
-    headers: { 'Content-Type': 'application/json' },
-    body: JSON.stringify({ model: MODEL, messages, ...extra }),
-  });
-
-  if (!res.ok) {
-    const err = await res.json().catch(() => ({}));
-    // OpenRouter errors: { error: { message, code } } or { error: "string" }
-    const errObj = err.error;
-    const detail = typeof errObj === 'string'
-      ? errObj
-      : errObj?.message ?? JSON.stringify(errObj) ?? `AI request failed (${res.status})`;
-    throw new Error(`${res.status}: ${detail}`);
-  }
+  const res = await aiFetch({ model: MODEL, messages, ...extra });
 
   const data = await res.json();
   const text = data.choices?.[0]?.message?.content;
@@ -256,20 +275,11 @@ If asked about tomorrow's teaching, check the timetable and the scheme of learni
  * @returns {Promise<{ text: string, sources: Array<{url: string, title: string}> }>}
  */
 export async function chatStream({ messages, extra = {}, onToken, signal }) {
-  const res = await fetch('/api/generate', {
-    method: 'POST',
-    headers: { 'Content-Type': 'application/json' },
-    body: JSON.stringify({ model: MODEL, messages, stream: true, ...extra }),
-    signal,
-  });
+  const res = await aiFetch({ model: MODEL, messages, stream: true, ...extra }, signal);
 
-  if (!res.ok || !res.body) {
+  if (!res.body) {
     const err = await res.json().catch(() => ({}));
-    const errObj = err.error;
-    const detail = typeof errObj === 'string'
-      ? errObj
-      : errObj?.message ?? JSON.stringify(errObj) ?? `AI request failed (${res.status})`;
-    throw new Error(`${res.status}: ${detail}`);
+    throw new Error(err?.error?.message ?? `AI request failed (${res.status})`);
   }
 
   const reader = res.body.getReader();

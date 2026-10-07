@@ -1,9 +1,10 @@
 import { useState } from 'react';
-import { useNavigate } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import { ArrowLeft, ArrowRight, BookOpen, CheckCircle2, CloudUpload, GraduationCap, Loader2, Smartphone, Sparkles } from 'lucide-react';
 import { useAuth } from '../context/AuthContext';
 import { db } from '../db/database';
 import { Button } from '../components/ui/Button';
+import { EmailAuthForm } from '../components/auth/EmailAuthForm';
 
 /**
  * Onboarding.jsx — first-run Welcome → About → Sign in, shown outside the
@@ -50,6 +51,7 @@ export default function Onboarding() {
   const { user, loading: authLoading, signInWithGoogle, authError } = useAuth();
   const [step, setStep] = useState(0);
   const [signingIn, setSigningIn] = useState(false);
+  const [authTab, setAuthTab] = useState('google'); // 'google' | 'email'
 
   async function handleSignIn() {
     setSigningIn(true);
@@ -132,11 +134,11 @@ export default function Onboarding() {
             <div>
               <h2 className="font-serif text-3xl">Sign in (optional)</h2>
               <p className="mt-3 text-ink-soft leading-relaxed">
-                Sign in with Google to sync your lesson planner and timetable across devices. Everything else works without an account.
+                Sign in to sync your lesson planner and timetable across devices, and to use the AI assistant. Everything else works without an account.
               </p>
             </div>
 
-            {authError && (
+            {authError && authTab === 'google' && (
               <div className="rounded-xl border border-red-200 bg-red-50 px-3 py-2 text-sm text-red-700 text-left" role="alert">
                 {authError}
               </div>
@@ -152,15 +154,44 @@ export default function Onboarding() {
                 <p className="text-ink font-medium">Signed in as {user.displayName ?? user.email}</p>
               </div>
             ) : (
-              <Button onClick={handleSignIn} disabled={signingIn} className="w-full">
-                {signingIn ? <Loader2 size={16} className="animate-spin" /> : <CloudUpload size={16} />}
-                {signingIn ? 'Signing in…' : 'Sign in with Google'}
-              </Button>
+              <div className="space-y-4">
+                {/* Google / Email tabs */}
+                <div className="flex rounded-lg border border-line bg-paper p-0.5" role="group" aria-label="Sign-in method">
+                  {[['google', 'Google'], ['email', 'Email']].map(([value, label]) => (
+                    <button
+                      key={value}
+                      type="button"
+                      onClick={() => setAuthTab(value)}
+                      aria-pressed={authTab === value}
+                      className={`flex-1 rounded-md px-3 py-2 text-sm font-medium transition ${
+                        authTab === value ? 'bg-accent text-white' : 'text-ink-soft hover:text-ink'
+                      }`}
+                    >
+                      {label}
+                    </button>
+                  ))}
+                </div>
+
+                {authTab === 'google' ? (
+                  <Button onClick={handleSignIn} disabled={signingIn} className="w-full">
+                    {signingIn ? <Loader2 size={16} className="animate-spin" /> : <CloudUpload size={16} />}
+                    {signingIn ? 'Signing in…' : 'Sign in with Google'}
+                  </Button>
+                ) : (
+                  <EmailAuthForm />
+                )}
+              </div>
             )}
 
             <Button variant="secondary" className="w-full" onClick={finish}>
               {user ? 'Enter the app' : 'Continue without an account'}
             </Button>
+
+            <p className="text-xs text-ink-soft/70 leading-relaxed">
+              By continuing you agree to the{' '}
+              <Link to="/terms" className="text-accent hover:underline">Terms of Service</Link> and{' '}
+              <Link to="/privacy" className="text-accent hover:underline">Privacy Policy</Link>.
+            </p>
           </div>
         )}
       </main>

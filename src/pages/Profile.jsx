@@ -1,16 +1,22 @@
 import { useEffect, useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
-import { CloudUpload, Loader2, LogIn, LogOut } from "lucide-react";
+import { CloudUpload, Loader2, LogIn, LogOut, Mail } from "lucide-react";
 import { Button } from "../components/ui/Button";
 import { Card } from "../components/ui/Card";
 import { useStudent } from "../context/StudentContext";
 import { useAuth } from "../context/AuthContext";
+import { useUsage, FREE_MONTHLY_LIMIT, PRO_PRICE_GHS } from "../hooks/useUsage";
+import { openProCheckout, paymentsConfigured } from "../services/payments";
+import { EmailAuthForm } from "../components/auth/EmailAuthForm";
 
 /** Teacher account section — the main sign-in surface on mobile, where the
  *  desktop header (and its auth controls) is hidden. */
 function AccountCard() {
   const { user, loading, signInWithGoogle, signOut } = useAuth();
+  const { plan, used, remaining, proExpiresAt } = useUsage();
   const [signingIn, setSigningIn] = useState(false);
+  const [showEmailForm, setShowEmailForm] = useState(false);
+  const [payNotice, setPayNotice] = useState(null);
 
   async function handleSignIn() {
     setSigningIn(true);
@@ -21,6 +27,17 @@ function AccountCard() {
     }
   }
 
+  function handleUpgrade() {
+    if (!user?.email) return;
+    setPayNotice(null);
+    openProCheckout({
+      email: user.email,
+      name: user.displayName ?? undefined,
+      onSuccess: () => setPayNotice('Payment received — your Pro plan activates within a minute.'),
+      onClose: () => setPayNotice('Payment window closed. Your plan was not changed.'),
+    });
+  }
+
   return (
     <Card>
       <div className="space-y-4">
@@ -29,7 +46,7 @@ function AccountCard() {
           <p className="mt-2 text-sm text-ink-soft">
             {user
               ? "Your lesson plans and notes are synced to this account across devices."
-              : "Optional: sign in with Google to sync your lesson planner across devices. No password to remember — student progress always stays on this device."}
+              : "Optional: sign in to sync your lesson planner across devices and use the AI assistant. Student progress always stays on this device."}
           </p>
         </div>
 
@@ -39,40 +56,91 @@ function AccountCard() {
             Checking sign-in state…
           </div>
         ) : user ? (
-          <div className="flex items-center justify-between gap-3 flex-wrap">
-            <div className="flex items-center gap-3 min-w-0">
-              {user.photoURL ? (
-                <img
-                  src={user.photoURL}
-                  alt={user.displayName ?? "User avatar"}
-                  className="h-9 w-9 rounded-full border border-line"
-                  referrerPolicy="no-referrer"
-                />
-              ) : (
-                <div className="flex h-9 w-9 items-center justify-center rounded-full bg-accent/20 text-sm font-semibold text-accent">
-                  {(user.displayName ?? user.email ?? "?")[0].toUpperCase()}
+          <div className="space-y-4">
+            <div className="flex items-center justify-between gap-3 flex-wrap">
+              <div className="flex items-center gap-3 min-w-0">
+                {user.photoURL ? (
+                  <img
+                    src={user.photoURL}
+                    alt={user.displayName ?? "User avatar"}
+                    className="h-9 w-9 rounded-full border border-line"
+                    referrerPolicy="no-referrer"
+                  />
+                ) : (
+                  <div className="flex h-9 w-9 items-center justify-center rounded-full bg-accent/20 text-sm font-semibold text-accent">
+                    {(user.displayName ?? user.email ?? "?")[0].toUpperCase()}
+                  </div>
+                )}
+                <div className="min-w-0">
+                  <p className="truncate text-sm font-semibold">{user.displayName}</p>
+                  <p className="truncate text-xs text-ink-soft">{user.email}</p>
                 </div>
-              )}
-              <div className="min-w-0">
-                <p className="truncate text-sm font-semibold">{user.displayName}</p>
-                <p className="truncate text-xs text-ink-soft">{user.email}</p>
               </div>
+              <Button variant="secondary" onClick={signOut}>
+                <LogOut size={16} />
+                Sign out
+              </Button>
             </div>
-            <Button variant="secondary" onClick={signOut}>
-              <LogOut size={16} />
-              Sign out
-            </Button>
+
+            {/* Plan + quota */}
+            <div className="rounded-xl border border-line bg-paper p-4 space-y-3">
+              <div className="flex items-center justify-between gap-3 flex-wrap">
+                <div>
+                  <p className="text-sm font-semibold text-ink">
+                    {plan === "pro" ? "Pro plan" : "Free plan"}
+                  </p>
+                  {plan === "pro" ? (
+                    <p className="text-xs text-ink-soft">
+                      Unlimited AI generations{proExpiresAt ? ` until ${new Date(proExpiresAt).toLocaleDateString()}` : ""}.
+                    </p>
+                  ) : (
+                    <p className="text-xs text-ink-soft">
+                      {remaining} of {FREE_MONTHLY_LIMIT} AI generations left this month.
+                    </p>
+                  )}
+                </div>
+                {plan !== "pro" && (
+                  <Button onClick={handleUpgrade} className="text-sm px-4 py-2 min-h-0">
+                    Upgrade to Pro — GH₵{PRO_PRICE_GHS}/month
+                  </Button>
+                )}
+              </div>
+              {payNotice && (
+                <p className="text-xs text-ink-soft" role="status">{payNotice}</p>
+              )}
+              {plan !== "pro" && !paymentsConfigured() && (
+                <p className="text-xs text-ink-soft/70">Payments are being set up — check back soon.</p>
+              )}
+            </div>
           </div>
         ) : (
-          <Button onClick={handleSignIn} disabled={signingIn} className="w-full">
-            {signingIn ? (
-              <Loader2 size={16} className="animate-spin" />
+          <div className="space-y-3">
+            <Button onClick={handleSignIn} disabled={signingIn} className="w-full">
+              {signingIn ? (
+                <Loader2 size={16} className="animate-spin" />
+              ) : (
+                <CloudUpload size={16} />
+              )}
+              {signingIn ? "Signing in…" : "Sign in with Google"}
+            </Button>
+
+            {!showEmailForm ? (
+              <button
+                onClick={() => setShowEmailForm(true)}
+                className="flex w-full items-center justify-center gap-2 text-sm text-ink-soft hover:text-accent"
+              >
+                <Mail size={15} /> Use email instead
+              </button>
             ) : (
-              <CloudUpload size={16} />
+              <EmailAuthForm onDone={() => setShowEmailForm(false)} />
             )}
-            {signingIn ? "Signing in…" : "Sign in with Google"}
-          </Button>
+          </div>
         )}
+
+        <p className="text-xs text-ink-soft/70">
+          <Link to="/terms" className="text-accent hover:underline">Terms</Link> ·{" "}
+          <Link to="/privacy" className="text-accent hover:underline">Privacy Policy</Link>
+        </p>
       </div>
     </Card>
   );

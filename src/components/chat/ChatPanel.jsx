@@ -10,6 +10,7 @@ import { useEffect, useRef, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { Bot, Loader2, Send, Trash2, User, Globe, BookOpen, X } from 'lucide-react';
 import { useChat } from '../../context/ChatContext';
+import { useUsage, FREE_MONTHLY_LIMIT } from '../../hooks/useUsage';
 import { Markdown } from './Markdown';
 
 function MessageBubble({ message, interactive, picks, busy, onChip, closePanel }) {
@@ -109,6 +110,7 @@ export function ChatPanel({ className = '' }) {
     persona, setPersona, classLevel, setClassLevel, mode, setMode,
     closePanel,
   } = useChat();
+  const { signedIn, plan, remaining, outOfQuota } = useUsage();
 
   const [input, setInput] = useState('');
   const bottomRef = useRef(null);
@@ -202,6 +204,21 @@ export function ChatPanel({ className = '' }) {
             </button>
           )}
         </div>
+
+        {/* Plan / quota line */}
+        <p className="mt-1.5 text-[11px] text-ink-soft">
+          {!signedIn ? (
+            <Link to="/profile" className="text-accent hover:underline">Sign in to use the assistant</Link>
+          ) : plan === 'pro' ? (
+            'Pro plan — unlimited AI generations'
+          ) : outOfQuota ? (
+            <Link to="/profile" className="text-amber-700 hover:underline">
+              Monthly limit reached — upgrade to Pro
+            </Link>
+          ) : (
+            <>Free plan — {remaining} of {FREE_MONTHLY_LIMIT} AI generations left</>
+          )}
+        </p>
       </div>
 
       {/* ── Thread ───────────────────────────────────────────────────────── */}

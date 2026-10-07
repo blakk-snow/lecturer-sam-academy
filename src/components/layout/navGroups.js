@@ -47,7 +47,14 @@ export const NAV_GROUPS = [
       { to: '/profile', label: 'Profile' },
       { to: '/dashboard', label: 'Progress' },
       { to: '/help', label: 'Help' },
+      { to: '/terms', label: 'Terms' },
+      { to: '/privacy', label: 'Privacy' },
       { to: '/onboarding', label: 'Welcome tour' },
+      {
+        to: 'https://wa.me/?text=Hello%20Lecturer%20Sam%20Academy%20support%20—',
+        label: 'WhatsApp support',
+        external: true,
+      },
     ],
   },
 ];

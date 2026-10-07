@@ -17,10 +17,15 @@ import {
   signInWithRedirect,
   signOut as firebaseSignOut,
   getRedirectResult,
+  createUserWithEmailAndPassword,
+  signInWithEmailAndPassword,
+  sendPasswordResetEmail,
+  updateProfile,
 } from 'firebase/auth';
 import { auth, googleProvider } from '../firebase';
 import { migrateLocalPlannerToFirestore } from '../db/plannerMigration';
 import { ensureSampleTeacherSchedule } from '../db/teacherSchedule';
+import { track } from '../services/analytics';
 
 const AuthContext = createContext(null);
 
@@ -33,6 +38,18 @@ const FRIENDLY_AUTH_ERRORS = {
     'Network error — check your connection and try again.',
   'auth/too-many-requests':
     'Too many sign-in attempts. Wait a moment and try again.',
+  'auth/email-already-in-use':
+    'An account already exists with that email. Sign in instead, or reset the password.',
+  'auth/invalid-credential':
+    'Incorrect email or password. Please try again.',
+  'auth/invalid-email':
+    'That email address does not look right. Check it and try again.',
+  'auth/user-not-found':
+    'No account was found with that email. Create an account first.',
+  'auth/weak-password':
+    'That password is too weak. Use at least 6 characters.',
+  'auth/missing-password':
+    'Please enter your password.',
 };
 
 function friendlyAuthError(err) {
@@ -58,7 +75,12 @@ export function AuthProvider({ children }) {
 
   // Listen to Firebase auth state changes
   useEffect(() => {
+    let previousUid = null;
     const unsubscribe = onAuthStateChanged(auth, async (firebaseUser) => {
+      if (firebaseUser?.uid && !previousUid) {
+        track('login', { method: firebaseUser.providerData?.[0]?.providerId ?? 'unknown' });
+      }
+      previousUid = firebaseUser?.uid ?? null;
       setUser(firebaseUser);
       setLoading(false);
 
@@ -112,10 +134,56 @@ export function AuthProvider({ children }) {
     await firebaseSignOut(auth);
   }
 
+  /**
+   * Create an account with email + password.
+   * @returns {boolean} true when the account was created
+   */
+  async function signUpWithEmail(email, password, name) {
+    setAuthError(null);
+    try {
+      const credential = await createUserWithEmailAndPassword(auth, email.trim(), password);
+      const trimmedName = (name ?? '').trim();
+      if (trimmedName) {
+        await updateProfile(credential.user, { displayName: trimmedName });
+      }
+      return true;
+    } catch (err) {
+      setAuthError(friendlyAuthError(err));
+      return false;
+    }
+  }
+
+  /** Sign in with email + password. @returns {boolean} */
+  async function signInWithEmail(email, password) {
+    setAuthError(null);
+    try {
+      await signInWithEmailAndPassword(auth, email.trim(), password);
+      return true;
+    } catch (err) {
+      setAuthError(friendlyAuthError(err));
+      return false;
+    }
+  }
+
+  /** Send a password-reset email. @returns {boolean} */
+  async function resetPassword(email) {
+    setAuthError(null);
+    try {
+      await sendPasswordResetEmail(auth, email.trim());
+      return true;
+    } catch (err) {
+      setAuthError(friendlyAuthError(err));
+      return false;
+    }
+  }
+
   const value = {
     user,
     loading,
     signInWithGoogle,
+    signInWithEmail,
+    signUpWithEmail,
+    resetPassword,
     signOut,
     authError,
     clearAuthError: () => setAuthError(null),

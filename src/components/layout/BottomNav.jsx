@@ -40,21 +40,34 @@ export function BottomNav() {
             </div>
             <div className="grid grid-cols-2 gap-2">
               {menuGroup.items.map(item => (
-                <NavLink
-                  key={`${menuGroup.id}-${item.to}`}
-                  to={item.to}
-                  end={item.to === "/"}
-                  onClick={closeMenu}
-                  className={({ isActive }) =>
-                    `rounded-xl border px-4 py-3 text-sm font-medium text-center transition ${
-                      isActive
-                        ? "border-accent bg-accent/10 text-accent"
-                        : "border-line bg-paper text-ink hover:border-accent"
-                    }`
-                  }
-                >
-                  {item.label}
-                </NavLink>
+                item.external ? (
+                  <a
+                    key={`${menuGroup.id}-${item.label}`}
+                    href={item.to}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    onClick={closeMenu}
+                    className="rounded-xl border border-line bg-paper px-4 py-3 text-sm font-medium text-center text-ink hover:border-accent transition"
+                  >
+                    {item.label}
+                  </a>
+                ) : (
+                  <NavLink
+                    key={`${menuGroup.id}-${item.to}`}
+                    to={item.to}
+                    end={item.to === "/"}
+                    onClick={closeMenu}
+                    className={({ isActive }) =>
+                      `rounded-xl border px-4 py-3 text-sm font-medium text-center transition ${
+                        isActive
+                          ? "border-accent bg-accent/10 text-accent"
+                          : "border-line bg-paper text-ink hover:border-accent"
+                      }`
+                    }
+                  >
+                    {item.label}
+                  </NavLink>
+                )
               ))}
             </div>
           </div>
