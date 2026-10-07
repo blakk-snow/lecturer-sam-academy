@@ -12,7 +12,11 @@
  *   scheduleData  — current timetable (for context)
  */
 
-import { generateTimetable, generateLessonPlan, extractLessonPlanSections } from '../../services/ai';
+import {
+  generateTimetable, generateLessonPlan, extractLessonPlanSections,
+  generateMethodLessonPlan, extractMethodSections,
+} from '../../services/ai';
+import { getMethod, methodSectionsToFields } from '../../data/teachingMethods';
 
 export const ACTION_CHIPS = [
   { id: 'timetable', label: '⏰ Create a timetable' },
@@ -214,6 +218,18 @@ const lessonPlanFlow = {
       multi: true,
     },
     {
+      key: 'method',
+      ask: data => `Which teaching method should the lesson plan follow?${
+        data.subject === 'mathematics'
+          ? ' The Mathematics variant is recommended for this subject.'
+          : ' The EOPT / Reading method is recommended for this subject.'
+      }`,
+      options: async () => [
+        { id: 'eopt-reading', label: '📖 EOPT / Reading method' },
+        { id: 'maths-eopt', label: '🔢 Mathematics variant' },
+      ],
+    },
+    {
       key: 'week',
       ask: () => 'Which week of the term should this be taught? (1–16)',
       freeText: true,
@@ -265,12 +281,11 @@ const lessonPlanFlow = {
     }, termId, cgId, subId, weekNumber);
 
     const planUrl = `/planner/${termId}/${subId}/${topicId}`;
-    return {
-      reply: `Lesson plan slot created ✅\n\n**${subjectLabel} · ${data.class} · Week ${weekNumber}**\nContent standard ${cs?.code ?? ''}: ${cs?.description ?? ''}\nIndicators: ${indicators.map(i => i.code).join(', ')}\n\nOpen it to write or AI-generate the full lesson note, or let me draft the note now.`,
-      links: [{ label: 'Open Lesson Plan →', to: planUrl }],
-      chips: [{ id: 'genNote', label: '✨ Generate the full lesson note now' }],
-      stage: 'confirm',
-      planUrl,
+
+    // Stash the execution results on the flow data so the confirm step
+    // ("Generate the full lesson note") can use them.
+    Object.assign(data, {
+      topicId, termId, subId, weekNumber, planUrl,
       lessonParams: {
         level: data.class,
         subject: subjectLabel,
@@ -279,32 +294,56 @@ const lessonPlanFlow = {
         contentStandard: cs ? `${cs.code} — ${cs.description}` : '',
         indicator: indicators.map(i => `${i.code} — ${i.description}`).join('; '),
       },
-      topicId,
-      termId,
-      subId,
-      weekNumber,
+    });
+
+    return {
+      reply: `Lesson plan slot created ✅\n\n**${subjectLabel} · ${data.class} · Week ${weekNumber}**\nContent standard ${cs?.code ?? ''}: ${cs?.description ?? ''}\nIndicators: ${indicators.map(i => i.code).join(', ')}\n\nOpen it to write or AI-generate the full lesson note, or let me draft the note now.`,
+      links: [{ label: 'Open Lesson Plan →', to: planUrl }],
+      chips: [{ id: 'genNote', label: '✨ Generate the full lesson note now' }],
+      stage: 'confirm',
     };
   },
   async confirm(ctx, flow, chipId) {
     if (chipId === 'genNote') {
       const { lessonParams, topicId, termId, subId, weekNumber } = flow.data;
-      const plan = await generateLessonPlan(lessonParams);
-      const sections = extractLessonPlanSections(plan);
+      let noteFields;
+
+      if (flow.data.method) {
+        const method = getMethod(flow.data.method);
+        const text = await generateMethodLessonPlan({
+          ...lessonParams,
+          subjectId: flow.data.subject,
+          classId: flow.data.class,
+          indicatorCodes: flow.data.indicators,
+          method,
+        });
+        const sections = extractMethodSections(text, method);
+        noteFields = { ...methodSectionsToFields(sections), methodId: method.id, sections };
+      } else {
+        const plan = await generateLessonPlan(lessonParams);
+        const sections = extractLessonPlanSections(plan);
+        noteFields = {
+          starter: sections.starter,
+          mainLearning: sections.mainLearning,
+          plenary: sections.plenary,
+          evaluation: sections.evaluation,
+          homework: sections.homework,
+          methodId: null,
+          sections: [],
+        };
+      }
+
       await ctx.planner.upsertLessonNote(topicId, {
         day: '',
         date: '',
         weekNumber,
-        starter: sections.starter,
-        mainLearning: sections.mainLearning,
-        plenary: sections.plenary,
-        evaluation: sections.evaluation,
-        homework: sections.homework,
-        resourceUrl: '',
         resourceType: null,
         status: 'draft',
+        ...noteFields,
+        resourceUrl: noteFields.resourceUrl ?? '',
       }, null);
       return {
-        reply: 'Full lesson note generated and saved ✅',
+        reply: 'Full lesson note generated with the teaching method and saved ✅',
         links: [{ label: 'Open Lesson Plan →', to: `/planner/${termId}/${subId}/${topicId}` }],
         stage: null,
       };

@@ -497,3 +497,118 @@ export function extractLessonPlanSections(text) {
   }
   return result;
 }
+
+// ── Teaching-method lesson plans ───────────────────────────────────────────────
+
+const truncateWords = (text, limit) => {
+  const words = (text ?? '').split(/\s+/);
+  return words.length <= limit ? (text ?? '') : words.slice(0, limit).join(' ') + ' …';
+};
+
+const stripBlockquotes = (text) => (text ?? '')
+  .split(/\r?\n/)
+  .filter(line => !line.startsWith('>'))
+  .join('\n')
+  .trim();
+
+/**
+ * Build grounding material for a lesson plan from the embedded content:
+ * the exact curriculum entry text plus the indicator's Course Library notes
+ * plus the textbook chapter that teaches the indicator.
+ */
+async function buildGroundedSource({ subjectId, classId, codes }) {
+  const parts = [];
+  const normalized = (code) => (code ?? '').replace(/\/JHS\d+/g, '').toUpperCase();
+
+  try {
+    const { loadEntries } = await import('../data/courseLibrary');
+    const entries = await loadEntries(subjectId, classId);
+    for (const code of codes ?? []) {
+      const entry = entries.find(e => normalized(e.code) === normalized(code));
+      if (!entry?.notes) continue;
+      const objectives = (entry.notes.objectives ?? []).map(o => `- ${o}`).join('\n');
+      parts.push(`The app's own lesson notes for ${code}:\n${objectives}\n\n${entry.notes.explanation ?? ''}`);
+      break; // one indicator's notes is enough context
+    }
+  } catch { /* content modules are optional */ }
+
+  try {
+    const { chapterRefs, loadBook } = await import('../data/courseLibrary/bookIndex');
+    for (const code of codes ?? []) {
+      const refs = (chapterRefs[normalized(code)] ?? [])
+        .filter(r => r.subjectId === subjectId && r.classId === classId);
+      if (!refs.length) continue;
+      const book = await loadBook(refs[0].bookId);
+      const chapter = book?.chapters?.find(c => c.number === refs[0].chapterNumber);
+      if (chapter) {
+        parts.push(
+          `Excerpt from the textbook chapter that teaches this indicator (` +
+          `${refs[0].bookKindLabel}, Chapter ${chapter.number} "${chapter.title}"):\n` +
+          truncateWords(stripBlockquotes(chapter.body), 1200),
+        );
+      }
+      break;
+    }
+  } catch { /* book modules are optional */ }
+
+  return parts.join('\n\n');
+}
+
+/**
+ * Generate a full lesson plan following one of the teaching-method
+ * templates (see src/data/teachingMethods.js), grounded in the embedded
+ * curriculum text and content.
+ */
+export async function generateMethodLessonPlan({
+  level, subject, strand, subStrand, contentStandard, indicator,
+  subjectId, classId, indicatorCodes = [], method,
+}) {
+  const steps = method?.steps ?? [];
+  const headings = steps.map(s => `**${s.aiHeading}**`).join('\n');
+
+  const context = buildCurriculumContext({ level, subject, strand, subStrand, contentStandard, indicator });
+  const source = await buildGroundedSource({ subjectId, classId, codes: indicatorCodes });
+
+  const prompt = `Create a lesson plan for the following NaCCA curriculum indicator.
+
+${context}
+
+${source ? `Use this source material from the app's own content as the basis for the plan:\n\n${source}\n\n` : ''}Follow this teaching method structure exactly, with one section per heading and no other top-level sections:
+
+${headings}
+
+For each step:
+- **${steps[0]?.aiHeading}**: concrete questions or terms for the whole class (or a short mental drill for mathematics).
+- **${steps[1]?.aiHeading}**: how to correct and give feedback.
+- **${steps[2]?.aiHeading}**: 3–5 measurable objectives, phrased "By the end of the lesson, learners will be able to…".
+- **${steps[3]?.aiHeading}**: which image, video or diagram to show and what learners should look for.
+- **${steps[4]?.aiHeading}**: the reading passage or demonstration, with teacher-led, guided and independent elements where applicable.
+- **${steps[5]?.aiHeading}**: discussion questions or a step-by-step demonstration.
+- **${steps[6]?.aiHeading}**: a meaningful take-home task.
+
+Keep the plan practical for Ghanaian JHS classroom conditions.`;
+
+  return chat([
+    { role: 'system', content: SYSTEM_TEACHER },
+    { role: 'user', content: prompt },
+  ]);
+}
+
+/**
+ * Parse a generated method plan back into the method's steps.
+ * Returns [{ key, label, content }] with empty strings where a section
+ * was not produced.
+ */
+export function extractMethodSections(text, method) {
+  const steps = method?.steps ?? [];
+  return steps.map(step => {
+    const keys = [step.aiHeading, step.aiHeading.replace(/\s*\/\s*/g, ' OR ')];
+    let found = null;
+    for (const key of keys) {
+      const re = new RegExp(`\\*\\*${key.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}[^*]*\\*\\*[:\\s]*([\\s\\S]*?)(?=\\n\\*\\*[A-Z]|$)`, 'i');
+      const m = (text ?? '').match(re);
+      if (m) { found = m[1].trim(); break; }
+    }
+    return { key: step.key, label: step.label, content: found ?? '' };
+  });
+}

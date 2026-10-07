@@ -1,6 +1,6 @@
 import { useEffect, useMemo, useState } from 'react';
 import { Link, useParams } from 'react-router-dom';
-import { ArrowLeft, CheckCircle2, Loader2, RotateCcw } from 'lucide-react';
+import { ArrowLeft, CheckCircle2, Loader2, PenLine, RotateCcw } from 'lucide-react';
 import { loadEntries } from '../data/courseLibrary';
 import { Markdown } from '../components/chat/Markdown';
 import { QuestionCard } from '../components/quiz/QuestionCard';
@@ -8,6 +8,7 @@ import { Card } from '../components/ui/Card';
 import { Button } from '../components/ui/Button';
 import { saveQuizResult } from '../db/attempts';
 import { completeLesson } from '../db/progress';
+import { useChat } from '../context/ChatContext';
 
 const normalizeCode = (code) => (code ?? '').replace(/\/JHS\d+/g, '').toUpperCase();
 const lessonIdFor = (code) => `lib-${normalizeCode(code).toLowerCase()}`;
@@ -90,12 +91,18 @@ function IndicatorQuiz({ code, questions, onRestart }) {
 
 export default function LibraryIndicator() {
   const { subjectId, classId, indicatorCode } = useParams();
+  const { openPanel, startLessonPlanFlow } = useChat();
   const [entry, setEntry] = useState(undefined); // undefined = loading, null = not found
   const [tab, setTab] = useState('notes');
   const [quizKey, setQuizKey] = useState(0);
   const [bookRefs, setBookRefs] = useState([]);
 
   const normalized = normalizeCode((indicatorCode ?? '').replaceAll('_', '/'));
+
+  function planThisLesson() {
+    startLessonPlanFlow({ subjectId, classId, indicatorCodes: [normalized] });
+    openPanel();
+  }
 
   useEffect(() => {
     setEntry(undefined);
@@ -146,7 +153,12 @@ export default function LibraryIndicator() {
 
       <div>
         <p className="font-mono text-xs font-bold text-accent">{entry.code}</p>
-        <h1 className="mt-1 font-serif text-2xl">{entry.notes?.title ?? entry.code}</h1>
+        <div className="flex items-start justify-between gap-3 flex-wrap">
+          <h1 className="mt-1 font-serif text-2xl">{entry.notes?.title ?? entry.code}</h1>
+          <Button onClick={planThisLesson} variant="secondary" className="text-sm px-3 py-2 min-h-0">
+            <PenLine size={15} /> Plan this lesson
+          </Button>
+        </div>
         {bookRefs.length > 0 && (
           <p className="mt-2 text-sm text-ink-soft">
             Taught in{' '}

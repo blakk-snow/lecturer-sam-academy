@@ -15,6 +15,7 @@ import { useTeacherSchedule } from '../hooks/useTeacherSchedule';
 import { curriculumChatStream, researchChatStream } from '../services/ai';
 import { db } from '../db/database';
 import { ACTION_CHIPS, FLOWS } from '../components/chat/flows';
+import { getMethodForSubject } from '../data/teachingMethods';
 
 const ChatContext = createContext(null);
 
@@ -152,6 +153,11 @@ export function ChatProvider({ children }) {
       const jump = step.jump(flowState.data);
       if (jump != null) next = jump;
     }
+    // Skip steps whose value is already known (pre-filled flows started from
+    // content pages pass subject/class/strand/indicators/method in advance).
+    while (next < def.steps.length && def.steps[next].key in flowState.data) {
+      next += 1;
+    }
     if (next < def.steps.length) {
       setFlow({ ...flowState, stepIndex: next, picks: new Set() });
       await pushStep({ ...flowState, stepIndex: next });
@@ -159,6 +165,55 @@ export function ChatProvider({ children }) {
       await runExecute(flowState);
     }
   }, [pushStep, runExecute]);
+
+  /**
+   * Start the lesson-plan flow pre-filled from a content page (library
+   * indicator or book chapter). The user is asked only for the term (and
+   * week) — everything else is already resolved from the curriculum tree.
+   */
+  const startLessonPlanFlow = useCallback(async (preset) => {
+    const { subjectId, classId, indicatorCodes = [], methodId = null } = preset ?? {};
+    if (!subjectId || !classId || indicatorCodes.length === 0) return;
+
+    const { curriculumMap } = await import('../data/curriculumData');
+    const normalize = (code) => (code ?? '').replace(/\/JHS\d+/g, '').toUpperCase();
+    const wanted = new Set((indicatorCodes ?? []).map(normalize));
+    const strands = (curriculumMap[subjectId] ?? {})[classId] ?? [];
+    let found = null;
+    outer:
+    for (const strand of strands) {
+      for (const ss of strand.subStrands) {
+        for (const cs of ss.contentStandards) {
+          for (const ind of cs.indicators) {
+            if (wanted.has(normalize(ind.code))) {
+              found = { strandId: strand.id, subStrandId: ss.id, contentStandardId: cs.id, indicatorIds: [ind.id] };
+              break outer;
+            }
+          }
+        }
+      }
+    }
+    if (!found) return;
+
+    const flowState = {
+      flowId: 'lessonplan',
+      stepIndex: 0,
+      data: {
+        term: null,
+        class: classId,
+        subject: subjectId,
+        strand: found.strandId,
+        subStrand: found.subStrandId,
+        contentStandard: found.contentStandardId,
+        indicators: found.indicatorIds,
+        method: methodId ?? getMethodForSubject(subjectId).id,
+      },
+      picks: new Set(),
+      stage: null,
+    };
+    setFlow(flowState);
+    await pushStep(flowState);
+  }, [pushStep]);
 
   const beginFlow = useCallback(async (flowId) => {
     const flowState = { flowId, stepIndex: 0, data: {}, picks: new Set(), stage: null };
@@ -339,6 +394,7 @@ export function ChatProvider({ children }) {
     handleChip,
     cancelFlow,
     clear,
+    startLessonPlanFlow,
     panelOpen,
     setPanelOpen,
     openPanel: () => setPanelOpen(true),

@@ -1,9 +1,11 @@
 import { useEffect, useMemo, useState } from 'react';
 import { Link, useParams } from 'react-router-dom';
-import { ArrowLeft, BookOpen, ChevronLeft, ChevronRight, Loader2 } from 'lucide-react';
+import { ArrowLeft, BookOpen, ChevronLeft, ChevronRight, Loader2, PenLine } from 'lucide-react';
 import { loadBook } from '../data/courseLibrary/bookIndex';
 import { resolveBookBodyImages } from '../data/courseLibrary/bookImages';
 import { Markdown } from '../components/chat/Markdown';
+import { Button } from '../components/ui/Button';
+import { useChat } from '../context/ChatContext';
 
 const safeCode = (code) => (code ?? '').replaceAll('/', '_');
 const isIndicator = (code) => (code ?? '').split('.').length >= 5;
@@ -14,9 +16,17 @@ const isIndicator = (code) => (code ?? '').split('.').length >= 5;
  */
 export default function BookReader() {
   const { subjectId, classId, bookId } = useParams();
+  const { openPanel, startLessonPlanFlow } = useChat();
   const [book, setBook] = useState(undefined);
   const [chapterIndex, setChapterIndex] = useState(0);
   const [body, setBody] = useState('');
+
+  function planFromChapter() {
+    const codes = chapter?.codes ?? [];
+    if (!codes.length) return;
+    startLessonPlanFlow({ subjectId, classId, indicatorCodes: codes });
+    openPanel();
+  }
 
   useEffect(() => {
     setBook(undefined);
@@ -109,7 +119,14 @@ export default function BookReader() {
         <>
           {/* Curriculum alignment */}
           <div className="rounded-xl border border-accent/30 bg-accent/5 p-4 space-y-2">
-            <p className="text-xs font-semibold text-accent uppercase tracking-widest">Curriculum alignment</p>
+            <div className="flex items-start justify-between gap-3 flex-wrap">
+              <p className="text-xs font-semibold text-accent uppercase tracking-widest">Curriculum alignment</p>
+              {chapter.codes.length > 0 && (
+                <Button onClick={planFromChapter} variant="secondary" className="text-xs px-3 py-1.5 min-h-0">
+                  <PenLine size={14} /> Plan a lesson from this chapter
+                </Button>
+              )}
+            </div>
             {chapter.strand && <p className="text-sm text-ink-soft">Strand: {chapter.strand}</p>}
             {chapter.codes.length > 0 && (
               <div className="flex flex-wrap gap-1.5">

@@ -5,8 +5,10 @@ import {
   useSubject, useWeekPlans, useWeekTopicsForSubject, useLessonNote,
   useTerm, useClassGroups, usePlannerActions,
 } from '../hooks/usePlanner';
-import { generateLessonPlan, generateAssessment } from '../services/ai';
+import { generateLessonPlan, generateAssessment, generateMethodLessonPlan, extractMethodSections } from '../services/ai';
+import { getMethodForSubject, methodSectionsToFields } from '../data/teachingMethods';
 import { findSamplePlans } from '../data/sampleLessonPlans';
+import { Markdown } from '../components/chat/Markdown';
 
 // curriculumData is loaded lazily — it's ~600 KB and only needed on this page.
 const curriculumDataPromise = import('../data/curriculumData');
@@ -121,6 +123,8 @@ export default function PlannerLesson() {
     resourceUrl: '', resourceType: 'none',
     evaluation: '', homework: '',
     status: 'draft',
+    methodId: null,
+    sections: [],
   });
   const [saveState, setSaveState] = useState('idle');
   const [saveError, setSaveError] = useState(null);
@@ -181,6 +185,8 @@ export default function PlannerLesson() {
     evaluation:   note?.evaluation   ?? '',
     homework:     note?.homework     ?? '',
     status:       note?.status       ?? 'draft',
+    methodId:     note?.methodId     ?? null,
+    sections:     note?.sections     ?? [],
   }), []);
 
   const updateForm = useCallback((field, value) => {
@@ -232,6 +238,8 @@ export default function PlannerLesson() {
       resourceType: f.resourceType === 'none' ? null : f.resourceType,
       evaluation: f.evaluation, homework: f.homework,
       status: f.status,
+      methodId: f.methodId ?? null,
+      sections: f.sections ?? [],
     };
   }, [form, weekPlan?.weekNumber]);
 
@@ -315,10 +323,45 @@ export default function PlannerLesson() {
       resourceUrl: plan.resources ?? '',
       resourceType: plan.resources ? 'link' : 'none',
       status: 'draft',
+      methodId: null,
+      sections: [],
     };
     Object.entries(overrides).forEach(([key, value]) => updateForm(key, value));
     await save(overrides);
   }, [save, updateForm]);
+
+  // ── Teaching-method plan generation ──────────────────────────────────────────
+  const handleGenerateMethodPlan = useCallback(async () => {
+    const params = buildAiParams();
+    if (!params) return;
+    setAiLoading('method', true);
+    try {
+      const method = getMethodForSubject(subject?.curriculumSubjectId);
+      const indicatorCodes = currDetails?.resolvedIndicators?.map(i => i.id) ?? [];
+      const text = await generateMethodLessonPlan({
+        ...params,
+        subjectId: subject?.curriculumSubjectId,
+        classId: subject?.curriculumClassId,
+        indicatorCodes,
+        method,
+      });
+      const sections = extractMethodSections(text, method);
+      const classic = methodSectionsToFields(sections);
+      const overrides = {
+        ...classic,
+        status: 'draft',
+        methodId: method.id,
+        sections,
+      };
+      Object.entries(overrides).forEach(([key, value]) => updateForm(key, value));
+      await save(overrides);
+      setStep(0);
+    } catch (err) {
+      setAiError('method', err.message || 'AI generation failed. Please try again.');
+    } finally {
+      setAiLoading('method', false);
+    }
+  }, [buildAiParams, currDetails, save, subject, updateForm]);
 
   // ── AI generation ───────────────────────────────────────────────────────────
 
@@ -513,6 +556,45 @@ export default function PlannerLesson() {
               ))}
             </div>
           )}
+
+          {/* Teaching-method plan (EOPT/reading method) */}
+          <div className="border border-line rounded-xl bg-card p-4 space-y-3">
+            <div className="flex items-center justify-between gap-3 flex-wrap">
+              <p className="text-xs font-semibold text-ink-soft uppercase tracking-widest">
+                Teaching-method lesson plan
+              </p>
+              <AIButton
+                label={form.sections?.length > 0 ? 'Regenerate with method' : 'Generate with method'}
+                loading={aiState.method?.loading}
+                disabled={!currDetails}
+                tooltip="Link this topic to a curriculum indicator first"
+                onClick={handleGenerateMethodPlan}
+              />
+            </div>
+            <AIError message={aiState.method?.error} onDismiss={() => clearAiError('method')} />
+            {form.sections?.length > 0 ? (
+              <ol className="space-y-3">
+                {form.sections.map((section, i) => (
+                  <li key={section.key} className="rounded-lg bg-paper p-3">
+                    <p className="text-sm font-semibold text-ink">
+                      <span className="text-accent font-bold mr-1.5">{i + 1}.</span>
+                      {section.label}
+                    </p>
+                    {section.content && (
+                      <div className="mt-1.5 pl-5">
+                        <Markdown text={section.content} />
+                      </div>
+                    )}
+                  </li>
+                ))}
+              </ol>
+            ) : (
+              <p className="text-sm text-ink-soft">
+                Generates a full plan following the teacher's method — EOPT/dictation, correction, objectives,
+                media, reading time, discussion and assignment (mental-maths variant for Mathematics).
+              </p>
+            )}
+          </div>
         </div>
       );
     }
