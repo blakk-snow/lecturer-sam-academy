@@ -92,6 +92,14 @@ Rules:
 - **fillBlank**: `answer:` is the expected text; `accepted:` lists alternative answers separated by commas.
 - Missing question text, a wrong number of checked options, or an unknown type is reported as an error with the file name and question number.
 
+## Textbooks (textbooks-and-references)
+
+The `textbooks-and-references/md/` folder holds full NaCCA textbook conversions (Learner's Books, Workbooks, Answer Books) named like `MATHS - B8 - PRINT READY.md`. The parser splits each book into chapters (`### Chapter N: …` headings), extracts the curriculum codes each chapter teaches (from the chapter's alignment box and/or the book's Index of Content Standards), and generates lazy-loaded book modules under `src/data/courseLibrary/books/` plus a `bookIndex.js` manifest.
+
+- Figures stay referenced as `images/<name>.png` — keep that folder structure and name new figures the same way; the app resolves them to bundled assets at build time.
+- Adding a new book is just dropping its `.md` in `md/` (named `<SUBJECT> - B<7|8|9> - <TYPE>.md`) and re-running `npm run parse:course-data`. Science books will appear automatically once their conversions land.
+- The `.docx`/`.xlsx`/`uploads/` files are upstream sources and are not read by the parser.
+
 ## Legacy packs (mock papers etc.)
 
 Any `.md` file outside a `notes/` or `questions/` folder (for example the BECE mock packs in `complete-science-questions/`) is indexed as metadata only, exactly as before. Keep the class level in the filename (`BECE_Mock_Basic8_…`) — the checker now errors if the filename's class disagrees with the indexed class.

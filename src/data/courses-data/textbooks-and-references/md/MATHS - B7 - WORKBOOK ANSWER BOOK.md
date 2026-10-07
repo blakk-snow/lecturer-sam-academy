@@ -1,0 +1,1835 @@
+<!-- Source PDF: MATHS - B7 - WORKBOOK ANSWER BOOK.pdf — 37 pages -->
+<!-- Converted to Markdown — figures in images/ — invisible page markers throughout -->
+
+<!-- page 1 -->
+
+# MATHEMATICS WORKBOOK
+**TEACHER'S ANSWER BOOK**
+
+**BASIC 7 · JHS 1**
+
+*Full solutions, mark allocations and marking notes*
+
+**Not for issue to learners**
+
+<!-- page 2 -->
+
+## How to use this answer book
+
+Every answer in this book has been checked against the question set. Where a question can be answered in more than one way, the marking note says so.
+
+Marks are shown in brackets for the Exam-style sections, the strand reviews and the mock examination. Method marks are the point of them: a learner who sets out a correct method and then makes an arithmetic slip should keep the method marks.
+
+The marking notes at the end of each chapter name the errors to expect. They are drawn from the misconceptions set out in the Learner's Book, and they are worth reading before the lesson rather than after it.
+
+<!-- page 3 -->
+
+*Strand 1: Number*
+
+### Chapter 1: Place Value, Rounding and Ordering Large Numbers
+
+#### Recall
+
+**1.** Forty-five thousand, two hundred and seven.
+
+**2.** 206,040
+
+**3.** 600
+
+**4.** 4,700
+
+**5.** 5,000
+
+**6.** 90,990
+
+**7.** 7,409
+
+**8.** 1,000 and 1,250
+
+#### Key words
+
+**1.** place value.
+
+**2.** expanded form.
+
+**3.** rounding.
+
+**4.** Rounding up always takes the higher of the two nearby numbers; rounding off takes whichever of the two is nearer, using the digit to the right to decide.
+
+**5.** significant figures.
+
+**6.** decimal place.
+
+**7.** ascending
+
+**8.** billion
+
+#### Core practice
+
+**1.** Five million, thirty-two thousand, nine hundred and fourteen.
+
+**2.** 406,020,005
+
+**3.** (a) the hundred thousands place (b) 900,000
+
+**4.** 70,000 + 4,000 + 500 + 6
+
+**5. (a) 1,879,700,000 (b) 1,879,650,000 (c) 1,879,653,000 (d) 1,879,653,200 (e) 1,879,653,210**
+
+**6.** (a) 3.5 (b) 3.47 (c) 3.468
+
+**7.** (a) 4 (b) 4 (c) 3
+
+**8.** 857,000
+
+**9.** 1,209,876 > 1,209,867
+
+**10.** 4,065,321 < 4,506,321 < 4,560,123 < 4,650,132
+
+#### Challenge
+
+**1.** Least 4,450; greatest 4,549. (4,449 would round to 4,400 and 4,550 would round to 4,600.)
+
+**2.** (a) 4.448, then 4.45, then 4.5. (b) 4.4. (c) Rounding in stages carries an earlier rounding forward, so an error accumulates. Always round the *original* number to the required place. The correct answer is 4.4.
+
+**3.** (a) 9,754,310 (b) 1,034,579. The smallest cannot begin with 0, so the 1 goes first and the 0 goes next.
+
+**4.** (a) 3 — the zero between 5 and 8 is significant; the zeros before the 5 are not. (b) 0.051
+
+**5.** Least 48,500; greatest 49,499. (Any value from 48,500 up to but not including 49,500 rounds to 49,000.)
+
+<!-- page 4 -->
+
+#### Applied task
+
+**1.** (a) GH₵1,880,000,000 (b) GH₵1,880,000,000 (c) Advantage: the reader grasps the size at once. Disadvantage: a difference of over one hundred million cedis disappears, and the reader cannot check the arithmetic.
+
+**2.** (a) 185,000,000 ÷ 200 = 925,000 notes. (b) 925,000 ÷ 100 = 9,250 bundles. (c) 9,250 × 105 g = 971,250 g = 971.25 kg.
+
+**3.** (a) 68,500 > 68,472 > 68,047 > 6,847. (b) 69,000; 68,000; 68,000; 7,000. (c) Rounded total 212,000; exact total 211,866; the rounding raised the total by 134.
+
+**1.** Three million, two hundred and four thousand and fifty-seven. **[2]**
+
+**2.** (a) hundred thousands (b) 4,000 (c) 3,000,000 + 200,000 + 0 + 4,000 + 0 + 50 + 7 **[3]**
+
+**3. (a) 1,879,653,000 (b) 1,879,650,000 (c) 1,879,700,000 (d) In (b), the digit to the right of the ten-thousands place is 3, so it rounds down. In (c), the digit to the right of the hundred-thousands place is 5, so it rounds up. [4]**
+
+**4.** (a) 78.5 (b) 78.46 (c) 78.460 — the final zero must be written, because it shows that the answer has been given to three decimal places. **[3]**
+
+**5.** (a) (i) 0.00235 (ii) 0.002346 (iii) 0.00234567 (b) A zero is significant when it lies between two significant digits, or when it follows the decimal point after a non-zero digit; the zeros that only fix the position of the point are not significant. **[4]**
+
+**6.** 5,223,487,637 > 5,213,487,637 > 5,113,847,637 > 5,113,487,637. The two largest were decided at the ten millions place (2 against 1). **[4]**
+
+Exam-style
+
+1. (a) 96 (b) 12 [2]
+
+2. 470 and 3.86 [2]
+
+3. 7 × (100 − 2) = 7 × 100 − 7 × 2 = 700 − 14 = 686. [3]
+
+4. 3 + 2 = 5; 0.6 + 0.4 = 1.0; 0.08 + 0.05 = 0.13; total 6.13. [3]
+
+5. 347 × 26 = 347 × (20 + 6) = 6,940 + 2,082 = 9,022. [4]
+
+6. (a) 48 bottles (b) 72 litres (c) GH₵216.00 [6]
+
+#### Marking notes and common errors
+
+- **Recall 8.** Learners who write 1,000 and 1,500 have counted in 500s from the third term rather than checking the common difference from the first.
+
+- Core 5(d). To round 1,879,653,214 to the nearest hundred, learners must look at the tens digit (1), not the ones digit.
+
+- **Core 7.** Accept a learner who explains that the zeros in 0.004070 before the 4 are not significant but the final 0 is; if they answer 3, ask which zero they have dropped and why.
+
+- **Challenge 2.** The point of this question is the danger of rounding in stages. Give full credit only where the explanation names the accumulated error.
+
+- **Challenge 5.** Accept 49,499 or 'anything below 49,500'. Do not accept 49,500 itself.
+
+- **Exam 4(c).** Award the mark only if the trailing zero is written. 78.46 is not correct to three decimal places.
+
+- **Exam 6.** One mark for the correct order, one for the > signs used correctly, two for naming the deciding place. A learner who says 'the second digit' should be asked to name it.
+
+<!-- page 5 -->
+
+*Strand 1: Number*
+
+### Chapter 2: Mental Strategies and the Four Operations
+
+#### Recall
+
+**1.** Ten thousands.
+
+**2.** 68,500
+
+**3.** 56
+
+**4.** 12
+
+**5.** 0.5
+
+**6.** ¼
+
+**7.** 600
+
+**8.** 4.5
+
+#### Key words
+
+**1.** mental
+
+**2.** partitioning
+
+**3.** distributive
+
+**4.** For example ½ = 0.5 = 50%; ¼ = 0.25 = 25%; ¾ = 0.75 = 75%; ⅕ = 0.2 = 20%.
+
+**5.** Any three of: less, fewer, difference, reduce, take away, remain, left.
+
+**6.** Any three of: share, each, per, split, average, quotient, how many groups.
+
+**7.** 10
+
+**8.** quotient
+
+#### Core practice
+
+**1.** (a) 54 (b) 96 (c) 8 (d) 11
+
+**2.** 470
+
+**3.** 3.86
+
+**4.** 1.25
+
+**5.** 960
+
+**6.** 2.5 × 48 → 5 × 24 → 10 × 12 = 120.
+
+**7.** (a) 7 × (100 − 2) = 700 − 14 = 686. (b) 15 × (20 + 1) = 300 + 15 = 315.
+
+**8.** 3 + 2 = 5; 0.6 + 0.4 = 1.0; 0.08 + 0.05 = 0.13; 5 + 1.0 + 0.13 = 6.13.
+
+**9.** 5.65
+
+**10.** (a) 9,022 (b) 399
+
+#### Challenge
+
+**1.** Either halve 248 to get 124, or multiply 248 by 5 and divide by 10 to get 124. Halving is faster in a market because it needs no writing.
+
+**2.** 96 ÷ 0.1 = 960, which is larger. Dividing asks how many 0.1s are in 96; since 0.1 is smaller than 1, many of them fit, so the answer is larger than the original number.
+
+**3.** Halving and doubling: 25 × 36 → 50 × 18 → 100 × 9 = 900. Distributive: 25 × (30 + 6) = 750 + 150 = 900. Both give 900; halving and doubling usually needs fewer written steps.
+
+**4.** Less. 412 × 20 = 8,240, and 19 is less than 20, so the product is below 8,240 — in fact 8,240 − 412 = 7,828, which is less than 8,000.
+
+**5.** Any sensible problem, for example: 1,250 exercise books are packed 25 to a carton. How many cartons? Answer 50.
+
+<!-- page 6 -->
+
+#### Applied task
+
+1. (a) 4 × 12 = 48 bottles. (b) 48 × 1.5 = 72 litres. (c) 48 × GH₵4.50 = GH₵216.00. (d) 12.5 + 8.75 = 21.25 kg. (e) 21.25 − 6.4 = 14.85 kg. (f) 2.4 × GH₵18.50 = GH₵44.40. (g) 45.75 ÷ 5 = 9.15 m.
+
+2. (a) 347 × 26 = GH₵9,022. (b) 347 × 25 = GH₵8,675. (c) GH₵9,022 − GH₵8,675 = GH₵347 saved.
+
+3. (a) 9,576 ÷ 24 = 399 containers. (b) 399 × GH₵7.50 = GH₵2,992.50. (c) The estimate is close: it is GH₵7.50 below GH₵3,000, since 399 is one less than 400.
+
+#### Marking notes and common errors
+
+- **Core 3.** Learners who answer 386 have multiplied instead of dividing; ask them whether the answer should be larger or smaller than 38.6 before they calculate.
+
+- Core 5 and Challenge 2. Ask learners how many tenths fit into 96. This helps them see why dividing by 0.1 gives a larger number.
+
+- **Core 8.** Insist that the parts are written down. A correct answer with no partitioning shown earns half marks, because the method is what is being taught.
+
+- Applied 3(c). Accept a comment that quantifies the estimate. The exact total is GH₵2,992.50, which is GH₵7.50 below GH₵3,000.
+
+- Exam 5. Award method marks for correct partial products, even if the final addition contains an arithmetic slip.
+
+<!-- page 7 -->
+
+*Strand 1: Number*
+
+### Chapter 3: Powers of Natural Numbers
+
+#### Recall
+
+**1.** 36
+
+**2.** 8
+
+**3.** 1, 2, 3, 4, 6, 12
+
+**4.** 2, 3, 5, 7, 11
+
+**5.** No — a prime has exactly two different factors.
+
+**6.** 4
+
+**7.** 1,000
+
+**8.** 10 × 10
+
+#### Key words
+
+**1.** base
+
+**2.** exponent
+
+**3.** power
+
+**4.** index
+
+**5.** prime
+
+**6.** prime
+
+**7.** 5³ means 5 × 5 × 5 = 125. The exponent counts how many times the base is used as a factor, not what it is multiplied by; 5 × 3 = 15.
+
+**8.** highest common factor (HCF).
+
+#### Core practice
+
+**1.** (a) 3⁴ (b) 5³ (c) 2⁵
+
+**2.** (a) 32 (b) 81 (c) 125
+
+**3.** 1,000,000
+
+**4.** Base 7, exponent 4.
+
+**5.** All three equal 1.
+
+6. (a) 72 = 2³ × 3². (b) 16 = 2⁴ and 27 = 3³, so 16 × 27 = 2⁴ × 3³.
+
+**7.** 180 = 2² × 3² × 5
+
+**8.** 8 × 9 = 72
+
+**9.** 72 = 2³ × 3², 84 = 2² × 3 × 7, so HCF = 2² × 3 = 12.
+
+**10.** 180 = 2² × 3² × 5, 240 = 2⁴ × 3 × 5, so HCF = 2² × 3 × 5 = 60.
+
+#### Challenge
+
+**1.** 5³ ÷ 5³ = 125 ÷ 125 = 1. But subtracting the exponents gives 5³⁻³ = 5⁰. Since both are the same division, 5⁰ = 1. The same argument works for any base except 0.
+
+**2.** 24 = 2³ × 3, 36 = 2² × 3², 60 = 2² × 3 × 5. Each prime is taken at its lowest power across all three: 2² × 3 = 12.
+
+**3.** The learner has multiplied the base by the exponent. 4³ means 4 × 4 × 4 = 64.
+
+**4.** 96 = 2⁵ × 3 and 72 = 2³ × 3², so HCF = 2³ × 3 = 24.
+
+**5.** The HCF divides both numbers; here we need the next time both intervals coincide, which is a common multiple. LCM of 12 and 18 = 36, so they ring together again after 36 minutes.
+
+<!-- page 8 -->
+
+#### Applied task
+
+**1.** (a) HCF(72, 84) = 12 cm. (b) 72 ÷ 12 = 6 and 84 ÷ 12 = 7, so 13 pieces. (c) The piece length must divide both planks exactly, and we want the largest such length — that is exactly what the highest common factor is.
+
+**2.** (a) HCF(180, 240) = 60 baskets. (b) 180 ÷ 60 = 3 oranges and 240 ÷ 60 = 4 mangoes in each.
+
+**3.** (a) 2³ = 8 m³. (b) Each edge is 4 m, so 4³ = 64 m³. (c) 64 ÷ 8 = 8 times larger. Doubling every edge doubles the volume three times over, once for each dimension: 2 × 2 × 2 = 8.
+
+**1.** 2⁵ = 32 **[2]**
+
+**2.** Base 7, exponent 4; 3⁴ = 81. **[3]**
+
+**3.** (a) 1 (b) 1,000,000 (c) 72 **[3]**
+
+**4.** 180 = 2² × 3² × 5 **[4]**
+
+**5.** 72 = 2³ × 3², 84 = 2² × 3 × 7, HCF = 2² × 3 = 12. **[4]**
+
+**6.** (a) 12 cm (b) 6 + 7 = 13 pieces **[4]**
+
+#### Marking notes and common errors
+
+- **Keywords 7 and Challenge 3.** *4³ = 12* is the defining error of this chapter. Have the learner write the three factors out in full before every evaluation until it stops.
+
+- **Core 5.** Some learners refuse to accept that 145⁰ = 1. The division argument in Challenge 1 convinces where a rule does not.
+
+- **Core 6 and 7.** Insist on the multiplication check. A learner who writes 72 = 2³ × 3² and then multiplies back to 72 has proved their own answer.
+
+- **Challenge 5.** This question is included deliberately to test whether learners choose HCF by habit. Full credit requires the reason, not only the 36.
+
+- **Applied 3.** Expect *twice as large* as the wrong answer to (c). The three-dimension explanation is the mark.
+
+<!-- page 9 -->
+
+*Strand 1: Number*
+
+### Chapter 4: Fractions, Decimals and Percentages
+
+#### Recall
+
+**1.** 0.5
+
+**2.** 25%
+
+**3.** 3/4
+
+**4.** 12
+
+**5.** 3/4
+
+**6.** 8
+
+**7.** 0.3
+
+**8.** 2/3
+
+#### Key words
+
+**1.** denominator
+
+**2.** numerator
+
+**3.** equivalent
+
+**4.** improper
+
+**5.** mixed
+
+**6.** 100
+
+**7.** Both the numerator and the denominator of 3/4 have been multiplied by 3, which is the same as multiplying by 3/3 = 1, so the value does not change.
+
+**8.** denominator
+
+#### Core practice
+
+**1.** (a) 3/4 (b) 3/4
+
+**2.** 2⅓
+
+**3.** 11/4
+
+4. (a) 10% (b) 20% (c) 0.4, 40% (d) 0.6, 60% (e) 0.8, 80% (f) 0.25, 25% (g) 0.75, 75% (h) 0.333…, 33⅓% (i) 0.666…, 66⅔% (j) 50%.
+
+**5.** (a) 0.375 (b) 37.5%
+
+**6.** 3/8
+
+**7.** 11/12
+
+**8.** 11/24
+
+**9.** 13/12 = 1 1/12
+
+**10.** As decimals: 0.6, 0.667, 0.65, 0.6. So 0.6 = 3/5 < 65% < ⅔. Ascending: 0.6 = 3/5, 65%, ⅔.
+
+#### Challenge
+
+**1.** 13/4 + 17/6 = 39/12 + 34/12 = 73/12 = 6 1/12.
+
+**2.** The learner has added the numerators and the denominators separately. Fractions must first be written with a common denominator: 8/12 + 3/12 = 11/12. Note also that 3/7 is less than 2/3, which is impossible when a positive amount has been added.
+
+**3.** Use a common denominator of 40: 5/8 = 25/40 and 3/5 = 24/40, and 25/40 > 24/40.
+
+**4.** ⅓ + ¼ = 4/12 + 3/12 = 7/12, so the third takes 1 − 7/12 = 5/12.
+
+<!-- page 10 -->
+
+**5.** For example 7/12: ½ = 6/12 and ⅔ = 8/12, and 6/12 < 7/12 < 8/12. Any fraction between them is acceptable if the working shows the comparison.
+
+#### Applied task
+
+**1.** (a) 13/4 + 17/6 = 73/12 = 6 1/12 m. (b) 12 − 6 1/12 = 5 11/12 m. (c) 5 11/12 m is very nearly 6 m — it is short by one twelfth of a metre, about 8 cm — so the statement is reasonable for conversation but not for cutting.
+
+**2.** (a) ⅖ × 40 = 16. (b) 25% of 40 = 10. (c) 40 − 16 − 10 = 14, so 14/40 = 7/20.
+
+**3.** (a) ¾ − ⅜ = 6/8 − 3/8 = 3/8. (b) 3/8 of the tank is 240 litres, so the tank holds 240 × 8/3 = 640 litres. (c) ⅜ × 640 = 240 litres.
+
+**1.** 3/4 and 2⅓ **[2]**
+
+**2.** 0.375 and 37.5% **[2]**
+
+**3.** (a) 11/12 (b) 11/24 **[4]**
+
+**4.** 6 1/12 **[4]**
+
+**5.** Change all to decimals: 0.6, 0.667, 0.65, 0.6. Ascending: 0.6 = 3/5, then 65%, then ⅔. **[4]**
+
+**6.** 16 walk and 10 come by tro-tro, leaving 14; 14/40 = 7/20. **[4]**
+
+#### Marking notes and common errors
+
+- **The defining error.** Adding numerators and denominators separately (2/3 + 1/4 = 3/7). The quickest cure is the size check: the answer must be bigger than either fraction added.
+
+- **Core 10 and Exam 5.** Any consistent method scores — decimals, percentages or a common denominator — provided the learner states which form they converted everything to.
+
+- **Challenge 3.** Do not accept a decimal conversion here; the question specifically asks for the common denominator method.
+
+- **Applied 3(b).** Learners often multiply by 3/8 instead of dividing. Ask them whether the tank is bigger or smaller than 240 litres before they calculate.
+
+- **Exam 4.** One mark for converting to improper fractions, one for the common denominator, one for the subtraction, one for returning to a mixed number.
+
+<!-- page 11 -->
+
+*Strand 1: Number*
+
+### Chapter 5: Multiplying and Dividing Fractions
+
+#### Recall
+
+**1.** 3/4
+
+**2.** 9/4
+
+**3.** 3/4
+
+**4.** 3/8
+
+**5.** 12
+
+**6.** 30
+
+**7.** 1/5
+
+**8.** 24
+
+#### Key words
+
+**1.** reciprocal
+
+**2.** 7/3
+
+**3.** 1/5
+
+**4.** multiply
+
+**5.** reciprocal
+
+**6.** 1
+
+**7.** Dividing by ½ asks how many halves fit into the number. Since each half is smaller than one, twice as many fit, so the answer is twice the original number.
+
+**8.** simplifying
+
+#### Core practice
+
+**1.** 8
+
+2. (a) 3/4 × 2/5 = 3/10 (b) 0.6 × 3/4 = 3/5 × 3/4 = 9/20 = 0.45 (c) 25% × 3/5 = 1/4 × 3/5 = 3/20 = 0.15
+
+**3.** 9/4 × 4/3 = 3
+
+4. (a) 2/5 × 360 = 144 (b) 0.4 × 250 = 100
+
+**5.** GH₵90
+
+**6.** (a) 1/4 (b) 7/3 (c) 9
+
+**7.** 5/8 × 4/1 = 20/8 = 5/2 = 2½
+
+**8.** 3/4 × 16/9 = 48/36 = 4/3 = 1⅓
+
+**9.** 9/2 × 4/3 = 36/6 = 6
+
+10. (a) 7/10 × 1/14 = 1/20 (b) 0.375 ÷ 3 = 3/8 × 1/3 = 1/8 = 0.125 (c) 25% ÷ 1/2 = 1/4 × 2 = 1/2 = 50% (d) 0.375 ÷ 3/4 = 3/8 × 4/3 = 1/2
+
+#### Challenge
+
+**1.** ⅚ × 14/3 = 70/18 = 35/9 = 3 8/9.
+
+**2.** ½ × 8 = 4, which is smaller than 8. Multiplying by a fraction less than 1 always gives a smaller answer, because you are taking a part of the number.
+
+**3.** Both equal 4/3. Dividing by 9/16 asks how many 9/16s fit into 3/4; multiplying by the reciprocal counts the same thing, because 9/16 × 16/9 = 1, so the division is undone.
+
+**4.** ¾ × ⅔ = 6/12 = ½ of the class.
+
+<!-- page 12 -->
+
+**5.** (a) 9/2 ÷ 3/4 = 6 pieces. (b) 9/2 ÷ 5/8 = 36/5 = 7.2, so 7 whole pieces, with 0.2 × ⅝ = 1/8 m left over.
+
+#### Applied task
+
+1. (a) 2/5 × 360 = 144 oranges. (b) 360 − 144 = 216 oranges. (c) 1/4 × 216 = 54 oranges. (d) 216 − 54 = 162 oranges remain.
+
+**2.** (a) 12 ÷ ¾ = 16 uniforms. (b) 16 × GH₵18 = GH₵288. (c) 12 ÷ ⅚ = 72/5 = 14.4, so 14 uniforms, using 14 × ⅚ = 35/3 = 11⅔ m, leaving ⅓ m.
+
+**3.** (a) ⅜ × 240 = 90 litres. (b) ⅔ × 90 = 60 litres. (c) 90 − 60 = 30 litres left, and 30/240 = ⅛ of the full tank.
+
+**1.** (a) 8 (b) 3/10 **[2]**
+
+**2.** 7/3 and 1/5 **[2]**
+
+**3.** 5/2 = 2½ **[3]**
+
+**4.** 9/2 × 4/3 = 6 **[3]**
+
+**5.** (a) 16 uniforms (b) GH₵288 **[4]**
+
+**6.** (a) ⅜ × 240 = 90 l, and ⅔ × 90 = 60 l used. (b) 30 litres remain, which is ⅛ of the tank. **[6]**
+
+#### Marking notes and common errors
+
+- **The defining misconception.** *Multiplying makes bigger, dividing makes smaller.* Challenge 2 and the note in Guided Practice 2 exist for this. Return to it whenever a learner's answer is the wrong side of the starting number.
+
+- **Core 7 to 10.** Accept improper fractions or mixed numbers unless the question names one, but insist that the answer is simplified.
+
+- Applied 1. Check that learners find the fraction of the remainder, not the original number, in part (c).
+
+- **Applied 2(c).** Learners commonly give 14.4 uniforms. Half a uniform is not a uniform; the answer needs the leftover cloth as well.
+
+- **Exam 6.** Two marks for (a), four for (b) — the fraction *of the full tank* is what is being tested, and 30/90 is the error to watch for.
+
+<!-- page 13 -->
+
+*Strand 1: Number*
+
+### Chapter 6: Ratio, Rate and Proportion
+
+#### Recall
+
+**1.** 2/3
+
+**2.** 25
+
+**3.** 120
+
+**4.** 35%
+
+**5.** 135
+
+**6.** 350
+
+**7.** 60%
+
+**8.** GH₵2.50
+
+#### Key words
+
+**1.** ratio
+
+**2.** rate
+
+**3.** unit
+
+**4.** equivalent
+
+**5.** commission
+
+**6.** discount
+
+**7.** The ratio 3 : 5 compares one part with another part, so the whole is 8. The fraction 3/5 compares a part with the whole, so the whole is 5.
+
+**8.** original or marked
+
+#### Core practice
+
+**1.** (a) 2 : 3 (b) 3 : 4
+
+**2.** 75 km/h
+
+**3.** GH₵2.50
+
+**4.** 10, 15, 20, 25 — the table reads 2:5, 4:10, 6:15, 8:20, 10:25.
+
+**5.** One part = GH₵350; shares are GH₵1,050, GH₵1,400 and GH₵1,750.
+
+**6.** 50
+
+**7.** Discount = 0.15 × 480 = GH₵72, so the price is GH₵408.
+
+**8.** 0.05 × 12,400 = GH₵620.
+
+**9.** Interest = 800 × 12/100 × 2 = GH₵192; amount = GH₵992.
+
+**10.** The four points lie on a straight line through the origin — the mark of a proportional relationship.
+
+#### Challenge
+
+**1.** A: GH₵2.50 a pen. B: 48 ÷ 20 = GH₵2.40 a pen, so B is better. On 60 pens: A costs GH₵150, B costs GH₵144, a saving of GH₵6.
+
+**2.** GH₵340 is 85% of the price, so 1% = GH₵4 and the original price is GH₵400.
+
+**3.** Shares are GH₵400 and GH₵560. After the transfer: GH₵480 and GH₵480, a ratio of 1 : 1.
+
+**4.** GH₵500 + 20% = GH₵600; GH₵600 − 20% = GH₵480. The two 20% are taken of different amounts, so GH₵20 is lost: the final price is 96% of the original.
+
+**5.** 750 ÷ 6 = 125 g a person, so 10 × 125 = 1,250 g, that is 1.25 kg.
+
+<!-- page 14 -->
+
+#### Applied task
+
+**1.** (a) 5% of 12,400 = GH₵620. (b) 16,000 − 15% = GH₵13,600. (c) 13,600 − 12,400 + 620 = GH₵1,820.
+
+**2.** (a) 75 km/h. (b) 300 ÷ 25 = 12 km per litre. (c) 25 × 15 = GH₵375 for 300 km, so 375 ÷ 300 = GH₵1.25 a kilometre.
+
+**3.** (a) 1,050 kg, 1,400 kg and 1,750 kg. (b) GH₵6,300, GH₵8,400 and GH₵10,500. (c) 5% of 10,500 = GH₵525, so he pays GH₵9,975 and the farmer loses GH₵525.
+
+**1.** 3 : 4 **[2]**
+
+**2.** 75 km/h **[2]**
+
+**3.** One part = GH₵350; the shares are GH₵1,050, GH₵1,400 and GH₵1,750. **[4]**
+
+**4.** Discount GH₵72, selling price GH₵408. **[3]**
+
+**5.** Interest GH₵192; amount GH₵992. **[4]**
+
+**6.** GH₵340 is 85% of the price, so the original price is GH₵400. Adding 15% to GH₵340 takes the percentage of the *reduced* price rather than of the original, giving GH₵391. **[5]**
+
+#### Marking notes and common errors
+
+- **Keywords 7.** The ratio-fraction distinction is worth ten minutes of class time. Learners who treat 3 : 5 as 3/5 will share quantities wrongly for the rest of the year.
+
+- **Core 4 and 10.** The plotted points must lie on a straight line through the origin. If a learner's points do not, the error is in the table, not in the plotting.
+
+- **Core 9.** Accept the formula I = PRT/100 or the equivalent reasoning in words, but the units must appear in the answer.
+
+- **Challenge 4.** A favourite examination trick. The percentage is always taken *of something*, and the something changes between the two steps.
+
+- **Exam 6.** Three marks for GH₵400, two for the explanation. A learner who answers GH₵391 has made exactly the error the question is testing.
+
+<!-- page 15 -->
+
+### Review 1 — Number
+
+*Chapters 1 to 6. Time: 45 minutes. Total: 30 marks.*
+
+**1.** 3,480,000 **[2]**
+
+**2.** 0.0410 **[2]**
+
+**3.** 9,022 **[3]**
+
+**4.** 432 = 2⁴ × 3³ **[3]**
+
+**5.** 96 = 2⁵ × 3, 144 = 2⁴ × 3², so HCF = 2⁴ × 3 = 48. **[3]**
+
+**6.** (a) 15/20 + 8/20 = 23/20 = 1 3/20 (b) 10/12 − 3/12 = 7/12 **[4]**
+
+**7.** (a) 18/30 = ⅗ (b) ⅗ × 20/9 = 60/45 = 4/3 = 1⅓ **[4]**
+
+**8.** One part = GH₵300; the shares are GH₵600, GH₵900 and GH₵2,100. **[3]**
+
+**9.** Discount GH₵240, so the price is GH₵720. **[3]**
+
+**10.** GH₵828 is 92% of the price, so the original price is GH₵900. **[3]**
+
+<!-- page 16 -->
+
+*Strand 2: Algebra*
+
+### Chapter 7: Patterns and Relations
+
+#### Recall
+
+**1.** 17 and 20
+
+**2.** 23
+
+**3.** 42
+
+**4.** 5
+
+**5.** 12
+
+**6.** 11
+
+**7.** 32
+
+**8.** The x-axis.
+
+#### Key words
+
+**1.** term
+
+**2.** difference
+
+**3.** linear
+
+**4.** variable
+
+**5.** pair
+
+**6.** origin
+
+**7.** Find the common difference; that is the number multiplying the term number. Then find what must be added or subtracted to give the first term.
+
+**8.** 3x + 2
+
+#### Core practice
+
+**1.** 22, 27, 32
+
+**2.** 16, 10, 4
+
+**3.** (a) 3 (b) n → 3n + 2
+
+**4.** 62
+
+**5.** 7, 12, 17, 22
+
+**6.** n → 2n + 7
+
+**7.** Seven more than twice the term number.
+
+**8.** The rule is n → 5n − 3. Solving 5n − 3 = 92 gives 5n = 95, so n = 19: it is the 19th term.
+
+**9.** 4, 7, 10, 13, 16
+
+**10.** The four points lie on a straight line, which is what makes the relation linear.
+
+#### Challenge
+
+**1.** (a) n → 3n + 1. (b) 3 × 25 + 1 = 76. (c) 3n + 1 ≤ 100 gives n ≤ 33, so 33 squares using 3 × 33 + 1 = 100 sticks exactly, with none left over.
+
+**2.** 'Add 3' only tells you how to move from one term to the next, so you would have to list all 50 terms. The rule n → 3n + 2 gives any term directly: the 50th is 152.
+
+**3.** (a) n → 4n − 1 and n → 3n + 2. (b) 4n − 1 = 3n + 2 gives n = 3, and both equal 11. (c) After the third term the first pattern grows faster, because it adds 4 each time while the second adds only 3, so it stays ahead.
+
+**4.** The difference over three steps is 22 − 7 = 15, so a = 15 ÷ 3 = 5. Then 5(1) + b = 7 gives b = 2, so the rule is n → 5n + 2.
+
+<!-- page 17 -->
+
+**5.** All the points lie on one straight line. A pattern with a constant common difference always gives points in a straight line; if the points curve, the difference is not constant.
+
+#### Applied task
+
+**1.** (a) n → 3n + 5. (b) 3 × 12 + 5 = GH₵41. (c) 3n + 5 = 53 gives n = 16 km. (d) It lifts the whole line up by 5: the graph starts at GH₵5 when n = 0 rather than at the origin.
+
+**2.** (a) n → 200 − 15n. (b) 200 − 120 = 80 litres. (c) 200 − 15n < 50 gives 15n > 150, so n > 10: from the 11th day.
+
+**3.** (a) 20, 28, 36, 44, 52. (b) n → 8n + 12. (c) 20 + 28 + 36 + 44 + 52 = GH₵180. (d) 8n + 12 > 100 gives n > 11, so week 12.
+
+**1.** 22, 27, 32 **[2]**
+
+**2.** Common difference 3; rule n → 3n + 2. **[3]**
+
+**3.** 62 **[2]**
+
+**4.** 4, 7, 10, 13, 16 **[3]**
+
+**5.** 5n − 3 = 92, so 5n = 95 and n = 19 — the 19th term. **[4]**
+
+**6.** (a) n → 3n + 5 (b) GH₵41 (c) 16 km **[6]**
+
+#### Marking notes and common errors
+
+- **Challenge 2.** The distinction between a *term-to-term* rule (add 3) and a *position-to-term* rule (3n + 2) is the whole point of the chapter. Learners who only ever write 'add 3' cannot answer any question about a distant term.
+
+- **Core 8 and Exam 5.** Accept either solving the equation or extending the table, but a learner who lists nineteen terms should be shown the equation method afterwards.
+
+- **Core 10.** The points must be joined with a ruler. A freehand curve through four collinear points suggests the learner has plotted one of them wrongly.
+
+- **Applied 1(d).** The constant term as a starting value is worth dwelling on; it returns in Basic 8 as the intercept.
+
+- **Applied 2(c).** Watch for the answer 'day 10'. At day 10 the tank still holds exactly 50 litres, which is not *less than* 50.
+
+<!-- page 18 -->
+
+*Strand 2: Algebra*
+
+### Chapter 8: Algebraic Expressions
+
+#### Recall
+
+**1.** 15
+
+**2.** 15
+
+**3.** 27
+
+**4.** 3 × 6
+
+**5.** 22 cm
+
+**6.** 28 cm²
+
+**7.** 35
+
+**8.** 2n
+
+#### Key words
+
+**1.** variable
+
+**2.** coefficient
+
+**3.** term
+
+**4.** like
+
+**5.** constant
+
+**6.** substitution
+
+**7.** Like terms must have the same variable. 5a is five of one unknown and 5b is five of a different unknown, so they cannot be added into a single term.
+
+**8.** 4x + 3
+
+#### Core practice
+
+**1.** (a) coefficient 7, variable x (b) coefficient −4, variable part ab (c) coefficient 1, variable part x²
+
+**2.** (a) 3x, −2x and x (b) 7
+
+3. (a) 3a + 10b (b) (1/2)x + (3/4)x = (2/4)x + (3/4)x = (5/4)x
+
+**4.** 3x + 6y − 2
+
+**5.** (a) n − 5 (b) 3(x + 4) (c) n/6
+
+6. (a) 12xy (b) 10a² (c) x⁵ (d) (1/2)x × 4y = 2xy
+
+7. (a) 3x²y (b) [(3/5) ÷ (9/10)]x = (2/3)x
+
+**8.** 6x − 8 + 5x + 10 = 11x + 2
+
+**9.** 3 × 16 − 10 = 48 − 10 = 38
+
+**10.** P = 2[(2x + 3) + (x − 1)] = 2(3x + 2) = 6x + 4 cm
+
+#### Challenge
+
+**1.** Unlike terms cannot be added into one term. With a = 2 and b = 1: 3(2) + 10(1) = 16, but 13ab = 13 × 2 × 1 = 26. The two are not equal.
+
+**2.** (a) A = (2x + 3)(x − 1) cm². (b) (13)(4) = 52 cm². (c) If x ≤ 1 the width x − 1 would be zero or negative, and no rectangle has a width of zero or less.
+
+**3.** 8x − 12 − 3x + 15 = 5x + 3. When x = 2: 13. Note the sign change on −3 × (−5) = +15.
+
+**4.** (a) (12x + 8) ÷ 4 = 3x + 2 cm. (b) (3x + 2)² cm². (c) When x = 2: side 8 cm, area 64 cm².
+
+**5.** Cost = 6x + 2.5y. When x = 12 and y = 8: 72 + 20 = GH₵92.
+
+<!-- page 19 -->
+
+#### Applied task
+
+**1.** (a) 2k + 4. (b) 2(17) + 4 = GH₵38. (c) 2k + 2.
+
+**2.** (a) 24x + 18y. (b) 360 + 360 = 720 plants. (c) 19x + 18y.
+
+**3.** (a) 6x + 4 m. (b) 45(6x + 4) = 270x + 180 cedis. (c) When x = 8: 2,160 + 180 = GH₵2,340.
+
+**1.** 7; the constant term is 5. **[2]**
+
+**2.** 3a + 10b **[3]**
+
+**3.** 11x + 2 **[4]**
+
+**4.** 3x²y **[3]**
+
+**5.** 38 **[2]**
+
+**6.** (a) 6x + 4 cm (b) (2x + 3)(x − 1) cm² (c) perimeter 34 cm, area 52 cm² **[6]**
+
+#### Marking notes and common errors
+
+- **The defining error.** Adding unlike terms: 3a + 10b = 13ab. Challenge 1 makes the learner disprove it themselves by substitution, which works better than the rule.
+
+- **Core 6(c) and Exam 4.** Indices are added when multiplying and subtracted when dividing. Learners who write x² × x³ = x⁶ have multiplied the indices.
+
+- **Challenge 3.** The sign of −3 × (−5) is where most marks are lost in the whole chapter. Insist that the expansion is written out before terms are collected.
+
+- **Core 9.** 3x² means 3 × (x²), not (3x)². With x = 4 the wrong reading gives 144 instead of 48.
+
+- **Exam 6.** Award method marks: a correct perimeter expression that is then mis-simplified still earns the first mark.
+
+<!-- page 20 -->
+
+*Strand 2: Algebra*
+
+### Chapter 9: Linear Equations
+
+#### Recall
+
+**1.** 3a + 10b
+
+**2.** 17
+
+**3.** 2x + 6
+
+**4.** Subtracting 7.
+
+**5.** Dividing by 3.
+
+**6.** 5
+
+**7.** 4x − 3
+
+**8.** x = 4
+
+#### Key words
+
+**1.** equation
+
+**2.** expression
+
+**3.** solution
+
+**4.** inverse
+
+**5.** checking
+
+**6.** linear
+
+**7.** An equation is a balance. If one side is changed and the other is not, the two sides are no longer equal and the statement becomes false.
+
+**8.** side; side
+
+#### Core practice
+
+**1.** (a) expression (b) equation (c) expression
+
+**2.** x = 18
+
+**3.** x = 6
+
+**4.** x/4 = 4, so x = 16
+
+**5.** −2x = −6, so x = 3
+
+**6.** 3x = 15, so x = 5
+
+**7.** 2x + 6 = 14, 2x = 8, x = 4
+
+**8.** 4x − 4 = 2x + 6, 2x = 10, x = 5
+
+**9.** 3x + 7 = 25, so x = 6
+
+**10.** When 5 is subtracted from twice a number the result is 13. (Any correct wording is accepted.)
+
+#### Challenge
+
+**1.** (a) n + (n + 1) + (n + 2) = 72. (b) 3n + 3 = 72, so 3n = 69 and n = 23. (c) 23, 24 and 25, and 23 + 24 + 25 = 72. ✓
+
+**2.** Let the son be x. Then x + 4x = 60, so 5x = 60 and x = 12. The son is 12 and the father 48.
+
+**3.** Subtracting 7 gives −2x = −6, and dividing by −2 gives x = 3, not −3. The learner divided −6 by 2 instead of by −2, losing the sign. Check: 7 − 2(3) = 1. ✓
+
+**4.** Let the width be x. Then 2(x + 4 + x) = 36, so 4x + 8 = 36, 4x = 28 and x = 7. The width is 7 cm and the length 11 cm.
+
+**5.** Any sensible problem, for example: five times a number less 4 gives the same result as twice the number plus 11. The number is 5.
+
+<!-- page 21 -->
+
+#### Applied task
+
+**1.** (a) 2k + 4 = 38. (b) 2k = 34, so k = 17 km. (c) 2k + 4 = k + 10 gives k = 6 km — for journeys longer than 6 km the second is cheaper.
+
+**2.** (a) 240x + 360 = 4,200. (b) 240x = 3,840, so x = 16 bags. (c) 4,200 ÷ 16 = GH₵262.50.
+
+**3.** (a) Before: 900/x. After: 900/(x + 5). (b) The fall in the amount each pays is 6, which is the difference of the two expressions. (c) x = 25 gives 36 − 30 = 6.✓ So 25 learners were going at first.
+
+**1.** An equation, because it contains an equals sign joining two expressions. **[2]**
+
+**2.** 3x = 18, x = 6. Check: 3(6) + 7 = 25. ✓ **[3]**
+
+**3.** 3x = 15, so x = 5 **[3]**
+
+**4.** 2x + 6 = 14, so x = 4 **[3]**
+
+**5.** 3n + 3 = 72, n = 23; the numbers are 23, 24 and 25. **[4]**
+
+**6.** 2k + 4 = 38, so k = 17 km. **[5]**
+
+#### Marking notes and common errors
+
+- **Core 5 and Challenge 3.** Dividing by a negative coefficient is where the marks go. Require the line −2x = −6 to be written before the division.
+
+- **Core 3, 6, 7.** Insist on *both sides* being written at each step. A learner who works down one side only will be lost as soon as the variable appears twice.
+
+- **Checking.** Every solution should be substituted back. This is the one habit that makes learners self-correcting, and it earns a mark in Exam 2.
+
+- **Challenge 1.** Accept n, n + 1, n + 2 or n − 1, n, n + 1. The second gives 3n = 72 and n = 24 as the middle number — a neater method worth showing the class.
+
+- **Applied 3.** This is deliberately harder than Basic 7 requires and is meant for trial and improvement, not for algebraic solution. Reward an organised table of trials.
+
+<!-- page 22 -->
+
+### Review 2 — Algebra
+
+*Chapters 7 to 9. Time: 35 minutes. Total: 30 marks.*
+
+**1.** 19, 23, 27 **[2]**
+
+**2.** n → 4n − 1 **[3]**
+
+**3.** 39 **[2]**
+
+**4.** 4n − 1 = 59, so n = 15. **[3]**
+
+**5.** 6x − 15 − 2x + 8 = 4x − 7 **[4]**
+
+**6.** 18 − 12 = 6 **[3]**
+
+**7.** 2x = 16, so x = 8 **[4]**
+
+**8.** 3x − 6 = 12, so x = 6 **[3]**
+
+**9.** 2[(3x + 1) + (x + 2)] = 2(4x + 3) = 8x + 6 cm **[3]**
+
+**10.** 3n + 3 = 96, n = 31; the numbers are 31, 32 and 33. **[3]**
+
+<!-- page 23 -->
+
+*Strand 3: Geometry and Measurement*
+
+### Chapter 10: Angles and Geometric Construction
+
+#### Recall
+
+**1.** 90°
+
+**2.** 180°
+
+**3.** 360°
+
+**4.** Acute.
+
+**5.** Obtuse.
+
+**6.** 55
+
+**7.** 65
+
+**8.** A protractor.
+
+#### Key words
+
+**1.** complementary
+
+**2.** supplementary
+
+**3.** adjacent
+
+**4.** vertically
+
+**5.** reflex
+
+**6.** bisecting
+
+**7.** Complementary angles add to 90°, making a right angle; supplementary angles add to 180°, making a straight line.
+
+**8.** vertex
+
+#### Core practice
+
+**1.** (a) acute (b) right (c) obtuse (d) straight (e) reflex
+
+**2.** (a) 55° (b) 28° (c) 72°
+
+**3.** (a) 65° (b) 90° (c) 133°
+
+**4.** 3x + 2x = 180, so 5x = 180 and x = 36. The angles are 108° and 72°.
+
+**5.** 115°, 65° and 115°
+
+**6.** Marked by inspection: the arms must meet at a clearly marked vertex and the size must be within 2° of that asked.
+
+**7.** The three should total 180°, within the accuracy of the protractor.
+
+**8.** The arcs above and below must cross at two points; the line joining them cuts AB at its midpoint, giving two segments of 3.5 cm.
+
+**9. Construct the 60° angle using equal arcs from A and B. For 90°, construct a perpendicular to the line at the point. Leave the construction arcs showing.**
+
+**10. The 60° angle bisects into two 30° angles; bisecting one of these gives two 15° angles. The 90° angle bisects into two 45° angles.**
+
+#### Challenge
+
+**1.** The parts total 5, and 90 ÷ 5 = 18, so the angles are 36° and 54°.
+
+**2.** Let the supplement be x. Then x + (x + 30) = 180, so 2x = 150 and x = 75. The angle is 105°.
+
+**3.** It is not possible. Each obtuse angle is greater than 90°, so two of them total more than 180°.
+
+**4.** Construct a perpendicular to give 90°, then bisect that right angle. Each half is 45°.
+
+**5.** The 60° construction depends on an equilateral triangle, and 40° is not a fraction of 60° obtainable by halving. Bisecting 60° twice gives 15°.
+
+<!-- page 24 -->
+
+#### Applied task
+
+**1.** (a) Equal arcs from a point on a line and from where the arc cuts the line; join the crossing point. (b) Bisect the 60° angle. (c) Compasses and a straight edge are accurate at any size and do not wear out or mis-read like a small plastic protractor.
+
+**2.** (a) 115°, 65°, 115°. (b) 65 + 115 + 65 + 115 = 360. (c) All four become 90°: the arms form two perpendicular straight lines.
+
+**3.** (a) 180 − 47 − 68 = 65°. (b) All three are acute. (c) The base is drawn 6 cm long, with 47° at one end and 68° at the other; the arms meet at the third vertex.
+
+**1.** (a) acute (b) obtuse (c) reflex **[3]**
+
+**2.** 55° and 65° **[2]**
+
+**3.** 5x = 180, x = 36; the angles are 108° and 72°. **[3]**
+
+**4.** 115° (supplementary, on a straight line), 65° (vertically opposite the given angle), 115° (vertically opposite the 115°). **[4]**
+
+**5.** Equal arcs give the 60°; the bisector arcs give two angles of 30°. Marks are lost if the arcs are rubbed out. **[4]**
+
+**6.** 36° and 54° **[4]**
+
+#### Marking notes and common errors
+
+- **Construction questions.** Arcs must be left showing. A perfectly measured angle drawn with a protractor scores nothing in a construction question, and learners need to be told this early.
+
+- **Core 6 and 7.** Allow a tolerance of 2°. Where a learner is consistently out by the same amount they are probably reading the wrong scale of the protractor.
+
+- **Challenge 3.** Expect some learners to answer 'yes' because they are thinking of angles at a point rather than on a line. The arithmetic settles it.
+
+<!-- page 25 -->
+
+*Strand 3: Geometry and Measurement*
+
+### Chapter 11: Perimeter and Area
+
+#### Recall
+
+**1.** 100
+
+**2.** 1,000
+
+**3.** 40 cm
+
+**4.** 96 cm²
+
+**5.** 30 cm²
+
+**6.** 250 cm
+
+**7.** 4.5 m
+
+**8.** 44
+
+#### Key words
+
+**1.** perimeter
+
+**2.** area
+
+**3.** radius
+
+**4.** diameter
+
+**5.** circumference
+
+**6.** arc
+
+**7.** The diameter is twice the radius: d = 2r.
+
+**8.** linear (cm, m)
+
+#### Core practice
+
+**1.** (a) 3,400 m (b) 2.5 m (c) 70 mm
+
+**2.** 660 cm
+
+**3.** 180 mm = 18 cm
+
+**4.** 44 cm
+
+**5.** d = 21 cm, so C = 66 cm
+
+**6.** 96 cm²
+
+**7.** 30 cm²
+
+**8.** 45 cm²
+
+**9. A = ½ × 15 × 8 = 60 cm²**
+
+**10.** Rectangle 24 square units; triangle 12 square units — exactly half.
+
+#### Challenge
+
+**1.** Whole garden: 15 × 9 = 135 m². Inner rectangle: 13 × 7 = 91 m². Path = 135 − 91 = 44 m².
+
+**2.** 88 = 22/7 × d, so d = 88 × 7 ÷ 22 = 28 cm and r = 14 cm.
+
+**3.** (a) Square of side 6: area 36 cm². Rectangle: area 32 cm². (b) Shapes with equal perimeters need not have equal areas; the square encloses the greater area.
+
+**4.** (a) 22/7 × 70 = 220 cm. (b) 220 × 50 = 11,000 cm = 110 m.
+
+**5. 72 = ½ × 16 × h, so 144 = 16h and h = 9 cm.**
+
+#### Applied task
+
+**1.** (a) 2(45 + 28) = 146 m. (b) 146 × 62 = GH₵9,052. (c) 3 × 62 = GH₵186 saved, so GH₵8,866.
+
+<!-- page 26 -->
+
+**2. (a) C = 2 × 22/7 × 7 = 44 m. (b) d = 2 × 7 = 14 m. (c) The fence is a circle of radius 8 m: C = 2 × 22/7 × 8 = 352/7 ≈ 50.3 m.**
+
+**3.** (a) 63 m². (b) 0.3 × 0.3 = 0.09 m². (c) 63 ÷ 0.09 = 700 tiles. (d) 700 ÷ 20 = 35 boxes.
+
+**1.** 3,400 m and 2.5 m **[2]**
+
+**2.** 250 cm and 80 cm give 2(330) = 660 cm = 6.6 m **[3]**
+
+**3.** 44 cm **[3]**
+
+**4. (a) 30 cm² (b) 35 cm² [4]**
+
+**5.** 135 − 91 = 44 m² **[4]**
+
+**6.** (a) 63 m² (b) 700 tiles **[4]**
+
+#### Marking notes and common errors
+
+- **Mixed units.** Adding 2.5 to 80 is the most frequent error in this chapter. Require the conversion line to be written before any addition.
+
+- **Units in answers.** Perimeter in cm, area in cm². A correct number with the wrong unit loses a mark in every examination.
+
+- **Core 5.** Watch for learners using C = πr instead of doubling the radius first.
+
+- **Challenge 3.** A good discussion: equal perimeters do not give equal areas. Ask which rectangle of perimeter 24 cm has the largest area.
+
+<!-- page 27 -->
+
+*Strand 3: Geometry and Measurement*
+
+### Chapter 12: Bearings and Vectors
+
+#### Recall
+
+**1.** North, East, South, West.
+
+**2.** 360°
+
+**3.** 245
+
+**4.** 60
+
+**5.** South.
+
+**6.** 090°
+
+**7.** 3,500 m
+
+**8.** Clockwise.
+
+#### Key words
+
+**1.** bearing
+
+**2.** three
+
+**3.** back
+
+**4.** scalar
+
+**5.** vector
+
+**6.** 045°
+
+**7.** A bearing is always given with three figures so that it cannot be confused with any other number, and so that all bearings can be compared at a glance.
+
+**8.** displacement
+
+#### Core practice
+
+**1.** (a) 045° (b) 008° (c) 275°
+
+**2.** (a) 180° (b) 270° (c) 315°
+
+**3.** (a) 245° (b) 310° (c) 060° (d) 130°
+
+**4.** Scalars: mass, distance, speed. Vectors: velocity, displacement, force.
+
+**5.** (a) 090° (b) 270°
+
+**6.** 255°
+
+**7.** A 5 cm line drawn 60° clockwise from a north line at the starting point.
+
+**8.** Four lines forming a cross: north up, east right, south down, west left.
+
+**9.** 3 cm north then 4 cm east; the closing line measures 5 cm, so the distance is 10 km.
+
+**10.** The distance is the whole length of the path driven; the displacement is the straight line from where it started to where it finished, together with the direction.
+
+#### Challenge
+
+**1.** 310° is more than 180°, so subtract: 310 − 180 = 130°.
+
+**2.** It is right in value but wrongly written: 180 + 180 = 360, and 360° is written as 000°. The back bearing of due south is due north.
+
+**3.** (a) The two legs are at right angles, so the direct distance is 5 km (3-4-5). (b) Measured from the drawing, the bearing is about 127°.
+
+**4.** Both point due north, because a full turn returns to the start. By convention 000° is written.
+
+**5.** The back bearing is 040 + 180 = 220°, and the distance is the same 12 km.
+
+<!-- page 28 -->
+
+#### Applied task
+
+**1.** (a) 4 cm then 3 cm, each from a fresh north line. (b) HQ measures 5 cm, so 10 km. (c) About 107°. (d) About 287° — the back bearing of 107°.
+
+**2.** (a) 3 cm then 4 cm. (b) SM measures 5 cm, so 5 km. (c) The bearing of M from S is about 178°, so the bearing of S from M is about 358°. (d) Each bearing is measured from north at the point where the observer stands, and the observer moved between the two readings.
+
+**3.** (a) 3 cm then 4 cm. (b) 500 km by the 3-4-5 triangle. (c) About 053°. (d) It flew 700 km along its path but finished only 500 km from where it began, in a fixed direction.
+
+**1.** 045° and 008° **[2]**
+
+**2.** 180° and 270° **[2]**
+
+**3.** (a) 065 + 180 = 245° (b) 240 − 180 = 060° **[4]**
+
+**4.** Scalars: mass, distance. Vectors: velocity, displacement. **[4]**
+
+**5.** 3 cm then 4 cm; the closing line measures 5 cm, so 10 km. **[4]**
+
+**6.** 255°. A back bearing is the bearing of the return journey, and it always differs from the original by 180°. **[4]**
+
+#### Marking notes and common errors
+
+- **The fresh north line.** The single most common error in scale drawings is measuring the second bearing from the first north line. Insist that a new north line is drawn, in pencil, at every turning point.
+
+- **Three figures.** Marks are lost for writing 45° rather than 045°. This is worth one mark in almost every bearings question ever set.
+
+- **Challenge 2.** Both 000° and 360° describe north; by convention the answer is written 000°.
+
+- **Scale drawing tolerance.** Accept measurements within 2 mm and bearings within 2°.
+
+- **Applied 3(d).** The distance-displacement distinction returns in physics; a learner who can explain it here will meet it again in Basic 8 Integrated Science.
+
+<!-- page 29 -->
+
+*Strand 3: Geometry and Measurement*
+
+### Chapter 13: Reflection and Translation
+
+#### Recall
+
+**1.** 4
+
+**2.** 2
+
+**3.** Infinitely many.
+
+**4.** 3
+
+**5.** At the origin.
+
+**6.** The y-axis.
+
+**7.** (2, 3)
+
+**8.** No (a general parallelogram has none).
+
+#### Key words
+
+**1.** symmetry
+
+**2.** image
+
+**3.** object
+
+**4.** reflection
+
+**5.** translation
+
+**6.** mirror
+
+**7.** The size and the shape stay the same, and every point stays the same distance from the mirror line. What changes is the position, and the image is turned over so that left and right swap.
+
+**8.** x-axis
+
+#### Core practice
+
+**1.** (a) 3 (b) 1 (c) 5
+
+**2.** Points plotted in the four regions; C lies on the y-axis.
+
+**3.** (a) (−3, 2) (b) (3, −2)
+
+**4.** (1, 5)
+
+**5.** (4, 2)
+
+**6.** (−6, 2)
+
+**7.** P ′(−1, 1), Q ′(−4, 1), R ′(−1, 3).
+
+**8.** P″(3, 5), Q″(6, 5), R″(3, 7).
+
+**9.** y
+
+**10.** Its size and its shape do not change; nor does its orientation — it is not turned or flipped.
+
+#### Challenge
+
+**1.** (4, 3) → (−4, 3) → (−4, −3). The same result is obtained by a half turn about the origin.
+
+**2.** Each point moves to the far side of x = 5, keeping its distance: (9, 1), (6, 1) and (9, 3).
+
+**3.** A reflection turns the shape over, so it faces the other way, while a translation does not. A reflection needs a mirror line, while a translation needs a distance and a direction.
+
+**4.** Any correct completion is accepted; a vertical mirror line through the origin is x = 0 and a horizontal one is y = 0.
+
+**5.** Right 5 − left 3 = 2 right; up 2 − down 6 = 4 down. The single translation is 2 right and 4 down.
+
+#### Applied task
+
+<!-- page 30 -->
+
+**1.** (a) ABC(1,1)(3,1)(1,4); reflected in y-axis (−1,1)(−3,1)(−1,4); both reflected in x-axis (1,−1)(3,−1)(1,−4) and (−1,−1) (−3,−1)(−1,−4). (b) Two — the x-axis and the y-axis. (c) Turning it upside down is a half turn about the origin, which is the same as reflecting in both axes, and the design already has that symmetry.
+
+**2.** (a) Any pattern symmetric about both axes. (b) x = 0 and y = 0. (c) A rectangle itself has only two lines of symmetry, so a pattern filling it cannot have three.
+
+**3.** (a) (8, 5), then (5, 3). (b) 3 right and 2 up. (c) She ran 6 + 4 + 3 + 2 = 15 m, but finished only 3 right and 2 up from the start; distance counts the whole path, the translation counts only the change in position.
+
+**1.** 4 and 3 **[2]**
+
+**2.** (a) (−3, 2) (b) (3, −2) **[2]**
+
+**3.** (1, 5) and (4, 2) **[4]**
+
+**4.** P ′(−1, 1), Q ′(−4, 1), R ′(−1, 3) **[4]**
+
+**5.** (−4, −3); a half turn about the origin. **[4]**
+
+**6.** Size and shape (and its orientation) do not change under a translation. Under a reflection the shape is turned over, so its orientation changes. **[4]**
+
+#### Marking notes and common errors
+
+- **Signs.** Reflection in the y-axis changes the sign of x; reflection in the x-axis changes the sign of y. Learners reverse these constantly. The picture, not the rule, fixes it.
+
+- **Core 2 and 7.** Plotting must be done with a ruler-drawn axis and clearly labelled points. An unlabelled image loses marks even when correctly placed.
+
+- **Challenge 2.** Reflection in x = 5 is harder than in an axis. Have learners count the distance to the mirror line and count the same distance beyond it.
+
+- **Challenge 3.** The key difference is orientation — a reflected shape is turned over. Ask learners to reflect a letter F and look at it.
+
+<!-- page 31 -->
+
+### Review 3 — Geometry and Measurement
+
+*Chapters 10 to 13. Time: 45 minutes. Total: 30 marks.*
+
+**1.** 49° and 102° **[2]**
+
+**2.** 62°, 118° and 62° **[3]**
+
+**3.** The bisector gives two angles of 45°. Construction arcs must be left showing. **[4]**
+
+**4.** 4,700 m and 3.2 m **[2]**
+
+**5.** 66 cm **[3]**
+
+**6.** 616 cm² **[3]**
+
+**7.** 198 cm² and 99 cm² **[3]**
+
+**8.** (a) 335° (b) 115° **[3]**
+
+**9.** (a) (4, 2) (b) (−4, −2) **[3]**
+
+**10.** A ′(4, 3), B ′(7, 3), C ′(4, 5) **[4]**
+
+<!-- page 32 -->
+
+*Strand 4: Handling Data*
+
+### Chapter 14: Collecting, Displaying and Summarising Data
+
+#### Recall
+
+**1.** 26
+
+**2.** 6
+
+**3.** 3, 4, 5, 6, 8
+
+**4.** 90
+
+**5.** 90
+
+**6.** The range.
+
+**7.** 3
+
+**8.** 360°
+
+#### Key words
+
+**1.** data
+
+**2.** quantitative
+
+**3.** qualitative
+
+**4.** frequency
+
+**5.** mean
+
+**6.** median
+
+**7.** The mode is the value that occurs most often. The median is the middle value once the data has been arranged in order; it need not occur more than once.
+
+**8.** leading
+
+#### Core practice
+
+**1.** (a) quantitative (b) qualitative (c) quantitative (d) qualitative
+
+**2.** (a) a questionnaire or class register (b) observation and counting (c) records from the meteorological office
+
+**3.** For example: 'How would you rate the food in the canteen?' with a scale from very good to very poor.
+
+**4.** Frequencies 1, 5, 3, 4, 2, 1; total 16.
+
+**5.** 84 ÷ 16 = 5.25
+
+**6.** (a) 5 (b) 4 (c) 5
+
+**7.** Total 300. Maize 144°, cassava 108°, yam 72°, rice 36°.
+
+**8.** Maize 40%, cassava 30%, yam 20%, rice 10%.
+
+**9.** Four bars of heights 12, 9, 6 and 3 squares, evenly spaced, with axes labelled and a title.
+
+**10.** A title and labelled axes with units (a key is also needed for a pictograph or pie chart).
+
+#### Challenge
+
+**1.** The total must be 5 × 12 = 60. The four given add to 48, so the fifth is 12.
+
+**2.** The mode must be one of the values that actually occurs in the data, and 5.2 does not appear. The mode is 4, which occurs twice.
+
+**3.** (a) 4 symbols. (b) 2½ symbols — two whole symbols and a half.
+
+**4.** Old total 30 × 54 = 1,620. New total 1,704 over 31 learners: 1,704 ÷ 31 = 54.97, that is 55.0 to one decimal place.
+
+**5.** One very large value pulls the mean up to GH₵972, which is higher than four of the five wages. The median, GH₵220, describes the typical wage far better.
+
+<!-- page 33 -->
+
+#### Applied task
+
+**1.** Marked on method: a non-leading question, a complete tally with a total equal to the class size, a labelled graph with a title, and a conclusion that follows from the data rather than from opinion.
+
+**2.** (a) 144°, 108°, 72°, 36°. (b) 120 × 180 + 90 × 120 = 21,600 + 10,800 = GH₵32,400. (c) Maize is 40% of the harvest — a large share but not nearly half; 'two fifths' is exact.
+
+**3.** (a) Mean 5.25, median 5, mode 4, range 5. (b) No — 4 is the most common single mark, but only 5 of 16 learners scored it, so 'most' is wrong. (c) The median or the mean; both are close to 5, while the mode sits at the bottom of the range and understates the class.
+
+**1.** (a) qualitative (b) quantitative **[2]**
+
+**2.** 1, 5, 3, 4, 2, 1; total 16. **[3]**
+
+**3.** (a) 5.25 (b) 5 (c) 4 (d) 5 **[4]**
+
+**4.** 144°, 108°, 72° and 36°, totalling 360°. **[4]**
+
+**5.** Total 60; the fifth number is 12. **[3]**
+
+**6.** The one large wage raises the mean to GH₵972, above four of the five wages; the median of GH₵220 is more typical. **[4]**
+
+#### Marking notes and common errors
+
+- **Frequency totals.** Insist that the frequencies are added and checked against the number of items. This one habit catches most tallying errors.
+
+- **Core 7 and Exam 4.** The four angles must total 360°. A learner whose angles do not should be sent back before drawing anything.
+
+- **Challenge 2.** The mode must be a value that actually occurs. This is worth stating aloud; learners often average their way to an impossible mode.
+
+- **Challenge 5 and Exam 6.** The effect of an outlier on the mean is the most useful statistical idea in the chapter, and it is examined every year in one form or another.
+
+- **Graphs.** No title, no labels, no marks. Say so before the first graph is drawn rather than after.
+
+<!-- page 34 -->
+
+*Strand 4: Handling Data*
+
+### Chapter 15: Probability of Single Events
+
+#### Recall
+
+**1.** 1/2
+
+**2.** 0.25 and 25%
+
+**3.** 5/6
+
+**4.** 6
+
+**5.** 2
+
+**6.** 2, 4, 6
+
+**7.** Three: 2, 3 and 5.
+
+**8.** 2/3
+
+#### Key words
+
+**1.** outcome
+
+**2.** sample
+
+**3.** favourable
+
+**4.** event
+
+**5.** 0
+
+**6.** 1
+
+**7.** A probability is the fraction of the outcomes that are favourable. At most all of them are favourable, which gives 1; there is no way for more than everything to happen.
+
+**8.** does
+
+#### Core practice
+
+**1.** (a) certain (b) impossible (c) likely (d) an even chance — neither likely nor unlikely
+
+**2.** 1, 2, 3, 4, 5, 6
+
+**3.** Head, Tail
+
+**4.** (a) 3/6 = ½ (b) 3/6 = ½ (c) 2/6 = ⅓
+
+**5.** 0
+
+**6.** 1
+
+**7.** Total 12. (a) 5/12 (b) 3/12 = ¼ (c) 4/12 = ⅓
+
+**8.** 1 − ⅓ = ⅔, or 8/12 = ⅔
+
+**9.** 0.75 and 75%
+
+**10.** 5/12 + 3/12 + 4/12 = 12/12 = 1
+
+#### Challenge
+
+**1.** (a) 1 − 3/7 = 4/7. (b) 3/7 × 21 = 9 red beads.
+
+**2.** Each throw is separate, and the probability stays 1/6 every time. Six throws make a six likely but not certain — it is quite possible to throw six times without one.
+
+**3.** (a) 4/8 = ½ (b) 3, 6 give 2/8 = ¼ (c) only 3, so 1/8
+
+**4.** ⅖ × 40 = 16 walk; P(does not walk) = 1 − ⅖ = ⅗.
+
+**5.** It means that on days with these conditions, rain has fallen on about 70 out of every 100. It is likely but not certain, and a dry day is not proof that the forecast was wrong.
+
+<!-- page 35 -->
+
+#### Applied task
+
+**1.** (a) 3/12 = ¼. (b) ¾. (c) Now 7 blue out of 16, that is 7/16. (d) It rose from 4/16 to 7/16, because the number of favourable outcomes grew faster than the total.
+
+**2.** (a) 1/250. (b) 5/250 = 1/50. (c) 25/250 = 1/10, so she is far more likely to lose than to win. (d) She would pay GH₵50 for a one in ten chance of GH₵300; on average that returns GH₵30, so it is not a good bet financially, though it may be a fair contribution to the school.
+
+**3.** (a) 40/50 = ⅘. (b) 80%. (c) About 2 years in 10. (d) The climate is changing, so past records are a weaker guide to the future than they were.
+
+**1.** 1, 2, 3, 4, 5, 6 **[2]**
+
+**2.** (a) ½ (b) ⅓ **[3]**
+
+**3.** (a) 5/12 (b) ⅔ **[4]**
+
+**4.** 0.75 and 75% **[2]**
+
+**5.** (a) 4/7 (b) 9 **[4]**
+
+**6.** (a) 1/250 (b) 1/50 (c) 25/250 = 1/10; she is nine times more likely to lose than to win. **[5]**
+
+#### Marking notes and common errors
+
+- **Probability is always between 0 and 1.** Any answer greater than 1, or a 'probability' written as 5 out of 3, signals that the learner has confused favourable with total.
+
+- **Core 8 and Challenge 1.** The complement rule saves time and is examined. Learners should reach for 1 − P before counting the remaining outcomes.
+
+- **Challenge 2.** The gambler's misconception, and worth ten minutes. Each throw has no memory of the throws before it.
+
+- **Applied 2(d).** The expected value argument is beyond the syllabus, but a learner who reasons that GH₵50 for a one in ten chance of GH₵300 is poor value should be given full credit.
+
+- **Applied 3(d).** Links to the climate change theme in Basic 9 English and Science. Past frequency estimates future probability only while conditions hold.
+
+<!-- page 36 -->
+
+### Review 4 — Handling Data
+
+*Chapters 14 and 15. Time: 35 minutes. Total: 30 marks.*
+
+**1.** (a) quantitative (b) qualitative **[2]**
+
+**2.** 102 ÷ 8 = 12.75 **[3]**
+
+**3.** (a) 12 (b) 12 (c) 6 **[4]**
+
+**4.** 162°, 108°, 54° and 36°, totalling 360°. **[4]**
+
+**5.** Bars of 9, 6, 3 and 2 squares, with a title and labelled axes. **[4]**
+
+**6.** A title and labelled axes (with a key where one is needed). **[2]**
+
+**7.** (a) 3/6 = ½ (b) 2/6 = ⅓ **[3]**
+
+**8.** (a) 6/12 = ½ (b) ½ **[3]**
+
+**9.** There are 11 letters and 4 vowels, so 4/11. **[3]**
+
+**10.** A probability is the fraction of outcomes that are favourable; at most all of them are, which gives 1. **[2]**
+
+<!-- page 37 -->
+
+## End-of-Year Mock Examination
+
+### Paper 1 — Objective test. Time: 45 minutes. Total: 20 marks.
+
+**1.** C **[1]**
+
+**2.** A **[1]**
+
+**3.** B **[1]**
+
+**4.** C **[1]**
+
+**5.** A **[1]**
+
+**6.** B **[1]**
+
+**7.** B **[1]**
+
+**8.** B **[1]**
+
+**9.** B **[1]**
+
+**10.** C **[1]**
+
+**11.** B **[1]**
+
+**12.** A **[1]**
+
+**13.** C **[1]**
+
+**14.** B **[1]**
+
+**15.** B **[1]**
+
+**16.** B **[1]**
+
+**17.** D **[1]**
+
+**18.** A **[1]**
+
+**19.** B **[1]**
+
+**20.** C **[1]**
+
+### Paper 2 — Written paper. Time: 1 hour 15 minutes. Total: 60 marks.
+
+**1.** (a) Three million, two hundred and four thousand and fifty-seven. (b) 2,850,000. (c) 78.46. (d) 0.00235. **[10]**
+
+**2.** (a) 2⁴ × 3³. (b) 48. (c) Each piece is 48 cm; 96 ÷ 48 = 2 and 144 ÷ 48 = 3, so 5 pieces. **[10]**
+
+**3.** (a) 23/20 = 1 3/20. (b) 4/3 = 1⅓. (c) 350 − 140 = 210. (d) GH₵600, GH₵900 and GH₵2,100. **[10]**
+
+**4.** (a) 4x − 7. (b) x = 8. (c) 3n + 3 = 96, n = 31; the numbers are 31, 32, 33. (d) 6. **[10]**
+
+**5.** (a) 66 cm. (b) 616 cm². (c) Perimeter 58 m; area 198 m². (d) 58 × 55 = GH₵3,190. **[10]**
+
+**6.** (a) Mean 12.75, median 12, mode 12, range 6. (b) 2/6 = ⅓. (c) ½. (d) A probability is the fraction of outcomes that are favourable, and at most all of them are. **[10]**

@@ -5,6 +5,7 @@ An installable, offline-capable learning and teaching app for Ghanaian JHS teach
 ## Features
 
 - **Course Library:** A curriculum-driven browser — subject → class → strand → content standard → indicator — where each indicator with uploaded content opens lesson notes, practice questions, and a generated quiz. The original interactive "Number & Algebra" course (worked examples, classify activities, mastery quizzes) remains available from the library.
+- **Textbooks:** The bundled NaCCA Learner's Books, Workbooks and Answer Books (English and Mathematics, Basic 7–9) are browsable chapter-by-chapter with their figures, curriculum-alignment codes, and cross-links to the indicator pages that they teach.
 - **NaCCA curriculum browser:** Strands, sub-strands, content standards, and indicators for all 10 subjects across Basic 7–9, including Mathematics B8/B9.
 - **BECE question bank:** All 66 bundled BECE-style science mock papers (~2,600 multiple-choice questions with answer keys) parsed into a structured bank with an interactive practice runner on the Practice page.
 - **Sample lesson plans:** Bundled Week-5 lesson notes (Maths and Science, Basic 7 and 8) that can be loaded into a planner lesson note in one tap.
@@ -46,8 +47,10 @@ Optional practice pointers.
 
 Any other `.md` file (for example the BECE mock packs) is indexed as metadata only.
 
+**Textbooks** — `src/data/courses-data/textbooks-and-references/md/*.md` are split into chapters and compiled into lazy-loaded book modules, cross-linked to indicators by the curriculum codes each chapter teaches.
+
 ```bash
-npm run parse:course-data     # refresh courseUploads.js and the courseLibrary modules
+npm run parse:course-data     # refresh courseUploads.js, courseLibrary/ and the book index
 npm run check:course-data     # validate against the embedded curriculum (also writes)
 ```
 

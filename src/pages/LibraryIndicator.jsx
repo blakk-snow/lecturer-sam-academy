@@ -93,6 +93,7 @@ export default function LibraryIndicator() {
   const [entry, setEntry] = useState(undefined); // undefined = loading, null = not found
   const [tab, setTab] = useState('notes');
   const [quizKey, setQuizKey] = useState(0);
+  const [bookRefs, setBookRefs] = useState([]);
 
   const normalized = normalizeCode((indicatorCode ?? '').replaceAll('_', '/'));
 
@@ -100,9 +101,16 @@ export default function LibraryIndicator() {
     setEntry(undefined);
     setTab('notes');
     setQuizKey(k => k + 1);
+    setBookRefs([]);
     loadEntries(subjectId, classId)
       .then(list => setEntry(list.find(e => normalizeCode(e.code) === normalized) ?? null))
       .catch(() => setEntry(null));
+    import('../data/courseLibrary/bookIndex').then(({ chapterRefs }) => {
+      const refs = (chapterRefs[normalized] ?? [])
+        .filter(r => r.subjectId === subjectId && r.classId === classId)
+        .map(r => ({ ...r, safeCode: r.code?.replaceAll('/', '_') }));
+      setBookRefs(refs);
+    });
   }, [subjectId, classId, normalized]);
 
   const questions = useMemo(() => entry?.questions ?? [], [entry]);
@@ -139,6 +147,22 @@ export default function LibraryIndicator() {
       <div>
         <p className="font-mono text-xs font-bold text-accent">{entry.code}</p>
         <h1 className="mt-1 font-serif text-2xl">{entry.notes?.title ?? entry.code}</h1>
+        {bookRefs.length > 0 && (
+          <p className="mt-2 text-sm text-ink-soft">
+            Taught in{' '}
+            {bookRefs.map((ref, i) => (
+              <span key={ref.bookId}>
+                {i > 0 && ', '}
+                <Link
+                  to={`/library/${subjectId}/${classId}/book/${ref.bookId}`}
+                  className="text-accent hover:underline"
+                >
+                  {ref.bookKindLabel}, Chapter {ref.chapterNumber}
+                </Link>
+              </span>
+            ))}.
+          </p>
+        )}
       </div>
 
       {/* Tabs */}

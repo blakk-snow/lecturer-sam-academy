@@ -1,0 +1,7510 @@
+<!-- Source PDF: MATHS - B7 - PRINT READY.pdf — 150 pages -->
+<!-- Converted to Markdown — figures in images/ — invisible page markers throughout -->
+
+<!-- page 1 -->
+
+# MATHEMATICS
+for Junior High School
+
+**BASIC 7 · JHS 1**
+
+*Learner’s Book*
+
+Written to the NaCCA Common Core Programme
+
+Mathematics Curriculum for JHS1 (B7) – JHS3 (B9) · September 2020
+
+Ghana
+
+<!-- page 2 -->
+
+### Mathematics for Junior High School — Basic 7 (JHS 1)
+
+*Learner’s Book*
+
+This book is written to the Mathematics Curriculum of the Common Core Programme published by the National Council for Curriculum and Assessment (NaCCA), Ministry of Education, Ghana, September 2020.
+
+Every chapter states its strand, sub-strand, content standard, indicators and core competences exactly as they appear in that curriculum, before any content is taught.
+
+All 21 content standards and all 70 indicators prescribed for Basic 7 are covered.
+
+**Edition** First edition, 2026
+
+**Acknowledgements** Curriculum extracts are reproduced from the NaCCA Common Core Programme Mathematics Curriculum for JHS1 (B7) – JHS3 (B9), September 2020, for the purpose of alignment, and are the property of NaCCA.
+
+**A note on figures** Every diagram in this book has been drawn to a single house style, at print resolution. Number lines, grids, factor trees, compass constructions, coordinate plots and statistical displays are drawn exactly as a learner would be expected to draw them.
+
+<!-- page 3 -->
+
+## Preface
+
+Mathematics in Basic 7 is where arithmetic becomes mathematics. Up to now you have mostly been asked to work things out. From here you are also asked to explain, to justify, to generalise and to prove — to say not only what the answer is but why it must be so.
+
+This book has been written so that the connection to the national curriculum is visible on every page rather than hidden in a scheme of work. Each chapter opens with the strand, sub-strand, content standard, indicators and core competences it teaches, quoted word for word from the NaCCA curriculum. Nothing is paraphrased, and nothing is claimed that the curriculum does not say.
+
+Every chapter is built on the same spine: an explanation, then worked examples set out line by line, then a Practice exercise on exactly that skill. Nothing in the practice asks for anything the worked examples have not shown you. Where the curriculum gives an exemplar — model a billion with graph paper, cut a strip of paper to find the highest common factor, measure a bearing across the school compound, test a probability by tossing a coin a hundred times — that exemplar has been turned into an activity you can actually carry out.
+
+The assessment at the end of every chapter is weighted as the curriculum requires: three tenths of the items test knowledge and understanding, four tenths application of knowledge, and three tenths attitudes, values and process skills. Every item carries a tag so that you can see which is which, and the questions are written in the language and layout of the BECE.
+
+<!-- page 4 -->
+
+## How to use this book
+
+Every chapter follows the same order, so that once you are used to it you can find anything quickly.
+
+**Curriculum alignment —** the strand, sub-strand, content standard and indicators, in the curriculum’s own words.
+
+**Core competences —** the competences the curriculum attaches to those indicators.
+
+**Learning objectives —** what you will be able to do by the end.
+
+**Key words —** every term used, each with a short definition.
+
+**Engage —** a short opening that gives you a reason to care.
+
+**The main sections —** the explanation, with tables and figures.
+
+**Worked examples —** a complete solution set out line by line, with the answer in bold.
+
+**Practice —** questions on exactly the skill just shown.
+
+**Activities —** practical work, with what you need, what to do and what to record.
+
+**Apply it —** a longer problem that uses the whole chapter.
+
+**Chapter summary —** the whole chapter in ten or so lines.
+
+**Assessment —** Sections A, B and C.
+
+#### The assessment sections
+
+Each item carries a tag showing which profile dimension it tests: [K] Knowledge and Understanding, [A] Application of Knowledge, [P] Attitudes, Values and Process Skills. Section A is objective, Section B is theory and application, and Section C is practical work you carry out and record.
+
+#### Showing your working
+
+In mathematics the working is the answer. Marks are given for the method even when the arithmetic goes wrong, and a correct figure with no working earns very little. Set your work out as the worked examples do — one step to a line, with the reason beside it where the step is not obvious.
+
+<!-- page 5 -->
+
+## Contents
+
+- **Scope and Sequence** — 6
+
+- **Strand 1: Number** — 7
+
+- Chapter 1: Place Value, Rounding and Ordering Large Numbers — 7
+
+- Chapter 2: Mental Strategies and the Four Operations — 18
+
+- Chapter 3: Powers of Natural Numbers — 29
+
+- Chapter 4: Fractions, Decimals and Percentages — 38
+
+- Chapter 5: Multiplying and Dividing Fractions — 47
+
+- Chapter 6: Ratio, Rate and Proportion — 54
+
+- **Strand 2: Algebra** — 62
+
+- Chapter 7: Patterns and Relations — 62
+
+- Chapter 8: Algebraic Expressions — 70
+
+- Chapter 9: Linear Equations — 79
+
+- **Strand 3: Geometry and Measurement** — 87
+
+- Chapter 10: Angles and Geometric Construction — 88
+
+- Chapter 11: Perimeter and Area — 97
+
+- Chapter 12: Bearings and Vectors — 106
+
+- Chapter 13: Reflection and Translation — 114
+
+- **Strand 4: Handling Data............................................................................................................123**
+
+- Chapter 14: Collecting, Displaying and Summarising Data — 123
+
+- Chapter 15: Probability of Single Events — 133
+
+- **Glossary....................................................................................................................................140**
+
+- **Index of Content Standards......................................................................................................145**
+
+<!-- page 6 -->
+
+## Scope and Sequence
+
+Basic 7 covers all four NaCCA strands across twelve sub-strands. The table below maps every chapter to the strand, sub-strand and content standards it teaches.
+
+| **Ch** | **Chapter title** | **Strand** | **Sub-strand** | **Content standardsInd.** |  |
+| --- | --- | --- | --- | --- | --- |
+| 1 | Place Value, Rounding and Ordering Large Numbers | Number | Number and Numeration System1.1.2 | 1.1.1 | 4 |
+| 2 | Mental Strategies and the Four Operations | Number | Number Operations1.2.1 | 1.2.2 | 6 |
+| 3 | Powers of Natural Numbers | Number | Number Operations1.2.3 |  | 5 |
+| 4 | Fractions, Decimals Number and Percentages |  | Fractions, Decimals 1.3.1 and Percentages | 1.3.2 | 4 |
+| 5 | Multiplying and Dividing Fractions | Number | Fractions, Decimals 1.3.3 and Percentages |  | 4 |
+| 6 | Ratio, Rate and Proportion | Number | Number: Ratios and 1.4.1 Proportion |  | 5 |
+| 7 | Patterns and Relations | Algebra | Patterns and Relations | 2.1.1 | 4 |
+| 8 | Algebraic Expressions | Algebra | Algebraic Expressions | 2.2.1 | 5 |
+| 9 | Linear Equations | Algebra | Variables and Equations | 2.3.1 | 4 |
+| 10 | Angles and Geometric Construction | Geometry and Measurement | Shapes and Space | 3.1.1 3.1.2 | 7 |
+| 11 | Perimeter and AreaGeometry and | Measurement | Measurement | 3.2.1 3.2.2 | 5 |
+| 12 | Bearings and Vectors | Geometry and Measurement | Measurement | 3.2.3 | 5 |
+| 13 | Reflection and Translation | Geometry and Measurement | Position and Transformation | 3.3.1 | 4 |
+| 14 | Collecting, Displaying and Summarising Data | Handling Data | Data | 4.1.1 4.1.2 | 5 |
+| 15 | Probability of Single Handling Data Events |  | Chance or Probability | 4.2.1 | 3 |
+
+*Codes are given in the short form. The full form used by the curriculum prefixes each with B7 — so 1.1.1 above is B7.1.1.1.*
+
+<!-- page 7 -->
+
+## Strand 1: Number
+
+*Strand 1: Number · Sub-Strand 1: Number and Numeration Systems*
+
+### Chapter 1: Place Value, Rounding and Ordering Large Numbers
+
+> **Curriculum alignment**
+>
+> Strand 1: Number
+>
+> Sub-Strand 1: Number and Numeration Systems
+>
+> Content standard B7.1.1.1
+>
+> Demonstrate understanding and the use of place value for expressing quantities recorded as base ten numerals as well as rounding these to given decimal places and significant figures
+>
+> B7.1.1.1.1 Model number quantities more than 1,000,000,000 using graph sheets, isometric papers and multi-base blocks
+>
+> B7.1.1.1.3 Round (off, up, down) whole numbers more than 1,000,000,000 to the nearest hundred-thousand, ten- thousands, thousands, hundreds and tens
+>
+> B7.1.1.1.4 Round decimals to the nearest tenth, hundredth, thousandths, etc
+>
+> B7.1.1.1.5 Express decimal numerals to given significant and decimal places
+>
+> Content standard B7.1.1.2
+>
+> Compare and order whole numbers more than1,000,000,000 and represent the comparison using ">, <, or="
+>
+> The curriculum states no separate indicator for this standard; its exemplars are attached directly to it.
+
+> **Core competences**
+>
+> Communication and Collaboration
+>
+> Critical Thinking and Problem Solving
+>
+> Creativity and Innovation
+>
+> Personal Development and Leadership
+
+#### Learning objectives
+
+By the end of this chapter you can:
+
+- state the place value and the value of any digit in a numeral up to and beyond one billion
+
+- model numbers up to and beyond one billion using graph sheets
+
+- write large numbers in words, in figures and in expanded form
+
+- round whole numbers up, down and off to the nearest ten, hundred, thousand, ten thousand and hundred thousand
+
+- explain the difference between rounding up, rounding down and rounding off
+
+- round decimals to the nearest tenth, hundredth and thousandth
+
+- state how many significant figures a number has, and explain when a zero is significant
+
+- express whole numbers and decimals to a given number of significant figures and decimal places
+
+- skip count forwards and backwards in 25s, 50s and 250s
+
+- compare and order whole numbers greater than one billion using >, < and =
+
+> **Key words**
+>
+> Digit — any one of the ten symbols 0, 1, 2, 3, 4, 5, 6, 7, 8, 9.
+>
+> Numeral — a symbol or group of symbols used to write a number.
+>
+> Base ten — our counting system, in which each place is ten times the place to its right.
+
+<!-- page 8 -->
+
+> Place value — the value a place gives to the digit standing in it.
+>
+> Value of a digit — the digit multiplied by its place value.
+>
+> Expanded form — a number written as the sum of the values of its digits.
+>
+> Billion — one thousand million, written 1,000,000,000.
+>
+> Rounding — replacing a number with a nearby number that is easier to work with.
+>
+> Round down — take the lower of the two nearby numbers.
+>
+> Round up — take the higher of the two nearby numbers.
+>
+> Round off — take whichever of the two is nearer, using the digit to the right to decide.
+>
+> Decimal place — a position to the right of the decimal point.
+>
+> Significant figures — the digits in a number that carry information about its size.
+>
+> Skip counting — counting forwards or backwards in equal steps.
+>
+> Ascending order — arranged from smallest to largest.
+>
+> Descending order — arranged from largest to smallest.
+
+> **Engage**
+>
+> We meet large numbers in census reports, national budgets and the information stored on phones.
+>
+> Ghana’s 2021 Population and Housing Census counted more than 30 million people, and a phone may store billions of bytes. To understand these figures, we need to know what each digit is worth and how to compare and round the numbers. In this chapter, we will practise these skills using examples from everyday life in Ghana.
+
+#### 1.1 Place value in base ten
+
+Our number system is called base ten because each place is worth ten times the place immediately to its right. In base ten, ten ones make one ten, ten tens make one hundred, and ten hundreds make one thousand. The same pattern continues for larger place values.
+
+The place value is what the position is worth. The value of the digit is the digit multiplied by that place value. These terms mean different things, so take care not to confuse them.
+
+*Table 1.1 — Place values in base ten.*
+
+| **Place** | **Place value** | **In figures** |
+| --- | --- | --- |
+| Ones | 1 | 1 |
+| Tens | 10 | 10 |
+| Hundreds | 100 | 100 |
+| Thousands | 1 thousand | 1,000 |
+| Ten thousands | 10 thousand | 10,000 |
+| Hundred thousands | 100 thousand | 100,000 |
+| Millions | 1 million | 1,000,000 |
+| Ten millions | 10 million | 10,000,000 |
+| Hundred millions | 100 million | 100,000,000 |
+| Billions | 1 billion | 1,000,000,000 |
+
+Notice how the names repeat in groups of three — ones, tens, hundreds; then thousands, ten thousands, hundred thousands; then millions, ten millions, hundred millions. That is exactly why we group the digits in threes with commas when we write a large number. Commas separate the groups, so you can read a large number without counting every digit.
+
+<!-- page 9 -->
+
+![Figure 1.1 A place value chart for a ten-digit number.](images/maths-b7-print-ready-p009-fig01.png)
+
+> **Worked example 1 — reading a large number**
+>
+> Write 2,480,531,907 in words, and state the place value and the value of the digit 8.
+>
+> Read it in groups of three from the left: 2 | 480 | 531 | 907.
+>
+> In words: two billion, four hundred and eighty million, five hundred and thirty-one thousand, nine hundred and seven.
+>
+> The digit 8 stands in the ten millions place.
+>
+> Its place value is 10,000,000 and its value is 8 × 10,000,000 = 80,000,000.
+
+> **Worked example 2 — expanded form**
+>
+> Write 5,207,043 in expanded form.
+>
+> Take each digit with its place value and add:
+>
+> 5,207,043 = 5,000,000 + 200,000 + 0 + 7,000 + 0 + 40 + 3
+>
+> = 5,000,000 + 200,000 + 7,000 + 40 + 3
+>
+> The two zeros hold the ten thousands and hundreds places empty. They contribute nothing to the sum, but remove them from the numeral and every digit to their left slides down — the number becomes 52,743.
+
+> **Common misconception 1.1**
+>
+> Learners often say the 8 in 2,480,531,907 "is worth 8" or "is worth ten million". Neither is right. Its **place value** is ten million; its **value** is eighty million. Ask yourself: what is this place worth, and how many of them do I have?
+
+> **Practice 1.1**
+>
+> 1. Write in words: (a) 47,300,000 (b) 908,004,215 (c) 3,000,050,000
+>
+> 2. Write in figures: (a) sixty-two million, four hundred thousand (b) one billion, five hundred and nine million, twelve thousand, six
+>
+> 3. For 6,832,470,159 state the place value and the value of: (a) 8 (b) 4 (c) 6
+>
+> 4. Write in expanded form: (a) 74,506 (b) 2,090,300
+>
+> 5. What is the value of the digit 9 in 9,000,000,000?
+
+<!-- page 10 -->
+
+> **Activity 1.1 — Modelling numbers up to and beyond one billion**
+>
+> You need: graph sheets or squared paper, isometric paper, multi-base ten blocks if the school has them, scissors, glue, a large sheet of card.
+>
+> What to do:
+>
+> 1. Agree with your group that one small square on the graph sheet stands for 100,000. Then a strip of ten squares (a **rod**) stands for 1,000,000, a square of ten rods (a **flat**) stands for 10,000,000, and a stack of ten flats (a **block**) stands for 100,000,000.
+>
+> 2. Cut out and label one of each: a cube, a rod, a flat and a block.
+>
+> 3. Work out how many blocks make one billion. Then use your model to represent 1,240,000,000 with the fewest pieces. Show your reasoning in writing, not just the answer.
+>
+> 4. Now build a model of 340,000,000 using the fewest pieces you can, and record what you used.
+>
+> 5. Mount your pieces on card as a wall chart for the classroom.
+>
+> Record: your labelled pieces, the number of blocks in a billion with your reasoning, the pieces used for 1,240,000,000, and the pieces used for 340,000,000.
+>
+> Think about it: each piece is ten of the one before it. How many small cubes are there in one block — and how does that number connect to the place value chart in Table 1.1?
+
+> **Activity 1.2 — Making the same number in many ways**
+>
+> You need: paper-made currency notes in GH₵20, GH₵50, GH₵100 and GH₵200, or cards marked with those amounts; a notebook.
+>
+> What to do:
+>
+> Use GH₵10, GH₵50, GH₵100 and GH₵200 notes, or cards marked with those amounts, to make GH₵5,560 in three different ways. Use each denomination at least once in every sum. One sum is shown below:
+>
+> GH₵5,560 = 20 × GH₵200 + 10 × GH₵100 + 11 × GH₵50 + 1 × GH₵10
+>
+> 2. Now work out how many GH₵200 notes make GH₵185,000,000. Then how many make GH₵1,890,750,000.
+>
+> 3. Find a combination of GH₵50, GH₵100 and GH₵200 notes that makes exactly GH₵1,000,000, using every denomination at least once. Find a second, different combination.
+>
+> 4. Compare your combinations with another group's. How many different answers did the class find between you?
+>
+> Record the three ways you made GH₵5,560,
+>
+> Think about it: step 3 has an enormous number of correct answers, but step 2 has only one each. What is the difference between the two kinds of question?
+
+#### 1.2 Rounding whole numbers
+
+News reports often round exact figures. For example, a report might say that about 1.9 million people voted instead of giving the exact figure of 1,879,653. The rounded figure is shorter and easier to read. Rounding means replacing a number with a nearby value that is easier to use.
+
+When you round a number to the nearest thousand, place it between the two nearest multiples of 1,000. Then follow the instruction you were given: round up, round down or round off.
+
+*Table 1.2 — Rounding down, rounding up and rounding off.*
+
+| **Instruction** | **What it means** | **2,846,655 to the nearest thousand** |
+| --- | --- | --- |
+| Round down | Take the lower of the two, whatever the 2,846,000 digits say |  |
+| Round up | Take the higher of the two, whatever the digits say | 2,847,000 |
+| Round off | Take whichever is nearer; look at the digit to the right of the rounding place to | 2,847,000 |
+
+<!-- page 11 -->
+
+_[answer space — 2 lines]_
+
+decide
+
+**Rounding off** is the one used most often, and it has a rule. Look at the digit immediately to the right of the place you are rounding to.
+
+**if that digit is 0, 1, 2, 3 or 4 → round down if it is 5, 6, 7, 8 or 9 → round up**
+
+Then replace every digit to the right of the rounding place with zeros. Those zeros are not optional — they hold the places open so that the number keeps its size.
+
+*Table 1.3 — The same number rounded three ways to three places.*
+
+| **2,846,655 rounded to the** **nearest…** | **Round up** | **Round down** | **Round off** |
+| --- | --- | --- | --- |
+| thousand | 2,847,000 | 2,846,000 | 2,847,000 |
+| ten thousand | 2,850,000 | 2,840,000 | 2,850,000 |
+| hundred thousand | 2,900,000 | 2,800,000 | 2,800,000 |
+
+Notice the last row. To round down to the nearest hundred thousand, use 2,800,000. For rounding off, look at the hundred-thousands digit and the digit to its right. The digit to the right is 4, so round down to 2,800,000. Rounding up gives 2,900,000. These instructions can produce different answers, so check which one the question asks for.
+
+![Figure 1.2 Rounding on a number line.](images/maths-b7-print-ready-p011-fig02.png)
+
+> **Worked example 3 — rounding off a large number**
+>
+> Round 1,879,653,214 to the nearest 100,000; 10,000; 1,000; 100; and 10. The answers are 1,879,700,000; 1,879,650,000; 1,879,653,000; 1,879,653,200; and 1,879,653,210, respectively. The deciding digits are 5, 3, 2, 1 and 4. Since 5 rounds up and 3, 2, 1 and 4 round down, only the first answer goes up.
+
+> **Exam tip 1.1**
+
+<!-- page 12 -->
+
+> Underline the digit in the place you are rounding to, then circle the digit immediately to its right. Every decision you make comes from that circled digit alone — nothing further right matters. Rounding 4,449 to the nearest hundred gives 4,400, not 4,500, however tempting the chain of 4s looks.
+
+> **Practice 1.2**
+>
+> 1. Round off to the nearest thousand: (a) 46,782 (b) 3,509,450 (c) 1,000,499
+>
+> 2. Round off 7,364,829 to the nearest: (a) ten (b) hundred (c) ten thousand (d) million
+>
+> 3. Copy and complete for 5,271,384:
+>
+> nearest thousand — round up ____ , round down ____ , round off ____
+>
+> nearest hundred thousand — round up ____ , round down ____ , round off ____
+>
+> 4. A stadium holds 41,872 people. A reporter writes "about 42,000". Which instruction did the reporter use, and would rounding down have been fair?
+>
+> 5. A number rounds off to 6,000 to the nearest thousand. What is the smallest whole number it could be, and the largest?
+>
+> 6. Round 1,879,653,214 to the nearest (a) hundred thousand, (b) ten thousand, (c) thousand, (d) hundred and (e) ten.
+
+#### 1.3 Rounding decimals
+
+Decimals are rounded by exactly the same rule. The only new thing is the names of the places to the right of the decimal point.
+
+*Table 1.4 — Decimal places.*
+
+| **Place** | **Name** | **Example digit in 486.3685** |
+| --- | --- | --- |
+| 1st after the point | Tenths | 3 |
+| 2nd after the point | Hundredths | 6 |
+| 3rd after the point | Thousandths | 8 |
+| 4th after the point | Ten thousandths | 5 |
+
+To round a decimal to a given number of decimal places, count that many digits after the point and look at the next digit. Keep all the digits through the required place, including any final zeros needed to show the stated accuracy. For example, 78.460 is correct to three decimal places; 78.46 is not.
+
+*Table 1.5 — Rounding decimals off.*
+
+| **Number** | **To the nearest tenth** | **To the nearest hundredth** | **To the nearest thousandth** |
+| --- | --- | --- | --- |
+| 486.3685 | 486.4 | 486.37 | 486.369 |
+| 0.0605368 | 0.1 | 0.06 | 0.061 |
+
+*Table 1.6 — The three instructions applied to a decimal.*
+
+| **78.4604783 to the nearest…** | **Round up** | **Round off** | **Round down** |
+| --- | --- | --- | --- |
+| tenth | 78.5 | 78.5 | 78.4 |
+| hundredth | 78.47 | 78.46 | 78.46 |
+| thousandth | 78.461 | 78.460 | 78.460 |
+
+> **Worked example 4 — rounding a decimal**
+>
+> Round 745.9674 correct to (a) three decimal places, (b) two decimal places, (c) one decimal place.
+>
+> (a) Three places gives 745.967; the next digit is 4, so round down: **745.967**.
+>
+> (b) Two places gives 745.96; the next digit is 7, so round up: **745.97**.
+>
+> (c) One place gives 745.9; the next digit is 6, so round up: **746.0**.
+>
+> Write the answer to (c) as 746.0, not 746. The zero shows that the answer has been given to one decimal place, which is
+
+<!-- page 13 -->
+
+> part of what you were asked.
+
+> **Common misconception 1.2**
+>
+> Learners often round in stages: 745.9674 → 745.967 → 745.97 → 746.0. Rounding twice can give the wrong answer. Take 4.4478 to one decimal place. Done properly it is 4.4. Done in stages — 4.448, then 4.45, then 4.5 — it is wrong. Always round the **original** number in one step.
+
+> **Practice 1.3**
+>
+> 1. Round off to two decimal places: (a) 3.4562 (b) 0.0849 (c) 12.9971
+>
+> 2. Round 0.0605368 to the nearest: (a) tenth (b) hundredth (c) thousandth
+>
+> 3. Copy and complete for 78.4604783 to the nearest hundredth: round up ____ , round off ____ , round down ____
+>
+> 4. Round 4.4478 to one decimal place. Then round it in stages — first to three places, then two, then one — and explain why the two answers differ.
+>
+> 5. A tailor measures 2.6749 m of cloth. Give the measurement to (a) one decimal place, (b) three decimal places.
+
+#### 1.4 Significant figures
+
+Rounding to decimal places counts positions after the point. **Significant figures** count the digits that actually carry information about the size of the number, starting from the first non-zero digit on the left.
+
+Use these rules to decide whether a zero is significant.
+
+- **Every non-zero digit is significant.** In 8,573, all four digits count.
+
+- **Zeros between non-zero digits are significant.** In 7.021 the zero sits between 7 and 2, so it counts — 7.021 has four significant figures.
+
+- **Leading zeros are never significant.** They only show where the point is. In 0.00234 the three zeros do not count; the number has three significant figures — 2, 3 and 4.
+
+- Zeros at the end of a decimal number are significant. In 0.360, the last zero is significant, so the number has three significant figures. Writing 0.360 tells the reader that the measurement is given to the nearest thousandth.
+
+- **Trailing zeros in a whole number are uncertain** unless you are told otherwise. In 4,500 you cannot tell whether the zeros were measured or are only holding places.
+
+> **Worked example 5 — expressing a whole number to significant figures**
+>
+> Express 857,386,321 to (a) five, (b) four, (c) three significant figures.
+>
+> Count significant figures from the left, then look at the next digit.
+>
+> (a) Five figures: 8 5 7 3 8 | next digit 6 → round up: **857,390,000** (b) Four figures: 8 5 7 3 | next digit 8 → round up: **857,400,000** (c) Three figures: 8 5 7 | next digit 3 → round down: **857,000,000**
+>
+> The zeros are essential. Writing 857 instead of 857,000,000 would change the number from 857 million to eight hundred and fifty-seven.
+
+> **Worked example 6 — significant figures in a decimal**
+>
+> Round 0.00234567 to (a) 3 s.f., (b) 4 s.f., (c) 6 s.f.
+>
+> The leading zeros do not count. The first significant figure is 2.
+>
+> (a) 3 s.f.: 2 3 4 | next digit 5 → round up: **0.00235** (b) To four significant figures, keep 2, 3, 4 and 5. The next digit is 6, so increase 5 to 6: 0.002346.
+
+<!-- page 14 -->
+
+> (c) 6 s.f.: 2 3 4 5 6 7 | there is no next digit, so nothing changes: **0.00234567** is already exact to six significant figures — write **0.00234567**.
+
+> **Worked example 7 — a measurement question**
+>
+> Musa measured his teacher's table and gave the length, correct to two decimal places, as 0.76 m. What are the possible actual readings he might have obtained?
+>
+> Any length that rounds off to 0.76 to two decimal places lies half a hundredth either side.
+>
+> The smallest is 0.755 m; anything below that rounds to 0.75.
+>
+> The largest is just under 0.765 m; 0.765 itself would round up to 0.77.
+>
+> So the actual length is at least 0.755 m and less than 0.765 m — written 0.755 ≤ length < 0.765.
+
+> **Exam tip 1.2**
+>
+> Decimal places count the digits after the decimal point. Significant figures start with the first non-zero digit. For example, 0.00234 rounded to two decimal places is 0.00, but rounded to two significant figures it is 0.0023. Check which form of accuracy the question asks for.
+
+> **Practice 1.4**
+>
+> 1. How many significant figures has each number? (a) 0.360 (b) 7.021 (c) 4,008 (d) 0.00590 (e) 12.30
+>
+> 2. Express 857,386,321 to (a) 2 s.f. (b) 6 s.f.
+>
+> 3. Round 84.40995 to (a) 3 s.f. (b) 4 s.f. (c) 6 s.f.
+>
+> 4. Explain, with an example of your own, why the zero in 0.360 is significant but the zeros in 0.0036 are not.
+>
+> 5. A length is given as 3.40 m correct to two decimal places. Between what two values does the true length lie?
+
+#### 1.5 Comparing and ordering large numbers
+
+To compare two numbers, you do not need to read them out in full. Line them up and work from the left.
+
+- **First compare how many digits each has.** More digits means a bigger number, provided there are no leading zeros. 1,300,850,700 has ten digits; 985,000,000 has nine; so the first is larger, and no further work is needed.
+
+- **If they have the same number of digits, compare from the left,** digit by digit, until you find a place where they differ. The number with the larger digit in that place is the larger number. Everything to the right of it is irrelevant.
+
+Three symbols record the result.
+
+**a > b means a is greater than b a < b means a is less than b a = b means a is equal to b**
+
+The symbol always opens towards the larger number, and points at the smaller one.
+
+> **Worked example 8 — comparing two large numbers**
+>
+> Put >, < or = between each pair.
+>
+> (a) 1,300,850,700 …… 1,300,850,700
+>
+> Every digit matches, so the numbers are equal: 1,300,850,700 **=** 1,300,850,700.
+>
+> (b) 5,223,487,637 …… 5,113,487,637
+>
+> Both have ten digits. Compare from the left: 5 = 5, then 2 against 1. Since 2 > 1, the first is larger:
+>
+> 5,223,487,637 **>** 5,113,487,637.
+>
+> The digits after that point are identical, but they no longer matter — the decision was made at the hundred millions
+
+<!-- page 15 -->
+
+> place.
+
+> **Worked example 9 — more than and less than**
+>
+> Find (a) the number that is 500,000 less than 1,295,800,000 and (b) the number that is 500,000 less than 1,295,300,000.
+>
+> 1,295,800,000 − 500,000 = 1,295,300,000. So 1,295,300,000 is 500,000 less than 1,295,800,000.
+>
+> 1,295,300,000 − 500,000 = 1,294,800,000. The hundred-thousands digit does not simply decrease by 5;
+>
+> the subtraction also changes the millions group.
+
+> **Activity 1.3 — Skip counting and ordering**
+>
+> You need: a notebook; index cards; a long strip of paper for a class number line.
+>
+> What to do:
+>
+> 1. Starting from 1,000, skip count **forwards** in 25s for twelve steps. Write the sequence.
+>
+> 2. From the number you reached, skip count **backwards** in 25s until you return to 1,000, checking that you land exactly on it.
+>
+> 3. Repeat both directions in 50s, then in 250s.
+>
+> 4. Now each member of the group writes four different nine- or ten-digit numbers on separate cards, without showing the others.
+>
+> 5. Shuffle all the cards together. As a group, arrange them in ascending order along the paper strip, saying aloud for each pair which is greater and why.
+>
+> 6. Write the whole ordered set out using < between each pair. Then write it again in descending order using >.
+>
+> Record: your four skip-counting sequences, and both ordered lists with the correct symbols.
+>
+> Think about it: in step 5, how far from the left did you usually have to look before you could decide? Did you ever need to read a whole number to the end?
+
+> **Apply it — Reading the national budget**
+>
+> A newspaper reports that a district received GH₵1,295,800,000 last year and GH₵1,295,300,000 the year before. (a) State the place value and the value of the digit 8 in last year's figure. (b) By how much did the amount change, and use > or < to compare the two years. (c) The editor wants the two figures in a headline, each rounded off to the nearest hundred million. Write the headline figures. (d) After rounding, can a reader still tell which year was larger? Explain what that tells you about choosing how far to round.
+
+#### Chapter summary
+
+- In base ten each place is worth ten times the place to its right; the place value is what the position is worth, and the value of a digit is the digit multiplied by its place value.
+
+- Digits are grouped in threes — ones, thousands, millions, billions — which is why commas are written every three digits.
+
+- Expanded form writes a number as the sum of the values of its digits; zeros hold places open and cannot be dropped from the numeral.
+
+- Rounding down takes the lower nearby number, rounding up takes the higher, and rounding off takes whichever is nearer.
+
+- When rounding off, look only at the digit immediately to the right of the rounding place: 0–4 rounds down, 5–9 rounds up.
+
+- When rounding a whole number, replace the dropped digits with zeros. For a decimal, keep all digits through the required place, including final zeros that show the stated accuracy.
+
+<!-- page 16 -->
+
+- Decimal places are counted from the decimal point; significant figures are counted from the first non-zero digit.
+
+- Zeros between non-zero digits are significant, trailing zeros after the point are significant, and leading zeros never are.
+
+- Never round in stages — always round the original number in a single step.
+
+- To compare numbers, compare the number of digits first, then work from the left until the digits differ; record the result with >, < or =.
+
+#### Assessment
+
+> **How this assessment is balanced**
+>
+> Weighted to the NaCCA Mathematics profile dimensions — Knowledge and Understanding 30%, Application of Knowledge 40%, Attitudes, Values and Process Skills 30%. This chapter carries 20 items: 6 tagged [K], 8 tagged [A] and 6 tagged [P].
+>
+> Indicators assessed: B7.1.1.1.1; B7.1.1.1.3; B7.1.1.1.4; B7.1.1.1.5
+
+##### Section A — Objective
+
+1.The place value of the digit 7 in 4,752,308 is… A. 7 B. 70,000 C. 700,000 D. 7,000,000 **[K]** 2.One billion written in figures is… A. 1,000,000 B. 10,000,000 C. 100,000,000 D. 1,000,000,000 **[K]** 3.Replacing a number with a nearby number that is easier to work with is called… A. ordering B. rounding C. expanding D. counting **[K]**
+
+4.The symbol > means… A. is less than B. is equal to C. is greater than D. is approximately equal to **[K]** 5.The number of significant figures in 0.00590 is… A. 2 B. 3 C. 5 D. 6 **[K]** 6.In the numeral 8,406,213 the digit 4 stands in the… A. thousands place B. ten thousands place C. hundred thousands place D. millions place **[K]**
+
+7.Express 1,879,653,214 to the nearest ten thousand. A. 1,879,640,000 B. 1,879,650,000 C. 1,879,660,000 D. 1,880,000,000 [A]
+
+8.Express 486.3685 correct to two decimal places. A. 486.3 B. 486.36 C. 486.37 D. 486.369 **[A]** 9.Express 857,386,321 correct to three significant figures. A. 857 B. 857,000 C. 857,000,000 D. 858,000,000 **[A]**
+
+10. Which of the following statements is true? A. 5,113,487,637 > 5,223,487,637 B. 5,223,487,637 < 5,113,487,637 C. 5,223,487,637 > 5,113,487,637 D. 5,223,487,637 = 5,113,487,637 **[A]**
+
+##### Section B — Theory and application
+
+1.(a) Write 2,480,531,907 in words. (b) State the place value of the digit 8 in the number. (c) Find the value of the digit 8. (d) Express 5,207,043 in expanded form and state the purpose of each zero in the numeral. **[A]**
+
+2.Copy and complete the table below for 1,879,653,214.
+
+Round up Round down Round off
+
+To the nearest thousand ____ ____ ____
+
+To the nearest ten thousand ____ ____ ____
+
+To the nearest hundred thousand ____ ____ ____ Give a reason why the answers for the nearest ten thousand and nearest hundred thousand differ. [A]
+
+3.(a) Express 78.4604783 correct to (i) one decimal place, (ii) two decimal places, (iii) three decimal places. (b) Express 4.4478 correct to one decimal place. (c) A learner first corrected 4.4478 to three decimal places, then to two, then to one. State the answer obtained and give a reason why it is wrong. **[A]**
+
+<!-- page 17 -->
+
+4.(a) State the conditions under which a zero in a numeral is significant, giving one example in each case. (b) Express 0.00234567 correct to (i) three significant figures, (ii) four significant figures, (iii) six significant figures. (c) The length of a table is given as 0.76 m correct to two decimal places. Find the least and the greatest possible lengths of the table. **[A]**
+
+##### Section C — Attitudes, values and process tasks
+
+1.Using graph sheets or multi-base ten blocks: (a) construct and label a cube, a rod, a flat and a block, stating the number each one represents; (b) find, showing all your working, how many blocks are equivalent to 1,000,000,000; (c) use the pieces to model 1,240,000,000 with the fewest pieces. (Activity 1.1) [P]
+
+2.Using the pieces made in question 1: (a) represent 340,000,000 with the least possible number of pieces; (b) state how many of each piece you used; (c) mount the model on a place value chart and display it in the classroom. (Activity 1.1, steps 4-5) **[P]**
+
+3.Write GH₵5,560 as a sum in three different ways using GH₵10, GH₵50, GH₵100 and GH₵200 denominations. Use each denomination at least once in every sum. One sum is shown here: GH₵5,560 = 20 × GH₵200 + 10 × GH₵100 + 11 × GH₵50 + 1 × GH₵10. (Activity 1.2, step 1) [P]
+
+4.(a) Calculate the number of GH₵200 notes required to make GH₵185,000,000. (b) Calculate the number of GH₵200 notes required to make GH₵1,890,750,000. (c) Find two different combinations of GH₵50, GH₵100 and GH₵200 notes that make exactly GH₵1,000,000, using each denomination at least once in both. (Activity 1.2, steps 2-3) **[P]**
+
+5.Beginning from 1,000: (a) count forward in 25s, in 50s and in 250s, writing down the first eight terms of each sequence; (b) count backwards in each of the three steps and verify that every count returns exactly to 1,000. (Activity 1.3, steps 1-3) **[P]**
+
+6.(a) Write down eight numbers, each having nine or ten digits. (b) Arrange them in ascending order, inserting < between consecutive numbers. (c) Arrange them in descending order, inserting > between consecutive numbers. (d) State the place value at which you had to compare in order to decide between the two largest numbers. (Activity 1.3, steps 4-6) **[P]**
+
+<!-- page 18 -->
+
+*Strand 1: Number · Sub-Strand 2: Number Operations*
+
+### Chapter 2: Mental Strategies and the Four Operations
+
+> **Curriculum alignment**
+>
+> Strand 1: Number
+>
+> Sub-Strand 2: Number Operations
+>
+> Content standard B7.1.2.1
+>
+> Apply mental mathematics strategies and number properties used to solve problems
+>
+> B7.1.2.1.1 Multiply and divide given numbers by powers of 10 including decimals and benchmark fractions
+>
+> B7.1.2.1.2 Apply mental mathematics strategies and number properties used to perform calculations
+>
+> B7.1.2.1.3 Apply mental mathematics strategies to solve word problems
+>
+> Content standard B7.1.2.2
+>
+> Demonstrate an understanding of addition, subtraction, multiplication and division of (i) whole numbers, and (ii) decimal numbers, to solve problems. (ii) Mrs Adamu bought 13.6kg of meat. Mrs Anderson bought 2.4kg of meat less than Mrs Adamu. How many kilograms of meat did they buy all together? (iii) Ebo weighs 28.6kg. His father weighs four times as heavy. What is the total weight of Ebo and his father? (iv) Mrs Armah bought 45.75 metres of linen for her five children. If they share the material equally, how many metres of linen did each receive?
+>
+> B7.1.2.2.1 Add and subtract up to four-digit numbers
+>
+> B7.1.2.2.2 Multiply or divide multi-digit numbers by 1- and 2- digit numbers
+>
+> B7.1.2.2.3 Create and solve story problems involving decimals on the four basic operations
+
+> **Core competences**
+>
+> Communication and Collaboration
+>
+> Creativity and Innovation
+>
+> Critical Thinking and Problem Solving
+>
+> Personal Development and Leadership
+
+#### Learning objectives
+
+By the end of this chapter you can:
+
+- recall multiplication facts up to 12 × 12 and the related division facts
+
+- convert between benchmark fractions, decimals and percentages from memory
+
+- multiply and divide whole numbers and decimals by 10, 100 and 1,000
+
+- multiply and divide by the benchmark fractions one tenth, one hundredth and one thousandth
+
+- use halving and doubling to find a product mentally
+
+- use the distributive property to find a product mentally
+
+- recognise the words used in word problems for each of the four operations
+
+- add and subtract whole numbers and decimals using partitioning and place value
+
+- multiply and divide multi-digit numbers by one- and two-digit numbers
+
+- create and solve word problems involving decimals and the four operations
+
+> **Key words**
+>
+> Mental mathematics — working out an answer in the head, without written calculation.
+>
+> Product — the answer to a multiplication.
+>
+> Quotient — the answer to a division.
+>
+> Sum — the answer to an addition.
+
+<!-- page 19 -->
+
+> Difference — the answer to a subtraction.
+>
+> Benchmark fraction — a common fraction whose decimal and percentage forms are worth memorising.
+>
+> Power of ten — 10, 100, 1,000 and so on.
+>
+> Partitioning — breaking a number into the values of its digits so it can be worked with in parts.
+>
+> Distributive property — a × (b + c) = a × b + a × c.
+>
+> Commutative property — the order does not matter: a + b = b + a and a × b = b × a.
+>
+> Associative property — the grouping does not matter: (a + b) + c = a + (b + c).
+>
+> Halving and doubling — halving one factor and doubling the other leaves the product unchanged.
+>
+> Compensation — rounding a number to make the work easy, then correcting at the end.
+>
+> Lattice method — a grid method of multiplying multi-digit numbers.
+>
+> Estimate — an approximate answer used to check whether an exact answer is reasonable.
+
+> **Engage**
+>
+> A trader at Makola quotes GH₵99 for each of eight items. She works out the total quickly: eight times GH₵100 is GH₵800, then she subtracts GH₵8. The answer is GH₵792. In this chapter, you will practise mental strategies like this and learn how to set out longer calculations on paper.
+
+#### 2.1 Facts you should know by heart
+
+Mental mathematics rests on a small number of facts recalled instantly. If you have to work out 7 × 8 every time you meet it, every longer calculation becomes slow and error-prone. Three sets of facts are worth committing to memory.
+
+##### 2.1.1 Multiplication and division facts
+
+Know every product up to 12 × 12, and know each one backwards as a division. Learning 9 × 12 = 108 also gives you 108 ÷ 9 = 12 and 108 ÷ 12 = 9. Each multiplication fact is really three facts.
+
+##### 2.1.2 Benchmark fractions, decimals and percentages
+
+Certain fractions appear so often in money, measurement and statistics that their decimal and percentage forms should be recalled rather than calculated.
+
+*Table 2.1 — Benchmark fractions and their decimal and percentage forms.*
+
+| **Fraction** | **Decimal** | **Percentage** | **Fraction** | **Decimal** | **Percentage** |
+| --- | --- | --- | --- | --- | --- |
+| 1/2 | 0.5 | 50% | 1/5 | 0.2 | 20% |
+| 1/3 | 0.333… | 33⅓% | 2/5 | 0.4 | 40% |
+| 2/3 | 0.666… | 66⅔% | 3/5 | 0.6 | 60% |
+| 1/4 | 0.25 | 25% | 4/5 | 0.8 | 80% |
+| 3/4 | 0.75 | 75% | 1/100 | 0.01 | 1% |
+| 1/10 | 0.1 | 10% | 1/1000 | 0.001 | 0.1% |
+
+Read the table in both directions. Meeting 0.6 you should think three fifths; meeting 66⅔% you should think two thirds. A percentage is simply a fraction with denominator 100, and a decimal is a fraction whose denominator is a power of ten — so all three columns are the same number wearing different clothes.
+
+<!-- page 20 -->
+
+##### 2.1.3 Multiplying and dividing by powers of ten
+
+Because our system is base ten, multiplying by ten moves every digit one place to the left, and dividing by ten moves every digit one place to the right. The decimal point stays in place while the digits change place value. When writing the answer, this is often described as moving the decimal point.
+
+*Table 2.2 — Multiplying and dividing by powers of ten.*
+
+| **Operation** | **Effect** | **Example** |
+| --- | --- | --- |
+| × 10 | each digit moves 1 place left | 105.25 × 10 = 1,052.5 |
+| × 100 | each digit moves 2 places left | 105.25 × 100 = 10,525 |
+| × 1,000 | each digit moves 3 places left | 105.25 × 1,000 = 105,250 |
+| ÷ 10 (same as × 1/10) | each digit moves 1 place right | 105.25 ÷ 10 = 10.525 |
+| ÷ 100 (same as × 1/100) | each digit moves 2 places right | 105.25 ÷ 100 = 1.0525 |
+| ÷ 1,000 (same as × 1/1000) | each digit moves 3 places right | 105.25 ÷ 1,000 = 0.10525 |
+
+> **Common misconception 2.1**
+>
+> "Multiplying always makes a number bigger." It does not. Multiplying by 1/10 is the same as dividing by 10, so 105.25 × 1/10 = 10.525 — smaller than what we started with. Multiplying makes a number bigger only when you multiply by something greater than 1.
+
+> **Worked example 1 — powers of ten**
+>
+> Find (a) 105.25 × 1,000 (b) 105.25 × 1/100 (c) 0.048 × 10,000 (a) Move every digit three places left: 105.25 × 1,000 = **105,250** (b) Multiplying by 1/100 is dividing by 100 — move two places right: 105.25 × 1/100 = **1.0525** (c) 10,000 is four tens, so move four places left: 0.048 × 10,000 = **480**
+
+> **Practice 2.1**
+>
+> 1. Write down the answers: (a) 7 × 8 (b) 96 ÷ 12 (c) 11 × 12 (d) 144 ÷ 12
+>
+> 2. Express as decimals: (a) 3/4 (b) 1/8 (c) 2/3 (d) 3/10
+>
+> 3. Express as percentages: (a) 0.25 (b) 0.375 (c) 0.001
+>
+> 4. Find: (a) 43.7 × 100 (b) 6,200 ÷ 1,000 (c) 0.9 × 10,000 (d) 58.3 × 1/10
+>
+> 5. A tin holds 0.75 litres. Find, without writing any working, the volume of 1,000 such tins in litres.
+
+#### 2.2 Mental strategies
+
+A mental strategy replaces a hard calculation with an easy one that has the same answer. Four are worth practising until they are automatic.
+
+##### 2.2.1 Halving and doubling
+
+Halve one factor and double the other, and the product does not change. Repeat until one factor becomes easy to multiply by.
+
+**28 × 5 → 14 × 10 = 140 125 × 4 → (125 × 2) × 2 = 250 × 2 = 500**
+
+In the first, halving 28 and doubling 5 turned an awkward multiplication into multiplying by ten. In the second, doubling twice was easier than multiplying by four in one step.
+
+##### 2.2.2 The distributive property
+
+Split one factor into parts that are easy to multiply, multiply each part, then add or subtract.
+
+<!-- page 21 -->
+
+**7 × 15 = 7 × (10 + 5) = 70 + 35 = 105 18 × 6 = (20 − 2) × 6 = 120 − 12 = 108**
+
+Splitting into a sum works well when a factor is just above a round number; splitting into a difference works well when it is just below. This is the strategy the trader in the opening used: 8 × 99 = 8 × (100 − 1) = 800 − 8 = 792.
+
+##### 2.2.3 Compensation
+
+Round a number to make the calculation easy, then correct the answer by the amount you changed it. To find 297 + 148, add 300 + 148 = 448, then subtract the 3 you added: 445.
+
+##### 2.2.4 Using the properties of number
+
+*Table 2.3 — Number properties used in mental work.*
+
+| **Property** | **What it says** | **Why it helps** |
+| --- | --- | --- |
+| Commutative | a + b = b + a and a × b = b × a | Reorder to put the easy number first: 2 × 47 × 5 = 2 × 5 × 47 = 10 × 47 = 470 |
+| Associative | (a + b) + c = a + (b + c) | Group the pair that makes a round number: 38 + 27 + 12 = (38 + 12) + 27 = 50 + 27 = 77 |
+| Distributive | a × (b + c) = a × b + a × c | Split a hard factor into easy parts |
+| Identity | a + 0 = a and a × 1 = a | Multiplying or adding nothing changes nothing |
+
+![Figure 2.1 Three mental strategies for the same product.](images/maths-b7-print-ready-p021-fig03.png)
+
+> **Worked example 2 — choosing a strategy**
+>
+> Find each product mentally, stating the strategy used.
+>
+> (a) 8 × 99 Distributive: 8 × (100 − 1) = 800 − 8 = **792** (b) 28 × 25 Halving and doubling twice: 28 × 25 → 14 × 50 → 7 × 100 = **700** (c) 16 × 35 Halving and doubling: 16 × 35 → 8 × 70 → 4 × 140 = **560** (d) 2 × 47 × 5 Commutative and associative: (2 × 5) × 47 = 10 × 47 = **470**
+
+<!-- page 22 -->
+
+##### 2.2.5 The language of the four operations
+
+Word problems announce which operation is needed through the words they use. Learn to hear them.
+
+*Table 2.4 — Words used for each operation.*
+
+| **Operation** | **Words that signal it** |
+| --- | --- |
+| Addition | plus · add · sum · total · altogether · increase by · more than · combined |
+| Subtraction | minus · take away · difference · less than · decrease by · how many more · what must be added to make · left over |
+| Multiplication | times · multiply · product · square · twice · of · per · at … each |
+| Division | divide · share · quotient · how many times does it go into · per each · average · what must be multiplied by … to give |
+
+> **Exam tip 2.1**
+>
+> Two words appear in more than one row. "Per" signals multiplication when you are given a rate and asked for a total (5 kg at GH₵2 per kg), and division when you are given a total and asked for a rate. "Of" almost always means multiply — ¾ of 120 is ¾ × 120. Read the whole sentence, not one word.
+
+> **Activity 2.1 — Mental mathematics games**
+>
+> You need: a stopwatch or phone timer; a set of question cards; paper for scoring only.
+>
+> What to do:
+>
+> 1. In pairs, one learner reads a question and the other answers aloud within ten seconds. No writing. Swap after every five questions.
+>
+> 2. Use the following round to begin. Work each one in your head:
+>
+> (i) Find the cost of three 5 kg bags of rice at GH₵2 per kg.
+>
+> (ii) Find the cost of one dozen eggs at 80 pesewas each.
+>
+> (iii) 8 × 99
+>
+> (iv) 28 × 25
+>
+> (v) How many 21 cm pieces can be cut from a string one metre long?
+>
+> (vi) What fraction of a litre is 250 ml?
+>
+> (vii) The area of a square board is 81 cm². Find its perimeter.
+>
+> (viii) Two angles of a triangle add up to 98°. Find the third angle.
+>
+> (ix) How many minutes are there from 10:15 a.m. to noon?
+>
+> (x) Express 60 pesewas as a decimal of GH₵2.40.
+>
+> 3. After each question, the answerer states which strategy was used before the score is given.
+>
+> 4. Write four new questions of your own, one for each operation, using the signal words in Table 2.4. Test them on another pair.
+>
+> Record: your score out of ten, the strategy named for each question, and your four new questions with answers.
+>
+> Think about it: which questions did your class find slowest? Look at those again — is there a strategy that would have made them quick?
+
+> **Practice 2.2**
+>
+> 1. Find mentally, stating the strategy: (a) 24 × 5 (b) 250 × 8 (c) 7 × 49 (d) 12 × 45
+>
+> 2. Find mentally: (a) 199 + 246 (b) 503 − 198 (c) 4 × 68 × 25
+>
+> 3. Write down the operation signalled: (a) find the difference (b) at GH₵3 each (c) share equally (d) increase by
+>
+> 4. A tank holds 96 litres. Find, mentally, the volume of ⅜ of the tank.
+>
+> 5. Explain, in one sentence each, why 16 × 35 and 8 × 70 have the same answer.
+
+<!-- page 23 -->
+
+#### 2.3 Adding and subtracting by partitioning
+
+When numbers are too large to hold in the head, write them out. **Partitioning** means splitting each number into the values of its digits, working on each place separately, and putting the results back together. It is the same idea as expanded form in Chapter 1, used to calculate.
+
+> **Worked example 3 — adding whole numbers by partitioning**
+>
+> Add 785 and 9,342.
+>
+> 785 = 700 + 80 + 5
+>
+> 9,342 = 9,000 + 300 + 40 + 2
+>
+> Add each place: 9,000 + (700 + 300) + (80 + 40) + (5 + 2)
+>
+> = 9,000 + 1,000 + 120 + 7
+>
+> = **10,127**
+>
+> The hundreds made a whole thousand and the tens made more than a hundred; regrouping them is exactly what "carrying" does in the column method.
+
+> **Worked example 4 — adding decimals**
+>
+> Add 327.6 and 54.13.
+>
+> Write both with the same number of decimal places: 327.60 and 54.13.
+>
+> 327.60 = 300 + 20 + 7 + 6/10 + 0/100
+>
+> 54.13 = 50 + 4 + 1/10 + 3/100
+>
+> Add each place: 300 + (20 + 50) + (7 + 4) + (6/10 + 1/10) + (0/100 + 3/100)
+>
+> = 300 + 70 + 11 + 7/10 + 3/100
+>
+> = **381.73**
+
+> **Worked example 5 — subtracting decimals**
+>
+> Subtract 7.85 from 93.6.
+>
+> Write 93.6 as 93.60 so both have two decimal places, then set the points under each other:
+>
+> 93.60 − 7.85
+>
+> ‾‾‾‾‾
+>
+> **85.75**
+>
+> Check by adding back: 85.75 + 7.85 = 93.60. ✓
+
+> **Exam tip 2.2**
+>
+> When adding or subtracting decimals, line up the **decimal points**, not the last digits, and fill the short number with zeros.
+>
+> Writing 93.6 as 93.60 costs nothing and prevents the commonest mistake in the topic.
+
+> **Practice 2.3**
+>
+> 1. Add by partitioning, showing your working: (a) 648 + 2,175 (b) 4,309 + 876
+>
+> 2. Find: (a) 45.8 + 137.65 (b) 200.4 − 86.75 (c) 9.06 + 12.4 + 0.375
+>
+> 3. Subtract 6.47 from 51.2 and check your answer by addition.
+>
+> 4. Mrs Adamu bought 13.6 kg of meat. Mrs Anderson bought 2.4 kg less than Mrs Adamu. Find the total mass of meat bought by the two women.
+>
+> 5. A plank 3.5 m long has 1.85 m cut from it. Find the length remaining.
+
+<!-- page 24 -->
+
+#### 2.4 Multiplying and dividing multi-digit numbers
+
+##### 2.4.1 Multiplying by partitioning
+
+> **Worked example 6 — multiplying by a one-digit number**
+>
+> Multiply 584 by 8.
+>
+> 584 × 8 = (500 + 80 + 4) × 8
+>
+> = (500 × 8) + (80 × 8) + (4 × 8)
+>
+> = 4,000 + 640 + 32
+>
+> = **4,672**
+
+##### 2.4.2 The place value (long multiplication) method
+
+> **Worked example 7 — multiplying by a two-digit number**
+>
+> Multiply 345 by 27.
+>
+> Split 27 into 20 + 7 and multiply by each part.
+>
+> 345
+>
+> × 27
+>
+> ‾‾‾‾‾
+>
+> 2,415 ← 345 × 7
+>
+> 6,900 ← 345 × 20
+>
+> ‾‾‾‾‾
+>
+> **9,315**
+>
+> The second line ends in a zero because you are multiplying by 20, not by 2. Leaving that zero out is the commonest error in long multiplication.
+
+##### 2.4.3 The lattice method
+
+The lattice method keeps the place values in order for you, so nothing has to be carried while you multiply. Draw a grid with one column for each digit of the first number and one row for each digit of the second, draw a diagonal through every cell, multiply each pair of digits and write the tens above the diagonal and the units below it. Then add down the diagonals from the bottom right, carrying into the next diagonal.
+
+<!-- page 25 -->
+
+![Figure 2.2 Multiplying 345 by 27 by the lattice method.](images/maths-b7-print-ready-p025-fig04.png)
+
+##### 2.4.4 Dividing multi-digit numbers
+
+> **Worked example 8 — dividing by a one-digit number**
+>
+> Divide 4,672 by 8.
+>
+> Partition into parts that 8 divides exactly:
+>
+> 4,672 = 4,000 + 640 + 32
+>
+> 4,000 ÷ 8 = 500, 640 ÷ 8 = 80, 32 ÷ 8 = 4
+>
+> So 4,672 ÷ 8 = 500 + 80 + 4 = **584**
+>
+> This is Worked example 6 run backwards — multiplication and division undo each other, which is why every division can be checked by a multiplication.
+
+> **Worked example 9 — dividing a decimal**
+>
+> Mrs Armah bought 45.75 metres of linen for her five children. If they share the material equally, find how many metres each child receives.
+>
+> 45.75 ÷ 5
+>
+> Partition: 45.75 = 45 + 0.75
+>
+> 45 ÷ 5 = 9 and 0.75 ÷ 5 = 0.15
+>
+> So each child receives 9 + 0.15 = **9.15 m**
+>
+> Check: 9.15 × 5 = 45.75 ✓
+
+> **Practice 2.4**
+>
+> 1. Multiply by partitioning, showing your working: (a) 476 × 6 (b) 908 × 7
+>
+> 2. Use the place value method: (a) 264 × 35 (b) 517 × 48
+>
+> 3. Use the lattice method to find 345 × 27, and check that your answer agrees with Worked example 7.
+>
+> 4. Divide, showing your working: (a) 5,824 ÷ 8 (b) 96.4 ÷ 4 (c) 73.5 ÷ 5
+>
+> 5. Find 2,412 ÷ 12 and check your answer by multiplication.
+
+<!-- page 26 -->
+
+#### 2.5 Solving word problems
+
+A word problem is solved in four steps, and writing them down is what separates a full-mark answer from a lucky one.
+
+- **Read and identify.** What is given, and what is asked for? Underline the signal words.
+
+- **Choose the operation or operations,** and write the calculation before you do it.
+
+- **Calculate,** showing the working.
+
+- **Check that the answer is sensible,** and give it with its unit.
+
+> **Worked example 10 — a two-step problem**
+>
+> A group of two hundred and fifteen men and seven hundred and eighty-four women went to watch a musical concert. An amount of GH₵25 was collected at the gate from each person. Find the total amount collected.
+>
+> Step 1 — given: 215 men, 784 women, GH₵25 each. Asked for: total amount.
+>
+> Step 2 — total people first, then multiply: (215 + 784) × 25
+>
+> Step 3 — 215 + 784 = 999
+>
+> 999 × 25 = (1,000 − 1) × 25 = 25,000 − 25 = 24,975
+>
+> Step 4 — the amount is **GH₵24,975**. About a thousand people at GH₵25 should give about GH₵25,000, so the answer is sensible.
+
+> **Worked example 11 — a comparison problem**
+>
+> Ebo weighs 28.6 kg. His father weighs four times as heavy. Find the total mass of Ebo and his father.
+>
+> Father's mass = 4 × 28.6 = 114.4 kg
+>
+> Total mass = 28.6 + 114.4 = **143 kg**
+
+> **Apply it — The market run**
+>
+> Ama sells sachets of water. She buys a bag of 30 sachets for GH₵4.50 and sells each sachet for 30 pesewas. (a) Find the cost of one sachet to Ama, in pesewas. (b) Find her profit on one sachet. (c) On Monday she sold 7 full bags. Find her total profit for the day, showing your working. (d) She wants to make GH₵90 profit in a week. Find the least number of full bags she must sell, and state one assumption you have made.
+
+> **Activity 2.2 — Writing and swapping word problems**
+>
+> You need: index cards; a notebook.
+>
+> What to do:
+>
+> 1. Each learner writes four word problems, one for each operation, every one involving decimals and set in a real Ghanaian situation — a market, a farm, a taxi fare, a water bill.
+>
+> 2. On the back of each card, write the full solution set out in the four steps above.
+>
+> 3. Exchange cards with another group. Solve the problems you receive, showing all working.
+>
+> 4. Return the cards and compare answers with the solutions on the back. Where you disagree, work out which solution is right and why.
+>
+> 5. The class chooses the six best problems for a wall display.
+>
+> Record: your four problems with solutions, and the four you solved from another group.
+>
+> Think about it: which of the problems you received was hardest to understand, and was it hard because of the mathematics or because of the way it was written?
+
+#### Chapter summary
+
+- Multiplication facts to 12 × 12 and the benchmark fraction, decimal and percentage equivalents should be recalled instantly, not calculated.
+
+<!-- page 27 -->
+
+- Multiplying by 10, 100 or 1,000 moves the digits one, two or three places left; dividing moves them the same number of places right.
+
+- Multiplying by 1/10, 1/100 or 1/1000 is the same as dividing by 10, 100 or 1,000, and makes the number smaller.
+
+- Halving one factor and doubling the other leaves the product unchanged, and can be repeated until the multiplication is easy.
+
+- The distributive property splits a hard factor into easy parts: 8 × 99 = 8 × (100 − 1) = 800 − 8 = 792.
+
+- The commutative, associative and distributive properties allow numbers to be reordered, regrouped and split to make mental work easier.
+
+- Word problems signal their operation through their vocabulary; 'of' means multiply, and 'per' may mean either multiply or divide.
+
+- Partitioning splits numbers into the values of their digits so that each place can be added, subtracted, multiplied or divided separately.
+
+- When adding or subtracting decimals, line up the decimal points and fill the shorter number with zeros.
+
+- Multi-digit multiplication may be done by partitioning, by the vertical place value method or by the lattice method; all three give the same answer.
+
+- Every division can be checked by multiplying the quotient by the divisor.
+
+#### Assessment
+
+> **How this assessment is balanced**
+>
+> Weighted to the NaCCA Mathematics profile dimensions — Knowledge and Understanding 30%, Application of Knowledge 40%, Attitudes, Values and Process Skills 30%. This chapter carries 20 items: 6 tagged [K], 8 tagged [A] and 6 tagged [P].
+>
+> Indicators assessed: B7.1.2.1.1; B7.1.2.1.2; B7.1.2.1.3; B7.1.2.2.1; B7.1.2.2.2; B7.1.2.2.3
+
+##### Section A — Objective
+
+1.The answer to a multiplication is called the… A. sum B. product C. quotient D. difference **[K]** 2.The property stated by a × (b + c) = a × b + a × c is the… A. commutative property B. associative property C. distributive property D. identity property **[K]**
+
+3.Expressed as a decimal, 3/8 is… A. 0.125 B. 0.38 C. 0.375 D. 0.83 **[K]** 4.Breaking a number into the values of its digits in order to calculate is called… A. rounding B. partitioning C. estimating D. compensating **[K]**
+
+5.The word 'difference' in a word problem signals… A. addition B. subtraction C. multiplication D. division **[K]**
+
+6.Expressed as a percentage, 2/3 is… A. 23% B. 32% C. 33⅓% D. 66⅔% **[K]** 7.Find 105.25 × 1/100. A. 0.10525 B. 1.0525 C. 10.525 D. 10,525 **[A]** 8.Using halving and doubling, 28 × 25 is equal to… A. 7 × 100 B. 14 × 25 C. 56 × 50 D. 28 × 100 **[A]** 9.Find 8 × 99. A. 782 B. 792 C. 799 D. 892 **[A]**
+
+10. Add 327.6 and 54.13. A. 381.19 B. 381.73 C. 382.73 D. 868.6 **[A]**
+
+##### Section B — Theory and application
+
+1.(a) Copy and complete: (i) 43.7 × 100 = ____ (ii) 6,200 ÷ 1,000 = ____ (iii) 0.048 × 10,000 = ____ (iv) 58.3 × 1/10 = ____. (b) Explain why multiplying a number by 1/100 makes it smaller. **[A]**
+
+2.Find each of the following mentally and state the strategy used in each case: (a) 24 × 5 (b) 7 × 49 (c) 250 × 8 (d) 2 × 47 × 5. **[A]**
+
+<!-- page 28 -->
+
+3.(a) Add 785 and 9,342 by partitioning, showing every step. (b) Multiply 345 by 27 using the vertical place value method. (c) Multiply 345 by 27 again using the lattice method and state whether the two answers agree. **[A]**
+
+4.A group of 215 men and 784 women attended a concert. Each person paid GH₵25 at the gate. (a) Find the total number of people who attended. (b) Find the total amount collected. (c) Ebo weighs 28.6 kg and his father weighs four times as much; find their total mass. (d) Mrs Adamu bought 13.6 kg of meat and Mrs Anderson bought 2.4 kg less; find the total mass they bought. **[A]**
+
+##### Section C — Attitudes, values and process tasks
+
+1.Recall under timed conditions: (a) working in pairs, answer twenty multiplication and division facts within ten seconds each, with no writing; (b) record your score out of twenty; (c) list the three facts you were slowest on and practise them daily for a week. (Activity 2.1) **[P]**
+
+2.Play and record: answer the ten mental questions in Activity 2.1 step 2 aloud, stating the strategy used for each before your answer is scored. Record your score and the strategy named in each case. (Activity 2.1, steps 2-3) **[P]**
+
+3.Compose and test: write four mental mathematics questions of your own, one for each operation, using the signal words in Table 2.4, and test them on another pair. (Activity 2.1, step 4) **[P]**
+
+4.Compose and solve: write four word problems involving decimals, one for each operation, each set in a real Ghanaian situation, and write the full solution of each in the four steps on the back of the card. (Activity 2.2, steps 1-2) **[P]**
+
+5.Exchange and mark: solve four word problems written by another group, showing all working, then compare your answers with their solutions and resolve every disagreement. (Activity 2.2, steps 3-4) **[P]**
+
+6.Investigate: choose any two of the three methods of multiplying 345 by 27 — partitioning, place value and lattice — and write a short report stating which you found faster, which you found more reliable, and why. **[P]**
+
+<!-- page 29 -->
+
+*Strand 1: Number · Sub-Strand 2: Number Operations*
+
+### Chapter 3: Powers of Natural Numbers
+
+> **Curriculum alignment**
+>
+> Strand 1: Number
+>
+> Sub-Strand 2: Number Operations
+>
+> Content standard B7.1.2.3
+>
+> Demonstrate understanding and the use of powers of natural numbers in solving problems. `
+>
+> B7.1.2.3.1 Illustrate with examples the meaning of repeated factors using counting objects such as bottle tops or bundle sticks
+>
+> B7.1.2.3.2 Express a given number as a product of a given number or numbers, as well as, in the form of a power or two such numbers as product of powers
+>
+> B7.1.2.3.3 Show that the value of any natural number with zero as its exponent or index is 1 and use it to solve problems
+>
+> B7.1.2.3.4 Find the value of a number written in index form. . i. 53 = 5 x 5 x 5 = 25 x 5 = 125
+>
+> B7.1.2.3.5 Apply the concept of powers of numbers (product of prime) to find Highest Common Factor (HCF)
+
+> **Core competences**
+>
+> Creativity and Innovation
+>
+> Critical Thinking and Problem Solving
+
+#### Learning objectives
+
+By the end of this chapter you can:
+
+- model repeated factors using counters, bottle tops or bundle sticks
+
+- explain what is meant by a power of a number
+
+- identify the base and the exponent (index) of a power
+
+- express a given number as a product of repeated factors and write it in index form
+
+- express a product of two numbers as a product of powers
+
+- show that any natural number raised to the power zero is 1
+
+- find the value of a number written in index form
+
+- express a number as a product of its prime factors
+
+- use the product of primes to find the highest common factor of two or more numbers
+
+- solve real-life problems using the highest common factor
+
+> **Key words**
+>
+> Factor — a whole number that divides exactly into another number.
+>
+> Repeated factor — the same factor multiplied by itself several times.
+>
+> Power — the result of multiplying a number by itself a given number of times.
+>
+> Index form — writing a repeated multiplication using a base and an exponent, such as 2⁵.
+>
+> Base — the number being multiplied by itself.
+>
+> Exponent (index) — the small raised number showing how many times the base is used as a factor.
+>
+> Squared — raised to the power 2.
+>
+> Cubed — raised to the power 3.
+>
+> Prime number — a number greater than 1 with exactly two factors, itself and 1.
+>
+> Prime factor — a factor that is a prime number.
+
+<!-- page 30 -->
+
+> Product of primes — a number written as a multiplication of prime numbers only.
+>
+> Factor tree — a diagram used to break a number down into its prime factors.
+>
+> Common factor — a factor shared by two or more numbers.
+>
+> Highest Common Factor (HCF) — the largest factor shared by two or more numbers.
+
+> **Engage**
+>
+> Fold a sheet of paper in half. Then again, and again. After ten folds you would have 1,024 layers; after twenty, more than a million; after forty-two, a stack that would reach the moon. Nothing has been added — the same small action has simply been repeated. Repeated multiplication grows at a speed that ordinary addition never approaches, and mathematics has a short way of writing it. This chapter is about that shorthand, and about what it lets you do once you have it.
+
+#### 3.1 Repeated factors and powers
+
+A **factor** is a whole number that divides exactly into another. When the same factor appears again and again in a multiplication, we call it a **repeated factor**.
+
+In 3 × 3 × 3 the factor 3 is repeated three times. In 2 × 2 × 2 × 2 × 2 the factor 2 is repeated five times. Writing these out becomes tiresome, and for long repetitions it becomes impossible — so we use **index form** instead.
+
+**2 × 2 × 2 × 2 × 2 = 2⁵ = 32**
+
+In 2⁵ the number 2 is the **base** — the number being multiplied by itself. The small raised 5 is the **exponent**, also called the **index**, and it tells you how many times the base is used as a factor. The whole expression 2⁵ is called a **power** of 2, and it is read "two to the power five".
+
+![Figure 3.1 The parts of a power, and repeated factors modelled with counters.](images/maths-b7-print-ready-p030-fig05.png)
+
+*Table 3.1 — Powers, how they are read, and their values.*
+
+| **Power** | **Read as** | **Written out** | **Value** |
+| --- | --- | --- | --- |
+| 2² | two squared | 2 × 2 | 4 |
+
+<!-- page 31 -->
+
+| 2³ | two cubed | 2 × 2 × 2 | 8 |
+| --- | --- | --- | --- |
+| 2⁵ | two to the power five | 2 × 2 × 2 × 2 × 2 | 32 |
+| 3⁴ | three to the power four | 3 × 3 × 3 × 3 | 81 |
+| 5³ | five cubed | 5 × 5 × 5 | 125 |
+| 7² | seven squared | 7 × 7 | 49 |
+| 10³ | ten cubed | 10 × 10 × 10 | 1,000 |
+
+The powers 2 and 3 have special names because of what they measure. A square of side 5 has area 5 × 5 = 5², so we say "five squared". A cube of edge 5 has volume 5 × 5 × 5 = 5³, so we say "five cubed".
+
+> **Common misconception 3.1**
+>
+> 2⁵ does not mean 2 × 5. It means 2 × 2 × 2 × 2 × 2. So 2⁵ = 32, not 10. The exponent counts **how many times the base appears**, it is not something the base is multiplied by. Similarly 3⁴ = 81, not 12.
+
+> **Activity 3.1 — Modelling repeated factors**
+>
+> You need: at least 128 counters, bottle tops, seeds or bundle sticks; a large sheet of paper.
+>
+> What to do:
+>
+> 1. Lay out 3 counters in a row. Now make 3 such rows — you have modelled 3 × 3. Count them: 9.
+>
+> 2. Make 3 copies of that square arrangement. You have modelled 3 × 3 × 3. Count them: 27. Write this in index form.
+>
+> 3. Repeat for 2, building 2 × 2, then 2 × 2 × 2, then 2 × 2 × 2 × 2, then 2 × 2 × 2 × 2 × 2. Record the value at each stage and write each in index form.
+>
+> 4. Try to model 2⁷ with counters. Record how many you would need, and state why the modelling becomes impractical.
+>
+> 5. Draw a poster showing one power modelled with counters, clearly labelling the base and the exponent.
+>
+> Record: a table with columns for the repeated multiplication, the index form and the value, for every case you built.
+>
+> Think about it: from step 3, how many counters were added each time you increased the exponent by one? Was the increase the same each time, or did it grow?
+
+> **Practice 3.1**
+>
+> 1. Write in index form: (a) 5 × 5 × 5 × 5 (b) 7 × 7 (c) 2 × 2 × 2 × 2 × 2 × 2 (d) 10 × 10 × 10 × 10
+>
+> 2. Write out in full and find the value: (a) 3³ (b) 4² (c) 2⁶ (d) 6³
+>
+> 3. State the base and the exponent in each: (a) 9⁴ (b) 12² (c) 2¹⁰
+>
+> 4. Which is greater, 2⁵ or 5²? Show your working.
+>
+> 5. Write 3 × 3 × 3 × 5 × 5 in index form.
+
+#### 3.2 Expressing numbers as powers
+
+Any number that is built from repeated factors can be written as a power. Keep dividing by the same factor until you reach 1, and count how many divisions you made.
+
+> **Worked example 1 — writing a number in index form**
+>
+> Express each number in index form.
+>
+> (a) 32 = 2 × 2 × 2 × 2 × 2 = **2⁵** (b) 81 = 3 × 3 × 3 × 3 = **3⁴** (c) 49 = 7 × 7 = **7²** (d) 125 = 5 × 5 × 5 = **5³**
+
+Sometimes a number is built from two different repeated factors. Then it is written as a **product of powers**.
+
+<!-- page 32 -->
+
+> **Worked example 2 — a product of powers**
+>
+> Express 16 × 27 as a product of powers.
+>
+> 16 = 2 × 2 × 2 × 2 = 2⁴
+>
+> 27 = 3 × 3 × 3 = 3³
+>
+> So 16 × 27 = 2 × 2 × 2 × 2 × 3 × 3 × 3 = **2⁴ × 3³**
+>
+> Check: 2⁴ = 16 and 3³ = 27, and 16 × 27 = 432. ✓
+
+> **Practice 3.2**
+>
+> 1. Express in index form: (a) 64 (b) 243 (c) 100 (d) 216
+>
+> 2. Express as a product of powers: (a) 8 × 9 (b) 25 × 8 (c) 4 × 125
+>
+> 3. Express 72 as a product of powers of 2 and 3.
+>
+> 4. Find the value of: (a) 2⁴ × 3² (b) 5² × 2³
+>
+> 5. A number is written as 2³ × 5². Find the number.
+
+#### 3.3 The zero exponent
+
+What can 2⁰ possibly mean? The base appears no times at all — so should the answer be 0? It is not. For every positive natural number, raising it to the power zero gives 1. Here is why.
+
+Dividing any non-zero number by itself gives 1. Take 2³ ÷ 2³: written out, this is (2 × 2 × 2) ÷ (2 × 2 × 2) = 1. Cancel the matching factors and no factors remain. In index form, this is 2³⁻³ = 2⁰, so 2⁰ = 1. The same reasoning works for any positive natural number x: x³ ÷ x³ = x⁰, and x³ ÷ x³ = 1. Therefore x⁰ = 1.
+
+**2³ ÷ 2³ = 8 ÷ 8 = 1 and 2³ ÷ 2³ = 2³⁻³ = 2⁰ therefore 2⁰ = 1**
+
+The argument works for any base. Using 3: 3³ ÷ 3³ = 27 ÷ 27 = 1, and 3³ ÷ 3³ = 3⁰, so 3⁰ = 1. Nothing in the reasoning depended on the number chosen.
+
+for any positive natural number x, x⁰ = 1
+
+*Table 3.2 — Reducing the exponent by one halves the value; continuing the pattern gives 2⁰ = 1.*
+
+| **Power** | **Value** | **Pattern** |
+| --- | --- | --- |
+| 2⁴ | 16 |  |
+| 2³ | 8 | half of 16 |
+| 2² | 4 | half of 8 |
+| 2¹ | 2 | half of 4 |
+| 2⁰ | 1 | half of 2 |
+
+Table 3.2 gives a second way of seeing it. Each step down the table divides the value by 2. Continuing the pattern from 2¹ = 2 must give 2⁰ = 1. Two independent arguments reaching the same conclusion is how mathematics builds confidence in a result.
+
+> **Practice 3.3**
+>
+> 1. Write down the value of: (a) 5⁰ (b) 17⁰ (c) 100⁰ (d) 1⁰
+>
+> 2. Find the value of: (a) 3⁰ + 4⁰ (b) 2⁰ × 7² (c) 6² ÷ 6²
+>
+> 3. Copy and complete the pattern: 3⁴ = 81, 3³ = 27, 3² = ____, 3¹ = ____, 3⁰ = ____
+>
+> 4. Show, using division, why 10⁰ = 1.
+>
+> 5. A learner writes 8⁰ = 0. Identify the error and give the correct answer.
+
+<!-- page 33 -->
+
+#### 3.4 Finding the value of a power
+
+To evaluate a power, multiply step by step rather than all at once. Working two factors at a time keeps the numbers manageable and makes errors easier to spot.
+
+> **Worked example 3 — evaluating powers**
+>
+> Find the value of each.
+>
+> (a) 5³ = 5 × 5 × 5 = 25 × 5 = **125** (b) 3⁴ = 3 × 3 × 3 × 3 = 9 × 9 = **81** (c) 6³ = 6 × 6 × 6 = 36 × 6 = **216** (d) 2⁵ = 2 × 2 × 2 × 2 × 2 = 4 × 4 × 2 = **32**
+
+> **Exam tip 3.1**
+>
+> Pair the factors when the exponent is even — 3⁴ is 9 × 9, which is quicker and safer than 3 × 3 × 3 × 3 done one step at a time. When the exponent is odd, pair as far as you can and multiply by the odd one at the end.
+
+> **Practice 3.4**
+>
+> 1. Find the value of: (a) 4³ (b) 2⁷ (c) 10⁴ (d) 9²
+>
+> 2. Find the value of: (a) 2³ × 3² (b) 5² + 3³ (c) 4² − 2⁴
+>
+> 3. Arrange in ascending order: 3³, 2⁵, 5², 4²
+>
+> 4. Find the value of 2⁴ × 5⁰ × 3².
+>
+> 5. The volume of a cube of edge 4 cm is 4³ cm³. Find the volume.
+
+#### 3.5 Prime factorisation and the HCF
+
+##### 3.5.1 Expressing a number as a product of primes
+
+A **prime number** has exactly two factors — itself and 1. The first few are 2, 3, 5, 7, 11, 13, 17, 19, 23, 29. Note that 1 is not prime, because it has only one factor.
+
+Every whole number greater than 1 can be written as a product of primes, and — apart from the order — there is only one way to do it. A **factor tree** is the usual method: split the number into any two factors, then keep splitting until every branch ends in a prime.
+
+<!-- page 34 -->
+
+![Figure 3.2 Factor trees for 24 and 30, and the highest common factor.](images/maths-b7-print-ready-p034-fig06.png)
+
+> **Worked example 4 — product of primes**
+>
+> Express 24 and 30 as products of primes.
+>
+> 24 → 4 × 6 → (2 × 2) × (2 × 3)
+>
+> So 24 = 2 × 2 × 2 × 3 = **2³ × 3**
+>
+> 30 → 5 × 6 → 5 × (2 × 3)
+>
+> So 30 = 2 × 3 × 5
+>
+> It does not matter which pair of factors you start with. Splitting 24 as 8 × 3 or as 2 × 12 leads to exactly the same set of primes.
+
+##### 3.5.2 Using primes to find the Highest Common Factor
+
+The **Highest Common Factor** of two numbers is the largest number that divides exactly into both. Once both numbers are written as products of primes, the HCF is found by taking the primes they have **in common**, each raised to the **lower** of the two powers, and multiplying them.
+
+> **Worked example 5 — finding the HCF**
+>
+> Find the HCF of 24 and 30.
+>
+> 24 = 2 × 2 × 2 × 3
+>
+> 30 = 2 × 3 × 5
+>
+> Primes common to both: one 2 and one 3.
+>
+> HCF = 2 × 3 = **6**
+>
+> Check: 6 divides into 24 (four times) and into 30 (five times), and no larger number does both.
+
+> **Worked example 6 — HCF of three numbers**
+>
+> Find the HCF of 36, 60 and 84.
+>
+> 36 = 2² × 3²
+>
+> 60 = 2² × 3 × 5
+>
+> 84 = 2² × 3 × 7
+
+<!-- page 35 -->
+
+> Common primes: 2 appears at least twice in all three; 3 appears at least once in all three; 5 and 7 do not appear in all three.
+>
+> HCF = 2² × 3 = 4 × 3 = **12**
+
+##### 3.5.3 Solving problems with the HCF
+
+A problem calls for the HCF when something must be **divided into equal parts that are as large as possible**, with nothing left over.
+
+> **Worked example 7 — a real-life HCF problem**
+>
+> Akweley has two pieces of paper. One piece is 24 cm wide and the other is 30 cm wide. She wants to cut both pieces into strips of equal width that are as wide as possible. Find the width she should cut the strips.
+>
+> The width must divide exactly into 24 and into 30 — so it is a **common factor**. She wants the widest possible, so it is the **highest** common factor.
+>
+> From Worked example 5, the HCF of 24 and 30 is 6.
+>
+> She should cut the strips **6 cm** wide.
+>
+> Check: the 24 cm piece gives 24 ÷ 6 = 4 strips, and the 30 cm piece gives 30 ÷ 6 = 5 strips, with no paper wasted.
+
+> **Exam tip 3.2**
+>
+> Read HCF problems for three signals: the parts must be **equal**, there must be **nothing left over**, and the parts must be **as large as possible**. If instead the question asks when two repeating events next coincide, that is the lowest common multiple, not the HCF.
+
+> **Activity 3.2 — Factor trees and the HCF in the classroom**
+>
+> You need: card, scissors, a ruler, coloured pens; two strips of paper of different widths.
+>
+> What to do:
+>
+> 1. Each member of your group chooses a different number between 20 and 100 and draws a factor tree for it, circling every prime endpoint. Write the number as a product of primes in index form.
+>
+> 2. Draw a second tree for the same number, starting with a different pair of factors. Confirm that both trees end with the same primes.
+>
+> 3. Take any two of the group's numbers and find their HCF from the products of primes. Then check your answer by listing all the factors of both numbers.
+>
+> 4. Cut two paper strips, one 24 cm wide and one 30 cm wide. Cut both into equal strips of the greatest possible width with nothing left over, and count how many strips each piece gives.
+>
+> 5. Write your own HCF word problem set in your community, and give it to another group to solve.
+>
+> Record: your factor trees, both products of primes, the HCF with both methods of finding it, the number of strips obtained, and your word problem with its solution.
+>
+> Think about it: in step 2 you started differently and finished the same. Why must that always happen?
+
+> **Apply it — Sharing the harvest**
+>
+> A farmer has 48 mangoes and 72 oranges. She wants to make identical gift baskets, using all the fruit, with no fruit left over and with as many baskets as possible. (a) Express 48 and 72 as products of primes. (b) Find the HCF of 48 and 72. (c) State the greatest number of baskets she can make. (d) Find how many mangoes and how many oranges go into each basket. (e) Give a reason why the answer to (c) is the HCF and not some other common factor.
+
+<!-- page 36 -->
+
+#### Chapter summary
+
+- A repeated factor is the same factor multiplied by itself several times, and index form is the short way of writing it.
+
+- In the power 2⁵, the 2 is the base and the raised 5 is the exponent or index; the exponent counts how many times the base is used as a factor.
+
+\- 2⁵ means 2 × 2 × 2 × 2 × 2 = 32; it does not mean 2 × 5.
+
+- A number raised to the power 2 is squared and to the power 3 is cubed, because these give the area of a square and the volume of a cube.
+
+- Any number built from one repeated factor can be written as a single power; a number built from two different repeated factors is written as a product of powers.
+
+- Any positive natural number raised to the power zero equals 1, because x³ ÷ x³ is both 1 and x⁰.
+
+- A prime number has exactly two factors, itself and 1; the number 1 is not prime.
+
+- Every whole number greater than 1 can be written as a product of primes in only one way, apart from the order.
+
+- A factor tree splits a number repeatedly until every branch ends in a prime.
+
+- The HCF is found by multiplying the primes common to both numbers, each taken to the lower of its two powers.
+
+- A problem needs the HCF when equal parts must be as large as possible with nothing left over.
+
+#### Assessment
+
+> **How this assessment is balanced**
+>
+> Weighted to the NaCCA Mathematics profile dimensions — Knowledge and Understanding 30%, Application of Knowledge 40%, Attitudes, Values and Process Skills 30%. This chapter carries 20 items: 6 tagged [K], 8 tagged [A] and 6 tagged [P].
+>
+> Indicators assessed: B7.1.2.3.1; B7.1.2.3.2; B7.1.2.3.3; B7.1.2.3.4; B7.1.2.3.5
+
+##### Section A — Objective
+
+1.In the power 3⁴, the number 4 is called the… A. base B. factor C. exponent D. product **[K]** 2.A number with exactly two factors, itself and 1, is called a… A. square number B. prime number C. common factor D. power **[K]**
+
+3.The largest factor shared by two numbers is called the… A. lowest common multiple B. highest common factor C. product of primes D. index **[K]**
+
+4.The expression 5 × 5 × 5 written in index form is… A. 3⁵ B. 5 × 3 C. 5³ D. 15 **[K]** 5.A number raised to the power 3 is said to be… A. squared B. cubed C. doubled D. tripled **[K]** 6.The value of any natural number raised to the power zero is… A. 0 B. 1 C. the number itself D. undefined **[K]**
+
+7.Find the value of 2⁵. A. 10 B. 16 C. 25 D. 32 **[A]** 8.Express 81 in index form. A. 3³ B. 3⁴ C. 4³ D. 9³ **[A]** 9.Express 16 × 27 as a product of powers. A. 2³ × 3⁴ B. 2⁴ × 3³ C. 4² × 9³ D. 2⁴ × 3⁴ **[A]**
+
+10. Find the value of 3⁰ + 4⁰. A. 0 B. 1 C. 2 D. 7 **[A]**
+
+##### Section B — Theory and application
+
+1.(a) Explain what is meant by a repeated factor, using 3 × 3 × 3 as your example. (b) State the base and the exponent in 2⁵ and explain what each one tells you. (c) A learner writes 2⁵ = 10. Identify the error and write down the correct value. **[A]**
+
+<!-- page 37 -->
+
+2.(a) Express each of the following in index form: (i) 32 (ii) 81 (iii) 49 (iv) 125. (b) Express 16 × 27 as a product of powers of 2 and 3. (c) Find the value of 2⁴ × 3². **[A]**
+
+3.(a) Show, using division, that 3⁰ = 1. (b) Copy and complete: 2⁴ = 16, 2³ = ____, 2² = ____, 2¹ = ____, 2⁰ = ____, and state the pattern that connects each line to the one above it. (c) Find the value of 2⁴ × 5⁰ × 3². **[A]**
+
+4.(a) Draw factor trees for 24 and 30 and express each as a product of primes. (b) Use your answers to find the HCF of 24 and 30. (c) Akweley has two pieces of paper, one 24 cm wide and the other 30 cm wide, and wishes to cut both into strips of equal width that are as wide as possible with nothing left over. Find the width of the strips and the number of strips obtained from each piece. **[A]**
+
+##### Section C — Attitudes, values and process tasks
+
+1.Model with counters: (a) using counters or bottle tops, build 3 x 3 and then 3 x 3 x 3, recording the value at each stage; (b) repeat for 2 up to 2 x 2 x 2 x 2 x 2; (c) present your results in a table with columns for the repeated multiplication, the index form and the value. (Activity 3.1, steps 1-3) **[P]**
+
+2.Investigate and explain: (a) state how many counters would be needed to model 2⁷; (b) give a reason why modelling powers with counters becomes impractical; (c) state, from your table, whether the increase in value is the same each time the exponent rises by one. (Activity 3.1, steps 3-4) **[P]**
+
+3.Produce a poster showing one power modelled with counters, clearly labelling the base, the exponent and the value. (Activity 3.1, step 5) **[P]**
+
+4.Construct factor trees: (a) choose a number between 20 and 100 and draw its factor tree, circling every prime; (b) draw a second tree for the same number beginning with a different pair of factors; (c) state whether the two trees end with the same primes and give a reason. (Activity 3.2, steps 1-2) **[P]**
+
+5.Find and verify an HCF: (a) using products of primes, find the HCF of two numbers chosen by your group; (b) verify your answer by listing all the factors of both numbers; (c) cut a 24 cm and a 30 cm strip of paper into equal strips of the greatest possible width and record how many strips each piece gives. (Activity 3.2, steps 3-4) **[P]**
+
+6.Compose and exchange: write an HCF word problem set in your own community, give it to another group to solve, and mark their solution against your own. (Activity 3.2, step 5) **[P]**
+
+<!-- page 38 -->
+
+*Strand 1: Number · Sub-Strand 3: Fractions, Decimals and Percentages*
+
+### Chapter 4: Fractions, Decimals and Percentages
+
+> **Curriculum alignment**
+>
+> Strand 1: Number
+>
+> Sub-Strand 3: Fractions, Decimals and Percentages
+>
+> Content standard B7.1.3.1
+>
+> Simplify, compare and order a mixture of positive fractions (i.e. common, percent and decimal) by changing all to equivalent (i) fractions (ii) decimals, or (iii) percentages
+>
+> B7.1.3.1.1 Determine and recall the percentages and decimals of given benchmark fractions (i.e. tenths, fifths, fourths, thirds and halves) and use these to compare quantities
+>
+> B7.1.3.1.2 Compare and order fractions (i.e. common, percent and decimal fractions up to thousandths) limit to the benchmark fractions
+>
+> Content standard B7.1.3.2
+>
+> Demonstrate an understanding of the process of addition and/or subtraction of fractions and apply this in solving problems
+>
+> B7.1.3.2.1 Explain the process of addition and subtraction of two or three unlike and mixed fractions
+>
+> B7.1.3.2.2 Solve problems involving addition or subtraction of fractions
+
+> **Core competences**
+>
+> Creativity and Innovation
+>
+> Critical Thinking and Problem Solving
+>
+> Communication and Collaboration
+>
+> Digital Literacy
+
+#### Learning objectives
+
+By the end of this chapter you can:
+
+- identify the numerator and denominator of a fraction and shade a given fraction of a shape
+
+- write equivalent fractions and express a fraction in its simplest form
+
+- convert between improper fractions and mixed numbers
+
+- recall the decimal and percentage equivalents of the benchmark fractions
+
+- convert between common fractions, decimals and percentages
+
+- compare and order common fractions, decimals and percentages by changing them all to one form
+
+- add and subtract two or three unlike fractions
+
+- add and subtract mixed numbers
+
+- solve word problems involving the addition and subtraction of fractions
+
+> **Key words**
+>
+> Fraction — a number written as one whole number over another, showing parts of a whole.
+>
+> Numerator — the number above the line; how many parts are taken.
+>
+> Denominator — the number below the line; how many equal parts the whole is divided into.
+>
+> Proper fraction — a fraction whose numerator is less than its denominator.
+>
+> Improper fraction — a fraction whose numerator is greater than or equal to its denominator.
+>
+> Mixed number — a whole number together with a proper fraction.
+>
+> Equivalent fractions — different fractions that name the same amount.
+
+<!-- page 39 -->
+
+> Simplest form — a fraction whose numerator and denominator have no common factor except 1.
+>
+> Like fractions — fractions with the same denominator.
+>
+> Unlike fractions — fractions with different denominators.
+>
+> Lowest Common Multiple (LCM) — the smallest number that two or more numbers divide into exactly.
+>
+> Common denominator — a denominator shared by two or more fractions.
+>
+> Decimal fraction — a fraction written with a decimal point, such as 0.375.
+>
+> Percentage — a fraction with denominator 100, written with the symbol %.
+>
+> Ascending order — from smallest to largest.
+>
+> Descending order — from largest to smallest.
+
+> **Engage**
+>
+> A trader offers you a third off. Another offers 30% off. A third says you pay 0.7 of the price. Which is the best deal? You cannot answer while the three offers are wearing different clothes — a third, a percentage and a decimal are not comparable until you change them all into the same form. Doing that, quickly and without error, is one of the most useful skills in this book, and it is what this chapter is for.
+
+#### 4.1 Reviewing fractions
+
+A fraction has two parts. The **denominator** below the line says how many equal parts the whole has been divided into. The **numerator** above the line says how many of those parts are taken. In ⅗ the whole is in five equal parts and three of them are taken.
+
+Two words matter for what follows. A **proper fraction** has a numerator smaller than its denominator, so it is less than 1. An **improper fraction** has a numerator at least as large as its denominator, so it is 1 or more. A **mixed number** is a whole number written beside a proper fraction, such as 2⅗.
+
+![Figure 4.1 Fractions of a shape, equivalent fractions, and a fraction wall.](images/maths-b7-print-ready-p039-fig07.png)
+
+<!-- page 40 -->
+
+##### 4.1.1 Equivalent fractions and simplest form
+
+Multiplying or dividing **both** the numerator and the denominator by the same number does not change the value of a fraction. Fractions related in this way are **equivalent**.
+
+**3/5 = 6/10 = 9/15 = 12/20**
+
+A fraction is in its **simplest form** when the numerator and denominator have no common factor except 1. To simplify, divide both by their highest common factor — which you learned to find in Chapter 3.
+
+> **Worked example 1 — simplifying and converting**
+>
+> (a) Express 6/10 in its simplest form.
+>
+> The HCF of 6 and 10 is 2. Divide both by 2: 6/10 = **3/5** (b) Write three fractions equivalent to 3/5.
+>
+> Multiply top and bottom by 2, 3 and 4: **6/10, 9/15, 12/20** (c) Convert 13/5 to a mixed number.
+>
+> 13 ÷ 5 = 2 remainder 3, so 13/5 = **2 3/5** (d) Convert 2 3/5 to an improper fraction.
+>
+> 2 × 5 = 10, and 10 + 3 = 13, so 2 3/5 = **13/5**
+
+> **Practice 4.1**
+>
+> 1. Draw a rectangle divided into 8 equal parts and shade 5/8 of it.
+>
+> 2. Write three fractions equivalent to: (a) 2/3 (b) 3/4
+>
+> 3. Express in simplest form: (a) 12/18 (b) 25/100 (c) 24/36
+>
+> 4. Convert to mixed numbers: (a) 17/5 (b) 22/7
+>
+> 5. Convert to improper fractions: (a) 3 1/4 (b) 5 2/3
+
+#### 4.2 Benchmark fractions, decimals and percentages
+
+A **percentage** is a fraction with denominator 100. A **decimal** is a fraction whose denominator is a power of ten. So a common fraction, a decimal and a percentage are three ways of writing the same number, and converting between them is simply changing the denominator.
+
+*Table 4.1 — Converting between the three forms.*
+
+| **To convert** | **Method** | **Example** |
+| --- | --- | --- |
+| Fraction → decimal | Divide the numerator by the denominator | 3/8 = 3 ÷ 8 = 0.375 |
+| Decimal → fraction | Write over 10, 100 or 1,000, then simplify | 0.375 = 375/1000 = 3/8 |
+| Fraction → percentage | Multiply by 100 | 3/8 × 100 = 37.5% |
+| Percentage → fraction | Write over 100, then simplify | 37.5% = 375/1000 = 3/8 |
+| Decimal → percentage | Multiply by 100 (move two places left) | 0.375 = 37.5% |
+| Percentage → decimal | Divide by 100 (move two places right) | 37.5% = 0.375 |
+
+The benchmark fractions are worth knowing by heart, as you saw in Chapter 2. Here they are again, arranged so that you can complete the pattern yourself.
+
+*Table 4.2 — The benchmark fractions in all three forms.*
+
+| **Fraction** | **Decimal** | **Percentage** | **Fraction** | **Decimal** | **Percentage** |
+| --- | --- | --- | --- | --- | --- |
+| 1/10 | 0.1 | 10% | 1/2 | 0.5 | 50% |
+| 2/10 = 1/5 | 0.2 | 20% | 3/5 | 0.6 | 60% |
+
+<!-- page 41 -->
+
+| 1/4 | 0.25 | 25% | 2/3 | 0.666… | 66⅔% |
+| --- | --- | --- | --- | --- | --- |
+| 1/3 | 0.333… | 33⅓% | 3/4 | 0.75 | 75% |
+| 2/5 | 0.4 | 40% | 4/5 | 0.8 | 80% |
+
+> **Common misconception 4.1**
+>
+> 38% is **not** 0.38%. Writing the % sign after converting to a decimal says the number twice. Either write 38% or write 0.38 — never 0.38%, which would mean thirty-eight hundredths of one per cent, a number a hundred times smaller.
+
+> **Practice 4.2**
+>
+> 1. Express as decimals: (a) 1/4 (b) 3/5 (c) 7/8 (d) 2/3
+>
+> 2. Express as percentages: (a) 1/2 (b) 3/4 (c) 0.6 (d) 0.125
+>
+> 3. Express as fractions in simplest form: (a) 25% (b) 0.8 (c) 60% (d) 0.375
+>
+> 4. Copy and complete: 1/5 = ____ (decimal) = ____ (percentage)
+>
+> 5. A shop offers 1/4 off, a second offers 20% off and a third offers 0.3 off. State which offer is the largest.
+
+#### 4.3 Comparing and ordering
+
+To compare fractions, decimals and percentages fairly, first write them in the same form. There are two safe methods.
+
+- **Change all to a common denominator.** Find the LCM of the denominators, write each fraction with that denominator, then compare the numerators.
+
+- **Change all to decimals or all to percentages.** Divide each numerator by its denominator, then compare place by place, exactly as in Chapter 1.
+
+For a mixture of common fractions, decimals and percentages, the second method is almost always faster.
+
+> **Worked example 2 — ordering common fractions**
+>
+> Arrange 5/6, 3/4 and 7/8 in descending order.
+>
+> The LCM of 6, 4 and 8 is 24.
+>
+> 5/6 = 20/24, 3/4 = 18/24, 7/8 = 21/24
+>
+> Comparing numerators: 21 > 20 > 18
+>
+> Descending order: **7/8, 5/6, 3/4**
+
+> **Worked example 3 — ordering decimals**
+>
+> (a) State which is greater, 0.99 or 0.977.
+>
+> Compare place by place: tenths 9 = 9; hundredths 9 > 7. So **0.99 > 0.977**.
+>
+> (b) Order 0.098, 0.985 and 0.123 from least to greatest.
+>
+> Tenths: 0 for 0.098, 9 for 0.985, 1 for 0.123.
+>
+> Least to greatest: **0.098, 0.123, 0.985**
+
+> **Common misconception 4.2**
+>
+> 0.977 is not greater than 0.99 just because it has more digits. Extra decimal places do not make a number larger. Compare place by place from the left and stop at the first place where the digits differ.
+
+> **Worked example 4 — ordering a mixture of forms**
+>
+> Order 0.832, 3/8 and 38% from least to greatest.
+
+<!-- page 42 -->
+
+> Change all three to percentages.
+>
+> 0.832 = 83.2%
+>
+> 3/8 = 0.375 = 37.5%
+>
+> 38% stays as 38%
+>
+> Comparing: 37.5% < 38% < 83.2%
+>
+> Least to greatest: **3/8, 38%, 0.832**
+>
+> Note how close 3/8 and 38% are — 0.5% apart. Guessing would very likely have put them the wrong way round.
+
+> **Exam tip 4.1**
+>
+> Always give your final answer in the form the question used. In Worked example 4 the answer is written as 3/8, 38% and 0.832 — not as 37.5%, 38%, 83.2%. Converting is your working; the question asked you to order the original numbers.
+
+> **Activity 4.1 — Building a conversion table and a fraction wall**
+>
+> You need: squared paper, card, scissors, coloured pens, a ruler.
+>
+> What to do:
+>
+> 1. On card, draw seven bars of exactly the same length. Leave the first whole, divide the second into halves, the third into thirds, then quarters, fifths, eighths and tenths. Colour and label every part. This is your fraction wall.
+>
+> 2. Use the wall to find three pairs of equivalent fractions by seeing which parts line up exactly.
+>
+> 3. Copy and complete the tables below by measuring on your wall and by calculating.
+>
+> Common fraction | 1/10 | 1/5 | 2/5 | 3/5 | 4/5
+>
+> Percentage | 10% | A | B | C | D
+>
+> Decimal | 0.1 | 0.2 | E | F | G
+>
+> Common fraction | 1/4 | 1/3 | 1/2 | 2/3 | 3/4
+>
+> Percentage | H | I | 50% | J | K
+>
+> Decimal | L | M | 0.5 | N | O
+>
+> 4. Write eight cards, each carrying one number — some common fractions, some decimals, some percentages. Shuffle them and arrange them in ascending order along a line, converting as you go.
+>
+> 5. Display the wall and the ordered cards in the classroom.
+>
+> Record: your fraction wall, the completed table, your three pairs of equivalent fractions, and the ordered set of eight cards showing the working for each conversion.
+>
+> Think about it: which pairs on your wall lined up exactly, and which were so close that the wall could not settle it? What does that tell you about when a diagram is enough and when you must calculate?
+
+> **Practice 4.3**
+>
+> 1. Arrange in descending order: 5/6, 3/4, 7/8
+>
+> 2. State which is greater: (a) 0.99 or 0.977 (b) 0.4 or 3/8 (c) 65% or 2/3
+>
+> 3. Order from least to greatest: 0.098, 0.985, 0.123
+>
+> 4. Order from least to greatest: 0.832, 3/8, 38%
+>
+> 5. Order from greatest to least: 0.7, 3/4, 72%, 5/8
+
+#### 4.4 Adding and subtracting fractions
+
+Before adding or subtracting fractions, write them with a common denominator. Fifths and thirds are different-sized parts, so change them into same-sized parts before combining, just as you convert units before adding them.
+
+<!-- page 43 -->
+
+The method is always the same:
+
+- Find the **LCM of the denominators** — this is the common denominator.
+
+- Write each fraction as an **equivalent fraction** with that denominator.
+
+- **Add or subtract the numerators**, keeping the denominator unchanged.
+
+- **Simplify** the answer, and convert an improper fraction to a mixed number if the question began with mixed numbers.
+
+> **Worked example 5 — adding unlike fractions**
+>
+> Find 2/5 + 1/3.
+>
+> The LCM of 5 and 3 is 15.
+>
+> 2/5 = 6/15 and 1/3 = 5/15
+>
+> 6/15 + 5/15 = **11/15**
+>
+> The denominator does not change when you add. You are counting fifteenths, and 6 fifteenths plus 5 fifteenths is 11 fifteenths.
+
+> **Worked example 6 — adding mixed numbers**
+>
+> Find 2 2/5 + 1 2/3.
+>
+> Add the whole numbers first, then the fractions.
+>
+> Whole numbers: 2 + 1 = 3
+>
+> Fractions: 2/5 + 2/3. The LCM of 5 and 3 is 15, so 2/5 = 6/15 and 2/3 = 10/15.
+>
+> 6/15 + 10/15 = 16/15 = 1 1/15
+>
+> Total: 3 + 1 1/15 = **4 1/15**
+>
+> The fractions added to more than a whole, so that extra whole was carried into the whole-number part.
+
+> **Worked example 7 — subtracting mixed numbers**
+>
+> Find 8 5/8 − 5 1/3.
+>
+> Whole numbers: 8 − 5 = 3
+>
+> Fractions: 5/8 − 1/3. The LCM of 8 and 3 is 24, so 5/8 = 15/24 and 1/3 = 8/24.
+>
+> 15/24 − 8/24 = 7/24
+>
+> Answer: **3 7/24**
+
+> **Common misconception 4.3**
+>
+> 2/5 + 1/3 is not 3/8. First write the fractions with a common denominator. Check your answer against its size: 2/5 is nearly 1/2 and 1/3 is about one third, so their sum must be greater than 1/2. But 3/8 is less than 1/2, so it cannot be correct.
+
+> **Worked example 8 — a word problem**
+>
+> The Musa family set out to hike to a waterfall approximately 8 5/8 km away. After an hour the waterfall was still 5 1/3 km away. Find how far the family had hiked.
+>
+> Distance hiked = total distance − distance remaining
+>
+> = 8 5/8 − 5 1/3
+>
+> From Worked example 7, this is 3 7/24.
+>
+> The family had hiked **3 7/24 km**.
+
+> **Worked example 9 — a second word problem**
+
+<!-- page 44 -->
+
+> A board is 3 1/4 feet long. A piece 1 1/3 feet long is cut off. Find the length of the remaining part.
+>
+> 3 1/4 − 1 1/3
+>
+> Whole numbers: 3 − 1 = 2
+>
+> Fractions: 1/4 − 1/3. The LCM of 4 and 3 is 12, so 1/4 = 3/12 and 1/3 = 4/12.
+>
+> 3/12 − 4/12 is negative, so borrow one whole from the 2: 2 becomes 1, and 3/12 becomes 15/12.
+>
+> 15/12 − 4/12 = 11/12
+>
+> The remaining part is **1 11/12 feet** long.
+
+> **Exam tip 4.2**
+>
+> When the fraction being subtracted is larger than the one it is taken from, borrow one whole unit and add it to the top fraction as a full set of that denominator — one whole is 12/12 when you are working in twelfths. Do not simply take the smaller from the larger and hope.
+
+> **Apply it — The water tank**
+>
+> A tank is 3/4 full at the start of the day. During the morning 1/3 of the full tank is drawn off, and in the afternoon 1/6 of the full tank is added. (a) Find the fraction of the tank remaining after the morning. (b) Find the fraction of the tank that is full at the end of the day. (c) The tank holds 480 litres when full; find the volume of water in it at the end of the day. (d) Two learners add 1/3 and 1/6 and obtain 2/9. Identify their error and give the correct sum.
+
+> **Activity 4.2 — Fraction problems from the community**
+>
+> You need: a notebook; access to a market, a farm or a household.
+>
+> What to do:
+>
+> 1. Collect four real situations from your community in which fractions are used — a measure of cloth, a share of a harvest, a portion of a wall painted, a part of a journey completed.
+>
+> 2. Turn each into a word problem requiring addition or subtraction of unlike fractions or mixed numbers.
+>
+> 3. Write the full solution to each, showing the common denominator and every step.
+>
+> 4. Exchange problems with another group, solve theirs, and compare answers.
+>
+> 5. Investigate: if you add two fractions and the sum is greater than 1/2, what can you say about the two fractions? Test at least six pairs before writing your conclusion.
+>
+> Record: your four problems with full solutions, the four you solved, and your written conclusion to step 5 with the pairs you tested.
+>
+> Think about it: in step 5, did you find a pair where both fractions were less than 1/4? What does that tell you about the conclusion you reached?
+
+#### Chapter summary
+
+- The denominator says how many equal parts the whole is divided into; the numerator says how many are taken.
+
+- Multiplying or dividing both numerator and denominator by the same number gives an equivalent fraction.
+
+- A fraction is in simplest form when the numerator and denominator have no common factor except 1; divide both by their HCF.
+
+- An improper fraction converts to a mixed number by dividing; a mixed number converts back by multiplying the whole number by the denominator and adding the numerator.
+
+- A percentage is a fraction with denominator 100 and a decimal is a fraction with a denominator that is a power of ten, so all three forms are the same number written differently.
+
+<!-- page 45 -->
+
+- To compare a mixture of fractions, decimals and percentages, change them all to one form first — usually percentages or decimals.
+
+- More decimal places do not make a decimal larger; compare place by place from the left.
+
+- Before adding or subtracting fractions, write them as equivalent fractions with a common denominator. Find the LCM, then add or subtract the numerators and keep the denominator.
+
+- Adding numerators and denominators separately is always wrong: 2/5 + 1/3 is 11/15, not 3/8.
+
+- With mixed numbers, deal with the whole numbers and the fractions separately, carrying or borrowing a whole unit where necessary.
+
+- Give the final answer in the form the question used.
+
+#### Assessment
+
+> **How this assessment is balanced**
+>
+> Weighted to the NaCCA Mathematics profile dimensions — Knowledge and Understanding 30%, Application of Knowledge 40%, Attitudes, Values and Process Skills 30%. This chapter carries 20 items: 6 tagged [K], 8 tagged [A] and 6 tagged [P].
+>
+> Indicators assessed: B7.1.3.1.1; B7.1.3.1.2; B7.1.3.2.1; B7.1.3.2.2
+
+##### Section A — Objective
+
+1.The number below the line in a fraction is called the… A. numerator B. denominator C. quotient D. multiple **[K]**
+
+2.A fraction whose numerator is greater than its denominator is called… A. proper B. improper C. equivalent D. simplest **[K]**
+
+3.A percentage is a fraction with denominator… A. 10 B. 100 C. 1,000 D. any number **[K]** 4.Fractions that name the same amount are said to be… A. like B. unlike C. equivalent D. mixed **[K]** 5.A whole number written beside a proper fraction is called a… A. mixed number B. improper fraction C. decimal fraction D. common factor **[K]**
+
+6.Expressed as a percentage, 3/4 is… A. 34% B. 43% C. 75% D. 80% **[K]** 7.Express 6/10 in its simplest form. A. 2/5 B. 3/5 C. 3/10 D. 6/5 **[A]** 8.Convert 13/5 to a mixed number. A. 2 1/5 B. 2 3/5 C. 3 2/5 D. 5 3/13 **[A]** 9.Which of the following is greater? A. 0.977 B. 0.99 C. they are equal D. cannot be determined **[A]**
+
+10. Arrange 0.098, 0.985 and 0.123 from least to greatest. A. 0.098, 0.123, 0.985 B. 0.098, 0.985, 0.123 C. 0.123, 0.098, 0.985 D. 0.985, 0.123, 0.098 **[A]**
+
+##### Section B — Theory and application
+
+1.(a) Express 6/10 in its simplest form. (b) Write three fractions equivalent to 3/5. (c) Convert 13/5 to a mixed number. (d) Convert 2 3/5 to an improper fraction. (e) Shade 5/8 of a rectangle divided into eight equal parts. **[A]**
+
+2.Copy and complete the tables below. Common fraction | 1/10 | 1/5 | 2/5 | 3/5 | 4/5 Percentage | 10% | A | B | C | D Decimal | 0.1 | 0.2 | E | F | G Common fraction | 1/4 | 1/3 | 1/2 | 2/3 | 3/4 Percentage | H | I | 50% | J | K Decimal | L | M | 0.5 | N | O [A]
+
+<!-- page 46 -->
+
+3.(a) Arrange 5/6, 3/4 and 7/8 in descending order, showing the common denominator used. (b) State which is greater, 0.99 or 0.977, and give a reason. (c) Order 0.832, 3/8 and 38% from least to greatest, showing how you converted them. **[A]**
+
+4.(a) Find 2 2/5 + 1 2/3. (b) The Musa family set out to hike to a waterfall 8 5/8 km away. After an hour the waterfall was still 5 1/3 km away; find how far they had hiked. (c) A piece 1 1/3 feet long is cut from a board 3 1/4 feet long; find the length remaining. (d) A learner writes 2/5 + 1/3 = 3/8. Identify the error and give the correct answer. **[A]**
+
+##### Section C — Attitudes, values and process tasks
+
+1.Construct a fraction wall: (a) draw seven bars of equal length divided into one whole, halves, thirds, quarters, fifths, eighths and tenths, and label every part; (b) use the wall to find three pairs of equivalent fractions; (c) state one pair the wall could not settle and give a reason. (Activity 4.1, steps 1-2) **[P]**
+
+2.Complete the conversion table in Activity 4.1 step 3 by measuring on your wall and by calculating, and state which entries the wall alone could not give. (Activity 4.1, step 3) **[P]**
+
+3.Order a mixed set: (a) write eight cards carrying common fractions, decimals and percentages; (b) arrange them in ascending order along a line, showing the conversion working for each; (c) display the ordered set. (Activity 4.1, steps 4-5) **[P]**
+
+4.Collect and compose: gather four real situations from your community in which fractions are used, and turn each into a word problem requiring addition or subtraction of unlike fractions or mixed numbers. (Activity 4.2, steps 1-2) **[P]**
+
+5.Solve and exchange: write the full solution to each of your four problems showing the common denominator, then exchange with another group, solve theirs and compare answers. (Activity 4.2, steps 3- 4) **[P]**
+
+6.Investigate: test at least six pairs of fractions whose sum is greater than 1/2, record each pair and its sum in a table, and write a conclusion stating what can be said about two such fractions. (Activity 4.2, step 5) **[P]**
+
+<!-- page 47 -->
+
+*Strand 1: Number · Sub-Strand 3: Fractions, Decimals and Percentages*
+
+### Chapter 5: Multiplying and Dividing Fractions
+
+> **Curriculum alignment**
+>
+> Strand 1: Number
+>
+> Sub-Strand 3: Fractions, Decimals and Percentages
+>
+> Content standard B7.1.3.3
+>
+> Demonstrate an understanding of the process of multiplying and dividing positive fractions and apply this in solving problems
+>
+> B7.1.3.3.1 Explain the process of multiplying a fraction (i.e. common, percent and decimal fractions up to thousandths) by a whole number and by a fraction
+>
+> B7.1.3.3.2 Find a fraction of given quantity (i.e. money or given quantity of objects)
+>
+> B7.1.3.3.3 Explain the process of dividing a fraction (i.e. common, percent and decimal fractions up to thousandths) by a 1-digit whole number and by a fraction
+>
+> B7.1.3.3.4 Determine the result of dividing a quantity (i.e. money or objects) or a fraction by a fraction
+
+> **Core competences**
+>
+> Critical Thinking and Problem Solving
+>
+> Digital Literacy
+
+#### Learning objectives
+
+By the end of this chapter you can:
+
+- explain what it means to multiply a whole number by a fraction
+
+- multiply common, decimal and percentage fractions by a whole number and by another fraction
+
+- explain why the word 'of' means multiply
+
+- find a fraction of a quantity of money or of objects
+
+- state the reciprocal of a fraction and of a whole number
+
+- explain what it means to divide by a fraction
+
+- divide common, decimal and percentage fractions by a one-digit whole number and by a fraction
+
+- divide a quantity by a fraction
+
+- solve word problems involving the multiplication and division of fractions
+
+> **Key words**
+>
+> Product — the answer to a multiplication.
+>
+> Quotient — the answer to a division.
+>
+> Dividend — the number being divided.
+>
+> Divisor — the number you are dividing by.
+>
+> Reciprocal — the fraction turned upside down; the number you multiply by to get 1.
+>
+> Of — in fraction work, 'of' means multiply.
+>
+> Cancelling — dividing a numerator and a denominator by a common factor before multiplying.
+>
+> Improper fraction — a fraction whose numerator is at least as large as its denominator.
+>
+> Mixed number — a whole number written beside a proper fraction.
+>
+> Simplest form — a fraction whose numerator and denominator share no factor except 1.
+
+_[answer space — 2 lines]_
+
+**Engage**
+
+<!-- page 48 -->
+
+> Ask the class what 3 ÷ 1/4 means. Some learners may expect an answer smaller than 3. Let us check with oranges: cut three oranges into quarters and count the pieces. There are 12 quarters. So the question is, “How many quarters are there in 3?” When you see it this way, the rule for dividing by a fraction makes sense.
+
+#### 5.1 Multiplying a fraction by a whole number
+
+Multiplication by a whole number means **repeated addition**, and that meaning does not change when fractions are involved. So 3 × 2/3 means three groups of 2/3.
+
+**3 × 2/3 = 2/3 + 2/3 + 2/3 = 6/3 = 2**
+
+Writing it as repeated addition works but is slow. The quicker method has three steps, and they apply to every multiplication of fractions in this chapter.
+
+- **Change everything into a common fraction.** A whole number 3 becomes 3/1; a mixed number 2 1/3 becomes 7/3.
+
+- **Multiply the numerators together and the denominators together.**
+
+- **Simplify the result,** converting back to a mixed number if the question began with one.
+
+> **Worked example 1 — a whole number times a fraction**
+>
+> Find (a) 3 × 2/3 (b) 15 × 2/3 (c) 12 × 3/8 (a) 3 × 2/3 = 3/1 × 2/3 = (3 × 2)/(1 × 3) = 6/3 = **2** (b) 15 × 2/3 = 15/1 × 2/3 = 30/3 = **10** (c) 12 × 3/8 = 12/1 × 3/8 = 36/8 = **4 1/2**
+
+##### 5.1.1 Cancelling before you multiply
+
+You may divide a numerator and a denominator by a common factor **before** multiplying. This is called cancelling, and it keeps the numbers small.
+
+> **Worked example 2 — cancelling first**
+>
+> Find 12 × 3/8.
+>
+> 12/1 × 3/8 — the 12 and the 8 share a factor of 4.
+>
+> 12 ÷ 4 = 3 and 8 ÷ 4 = 2, so the multiplication becomes 3/1 × 3/2 = 9/2 = **4 1/2** The same answer as Worked example 1(c), reached without ever handling 36 or 8.
+>
+> Decimal and percentage fractions work the same way. First write each one as a common fraction. For example, 0.6 × 3/4 = 3/5 × 3/4 = 9/20 = 0.45, and 25% × 3/5 = 1/4 × 3/5 = 3/20 = 0.15. To multiply by a whole number, write the whole number over 1: 0.375 × 8 = 3 and 25% × 80 = 20.
+
+> **Practice 5.1**
+>
+> 1. Find: (a) 4 × 3/5 (b) 6 × 2/3 (c) 10 × 3/4 (d) 9 × 5/6
+>
+> 2. Find, cancelling first: (a) 15 × 4/5 (b) 20 × 3/8 (c) 24 × 5/6
+>
+> 3. Find: (a) 2/3 × 3/4 (b) 5/8 × 4/15 (c) 3/7 × 14/9
+>
+> 4. Find: (a) 1 1/2 × 2/3 (b) 2 1/4 × 1 1/3
+>
+> 5. A tank holds 3/5 of a litre. Find the total volume of 25 such tanks.
+>
+> 6. Find: (a) 0.375 × 8 (b) 0.6 × 3/4 (c) 25% × 80 (d) 25% × 3/5
+
+<!-- page 49 -->
+
+#### 5.2 Finding a fraction of a quantity
+
+When a fraction is applied to a quantity, the multiplication is read as **of** rather than as "times". The two words mean the same operation.
+
+**2/3 of GH₵60 = 2/3 × GH₵60 = (2 × 60)/3 = 120/3 = GH₵40**
+
+This is one of the most useful pieces of mathematics in daily life. Discounts, shares of a harvest, portions of a class, commissions and taxes are all a fraction of a quantity.
+
+> **Worked example 3 — a fraction of money**
+>
+> Find 2/3 of GH₵60.
+>
+> 2/3 × 60/1 = (2 × 60)/(3 × 1) = 120/3 = **GH₵40** Or cancel first: 60 ÷ 3 = 20, so the answer is 2 × 20 = GH₵40.
+
+> **Worked example 4 — a fraction of a group**
+>
+> There are 132 learners in a class. If 2/3 of the learners are girls, find how many boys are in the class.
+>
+> Girls = 2/3 of 132 = (2 × 132)/3 = 264/3 = 88
+>
+> Boys = 132 − 88 = **44**
+>
+> Alternative method: if 2/3 are girls then 1/3 are boys, so boys = 1/3 of 132 = 44. ✓ Two methods agreeing is a good check.
+
+![Figure 5.1 Multiplying and dividing by a fraction, seen as pictures.](images/maths-b7-print-ready-p049-fig08.png)
+
+> **Practice 5.2**
+>
+> 1. Find: (a) 3/4 of GH₵80 (b) 2/5 of 45 kg (c) 5/8 of 96 m
+>
+> 2. There are 132 learners in a class and 2/3 are girls. Find the number of boys.
+>
+> 3. A farmer harvests 240 mangoes and sells 3/8 of them. Find the number sold and the number remaining.
+>
+> 4. Find 3/4 of 2/5 of 200.
+>
+> 5. A trader gives 1/5 off a shirt priced GH₵75. Find the amount taken off and the new price.
+
+<!-- page 50 -->
+
+#### 5.3 Dividing by a fraction
+
+Dividing by a fraction asks a question you can picture: **how many of the divisor are there in the dividend?**
+
+So 3 ÷ 1/4 asks how many quarters there are in 3. Cut three oranges into quarters and count: there are 12. Notice that the answer is **larger** than 3 — dividing by a number smaller than 1 always gives a larger result, which is the opposite of what most learners expect.
+
+##### 5.3.1 The reciprocal
+
+The **reciprocal** of a fraction is that fraction turned upside down. The reciprocal of 1/4 is 4/1, which is 4. The reciprocal of 3/5 is 5/3. The reciprocal of a whole number 3 is 1/3, because 3 is 3/1.
+
+A number multiplied by its reciprocal always gives 1: 3/5 × 5/3 = 15/15 = 1. That is what makes the division rule work.
+
+**to divide by a fraction, multiply by its reciprocal**
+
+This rule also works with decimal and percentage fractions. Change them to common fractions first. For
+
+example, 0.375 ÷ 3 = 3/8 ÷ 3 = 3/8 × 1/3 = 1/8 = 0.125. Also, 25% ÷ 1/2 = 1/4 × 2 = 1/2 = 50%, and 0.375 ÷
+
+3/4 = 3/8 × 4/3 = 1/2.
+
+> **Worked example 5 — dividing a whole number by a fraction**
+>
+> Find (a) 3 ÷ 1/4 (b) 5 ÷ 1/3 (c) 8 ÷ 2/5 (a) 3 ÷ 1/4 = 3/1 × 4/1 = 12/1 = **12**
+>
+> Check by picturing: there are 12 quarters in 3 wholes. ✓ (b) 5 ÷ 1/3 = 5/1 × 3/1 = **15** (c) 8 ÷ 2/5 = 8/1 × 5/2 = 40/2 = **20**
+
+> **Worked example 6 — dividing a fraction by a fraction**
+>
+> Find (a) 3/4 ÷ 1/2 (b) 5/8 ÷ 1/2 (c) 2/3 ÷ 4/9 (a) 3/4 ÷ 1/2 = 3/4 × 2/1 = 6/4 = **1 1/2**
+>
+> Check: how many halves are there in three quarters? One and a half. ✓ (b) 5/8 ÷ 1/2 = 5/8 × 2/1 = 10/8 = **1 1/4** (c) 2/3 ÷ 4/9 = 2/3 × 9/4 = 18/12 = **1 1/2**
+
+> **Common misconception 5.1**
+>
+> "Dividing always makes a number smaller." It does not. Dividing by a number **less than 1** makes the answer larger, because you are asking how many small pieces fit into the whole — and many small pieces fit. Dividing by a number greater than 1 makes it smaller, as usual.
+
+> **Exam tip 5.1**
+>
+> Turn only the **divisor** upside down, never the dividend. In 3/4 ÷ 1/2 it is the 1/2 that becomes 2/1; the 3/4 stays exactly as it is. Write the multiplication out fully before you cancel, and the error becomes almost impossible.
+
+> **Practice 5.3**
+>
+> 1. Write down the reciprocal of: (a) 3/7 (b) 5 (c) 1/8 (d) 2 1/2
+>
+> 2. Find: (a) 4 ÷ 1/3 (b) 6 ÷ 2/5 (c) 10 ÷ 1/4
+
+<!-- page 51 -->
+
+> 3. Find: (a) 3/4 ÷ 1/2 (b) 5/8 ÷ 1/4 (c) 4/9 ÷ 2/3
+>
+> 4. Find: (a) 2 1/2 ÷ 1/2 (b) 3 1/3 ÷ 2/3
+>
+> 5. Explain, using a diagram, why 2 ÷ 1/4 = 8.
+>
+> 6. Find: (a) 0.375 ÷ 3 (b) 0.375 ÷ 3/4 (c) 25% ÷ 1/2
+
+#### 5.4 Dividing a quantity by a fraction
+
+The same rule applies when you divide a measured or counted quantity by a fraction.
+
+> **Worked example 7 — how many plates?**
+>
+> A set of stacked plates for serving snacks at a party weighs 10 kg. If each plate in the stack weighs 1/4 kg, find how many plates are in the stack.
+>
+> The question asks how many quarter-kilograms there are in 10 kg.
+>
+> 10 ÷ 1/4 = 10/1 × 4/1 = **40 plates**
+>
+> Check: 40 plates at 1/4 kg each is 40 × 1/4 = 10 kg. ✓
+
+> **Worked example 8 — sharing juice**
+>
+> A class was given 9 1/2 litres of fruit juice to share equally. If there are 38 learners in the class, find how many millilitres of juice each learner receives.
+>
+> First convert: 9 1/2 litres = 19/2 litres.
+>
+> Each learner gets 19/2 ÷ 38 = 19/2 × 1/38 = 19/76 = 1/4 litre.
+>
+> 1/4 litre = 1/4 × 1,000 = **250 ml**
+>
+> Check: 38 × 250 ml = 9,500 ml = 9.5 litres. ✓
+
+> **Worked example 9 — working backwards from a fraction**
+>
+> In a Primary 5 class, 1/3 of the learners are 10 years old. There are twelve 10-year-old learners. Find how many learners are in the class.
+>
+> Let the number of learners be n. Then 1/3 of n = 12.
+>
+> n = 12 ÷ 1/3 = 12/1 × 3/1 = **36 learners**
+>
+> Check: 1/3 of 36 = 12. ✓
+>
+> Notice the shape of this problem — you are given the part and the fraction and asked for the whole, so you **divide** by the fraction. When you are given the whole and asked for the part, you multiply.
+
+> **Exam tip 5.2**
+>
+> Decide which of the three quantities — whole, fraction, part — the question gives you. Given the whole and the fraction, multiply. Given the part and the fraction, divide. Writing down which one is missing before you calculate prevents the commonest error in this topic.
+
+> **Activity 5.1 — Cutting, sharing and counting**
+>
+> You need: several oranges or a large fruit, a knife (used only by your teacher), a measuring jug, water, a balance if available, strips of paper, scissors, a ruler.
+>
+> What to do:
+>
+> 1. Take three paper strips of equal length. Cut each into quarters and count the total number of pieces. Write down the division this models and its answer.
+>
+> 2. Repeat with fifths and with halves. Record each as a division statement.
+>
+> 3. Have your teacher cut two oranges into quarters. Count the quarters and confirm your answer to 2 ÷ 1/4.
+>
+> 4. Measure 1 1/2 litres of water into a jug. Using a 1/4-litre cup, find by pouring how many cupfuls it gives. Write this as a
+
+<!-- page 52 -->
+
+> division and check it by calculation.
+>
+> 5. Weigh or estimate a stack of identical objects, then work out how many are in the stack from the total mass and the mass of one.
+>
+> Record: a table with columns for the division statement, your practical answer and your calculated answer, for every case in steps 1 to 5.
+>
+> Think about it: in every case the answer was larger than the number you started with. Explain why, in one sentence, using the idea of 'how many go into'.
+
+> **Apply it — The tailor's cloth**
+>
+> A tailor buys 12 1/2 metres of cloth. Each school uniform needs 5/8 of a metre. (a) Find the number of uniforms she can make. (b) She sells each uniform for GH₵45; find her total takings if she sells them all. (c) The cloth cost her GH₵300; find her profit. (d) She is offered a second roll at a discount of 1/5 off GH₵300; find the discounted price. (e) A learner works out (a) by calculating 12 1/2 × 5/8. Explain why this is wrong and state what that calculation would actually find.
+
+#### Chapter summary
+
+- Multiplying by a whole number is repeated addition, and this meaning still holds when fractions are involved.
+
+- To multiply common, decimal and percentage fractions, write them as common fractions first. Multiply the numerators and denominators, then simplify.
+
+- A whole number n is written as n/1 and a mixed number must be changed to an improper fraction before multiplying.
+
+- Cancelling a common factor from a numerator and a denominator before multiplying keeps the numbers small.
+
+- In fraction work the word 'of' means multiply: 2/3 of GH₵60 is 2/3 × 60 = GH₵40.
+
+- The reciprocal of a fraction is that fraction turned upside down, and a number multiplied by its reciprocal gives 1.
+
+- Dividing by a fraction asks how many of the divisor are contained in the dividend.
+
+- To divide by a fraction, multiply by its reciprocal — turning over the divisor only. Change decimal and percentage fractions to common fractions first.
+
+- Dividing by a number less than 1 gives an answer larger than the dividend.
+
+- Given the whole and the fraction, multiply to find the part; given the part and the fraction, divide to find the whole.
+
+#### Assessment
+
+> **How this assessment is balanced**
+>
+> Weighted to the NaCCA Mathematics profile dimensions — Knowledge and Understanding 30%, Application of Knowledge 40%, Attitudes, Values and Process Skills 30%. This chapter carries 20 items: 6 tagged [K], 8 tagged [A] and 6 tagged [P].
+>
+> Indicators assessed: B7.1.3.3.1; B7.1.3.3.2; B7.1.3.3.3; B7.1.3.3.4
+
+##### Section A — Objective
+
+1.The answer to a division is called the… A. product B. quotient C. dividend D. divisor **[K]** 2.The fraction turned upside down is called its… A. equivalent B. simplest form C. reciprocal D. multiple **[K]**
+
+3.In fraction work, the word 'of' means… A. add B. subtract C. multiply D. divide **[K]**
+
+<!-- page 53 -->
+
+4.The reciprocal of 3/7 is… A. 3/7 B. 7/3 C. −3/7 D. 1/21 **[K]** 5.The number you are dividing by is called the… A. dividend B. divisor C. quotient D. numerator **[K]** 6.Dividing a number by a fraction less than 1 gives an answer that is… A. always smaller B. always larger C. always equal D. sometimes zero **[K]**
+
+7.Find 15 × 2/3. A. 10 B. 15 C. 22 D. 30 **[A]** 8.Find 2/3 of GH₵60. A. GH₵20 B. GH₵40 C. GH₵90 D. GH₵120 **[A]** 9.There are 132 learners in a class and 2/3 are girls. Find the number of boys. A. 22 B. 44 C. 66 D. 88 **[A]**
+
+10. Find 3 ÷ 1/4. A. 3/4 B. 4/3 C. 7 D. 12 **[A]**
+
+##### Section B — Theory and application
+
+1.(a) Explain, using repeated addition, what 3 × 2/3 means and find its value. (b) Find 15 × 2/3 and 12 × 3/8, cancelling before you multiply. (c) Find 2 1/4 × 1 1/3. **[A]**
+
+2.(a) Find 2/3 of GH₵60. (b) There are 132 learners in a class and 2/3 of them are girls; find the number of boys, using two different methods. (c) A farmer harvests 240 mangoes and sells 3/8 of them; find the number remaining. **[A]**
+
+3.(a) Write down the reciprocal of 3/7, of 5 and of 2 1/2. (b) Find 3 ÷ 1/4 and explain, using a diagram or in words, why the answer is greater than 3. (c) Find 5/8 ÷ 1/4 and 2/3 ÷ 4/9. **[A]**
+
+4.(a) A stack of plates weighs 10 kg and each plate weighs 1/4 kg; find the number of plates in the stack. (b) A class of 38 learners shares 9 1/2 litres of juice equally; find, in millilitres, the amount each learner receives. (c) One third of the learners in a class are 10 years old and there are twelve such learners; find the number of learners in the class. **[A]**
+
+##### Section C — Attitudes, values and process tasks
+
+1.Model division by cutting: (a) cut three paper strips of equal length into quarters and count the pieces; (b) write down the division this models together with its answer; (c) repeat for fifths and for halves, recording each as a division statement. (Activity 5.1, steps 1-2) **[P]**
+
+2.Verify practically: (a) using two oranges cut into quarters, confirm your answer to 2 ÷ 1/4; (b) state whether the practical count and the calculation agree. (Activity 5.1, step 3) **[P]**
+
+3.Measure and divide: using a measuring jug and a quarter-litre cup, find by pouring how many cupfuls are contained in 1 1/2 litres, write the result as a division and check it by calculation. (Activity 5.1, step 4) **[P]**
+
+4.Weigh and calculate: find the total mass of a stack of identical objects and the mass of one object, then calculate how many are in the stack and check by counting. (Activity 5.1, step 5) **[P]**
+
+5.Tabulate and conclude: present all your results in a table with columns for the division statement, the practical answer and the calculated answer, and write one sentence explaining why every answer was larger than the number you began with. (Activity 5.1, record and think about it) **[P]**
+
+6.Compose and exchange: write two word problems from your own community, one requiring a fraction of a quantity and one requiring division by a fraction, solve them in full, then exchange with another group and mark their solutions. **[P]**
+
+<!-- page 54 -->
+
+*Strand 1: Number · Sub-Strand 4: Number: Ratios and Proportion*
+
+### Chapter 6: Ratio, Rate and Proportion
+
+> **Curriculum alignment**
+>
+> Strand 1: Number
+>
+> Sub-Strand 4: Number: Ratios and Proportion
+>
+> Content standard B7.1.4.1
+>
+> Demonstrate an understanding of the concept of ratios and its relationship to fractions and use it to solve problems that involve rates, ratios, and proportional reasoning
+>
+> B7.1.4.1.1 Find ratio and use ratio language to describe relationship between two quantities
+>
+> B7.1.4.1.2 Use the concept of a unit rate associated with a ratio a:b a with b ≠ 0, and use rate language in the context of a ratio b relationship
+>
+> B7.1.4.1.3 Make tables of equivalent ratios (written as common fractions) relating quantities that are proportional.
+>
+> Kafui, Adoley and Jantuah shared an amount of money in the ratio of
+>
+> B7.1.4.1.4 Use the proportional reasoning to find missing values in the tables, and plot pairs of values on the coordinate plane. Find the missing value marked x in a table of equivalent ratios
+>
+> B7.1.4.1.5 Find a percent of a quantity as a rate per 100 (e.g. 30% of a 6 3 3 3 quantity means times the quantity). i. A salesman gets paid 35% commissions. How much commission does he make on sales of GH₵700? ii. Yaw paid GH₵80 for a shirt that was on sale at a discount of 20%. What was the original price? iii. A cell phone which regularly sells for GH₵450 is on sale for 40% off. How much would you pay for the phone? iv. A woman put GH₵520 into a savings account for one year. The rate of interest on the account was 6%. How much was the interest for the year?
+
+> **Core competences**
+>
+> Communication and Collaboration
+>
+> Critical Thinking and Problem Solving
+
+#### Learning objectives
+
+By the end of this chapter you can:
+
+- find the ratio of two quantities and express it in its simplest form
+
+- use ratio language to describe the relationship between two quantities
+
+- explain the connection between a ratio and a fraction
+
+- find the unit rate associated with a ratio and use rate language
+
+- make tables of equivalent ratios
+
+- use proportional reasoning to find a missing value in a table of equivalent ratios
+
+- plot pairs of values from a table of equivalent ratios on the coordinate plane
+
+- share a quantity in a given ratio
+
+- find a percentage of a quantity as a rate per hundred
+
+- solve problems involving commission, discount, interest and the original price
+
+> **Key words**
+>
+> Ratio — a comparison of two or more quantities of the same kind, written a : b.
+>
+> Simplest form of a ratio — a ratio whose terms have no common factor except 1.
+>
+> Term of a ratio — one of the numbers in the ratio.
+>
+> Rate — a comparison of two quantities of different kinds, such as km per hour.
+>
+> Unit rate — a rate expressed for one unit of the second quantity.
+
+<!-- page 55 -->
+
+> Equivalent ratios — ratios that describe the same relationship, such as 2 : 3 and 4 : 6.
+>
+> Proportion — a statement that two ratios are equal.
+>
+> Proportional reasoning — using the equality of two ratios to find a missing value.
+>
+> Coordinate plane — a grid with a horizontal and a vertical axis, used for plotting pairs of values.
+>
+> Percentage — a rate per hundred.
+>
+> Commission — a payment calculated as a percentage of the value of goods sold.
+>
+> Discount — an amount taken off the marked price, usually given as a percentage.
+>
+> Original price — the price before a discount is applied.
+>
+> Principal — the amount of money invested or borrowed.
+>
+> Interest — the money paid for the use of a principal, usually a percentage of it per year.
+
+> **Engage**
+>
+> Two shops sell the same rice. One offers 5 kg for GH₵60, the other 8 kg for GH₵92. Which is better value? The prices cannot be compared and neither can the masses — only the \*relationship between them\* can. Work out what one kilogram costs in each shop and the answer appears immediately. That single move, reducing a comparison to one unit, is what ratio and rate are for, and it settles more everyday arguments than almost anything else in this book.
+
+#### 6.1 Ratio
+
+A **ratio** compares two quantities of the same kind. It is written with a colon, so a ratio of 1 to 2 is written 1 : 2 and read "one to two".
+
+Because both quantities are of the same kind, a ratio has **no units**. It tells you how the sizes compare, not how big they are.
+
+> **Worked example 1 — finding a ratio**
+>
+> There are 60 boys and 120 girls in a school. Find the ratio of boys to girls.
+>
+> Ratio of boys to girls = 60 : 120
+>
+> Divide both terms by their HCF, which is 60:
+>
+> 60 : 120 = **1 : 2**
+>
+> So for every 1 boy there are 2 girls. Note the order — the ratio of girls to boys would be 2 : 1.
+
+A ratio is closely related to a fraction. If boys and girls are in the ratio 1 : 2, then there are 3 equal parts altogether, so boys are 1/3 of the school and girls are 2/3. The ratio compares the parts with **each other**; the fraction compares each part with the **whole**.
+
+**boys : girls = 1 : 2 boys = 1/3 of the school girls = 2/3 of the school**
+
+##### 6.1.1 Ratio language
+
+A ratio can be described in ordinary words, and being able to move between the two is part of understanding it.
+
+*Table 6.1 — Ratios described in words.*
+
+| **Situation** | **Ratio** | **Said in words** |
+| --- | --- | --- |
+| 2 wings for every 1 beak in a bird house | wings : beaks = 2 : 1 | There are twice as many wings as beaks |
+| Musa is 25 and his father Alhasan is 50 | Musa : Alhasan = 25 : 50 = 1 : 2 | Alhasan is twice as old as Musa; Musa is half his father's age |
+| 3 cups of flour to 4 cups of sugar | flour : sugar = 3 : 4 | For every 3 cups of flour there are 4 cups of sugar |
+
+<!-- page 56 -->
+
+_[answer space — 2 lines]_
+
+60 boys and 120 girls
+
+boys : girls = 1 : 2
+
+For every boy there are two girls
+
+> **Common misconception 6.1**
+>
+> If boys and girls are in the ratio 1 : 2, boys are **not** half the school. The ratio has 1 + 2 = 3 parts, so boys are one third.
+>
+> Confusing a ratio with a fraction of the whole is the most frequent error in this topic — always add the terms first to find how many parts there are.
+
+> **Practice 6.1**
+>
+> 1. Express in simplest form: (a) 12 : 18 (b) 25 : 100 (c) 45 : 27 (d) 8 : 24 : 32
+>
+> 2. There are 60 boys and 120 girls in a school. Write down (a) the ratio of boys to girls, (b) the ratio of girls to boys, (c) the fraction of the school that is boys.
+>
+> 3. In a bird house the ratio of wings to beaks is 2 : 1. Explain what this means in words.
+>
+> 4. Alhasan is 50 years old and his son Musa is 25. Write the ratio of Musa's age to Alhasan's age in its simplest form and describe it in two different sentences.
+>
+> 5. A recipe uses 3 cups of flour to 4 cups of sugar. Find the fraction of the mixture that is flour.
+
+#### 6.2 Rate and unit rate
+
+A **rate** compares two quantities of **different** kinds — distance and time, cost and mass, work and minutes. Unlike a ratio, a rate has units, and the word **per** almost always signals one.
+
+A **unit rate** gives the amount for exactly one of the second quantity. It is found by dividing the first quantity by the second, and it is the single most useful form of a rate because it makes any two rates directly comparable.
+
+> **Worked example 2 — finding unit rates**
+>
+> (a) A recipe has a ratio of 3 cups of flour to 4 cups of sugar. Find the number of cups of flour for each cup of sugar.
+>
+> 3 ÷ 4 = **3/4 cup of flour per cup of sugar** (b) Aisha polishes 8 square yards of floor tiles every 7 minutes. Find the rate in square yards per minute.
+>
+> 8 ÷ 7 = **8/7 square yards per minute**, or 1 1/7 square yards per minute (c) One shop sells 5 kg of rice for GH₵60 and another sells 8 kg for GH₵92. Find which is better value.
+>
+> First shop: 60 ÷ 5 = GH₵12 per kg
+>
+> Second shop: 92 ÷ 8 = GH₵11.50 per kg
+>
+> The **second shop** is better value, by 50 pesewas a kilogram.
+
+> **Exam tip 6.1**
+>
+> When a question asks which is better value, faster, or more efficient, reduce every option to a unit rate before comparing.
+>
+> Comparing the totals is meaningless when the quantities differ.
+
+> **Practice 6.2**
+>
+> 1. Find the unit rate: (a) 150 km in 3 hours (b) GH₵84 for 7 kg (c) 240 words in 4 minutes
+>
+> 2. Aisha polishes 8 square yards every 7 minutes. Find the number of square yards she polishes per minute.
+>
+> 3. A recipe uses 3 cups of flour to 4 cups of sugar. Find the number of cups of sugar for each cup of flour.
+>
+> 4. A car travels 210 km on 15 litres of fuel. Find the distance travelled per litre.
+>
+> 5. Shop A sells 6 exercise books for GH₵27 and Shop B sells 10 for GH₵43. State which shop offers better value, showing your working.
+
+<!-- page 57 -->
+
+#### 6.3 Equivalent ratios and proportion
+
+Multiplying or dividing **every term** of a ratio by the same number gives an **equivalent ratio** — one that describes exactly the same relationship. This is the same idea as equivalent fractions in Chapter 4.
+
+**36 : 48 : 24 = 18 : 24 : 12 = 9 : 12 : 6 = 3 : 4 : 2**
+
+Setting equivalent ratios out in a table makes a pattern visible and makes missing values easy to find. A statement that two ratios are equal is called a **proportion**, and using it to find a missing value is **proportional reasoning**.
+
+> **Worked example 3 — completing a table of equivalent ratios**
+>
+> Find the missing values x and y in the table below.
+>
+> 3 6 9 x
+>
+> 10 y 30 40
+>
+> Take the first column as the base ratio 3 : 10.
+>
+> The second column has 6 in the top row, and 6 = 3 × 2, so the bottom entry is 10 × 2 = 20.
+>
+> The third column has 30 in the bottom row, and 30 = 10 × 3, so the top entry is 3 × 3 = 9. ✓ The fourth column has 40 in the bottom row, and 40 = 10 × 4, so **x = 3 × 4 = 12**.
+
+![Figure 6.1 A table of equivalent ratios plotted on the coordinate plane.](images/maths-b7-print-ready-p057-fig09.png)
+
+Plotting the pairs from a table of equivalent ratios on the coordinate plane always gives points lying on a **straight line through the origin**. That is the picture of proportionality, and you will meet it again in Chapter 7 and throughout Basic 8.
+
+##### 6.3.1 Sharing a quantity in a given ratio
+
+> **Worked example 4 — sharing in a ratio**
+>
+> Kafui, Adoley and Jantuah shared an amount of money in the ratio of their ages. Kafui is 36 years old, Adoley is 48 and Jantuah is 24. If Jantuah received GH₵24,000, find the total amount shared.
+>
+> The ratio of their ages is 36 : 48 : 24. Simplify by dividing by 12:
+>
+> 36 : 48 : 24 = **3 : 4 : 2**
+
+<!-- page 58 -->
+
+> Total number of parts = 3 + 4 + 2 = 9
+>
+> Jantuah's share is 2 parts, and 2 parts = GH₵24,000
+>
+> So 1 part = 24,000 ÷ 2 = GH₵12,000
+>
+> Total = 9 parts = 9 × 12,000 = **GH₵108,000**
+>
+> Check: Kafui gets 3 × 12,000 = 36,000; Adoley gets 4 × 12,000 = 48,000; Jantuah gets 24,000. 36,000 + 48,000 + 24,000 = 108,000 ✓
+
+> **Exam tip 6.2**
+>
+> In every sharing problem, the safest route is: simplify the ratio, add the terms to get the total number of parts, find the value of **one part**, then multiply. Finding the value of one part is the step that turns the whole problem into simple multiplication.
+
+> **Practice 6.3**
+>
+> 1. Copy and complete the table of equivalent ratios:
+>
+> 3 | 6 | 9 | x
+>
+> 10 | y | 30 | 40
+>
+> 2. Share GH₵450 between two people in the ratio 4 : 5.
+>
+> 3. Kafui, Adoley and Jantuah share money in the ratio of their ages 36 : 48 : 24. Jantuah receives GH₵24,000. Find (a) the ratio in its simplest form, (b) the value of one part, (c) the total shared, (d) Adoley's share.
+>
+> 4. Plot the pairs (3, 10), (6, 20), (9, 30) and (12, 40) on a coordinate grid and state what you notice.
+>
+> 5. Two numbers are in the ratio 5 : 7 and their sum is 96. Find the two numbers.
+
+#### 6.4 Percentage as a rate per hundred
+
+A percentage is a rate **per hundred**. So 30% of a quantity means 30 for every 100 of it, which is 30/100 of it — and by Chapter 5, "of" means multiply.
+
+**r % of Q = (r/100) × Q**
+
+> **Worked example 5 — commission**
+>
+> A salesman is paid 35% commission. Find the commission he makes on sales of GH₵700.
+>
+> Commission = 35% of 700 = (35/100) × 700 = 35 × 7 = **GH₵245**
+
+> **Worked example 6 — a discount**
+>
+> A cell phone which regularly sells for GH₵450 is on sale at 40% off. Find the amount paid for the phone.
+>
+> Discount = 40% of 450 = (40/100) × 450 = **GH₵180**
+>
+> Amount paid = 450 − 180 = **GH₵270**
+>
+> Shorter method: paying after a 40% discount means paying 60% of the price.
+>
+> 60% of 450 = (60/100) × 450 = GH₵270 ✓
+
+> **Worked example 7 — finding the original price**
+>
+> Yaw paid GH₵80 for a shirt that was on sale at a discount of 20%. Find the original price.
+>
+> A 20% discount means Yaw paid 100% − 20% = 80% of the original price.
+>
+> So 80% of the original price = GH₵80
+>
+> 1% of the original price = 80 ÷ 80 = GH₵1
+>
+> 100% of the original price = 100 × 1 = **GH₵100**
+>
+> Check: 20% of 100 = 20, and 100 − 20 = 80 ✓
+
+<!-- page 59 -->
+
+> **Common misconception 6.2**
+>
+> To find the original price after a 20% discount, you do **not** add 20% back on. Adding 20% to GH₵80 gives GH₵96, not GH₵100. The 20% was a percentage of the **original** price, not of the reduced price. Always work back to 100% through 1%.
+
+> **Worked example 8 — simple interest**
+>
+> A woman put GH₵520 into a savings account for one year. The rate of interest on the account was 6%. Find the interest for the year.
+>
+> Interest = 6% of 520 = (6/100) × 520 = **GH₵31.20**
+>
+> Her balance after one year = 520 + 31.20 = GH₵551.20
+
+> **Activity 6.1 — Ratio and rate in the market**
+>
+> You need: a notebook; access to a market, shop or kiosk; graph paper; a ruler.
+>
+> What to do:
+>
+> 1. Record the price of the same item in five different quantities — for example rice at 1 kg, 2 kg, 5 kg, 10 kg and 25 kg — from one seller.
+>
+> 2. Work out the unit rate, in cedis per kilogram, for each quantity. Present the results in a table.
+>
+> Put mass on the horizontal axis and price on the vertical axis. Plot each pair from the table. If the seller charges the same unit rate at every quantity, the points will lie on a straight line through the origin.
+>
+> 4. If the points do not lie on the line, compare the unit rates and suggest why they differ. A point below the line means that the same mass costs less there, so it is better value for the buyer.
+>
+> 5. Visit a second seller and repeat step 1 and step 2 for the same item. State which seller offers better value at each quantity.
+>
+> 6. Collect three advertisements offering a percentage discount. For each, calculate the amount saved and the amount paid.
+>
+> Record: your two tables of unit rates, your graph, your comparison of the two sellers, and your three discount calculations.
+>
+> Think about it: in step 3, did buying a larger quantity always reduce the unit rate? If a seller charges the same unit rate whatever the quantity, what does the graph look like?
+
+> **Apply it — The school farm**
+>
+> A school farm has 36 goats and 48 sheep. (a) Write the ratio of goats to sheep in its simplest form. (b) Find the fraction of the animals that are goats. (c) The school sells feed at GH₵75 for 25 kg; find the unit rate in cedis per kilogram. (d) The animals are to be shared between two houses in the ratio 5 : 7; find how many animals each house receives. (e) A supplier offers the feed at 20% off GH₵75; find the new price. (f) A second supplier offers 30 kg for GH₵66; state which supplier gives better value and justify your answer.
+
+#### Chapter summary
+
+- A ratio compares two quantities of the same kind, is written a : b, and has no units.
+
+- A ratio is simplified by dividing every term by their highest common factor.
+
+- A ratio compares the parts with each other; a fraction compares a part with the whole, so the ratio 1 : 2 means the first part is one third of the total.
+
+- A rate compares quantities of different kinds and has units; the word 'per' signals a rate.
+
+- A unit rate gives the amount for exactly one of the second quantity, and is found by dividing.
+
+- Reduce every option to a unit rate before deciding which is better value.
+
+<!-- page 60 -->
+
+- Multiplying or dividing every term of a ratio by the same number gives an equivalent ratio.
+
+- Pairs from a table of equivalent ratios plot as points on a straight line through the origin.
+
+- To share a quantity in a ratio: simplify, add the terms to find the number of parts, find the value of one part, then multiply.
+
+- A percentage is a rate per hundred, so r% of Q is (r/100) × Q.
+
+- After a discount of r%, the amount paid is (100 − r)% of the original price; to find the original price, work back through 1%.
+
+#### Assessment
+
+> **How this assessment is balanced**
+>
+> Weighted to the NaCCA Mathematics profile dimensions — Knowledge and Understanding 30%, Application of Knowledge 40%, Attitudes, Values and Process Skills 30%. This chapter carries 20 items: 6 tagged [K], 8 tagged [A] and 6 tagged [P].
+>
+> Indicators assessed: B7.1.4.1.1; B7.1.4.1.2; B7.1.4.1.3; B7.1.4.1.4; B7.1.4.1.5
+
+##### Section A — Objective
+
+1.A comparison of two quantities of the same kind is called a… A. rate B. ratio C. product D. percentage **[K]**
+
+2.A rate expressed for exactly one unit of the second quantity is called a… A. ratio B. proportion C. unit rate D. discount **[K]**
+
+3.A statement that two ratios are equal is called a… A. rate B. proportion C. percentage D. commission **[K]** 4.A payment calculated as a percentage of the value of goods sold is called… A. interest B. discount C. commission D. principal **[K]**
+
+5.The amount of money invested or borrowed is called the… A. interest B. principal C. rate D. commission **[K]**
+
+6.A percentage is a rate per… A. ten B. fifty C. hundred D. thousand **[K]** 7.Express the ratio 60 : 120 in its simplest form. A. 1 : 2 B. 2 : 1 C. 6 : 12 D. 1 : 3 **[A]** 8.Boys and girls in a school are in the ratio 1 : 2. Find the fraction of the school that is boys. A. 1/2 B. 1/3 C. 2/3 D. 1/4 **[A]**
+
+9.Aisha polishes 8 square yards of tiles every 7 minutes. Find her rate in square yards per minute. A. 7/8 B. 8/7 C. 15 D. 56 **[A]**
+
+10. Find 35% of GH₵700. A. GH₵200 B. GH₵235 C. GH₵245 D. GH₵350 **[A]**
+
+##### Section B — Theory and application
+
+1.(a) There are 60 boys and 120 girls in a school. Write the ratio of boys to girls in its simplest form. (b) Find the fraction of the school that is girls. (c) In a bird house the ratio of wings to beaks is 2 : 1; describe this relationship in words. (d) A learner states that if boys and girls are in the ratio 1 : 2 then half the school is boys. Identify the error and give the correct fraction. **[A]**
+
+2.(a) A recipe has 3 cups of flour to 4 cups of sugar; find the number of cups of flour for each cup of sugar. (b) Aisha polishes 8 square yards every 7 minutes; find her rate in square yards per minute. (c) One shop sells 5 kg of rice for GH₵60 and another sells 8 kg for GH₵92; determine which offers better value, showing your working. **[A]**
+
+3.Kafui, Adoley and Jantuah shared an amount of money in the ratio of their ages. Kafui is 36 years old, Adoley is 48 and Jantuah is 24. Jantuah received GH₵24,000. (a) Express the ratio of their ages in its
+
+<!-- page 61 -->
+
+simplest form. (b) Find the total number of parts. (c) Find the value of one part. (d) Find the total amount shared. (e) Find Adoley's share. **[A]**
+
+4.(a) A salesman is paid 35% commission; find his commission on sales of GH₵700. (b) A phone regularly selling for GH₵450 is on sale at 40% off; find the amount paid. (c) Yaw paid GH₵80 for a shirt discounted by 20%; find the original price. (d) A woman deposits GH₵520 for one year at 6% interest; find the interest earned and her final balance. **[A]**
+
+##### Section C — Attitudes, values and process tasks
+
+1.Survey prices: (a) record the price of one item in five different quantities from a single seller; (b) calculate the unit rate for each quantity; (c) present your results in a table with columns for quantity, price and unit rate. (Activity 6.1, steps 1-2) **[P]**
+
+2.Plot and interpret: (a) put quantity on the horizontal axis and price on the vertical axis; (b) plot each pair; (c) if the unit rate is constant, draw a straight line through the origin; (d) if the points do not lie on the line, compare unit rates and explain why a point below the line gives better value. (Activity 6.1, steps 3-4) [P]
+
+3.Compare two sellers: repeat the price survey with a second seller, calculate the unit rates, and state which seller offers better value at each quantity. (Activity 6.1, step 5) **[P]**
+
+4.Investigate discounts: collect three advertisements offering a percentage discount and, for each, calculate the amount saved and the amount paid, showing all working. (Activity 6.1, step 6) **[P]**
+
+5.Make and verify equivalent ratios: (a) construct a table of at least five equivalent ratios beginning from 3 : 10; (b) plot the pairs on a coordinate grid; (c) state what the plotted points have in common and use the graph to predict a sixth pair. **[P]**
+
+6.Compose and exchange: write one sharing problem and one percentage problem set in your own community, solve them in full showing the value of one part, then exchange with another group and mark their solutions. **[P]**
+
+<!-- page 62 -->
+
+## Strand 2: Algebra
+
+*Strand 2: Algebra · Sub-Strand 1: Patterns and Relations*
+
+### Chapter 7: Patterns and Relations
+
+> **Curriculum alignment**
+>
+> Strand 2: Algebra
+>
+> Sub-Strand 1: Patterns and Relations
+>
+> Content standard B7.2.1.1
+>
+> Derive the rule for a set of points of a relation, draw a table of values to graph the relation in a number plane and make predictions about subsequent elements of the relation
+>
+> B7.2.1.1.1 Extend a given relation presented with and without symbolic materials and explain how each element differs from the preceding one. Extend a given symbolic relation
+>
+> B7.2.1.1.2 Describe the rule for a given relation using mathematical language such as one more, one less, one more than twice, etc
+>
+> B7.2.1.1.3 Identify the relation or rule in a pattern/mapping presented numerically or symbolically and predict subsequent elements Determine the rule for a given symbolic pattern
+>
+> B7.2.1.1.4 Locate points on the number plane, draw a table of values of a given relation, draw graphs for given relations and use them to solve problems
+
+> **Core competences**
+>
+> Creativity and Innovation
+>
+> Critical Thinking and Problem Solving
+>
+> Communication and Collaboration
+
+#### Learning objectives
+
+By the end of this chapter you can:
+
+- extend a pattern made with match sticks, counters or numbers and draw the next figure
+
+- explain how each term of a pattern differs from the one before it
+
+- complete a table of values for a given pattern
+
+- describe the rule of a relation in words, using expressions such as 'one more than twice'
+
+- find the rule for a numerical or symbolic pattern and write it in the form x → ax + b
+
+- predict later terms of a pattern using the rule
+
+- draw a table of values for a given rule over a given domain
+
+- locate and plot points on the number plane
+
+- draw the graph of a relation and use it to solve problems
+
+> **Key words**
+>
+> Pattern — an arrangement that follows a rule and can be continued.
+>
+> Term — one member of a pattern or sequence.
+>
+> Sequence — a list of numbers written in the order given by a rule.
+>
+> Common difference — the fixed amount added to get from one term to the next.
+>
+> Relation — a rule that links each member of one set to a member of another.
+>
+> Mapping — another word for a relation, written x → 2x + 1.
+>
+> Domain — the set of values that are put into the rule.
+>
+> Co-domain — the set of values that come out of the rule.
+
+<!-- page 63 -->
+
+> Rule — the instruction that turns each input into its output.
+>
+> Table of values — a table listing inputs beside their outputs.
+>
+> Number plane — a grid formed by a horizontal and a vertical axis.
+>
+> x-axis — the horizontal axis of the number plane.
+>
+> y-axis — the vertical axis of the number plane.
+>
+> Origin — the point (0, 0) where the two axes cross.
+>
+> Coordinates — the pair of numbers (x, y) fixing a point's position.
+>
+> Linear relation — a relation whose graph is a straight line.
+
+> **Engage**
+>
+> Lay out four match sticks to make a square. Add three more and you have two squares. Three more again and you have three. Somebody who has spotted that will tell you how many sticks a hundred squares needs without laying out a single one. That is the whole business of this chapter: finding the rule hiding inside a pattern, and using it to answer questions about cases nobody has drawn.
+
+#### 7.1 Extending a pattern
+
+A **pattern** is an arrangement that follows a rule. Each item in it is called a **term**. To extend a pattern you must first see what is being done to get from one term to the next — and the safest way to see it is to write the terms in a table.
+
+> **Worked example 1 — a match stick pattern**
+>
+> The pattern below is made with match sticks. Pattern 1 has 1 square, Pattern 2 has 2 squares joined in a row, and so on.
+>
+> (a) Draw the fifth pattern.
+>
+> (b) State how each pattern differs from the one before it.
+>
+> (c) Copy and complete the table.
+>
+> Pattern number | 1 | 2 | 3 | 4 | 5 | 6 | 7
+>
+> Number of sticks | 4 | 7 | | | | |
+>
+> (a) The fifth pattern is five squares in a row, sharing sides.
+>
+> (b) Each pattern has **one more square**, which needs **3 more sticks** than the pattern before it — three sticks, because the new square shares one side with the square already there.
+>
+> (c) Add 3 each time:
+>
+> Pattern number | 1 | 2 | 3 | 4 | 5 | 6 | 7
+>
+> Number of sticks | 4 | 7 | 10 | 13 | 16 | 19 | 22
+
+The change from one term to the next is called the common difference. In this pattern, the change is +3. For a pattern that goes down, the common difference is negative; for example, 40, 34, 28 has a common difference of −6.
+
+<!-- page 64 -->
+
+![Figure 7.1 A match stick pattern and its table of values.](images/maths-b7-print-ready-p064-fig10.png)
+
+> **Worked example 2 — a number pattern**
+>
+> Study the mapping below and find the missing numbers in the co-domain.
+>
+> Domain | 1 | 2 | 3 | 4 | 5 | 6 | 7
+>
+> Co-domain | 4 | 7 | 10 | | | | 22
+>
+> The co-domain rises by 3 each time: 4, 7, 10, …
+>
+> Continuing: 10 + 3 = 13, 13 + 3 = 16, 16 + 3 = 19, 19 + 3 = 22 ✓
+>
+> Domain | 1 | 2 | 3 | 4 | 5 | 6 | 7
+>
+> Co-domain | 4 | 7 | 10 | 13 | 16 | 19 | 22
+
+> **Practice 7.1**
+>
+> 1. Write down the next three terms: (a) 5, 9, 13, 17, … (b) 2, 8, 14, 20, … (c) 40, 35, 30, 25, …
+>
+> 2. State the common difference in each pattern in question 1.
+>
+> 3. A pattern of triangles made with match sticks uses 3, 5, 7, 9, … sticks. Draw the fourth figure and find the number of sticks in the sixth.
+>
+> 4. Copy and complete: 6, 11, ____, 21, ____, 31
+>
+> 5. Explain, in one sentence, how each term of the pattern 4, 7, 10, 13 differs from the term before it.
+
+#### 7.2 Describing the rule in words
+
+Extending a pattern one step at a time is fine for the next term, but useless for the fiftieth. For that you need the **rule** — the instruction that turns the position number straight into the term.
+
+Rules are often first described in ordinary mathematical language.
+
+*Table 7.1 — Relations described in words.*
+
+| **Domain** | **Co-domain** | **Rule in words** |
+| --- | --- | --- |
+| 1, 2, 3, 4 | 2, 3, 4, 5 | one more than the number |
+| 1, 2, 3, 4 | 0, 1, 2, 3 | one less than the number |
+| 1, 2, 3, 4 | 2, 4, 6, 8 | twice the number |
+
+<!-- page 65 -->
+
+| 1, 2, 3, 4 | 3, 5, 7, 9 | one more than twice the number |
+| --- | --- | --- |
+| 1, 2, 3, 4 | 4, 7, 10, 13 | one more than three times the number |
+| 1, 2, 3, 4 | 1, 4, 9, 16 | the number multiplied by itself |
+
+Notice the pattern in the fifth row, which is the match stick pattern from Worked example 1. The common difference is 3, so the rule contains "three times the number". Three times 1 is 3, but the first term is 4 — one more. So the rule is **one more than three times the number**.
+
+> **Exam tip 7.1**
+>
+> The common difference tells you what the number is multiplied by. Work out that multiple for the first term, compare it with the actual first term, and the difference tells you what to add or subtract. Two steps, every time.
+
+> **Practice 7.2**
+>
+> 1. Describe each rule in words: (a) 1, 2, 3, 4 → 5, 6, 7, 8 (b) 1, 2, 3, 4 → 5, 10, 15, 20 (c) 1, 2, 3, 4 → 1, 3, 5, 7
+>
+> 2. A relation maps 1, 2, 3, 4 onto 6, 11, 16, 21. Describe the rule in words.
+>
+> 3. Write the first four terms of the relation described as 'two less than four times the number'.
+>
+> 4. A pattern begins 7, 12, 17, 22. Describe its rule in words.
+>
+> 5. Explain why the rule for 4, 7, 10, 13 is not simply 'three times the number'.
+
+#### 7.3 Writing the rule as a mapping
+
+A rule described in words can be written far more compactly using a letter for the input. The arrow notation x → 2x + 1 is read "x maps onto two x plus one".
+
+**x → 3x + 1 means multiply the input by 3, then add 1**
+
+Finding such a rule from a table has two steps, and they follow directly from the exam tip above.
+
+- **Find the common difference.** This is the number the input is multiplied by.
+
+- **Test the first input.** Multiply it by the common difference, compare with the actual output, and add or subtract whatever is needed to make them agree.
+
+- **Check the rule on every other pair** in the table before you use it.
+
+> **Worked example 3 — finding the rule**
+>
+> Find the rule for the relation below and use it to find the value when x = 20.
+>
+> x | 1 | 2 | 3 | 4 | 5
+>
+> y | 4 | 7 | 10 | 13 | 16
+>
+> Step 1 — common difference of y is 3, so the rule contains 3x.
+>
+> Step 2 — when x = 1, 3x = 3, but y = 4. That is 1 more, so the rule is y = 3x + 1.
+>
+> ✓
+>
+> Step 3 — check: x = 4 gives 3(4) + 1 = 13 ✓ and x = 5 gives 3(5) + 1 = 16 The rule is **x → 3x + 1**.
+>
+> When x = 20: y = 3(20) + 1 = **61**
+
+> **Worked example 4 — finding a missing value**
+>
+> The relation x → 2x − 5 maps a number n onto 17. Find n.
+>
+> 2n − 5 = 17
+>
+> 2n = 17 + 5 = 22 n = 22 ÷ 2 = **11**
+>
+> Check: 2(11) − 5 = 22 − 5 = 17 ✓
+
+<!-- page 66 -->
+
+> **Common misconception 7.1**
+>
+> A common difference of 3 does **not** mean the rule is 3x. It means the rule contains 3x — there is almost always something added or subtracted as well. Always test the rule on the first pair before trusting it, and then on a second pair before using it.
+
+> **Practice 7.3**
+>
+> 1. Find the rule for each relation, writing it in the form x → ax + b:
+>
+> (a) x: 1, 2, 3, 4 → y: 5, 7, 9, 11 (b) x: 1, 2, 3, 4 → y: 2, 5, 8, 11 (c) x: 1, 2, 3, 4 → y: 9, 13, 17, 21
+>
+> 2. For the rule x → 3x + 1, find y when x = 12 and when x = 100.
+>
+> 3. The rule x → 4x − 3 maps a number n onto 25. Find n.
+>
+> 4. A match stick pattern needs 4, 7, 10, 13 sticks. Find the rule and use it to find the number of sticks in the 50th pattern.
+>
+> 5. Explain why the rule for the relation 1, 2, 3, 4 → 4, 7, 10, 13 cannot be x → 4x.
+
+#### 7.4 Tables of values
+
+A **table of values** lists the inputs of a relation beside their outputs. The set of inputs is the **domain** and the set of outputs is the **co-domain**. Building the table is always the first step towards drawing a graph.
+
+> **Worked example 5 — completing a table of values**
+>
+> Draw a table for the mapping x → 2x + 1 on the domain {−2, −1, 0, 1, 2, 3}.
+>
+> Substitute each value of x in turn:
+>
+> x = −2: 2(−2) + 1 = −4 + 1 = −3 x = −1: 2(−1) + 1 = −2 + 1 = −1 x = 0: 2(0) + 1 = 0 + 1 = 1 x = 1: 2(1) + 1 = 2 + 1 = 3 x = 2: 2(2) + 1 = 4 + 1 = 5 x = 3: 2(3) + 1 = 6 + 1 = 7
+>
+> x | −2 | −1 | 0 | 1 | 2 | 3
+>
+> y | −3 | −1 | 1 | 3 | 5 | 7
+
+> **Worked example 6 — a second table**
+>
+> Draw a table for the mapping x → x + 2 on the domain {−2, −1, 0, 1, 2, 3}.
+>
+> x | −2 | −1 | 0 | 1 | 2 | 3
+>
+> y | 0 | 1 | 2 | 3 | 4 | 5
+>
+> Every output is 2 more than its input, so the co-domain rises by 1 each time — the same common difference as the domain, because the multiplier is 1.
+
+> **Exam tip 7.2**
+>
+> Take care with negative values. In x → 2x + 1 at x = −2, the working is 2 × (−2) = −4, then −4 + 1 = −3. Writing the multiplication in brackets before you add prevents the sign error that costs most marks in this topic.
+
+> **Practice 7.4**
+>
+> 1. Draw a table of values for x → 2x + 1 on the domain {−2, −1, 0, 1, 2, 3}.
+>
+> 2. Draw a table of values for x → x + 2 on the same domain.
+>
+> 3. Draw a table of values for x → 3x − 2 on the domain {−1, 0, 1, 2, 3, 4}.
+
+<!-- page 67 -->
+
+> 4. For the rule x → 5 − x, complete: x: −2, −1, 0, 1, 2 → y: ____
+>
+> 5. A relation has the table x: 0, 1, 2, 3 → y: −1, 2, 5, 8. Find the rule.
+
+#### 7.5 The number plane and graphs
+
+The **number plane** is formed by two number lines crossing at right angles. The horizontal one is the **x-axis**, the vertical one is the **y-axis**, and they meet at the **origin**, the point (0, 0).
+
+Every point is fixed by a pair of **coordinates** written (x, y). The first number is always read along the x-axis and the second always up or down the y-axis — **along the corridor, then up the stairs**.
+
+![Figure 7.2 The number plane, and the graph of x → 2x + 1.](images/maths-b7-print-ready-p067-fig11.png)
+
+> **Worked example 7 — drawing a graph**
+>
+> Draw the graph of x → 2x + 1 on the domain {−2, −1, 0, 1, 2, 3}, and use it to find y when x = 1.5.
+>
+> From Worked example 5 the table is:
+>
+> x | −2 | −1 | 0 | 1 | 2 | 3
+>
+> y | −3 | −1 | 1 | 3 | 5 | 7
+>
+> The points to plot are (−2, −3), (−1, −1), (0, 1), (1, 3), (2, 5) and (3, 7).
+>
+> Plot them and rule a straight line through them.
+>
+> To find y when x = 1.5, go along to 1.5 on the x-axis, up to the line, then across to the y-axis: **y = 4**.
+>
+> Check by substitution: 2(1.5) + 1 = 3 + 1 = 4 ✓
+
+Because all six points lie on one straight line, this relation is called a **linear relation**. Every rule of the form x → ax + b gives a straight line, which is why a ruler is enough to answer questions about values you never calculated.
+
+> **Activity 7.1 — Building patterns and graphing them**
+>
+> You need: match sticks or cut straws, graph paper, a ruler, a pencil.
+>
+> What to do:
+>
+> 1. Using match sticks, build a row of joined squares: one square, then two, then three, then four. Count the sticks each
+
+<!-- page 68 -->
+
+> time and record the results in a table.
+>
+> 2. State the common difference and use it to find the rule in the form x → ax + b.
+>
+> 3. Use your rule to predict the number of sticks in the 10th pattern. Then build the 10th pattern and count, to check.
+>
+> 4. Repeat steps 1 to 3 with a row of joined triangles, and then with a row of joined hexagons if you have enough sticks.
+>
+> 5. On graph paper, plot pattern number against number of sticks for the squares. Rule a straight line through your points.
+>
+> 6. Use your graph to read off the number of sticks for the 7th pattern, and check it against your rule.
+>
+> Record: a table for each shape, the rule for each, your prediction and count for step 3, and the graph.
+>
+> Think about it: the three shapes gave three different rules. What in the shape decides the number that multiplies x, and what decides the number added?
+
+> **Apply it — The taxi fare**
+>
+> A taxi charges a fixed GH₵5 when you get in, and GH₵3 for every kilometre travelled. (a) Copy and complete the table for journeys of 1 to 5 km. (b) State the common difference and write the rule in the form x → ax + b, where x is the distance in kilometres. (c) Find the fare for a journey of 12 km. (d) A passenger pays GH₵41; find the distance travelled. (e) Draw the graph of the relation for 0 to 6 km and state what the point where the line meets the y-axis represents.
+
+#### Chapter summary
+
+- A pattern follows a rule; each item is a term, and the constant change from one term to the next is the common difference. It can be positive or negative.
+
+- To extend a pattern, find what is done to get from one term to the next and repeat it.
+
+- A rule can be described in words, such as 'one more than three times the number'.
+
+- A rule is written compactly as a mapping, such as x → 3x + 1.
+
+- The common difference gives the number that multiplies x; testing the first pair gives the number added or subtracted.
+
+- Always check a rule on a second pair before using it — a common difference of 3 does not by itself mean the rule is 3x.
+
+- The domain is the set of inputs and the co-domain is the set of outputs.
+
+- A table of values is made by substituting each value of the domain into the rule in turn.
+
+- The number plane is formed by the x-axis and the y-axis crossing at the origin; a point is written (x, y), read along then up.
+
+- A rule of the form x → ax + b is a linear relation, and its graph is a straight line.
+
+- A graph can be used to read off values that were never calculated.
+
+#### Assessment
+
+> **How this assessment is balanced**
+>
+> Weighted to the NaCCA Mathematics profile dimensions — Knowledge and Understanding 30%, Application of Knowledge 40%, Attitudes, Values and Process Skills 30%. This chapter carries 20 items: 6 tagged [K], 8 tagged [A] and 6 tagged [P].
+>
+> Indicators assessed: B7.2.1.1.1; B7.2.1.1.2; B7.2.1.1.3; B7.2.1.1.4
+
+##### Section A — Objective
+
+1.One member of a pattern is called a… A. rule B. term C. domain D. graph **[K]** 2.The fixed amount added to get from one term to the next is called the… A. common difference B. co- domain C. origin D. coordinate **[K]**
+
+3.The set of values put into a rule is called the… A. co-domain B. domain C. range D. sequence **[K]**
+
+<!-- page 69 -->
+
+4.The point where the two axes cross is called the… A. term B. domain C. origin D. coordinate **[K]** 5.A relation whose graph is a straight line is described as… A. circular B. linear C. common D. symbolic **[K]** 6.In the coordinates (3, 5), the number 3 is measured along the… A. x-axis B. y-axis C. origin D. domain **[K]** 7.A match stick pattern uses 4, 7, 10, 13 sticks. Find the number of sticks in the fifth pattern. A. 15 B. 16 C. 17 D. 19 **[A]**
+
+8.Find the rule for the relation 1, 2, 3, 4 → 4, 7, 10, 13. A. x → 4x B. x → 3x C. x → 3x + 1 D. x → x + 3 **[A]** 9.For the rule x → 2x + 1, find y when x = −2. A. −5 B. −3 C. 3 D. 5 **[A]**
+
+10. The rule x → 4x − 3 maps a number n onto 25. Find n. A. 5.5 B. 7 C. 11 D. 22 **[A]**
+
+##### Section B — Theory and application
+
+1.A pattern of squares is made with match sticks. Pattern 1 uses 4 sticks and Pattern 2 uses 7. (a) Draw the fifth pattern. (b) State how each pattern differs from the one before it. (c) Copy and complete the table for patterns 1 to 7. (d) Find the number of sticks in the 50th pattern. **[A]**
+
+2.(a) Describe in words the rule of the relation 1, 2, 3, 4 → 4, 7, 10, 13. (b) Write the same rule in the form x → ax + b, showing how you found the multiplier and the number added. (c) Use your rule to find y when x = 20. (d) Explain why the rule cannot be x → 4x. **[A]**
+
+3.(a) Draw a table of values for the mapping x → 2x + 1 on the domain {−2, −1, 0, 1, 2, 3}. (b) Draw a table of values for the mapping x → x + 2 on the same domain. (c) State one difference you notice between the two co-domains and give a reason for it. **[A]**
+
+4.(a) Using the table from question 3(a), plot the six points on the number plane and rule a straight line through them. (b) Use your graph to find y when x = 1.5, and check your answer by substitution. (c) State the coordinates of the point where the line crosses the y-axis. (d) Explain what it means to say the relation is linear. **[A]**
+
+##### Section C — Attitudes, values and process tasks
+
+1.Build and tabulate: (a) using match sticks, build rows of one, two, three and four joined squares; (b) count the sticks used in each and record the results in a table; (c) state the common difference. (Activity 7.1, steps 1-2) **[P]**
+
+2.Derive and test a rule: (a) write the rule for the square pattern in the form x → ax + b; (b) use it to predict the number of sticks in the 10th pattern; (c) build the 10th pattern, count the sticks and state whether the prediction was correct. (Activity 7.1, steps 2-3) **[P]**
+
+3.Repeat and compare: build rows of joined triangles and of joined hexagons, tabulate the results, and write the rule for each. (Activity 7.1, step 4) **[P]**
+
+4.Plot and read: (a) on graph paper, plot pattern number against number of sticks for the squares; (b) rule a straight line through the points; (c) read from the graph the number of sticks in the 7th pattern and check it against your rule. (Activity 7.1, steps 5-6) **[P]**
+
+5.Investigate and conclude: comparing the rules you found for squares, triangles and hexagons, state what feature of each shape decides the number multiplying x and what decides the number added. (Activity 7.1, think about it) **[P]**
+
+6.Collect and model: find one real situation in your community in which a fixed charge is followed by a charge per unit — a taxi fare, a phone bundle, a market stall rent — record the actual figures, write the rule, and draw its graph. **[P]**
+
+<!-- page 70 -->
+
+*Strand 2: Algebra · Sub-Strand 2: Algebraic Expressions*
+
+### Chapter 8: Algebraic Expressions
+
+> **Curriculum alignment**
+>
+> Strand 2: Algebra
+>
+> Sub-Strand 2: Algebraic Expressions
+>
+> Content standard B7.2.2.1
+>
+> Simplify algebraic expressions involving the four basic operations and substituting values to evaluate algebraic expressions. i. find the perimeter and area of the following: Iox = 5, a = 8, a = 3, h = 6, ii. shapes
+>
+> B7.2.2.1.1 Create simple algebraic expressions using simple logic to translate a set of instructions into an algebraic expression
+>
+> B7.2.2.1.2 Perform addition and subtraction of algebraic expressions with rational coefficients
+>
+> B7.2.2.1.3 Perform multiplication and division of algebraic expressions with rational coefficients
+>
+> B7.2.2.1.4 Substitute values to evaluate algebraic expressions
+>
+> B7.2.2.1.5 Use properties of the four operations to simplify algebraic expressions with rational coefficients
+
+> **Core competences**
+>
+> Communication and Collaboration
+>
+> Critical Thinking and Problem Solving
+
+#### Learning objectives
+
+By the end of this chapter you can:
+
+- explain what a variable, a term, a coefficient and an expression are
+
+- translate a set of instructions in words into an algebraic expression
+
+- form algebraic expressions from real-life situations
+
+- identify like and unlike terms
+
+- add and subtract algebraic expressions by collecting like terms
+
+- multiply algebraic expressions, including terms with indices
+
+- divide algebraic expressions and simplify the result
+
+- use the properties of the four operations to simplify expressions
+
+- substitute given values into an expression to evaluate it
+
+- write expressions for the perimeter and area of given shapes
+
+> **Key words**
+>
+> Variable — a letter used to stand for a number that is not yet known.
+>
+> Constant — a number on its own in an expression, whose value never changes.
+>
+> Term — a single number, variable, or product of numbers and variables, separated by + or −.
+>
+> Coefficient — the number multiplying a variable in a term.
+>
+> Expression — a collection of terms joined by + or −, with no equals sign.
+>
+> Like terms — terms with exactly the same variable part.
+>
+> Unlike terms — terms whose variable parts differ.
+>
+> Collecting like terms — adding or subtracting the coefficients of like terms.
+>
+> Simplify — write an expression in its shortest correct form.
+>
+> Substitute — replace each variable with a given number.
+>
+> Evaluate — find the numerical value of an expression after substituting.
+
+<!-- page 71 -->
+
+> Index (power) — the small raised number showing repeated multiplication of a variable.
+>
+> Perimeter — the total distance round the outside of a shape.
+>
+> Area — the amount of surface a shape covers.
+
+> **Engage**
+>
+> Agbolosu and Tetteh are given GH₵400 to share, and Tetteh gets GH₵35 more than Agbolosu. You cannot start calculating, because you do not know what either of them gets. But you can \*write it down\*: call Agbolosu's share x, and Tetteh's share is x + 35. Nothing has been solved yet — and yet the problem has changed completely, because it can now be handled. Algebra is what you use when you must work with a number before you know it.
+
+#### 8.1 The language of algebra
+
+A **variable** is a letter standing for a number that is unknown or that may change. A **term** is a single number, a variable, or a product of the two — terms are the pieces separated by + or − signs. The number in front of a variable is its **coefficient**, and a number standing alone is a **constant**.
+
+In the expression 5x + 4y − 7 there are three terms: 5x, 4y and −7. The coefficient of x is 5, the coefficient of y is 4, and −7 is the constant.
+
+Note two conventions. We write 5x rather than 5 × x, because the multiplication sign is easily confused with the letter x. And we write x rather than 1x, because a coefficient of 1 is understood.
+
+##### 8.1.1 Translating words into expressions
+
+*Table 8.1 — Translating words into algebraic expressions.*
+
+| **In words** | **As an expression** |
+| --- | --- |
+| 10 more than a number x | x + 10 |
+| 5 less than a number x | x − 5 |
+| 3 times a number x | 3x |
+| Half of a number x | x/2 |
+| 2 more than 5 times a number x | 5x + 2 |
+| 8 times a number x subtracted from 5 | 5 − 8x |
+| When 8 times x is subtracted from 5 and the result is multiplied by 2 | 2(5 − 8x) |
+| The sum of a number x and twice a number y | x + 2y |
+
+> **Common misconception 8.1**
+>
+> "5 less than x" is x − 5, **not** 5 − x. The order in English is the reverse of the order in the expression. Test it with a number: 5 less than 12 is 7, and x − 5 with x = 12 gives 7 ✓, while 5 − x gives −7 ✗.
+
+> **Worked example 1 — expressions from real situations**
+>
+> (a) Afrako is 3 years older than Maako. If Maako is x years old, write an expression for Afrako's age.
+>
+> Afrako's age = **x + 3** (b) Agbolosu and Tetteh share GH₵400. Tetteh has GH₵35 more than Agbolosu. If Agbolosu's share is x, write an expression for Tetteh's share.
+>
+> Tetteh's share = **x + 35** (c) A woman buys a basket of oranges for x cedis and sells it for y cedis. Write an expression for her profit.
+>
+> Profit = selling price − cost price = **y − x** (d) Write an expression for the area of a rectangle t metres long and q metres wide.
+
+<!-- page 72 -->
+
+> Area = length × width = **tq square metres** (e) Write an expression for the perimeter of a rectangle x metres long and y metres wide.
+>
+> Perimeter = x + y + x + y = **2x + 2y metres**, which may also be written 2(x + y)
+
+> **Practice 8.1**
+>
+> 1. Write an expression for: (a) 7 more than a number n (b) 4 less than a number n (c) 6 times a number n (d) a third of a number n (e) 3 more than twice a number n
+>
+> 2. Kofi is 5 years younger than Ama. If Ama is y years old, write an expression for Kofi's age.
+>
+> 3. A trader buys a bag of rice for GH₵p and sells it for GH₵q. Write an expression for the profit.
+>
+> 4. Write an expression for the perimeter of a square of side a.
+>
+> 5. State the number of terms, the coefficient of x, and the constant in 7x − 3y + 5.
+
+#### 8.2 Adding and subtracting expressions
+
+**Like terms** have exactly the same variable part. So 4x and 3x are like terms; 4x and 3y are not; and 4x and 4x² are not, because the powers differ.
+
+Only like terms can be added or subtracted. Adding them is called **collecting like terms**, and you simply add or subtract the coefficients, leaving the variable part unchanged. Think of it as counting: 4 oranges plus 3 oranges is 7 oranges, but 4 oranges plus 3 mangoes cannot be combined into one kind of thing.
+
+The coefficient can be a fraction. For example, (1/2)x + (3/4)x = (2/4)x + (3/4)x = (5/4)x. We add the fractions because the variable part, x, is the same.
+
+> **Worked example 2 — collecting like terms**
+>
+> Simplify each expression.
+>
+> (a) x + x = **2x** (b) y + y + y + y = **4y** (c) m + m + m + a + a + k + k + k = **3m + 2a + 3k** (d) 4x + 3x + x = **8x** (remember x means 1x) (e) 5x + 4x + 2x + 3x = **14x**
+
+> **Worked example 3 — subtracting like terms**
+>
+> Simplify each expression.
+>
+> (a) 5x − 2x = **3x** (b) 3x − 4x − 2x = 3x − 6x = **−3x** (c) 7x − 4x − x = 7x − 5x = **2x**
+
+> **Worked example 4 — mixed terms**
+>
+> Simplify 5x + 4 − 9y + 3x + 2y − 7.
+>
+> Group the like terms together:
+>
+> x terms: 5x + 3x = 8x y terms: −9y + 2y = −7y constants: 4 − 7 = −3
+>
+> So the expression simplifies to **8x − 7y − 3**
+
+> **Worked example 5 — perimeter of a shape**
+
+<!-- page 73 -->
+
+> Write an expression for the perimeter of a triangle whose sides are 3a, 4a and 2a.
+>
+> Perimeter = 3a + 4a + 2a = **9a**
+
+> **Exam tip 8.1**
+>
+> Before collecting, mark each kind of term differently — underline the x terms, circle the y terms, box the constants. The sign in front of a term belongs to that term and must travel with it.
+
+> **Practice 8.2**
+>
+> 1. Simplify: (a) 6a + 3a (b) 9m − 4m (c) 2p + 7p − 3p (d) 5t − 8t
+>
+> 2. Simplify: (a) 4x + 3x + x (b) 5x + 4x + 2x + 3x (c) 7x − 4x − x
+>
+> 3. Simplify: (a) 3a + 2b + 5a − b (b) 8m + 4 − 3m + 7 (c) 5x + 4 − 9y + 3x + 2y − 7
+>
+> 4. Write an expression for the perimeter of a triangle with sides 3a, 4a and 2a.
+>
+> 5. Explain why 4x + 3y cannot be simplified further.
+
+#### 8.3 Multiplying and dividing expressions
+
+Unlike addition, **any** terms may be multiplied or divided — they do not have to be like terms. Multiply the coefficients together, then multiply the variables, adding the indices when the same letter appears more than once.
+
+**4p × 8p = (4 × 8) × (p × p) = 32p²**
+
+> **Worked example 6 — multiplying expressions**
+>
+> Simplify each expression.
+>
+> (a) 4p × 8p = 32 × p × p = **32p²** (b) −2a × 4a × 5a = −40 × a × a × a = **−40a³** (c) 5xy × 4x²y = (5 × 4) × (x × x²) × (y × y) = **20x³y²** (d) −3xy × 5y = −15 × x × (y × y) = **−15xy²**
+
+Watch the signs. A positive times a negative gives a negative; a negative times a negative gives a positive.
+
+A fraction can be the coefficient too. For example, (1/2)x × 4y = 2xy, and [(3/5)x²y] ÷ [(9/10)xy] = (2/3)x. Multiply or divide the coefficients as fractions, then simplify the variable part.
+
+> **Worked example 7 — dividing expressions**
+>
+> Simplify each expression.
+>
+> (a) 12x³y² ÷ 16xy
+>
+> Numbers: 12 ÷ 16 = 3/4
+>
+> x: x³ ÷ x = x² y: y² ÷ y = y
+>
+> Answer: **3x²y/4** (b) −30a³ ÷ 6a²
+>
+> Numbers: −30 ÷ 6 = −5 a: a³ ÷ a² = a
+>
+> Answer: **−5a** (c) 18x⁵y² ÷ 24x³y²
+>
+> Numbers: 18 ÷ 24 = 3/4 x: x⁵ ÷ x³ = x² y: y² ÷ y² = y⁰ = 1
+>
+> Answer: **3x²/4**
+
+<!-- page 74 -->
+
+Part (c) uses the zero exponent from Chapter 3: when a letter divides out completely it leaves 1, not 0, so it simply disappears from the answer.
+
+> **Worked example 8 — area of a shape**
+>
+> Write an expression for the area of a rectangle of length 5x and width 3y.
+>
+> Area = length × width = 5x × 3y = **15xy square units**
+
+> **Practice 8.3**
+>
+> 1. Simplify: (a) 3a × 5a (b) 4p × 8p (c) −2a × 4a × 5a (d) −3xy × 5y
+>
+> 2. Simplify: (a) 5xy × 4x²y (b) 2m × 6mn (c) −4a²b × 3ab²
+>
+> 3. Simplify: (a) 12x³y² ÷ 16xy (b) −30a³ ÷ 6a² (c) 18x⁵y² ÷ 24x³y²
+>
+> 4. Simplify: (a) 8xyz ÷ 16xy (b) 5ab ÷ ab (c) 21x ÷ 3x
+>
+> 5. Write an expression for the area of a rectangle of length 7a and width 4b.
+
+#### 8.4 Simplifying using the four operations
+
+When an expression contains several operations, work in the usual order: brackets first, then multiplication and division, then addition and subtraction. Only at the last stage do you collect like terms.
+
+Use the distributive property to remove brackets: a(b + c) = ab + ac. For example, 2(3x − 4) + 5(x + 2) = 6x − 8 + 5x + 10 = 11x + 2.
+
+> **Worked example 9 — several operations**
+>
+> Simplify each expression.
+>
+> (a) 7x + 4x − 2x = **9x** (b) 3x²y + 2xy − 4x²y − 6xy
+>
+> x²y terms: 3x²y − 4x²y = −x²y
+>
+> xy terms: 2xy − 6xy = −4xy
+>
+> Answer: **−x²y − 4xy** (c) 7a³ − 7a³ + 14a⁴ = 0 + 14a⁴ = **14a⁴** (d) (15p²q × 3xy) ÷ (36pq × 45xy) — cancel the common factors:
+>
+> numbers: 45 ÷ 1620 = 1/36 p: p² ÷ p = p q and xy divide out completely
+>
+> Answer: **p/36**
+
+<!-- page 75 -->
+
+![Figure 8.1 Like terms, and an area model of an algebraic product.](images/maths-b7-print-ready-p075-fig12.png)
+
+> **Practice 8.4**
+>
+> 1. Simplify: (a) 7x + 4x − 2x (b) 9a − 3a + 5a (c) 6m − 10m + m
+>
+> 2. Simplify: (a) 3x²y + 2xy − 4x²y − 6xy (b) 5ab + 3a − 2ab + 7a
+>
+> 3. Simplify: (a) 7a³ − 7a³ + 14a⁴ (b) 2x² + 3x − x² + 4x
+>
+> 4. Simplify: (a) 6x² × 2y ÷ 3x (b) 12ab ÷ 4a × 2b
+>
+> 5. Simplify 3x + 2(x + 4) − 5.
+
+#### 8.5 Substituting values
+
+To **evaluate** an expression, replace each variable with the number given and work out the result. Always simplify the expression first if you can — it is far quicker, and there are fewer places to go wrong.
+
+> **Worked example 10 — substitution**
+>
+> Given x = 2, y = 4, p = 3 and z = −1, evaluate each expression.
+>
+> (a) 3xy × 5y
+>
+> Simplify first: 3xy × 5y = 15xy²
+>
+> Substitute: 15 × 2 × 4² = 15 × 2 × 16 = **480** (b) 7xy + 5x − 4x + 2xy − 3
+>
+> Simplify first: (7xy + 2xy) + (5x − 4x) − 3 = 9xy + x − 3
+>
+> Substitute: 9 × 2 × 4 + 2 − 3 = 72 + 2 − 3 = **71** (c) 4p × 8z
+>
+> Simplify: 32pz
+>
+> Substitute: 32 × 3 × (−1) = **−96**
+
+> **Worked example 11 — perimeter and area by substitution**
+>
+> A rectangle has length x and width h. Given x = 5 and h = 6, find its perimeter and its area.
+>
+> Perimeter = 2(x + h) = 2(5 + 6) = 2 × 11 = **22 units**
+>
+> Area = xh = 5 × 6 = **30 square units**
+
+<!-- page 76 -->
+
+> A triangle has base a = 8 and height h = 6. Find its area.
+>
+> Area = ½ × base × height = ½ × 8 × 6 = **24 square units**
+
+> **Exam tip 8.2**
+>
+> Put brackets round every negative value you substitute. Writing 32 × 3 × (−1) makes the sign obvious; writing 32 × 3 × −1 invites an error. And square before you multiply: in 15xy² with y = 4, it is 15 × 2 × 16, not (15 × 2 × 4)².
+
+> **Activity 8.1 — Algebra from the classroom and the market**
+>
+> You need: a notebook; a tape measure or ruler; card for making term cards.
+>
+> What to do:
+>
+> 1. Write twelve term cards — some x terms, some y terms, some constants, some with indices. Shuffle them, then sort them into piles of like terms and write the simplified total for each pile.
+>
+> 2. Measure the length and width of your classroom floor, a desk top and an exercise book. For each, write an expression for the perimeter and the area using letters, then substitute your measurements to find the values.
+>
+> 3. Collect three real situations from home or the market that need an expression rather than a number — a share of money, a difference in age, a profit. Write the expression for each and state clearly what the letter stands for.
+>
+> 4. Choose four of your expressions, agree values for the letters with your group, and evaluate each one. Then swap with another group and check theirs.
+>
+> Record: your sorted piles with their totals, the three measurements with their expressions and values, your three real-life expressions, and the four evaluations with the other group's marking.
+>
+> Think about it: in step 3, why was it important to state what the letter stands for? What would go wrong if two people in your group used x for different things?
+
+> **Apply it — Sharing the money**
+>
+> Agbolosu and Tetteh are given GH₵400 to share. Tetteh receives GH₵35 more than Agbolosu. Let Agbolosu's share be x.
+>
+> (a) Write an expression for Tetteh's share. (b) Write an expression for the total of the two shares and simplify it. (c) Given that the total is 400, find the value of x. (d) State how much each person receives. (e) Verify that your two answers differ by GH₵35 and add to GH₵400.
+
+#### Chapter summary
+
+- A variable is a letter standing for an unknown number; a term is a piece of an expression separated by + or −; the number multiplying a variable is its coefficient.
+
+- '5 less than x' is x − 5, not 5 − x; the order in English reverses in the expression.
+
+- Like terms have exactly the same variable part, including the same powers.
+
+- Only like terms can be added or subtracted; add or subtract the coefficients and leave the variable part unchanged.
+
+- The sign in front of a term belongs to that term and must move with it.
+
+- Any terms may be multiplied or divided; multiply the coefficients and add the indices of the same letter.
+
+- A positive times a negative gives a negative; a negative times a negative gives a positive.
+
+- The coefficients can also be fractions. For example, (1/2)x × 4y = 2xy, and [(3/5)x²y] ÷ [(9/10)xy] = (2/3)x. Multiply or divide the coefficients as fractions, then simplify the variable part.
+
+- When a letter divides out completely it leaves 1, by the zero exponent rule, so it disappears from the answer.
+
+- Work in the order brackets, then multiplication and division, then addition and subtraction, collecting like terms last.
+
+<!-- page 77 -->
+
+- To evaluate an expression, simplify it first, then substitute, putting brackets round every negative value.
+
+- The perimeter of a rectangle of length x and width y is 2(x + y) and its area is xy.
+
+#### Assessment
+
+> **How this assessment is balanced**
+>
+> Weighted to the NaCCA Mathematics profile dimensions — Knowledge and Understanding 30%, Application of Knowledge 40%, Attitudes, Values and Process Skills 30%. This chapter carries 20 items: 6 tagged [K], 8 tagged [A] and 6 tagged [P].
+>
+> Indicators assessed: B7.2.2.1.1; B7.2.2.1.2; B7.2.2.1.3; B7.2.2.1.4; B7.2.2.1.5
+
+##### Section A — Objective
+
+1.A letter used to stand for a number that is not yet known is called a… A. constant B. variable C. coefficient D. term **[K]**
+
+2.The number multiplying a variable in a term is called the… A. constant B. index C. coefficient D. expression **[K]**
+
+3.Terms with exactly the same variable part are called… A. like terms B. unlike terms C. constants D. factors **[K]**
+
+4.Replacing each variable with a given number is called… A. simplifying B. collecting C. substituting D. factorising **[K]**
+
+5.The perimeter of a rectangle of length x and width y is… A. xy B. x + y C. 2xy D. 2(x + y) **[K]** 6.A collection of terms joined by + or −, with no equals sign, is called an… A. equation B. expression C. index D. identity **[K]**
+
+7.Write '5 less than a number x' as an expression. A. 5 − x B. x − 5 C. 5x D. x/5 **[A]** 8.Simplify 5x + 4 − 9y + 3x + 2y − 7. A. 8x − 7y − 3 B. 8x + 7y − 3 C. 2x − 7y + 3 D. 8x − 11y − 3 **[A]** 9.Simplify 4p × 8p. A. 12p B. 12p² C. 32p D. 32p² **[A]**
+
+10. Simplify −30a³ ÷ 6a². A. −5a B. 5a C. −5a⁵ D. −24a **[A]**
+
+##### Section B — Theory and application
+
+1.Write an algebraic expression for each of the following: (a) 10 more than a number x; (b) 5 less than a number x; (c) half of a number x; (d) 2 more than 5 times a number x; (e) when 8 times a number x is subtracted from 5 and the result is multiplied by 2. (f) Afrako is 3 years older than Maako, who is x years old; write an expression for Afrako's age. **[A]**
+
+2.(a) Simplify m + m + m + a + a + k + k + k. (b) Simplify 5x + 4x + 2x + 3x. (c) Simplify 7x − 4x − x. (d) Simplify 5x + 4 − 9y + 3x + 2y − 7. (e) Write an expression for the perimeter of a triangle whose sides are 3a, 4a and 2a. **[A]**
+
+3.(a) Simplify 4p × 8p. (b) Simplify −2a × 4a × 5a. (c) Simplify 5xy × 4x²y. (d) Simplify 12x³y² ÷ 16xy. (e) Simplify 18x⁵y² ÷ 24x³y², explaining what happens to the letter y. **[A]**
+
+4.Given that x = 2, y = 4, p = 3 and z = −1: (a) simplify 3xy × 5y and evaluate it; (b) simplify 7xy + 5x − 4x + 2xy − 3 and evaluate it; (c) evaluate 4p × 8z. (d) A rectangle is 5 cm long and 6 cm wide; find its perimeter and its area. [A]
+
+##### Section C — Attitudes, values and process tasks
+
+1.Sort and collect: (a) write twelve term cards including x terms, y terms, constants and terms with indices; (b) shuffle and sort them into piles of like terms; (c) write the simplified total for each pile. (Activity 8.1, step 1) **[P]**
+
+<!-- page 78 -->
+
+2.Measure and express: measure the length and width of your classroom floor, a desk top and an exercise book, write an expression for the perimeter and area of each using letters, then substitute your measurements to find the values. (Activity 8.1, step 2) **[P]**
+
+3.Collect from real life: gather three situations from home or the market that require an expression rather than a number, write the expression for each, and state clearly what the letter stands for. (Activity 8.1, step 3) **[P]**
+
+4.Evaluate and exchange: choose four of your expressions, agree values for the letters, evaluate each one showing all working, then exchange with another group and mark their work. (Activity 8.1, step 4) **[P]**
+
+5.Investigate and explain: write a short paragraph explaining why every member of a group must agree what each letter stands for before any expression is written, giving one example of what goes wrong if they do not. (Activity 8.1, think about it) **[P]**
+
+6.Construct and demonstrate: draw a rectangle divided into two parts, label the sides with algebraic terms, and use the areas of the two parts to demonstrate that a(b + c) = ab + ac. **[P]**
+
+<!-- page 79 -->
+
+*Strand 2: Algebra · Sub-Strand 3: Variables and Equations*
+
+### Chapter 9: Linear Equations
+
+> **Curriculum alignment**
+>
+> Strand 2: Algebra
+>
+> Sub-Strand 3: Variables and Equations
+>
+> Content standard B7.2.3.1
+>
+> Demonstrate an understanding of linear equations of the form x + a = b (where a and b are integers) by modelling problems as a linear equation and solving the problems concretely, pictorially, and symbolically. iii. Use the three equations below to find the value of
+>
+> B7.2.3.1.1 Translate word problems to linear equations in one variable and vice versa
+>
+> B7.2.3.1.2 Model and solve linear equations using concrete materials (e.g., counters and integer tiles) and describe the process orally and symbolically
+>
+> B7.2.3.1.3 Model linear equations, then write mathematical expressions and describe the process of solving the equation using algebraic tiles
+>
+> B7.2.3.1.4 Solve linear equations in one variable
+
+> **Core competences**
+>
+> Communication and Collaboration
+>
+> Critical Thinking and Problem Solving
+
+#### Learning objectives
+
+By the end of this chapter you can:
+
+- explain the difference between an expression and an equation
+
+- translate a word problem into a linear equation in one variable
+
+- translate a linear equation back into words
+
+- model a linear equation using counters, integer tiles or a balance
+
+- describe the process of solving an equation orally and symbolically
+
+- use a flag diagram and inverse operations to solve an equation
+
+- solve linear equations of the form x + a = b and ax + b = c
+
+- solve linear equations with the variable on both sides
+
+- check a solution by substituting it back into the original equation
+
+- solve word problems by forming and solving a linear equation
+
+> **Key words**
+>
+> Equation — a mathematical statement that two expressions are equal, containing an equals sign.
+>
+> Expression — a collection of terms with no equals sign.
+>
+> Linear equation — an equation in which the variable appears to the power 1 only.
+>
+> Variable — the letter standing for the unknown number.
+>
+> Solve — find the value of the variable that makes the equation true.
+>
+> Solution (root) — the value of the variable that satisfies the equation.
+>
+> Inverse operation — the operation that undoes another: + and −, × and ÷.
+>
+> Balance — the principle that whatever is done to one side must be done to the other.
+>
+> Flag diagram — a chain of operations, read forwards to build and backwards to solve.
+>
+> Integer tile — a counter used to model a positive or negative unit.
+
+<!-- page 80 -->
+
+> Satisfy — a value satisfies an equation if it makes both sides equal.
+>
+> Check — substituting the solution back to confirm it is correct.
+
+> **Engage**
+>
+> Think of a number, double it, subtract 7, and tell me the answer is 41 — and I will tell you your number was 24. There is no magic in it. You went forwards through two operations; I simply went backwards through their opposites. Every equation in this chapter is that same journey, and once you see it as a journey there is nothing left to memorise.
+
+#### 9.1 Expressions and equations
+
+An **expression** such as 2x − 7 is a recipe. It tells you what to do to a number, but it makes no claim. An **equation** such as 2x − 7 = 41 does make a claim: that the two sides are equal. The equals sign is the whole difference between them.
+
+To **solve** an equation is to find the value of the variable that makes the claim true. That value is called the **solution**, and it can always be checked by putting it back in.
+
+A **linear equation** is one in which the variable appears only to the power 1 — there is no x², no x³, and no x underneath a division line. Every equation in this chapter is linear.
+
+##### 9.1.1 Translating words into equations
+
+*Table 9.1 — Translating words into linear equations.*
+
+| **In words** | **As an equation** |
+| --- | --- |
+| A number increased by 5 is 12 | x + 5 = 12 |
+| A number decreased by 3 is 9 | x − 3 = 9 |
+| Three times a number is 21 | 3x = 21 |
+| Twice a number, plus 5, is 20 | 2x + 5 = 20 |
+| Think of a number, double it and subtract 7; the result is 41 | 2x − 7 = 41 |
+| A number added to 4 gives the same as twice the number | x + 4 = 2x |
+
+> **Practice 9.1**
+>
+> 1. State whether each is an expression or an equation: (a) 3x + 2 (b) 3x + 2 = 11 (c) 5 − y (d) 5 − y = 1
+>
+> 2. Write as an equation: (a) a number increased by 8 is 15 (b) four times a number is 36 (c) twice a number, less 3, is 17
+>
+> 3. Write in words: (a) x + 6 = 14 (b) 5x = 45 (c) 3x + 1 = 16
+>
+> 4. State the value of x that satisfies x + 3 = 7.
+>
+> 5. Explain the difference between 2x + 5 and 2x + 5 = 13.
+
+#### 9.2 Modelling equations with a balance
+
+A pair of scales is a useful picture of an equation. The two pans balance because the sides are equal. Whatever you do to one side, do the same to the other to keep them balanced. Algebra tiles show the same idea: an x-tile stands for x, and each unit tile stands for 1. For 2x + 3 = 11, place two x-tiles and three unit tiles on one side, and eleven unit tiles on the other. Remove three unit tiles from both sides. Share the eight unit tiles left equally between the two x-tiles; each x-tile is worth 4, so x = 4. Check: 2(4) + 3 = 11.
+
+<!-- page 81 -->
+
+![Figure 9.1 Solving x + 3 = 7 and 3y + 4 = 2y + 8 on a balance.](images/maths-b7-print-ready-p081-fig13.png)
+
+> **Worked example 1 — a balance problem**
+>
+> Solve x + 3 = 7 and describe each step.
+>
+> The left pan has a bag holding x and 3 counters; the right pan has 7 counters.
+>
+> Take 3 counters off **both** pans, so the balance is kept:
+>
+> x + 3 − 3 = 7 − 3
+>
+> x = **4**
+>
+> Check: 4 + 3 = 7 ✓
+
+> **Worked example 2 — variable on both sides**
+>
+> Solve 3y + 4 = 2y + 8.
+>
+> Remove 2y from both sides:
+>
+> 3y − 2y + 4 = 2y − 2y + 8
+>
+> y + 4 = 8
+>
+> Remove 4 from both sides:
+>
+> y + 4 − 4 = 8 − 4
+>
+> y = **4**
+>
+> Check: left side 3(4) + 4 = 16; right side 2(4) + 8 = 16 ✓
+
+> **Worked example 3 — a third balance**
+>
+> Solve 3x + 1 = x + 5.
+>
+> Remove x from both sides: 2x + 1 = 5
+>
+> Remove 1 from both sides: 2x = 4
+>
+> Divide both sides by 2: x = **2**
+>
+> Check: left side 3(2) + 1 = 7; right side 2 + 5 = 7 ✓
+
+> **Activity 9.1 — Modelling equations with counters and tiles**
+>
+> You need: a simple balance or a drawn balance on card, small envelopes or paper bags to hold the unknown, counters or
+
+<!-- page 82 -->
+
+> bottle tops, integer tiles if the school has them.
+>
+> What to do:
+>
+> 1. Put an unknown number of counters into a bag and seal it. Put the bag and 3 loose counters on one pan and 7 counters on the other, so that the pans balance.
+>
+> 2. Without opening the bag, work out how many counters it holds. Remove counters from both pans, always the same number from each, until only the bag is left on one side. Say aloud what you are doing at every step.
+>
+> 3. Write down what you did symbolically, one line per move, exactly as in Worked example 1. Then open the bag and count, to check.
+>
+> 4. Repeat with three bags and 4 counters against two bags and 8 counters. Say each step aloud, then write it.
+>
+> 5. Set up two equations of your own with bags and counters, give them to another group, and let them solve yours while you solve theirs.
+>
+> Record: for each equation, your spoken description written out, your symbolic working, and the count from inside the bag.
+>
+> Think about it: at every step you did the same thing to both pans. What would happen to the balance if you removed counters from only one side, and what would that mean for the equation?
+
+#### 9.3 Inverse operations and the flag diagram
+
+Every operation has an **inverse** — the operation that undoes it. Addition is undone by subtraction, and multiplication by division. Solving an equation means travelling backwards through the operations, doing the inverse of each.
+
+**+ is undone by − × is undone by ÷**
+
+A **flag diagram** sets out the journey. Read it forwards to see what was done to the unknown; read it backwards, replacing every operation by its inverse, to get back to the unknown.
+
+> **Worked example 4 — the flag diagram**
+>
+> Think of a number, double it and subtract 7. The result is 41. Find the original number.
+>
+> Forwards: x → × 2 → − 7 → 41 which is the equation 2x − 7 = 41
+>
+> Backwards: x ← ÷ 2 ← + 7 ← 41
+>
+> Working backwards from 41:
+>
+> 41 + 7 = 48
+>
+> 48 ÷ 2 = 24
+>
+> The original number was **24**.
+>
+> The same working set out symbolically:
+>
+> 2x − 7 = 41
+>
+> 2x − 7 + 7 = 41 + 7 (add 7 to both sides)
+>
+> 2x = 48
+>
+> 2x ÷ 2 = 48 ÷ 2 (divide both sides by 2)
+>
+> x = **24**
+>
+> Check: 2(24) − 7 = 48 − 7 = 41 ✓
+
+<!-- page 83 -->
+
+![Figure 9.2 A flag diagram read forwards and backwards.](images/maths-b7-print-ready-p083-fig14.png)
+
+> **Exam tip 9.1**
+>
+> Undo the operations in the reverse of the order they were done. In 2x − 7, the number was multiplied first and the 7 taken away second — so when solving, add the 7 back first and divide by 2 second. Dividing first is the commonest error in this topic.
+
+> **Practice 9.2**
+>
+> 1. Write down the inverse of: (a) add 9 (b) multiply by 4 (c) subtract 12 (d) divide by 5
+>
+> 2. Solve using a flag diagram: (a) 3x + 5 = 20 (b) 4x − 9 = 15 (c) 6z + 4 = 28
+>
+> 3. Think of a number, treble it and add 4; the result is 25. Find the number.
+>
+> 4. Think of a number, subtract 6 and multiply the result by 3; the answer is 21. Find the number.
+>
+> 5. Explain why, in solving 2x − 7 = 41, you must add 7 before dividing by 2.
+
+#### 9.4 Solving linear equations
+
+Setting the work out symbolically is what the examination requires. The routine is always the same.
+
+- **Collect the variable terms on one side** and the numbers on the other, doing the same thing to both sides each time.
+
+- **Simplify** each side by collecting like terms.
+
+- **Divide both sides by the coefficient** of the variable.
+
+- **Check** by substituting the solution into the original equation.
+
+> **Worked example 5 — the basic form**
+>
+> Solve 3x + 5 = 20.
+>
+> 3x + 5 − 5 = 20 − 5 (subtract 5 from both sides)
+>
+> 3x = 15
+>
+> 3x ÷ 3 = 15 ÷ 3 (divide both sides by 3)
+>
+> x = **5**
+>
+> Check: 3(5) + 5 = 15 + 5 = 20 ✓
+
+<!-- page 84 -->
+
+> **Worked example 6 — variable on both sides**
+>
+> Solve 4x + 1 = 3x + 7.
+>
+> 4x − 3x + 1 = 3x − 3x + 7 (subtract 3x from both sides)
+>
+> x + 1 = 7
+>
+> x + 1 − 1 = 7 − 1 (subtract 1 from both sides)
+>
+> x = **6**
+>
+> Check: left 4(6) + 1 = 25; right 3(6) + 7 = 25 ✓
+
+> **Worked example 7 — larger coefficients**
+>
+> Solve 7w + 3 = 2w + 18.
+>
+> 7w − 2w + 3 = 18 (subtract 2w from both sides)
+>
+> 5w + 3 = 18
+>
+> 5w = 15 (subtract 3 from both sides)
+>
+> w = **3** (divide both sides by 5)
+>
+> Check: left 7(3) + 3 = 24; right 2(3) + 18 = 24 ✓
+
+> **Worked example 8 — the variable on the right**
+>
+> Solve 20 − 3k = k + 12.
+>
+> It is easier to collect the k terms where they will be positive, so add 3k to both sides:
+>
+> 20 = 4k + 12
+>
+> 20 − 12 = 4k (subtract 12 from both sides)
+>
+> 8 = 4k
+>
+> k = **2** (divide both sides by 4)
+>
+> Check: left 20 − 3(2) = 14; right 2 + 12 = 14 ✓
+
+> **Common misconception 9.1**
+>
+> When a term crosses the equals sign its sign changes, because you are really adding or subtracting it from both sides. In 4x + 1 = 3x + 7, moving 3x across gives 4x − 3x, not 4x + 3x. If you are ever unsure, write the full line showing the same operation on both sides — it takes five seconds and removes all doubt.
+
+> **Practice 9.3**
+>
+> 1. Solve: (a) x + 7 = 19 (b) y − 5 = 11 (c) 4m = 32 (d) z ÷ 3 = 6
+>
+> 2. Solve: (a) 3x + 5 = 20 (b) 6z + 4 = 28 (c) 5p − 8 = 22
+>
+> 3. Solve: (a) 4x + 1 = 3x + 7 (b) 7w + 3 = 2w + 18 (c) 5n − 3 = n − 1
+>
+> 4. Solve: (a) 20 − 3k = k + 12 (b) 15 − 2t = t + 3
+>
+> 5. Solve 3x + 5 = 20 and check your answer by substitution.
+
+#### 9.5 Solving word problems
+
+A word problem becomes an equation in four steps. Writing them all down is what earns full marks.
+
+- **Say what the letter stands for.** "Let x be the number of oranges" — always with its unit.
+
+- **Write the equation** from the information given.
+
+- **Solve the equation,** showing every line.
+
+- **Answer the question that was asked,** with its unit, and check that the answer is sensible.
+
+<!-- page 85 -->
+
+> **Worked example 9 — a sharing problem**
+>
+> Agbolosu and Tetteh share GH₵400. Tetteh receives GH₵35 more than Agbolosu. Find each person's share.
+>
+> Let Agbolosu's share be GH₵x. Then Tetteh's share is GH₵(x + 35).
+>
+> x + (x + 35) = 400
+>
+> 2x + 35 = 400
+>
+> 2x = 365
+>
+> x = 182.50
+>
+> Agbolosu receives **GH₵182.50** and Tetteh receives 182.50 + 35 = **GH₵217.50**
+>
+> ✓
+>
+> Check: 182.50 + 217.50 = 400 ✓ and 217.50 − 182.50 = 35
+
+> **Worked example 10 — an age problem**
+>
+> Afrako is 3 years older than Maako. The sum of their ages is 27. Find each of their ages.
+>
+> Let Maako's age be x years. Then Afrako's age is (x + 3) years.
+>
+> x + (x + 3) = 27
+>
+> 2x + 3 = 27
+>
+> 2x = 24
+>
+> x = 12
+>
+> Maako is **12 years old** and Afrako is **15 years old**.
+>
+> ✓
+>
+> Check: 12 + 15 = 27 ✓ and 15 − 12 = 3
+
+> **Apply it — The school trip**
+>
+> A school hires a bus for a trip. The company charges a fixed GH₵250 plus GH₵12 for each learner who travels. (a) Let n be the number of learners; write an expression for the total cost. (b) The school pays GH₵850 altogether; write an equation and solve it to find the number of learners who travelled. (c) A second company charges a fixed GH₵100 plus GH₵15 per learner; write an equation for the number of learners at which the two companies charge the same, and solve it. (d) State which company is cheaper for a party of 60 learners, showing your working.
+
+> **Activity 9.2 — Think of a number**
+>
+> You need: a notebook; a partner.
+>
+> What to do:
+>
+> 1. Think of a number. Perform two operations on it — for example multiply by 4 and then subtract 5 — and tell your partner only the final answer.
+>
+> 2. Your partner draws the flag diagram, reverses it, and works backwards to find your number.
+>
+> 3. Swap roles. Repeat until each of you has solved four of the other's numbers.
+>
+> 4. Now make it harder: use three operations, and include one where the result is negative at some stage.
+>
+> 5. For each puzzle you solved, write the equation it corresponds to and solve it symbolically as well, showing that both methods give the same answer.
+>
+> 6. Finally, each of you writes a word problem from real life — about money, ages or distances — that leads to a linear equation. Exchange, solve, and mark each other's work.
+>
+> Record: eight flag diagrams with their solutions, eight symbolic solutions, and your word problem with its full solution.
+>
+> Think about it: in step 4, did the order in which you undid the operations matter? Try undoing them in the wrong order once and record what happens.
+
+#### Chapter summary
+
+- An expression has no equals sign; an equation states that two expressions are equal.
+
+- A linear equation contains the variable to the power 1 only.
+
+<!-- page 86 -->
+
+- To solve an equation is to find the value of the variable that makes both sides equal.
+
+- Whatever operation is done to one side of an equation must be done to the other, exactly as on a balance.
+
+- Every operation has an inverse: addition and subtraction undo each other, as do multiplication and division.
+
+- A flag diagram is read forwards to build the equation and backwards, using inverses, to solve it.
+
+- Undo the operations in the reverse of the order in which they were done.
+
+- When a term crosses the equals sign its sign changes, because it is being added to or subtracted from both sides.
+
+- Collect the variable terms on one side and the numbers on the other, simplify, then divide by the coefficient.
+
+- Always check a solution by substituting it into the original equation.
+
+- In a word problem, state what the letter represents, form the equation, solve it, then answer the question asked with its unit.
+
+#### Assessment
+
+> **How this assessment is balanced**
+>
+> Weighted to the NaCCA Mathematics profile dimensions — Knowledge and Understanding 30%, Application of Knowledge 40%, Attitudes, Values and Process Skills 30%. This chapter carries 20 items: 6 tagged [K], 8 tagged [A] and 6 tagged [P].
+>
+> Indicators assessed: B7.2.3.1.1; B7.2.3.1.2; B7.2.3.1.3; B7.2.3.1.4
+
+##### Section A — Objective
+
+1.A mathematical statement that two expressions are equal is called an… A. expression B. equation C. index D. inverse **[K]**
+
+2.The operation that undoes multiplication is… A. addition B. subtraction C. division D. squaring **[K]** 3.The value of the variable that makes an equation true is called the… A. coefficient B. constant C. solution D. domain **[K]**
+
+4.An equation in which the variable appears only to the power 1 is described as… A. linear B. quadratic C. equivalent D. balanced **[K]**
+
+5.Substituting the solution back into the original equation is called… A. solving B. checking C. simplifying D. modelling **[K]**
+
+6.Which of the following is an equation? A. 3x + 2 B. 5 − y C. 3x + 2 = 11 D. 4xy **[K]** 7.Solve x + 3 = 7. A. 3 B. 4 C. 10 D. 21 **[A]** 8.Solve 2x − 7 = 41. A. 17 B. 24 C. 34 D. 48 **[A]** 9.Solve 3x + 5 = 20. A. 3 B. 5 C. 8 D. 15 **[A]**
+
+10. Solve 4x + 1 = 3x + 7. A. 1 B. 6 C. 7 D. 8 **[A]**
+
+##### Section B — Theory and application
+
+1.(a) State the difference between an expression and an equation, giving one example of each. (b) Write each of the following as an equation: (i) a number increased by 8 is 15; (ii) twice a number, less 3, is 17; (iii) think of a number, double it and subtract 7, and the result is 41. (c) Write x + 6 = 14 in words. **[A]**
+
+2.(a) Using the idea of a balance, solve x + 3 = 7, writing one line for each move and stating what you did to both sides. (b) Solve 3y + 4 = 2y + 8 in the same way. (c) Explain what would happen to the balance if counters were removed from one pan only. **[A]**
+
+<!-- page 87 -->
+
+3.(a) Draw a flag diagram for the equation 2x − 7 = 41 and use it to find x. (b) Set out the same solution symbolically. (c) Solve 6z + 4 = 28. (d) Explain why 7 must be added before dividing by 2 when solving 2x − 7 = 41. **[A]**
+
+4.(a) Solve 4x + 1 = 3x + 7. (b) Solve 7w + 3 = 2w + 18. (c) Solve 20 − 3k = k + 12. (d) Agbolosu and Tetteh share GH₵400 and Tetteh receives GH₵35 more than Agbolosu; by forming and solving an equation, find each person's share and verify your answer. **[A]**
+
+##### Section C — Attitudes, values and process tasks
+
+1.Model with a balance: (a) seal an unknown number of counters in a bag and set up a balance with the bag and 3 counters against 7 counters; (b) find the number in the bag by removing equal numbers from both pans, saying each step aloud; (c) open the bag and count to verify. (Activity 9.1, steps 1-3) **[P]**
+
+2.Model and record symbolically: repeat the balance procedure for three bags and 4 counters against two bags and 8 counters, writing one symbolic line for each move you make. (Activity 9.1, step 4) **[P]**
+
+3.Compose and exchange: set up two balance equations of your own with bags and counters, give them to another group to solve, and check their solutions against your own counts. (Activity 9.1, step 5) **[P]**
+
+4.Think of a number: (a) working in pairs, set four number puzzles each using two operations; (b) solve your partner's puzzles by drawing and reversing a flag diagram; (c) record all eight diagrams with their solutions. (Activity 9.2, steps 1-3) **[P]**
+
+5.Extend and compare: set four harder puzzles using three operations, solve them by flag diagram, then solve each one symbolically and state whether both methods agree. (Activity 9.2, steps 4-5) **[P]**
+
+6.Compose from real life: write a word problem about money, ages or distances that leads to a linear equation, solve it in full stating what your letter represents, then exchange with another group and mark their solution. (Activity 9.2, step 6) **[P]**
+
+<!-- page 88 -->
+
+## Strand 3: Geometry and Measurement
+
+*Strand 3: Geometry and Measurement · Sub-Strand 1: Shape and Space*
+
+### Chapter 10: Angles and Geometric Construction
+
+> **Curriculum alignment**
+>
+> Strand 3: Geometry and Measurement
+>
+> Sub-Strand 1: Shape and Space
+>
+> Content standard B7.3.1.1
+>
+> Demonstrate understanding of angles including adjacent, vertically opposite, complementary, supplementary and use them to solve problems
+>
+> B7.3.1.1.1 Measure and classify angles according to their measured sizes – right, acute, obtuse and reflex
+>
+> B7.3.1.1.2 Apply the fact that (i) complementary angles are two angles that have a sum of 90°, and (ii) supplementary angles are two angles that have a sum of 180° to solve problems
+>
+> B7.3.1.1.3 Use adjacent, supplementary and vertically opposite angles to solve problems
+>
+> Content standard B7.3.1.2
+>
+> Demonstrate how to construct a perpendicular to a line from a given point, bisect a line, bisect angles, and construct angles of the following sizes: 30˚, 45˚, 60˚, 75˚ and 90˚ 7.3.1.2.6: Construct angles whose measures are15˚ and 75˚
+>
+> B7.3.1.2.1 Construct a line segment perpendicular to another line segment
+>
+> B7.3.1.2.2 : Construct the perpendicular bisector of a line segment
+>
+> B7.3.1.2.3 : Copy and bisect angles
+>
+> B7.3.1.2.7 : Describe examples of perpendicular line segments, ∠P = 75˚ perpendicular bisectors and angle bisectors in the environment
+
+> **Core competences**
+>
+> Creativity and Innovation
+>
+> Critical Thinking and Problem Solving
+>
+> Communication and Collaboration
+
+#### Learning objectives
+
+By the end of this chapter you can:
+
+- measure an angle with a protractor and classify it as acute, right, obtuse, straight or reflex
+
+- draw and construct given angles, including 15°, 30°, 45°, 60°, 75° and 90°
+
+- apply the fact that complementary angles add to 90°
+
+- apply the fact that supplementary angles add to 180°
+
+- identify adjacent and vertically opposite angles and use them to find missing angles
+
+- construct a copy of a given line segment with ruler and compasses
+
+- construct a perpendicular at a point on a line and from a point outside a line
+
+- construct the perpendicular bisector of a line segment
+
+- copy and bisect a given angle
+
+- identify perpendicular bisectors and angle bisectors in buildings, tools and artefacts
+
+> **Key words**
+>
+> Angle — the amount of turning between two lines meeting at a point.
+>
+> Degree (°) — the unit of angle measure; a full turn is 360°.
+
+<!-- page 89 -->
+
+> Vertex — the point where the two arms of an angle meet.
+>
+> Acute angle — an angle less than 90°.
+>
+> Right angle — an angle of exactly 90°.
+>
+> Obtuse angle — an angle greater than 90° but less than 180°.
+>
+> Straight angle — an angle of exactly 180°.
+>
+> Reflex angle — an angle greater than 180° but less than 360°.
+>
+> Complementary angles — two angles whose sum is 90°.
+>
+> Supplementary angles — two angles whose sum is 180°.
+>
+> Adjacent angles — angles sharing a vertex and one arm, lying on opposite sides of it.
+>
+> Vertically opposite angles — the equal angles formed opposite each other when two lines cross.
+>
+> Perpendicular — at right angles to.
+>
+> Line segment — a part of a line with two end points.
+>
+> Bisect — to cut exactly into two equal parts.
+>
+> Perpendicular bisector — a line that cuts a segment in half at right angles.
+>
+> Angle bisector — a line that cuts an angle into two equal angles.
+>
+> Arc — part of the circumference of a circle, drawn with compasses.
+>
+> Construction — an accurate drawing made with ruler and compasses only.
+
+> **Engage**
+>
+> A mason building a wall does not measure the corner with a protractor. He swings an arc from one point, swings a second arc from another, joins where they cross — and the corner is square, to the millimetre. The compasses know nothing about degrees; they only know that every point on an arc is the same distance from the centre. Almost everything in this chapter comes from that one fact.
+
+#### 10.1 Measuring and classifying angles
+
+An **angle** measures turning. Its size is given in **degrees**, and a complete turn is 360°. The point where the two arms meet is the **vertex**.
+
+*Table 10.1 — Classifying angles by size.*
+
+| **Type of angle** | **Size** | **Where you see it** |
+| --- | --- | --- |
+| Acute | less than 90° | The point of a pair of scissors nearly closed |
+| Right | exactly 90° | The corner of this page, a wall meeting the floor |
+| Obtuse | between 90° and 180° | A partly opened door, a laptop lid |
+| Straight | exactly 180° | A straight line, a level table edge |
+| Reflex | between 180° and 360° | The larger angle on the outside of a partly opened door |
+| Full turn | 360° | One complete revolution of a wheel |
+
+##### 10.1.1 Using a protractor
+
+To measure an angle, place the centre of the protractor exactly on the vertex, lay the base line along one arm, and read where the other arm crosses the scale. A protractor carries two scales — start from the arm lying on the zero of the scale you are reading, and use that scale all the way.
+
+To measure a **reflex** angle, measure the smaller angle at the same vertex and subtract it from 360°.
+
+<!-- page 90 -->
+
+![Figure 10.1 Types of angle and how to use a protractor.](images/maths-b7-print-ready-p090-fig15.png)
+
+> **Practice 10.1**
+>
+> 1. Classify each angle: (a) 47° (b) 90° (c) 135° (d) 180° (e) 265°
+>
+> 2. Using a protractor, draw angles of: (a) 30° (b) 45° (c) 60° (d) 75° (e) 120° (f) 150°
+>
+> 3. Using a protractor, draw reflex angles of 270° and 300°.
+>
+> 4. Measure the four angles marked in the diagram your teacher provides, and classify each one.
+>
+> 5. State the type of angle turned through by the minute hand of a clock between 3:00 and 3:20.
+
+#### 10.2 Complementary and supplementary angles
+
+Two special sums appear again and again in geometry, and both are worth memorising.
+
+**complementary angles add to 90° supplementary angles add to 180°**
+
+A useful way to keep them apart: **C** comes before **S** in the alphabet, and 90 comes before 180.
+
+> **Worked example 1 — complementary angles**
+>
+> Two angles are complementary. One of them is 37°. Find the other.
+>
+> The two must add to 90°.
+>
+> Other angle = 90° − 37° = **53°**
+
+> **Worked example 2 — supplementary angles**
+>
+> Find the angle marked x, given that x and 112° are supplementary.
+>
+> x + 112° = 180° x = 180° − 112° = **68°**
+
+> **Worked example 3 — forming an equation**
+>
+> Two complementary angles are (2x + 10)° and (3x)°. Find x and both angles.
+>
+> (2x + 10) + 3x = 90
+>
+> 5x + 10 = 90
+
+<!-- page 91 -->
+
+> 5x = 80 x = **16**
+>
+> The angles are 2(16) + 10 = **42°** and 3(16) = **48°**
+>
+> Check: 42 + 48 = 90 ✓
+
+> **Practice 10.2**
+>
+> 1. Find the complement of: (a) 25° (b) 68° (c) 41°
+>
+> 2. Find the supplement of: (a) 112° (b) 45° (c) 173°
+>
+> 3. Two complementary angles are (2x + 10)° and (3x)°. Find x and both angles.
+>
+> 4. Two supplementary angles are in the ratio 2 : 3. Find both angles.
+>
+> 5. Explain why two obtuse angles can never be complementary.
+
+#### 10.3 Adjacent and vertically opposite angles
+
+**Adjacent angles** share a vertex and one arm, and lie on opposite sides of that shared arm. When adjacent angles lie on a straight line, they are supplementary.
+
+When two straight lines cross, four angles are formed. The pairs facing each other across the crossing point are **vertically opposite angles**, and they are always equal.
+
+**angles on a straight line add to 180° vertically opposite angles are equal**
+
+![Figure 10.2 Adjacent, supplementary and vertically opposite angles.](images/maths-b7-print-ready-p091-fig16.png)
+
+> **Worked example 4 — angles on a straight line**
+>
+> Three angles lie on a straight line and are 55°, x and 70°. Find x.
+>
+> 55 + x + 70 = 180
+>
+> 125 + x = 180 x = **55°**
+
+> **Worked example 5 — vertically opposite angles**
+
+<!-- page 92 -->
+
+> Two straight lines cross. One of the four angles is 118°. Find the other three.
+>
+> The angle vertically opposite it is equal: **118°**
+>
+> The angle adjacent to it lies on a straight line with it: 180° − 118° = **62°** The angle vertically opposite that one is also **62°**
+>
+> Check: 118 + 62 + 118 + 62 = 360° ✓— the four angles at a point add to a full turn.
+
+> **Common misconception 10.1**
+>
+> Vertically opposite angles are not called that because they are vertical. The word means "at the vertex" — they are the angles facing each other across the crossing point. A pair of them may well be lying on their sides.
+
+> **Exam tip 10.1**
+>
+> In any angle-chasing question, mark on the diagram every angle you work out as soon as you find it. Each new angle usually unlocks the next, and an unmarked diagram is the commonest reason for getting stuck halfway.
+
+> **Practice 10.3**
+>
+> 1. Three angles on a straight line are 55°, x and 70°. Find x.
+>
+> 2. Two straight lines cross and one angle is 118°. Find the other three angles.
+>
+> 3. Identify each pair in the diagram provided by your teacher as adjacent, vertically opposite, complementary or supplementary.
+>
+> 4. Two lines cross so that one pair of vertically opposite angles is (3x)° and 96°. Find x.
+>
+> 5. Angles at a point are 90°, 125° and y. Find y.
+
+#### 10.4 Constructions with ruler and compasses
+
+A **construction** is an accurate drawing made with only a ruler and a pair of compasses — no protractor and no measuring. Every construction works for the same reason: every point on an arc is exactly the same distance from the centre the compasses were placed on.
+
+Three rules apply to all the constructions in this section. Keep the compasses at the same setting unless the instruction says to change it. Draw arcs long enough to cross clearly. And **never rub out your construction**
+
+- **arcs** — they are the evidence that you constructed rather than measured, and marks are given for them.
+
+##### 10.4.1 Copying a line segment
+
+> **Construction 1 — a copy of a line segment**
+>
+> To construct a line segment RS equal in length to a given segment PQ:
+>
+> 1. Draw a long straight line and mark a point R on it.
+>
+> 2. Open the compasses so that the point is on P and the pencil is on Q.
+>
+> 3. Without changing the setting, place the point on R and draw an arc cutting the line.
+>
+> 4. Label the crossing point S.
+>
+> RS is now exactly as long as PQ.
+
+##### 10.4.2 Perpendiculars
+
+> **Construction 2 — a perpendicular at a point on a line**
+>
+> To erect a perpendicular at the point X on a line:
+>
+> 1. With the point of the compasses on X, draw arcs cutting the line on both sides of X. Call them A and B.
+
+<!-- page 93 -->
+
+> 2. Open the compasses wider. With the point on A, draw an arc above the line.
+>
+> 3. With the same setting and the point on B, draw a second arc crossing the first. Call the crossing C.
+>
+> 4. Join X to C.
+>
+> XC is perpendicular to the line at X.
+
+> **Construction 3 — a perpendicular from a point outside a line**
+>
+> To drop a perpendicular from a point P to a line:
+>
+> 1. With the point of the compasses on P, draw an arc cutting the line at two points, A and B.
+>
+> 2. With the point on A and the compasses opened more than half of AB, draw an arc on the far side of the line.
+>
+> 3. With the same setting and the point on B, draw an arc crossing it. Call the crossing Q.
+>
+> 4. Join P to Q.
+>
+> PQ is perpendicular to the line.
+
+##### 10.4.3 The perpendicular bisector
+
+> **Construction 4 — the perpendicular bisector of AB**
+>
+> 1. Open the compasses to **more than half** the length of AB.
+>
+> 2. With the point on A, draw arcs above and below AB.
+>
+> 3. With the same setting and the point on B, draw arcs crossing the first two. Call the crossings C and D.
+>
+> 4. Join C to D.
+>
+> CD cuts AB exactly in half and at right angles. Every point on CD is the same distance from A as from B — which is what makes it the perpendicular bisector.
+
+##### 10.4.4 Copying and bisecting an angle
+
+> **Construction 5 — bisecting an angle**
+>
+> To bisect the angle at vertex A:
+>
+> 1. With the point of the compasses on A, draw an arc cutting both arms of the angle, at P and Q.
+>
+> 2. With the point on P and the compasses at any convenient setting, draw an arc inside the angle.
+>
+> 3. With the same setting and the point on Q, draw an arc crossing it at R.
+>
+> 4. Join A to R.
+>
+> AR divides the angle into two equal parts.
+>
+> **To copy an angle** instead: draw an arc across both arms of the original from its vertex, draw the same arc from the new vertex, then use the compasses to measure the distance between the two crossing points on the original and transfer it to the new arc.
+
+<!-- page 94 -->
+
+![Figure on page 94](images/maths-b7-print-ready-p094-fig17.png)
+
+Constructing standard angles. A perpendicular gives 90°; bisect it to make 45°. The equal sides of an equilateral triangle give 60°; bisect it to make 30°, then bisect 30° to make 15°. To make 75°, construct 60° and 90° from the same arm and bisect the angle between them. Leave the arcs showing, and check the result with a protractor after the construction is complete.
+
+*Figure 10.3 The four standard constructions.*
+
+> **Activity 10.1 — Constructing and checking**
+>
+> You need: a sharp pencil, a ruler, a pair of compasses, a protractor (for checking only), plain paper.
+>
+> What to do:
+>
+> 1. Draw a line segment AB of length 8 cm and construct its perpendicular bisector. Measure both halves and the angle at the crossing to check your work.
+>
+> 2. Repeat with a segment of length 5.5 cm.
+>
+> 3. Draw any angle, copy it to a new position, then bisect the copy. Check with a protractor that the two halves are equal and that the copy equals the original.
+>
+> 4. Mark a point outside a line and drop a perpendicular from it. Check the angle with a protractor.
+>
+> 5. Using only the constructions above, construct an angle of 90°, then bisect it to obtain 45°. Then construct 60° by drawing an arc from a point on a line and stepping the same radius round it once, and bisect that to obtain 30°. Bisect the 30° angle to obtain 15°. Bisect the angle between 60° and 90° to obtain 75°.
+>
+> 6. For every construction, leave all your arcs showing.
+>
+> Record: all six constructions on one sheet, each labelled, with the protractor check written beside it.
+>
+> Think about it: your protractor readings will be a degree or so out here and there. Is that the construction being wrong, or the measuring? What does that tell you about which method is more accurate?
+
+> **Activity 10.2 — Bisectors and perpendiculars in the environment**
+>
+> You need: a notebook, a camera or phone if available, a tape measure.
+>
+> What to do:
+>
+> 1. Walk round the school and the nearby community. Find and record at least six places where a perpendicular, a perpendicular bisector or an angle bisector has been used — the corner of a building, a window frame, the ridge of a roof, the centre line of a road, the spokes of a wheel, the diagonal brace of a gate, the shape of a water tank stand.
+
+<!-- page 95 -->
+
+> 2. For each, sketch it, state which of the three it is, and explain why the builder or maker needed it.
+>
+> 3. Estimate the size of the angles in three tools or artefacts — a cutlass blade, a hoe head, a roof truss — then measure them if you can and compare.
+>
+> 4. Choose the best example and construct an accurate scale drawing of it with ruler and compasses.
+>
+> Record: your six sketches with explanations, your three estimates against the measurements, and the scale drawing.
+>
+> Think about it: in step 3, how close were your estimates? Which is easier to estimate accurately — an angle near 90°, or one near 45°?
+
+> **Apply it — Setting out a foundation**
+>
+> A mason is setting out the rectangular foundation of a room 6 m by 4 m. (a) Explain how he can use compasses-and-ruler reasoning, at full scale with pegs and a rope, to make one corner an exact right angle. (b) He wants to mark the exact centre of the 6 m side; state which construction he needs and describe it. (c) Two walls meet at 120°; he needs a line dividing that corner equally for a supporting pillar. State which construction he needs and give the size of each resulting angle. (d) State one reason why the rope-and-peg method is more reliable on site than measuring the corner with a protractor.
+
+#### Chapter summary
+
+- An angle measures turning and is given in degrees; a full turn is 360°.
+
+- Angles are acute (under 90°), right (90°), obtuse (between 90° and 180°), straight (180°) or reflex (between 180° and 360°).
+
+- To measure an angle, put the protractor's centre on the vertex and its base line along one arm, and read from the scale that starts at zero on that arm.
+
+- A reflex angle is found by measuring the smaller angle at the vertex and subtracting from 360°.
+
+- Complementary angles add to 90°; supplementary angles add to 180°.
+
+- Adjacent angles share a vertex and an arm; adjacent angles on a straight line are supplementary.
+
+- When two straight lines cross, vertically opposite angles are equal and all four angles add to 360°.
+
+- A construction uses only ruler and compasses, and works because every point on an arc is the same distance from its centre.
+
+- The perpendicular bisector of a segment is found by drawing equal arcs from both ends and joining the crossings; every point on it is equidistant from the two ends.
+
+- An angle is bisected by drawing an arc across both arms and then equal arcs from the two crossings.
+
+- Construction arcs must never be rubbed out — they are the evidence of the method and carry marks.
+
+#### Assessment
+
+> **How this assessment is balanced**
+>
+> Weighted to the NaCCA Mathematics profile dimensions — Knowledge and Understanding 30%, Application of Knowledge 40%, Attitudes, Values and Process Skills 30%. This chapter carries 20 items: 6 tagged [K], 8 tagged [A] and 6 tagged [P].
+>
+> Indicators assessed: B7.3.1.1.1; B7.3.1.1.2; B7.3.1.1.3; B7.3.1.2.1; B7.3.1.2.2; B7.3.1.2.3; B7.3.1.2.7
+
+##### Section A — Objective
+
+1.An angle greater than 90° but less than 180° is called… A. acute B. right C. obtuse D. reflex **[K]** 2.Two angles whose sum is 90° are said to be… A. adjacent B. complementary C. supplementary D. vertically opposite **[K]**
+
+<!-- page 96 -->
+
+3.Two angles whose sum is 180° are said to be… A. adjacent B. complementary C. supplementary D. equal **[K]**
+
+4.The point where the two arms of an angle meet is called the… A. arc B. vertex C. bisector D. degree **[K]** 5.A line that cuts a segment in half at right angles is called the… A. angle bisector B. perpendicular bisector C. arc D. diameter **[K]**
+
+6.When two straight lines cross, vertically opposite angles are… A. supplementary B. complementary C. equal D. reflex **[K]**
+
+7.Find the complement of 37°. A. 43° B. 53° C. 143° D. 153° **[A]** 8.Find the supplement of 112°. A. 22° B. 68° C. 78° D. 248° **[A]** 9.Three angles on a straight line are 55°, x and 70°. Find x. A. 45° B. 55° C. 65° D. 125° **[A]**
+
+10. Two straight lines cross and one angle is 118°. Find the angle adjacent to it. A. 42° B. 62° C. 118° D. 242° **[A]**
+
+##### Section B — Theory and application
+
+1.(a) Classify each of the following angles: 47°, 90°, 135°, 180°, 265°. (b) Describe, step by step, how to measure an angle correctly with a protractor. (c) Explain how a reflex angle is measured using a protractor that reads only to 180°. **[A]**
+
+2.(a) Find the complement of 25° and the supplement of 173°. (b) Two complementary angles are (2x + 10)° and (3x)°; find x and both angles. (c) Two supplementary angles are in the ratio 2 : 3; find both angles. (d) Give a reason why two obtuse angles can never be supplementary. **[A]**
+
+3.(a) Three angles on a straight line are 55°, x and 70°; find x. (b) Two straight lines cross and one of the four angles is 118°; find the other three, giving a reason for each. (c) Show that the four angles formed when two lines cross add up to 360°. **[A]**
+
+4.Using ruler and compasses only, and leaving all construction arcs showing: (a) construct the perpendicular bisector of a line segment of length 8 cm; (b) construct a perpendicular from a point to a line; (c) construct a 60° angle and bisect it; then bisect one 30° half to make 15°; (d) state one reason why construction arcs must not be rubbed out. [A]
+
+##### Section C — Attitudes, values and process tasks
+
+1.Measure and classify: (a) measure at least eight angles on a worksheet with a protractor; (b) classify each as acute, right, obtuse, straight or reflex; (c) record the results in a table. (Activity 10.1) **[P]**
+
+2.Draw with a protractor: construct, using a protractor, angles of 30°, 45°, 60°, 75°, 90°, 120°, 150°, 270° and 300°, labelling each with its size. **[P]**
+
+3.Construct and verify bisectors: (a) construct the perpendicular bisector of a segment of length 8 cm and of one 5.5 cm long; (b) measure both halves and the angle at the crossing with a protractor; (c) record how far each check differed from the exact value. (Activity 10.1, steps 1-2) **[P]**
+
+4.Copy and bisect an angle: (a) draw any angle and copy it to a new position; (b) bisect the copy; (c) check with a protractor that the two halves are equal and that the copy equals the original. (Activity 10.1, step 3) **[P]**
+
+5.Construct a set of angles: using ruler and compasses only, construct 90°, 45°, 60°, 30°, 15° and 75°, leaving every arc showing. State how each angle was obtained. (Activity 10.1, step 5) [P]
+
+6.Survey the environment: (a) find and sketch at least six perpendiculars, perpendicular bisectors or angle bisectors in buildings, tools or artefacts around you; (b) state which of the three each one is and why it was needed; (c) estimate the angles in three artefacts, then measure them and compare. (Activity 10.2) **[P]**
+
+<!-- page 97 -->
+
+*Strand 3: Geometry and Measurement · Sub-Strand 2: Measurement*
+
+### Chapter 11: Perimeter and Area
+
+> **Curriculum alignment**
+>
+> Strand 3: Geometry and Measurement
+>
+> Sub-Strand 2: Measurement
+>
+> Content standard B7.3.2.1
+>
+> Demonstrate the ability to find the perimeter of plane shapes including circles using the concept of pi (π) to find the circumference of a circle
+>
+> B7.3.2.1.1 Calculate the perimeter of given shapes whose dimensions are in two units (i.e. cm and mm, m and cm, or km and m)
+>
+> B7.3.2.1.2 Use the relationships between the diameter and the circumference to deduce the formula for finding the circumference of a circle and use it to solve problems
+>
+> B7.3.2.1.3 Draw in a square grid rectangles and triangles with given dimensions
+>
+> Content standard B7.3.2.2
+>
+> Derive the formula for determining the area of a triangle and use it to solve problems
+>
+> B7.3.2.2.1 Use the relationships between a triangle and a rectangle (or parallelogram) to deduce the formula for determining the area of a triangle
+>
+> B7.3.2.2.2 Determine the area of a triangle
+
+> **Core competences**
+>
+> Communication and Collaboration
+>
+> Critical Thinking and Problem Solving
+>
+> Creativity and Innovation
+
+#### Learning objectives
+
+By the end of this chapter you can:
+
+- convert between km and m, m and cm, and cm and mm
+
+- calculate the perimeter of a shape whose dimensions are given in two different units
+
+- name the parts of a circle — radius, diameter, circumference, arc and sector
+
+- state the relationship between the diameter and the circumference of a circle
+
+- deduce and use the formula C = πd to find the circumference
+
+- draw rectangles and triangles of given dimensions on a square grid
+
+- count unit squares to find the area of a rectangle and of a triangle
+
+- deduce the formula for the area of a triangle from the area of a rectangle
+
+- calculate the area of a triangle using A = ½ × base × perpendicular height
+
+- solve problems involving perimeter, circumference and area
+
+> **Key words**
+>
+> Perimeter — the total distance round the outside of a plane shape.
+>
+> Area — the amount of surface a shape covers, measured in square units.
+>
+> Circle — the set of all points the same distance from a fixed centre.
+>
+> Centre — the fixed point of a circle.
+>
+> Radius — the distance from the centre of a circle to any point on it.
+>
+> Diameter — a straight line through the centre joining two points on the circle; twice the radius.
+
+<!-- page 98 -->
+
+> Circumference — the distance right round a circle; its perimeter.
+>
+> Arc — a part of the circumference.
+>
+> Sector — the region between two radii and the arc joining them.
+>
+> Chord — a straight line joining two points on a circle.
+>
+> Pi (π) — the number of times the diameter fits into the circumference, about 22/7 or 3.14.
+>
+> Base — the side of a triangle from which the height is measured.
+>
+> Perpendicular height — the distance from the base to the opposite vertex, measured at right angles.
+>
+> Unit square — a square of side one unit, used to measure area.
+>
+> Square unit — the unit of area, such as cm² or m².
+
+> **Engage**
+>
+> Take any circular thing — a bucket, a tin, a bicycle wheel — and measure the distance round it with a string. Then measure straight across it. Divide the first by the second. Do this for every circle you can find and you will always get about 3.14, whether the circle is the size of a coin or the size of a stadium. Nobody decided this. It is simply true of circles, and it has a name: π.
+
+#### 11.1 Perimeter with mixed units
+
+The **perimeter** is the total distance round the outside of a shape. You find it by adding the lengths of all the sides — but only after every length has been changed into the **same unit**.
+
+*Table 11.1 — Converting units of length.*
+
+| **Conversion** | **Rule** | **Example** |
+| --- | --- | --- |
+| km to m | × 1,000 | 2.5 km = 2,500 m |
+| m to km | ÷ 1,000 | 750 m = 0.75 km |
+| m to cm | × 100 | 3.4 m = 340 cm |
+| cm to m | ÷ 100 | 85 cm = 0.85 m |
+| cm to mm | × 10 | 7.5 cm = 75 mm |
+| mm to cm | ÷ 10 | 36 mm = 3.6 cm |
+
+There are two ways to handle mixed units, and both are acceptable. Either convert everything to the **smaller** unit and work in whole numbers, or convert everything to the **larger** unit and work in decimals.
+
+> **Worked example 1 — converting to the smaller unit**
+>
+> A field has sides of 2 km 400 m, 1 km 750 m, 2 km 400 m and 1 km 750 m. Find its perimeter in kilometres.
+>
+> Convert everything to metres:
+>
+> 2 km 400 m = 2,400 m 1 km 750 m = 1,750 m
+>
+> Perimeter = 2,400 + 1,750 + 2,400 + 1,750 = 8,300 m
+>
+> Convert back: 8,300 ÷ 1,000 = **8.3 km**
+
+> **Worked example 2 — converting to the larger unit**
+>
+> A rectangle measures 7 cm 5 mm by 4 cm 8 mm. Find its perimeter in centimetres.
+>
+> Convert to decimal centimetres: 7 cm 5 mm = 7.5 cm and 4 cm 8 mm = 4.8 cm Perimeter = 2(7.5 + 4.8) = 2 × 12.3 = **24.6 cm**
+
+> **Exam tip 11.1**
+>
+> Convert before you add, never after. Adding 7 cm 5 mm to 4 cm 8 mm as though the millimetres were decimals gives 11 cm 13 mm, which is not a proper answer — 13 mm is more than a centimetre.
+
+<!-- page 99 -->
+
+> **Practice 11.1**
+>
+> 1. Convert: (a) 3.6 km to m (b) 450 cm to m (c) 8 cm 3 mm to cm (d) 2,750 m to km
+>
+> 2. Find the perimeter of a rectangle 2 m 40 cm long and 1 m 60 cm wide, in metres.
+>
+> 3. Find the perimeter of a triangle with sides 6 cm 5 mm, 8 cm 2 mm and 5 cm 3 mm, in centimetres.
+>
+> 4. A square field has a side of 1 km 250 m. Find its perimeter in kilometres.
+>
+> 5. A rectangular plot is 45 m by 28 m. Find the cost of fencing it at GH₵12 per metre.
+
+#### 11.2 The circle and its circumference
+
+A **circle** is the set of all points the same distance from a fixed **centre**. Its parts have names you will use for the rest of your schooling.
+
+*Table 11.2 — The parts of a circle.*
+
+| **Part** | **What it is** |
+| --- | --- |
+| Centre | The fixed point from which every point on the circle is the same distance |
+| Radius | The distance from the centre to any point on the circle |
+| Diameter | A straight line through the centre joining two points on the circle; d = 2r |
+| Circumference | The distance right round the circle — its perimeter |
+| Arc | Any part of the circumference |
+| Chord | A straight line joining two points on the circle, not through the centre |
+| Sector | The region enclosed by two radii and the arc between them, like a slice of cake |
+| Segment | The region between a chord and the arc it cuts off |
+
+![Figure 11.1 The parts of a circle, and the relationship between diameter and circumference.](images/maths-b7-print-ready-p099-fig18.png)
+
+<!-- page 100 -->
+
+##### 11.2.1 Discovering π
+
+Measure the circumference and the diameter of any circle and divide one by the other. The answer is always the same number, a little more than 3. This number is called **pi**, written π.
+
+**C ÷ d = π so C = πd and since d = 2r, C = 2πr**
+
+π cannot be written exactly as a fraction or a decimal — its digits never end and never repeat. Use the value given in the question. When no value is given, 22/7 is convenient if it divides neatly into the diameter, such as 14 cm; 3.14 gives a useful decimal approximation.
+
+> **Worked example 3 — finding the circumference**
+>
+> Find the circumference of a circle of diameter 14 cm. Take π = 22/7.
+>
+> C = πd = 22/7 × 14 = 22 × 2 = **44 cm**
+>
+> The 7 in the denominator divides exactly into 14, which is why 22/7 was the sensible choice here.
+
+> **Worked example 4 — circumference from the radius**
+>
+> Find the circumference of a circle of radius 5 cm. Take π = 3.14.
+>
+> d = 2r = 2 × 5 = 10 cm
+>
+> C = πd = 3.14 × 10 = **31.4 cm**
+
+> **Worked example 5 — working backwards**
+>
+> The circumference of a circular table is 132 cm. Find its diameter. Take π = 22/7.
+>
+> C = πd, so 132 = 22/7 × d d = 132 × 7/22 = 6 × 7 = **42 cm**
+>
+> Check: 22/7 × 42 = 22 × 6 = 132 ✓
+
+> **Common misconception 11.1**
+>
+> The radius is not the same as the diameter. If a question gives the radius and you use C = πd without doubling first, every answer will be exactly half the correct size. Write d = 2r as your first line whenever the radius is given.
+
+> **Practice 11.2**
+>
+> 1. Name the parts of a circle marked in the diagram your teacher provides.
+>
+> 2. Find the circumference, taking π = 22/7: (a) d = 14 cm (b) d = 21 m (c) r = 7 cm
+>
+> 3. Find the circumference, taking π = 3.14: (a) d = 10 cm (b) r = 5 m (c) r = 12 cm
+>
+> 4. The circumference of a circle is 132 cm. Find its diameter, taking π = 22/7.
+>
+> 5. A bicycle wheel has a diameter of 70 cm. Find the distance it travels in one complete turn, taking π = 22/7.
+
+#### 11.3 Area on a square grid
+
+**Area** is the amount of surface a shape covers. It is measured by counting how many **unit squares** fit inside, which is why the units are always \*square\* units — cm², m², km².
+
+For a rectangle, counting the squares is the same as multiplying the number of columns by the number of rows.
+
+**area of a rectangle = length × width**
+
+> **Worked example 6 — drawing on a grid**
+
+<!-- page 101 -->
+
+> On a square grid, a rectangle measures 4 units by 3 units, so its area is 12 square units.
+>
+> (a) Draw a rectangle whose area is twice as large.
+>
+> The new area must be 24 square units — for example 8 by 3, or 6 by 4, or 12 by 2.
+>
+> (b) Draw a rectangle twice as wide and one and a half times as long as the original.
+>
+> New width = 2 × 3 = 6 units; new length = 1.5 × 4 = 6 units.
+>
+> The new rectangle is 6 by 6, with area **36 square units**.
+>
+> Notice that doubling one dimension doubles the area, but doubling one and multiplying the other by 1.5 multiplies the area by 3.
+
+> **Practice 11.3**
+>
+> 1. On squared paper draw a rectangle 5 units by 3 units and state its area.
+>
+> 2. Draw a rectangle whose area is twice that of the one in question 1.
+>
+> 3. Draw a rectangle which is twice as wide and one and a half times as long as the one in question 1, and state its area.
+>
+> 4. On squared paper draw three different triangles each of area 3 square units.
+>
+> 5. State how many different rectangles with whole-number sides have an area of 24 square units.
+
+#### 11.4 The area of a triangle
+
+The formula for the area of a triangle is not something to memorise blindly. It comes straight out of the area of a rectangle, and once you have seen why, you will never forget it.
+
+Draw a triangle and make a second copy of it. Turn one copy and join the two along a side to form a parallelogram. The parallelogram has base b and perpendicular height h, so its area is b × h. One triangle is half of that parallelogram. This also explains why the triangle’s area is ½ × base × perpendicular height. For an obtuse triangle, extend the base when needed to show the perpendicular height.
+
+**area of a triangle = ½ × base × perpendicular height**
+
+![Figure 11.2 Two matching triangles form a parallelogram.](images/maths-b7-print-ready-p101-fig19.png)
+
+<!-- page 102 -->
+
+Two cautions about the height. It must be the **perpendicular** height, measured at right angles to the base — not the length of a slanting side. And for an obtuse triangle, that perpendicular may fall outside the triangle, onto an extension of the base. It is still the height.
+
+> **Worked example 7 — area from a grid**
+>
+> A triangle drawn on a square grid has a base of 6 units and a perpendicular height of 4 units.
+>
+> The enclosing rectangle is 6 by 4, with area 24 square units.
+>
+> Area of triangle = ½ × 24 = **12 square units**
+>
+> By formula: ½ × 6 × 4 = ½ × 24 = 12 ✓
+
+> **Worked example 8 — using the formula**
+>
+> Find the area of each triangle.
+>
+> (a) base 10 cm, perpendicular height 7 cm
+>
+> A = ½ × 10 × 7 = **35 cm²** (b) base 8 m, perpendicular height 5 m
+>
+> A = ½ × 8 × 5 = **20 m²** (c) base 12 cm, perpendicular height 9 cm
+>
+> A = ½ × 12 × 9 = **54 cm²**
+
+> **Worked example 9 — working backwards**
+>
+> A triangle has an area of 30 cm² and a base of 12 cm. Find its perpendicular height.
+>
+> A = ½ × b × h
+>
+> 30 = ½ × 12 × h
+>
+> 30 = 6h h = **5 cm**
+>
+> Check: ½ × 12 × 5 = 30 ✓
+
+> **Exam tip 11.2**
+>
+> Always write the formula first, then substitute, then calculate. Marks are given for the formula even when the arithmetic goes wrong — and writing it out reminds you to halve, which is the step most often forgotten.
+
+> **Practice 11.4**
+>
+> 1. Find the area of a triangle with: (a) b = 10 cm, h = 7 cm (b) b = 8 m, h = 5 m (c) b = 12 cm, h = 9 cm
+>
+> 2. A triangle has area 30 cm² and base 12 cm. Find its perpendicular height.
+>
+> 3. A triangle has area 48 m² and perpendicular height 8 m. Find its base.
+>
+> 4. Explain, using a diagram, why the area of a triangle is half that of its enclosing rectangle.
+>
+> 5. A triangular plot has a base of 25 m and a perpendicular height of 18 m. Find its area, and the cost of clearing it at GH₵4 per square metre.
+
+> **Activity 11.1 — Measuring π and deducing the area of a triangle**
+>
+> You need: string, a ruler, a tape measure, at least six circular objects of different sizes (a tin, a bucket lid, a bottle top, a bicycle wheel, a plate, a drum), squared paper, scissors.
+>
+> What to do:
+>
+> 1. For each circular object, wrap the string once round it, mark the string, and measure that length — this is the circumference C. Then measure straight across the widest part — this is the diameter d.
+>
+> 2. Record C, d and the value of C ÷ d for each object in a table, giving C ÷ d to two decimal places.
+
+<!-- page 103 -->
+
+> 3. Compare your six values of C ÷ d. State what you notice, and compare your average with 22/7 and with 3.14.
+>
+> 4. On squared paper, draw a rectangle 6 units by 4 units and cut it out. Cut it along one diagonal. Place the two pieces on top of each other and state what you find.
+>
+> 5. Draw three different triangles on squared paper, one right-angled, one acute and one obtuse, each with a base of 6 units and a perpendicular height of 4 units. Count the squares inside each — counting a part-square as a half — and record the three areas.
+>
+> 6. Compare your three counts with ½ × 6 × 4. State what you conclude.
+>
+> Record: your table of C, d and C ÷ d with the average; what you found in step 4; and your three square counts beside the calculated area.
+>
+> Think about it: in step 5 the three triangles looked completely different but had the same area. What does that tell you about which measurements of a triangle actually decide its area?
+
+> **Apply it — The circular garden**
+>
+> A circular flower garden has a radius of 7 m. A triangular vegetable bed beside it has a base of 9 m and a perpendicular height of 6 m. Take π = 22/7. (a) Find the circumference of the garden. (b) Find the cost of putting a low fence right round the garden at GH₵15 per metre. (c) Find the area of the vegetable bed. (d) The gardener wants a second triangular bed of the same area but with a base of 12 m; find its perpendicular height. (e) State one reason why 22/7 rather than 3.14 was the sensible value of π to use here.
+
+#### Chapter summary
+
+- The perimeter is the distance round a shape; every length must be converted to the same unit before adding.
+
+- Convert km to m by multiplying by 1,000, m to cm by 100 and cm to mm by 10; divide to go the other way.
+
+- A circle's radius runs from the centre to the edge, and its diameter passes through the centre, so d = 2r.
+
+- The circumference is the perimeter of a circle; an arc is part of it and a sector is the region between two radii and an arc.
+
+- Dividing the circumference of any circle by its diameter always gives π, about 22/7 or 3.14.
+
+- C = πd, and since d = 2r, C = 2πr.
+
+- Use the value of π given in the question. If none is given, 22/7 is handy when it divides neatly into the diameter; otherwise use 3.14 for a decimal approximation.
+
+- Area is measured by counting unit squares, so its units are square units.
+
+- The area of a rectangle is length × width.
+
+- Two matching triangles form a parallelogram, so the area of one triangle is ½ × base × perpendicular height.
+
+- The height must be measured perpendicular to the base, and for an obtuse triangle it may fall outside the triangle.
+
+#### Assessment
+
+> **How this assessment is balanced**
+>
+> Weighted to the NaCCA Mathematics profile dimensions — Knowledge and Understanding 30%, Application of Knowledge 40%, Attitudes, Values and Process Skills 30%. This chapter carries 20 items: 6 tagged [K], 8 tagged [A] and 6 tagged [P].
+>
+> Indicators assessed: B7.3.2.1.1; B7.3.2.1.2; B7.3.2.1.3; B7.3.2.2.1; B7.3.2.2.2
+
+<!-- page 104 -->
+
+##### Section A — Objective
+
+1.The distance round the outside of a plane shape is called its… A. area B. perimeter C. radius D. diameter **[K]**
+
+2.A straight line through the centre of a circle joining two points on it is called the… A. radius B. chord C. diameter D. arc **[K]**
+
+3.The distance right round a circle is called its… A. area B. diameter C. circumference D. sector **[K]** 4.The region enclosed by two radii and the arc between them is called a… A. chord B. segment C. sector D. diameter **[K]**
+
+5.The area of a triangle is given by… A. base × height B. ½ × base × height C. 2 × base × height D. base + height **[K]**
+
+6.Dividing the circumference of any circle by its diameter always gives… A. 2 B. π C. the radius D. the area **[K]**
+
+7.Convert 7 cm 5 mm to centimetres. A. 7.05 cm B. 7.5 cm C. 12 cm D. 75 cm **[A]** 8.Find the circumference of a circle of diameter 14 cm, taking π = 22/7. A. 22 cm B. 44 cm C. 88 cm D. 154 cm **[A]**
+
+9.Find the circumference of a circle of radius 5 cm, taking π = 3.14. A. 15.7 cm B. 31.4 cm C. 62.8 cm D. 78.5 cm **[A]**
+
+10. Find the area of a triangle with base 10 cm and perpendicular height 7 cm. A. 17 cm² B. 35 cm² C. 70 cm² D. 140 cm² **[A]**
+
+##### Section B — Theory and application
+
+1.(a) Convert 3.6 km to metres, 450 cm to metres and 8 cm 3 mm to centimetres. (b) Find the perimeter of a rectangle 2 m 40 cm long and 1 m 60 cm wide, giving your answer in metres. (c) Find the perimeter of a triangle with sides 6 cm 5 mm, 8 cm 2 mm and 5 cm 3 mm, in centimetres. **[A]**
+
+2.(a) Name the parts of a circle labelled in the diagram provided. (b) State the relationship between the diameter and the circumference of a circle. (c) Find the circumference of a circle of diameter 21 m, taking π = 22/7. (d) The circumference of a circle is 132 cm; find its diameter, taking π = 22/7. **[A]**
+
+3.(a) On squared paper draw a rectangle 4 units by 3 units and state its area. (b) Draw a rectangle whose area is twice as large. (c) Draw a rectangle twice as wide and one and a half times as long as the original and state its area. (d) Draw three different triangles each of area 3 square units. **[A]**
+
+4.(a) Explain, with the aid of a diagram, why the area of a triangle is half the area of the rectangle that encloses it. (b) Find the area of a triangle with base 12 cm and perpendicular height 9 cm. (c) A triangle has area 48 m² and perpendicular height 8 m; find its base. (d) Explain what is meant by the perpendicular height and state where it lies for an obtuse triangle. **[A]**
+
+##### Section C — Attitudes, values and process tasks
+
+1.Measure and tabulate: (a) using string and a ruler, measure the circumference and diameter of at least six circular objects; (b) record C, d and C ÷ d to two decimal places in a table. (Activity 11.1, steps 1-2) **[P]**
+
+2.Analyse and conclude: (a) compare your six values of C ÷ d; (b) find their average; (c) compare the average with 22/7 and with 3.14 and write a conclusion. (Activity 11.1, step 3) **[P]**
+
+3.Demonstrate by cutting: cut out a rectangle 6 units by 4 units, cut it along a diagonal, place the two pieces one on the other, and state what this shows about the area of a triangle. (Activity 11.1, step 4) **[P]**
+
+4.Draw and count: draw a right-angled, an acute and an obtuse triangle each with base 6 units and perpendicular height 4 units, count the unit squares in each, and record the three areas. (Activity 11.1, step 5) **[P]**
+
+<!-- page 105 -->
+
+5.Compare and justify: compare your three square counts with the value of ½ × 6 × 4, and state which measurements of a triangle decide its area. (Activity 11.1, step 6) **[P]**
+
+6.Measure and calculate: measure a circular and a triangular object or plot in your school, calculate the circumference of the one and the area of the other, and find the cost of fencing or clearing it at a rate you obtain locally. **[P]**
+
+<!-- page 106 -->
+
+*Strand 3: Geometry and Measurement · Sub-Strand 2: Measurement*
+
+### Chapter 12: Bearings and Vectors
+
+> **Curriculum alignment**
+>
+> Strand 3: Geometry and Measurement
+>
+> Sub-Strand 2: Measurement
+>
+> Content standard B7.3.2.3
+>
+> Demonstrate understanding of bearings, vector and its components using real life cases
+>
+> B7.3.2.3.1 Describe the bearing of a point from another point
+>
+> B7.3.2.3.2 Explain how to find the back bearing when the direction of travel has a bearing which is less than 180˚ and/ or greater than 180˚
+>
+> B7.3.2.3.3 Distinguish between scalar and vector quantities
+>
+>  
+>
+> B7.3.2.3.4 Represent vector in the column (component) form and x determine its magnitude and direction. y
+>
+> B7.3.2.3.5 Convert vectors in the column (component) form to the x Magnitude–Bearing form and vice versa  y (k, θ)
+
+> **Core competences**
+>
+> Critical Thinking and Problem Solving
+>
+> Communication and Collaboration
+
+#### Learning objectives
+
+By the end of this chapter you can:
+
+- state the four cardinal points and measure a bearing clockwise from north
+
+- write a bearing as a three-digit number
+
+- describe the bearing of one point from another
+
+- find the back bearing of a given bearing
+
+- distinguish between scalar and vector quantities and classify given examples
+
+- identify a vector as a distance travelled along a given bearing
+
+- draw a vector given its magnitude and bearing
+
+- write a vector in column (component) form
+
+- find the magnitude of a vector using Pythagoras' theorem
+
+- convert a vector between column form and magnitude–bearing form
+
+> **Key words**
+>
+> Cardinal points — the four main directions: north, east, south and west.
+>
+> Bearing — a direction measured clockwise from north, written with three digits.
+>
+> Three-figure bearing — a bearing written with three digits, such as 045° or 270°.
+>
+> Back bearing — the bearing of the starting point from the finishing point.
+>
+> Scalar — a quantity having size only.
+>
+> Vector — a quantity having both size and direction.
+>
+> Magnitude — the size of a vector, without its direction.
+>
+> Zero vector — a vector of no magnitude and no direction.
+>
+> Column form — a vector written as an x component above a y component.
+>
+> Component — the part of a vector measured along the x-axis or the y-axis.
+>
+> Displacement — the distance and direction from a starting point to a finishing point.
+
+<!-- page 107 -->
+
+> Pythagoras' theorem — in a right-angled triangle, the square on the hypotenuse equals the sum of the squares on the other two sides.
+>
+> Hypotenuse — the longest side of a right-angled triangle, opposite the right angle.
+
+> **Engage**
+>
+> Tell a fisherman at Elmina that the shoal is eight kilometres away and he will ask the only question that matters: eight kilometres \*which way\*? Distance without direction is useless to him, and direction without distance is no better. Some quantities need both to mean anything at all. Mathematics calls those quantities vectors, and this chapter is about how to write them down precisely enough to navigate by.
+
+#### 12.1 Bearings
+
+A **bearing** gives direction. It is measured as an angle, always **clockwise** and always **from north**, and it is always written with **three digits**.
+
+*Table 12.1 — The cardinal and intermediate directions as bearings.*
+
+| **Direction** | **Bearing** |
+| --- | --- |
+| North | 000° or 360° |
+| North-east | 045° |
+| East | 090° |
+| South-east | 135° |
+| South | 180° |
+| South-west | 225° |
+| West | 270° |
+| North-west | 315° |
+
+The three-digit rule is not decoration. A bearing of 45° could be misread as 450° or as 4.5°; written 045° it cannot be mistaken. So east is 090°, not 90°.
+
+![Figure 12.1 Bearings measured clockwise from north, and a back bearing.](images/maths-b7-print-ready-p107-fig20.png)
+
+> **Worked example 1 — reading a bearing**
+
+<!-- page 108 -->
+
+> A ship sails from a harbour in a direction 30° east of north. Write its bearing.
+>
+> Measuring clockwise from north, the angle is 30°.
+>
+> The bearing is **030°**
+>
+> A second ship sails due west. Measuring clockwise from north: north to east is 90°, to south is 180°, to west is 270°.
+>
+> Its bearing is **270°**
+
+##### 12.1.1 Back bearings
+
+If you travel from A to B, the bearing of B from A is the **forward bearing**. The bearing of A from B — the direction you would face to come back — is the **back bearing**. Because the two north lines are parallel, the two bearings always differ by exactly 180°.
+
+**if the bearing is less than 180°, back bearing = bearing + 180° if the bearing is 180° or more, back bearing = bearing − 180°**
+
+The rule is simply this: add 180° if you can do so without passing 360°, and subtract 180° otherwise. A bearing must always end up between 000° and 360°.
+
+> **Worked example 2 — finding back bearings**
+>
+> Find the back bearing of (a) 065° (b) 210° (c) 090° (d) 300° (a) 065° is less than 180°, so add: 65 + 180 = **245°** (b) 210° is more than 180°, so subtract: 210 − 180 = **030°** (c) 090° is less than 180°, so add: 90 + 180 = **270°** (east and west, as expected) (d) 300° is more than 180°, so subtract: 300 − 180 = **120°**
+
+> **Common misconception 12.1**
+>
+> A back bearing is not found by subtracting the bearing from 360°. That would give the reflection of the direction, not its reverse. The back bearing of 065° is 245°, not 295°. Always add or subtract **180°**.
+
+> **Practice 12.1**
+>
+> 1. Write as three-figure bearings: (a) north-east (b) south (c) west (d) south-east
+>
+> 2. Find the back bearing of: (a) 065° (b) 210° (c) 090° (d) 300° (e) 180°
+>
+> 3. A town B is on a bearing of 120° from A. Find the bearing of A from B.
+>
+> 4. Using a protractor, measure and write the three-figure bearing of each point marked in the diagram your teacher provides.
+>
+> 5. Explain why a bearing is always written with three digits.
+
+#### 12.2 Scalars and vectors
+
+A **scalar** quantity has size only. A **vector** quantity has size **and** direction, and it is not fully described until both are given.
+
+*Table 12.2 — Classifying quantities as scalar or vector.*
+
+| **Scalar quantities** | **Vector quantities** |
+| --- | --- |
+| Distance | Displacement |
+| Speed | Velocity |
+| Mass | Weight |
+| Time | Force |
+| Volume | Momentum |
+
+<!-- page 109 -->
+
+| Energy | Acceleration |
+| --- | --- |
+| Work | — |
+| Temperature | — |
+
+Two pairs in that table are worth pausing on. **Distance** is how far you travelled; **displacement** is how far you ended up from where you started, and in which direction. Walk 3 km north then 3 km south and your distance is 6 km but your displacement is zero. Likewise **speed** is how fast; **velocity** is how fast and in what direction.
+
+In this chapter a vector is a **movement of a given distance along a given bearing**. Its size is called its **magnitude** and its direction is its bearing. A vector of no magnitude and no direction is called the **zero vector**.
+
+**a vector is written (magnitude, bearing) for example (6 km, 245°)**
+
+> **Practice 12.2**
+>
+> 1. Classify each as scalar or vector: weight, force, velocity, time, speed, distance, mass, volume, energy, work, momentum, temperature.
+>
+> 2. Explain the difference between distance and displacement, using an example of your own.
+>
+> 3. A girl walks 4 km north then 4 km south. Find (a) the distance she walked, (b) her displacement.
+>
+> 4. State what is meant by the magnitude of a vector.
+>
+> 5. Explain what a zero vector is and give an example of a situation producing one.
+
+#### 12.3 Drawing vectors
+
+To draw a vector you need a scale, a north line and a protractor.
+
+- **Choose and state a scale,** such as 1 cm to represent 1 km.
+
+- **Draw a north line** at the starting point.
+
+- **Measure the bearing** clockwise from that north line with a protractor.
+
+- **Draw the vector** to the correct length along that direction, with an arrowhead showing the direction of travel.
+
+> **Worked example 3 — drawing a vector**
+>
+> Draw the vector (6 km, 245°) using a scale of 1 cm to 1 km.
+>
+> 1. Mark the starting point and draw a north line upward from it.
+>
+> 2. Measure 245° clockwise from north — that is 180° round to south, and a further 65°, placing the direction in the south- west.
+>
+> 3. Draw a line 6 cm long in that direction and put an arrowhead at the far end.
+>
+> The arrow now shows both the magnitude, 6 km, and the direction, 245°.
+
+#### 12.4 Column form
+
+A vector can also be written by its **components** — how far it goes across, and how far it goes up. This is called **column form**, and the two numbers are written one above the other.
+
+**a vector across x and up y is written as the column ( x , y ) written vertically**
+
+<!-- page 110 -->
+
+Movement to the **right** and **up** is positive; movement to the **left** and **down** is negative. So a vector of 4 to the right and 3 up has components x = 4 and y = 3, while a vector of 4 to the left and 3 down has x = −4 and y = −3.
+
+> **Worked example 4 — the four cardinal directions in column form**
+>
+> Take 1 unit to represent 1 km, with x measured east and y measured north.
+>
+> (a) (10 km, 270°) — due west, so 10 km in the negative x direction and none in y.
+>
+> Column form: **x = −10, y = 0** (b) (70 km, 090°) — due east, so 70 km in the positive x direction and none in y.
+>
+> Column form: **x = 70, y = 0** (c) (5 km, 000°) — due north: **x = 0, y = 5** (d) (8 km, 180°) — due south: **x = 0, y = −8**
+
+> **Worked example 5 — column form from a graph**
+>
+> A vector runs from the point (1, 2) to the point (6, 5). Write it in column form and describe it.
+>
+> Across: 6 − 1 = 5 units to the right, so x = 5
+>
+> Up: 5 − 2 = 3 units up, so y = 3
+>
+> Column form: **x = 5, y = 3**
+>
+> The vector moves 5 units east and 3 units north.
+
+![Figure 12.2 A vector in column form and in magnitude–bearing form.](images/maths-b7-print-ready-p110-fig21.png)
+
+> **Practice 12.3**
+>
+> 1. Write in column form, taking 1 unit to 1 km: (a) (10 km, 270°) (b) (70 km, 090°) (c) (5 km, 000°) (d) (12 km, 180°)
+>
+> 2. Write in column form the vector from (2, 1) to (7, 4).
+>
+> 3. Write in column form the vector from (5, 6) to (2, 2).
+>
+> 4. On graph paper, draw the vectors (5 km, 030°) and (25 km, 150°) using a suitable scale, and write each in column form.
+>
+> 5. State what the signs of the two components tell you about the direction of a vector.
+
+<!-- page 111 -->
+
+#### 12.5 Magnitude and direction from components
+
+When a vector is given in column form, its components and the vector itself make a **right-angled triangle**. The components are the two shorter sides and the vector is the hypotenuse — so its magnitude is found by **Pythagoras' theorem**.
+
+**magnitude = √(x² + y²)**
+
+> **Worked example 6 — magnitude from components**
+>
+> Find the magnitude of the vector with components x = 12 and y = 15.
+>
+> magnitude = √(12² + 15²)
+>
+> = √(144 + 225)
+>
+> = √369
+>
+> = **19.2 units** (to 1 decimal place)
+
+> **Worked example 7 — a whole-number case**
+>
+> Find the magnitude of the vector with components x = 9 and y = 12.
+>
+> magnitude = √(9² + 12²) = √(81 + 144) = √225 = **15 units**
+>
+> This is the 3-4-5 right-angled triangle multiplied by 3 — a set of numbers worth recognising, because examiners use it often.
+
+> **Worked example 8 — magnitude and direction together**
+>
+> A vector has components x = 4 and y = 3, with x measured east and y measured north. Find its magnitude and describe its direction.
+>
+> magnitude = √(4² + 3²) = √(16 + 9) = √25 = **5 units**
+>
+> The vector goes 4 units east and 3 units north, so it points between north and east — its bearing lies between 000° and 090°. Measuring the angle from north on an accurate drawing gives about **053°**.
+>
+> So the vector is (5 units, 053°).
+
+> **Exam tip 12.1**
+>
+> Learn to recognise 3-4-5, 6-8-10, 9-12-15 and 5-12-13. When the two components are one of these pairs, the magnitude is a whole number and no calculator is needed. If the numbers are not one of these, expect a square root that must be given to one or two decimal places.
+
+> **Activity 12.1 — Navigating the school compound**
+>
+> You need: a magnetic compass or a protractor and a marked north line, a long tape measure or a trundle wheel, graph paper, a ruler, pegs or markers.
+>
+> What to do:
+>
+> 1. Choose a starting point in the school compound and mark it. Establish north, either with a compass or by using the direction of the midday shadow.
+>
+> 2. Choose four landmarks — a tree, a gate, a corner of a building, a tap. For each, measure the distance from your starting point and take its bearing.
+>
+> 3. Record each landmark as a vector in magnitude–bearing form.
+>
+> 4. Find the back bearing of each and check it by standing at the landmark and taking the bearing of the starting point.
+>
+> 5. Choose a scale and plot all four vectors from a common origin on graph paper. Write each one in column form by reading its components off the graph.
+>
+> 6. For two of them, calculate the magnitude from the components using Pythagoras' theorem, and compare with the distance you actually measured.
+
+<!-- page 112 -->
+
+> Record: your table of landmark, distance, bearing, back bearing and column form; your scale drawing; and the two Pythagoras calculations set against the measured distances.
+>
+> Think about it: in step 6 the calculated and measured distances will not agree exactly. List three reasons for the difference, and state which of them you could reduce.
+
+> **Apply it — The fishing trip**
+>
+> A canoe leaves Elmina and sails 8 km on a bearing of 060° to a fishing ground. Take 1 cm to represent 1 km. (a) Draw the vector, showing your north line and the angle. (b) Find the bearing the canoe must follow to return directly to Elmina. (c) By measuring on your drawing, write the journey in column form. (d) A second canoe sails 9 km east then 12 km north;
+>
+> find the magnitude of its displacement using Pythagoras' theorem. (e) State whether the second canoe's distance travelled and displacement are equal, and give a reason.
+
+#### Chapter summary
+
+- A bearing is measured clockwise from north and is always written with three digits, so east is 090°.
+
+- North is 000° or 360°, east 090°, south 180° and west 270°.
+
+- The back bearing is found by adding 180° to a bearing less than 180°, or subtracting 180° from a bearing of 180° or more.
+
+- A back bearing is never found by subtracting from 360°.
+
+- A scalar has size only; a vector has both size and direction.
+
+- Distance, speed, mass, time, volume, energy and work are scalars; displacement, velocity, weight, force, momentum and acceleration are vectors.
+
+- A vector may be written as (magnitude, bearing), and drawn to scale with a north line and a protractor.
+
+- In column form a vector is given by its x component across and its y component up, with right and up positive.
+
+- The components and the vector form a right-angled triangle, so the magnitude is √(x² + y²).
+
+- The pairs 3-4-5, 6-8-10, 9-12-15 and 5-12-13 give whole-number magnitudes and are worth recognising.
+
+- A zero vector has no magnitude and no direction.
+
+#### Assessment
+
+> **How this assessment is balanced**
+>
+> Weighted to the NaCCA Mathematics profile dimensions — Knowledge and Understanding 30%, Application of Knowledge 40%, Attitudes, Values and Process Skills 30%. This chapter carries 20 items: 6 tagged [K], 8 tagged [A] and 6 tagged [P].
+>
+> Indicators assessed: B7.3.2.3.1; B7.3.2.3.2; B7.3.2.3.3; B7.3.2.3.4; B7.3.2.3.5
+
+##### Section A — Objective
+
+1.A bearing is always measured clockwise from… A. east B. south C. west D. north **[K]** 2.A quantity having both size and direction is called a… A. scalar B. vector C. magnitude D. component **[K]** 3.The size of a vector, without its direction, is called its… A. bearing B. component C. magnitude D. displacement **[K]**
+
+4.Which of the following is a scalar quantity? A. Velocity B. Force C. Mass D. Displacement **[K]** 5.The bearing of west is… A. 090° B. 180° C. 270° D. 360° **[K]** 6.A vector with no magnitude and no direction is called a… A. unit vector B. zero vector C. column vector D. scalar **[K]**
+
+<!-- page 113 -->
+
+7.Find the back bearing of 065°. A. 115° B. 245° C. 295° D. 425° **[A]** 8.Find the back bearing of 210°. A. 030° B. 150° C. 300° D. 390° **[A]** 9.Write the vector (70 km, 090°) in column form, with x east and y north. A. x = 0, y = 70 B. x = 70, y = 0 C. x = −70, y = 0 D. x = 0, y = −70 **[A]**
+
+10. Find the magnitude of the vector with components x = 9 and y = 12. A. 15 B. 21 C. 108 D. 225 **[A]**
+
+##### Section B — Theory and application
+
+1.(a) Write the following as three-figure bearings: north-east, south, west, south-east. (b) Find the back bearing of 065°, 210° and 300°, showing your working. (c) A town B is on a bearing of 120° from A; find the bearing of A from B. (d) Give a reason why a bearing is always written with three digits. **[A]**
+
+2.(a) Classify each of the following as scalar or vector: weight, force, velocity, time, speed, distance, mass, volume, energy, work, momentum. (b) Explain the difference between distance and displacement. (c) A girl walks 4 km north then 4 km south; find her distance travelled and her displacement. **[A]**
+
+3.(a) Using a scale of 1 cm to 1 km, draw the vector (6 km, 245°), showing your north line. (b) Write (10 km, 270°) and (70 km, 090°) in column form, taking x east and y north. (c) Write in column form the vector running from (2, 1) to (7, 4). **[A]**
+
+4.(a) State Pythagoras' theorem. (b) Find the magnitude of the vector with components x = 12 and y = 15, giving your answer to one decimal place. (c) Find the magnitude of the vector with components x = 9 and y = 12. (d) A vector has components x = 4 and y = 3; find its magnitude and state between which two cardinal directions it points. **[A]**
+
+##### Section C — Attitudes, values and process tasks
+
+1.Establish and measure: (a) mark a starting point in the school compound and establish north using a compass or the midday shadow; (b) choose four landmarks and measure the distance and bearing of each from your starting point; (c) record each as a vector in magnitude–bearing form. (Activity 12.1, steps 1-3) **[P]**
+
+2.Verify back bearings: find the back bearing of each of your four vectors by calculation, then stand at each landmark and take the bearing of the starting point to check. (Activity 12.1, step 4) **[P]**
+
+3.Plot to scale: choose a suitable scale, plot all four vectors from a common origin on graph paper, and read off the column form of each. (Activity 12.1, step 5) **[P]**
+
+4.Calculate and compare: for two of your vectors, calculate the magnitude from the components using Pythagoras' theorem and set the result beside the distance you measured. (Activity 12.1, step 6) **[P]**
+
+5.Account for error: list three reasons why the calculated and measured distances differ, and state which of them could be reduced and how. (Activity 12.1, think about it) **[P]**
+
+6.Draw and convert: using a scale of your own choosing, draw the vectors (5 km, 030°) and (25 km, 150°) on graph paper, write each in column form, then convert each back to magnitude–bearing form and state how closely the two agree. **[P]**
+
+<!-- page 114 -->
+
+*Strand 3: Geometry and Measurement · Sub-Strand 3: Position and Transformation*
+
+### Chapter 13: Reflection and Translation
+
+> **Curriculum alignment**
+>
+> Strand 3: Geometry and Measurement
+>
+> Sub-Strand 3: Position and Transformation
+>
+> Content standard B7.3.3.1
+>
+> Perform a single transformation (i.e. reflection and translation) on a 2D shape using graph paper (including technology) and describe the properties of the image under the transformation (i.e. congruence, similarity, etc.)
+>
+> B7.3.3.1.1 Determine shapes in real life that have reflectional (or fold) symmetries
+>
+> B7.3.3.1.2 Plot points and shapes (i.e. plane figures) on a coordinate plane and draw their images under reflection in given lines
+>
+> B7.3.3.1.3 Plot points and shapes (i.e. plane figures) on a coordinate plane and draw their images under translation by a given vector
+>
+> B7.3.3.1.4 Verify the concept of congruent and similar shapes in coordinate plane using properties of both the object(s) and image(s); and in real life situations (carpet designs, fabric pattern)
+
+> **Core competences**
+>
+> Creativity and Innovation
+>
+> Critical Thinking and Problem Solving
+>
+> Digital Literacy
+
+#### Learning objectives
+
+By the end of this chapter you can:
+
+- identify shapes and designs in everyday life that have line symmetry
+
+- find the lines of symmetry of a given shape
+
+- shade squares in a grid so that a shape gains a line of symmetry
+
+- plot points and plane figures on the coordinate plane
+
+- name and draw the lines x = 0, y = 0, y = x and lines such as y = −1
+
+- draw the image of a point or shape after reflection in a given line
+
+- draw the image of a point or shape after translation by a given vector
+
+- describe the single transformation that maps a shape onto its image
+
+- explain what congruent and similar shapes are
+
+- verify that reflection and translation produce congruent images
+
+> **Key words**
+>
+> Transformation — a change in the position, size or orientation of a shape.
+>
+> Object — the original shape before a transformation.
+>
+> Image — the shape produced by the transformation.
+>
+> Reflection — a transformation that flips a shape across a mirror line.
+>
+> Mirror line (line of reflection) — the line a shape is reflected in.
+>
+> Line of symmetry — a line that divides a shape into two matching halves.
+>
+> Translation — a transformation that slides a shape without turning or flipping it.
+>
+> Translation vector — the column vector giving how far a shape slides across and up.
+>
+> Congruent — exactly the same shape and the same size.
+
+<!-- page 115 -->
+
+> Similar — the same shape but not necessarily the same size.
+>
+> Vertex — a corner point of a shape.
+>
+> Coordinate plane — the grid formed by the x-axis and the y-axis.
+>
+> Prime notation — the dash used to name an image, as in A ′for the image of A.
+
+> **Engage**
+>
+> Look at the adinkra symbol \*Gye Nyame\*. Fold it down the middle and the two halves land exactly on each other. Nearly every adinkra symbol is built this way, and so is nearly every kente pattern, every carved stool, every window grille in your town. The craftsmen who make them are not thinking about coordinates — but they are doing exactly what this chapter describes, and doing it by eye.
+
+#### 13.1 Line symmetry
+
+A shape has **line symmetry** if a line can be drawn through it so that one half is the mirror image of the other. Fold along that line and the two halves land exactly on top of each other, which is why it is also called fold symmetry. Such a line is a **line of symmetry**.
+
+*Table 13.1 — Lines of symmetry in common shapes.*
+
+| **Shape** | **Lines of symmetry** |
+| --- | --- |
+| Square | 4 |
+| Rectangle | 2 |
+| Equilateral triangle | 3 |
+| Isosceles triangle | 1 |
+| Scalene triangle | 0 |
+| Circle | infinitely many |
+| Regular pentagon | 5 |
+| Parallelogram (not a rectangle) | 0 |
+| Kite | 1 |
+| Rhombus | 2 |
+
+Line symmetry is everywhere in Ghanaian design: in adinkra symbols, in kente strips, in the carving on a stool, in the pattern of a window grille, in the shape of a leaf, a butterfly and the human face.
+
+<!-- page 116 -->
+
+![Figure 13.1 Lines of symmetry in shapes and in adinkra designs.](images/maths-b7-print-ready-p116-fig22.png)
+
+> **Practice 13.1**
+>
+> 1. State the number of lines of symmetry in: (a) a square (b) a rectangle (c) an equilateral triangle (d) a parallelogram
+>
+> 2. Draw each of the shapes in question 1 and mark every line of symmetry.
+>
+> 3. Collect or draw three adinkra symbols and mark the lines of symmetry on each.
+>
+> 4. In a five-by-five grid your teacher provides, four squares are shaded. Shade one more square so that the figure has a line of symmetry, and state how many different ways this can be done.
+>
+> 5. Explain why a circle has infinitely many lines of symmetry.
+
+#### 13.2 Plotting points and lines
+
+Before a shape can be reflected or translated on paper, it must be placed on the **coordinate plane** you met in Chapter 7. Each point is given by its coordinates (x, y), read along the x-axis first and then up or down the y-axis.
+
+> **Worked example 1 — plotting a figure**
+>
+> Plot the points A(3, 1), B(3, 3), C(4, 3), D(4, 2), E(5, 2), F(5, 3), H(6, 3) and I(6, 1), and join them in order, then join I back to A.
+>
+> Plotting each in turn and joining gives a figure shaped like a letter M standing on a base — a shape with a vertical line of symmetry through x = 4.5.
+
+You must also be able to name and draw the straight lines used as mirrors.
+
+*Table 13.2 — Naming lines on the coordinate plane.*
+
+| **Line** | **Where it lies** | **Also called** |
+| --- | --- | --- |
+| x = 0 | The vertical axis | The y-axis |
+| y = 0 | The horizontal axis | The x-axis |
+| x = 3 | A vertical line through 3 on the x-axis | — |
+| y = −1 | A horizontal line through −1 on the y- axis | — |
+
+<!-- page 117 -->
+
+_[answer space — 2 lines]_
+
+y = x
+
+The sloping line through the origin at 45°—
+
+> **Common misconception 13.1**
+>
+> x = 3 is a **vertical** line, not a horizontal one. It is the set of all points whose x coordinate is 3 — and those points run straight up and down. Likewise y = −1 is horizontal. Read the equation as 'every point where x is 3', and the direction follows.
+
+> **Practice 13.2**
+>
+> 1. On graph paper, plot A(3, 1), B(3, 3), C(4, 3), D(4, 2), E(5, 2), F(5, 3), H(6, 3), I(6, 1) and join them in order, joining I back to A.
+>
+> 2. On the same axes, draw and label the lines x = 0, y = 0, y = x and y = −1.
+>
+> 3. Write down the coordinates of four points lying on the line x = 2.
+>
+> 4. Write down the coordinates of four points lying on the line y = x.
+>
+> 5. State whether the line y = 4 is horizontal or vertical, and give a reason.
+
+#### 13.3 Reflection
+
+A **reflection** flips a shape across a **mirror line**. Three things are always true, and together they tell you everything you need to draw one.
+
+- Every point of the image is the **same distance** from the mirror line as the matching point of the object, on the opposite side.
+
+- The line joining a point to its image is **perpendicular** to the mirror line.
+
+- Any point **lying on** the mirror line does not move.
+
+The image is named with dashes: the image of A is written A ′, read "A prime".
+
+> **Worked example 2 — reflecting in the axes**
+>
+> Find the image of the point P(4, 3) after reflection in (a) the y-axis, (b) the x-axis.
+>
+> (a) Reflecting in the y-axis (the line x = 0) reverses the sign of the x coordinate:
+>
+> P(4, 3) → **P ′(−4, 3)** (b) Reflecting in the x-axis (the line y = 0) reverses the sign of the y coordinate:
+>
+> P(4, 3) → **P ′(4, −3)**
+
+> **Worked example 3 — reflecting in a line that is not an axis**
+>
+> Find the image of Q(2, 5) after reflection in the line x = 4.
+>
+> Q is 2 units to the left of the mirror line (4 − 2 = 2).
+>
+> So Q ′must be 2 units to the right of it: 4 + 2 = 6.
+>
+> The y coordinate does not change.
+>
+> **Q ′(6, 5)**
+
+> **Worked example 4 — reflecting a whole shape**
+>
+> A triangle has vertices A(1, 1), B(3, 1) and C(1, 4). Find its image after reflection in the y-axis.
+>
+> Reflect each vertex in turn, reversing the sign of x:
+>
+> A(1, 1) → A ′(−1, 1)
+>
+> B(3, 1) → B ′(−3, 1)
+>
+> C(1, 4) → C ′(−1, 4)
+
+<!-- page 118 -->
+
+> Join A′ B′ C′ to complete the image.
+>
+> The image is the **same shape and the same size** as the object, but facing the other way.
+
+> **Exam tip 13.1**
+>
+> Reflect one vertex at a time, and write the coordinates down as you go. Never try to draw the whole image by eye — the marks are for the vertices being in exactly the right places, and a hand-drawn guess is almost never exact.
+
+> **Practice 13.3**
+>
+> 1. Find the image of P(4, 3) after reflection in: (a) the y-axis (b) the x-axis
+>
+> 2. Find the image of Q(2, 5) after reflection in the line x = 4.
+>
+> 3. Find the image of R(3, 2) after reflection in the line y = −1.
+>
+> 4. A triangle has vertices A(1, 1), B(3, 1) and C(1, 4). Draw it and its image after reflection in the y-axis, labelling the image A ′B ′C ′.
+>
+> 5. State what happens to a point that lies on the mirror line.
+
+#### 13.4 Translation
+
+A **translation** slides a shape. It does not turn it, flip it or change its size — every point moves the same distance in the same direction, so the image looks exactly like the object and faces the same way.
+
+The slide is described by a **translation vector**, written in the column form you met in Chapter 12: an x component for the movement across and a y component for the movement up. Right and up are positive; left and down are negative.
+
+**a translation of x across and y up sends the point (a, b) to (a + x, b + y)**
+
+> **Worked example 5 — translating a point**
+>
+> Find the image of A(2, 3) under a translation of 4 across and 2 up.
+>
+> A ′= (2 + 4, 3 + 2) = **A ′(6, 5)**
+>
+> Now find the image of A(2, 3) under a translation of −3 across and 1 down.
+>
+> A ′= (2 + (−3), 3 + (−1)) = **A ′(−1, 2)**
+
+> **Worked example 6 — translating a shape**
+>
+> A rectangle has vertices P(1, 1), A(4, 1), R(4, 3) and T(1, 3). Find its image under a translation of 3 across and 2 up.
+>
+> Add 3 to every x coordinate and 2 to every y coordinate:
+>
+> P(1, 1) → P ′(4, 3)
+>
+> A(4, 1) → A ′(7, 3)
+>
+> R(4, 3) → R ′(7, 5)
+>
+> T(1, 3) → T ′(4, 5)
+>
+> ′ ′ ′ ′
+>
+> The image P A R T is the **same shape, same size and same way up** as PART — it has simply slid.
+
+> **Worked example 7 — describing the transformation**
+>
+> ′ ′ ′ ′
+>
+> A shape PART has vertices P(1, 1), A(4, 1), R(4, 3), T(1, 3). Its image P A R T has vertices P (4, ′3), A (7,′ 3), R (7′, 5), T (′4, 5).
+>
+> ′ ′ ′ ′
+>
+> Describe the single transformation that maps PART onto P A R T .
+>
+> Compare one pair of matching vertices: P(1, 1) → P (′4, 3).
+>
+> Across: 4 − 1 = 3 Up: 3 − 1 = 2
+>
+> ✓
+>
+> Check a second pair: R(4, 3) → R (′7, 5). Across 3, up 2
+
+<!-- page 119 -->
+
+> The transformation is a **translation of 3 across and 2 up**.
+
+![Figure 13.2 Reflection and translation on the coordinate plane.](images/maths-b7-print-ready-p119-fig23.png)
+
+> **Practice 13.4**
+>
+> 1. Find the image of A(2, 3) under a translation of: (a) 4 across and 2 up (b) −3 across and 1 down
+>
+> 2. A rectangle has vertices P(1, 1), A(4, 1), R(4, 3), T(1, 3). Draw it and its image under a translation of 3 across and 2 up.
+>
+> 3. A point B(5, 2) has image B ′(1, 6). Find the translation vector.
+>
+> 4. Describe fully the single transformation that maps the triangle with vertices (2, 1), (5, 1), (2, 4) onto the triangle with vertices (2, −1), (5, −1), (2, −4).
+>
+> 5. State two differences between a reflection and a translation.
+
+#### 13.5 Congruence and similarity
+
+Two shapes are **congruent** if they are exactly the same shape **and** exactly the same size. One would fit precisely on top of the other, though it might have to be turned or flipped over first.
+
+Two shapes are **similar** if they are the same shape but not necessarily the same size — one is an enlargement of the other. All their corresponding angles are equal, and all their corresponding sides are in the same ratio.
+
+*Table 13.3 — Congruent and similar shapes compared.*
+
+|  | **Congruent** | **Similar** |
+| --- | --- | --- |
+| Shape | Same | Same |
+| Size | Same | May differ |
+| Corresponding angles | Equal | Equal |
+| Corresponding sides | Equal | In the same ratio |
+| Example | Two identical floor tiles | A photograph and its enlargement |
+
+Every congruent pair is also similar — with the ratio of sides equal to 1. But similar shapes are not necessarily congruent.
+
+<!-- page 120 -->
+
+This matters for what you have just learned. **Reflection and translation both produce images congruent to the object.** Neither changes any length or any angle; one flips the shape and the other slides it, but the size and shape survive both untouched. A transformation with this property is called an isometry.
+
+> **Activity 13.1 — Symmetry and transformation in Ghanaian design**
+>
+> You need: graph paper, plain paper, a ruler, tracing paper or a small mirror, coloured pencils, examples of adinkra symbols, kente cloth, carved designs or printed fabric.
+>
+> What to do:
+>
+> 1. Collect or draw six Ghanaian designs — adinkra symbols, a kente strip, a fabric print, a window grille, a carved pattern.
+>
+> For each, use a mirror or tracing paper to find every line of symmetry and mark it.
+>
+> 2. Sort your six into those with one line of symmetry, those with more than one, and those with none.
+>
+> 3. On graph paper, plot the points A(3, 1), B(3, 3), C(4, 3), D(4, 2), E(5, 2), F(5, 3), H(6, 3), I(6, 1) and join them in order.
+>
+> Draw and label the lines x = 0, y = 0, y = x and y = −1 on the same axes.
+>
+> 4. Reflect your figure in the y-axis and record the coordinates of every image point. Check three of them by measuring the distance from the mirror line on each side.
+>
+> 5. Translate the original figure by 3 across and 2 up, and record all the image coordinates.
+>
+> 6. Measure one side and one angle of the object and the matching side and angle in each image. State whether object and image are congruent, similar, or neither, and justify your answer with your measurements.
+>
+> 7. Design your own symmetrical pattern on graph paper by drawing half a figure and reflecting it, then repeating the whole thing by translation to make a border strip.
+>
+> Record: your six designs with their lines of symmetry and your sorting; the plotted figure with both images and all coordinates; your measurements from step 6; and your own border design.
+>
+> Think about it: in step 7 you used reflection to make the motif and translation to repeat it. Look again at the kente strip in step 1 — can you see the same two transformations being used by the weaver?
+
+> **Apply it — The tiled floor**
+>
+> A tiler is laying a floor with a triangular motif. The motif has vertices at A(1, 1), B(4, 1) and C(1, 3) on a grid where one unit is 10 cm. (a) Draw the motif on graph paper. (b) Draw its image after reflection in the line x = 5 and write down the coordinates of the image. (c) Draw the image of the **original** motif after a translation of 0 across and 4 up, and write down its coordinates. (d) State whether the two images are congruent to the original, giving a reason. (e) The tiler wants a motif twice as long in every direction for the border; state whether that new motif would be congruent or similar to the original, and explain the difference.
+
+#### Chapter summary
+
+- A shape has line symmetry if a line divides it into two halves that fold exactly onto each other.
+
+- A square has 4 lines of symmetry, a rectangle 2, an equilateral triangle 3, a circle infinitely many and a parallelogram none.
+
+- Ghanaian adinkra symbols, kente patterns and carvings are built on line symmetry.
+
+- On the coordinate plane, x = 0 is the y-axis, y = 0 is the x-axis, x = 3 is a vertical line and y = −1 is a horizontal line.
+
+- A reflection flips a shape across a mirror line; each image point is the same distance from the line as its object point, on the opposite side.
+
+- Reflecting in the y-axis reverses the sign of x; reflecting in the x-axis reverses the sign of y.
+
+- A point lying on the mirror line does not move.
+
+- A translation slides a shape without turning or flipping it, and is described by a vector giving the movement across and up.
+
+- Under a translation of x across and y up, the point (a, b) moves to (a + x, b + y).
+
+<!-- page 121 -->
+
+- Congruent shapes are the same shape and the same size; similar shapes are the same shape but may differ in size.
+
+- Reflection and translation both produce images congruent to the object, because neither changes any length or angle.
+
+#### Assessment
+
+> **How this assessment is balanced**
+>
+> Weighted to the NaCCA Mathematics profile dimensions — Knowledge and Understanding 30%, Application of Knowledge 40%, Attitudes, Values and Process Skills 30%. This chapter carries 20 items: 6 tagged [K], 8 tagged [A] and 6 tagged [P].
+>
+> Indicators assessed: B7.3.3.1.1; B7.3.3.1.2; B7.3.3.1.3; B7.3.3.1.4
+
+##### Section A — Objective
+
+1.A line that divides a shape into two matching halves is called a line of… A. reflection only B. symmetry C. translation D. congruence **[K]**
+
+2.A transformation that slides a shape without turning it is called a… A. reflection B. rotation C. translation D. enlargement **[K]**
+
+3.Shapes that are exactly the same shape and the same size are said to be… A. similar B. congruent C. symmetrical D. parallel **[K]**
+
+4.The line x = 0 is also known as the… A. x-axis B. y-axis C. line y = x D. origin **[K]** 5.The number of lines of symmetry in a rectangle is… A. 0 B. 1 C. 2 D. 4 **[K]** 6.Shapes that are the same shape but not necessarily the same size are said to be… A. congruent B. similar C. equal D. reflected **[K]**
+
+7.Find the image of P(4, 3) after reflection in the y-axis. A. (−4, 3) B. (4, −3) C. (−4, −3) D. (3, 4) **[A]** 8.Find the image of Q(2, 5) after reflection in the line x = 4. A. (2, 3) B. (6, 5) C. (−2, 5) D. (2, −5) **[A]** 9.Find the image of A(2, 3) under a translation of 4 across and 2 up. A. (6, 5) B. (−2, 1) C. (4, 2) D. (8, 6) **[A]**
+
+10. A point B(5, 2) has image B (′1, 6). Find the translation. A. 4 across, 4 up B. −4 across, 4 up C. 4 across, −4 up D. −4 across, −4 up **[A]**
+
+##### Section B — Theory and application
+
+1.(a) State the number of lines of symmetry in a square, a rectangle, an equilateral triangle and a parallelogram. (b) Draw each shape and mark every line of symmetry. (c) Give three examples of line symmetry in Ghanaian design. (d) Give a reason why a circle has infinitely many lines of symmetry. **[A]**
+
+2.(a) On graph paper plot A(3, 1), B(3, 3), C(4, 3), D(4, 2), E(5, 2), F(5, 3), H(6, 3), I(6, 1) and join them in order, joining I back to A. (b) On the same axes draw and label the lines x = 0, y = 0, y = x and y = −1. (c) Explain why x = 3 is a vertical line and not a horizontal one. **[A]**
+
+3.(a) State the three properties of a reflection. (b) Find the image of P(4, 3) after reflection in the y-axis and in the x-axis. (c) Find the image of Q(2, 5) after reflection in the line x = 4, showing your reasoning. (d) A triangle has vertices A(1, 1), B(3, 1), C(1, 4); find the coordinates of its image after reflection in the y-axis. **[A]**
+
+4.(a) A rectangle has vertices P(1, 1), A(4, 1), R(4, 3), T(1, 3). Find the coordinates of its image under a translation of 3 across and 2 up. (b) Describe fully the single transformation that maps PART onto the
+
+′ ′ ′ ′
+
+image P A R T with vertices (4, 3), (7, 3), (7, 5), (4, 5). (c) Distinguish between congruent and similar shapes. (d) State, with a reason, whether reflection and translation produce congruent or similar images. **[A]**
+
+<!-- page 122 -->
+
+##### Section C — Attitudes, values and process tasks
+
+1.Investigate symmetry in design: (a) collect or draw six Ghanaian designs; (b) using a mirror or tracing paper, find and mark every line of symmetry on each; (c) sort them into those with one line, those with more than one, and those with none. (Activity 13.1, steps 1-2) **[P]**
+
+2.Plot and label: on graph paper plot the eight given points and join them in order, then draw and label the lines x = 0, y = 0, y = x and y = −1 on the same axes. (Activity 13.1, step 3) **[P]**
+
+3.Reflect and verify: reflect your figure in the y-axis, record the coordinates of every image point, and check three of them by measuring the distance from the mirror line on each side. (Activity 13.1, step 4) **[P]**
+
+4.Translate and record: translate the original figure by 3 across and 2 up and write down all the image coordinates. (Activity 13.1, step 5) **[P]**
+
+5.Measure and classify: measure one side and one angle of the object and of each image, then state whether object and image are congruent, similar or neither, justifying your answer with your measurements. (Activity 13.1, step 6) **[P]**
+
+6.Design and explain: create your own border strip by drawing half a motif, reflecting it to complete the motif, then repeating it by translation; state where you used reflection and where you used translation. (Activity 13.1, step 7) **[P]**
+
+<!-- page 123 -->
+
+## Strand 4: Handling Data
+
+*Strand 4: Handling Data · Sub-Strand 1: Data*
+
+### Chapter 14: Collecting, Displaying and Summarising Data
+
+> **Curriculum alignment**
+>
+> Strand 4: Handling Data
+>
+> Sub-Strand 1: Data
+>
+> Content standard B7.4.1.1
+>
+> Select, justify, and use appropriate methods to collect data (quantitative and qualitative), display and analyse the data (grouped/ungrouped) presented in frequency tables, line graphs, pie graphs, bar graphs or pictographs and use these to solve and/or pose problems. Marks Tally Frequency i. Draw a bar graph to illustrate the data in the 1 /// 3 frequency table. 2 / 1 ii. Write your conclusion about the students’ scores in the test and/or pose questions 4 on the graph. Total
+>
+> B7.4.1.1.1 ) i. Will eating twice a person's normal number of cream crackers increase their productivity? ii. Are people who eat more cream crackers more productive? iii. Does a group of students study better when cream crackers are present or absent?
+>
+> B7.4.1.1.2 Design and administer a questionnaire for collecting data to answer questions and record the results
+>
+> B7.4.1.1.3 Organise and present data from a survey into a table and/or chart, and analyse it to solve and/or pose problems
+>
+> Content standard B7.4.1.2
+>
+> Determine the measures of central tendency (mean, median, mode) for a given ungrouped data and use it to solve problems
+>
+> B7.4.1.2.1 Calculate the mean for a given ungrouped data and use it to solve problems
+>
+> B7.4.1.2.2 Calculate the median for a given ungrouped data and use it to solve problems
+
+> **Core competences**
+>
+> Communication and Collaboration
+>
+> Critical Thinking and Problem Solving
+>
+> Digital Literacy
+>
+> Creativity and Innovation
+>
+> Personal Development and Leadership
+
+#### Learning objectives
+
+By the end of this chapter you can:
+
+- explain what data is and distinguish quantitative from qualitative data
+
+- name the main methods of collecting data and choose the right one for a given question
+
+- design a questionnaire and administer it to collect data
+
+- organise raw data into a frequency table using tallies
+
+- display data as a bar graph, pictograph, line graph or pie chart
+
+- read information from a graph and draw conclusions
+
+- calculate the mean of ungrouped data
+
+- calculate the mean of data given in a frequency table
+
+- find the median of an odd and an even number of items
+
+- find the mode of a set of data and use the three averages to solve problems
+
+> **Key words**
+
+<!-- page 124 -->
+
+> Data — facts or figures collected for a purpose.
+>
+> Quantitative data — data that is counted or measured, such as ages or marks.
+>
+> Qualitative data — data that describes a quality, such as favourite subject or colour.
+>
+> Population — the whole group being studied.
+>
+> Sample — the part of the population actually questioned or measured.
+>
+> Questionnaire — a printed set of questions used to collect data.
+>
+> Survey — the process of collecting data from a group of people.
+>
+> Raw data — data as first collected, before it is organised.
+>
+> Tally — a mark used to count items as they are sorted.
+>
+> Frequency — the number of times a value occurs.
+>
+> Frequency table — a table showing each value beside its frequency.
+>
+> Bar graph — a display using bars of equal width whose heights show the frequencies.
+>
+> Pictograph — a display using a symbol to stand for a fixed number of items.
+>
+> Pie chart — a circular display in which each sector represents a share of the whole.
+>
+> Average (measure of central tendency) — a single value representing a whole set of data.
+>
+> Mean — the sum of all the items divided by the number of items.
+>
+> Median — the middle item when the data is arranged in order.
+>
+> Mode — the item that occurs most often.
+>
+> Array — a set of data arranged in order of size.
+
+> **Engage**
+>
+> Before a school buys football boots for the team, somebody has to decide which make to buy. Ask one loud player and you will get one opinion. Ask all twenty and write down the answers, and you have something that can be counted, displayed and argued from. The difference between an opinion and evidence is nothing more than a table of numbers collected honestly — and that is what this chapter is for.
+
+#### 14.1 Collecting data
+
+**Data** is facts or figures collected for a purpose. Data that is counted or measured — ages, marks, bus fares — is **quantitative**. Data that describes a quality — favourite subject, make of boot, colour — is **qualitative**.
+
+Before collecting anything you must be clear about two things: what question you are trying to answer, and who you need to ask. The whole group you are interested in is the **population**; the part you actually question is the **sample**.
+
+##### 14.1.1 Methods of collecting data
+
+*Table 14.1 — Methods of collecting data.*
+
+| **Method** | **What it involves** | **Best used when** |
+| --- | --- | --- |
+| Questionnaire | A printed set of questions answered by each person | You need the same information from many people |
+| Interview | Asking questions face to face and recording the answers | You need detail, or the people cannot read easily |
+| Observation | Watching and recording what actually happens | People's answers might differ from their behaviour |
+| Experiment | Setting up a test and measuring the result | You are comparing two conditions |
+| Survey | Collecting from a sample of a large population | The population is too large to ask everyone |
+| Databases and records | Using figures already collected by | The records exist and are reliable |
+
+<!-- page 125 -->
+
+|  | someone else |  |
+| --- | --- | --- |
+| Electronic media and internet | Searching published information online | The data is national or international |
+
+> **Worked example 1 — choosing a method**
+>
+> State the data needed and the best method of collecting it for each decision.
+>
+> (a) The type of drinks to buy for a class party.
+>
+> Needed: each learner's preference. Method: **questionnaire** — everyone can be asked the same question quickly.
+>
+> (b) The make of football boots to buy for the school team.
+>
+> Needed: the players' views and the prices. Method: **interview** the players and check **records** of prices.
+>
+> (c) The number of desks in each classroom.
+>
+> Needed: an actual count. Method: **observation** — counting, not asking.
+>
+> (d) The amount of money learners spend on bus fare each month.
+>
+> Needed: figures from many learners. Method: **survey** using a question form.
+>
+> (e) Whether a group studies better when crackers are available.
+>
+> Needed: a comparison of two conditions. Method: **experiment**.
+
+##### 14.1.2 Designing a questionnaire
+
+A questionnaire is only as good as its questions. Four rules cover most of what can go wrong.
+
+- **Ask one thing at a time.** "Do you like maths and science?" cannot be answered by someone who likes one and not the other.
+
+- **Do not lead the answer.** "Don't you agree that football is the best sport?" is not a question, it is a suggestion.
+
+- **Make the choices cover everything and not overlap.** Age groups of 10–12 and 12–14 overlap; where does a twelve-year-old go?
+
+- **Keep it short and keep it private.** People stop answering long forms honestly, and they will not answer questions they find intrusive at all.
+
+> **Activity 14.1 — Designing and running a class survey**
+>
+> You need: paper for the question forms, a notebook, graph paper, a ruler.
+>
+> What to do:
+>
+> 1. In your group, design a question form with eight questions. Include the following, and add two of your own:
+>
+> What is your name? · How old are you? · What is your favourite school subject? · What is your worst subject? · Which subject do you think is the most important? · What is your favourite hobby? · What is your favourite day of the week? · How much do you spend on bus fare to school each day?
+>
+> 2. Check each of your questions against the four rules above and correct any that break them.
+>
+> 3. Administer the form to at least twenty learners.
+>
+> 4. Organise all the answers into one large table, with one row per person and one column per question.
+>
+> 5. State which of your eight questions gave quantitative data and which gave qualitative data.
+>
+> Record: your question form, your corrections from step 2, the completed table of results, and your classification from step 5.
+>
+> Think about it: which question was answered least honestly, and why do you think that was? What would you change about it if you ran the survey again?
+
+<!-- page 126 -->
+
+#### 14.2 Organising data into a frequency table
+
+Data as first collected is **raw data** — a jumble of figures in no order. It becomes useful only when organised, and the usual tool is a **frequency table** built with **tallies**.
+
+Work through the raw data once, in order, putting a stroke beside each value as you meet it. Every fifth stroke is drawn across the previous four, making groups of five that are quick to count. Never go back to the beginning to count one value at a time — that is where errors come from.
+
+> **Worked example 2 — building a frequency table**
+>
+> The marks out of 10 obtained by 47 learners in a mathematics test were:
+>
+> 10 7 4 5 6 8 7 6 7 5 3 4 5 4 5 4 6 5 6 7 6 3 4 5 6 7 5 9 4 6 6 1 7 7 9 5 5 2 7 10 8 6 7 4 1 6 6 Build a frequency table.
+>
+> Working through once and tallying:
+>
+> Mark | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10
+>
+> Frequency | 2 | 1 | 2 | 7 | 9 | 11| 9 | 2 | 2 | 2
+>
+> Check: the frequencies must add to the number of learners.
+>
+> 2 + 1 + 2 + 7 + 9 + 11 + 9 + 2 + 2 + 2 = **47** ✓
+
+> **Exam tip 14.1**
+>
+> Always add your frequencies and check the total against the number of items you started with. If the two do not agree you have miscounted, and every later answer built on that table will be wrong.
+
+##### 14.2.1 Displaying the data
+
+*Table 14.2 — Choosing a display.*
+
+| **Display** | **How it works** | **Best for** |
+| --- | --- | --- |
+| Bar graph | Bars of equal width, heights showing frequency, gaps between bars | Comparing the sizes of separate categories |
+| Pictograph | A symbol standing for a fixed number, with a key | Simple data, and audiences who dislike figures |
+| Line graph | Points joined by lines | Showing change over time |
+| Pie chart | A circle divided into sectors | Showing each part as a share of the whole |
+
+Every display needs a clear title. Bar and line graphs need labelled axes and a suitable scale; a bar graph should start at zero. Pictographs and pie charts need a key. A bar graph whose scale begins part way up exaggerates the differences, and that is how graphs can mislead.
+
+<!-- page 127 -->
+
+![Figure 14.1 A frequency table displayed four ways.](images/maths-b7-print-ready-p127-fig24.png)
+
+> **Worked example 3 — drawing conclusions from a graph**
+>
+> Using the frequency table from Worked example 2:
+>
+> (a) State the mark obtained by the greatest number of learners.
+>
+> The highest frequency is 11, at a mark of **6**.
+>
+> (b) Find how many learners scored more than 7.
+>
+> Marks of 8, 9 and 10: 2 + 2 + 2 = **6 learners** (c) Find how many scored below 5.
+>
+> Marks of 1, 2, 3 and 4: 2 + 1 + 2 + 7 = **12 learners** (d) Write one conclusion about the class's performance.
+>
+> Most learners scored between 4 and 7, with very few at either extreme — the class performed moderately, with 6 the most common mark.
+
+> **Practice 14.1**
+>
+> 1. State whether each is quantitative or qualitative: (a) age (b) favourite subject (c) bus fare (d) make of shoe (e) number of desks
+>
+> 2. State the best method of collecting data for: (a) the drinks to buy for a party (b) the number of desks in each classroom (c) whether learners work better in silence
+>
+> 3. The marks of 47 learners are given in Worked example 2. Copy and complete the frequency table using tallies, and check that your frequencies total 47.
+>
+> 4. Draw a bar graph to display the data in question 3, with a title and labelled axes.
+>
+> 5. From your graph, state the most common mark and the number of learners who scored more than 7.
+
+#### 14.3 The mean
+
+An **average** is a single value that stands for a whole set of data. There are three in common use, and the first is the **mean**.
+
+**mean = sum of all the items ÷ number of items**
+
+<!-- page 128 -->
+
+> **Worked example 4 — the mean of a small set**
+>
+> Find the mean of the data set {8, 9, 7, 6, 8, 10}.
+>
+> Sum = 8 + 9 + 7 + 6 + 8 + 10 = 48
+>
+> Number of items = 6
+>
+> Mean = 48 ÷ 6 = **8**
+
+> **Worked example 5 — the mean of a larger set**
+>
+> Find the mean of the marks obtained out of 5 by 20 learners:
+>
+> 3 4 2 4 3 2 2 5 4 3 4 1 2 6 3 5 5 2 4 1
+>
+> Sum = 3+4+2+4+3+2+2+5+4+3+4+1+2+6+3+5+5+2+4+1 = 65
+>
+> Number of items = 20
+>
+> Mean = 65 ÷ 20 = **3.25**
+>
+> A mean need not be a whole number, and need not be one of the values in the data.
+
+##### 14.3.1 The mean from a frequency table
+
+When data is given in a frequency table, do not write every value out again. Multiply each value by its frequency, add those products to get the total, then divide by the total frequency.
+
+**mean = Σ(f × x) ÷ Σf**
+
+> **Worked example 6 — mean from a frequency table**
+>
+> Find the mean of the marks below.
+>
+> Score (x) | 1 | 2 | 3 | 4 | 5
+>
+> Frequency (f) | 2 | 6 | 4 | 5 | 3
+>
+> Multiply each score by its frequency:
+>
+> f × x | 2 | 12| 12| 20| 15
+>
+> Sum of f × x = 2 + 12 + 12 + 20 + 15 = 61
+>
+> Sum of frequencies = 2 + 6 + 4 + 5 + 3 = 20
+>
+> Mean = 61 ÷ 20 = **3.05**
+
+> **Worked example 7 — mean age at a party**
+>
+> Find the mean age of the children at a party.
+>
+> Age (x) | 1 | 3 | 5 | 6 | 7 | 8 | 9 | 10
+>
+> Frequency (f) | 2 | 5 | 6 |10 | 8 | 5 | 3 | 1 f × x: 2, 15, 30, 60, 56, 40, 27, 10
+>
+> Sum of f × x = 2 + 15 + 30 + 60 + 56 + 40 + 27 + 10 = 240
+>
+> Sum of frequencies = 2 + 5 + 6 + 10 + 8 + 5 + 3 + 1 = 40
+>
+> Mean = 240 ÷ 40 = **6 years**
+
+> **Common misconception 14.1**
+>
+> To find the mean from a frequency table, you do **not** add the values and divide by how many different values there are. In Worked example 6 that would give (1+2+3+4+5) ÷ 5 = 3, which ignores the fact that a score of 2 was obtained six times and a score of 1 only twice. Always multiply by the frequencies.
+
+<!-- page 129 -->
+
+#### 14.4 The median and the mode
+
+The **median** is the middle item when the data is arranged in order of size — an arrangement called an **array**. Arranging in order first is not optional; it is the whole method.
+
+- If there is an **odd** number of items, the median is the single middle one.
+
+- If there is an **even** number of items, there are two middle ones, and the median is their mean.
+
+> **Worked example 8 — median of an odd number of items**
+>
+> Find the median of 19, 29, 36, 15, 20.
+>
+> Arrange in order: 15, 19, **20**, 29, 36
+>
+> There are 5 items, an odd number, so the median is the third one.
+>
+> Median = **20**
+
+> **Worked example 9 — median of an even number of items**
+>
+> Find the median of 8, 9, 7, 6, 8, 10.
+>
+> Arrange in order: 6, 7, **8, 8**, 9, 10
+>
+> There are 6 items, an even number, so the two middle ones are the third and fourth: 8 and 8.
+>
+> Median = (8 + 8) ÷ 2 = **8**
+
+The **mode** is the item that occurs most often. A set may have one mode, more than one, or none at all if every item occurs equally often. The mode is the only average that can be used with qualitative data — there is no mean favourite subject, but there is certainly a most popular one.
+
+> **Worked example 10 — all three averages**
+>
+> Find the mean, median and mode of 4, 7, 5, 4, 9, 6, 4.
+>
+> Mean = (4 + 7 + 5 + 4 + 9 + 6 + 4) ÷ 7 = 39 ÷ 7 = **5.57** (to 2 decimal places) Array: 4, 4, 4, **5**, 6, 7, 9 — seven items, so the median is the fourth: **5**
+>
+> The value 4 occurs three times, more than any other, so the mode is **4**
+
+*Table 14.3 — Choosing the right average.*
+
+| **Average** | **How to find it** | **When it is most useful** |
+| --- | --- | --- |
+| Mean | Add all items, divide by how many | Data is fairly evenly spread with no extreme values |
+| Median | Arrange in order, take the middle | A few very large or very small values would distort the mean |
+| Mode | The item occurring most often | Data is qualitative, or you need the most common choice |
+
+> **Exam tip 14.2**
+>
+> Arrange the data in order before finding the median, every single time. Marks are lost far more often for taking the middle of the unsorted list than for any arithmetic error.
+
+> **Practice 14.2**
+>
+> 1. Find the mean of: (a) {8, 9, 7, 6, 8, 10} (b) {12, 15, 11, 18, 14}
+>
+> 2. Find the mean of the marks 3 4 2 4 3 2 2 5 4 3 4 1 2 6 3 5 5 2 4 1.
+>
+> 3. Find the mean from the frequency table: scores 1, 2, 3, 4, 5 with frequencies 2, 6, 4, 5, 3.
+>
+> 4. Find the median of: (a) 19, 29, 36, 15, 20 (b) 8, 9, 7, 6, 8, 10
+>
+> 5. Find the mean, median and mode of 4, 7, 5, 4, 9, 6, 4.
+
+<!-- page 130 -->
+
+> **Activity 14.2 — Analysing the class survey**
+>
+> You need: the completed survey table from Activity 14.1, graph paper, a ruler, a pair of compasses.
+>
+> What to do:
+>
+> 1. Take the bus fare column from your survey. Organise it into a frequency table using tallies, and check your total.
+>
+> 2. Calculate the mean, the median and the mode of the bus fares.
+>
+> 3. Take the favourite subject column. Organise it into a frequency table and state which average can be used with it and which cannot, giving a reason.
+>
+> 4. Draw a bar graph of the favourite subjects, with a title, labelled axes and a scale starting at zero.
+>
+> 5. Draw a pictograph of the same data, choosing a sensible symbol and stating your key.
+>
+> 6. Write three conclusions from your survey, and pose two questions that your data can answer and one that it cannot.
+>
+> Record: both frequency tables, your three averages with full working, your two displays, and your conclusions and questions.
+>
+> Think about it: in step 2 the mean and the median of the bus fares were probably different. Which of them better describes what a typical learner pays, and why?
+
+> **Apply it — The school canteen**
+>
+> A canteen manager records how many learners bought lunch on each of ten days: 42, 38, 45, 40, 38, 51, 38, 44, 39, 45. (a) Arrange the data in an array. (b) Find the mean, the median and the mode. (c) The manager prepares meals for the mean number each day; state how many days in the ten she would have run short. (d) State which average she should use for planning, and give a reason. (e) On one further day 90 learners bought lunch because of a school event; state the effect this value would have on the mean and on the median, and explain why they are affected differently.
+
+#### Chapter summary
+
+- Data is facts or figures collected for a purpose; quantitative data is counted or measured, qualitative data describes a quality.
+
+- Methods of collection include questionnaires, interviews, observation, experiments, surveys, records and the internet, and the method must fit the question.
+
+- A good questionnaire asks one thing at a time, does not lead the answer, offers choices that cover everything without overlapping, and stays short.
+
+- Raw data is organised into a frequency table using tallies, working through the data once and grouping every fifth stroke.
+
+- Always check that the frequencies add to the number of items collected.
+
+- Bar graphs compare categories, pictographs suit simple data, line graphs show change over time and pie charts show shares of a whole.
+
+- Every display needs a clear title. Bar and line graphs need labelled axes and a suitable scale; a bar graph should start at zero. Pictographs and pie charts need a key.
+
+- The mean is the sum of the items divided by the number of items.
+
+- From a frequency table the mean is Σ(f × x) ÷ Σf — each value must be multiplied by its frequency.
+
+- The median is the middle item of the ordered array; with an even number of items it is the mean of the two middle ones.
+
+- The mode is the item occurring most often, and is the only average that works with qualitative data.
+
+#### Assessment
+
+> **How this assessment is balanced**
+>
+> Weighted to the NaCCA Mathematics profile dimensions — Knowledge and Understanding 30%, Application of
+
+<!-- page 131 -->
+
+> Knowledge 40%, Attitudes, Values and Process Skills 30%. This chapter carries 20 items: 6 tagged [K], 8 tagged [A] and 6 tagged [P].
+>
+> Indicators assessed: B7.4.1.1.1; B7.4.1.1.2; B7.4.1.1.3; B7.4.1.2.1; B7.4.1.2.2
+
+##### Section A — Objective
+
+1.Facts or figures collected for a purpose are called… A. tallies B. data C. graphs D. averages **[K]** 2.Data that describes a quality rather than a quantity is said to be… A. quantitative B. qualitative C. raw D. grouped **[K]**
+
+3.The number of times a value occurs is called its… A. mean B. mode C. frequency D. median **[K]** 4.The middle item when data is arranged in order is called the… A. mean B. median C. mode D. range **[K]** 5.The item that occurs most often in a set of data is called the… A. mean B. median C. mode D. total **[K]** 6.A display in which a symbol stands for a fixed number of items is called a… A. bar graph B. pie chart C. line graph D. pictograph **[K]**
+
+7.Find the mean of {8, 9, 7, 6, 8, 10}. A. 6 B. 7 C. 8 D. 9 **[A]** 8.Find the median of 19, 29, 36, 15, 20. A. 15 B. 20 C. 24 D. 29 **[A]** 9.Find the median of 8, 9, 7, 6, 8, 10. A. 7 B. 7.5 C. 8 D. 8.5 **[A]**
+
+10. A frequency table has scores 1, 2, 3, 4, 5 with frequencies 2, 6, 4, 5, 3. Find the mean. A. 3.00 B. 3.05 C. 3.25 D. 12.20 **[A]**
+
+##### Section B — Theory and application
+
+1.(a) Distinguish between quantitative and qualitative data, giving two examples of each. (b) Name five methods of collecting data. (c) For each of the following, state the data needed and the best method of collecting it: the drinks to buy for a class party; the number of desks in each classroom; whether learners study better in silence. **[A]**
+
+2.(a) State four rules for writing a good questionnaire question. (b) Write four questions suitable for a survey of learners' journeys to school, one of which must give quantitative data and one qualitative. (c) Explain why a question offering age groups 10–12 and 12–14 is badly written. **[A]**
+
+3.The marks out of 10 obtained by 47 learners were: 10 7 4 5 6 8 7 6 7 5 3 4 5 4 5 4 6 5 6 7 6 3 4 5 6 7 5 9 4 6 6 1 7 7 9 5 5 2 7 10 8 6 7 4 1 6 6. (a) Construct a frequency table using tallies. (b) Verify that your frequencies total 47. (c) Draw a bar graph of the data with a title and labelled axes. (d) State the most common mark and the number of learners scoring more than 7. **[A]**
+
+4.(a) Find the mean of the data set {8, 9, 7, 6, 8, 10}. (b) A frequency table has scores 1, 2, 3, 4, 5 with frequencies 2, 6, 4, 5, 3; find the mean. (c) Find the median of 19, 29, 36, 15, 20 and of 8, 9, 7, 6, 8, 10, explaining the difference in method. (d) Find the mean, median and mode of 4, 7, 5, 4, 9, 6, 4. **[A]**
+
+##### Section C — Attitudes, values and process tasks
+
+1.Design a questionnaire: (a) write a question form of eight questions including the six given in Activity 14.1; (b) check every question against the four rules and correct any that break them; (c) state which corrections you made and why. (Activity 14.1, steps 1-2) **[P]**
+
+2.Administer and organise: administer your form to at least twenty learners and organise all the answers into one table with a row for each person and a column for each question. (Activity 14.1, steps 3-4) **[P]**
+
+3.Classify the data: state which of your eight questions produced quantitative data and which produced qualitative data, giving a reason in each case. (Activity 14.1, step 5) **[P]**
+
+4.Tabulate and average: (a) organise the bus fare column into a frequency table using tallies and check the total; (b) calculate the mean, the median and the mode, showing all working. (Activity 14.2, steps 1-2) **[P]**
+
+<!-- page 132 -->
+
+5.Display the data: (a) draw a bar graph of the favourite subjects with a title, labelled axes and a scale starting at zero; (b) draw a pictograph of the same data, stating your key. (Activity 14.2, steps 4-5) **[P]**
+
+6.Conclude and question: write three conclusions from your survey, pose two questions your data can answer and one it cannot, and state which average best describes a typical bus fare, with a reason. (Activity 14.2, steps 3 and 6) **[P]**
+
+<!-- page 133 -->
+
+*Strand 4: Handling Data · Sub-Strand 2: Chance or Probability*
+
+### Chapter 15: Probability of Single Events
+
+> **Curriculum alignment**
+>
+> Strand 4: Handling Data
+>
+> Sub-Strand 2: Chance or Probability
+>
+> Content standard B7.4.2.1
+>
+> Identify the sample space for a probability experiment involving single events and express the probabilities of given events as fractions, decimals, percentages and/or ratios to solve problems
+>
+> B7.4.2.1.1 Demonstrate understanding of likelihood of a single outcome occurring by providing examples of events that are impossible, possible, or certain from personal contexts
+>
+> B7.4.2.1.2 Classify the likelihood of a single outcome occurring in a probability experiment as impossible, possible, or certain
+>
+> B7.4.2.1.3 Calculate the probability of the event and express the probability as fractions, decimals, percentages and/or ratios
+
+> **Core competences**
+>
+> Communication and Collaboration
+>
+> Critical Thinking and Problem Solving
+>
+> Personal Development and Leadership
+
+#### Learning objectives
+
+By the end of this chapter you can:
+
+- describe an outcome as impossible, possible or certain
+
+- give examples from daily life of impossible, possible and certain events
+
+- classify the outcomes of throwing a die or tossing a coin by likelihood
+
+- list the sample space of a probability experiment
+
+- state the meaning of an outcome, an event and a favourable outcome
+
+- calculate the probability of a single event as a fraction
+
+- express a probability as a fraction, a decimal, a percentage and a ratio
+
+- place a probability on a scale from 0 to 1
+
+- use probability to solve problems and make predictions
+
+> **Key words**
+>
+> Probability — a measure of how likely an event is to happen.
+>
+> Experiment — an activity with a result that is not known in advance.
+>
+> Outcome — one possible result of an experiment.
+>
+> Sample space — the set of all possible outcomes.
+>
+> Event — an outcome or group of outcomes we are interested in.
+>
+> Favourable outcome — an outcome that belongs to the event in question.
+>
+> Impossible event — an event that can never happen; its probability is 0.
+>
+> Certain event — an event that must happen; its probability is 1.
+>
+> Possible event — an event that may or may not happen; its probability lies between 0 and 1.
+>
+> Equally likely — outcomes that have the same chance of occurring.
+>
+> Fair — a coin, die or spinner for which every outcome is equally likely.
+
+<!-- page 134 -->
+
+> Die — a cube with faces numbered 1 to 6; the plural is dice.
+>
+> Factor — a number that divides exactly into another.
+>
+> Multiple — the result of multiplying a number by a whole number.
+
+> **Engage**
+>
+> Nobody can tell you what a tossed coin will do. But everybody can tell you that it will not land on its edge, that it is as likely to be heads as tails, and that in two hundred tosses you will get somewhere near a hundred of each. That is the strange thing about chance: a single event is unpredictable, and yet the pattern behind it is not. Probability is how we measure that pattern.
+
+#### 15.1 How likely is it?
+
+Before any calculation, events can be sorted into three groups by ordinary language.
+
+*Table 15.1 — Describing likelihood in words.*
+
+| **Word** | **Meaning** | **Example** |
+| --- | --- | --- |
+| Impossible | It can never happen | A dog will fly tomorrow |
+| Possible | It may or may not happen | Someone in this class will become a teacher |
+| Certain | It must happen | Ghana will still be in Africa tomorrow |
+
+> **Worked example 1 — classifying events**
+>
+> Describe each outcome as impossible, possible or certain.
+>
+> (a) A coin lands heads side up — **possible** (b) The day after Monday will be Tuesday — **certain** (c) A new-born baby will be a girl — **possible** (d) It will rain in Winneba in the first week of January — **possible**
+>
+> (January is in the dry season, so this is possible but unlikely. Notice that "unlikely" is still possible — it is not impossible.)
+
+> **Worked example 2 — outcomes of throwing a die**
+>
+> A fair die has faces numbered 1 to 6. Describe each outcome.
+>
+> (a) Obtaining the number 1 — **possible** (b) Obtaining the number 7 — **impossible**, because no face carries a 7 (c) Obtaining the number 4 — **possible** (d) Obtaining a number less than 7 — **certain**, because every face is less than 7
+
+> **Worked example 3 — throwing two dice**
+>
+> Two fair dice are thrown and their scores added. Describe each outcome.
+>
+> (a) A total of 12 — **possible** (6 and 6) (b) A total of 2 — **possible** (1 and 1) (c) A total of 13 — **impossible**, because the greatest possible total is 12 (d) A total of at least 2 — **certain**, because the smallest possible total is 2
+
+> **Practice 15.1**
+>
+> 1. Describe each as impossible, possible or certain: (a) the sun will rise tomorrow (b) you will grow taller than a coconut tree (c) it will rain next week (d) a tossed coin will land heads
+>
+> 2. A fair die is thrown. Describe as impossible, possible or certain: (a) obtaining a 5 (b) obtaining a 0 (c) obtaining a
+
+<!-- page 135 -->
+
+> number greater than 0
+>
+> 3. Two dice are thrown and the scores added. Describe: (a) a total of 12 (b) a total of 1 (c) a total of 7
+>
+> 4. Write down one event from your own life that is impossible, one that is possible and one that is certain.
+>
+> 5. Explain the difference between 'unlikely' and 'impossible'.
+
+#### 15.2 Sample space and probability
+
+An **experiment** is any activity whose result is not known beforehand. Each possible result is an **outcome**, and the set of all of them is the **sample space**.
+
+*Table 15.2 — Sample spaces.*
+
+| **Experiment** | **Sample space** | **Number of outcomes** |
+| --- | --- | --- |
+| Tossing a coin | {head, tail} | 2 |
+| Throwing a die | {1, 2, 3, 4, 5, 6} | 6 |
+| Choosing a day of the week | {Mon, Tue, Wed, Thu, Fri, Sat, Sun} | 7 |
+| Spinning a four-colour spinner | {red, blue, green, yellow} | 4 |
+
+An **event** is the outcome or group of outcomes you are interested in. The outcomes that belong to the event are the **favourable outcomes**. When every outcome is equally likely — that is, when the coin, die or spinner is **fair** — probability is simply a comparison of two counts.
+
+**P(event) = number of favourable outcomes ÷ total number of outcomes**
+
+> **Worked example 4 — a first probability**
+>
+> A fair die is thrown once. Find the probability of obtaining a 4.
+>
+> Sample space: {1, 2, 3, 4, 5, 6}, so the total number of outcomes is 6.
+>
+> Favourable outcomes: just one, the 4.
+>
+> P(4) = **1/6**
+
+> **Worked example 5 — an event with several outcomes**
+>
+> A fair die is thrown once. Find the probability of obtaining a number 3 or greater.
+>
+> Favourable outcomes: 3, 4, 5, 6 — that is 4 outcomes.
+>
+> P(3 or greater) = 4/6 = **2/3**
+>
+> Always simplify the fraction.
+
+##### 15.2.1 The probability scale
+
+A probability can never be less than 0 or more than 1. An impossible event has probability **0**; a certain event has probability **1**; everything else lies in between.
+
+**0 ≤ P(event) ≤ 1**
+
+<!-- page 136 -->
+
+![Figure 15.1 The probability scale and the sample space of a die.](images/maths-b7-print-ready-p136-fig25.png)
+
+> **Common misconception 15.1**
+>
+> A probability can never be greater than 1, and it can never be a number like 4 or 6. If your answer to a probability question is bigger than 1, you have divided the wrong way round — the number of favourable outcomes goes on **top**.
+
+> **Practice 15.2**
+>
+> 1. Write down the sample space for: (a) tossing a coin (b) throwing a die (c) choosing a day of the week
+>
+> 2. A fair die is thrown once. Find: (a) P(4) (b) P(an even number) (c) P(a number 3 or greater)
+>
+> 3. A fair coin is tossed once. Find: (a) P(head) (b) P(tail) (c) P(head or tail)
+>
+> 4. State the probability of an impossible event and of a certain event.
+>
+> 5. A learner gives the probability of an event as 7/6. Explain why this must be wrong.
+
+#### 15.3 Expressing probability in four ways
+
+A probability found as a fraction can be written equally correctly as a decimal, a percentage or a ratio. This is the same conversion you learned in Chapter 4, applied to chance.
+
+*Table 15.3 — The same probability written four ways.*
+
+| **Fraction** | **Decimal** | **Percentage** | **Ratio (favourable : total)** |
+| --- | --- | --- | --- |
+| 1/6 | 0.17 | 16.7% | 1 : 6 |
+| 1/2 | 0.5 | 50% | 1 : 2 |
+| 2/3 | 0.67 | 66.7% | 2 : 3 |
+| 5/6 | 0.83 | 83.3% | 5 : 6 |
+| 1 | 1.0 | 100% | 1 : 1 |
+| 0 | 0.0 | 0% | 0 : 1 |
+
+> **Worked example 6 — a probability table for one die**
+>
+> A fair die is thrown once. Complete the table.
+
+<!-- page 137 -->
+
+> (a) **Factors of 6.** The factors of 6 are 1, 2, 3 and 6. All four are on the die.
+>
+> P = 4/6 = 2/3 = 0.67 = 66.7% = 2 : 3 (b) **A multiple of 3.** The multiples of 3 on a die are 3 and 6.
+>
+> P = 2/6 = 1/3 = 0.33 = 33.3% = 1 : 3 (c) **Divisors of 12.** The numbers on a die that divide into 12 are 1, 2, 3, 4 and 6 — five of them.
+>
+> P = 5/6 = 0.83 = 83.3% = 5 : 6 (d) **A 3 or greater.** These are 3, 4, 5, 6.
+>
+> P = 4/6 = 2/3 = 0.67 = 66.7% = 2 : 3 (e) **Factors of 8.** The factors of 8 on a die are 1, 2 and 4.
+>
+> P = 3/6 = 1/2 = 0.5 = 50% = 1 : 2 (f) **A 3 or smaller.** These are 1, 2, 3.
+>
+> P = 3/6 = 1/2 = 0.5 = 50% = 1 : 2
+
+> **Exam tip 15.1**
+>
+> Read the description of the event very carefully before counting. 'Factors of 6' and 'multiples of 3' sound similar but give different answers — 4/6 and 2/6. Write out the favourable numbers in a list before you count them, every time.
+
+> **Worked example 7 — a prediction**
+>
+> A fair die is thrown 60 times. Find the number of times a 4 would be expected.
+>
+> P(4) = 1/6
+>
+> Expected number = 1/6 × 60 = **10 times**
+>
+> This is what we \*expect\*, not what must happen. In an actual experiment you might get 7 fours or 13 — but over very many throws the proportion settles near one sixth.
+
+> **Practice 15.3**
+>
+> 1. Express 1/6, 1/2 and 2/3 as decimals, percentages and ratios.
+>
+> 2. A fair die is thrown once. Find, as a fraction in its simplest form: (a) P(a factor of 6) (b) P(a multiple of 3) (c) P(a divisor of 12) (d) P(a factor of 8)
+>
+> 3. Express each answer to question 2 as a decimal, a percentage and a ratio.
+>
+> 4. A fair die is thrown 60 times. Find the expected number of (a) fours (b) even numbers.
+>
+> 5. A bag holds 5 red and 3 blue beads. One is taken without looking. Find P(red) as a fraction, a decimal and a percentage.
+
+> **Activity 15.1 — Testing probability by experiment**
+>
+> You need: a coin, a fair die, a bag holding beads or bottle tops of two or three colours, a tally sheet, graph paper.
+>
+> What to do:
+>
+> 1. Before doing anything, write down the sample space for tossing a coin and calculate P(head).
+>
+> 2. Toss the coin 20 times, tallying the results. Record the fraction of heads.
+>
+> 3. Toss it a further 80 times, so that you have 100 in all. Record the fraction of heads again.
+>
+> 4. Compare your two fractions with the calculated probability. State which came closer, and give a reason.
+>
+> 5. Write down the sample space for a die and calculate P(4), P(an even number) and P(a 3 or greater).
+>
+> 6. Throw the die 60 times, tallying the score each time. Compare the number of fours you obtained with the 10 expected.
+>
+> 7. Put 5 red and 3 blue beads in a bag. Calculate P(red). Draw one bead, record its colour and replace it. Repeat 40 times, and compare the fraction of reds with your calculation.
+>
+> 8. Draw a bar graph of your 60 die throws.
+>
+> Record: your calculated probabilities, all three tally sheets, the fractions obtained, and the bar graph.
+>
+> Think about it: in step 4, the 100 tosses almost certainly came closer to one half than the 20 did. Why should more trials
+
+<!-- page 138 -->
+
+> give a result nearer the calculated probability? And why must the bead be replaced each time in step 7?
+
+> **Apply it — The school raffle**
+>
+> A school sells 200 raffle tickets numbered 1 to 200. One ticket is drawn at random. (a) State the sample space and the total number of outcomes. (b) Ama buys 8 tickets; find the probability that she wins, as a fraction in its simplest form. (c) Express that probability as a decimal and as a percentage. (d) Find the probability that the winning number is a multiple of
+>
+> 50. (e) Kofi says that because there are two outcomes for him — he either wins or loses — his probability of winning is 1/2. Explain why he is wrong.
+
+#### Chapter summary
+
+- An event is impossible if it can never happen, certain if it must happen, and possible if it may or may not.
+
+- 'Unlikely' is not the same as 'impossible' — an unlikely event can still occur.
+
+- An experiment is an activity whose result is not known in advance; each result is an outcome and the set of all outcomes is the sample space.
+
+- An event is the outcome or group of outcomes of interest, and its members are the favourable outcomes.
+
+- When all outcomes are equally likely, P(event) = number of favourable outcomes ÷ total number of outcomes.
+
+- Every probability lies between 0 and 1: an impossible event has probability 0 and a certain event has probability 1.
+
+- A probability greater than 1 is always a mistake, usually from dividing the wrong way round.
+
+- A probability may be written as a fraction, a decimal, a percentage or a ratio, and all four say the same thing.
+
+- The expected number of occurrences in n trials is P(event) × n.
+
+- An expected number is a prediction, not a guarantee; the more trials that are carried out, the closer the experimental result usually comes to the calculated probability.
+
+#### Assessment
+
+> **How this assessment is balanced**
+>
+> Weighted to the NaCCA Mathematics profile dimensions — Knowledge and Understanding 30%, Application of Knowledge 40%, Attitudes, Values and Process Skills 30%. This chapter carries 20 items: 6 tagged [K], 8 tagged [A] and 6 tagged [P].
+>
+> Indicators assessed: B7.4.2.1.1; B7.4.2.1.2; B7.4.2.1.3
+
+##### Section A — Objective
+
+1.The set of all possible outcomes of an experiment is called the… A. event B. sample space C. frequency D. outcome **[K]**
+
+2.An event that can never happen has a probability of… A. 0 B. 1/2 C. 1 D. 100 **[K]** 3.An event that must happen has a probability of… A. 0 B. 1/2 C. 1 D. 6 **[K]** 4.An outcome that belongs to the event being considered is described as… A. certain B. favourable C. impossible D. equally likely **[K]**
+
+5.A die whose every outcome is equally likely is described as… A. loaded B. fair C. certain D. random **[K]** 6.The probability of any event must lie between… A. 0 and 1 B. 0 and 6 C. 1 and 100 D. −1 and 1 **[K]** 7.A fair die is thrown once. Find P(4). A. 1/6 B. 1/4 C. 1/3 D. 4/6 **[A]** 8.A fair die is thrown once. Find P(a number 3 or greater). A. 1/6 B. 1/2 C. 2/3 D. 3/6 **[A]**
+
+<!-- page 139 -->
+
+9.A fair die is thrown once. Find P(a factor of 8). A. 1/6 B. 1/3 C. 1/2 D. 2/3 **[A]**
+
+10. Express the probability 5/6 as a percentage, to one decimal place. A. 56.0% B. 65.0% C. 83.3% D. 120.0% **[A]**
+
+##### Section B — Theory and application
+
+1.(a) Explain the difference between an impossible, a possible and a certain event, giving one example of each from daily life. (b) A fair die is thrown; describe as impossible, possible or certain: obtaining a 1, obtaining a 7, obtaining a number less than 7. (c) Two dice are thrown and the scores added; describe the outcomes 'a total of 12', 'a total of 2' and 'a total of 13'. (d) Explain the difference between 'unlikely' and 'impossible'. **[A]**
+
+2.(a) Define sample space, outcome, event and favourable outcome. (b) Write down the sample space for tossing a coin, for throwing a die and for choosing a day of the week, stating the number of outcomes in each. (c) State the formula for the probability of an event when all outcomes are equally likely. **[A]**
+
+3.A fair die is thrown once. Find, as a fraction in its simplest form, the probability of obtaining: (a) a factor of 6; (b) a multiple of 3; (c) a divisor of 12; (d) a 3 or greater; (e) a factor of 8; (f) a 3 or smaller. Express your answers to (a) and (e) also as decimals, percentages and ratios. **[A]**
+
+4.(a) State the least and greatest values a probability can take, and what each means. (b) A learner gives a probability as 7/6; explain why this is wrong. (c) A fair die is thrown 60 times; find the expected number of fours and of even numbers. (d) Explain why an expected number is a prediction rather than a guarantee. **[A]**
+
+##### Section C — Attitudes, values and process tasks
+
+1.Predict then test with a coin: (a) write down the sample space for tossing a coin and calculate P(head); (b) toss the coin 20 times, tallying the results, and record the fraction of heads obtained. (Activity 15.1, steps 1-2) **[P]**
+
+2.Increase the trials: (a) toss the coin a further 80 times to make 100 in all and record the fraction of heads; (b) compare both fractions with the calculated probability and state which came closer, giving a reason. (Activity 15.1, steps 3-4) **[P]**
+
+3.Predict then test with a die: (a) write down the sample space for a die and calculate P(4), P(an even number) and P(a 3 or greater); (b) throw the die 60 times, tallying each score; (c) compare the number of fours obtained with the expected number. (Activity 15.1, steps 5-6) **[P]**
+
+4.Test with beads: (a) place 5 red and 3 blue beads in a bag and calculate P(red); (b) draw one bead 40 times, replacing it each time, and record the fraction of reds; (c) state why the bead must be replaced each time. (Activity 15.1, step 7) **[P]**
+
+5.Display the results: draw a bar graph of your 60 die throws, with a title, labelled axes and a scale starting at zero. (Activity 15.1, step 8) **[P]**
+
+6.Compose and complete a probability table: for a single fair die, list at least six events of your own, and for each give the probability as a fraction, a decimal, a percentage and a ratio, then exchange with another group and mark their table. **[P]**
+
+<!-- page 140 -->
+
+## Glossary
+
+*Every key word from all 15 chapters, in alphabetical order, with the chapter in which it is introduced.*
+
+**Acute angle —** an angle less than 90°. *(Ch 10)*
+
+**Adjacent angles —** angles sharing a vertex and one arm, lying on opposite sides of it. *(Ch 10)*
+
+**Angle —** the amount of turning between two lines meeting at a point. *(Ch 10)*
+
+**Angle bisector —** a line that cuts an angle into two equal angles. *(Ch 10)*
+
+**Arc —** part of the circumference of a circle, drawn with compasses. *(Ch 10)*
+
+**Area —** the amount of surface a shape covers. *(Ch 8)*
+
+**Array —** a set of data arranged in order of size. *(Ch 14)*
+
+**Ascending order —** arranged from smallest to largest. *(Ch 1)*
+
+**Associative property —** the grouping does not matter: (a + b) + c = a + (b + c). *(Ch 2)*
+
+**Average (measure of central tendency) —** a single value representing a whole set of data. *(Ch 14)*
+
+**Back bearing —** the bearing of the starting point from the finishing point. *(Ch 12)*
+
+**Balance —** the principle that whatever is done to one side must be done to the other. *(Ch 9)*
+
+**Bar graph —** a display using bars of equal width whose heights show the frequencies. *(Ch 14)*
+
+**Base —** the number being multiplied by itself. *(Ch 3)*
+
+**Base ten —** our counting system, in which each place is ten times the place to its right. *(Ch 1)*
+
+**Bearing —** a direction measured clockwise from north, written with three digits. *(Ch 12)*
+
+**Benchmark fraction —** a common fraction whose decimal and percentage forms are worth memorising. *(Ch 2)*
+
+**Billion —** one thousand million, written 1,000,000,000. *(Ch 1)*
+
+**Bisect —** to cut exactly into two equal parts. *(Ch 10)*
+
+**Cancelling —** dividing a numerator and a denominator by a common factor before multiplying. *(Ch 5)*
+
+**Cardinal points —** the four main directions: north, east, south and west. *(Ch 12)*
+
+**Centre —** the fixed point of a circle. *(Ch 11)*
+
+**Certain event —** an event that must happen; its probability is 1. *(Ch 15)*
+
+**Check —** substituting the solution back to confirm it is correct. *(Ch 9)*
+
+**Chord —** a straight line joining two points on a circle. *(Ch 11)*
+
+**Circle —** the set of all points the same distance from a fixed centre. *(Ch 11)*
+
+**Circumference —** the distance right round a circle; its perimeter. *(Ch 11)*
+
+**Co-domain —** the set of values that come out of the rule. *(Ch 7)*
+
+**Coefficient —** the number multiplying a variable in a term. *(Ch 8)*
+
+**Collecting like terms —** adding or subtracting the coefficients of like terms. *(Ch 8)*
+
+**Column form —** a vector written as an x component above a y component. *(Ch 12)*
+
+**Commission —** a payment calculated as a percentage of the value of goods sold. *(Ch 6)*
+
+**Common denominator —** a denominator shared by two or more fractions. *(Ch 4)*
+
+**Common difference —** the fixed amount added to get from one term to the next. *(Ch 7)*
+
+**Common factor —** a factor shared by two or more numbers. *(Ch 3)*
+
+**Commutative property —** the order does not matter: a + b = b + a and a × b = b × a. *(Ch 2)*
+
+**Compensation —** rounding a number to make the work easy, then correcting at the end. *(Ch 2)*
+
+**Complementary angles —** two angles whose sum is 90°. *(Ch 10)*
+
+**Component —** the part of a vector measured along the x-axis or the y-axis. *(Ch 12)*
+
+**Congruent —** exactly the same shape and the same size. *(Ch 13)*
+
+**Constant —** a number on its own in an expression, whose value never changes. *(Ch 8)*
+
+**Construction —** an accurate drawing made with ruler and compasses only. *(Ch 10)*
+
+**Coordinate plane —** a grid with a horizontal and a vertical axis, used for plotting pairs of values. *(Ch 6)*
+
+**Coordinates —** the pair of numbers (x, y) fixing a point's position. *(Ch 7)*
+
+**Cubed —** raised to the power 3. *(Ch 3)*
+
+<!-- page 141 -->
+
+**Data —** facts or figures collected for a purpose. *(Ch 14)*
+
+**Decimal fraction —** a fraction written with a decimal point, such as 0.375. *(Ch 4)*
+
+**Decimal place —** a position to the right of the decimal point. *(Ch 1)* **Degree (°) —** the unit of angle measure; a full turn is 360°. *(Ch 10)* **Denominator —** the number below the line; how many equal parts the whole is divided into. *(Ch 4)*
+
+**Descending order —** arranged from largest to smallest. *(Ch 1)*
+
+**Diameter —** a straight line through the centre joining two points on the circle; twice the radius. *(Ch 11)*
+
+**Die —** a cube with faces numbered 1 to 6; the plural is dice. *(Ch 15)*
+
+**Difference —** the answer to a subtraction. *(Ch 2)*
+
+**Digit —** any one of the ten symbols 0, 1, 2, 3, 4, 5, 6, 7, 8, 9. *(Ch 1)*
+
+**Discount —** an amount taken off the marked price, usually given as a percentage. *(Ch 6)*
+
+**Displacement —** the distance and direction from a starting point to a finishing point. *(Ch 12)*
+
+**Distributive property —** a × (b + c) = a × b + a × c. *(Ch 2)*
+
+**Dividend —** the number being divided. *(Ch 5)*
+
+**Divisor —** the number you are dividing by. *(Ch 5)*
+
+**Domain —** the set of values that are put into the rule. *(Ch 7)*
+
+**Equally likely —** outcomes that have the same chance of occurring. *(Ch 15)*
+
+**Equation —** a mathematical statement that two expressions are equal, containing an equals sign. *(Ch 9)*
+
+**Equivalent fractions —** different fractions that name the same amount. *(Ch 4)*
+
+**Equivalent ratios —** ratios that describe the same relationship, such as 2 : 3 and 4 : 6. *(Ch 6)*
+
+**Estimate —** an approximate answer used to check whether an exact answer is reasonable. *(Ch 2)*
+
+**Evaluate —** find the numerical value of an expression after substituting. *(Ch 8)*
+
+**Event —** an outcome or group of outcomes we are interested in. *(Ch 15)*
+
+**Expanded form —** a number written as the sum of the values of its digits. *(Ch 1)*
+
+**Experiment —** an activity with a result that is not known in advance. *(Ch 15)*
+
+**Exponent (index) —** the small raised number showing how many times the base is used as a factor. *(Ch 3)*
+
+**Expression —** a collection of terms joined by + or −, with no equals sign. *(Ch 8)*
+
+**Factor —** a whole number that divides exactly into another number. *(Ch 3)*
+
+**Factor tree —** a diagram used to break a number down into its prime factors. *(Ch 3)*
+
+**Fair —** a coin, die or spinner for which every outcome is equally likely. *(Ch 15)*
+
+**Favourable outcome —** an outcome that belongs to the event in question. *(Ch 15)*
+
+**Flag diagram —** a chain of operations, read forwards to build and backwards to solve. *(Ch 9)*
+
+**Fraction —** a number written as one whole number over another, showing parts of a whole. *(Ch 4)*
+
+**Frequency —** the number of times a value occurs. *(Ch 14)*
+
+**Frequency table —** a table showing each value beside its frequency. *(Ch 14)*
+
+**Halving and doubling —** halving one factor and doubling the other leaves the product unchanged. *(Ch 2)*
+
+**Highest Common Factor (HCF) —** the largest factor shared by two or more numbers. *(Ch 3)*
+
+**Hypotenuse —** the longest side of a right-angled triangle, opposite the right angle. *(Ch 12)*
+
+**Image —** the shape produced by the transformation. *(Ch 13)*
+
+**Impossible event —** an event that can never happen; its probability is 0. *(Ch 15)*
+
+**Improper fraction —** a fraction whose numerator is greater than or equal to its denominator. *(Ch 4)*
+
+**Index (power) —** the small raised number showing repeated multiplication of a variable. *(Ch 8)*
+
+**Index form —** writing a repeated multiplication using a base and an exponent, such as 2⁵. *(Ch 3)*
+
+**Integer tile —** a counter used to model a positive or negative unit. *(Ch 9)*
+
+**Interest —** the money paid for the use of a principal, usually a percentage of it per year. *(Ch 6)*
+
+**Inverse operation —** the operation that undoes another: + and −, × and ÷. *(Ch 9)*
+
+**Lattice method —** a grid method of multiplying multi-digit numbers. *(Ch 2)*
+
+**Like fractions —** fractions with the same denominator. *(Ch 4)*
+
+<!-- page 142 -->
+
+**Like terms —** terms with exactly the same variable part. *(Ch 8)*
+
+**Line of symmetry —** a line that divides a shape into two matching halves. *(Ch 13)*
+
+**Line segment —** a part of a line with two end points. *(Ch 10)*
+
+**Linear equation —** an equation in which the variable appears to the power 1 only. *(Ch 9)*
+
+**Linear relation —** a relation whose graph is a straight line. *(Ch 7)*
+
+**Lowest Common Multiple (LCM) —** the smallest number that two or more numbers divide into exactly. *(Ch 4)*
+
+**Magnitude —** the size of a vector, without its direction. *(Ch 12)*
+
+**Mapping —** another word for a relation, written x → 2x + 1. *(Ch 7)*
+
+**Mean —** the sum of all the items divided by the number of items. *(Ch 14)*
+
+**Median —** the middle item when the data is arranged in order. *(Ch 14)*
+
+**Mental mathematics —** working out an answer in the head, without written calculation. *(Ch 2)*
+
+**Mirror line (line of reflection) —** the line a shape is reflected in. *(Ch 13)*
+
+**Mixed number —** a whole number together with a proper fraction. *(Ch 4)*
+
+**Mode —** the item that occurs most often. *(Ch 14)*
+
+**Multiple —** the result of multiplying a number by a whole number. *(Ch 15)*
+
+**Number plane —** a grid formed by a horizontal and a vertical axis. *(Ch 7)*
+
+**Numeral —** a symbol or group of symbols used to write a number. *(Ch 1)*
+
+**Numerator —** the number above the line; how many parts are taken. *(Ch 4)*
+
+**Object —** the original shape before a transformation. *(Ch 13)*
+
+**Obtuse angle —** an angle greater than 90° but less than 180°. *(Ch 10)*
+
+**Of —** in fraction work, 'of' means multiply. *(Ch 5)*
+
+**Origin —** the point (0, 0) where the two axes cross. *(Ch 7)*
+
+**Original price —** the price before a discount is applied. *(Ch 6)*
+
+**Outcome —** one possible result of an experiment. *(Ch 15)*
+
+**Partitioning —** breaking a number into the values of its digits so it can be worked with in parts. *(Ch 2)*
+
+**Pattern —** an arrangement that follows a rule and can be continued. *(Ch 7)*
+
+**Percentage —** a fraction with denominator 100, written with the symbol %. *(Ch 4)*
+
+**Perimeter —** the total distance round the outside of a shape. *(Ch 8)*
+
+**Perpendicular —** at right angles to. *(Ch 10)*
+
+**Perpendicular bisector —** a line that cuts a segment in half at right angles. *(Ch 10)*
+
+**Perpendicular height —** the distance from the base to the opposite vertex, measured at right angles. *(Ch 11)* **Pi (π) —** the number of times the diameter fits into the circumference, about 22/7 or 3.14. *(Ch 11)* **Pictograph —** a display using a symbol to stand for a fixed number of items. *(Ch 14)*
+
+**Pie chart —** a circular display in which each sector represents a share of the whole. *(Ch 14)*
+
+**Place value —** the value a place gives to the digit standing in it. *(Ch 1)*
+
+**Population —** the whole group being studied. *(Ch 14)*
+
+**Possible event —** an event that may or may not happen; its probability lies between 0 and 1. *(Ch 15)*
+
+**Power —** the result of multiplying a number by itself a given number of times. *(Ch 3)*
+
+**Power of ten —** 10, 100, 1,000 and so on. *(Ch 2)*
+
+**Prime factor —** a factor that is a prime number. *(Ch 3)*
+
+**Prime notation —** the dash used to name an image, as in A ′for the image of A. *(Ch 13)*
+
+**Prime number —** a number greater than 1 with exactly two factors, itself and 1. *(Ch 3)*
+
+**Principal —** the amount of money invested or borrowed. *(Ch 6)*
+
+**Probability —** a measure of how likely an event is to happen. *(Ch 15)*
+
+**Product —** the answer to a multiplication. *(Ch 2)*
+
+**Product of primes —** a number written as a multiplication of prime numbers only. *(Ch 3)*
+
+**Proper fraction —** a fraction whose numerator is less than its denominator. *(Ch 4)*
+
+**Proportion —** a statement that two ratios are equal. *(Ch 6)*
+
+<!-- page 143 -->
+
+**Proportional reasoning —** using the equality of two ratios to find a missing value. *(Ch 6)*
+
+**Pythagoras' theorem —** in a right-angled triangle, the square on the hypotenuse equals the sum of the squares on the other two sides. *(Ch 12)* **Qualitative data —** data that describes a quality, such as favourite subject or colour. *(Ch 14)*
+
+**Quantitative data —** data that is counted or measured, such as ages or marks. *(Ch 14)*
+
+**Questionnaire —** a printed set of questions used to collect data. *(Ch 14)*
+
+**Quotient —** the answer to a division. *(Ch 2)*
+
+**Radius —** the distance from the centre of a circle to any point on it. *(Ch 11)*
+
+**Rate —** a comparison of two quantities of different kinds, such as km per hour. *(Ch 6)*
+
+**Ratio —** a comparison of two or more quantities of the same kind, written a : b. *(Ch 6)*
+
+**Raw data —** data as first collected, before it is organised. *(Ch 14)*
+
+**Reciprocal —** the fraction turned upside down; the number you multiply by to get 1. *(Ch 5)*
+
+**Reflection —** a transformation that flips a shape across a mirror line. *(Ch 13)*
+
+**Reflex angle —** an angle greater than 180° but less than 360°. *(Ch 10)*
+
+**Relation —** a rule that links each member of one set to a member of another. *(Ch 7)*
+
+**Repeated factor —** the same factor multiplied by itself several times. *(Ch 3)*
+
+**Right angle —** an angle of exactly 90°. *(Ch 10)*
+
+**Round down —** take the lower of the two nearby numbers. *(Ch 1)*
+
+**Round off —** take whichever of the two is nearer, using the digit to the right to decide. *(Ch 1)*
+
+**Round up —** take the higher of the two nearby numbers. *(Ch 1)*
+
+**Rounding —** replacing a number with a nearby number that is easier to work with. *(Ch 1)*
+
+**Rule —** the instruction that turns each input into its output. *(Ch 7)*
+
+**Sample —** the part of the population actually questioned or measured. *(Ch 14)*
+
+**Sample space —** the set of all possible outcomes. *(Ch 15)*
+
+**Satisfy —** a value satisfies an equation if it makes both sides equal. *(Ch 9)*
+
+**Scalar —** a quantity having size only. *(Ch 12)*
+
+**Sector —** the region between two radii and the arc joining them. *(Ch 11)*
+
+**Sequence —** a list of numbers written in the order given by a rule. *(Ch 7)*
+
+**Significant figures —** the digits in a number that carry information about its size. *(Ch 1)*
+
+**Similar —** the same shape but not necessarily the same size. *(Ch 13)*
+
+**Simplest form —** a fraction whose numerator and denominator have no common factor except 1. *(Ch 4)*
+
+**Simplest form of a ratio —** a ratio whose terms have no common factor except 1. *(Ch 6)*
+
+**Simplify —** write an expression in its shortest correct form. *(Ch 8)*
+
+**Skip counting —** counting forwards or backwards in equal steps. *(Ch 1)*
+
+**Solution (root) —** the value of the variable that satisfies the equation. *(Ch 9)*
+
+**Solve —** find the value of the variable that makes the equation true. *(Ch 9)*
+
+**Square unit —** the unit of area, such as cm² or m². *(Ch 11)*
+
+**Squared —** raised to the power 2. *(Ch 3)*
+
+**Straight angle —** an angle of exactly 180°. *(Ch 10)*
+
+**Substitute —** replace each variable with a given number. *(Ch 8)*
+
+**Sum —** the answer to an addition. *(Ch 2)*
+
+**Supplementary angles —** two angles whose sum is 180°. *(Ch 10)*
+
+**Survey —** the process of collecting data from a group of people. *(Ch 14)*
+
+**Table of values —** a table listing inputs beside their outputs. *(Ch 7)*
+
+**Tally —** a mark used to count items as they are sorted. *(Ch 14)*
+
+**Term —** one member of a pattern or sequence. *(Ch 7)*
+
+**Term of a ratio —** one of the numbers in the ratio. *(Ch 6)*
+
+**Three-figure bearing —** a bearing written with three digits, such as 045° or 270°. *(Ch 12)*
+
+<!-- page 144 -->
+
+**Transformation —** a change in the position, size or orientation of a shape. *(Ch 13)*
+
+**Translation —** a transformation that slides a shape without turning or flipping it. *(Ch 13)*
+
+**Translation vector —** the column vector giving how far a shape slides across and up. *(Ch 13)*
+
+**Unit rate —** a rate expressed for one unit of the second quantity. *(Ch 6)*
+
+**Unit square —** a square of side one unit, used to measure area. *(Ch 11)*
+
+**Unlike fractions —** fractions with different denominators. *(Ch 4)*
+
+**Unlike terms —** terms whose variable parts differ. *(Ch 8)*
+
+**Value of a digit —** the digit multiplied by its place value. *(Ch 1)*
+
+**Variable —** a letter used to stand for a number that is not yet known. *(Ch 8)*
+
+**Vector —** a quantity having both size and direction. *(Ch 12)*
+
+**Vertex —** the point where the two arms of an angle meet. *(Ch 10)*
+
+**Vertically opposite angles —** the equal angles formed opposite each other when two lines cross. *(Ch 10)* **x-axis —** the horizontal axis of the number plane. *(Ch 7)* **y-axis —** the vertical axis of the number plane. *(Ch 7)* **Zero vector —** a vector of no magnitude and no direction. *(Ch 12)*
+
+*203 terms.*
+
+<!-- page 145 -->
+
+## Index of Content Standards
+
+*Every NaCCA content standard and indicator prescribed for Basic 7 Mathematics, with the chapter in which it is taught. This table is the alignment proof for the whole book.*
+
+| **Code** | **Content standard / indicator** | **Chapter** |
+| --- | --- | --- |
+| B7.1.1.1 | Demonstrate understanding and the use of Ch 1 place value for expressing quantities recorded as base ten numerals as well as rounding these to given decimal places and significant figures |  |
+| B7.1.1.1.1 | Model number quantities more than 1,000,000,000 using graph sheets, isometric papers and multi-base blocks |  |
+| B7.1.1.1.3 | Round (off, up, down) whole numbers more than 1,000,000,000 to the nearest hundred-thousand, ten-thousands, thousands, hundreds and tens |  |
+| B7.1.1.1.4 | Round decimals to the nearest tenth, hundredth, thousandths, etc |  |
+| B7.1.1.1.5 | Express decimal numerals to given significant and decimal places |  |
+| B7.1.1.2 | Compare and order whole numbers more than1,000,000,000 and represent the comparison using ">, <, or=" | Ch 1 |
+| B7.1.2.1 | Apply mental mathematics strategies and number properties used to solve problems | Ch 2 |
+| B7.1.2.1.1 | Multiply and divide given numbers by powers of 10 including decimals and benchmark fractions |  |
+| B7.1.2.1.2 | Apply mental mathematics strategies and number properties used to perform calculations |  |
+| B7.1.2.1.3 | Apply mental mathematics strategies to solve word problems |  |
+| B7.1.2.2 | Demonstrate an understanding of addition, Ch 2 subtraction, multiplication and division of (i) whole numbers, and (ii) decimal numbers, to solve problems. (ii) Mrs Adamu bought 13.6kg of meat. Mrs Anderson bought 2.4kg of meat less than Mrs Adamu. How many kilograms of meat did they buy all together? (iii) Ebo weighs 28.6kg. His father weighs four times as heavy. What is the total weight of Ebo and his father? (iv) Mrs Armah bought 45.75 metres of linen for her five children. If they share the material equally, how many metres of linen did each receive? |  |
+| B7.1.2.2.1 | Add and subtract up to four-digit numbers |  |
+| B7.1.2.2.2 | Multiply or divide multi-digit numbers by 1- and 2- digit numbers |  |
+| B7.1.2.2.3 | Create and solve story problems involving decimals on the four basic operations |  |
+| B7.1.2.3 | Demonstrate understanding and the use of Ch 3 powers of natural numbers in solving problems. ` |  |
+| B7.1.2.3.1 | Illustrate with examples the meaning of repeated factors using counting objects such as bottle tops or bundle sticks |  |
+| B7.1.2.3.2 | Express a given number as a product of a |  |
+
+<!-- page 146 -->
+
+|  | given number or numbers, as well as, in the form of a power or two such numbers as product of powers |  |
+| --- | --- | --- |
+| B7.1.2.3.3 | Show that the value of any natural number with zero as its exponent or index is 1 and use it to solve problems |  |
+| B7.1.2.3.4 | Find the value of a number written in index form. . i. 53 = 5 x 5 x 5 = 25 x 5 = 125 |  |
+| B7.1.2.3.5 | Apply the concept of powers of numbers (product of prime) to find Highest Common Factor (HCF) |  |
+| B7.1.3.1 | Simplify, compare and order a mixture of positive fractions (i.e. common, percent and decimal) by changing all to equivalent (i) fractions (ii) decimals, or (iii) percentages | Ch 4 |
+| B7.1.3.1.1 | Determine and recall the percentages and decimals of given benchmark fractions (i.e. tenths, fifths, fourths, thirds and halves) and use these to compare quantities |  |
+| B7.1.3.1.2 | Compare and order fractions (i.e. common, percent and decimal fractions up to thousandths) limit to the benchmark fractions |  |
+| B7.1.3.2 | Demonstrate an understanding of the process of addition and/or subtraction of fractions and apply this in solving problems | Ch 4 |
+| B7.1.3.2.1 | Explain the process of addition and subtraction of two or three unlike and mixed fractions |  |
+| B7.1.3.2.2 | Solve problems involving addition or subtraction of fractions |  |
+| B7.1.3.3 | Demonstrate an understanding of the process of multiplying and dividing positive fractions and apply this in solving problems | Ch 5 |
+| B7.1.3.3.1 | Explain the process of multiplying a fraction (i.e. common, percent and decimal fractions up to thousandths) by a whole number and by a fraction |  |
+| B7.1.3.3.2 | Find a fraction of given quantity (i.e. money or given quantity of objects) |  |
+| B7.1.3.3.3 | Explain the process of dividing a fraction (i.e. common, percent and decimal fractions up to thousandths) by a 1-digit whole number and by a fraction |  |
+| B7.1.3.3.4 | Determine the result of dividing a quantity (i.e. money or objects) or a fraction by a fraction |  |
+| B7.1.4.1 | Demonstrate an understanding of the concept of ratios and its relationship to fractions and use it to solve problems that involve rates, ratios, and proportional reasoning | Ch 6 |
+| B7.1.4.1.1 | Find ratio and use ratio language to describe relationship between two quantities |  |
+| B7.1.4.1.2 | Use the concept of a unit rate associated with a ratio a:b a with b ≠ 0, and use rate language in the context of a ratio b relationship |  |
+| B7.1.4.1.3 | Make tables of equivalent ratios (written as common fractions) relating quantities |  |
+
+<!-- page 147 -->
+
+|  | that are proportional. Kafui, Adoley and Jantuah shared an amount of money in the ratio of |  |
+| --- | --- | --- |
+| B7.1.4.1.4 | Use the proportional reasoning to find missing values in the tables, and plot pairs of values on the coordinate plane. Find the missing value marked x in a table of equivalent ratios |  |
+| B7.1.4.1.5 | Find a percent of a quantity as a rate per 100 (e.g. 30% of a 6 3 3 3 quantity means times the quantity). i. A salesman gets paid 35% commissions. How much commission does he make on sales of GH₵700? ii. Yaw paid GH₵80 for a shirt that was on sale at a discount of 20%. What was the original price? iii. A cell phone which regularly sells for GH₵450 is on sale for 40% off. How much would you pay for the phone? iv. A woman put GH₵520 into a savings account for one year. The rate of interest on the account was 6%. How much was the interest for the year? |  |
+| B7.2.1.1 | Derive the rule for a set of points of a relation, draw a table of values to graph the relation in a number plane and make predictions about subsequent elements of the relation | Ch 7 |
+| B7.2.1.1.1 | Extend a given relation presented with and without symbolic materials and explain how each element differs from the preceding one. Extend a given symbolic relation |  |
+| B7.2.1.1.2 | Describe the rule for a given relation using mathematical language such as one more, one less, one more than twice, etc |  |
+| B7.2.1.1.3 | Identify the relation or rule in a pattern/mapping presented numerically or symbolically and predict subsequent elements Determine the rule for a given symbolic pattern |  |
+| B7.2.1.1.4 | Locate points on the number plane, draw a table of values of a given relation, draw graphs for given relations and use them to solve problems |  |
+| B7.2.2.1 | Simplify algebraic expressions involving the Ch 8 four basic operations and substituting values to evaluate algebraic expressions. i. find the perimeter and area of the following: Iox = 5, a = 8, a = 3, h = 6, ii. shapes |  |
+| B7.2.2.1.1 | Create simple algebraic expressions using simple logic to translate a set of instructions into an algebraic expression |  |
+| B7.2.2.1.2 | Perform addition and subtraction of algebraic expressions with rational coefficients |  |
+| B7.2.2.1.3 | Perform multiplication and division of algebraic expressions with rational coefficients |  |
+| B7.2.2.1.4 | Substitute values to evaluate algebraic expressions |  |
+| B7.2.2.1.5 | Use properties of the four operations to simplify algebraic expressions with rational |  |
+
+<!-- page 148 -->
+
+|  | coefficients |  |
+| --- | --- | --- |
+| B7.2.3.1 | Demonstrate an understanding of linear equations of the form x + a = b (where a and b are integers) by modelling problems as a linear equation and solving the problems concretely, pictorially, and symbolically. iii. Use the three equations below to find the value of | Ch 9 |
+| B7.2.3.1.1 | Translate word problems to linear equations in one variable and vice versa |  |
+| B7.2.3.1.2 | Model and solve linear equations using concrete materials (e.g., counters and integer tiles) and describe the process orally and symbolically |  |
+| B7.2.3.1.3 | Model linear equations, then write mathematical expressions and describe the process of solving the equation using algebraic tiles |  |
+| B7.2.3.1.4 | Solve linear equations in one variable |  |
+| B7.3.1.1 | Demonstrate understanding of angles including adjacent, vertically opposite, complementary, supplementary and use them to solve problems | Ch 10 |
+| B7.3.1.1.1 | Measure and classify angles according to their measured sizes – right, acute, obtuse and reflex |  |
+| B7.3.1.1.2 | Apply the fact that (i) complementary angles are two angles that have a sum of 90°, and (ii) supplementary angles are two angles that have a sum of 180° to solve problems |  |
+| B7.3.1.1.3 | Use adjacent, supplementary and vertically opposite angles to solve problems |  |
+| B7.3.1.2 | Demonstrate how to construct a perpendicular to a line from a given point, bisect a line, bisect angles, and construct angles of the following sizes: 30˚, 45˚, 60˚, 75˚ and 90˚ 7.3.1.2.6: Construct angles whose measures are15˚ and 75˚ | Ch 10 |
+| B7.3.1.2.1 | Construct a line segment perpendicular to another line segment |  |
+| B7.3.1.2.2 | : Construct the perpendicular bisector of a line segment |  |
+| B7.3.1.2.3 | : Copy and bisect angles |  |
+| B7.3.1.2.7 | : Describe examples of perpendicular line segments, ∠P = 75˚ perpendicular bisectors and angle bisectors in the environment |  |
+| B7.3.2.1 | Demonstrate the ability to find the perimeter of plane shapes including circles using the concept of pi (π) to find the circumference of a circle | Ch 11 |
+| B7.3.2.1.1 | Calculate the perimeter of given shapes whose dimensions are in two units (i.e. cm and mm, m and cm, or km and m) |  |
+| B7.3.2.1.2 | Use the relationships between the diameter and the circumference to deduce the formula for finding the circumference of a circle and use it to solve problems |  |
+| B7.3.2.1.3 | Draw in a square grid rectangles and triangles with given dimensions |  |
+
+<!-- page 149 -->
+
+| B7.3.2.2 | Derive the formula for determining the area of a triangle and use it to solve problems | Ch 11 |
+| --- | --- | --- |
+| B7.3.2.2.1 | Use the relationships between a triangle and a rectangle (or parallelogram) to deduce the formula for determining the area of a triangle |  |
+| B7.3.2.2.2 | Determine the area of a triangle |  |
+| B7.3.2.3 | Demonstrate understanding of bearings, vector and its components using real life cases | Ch 12 |
+| B7.3.2.3.1 | Describe the bearing of a point from another point |  |
+| B7.3.2.3.2 | Explain how to find the back bearing when the direction of travel has a bearing which is less than 180˚ and/ or greater than 180˚ |  |
+| B7.3.2.3.3 | Distinguish between scalar and vector quantities |  |
+| B7.3.2.3.4 | Represent vector in the column (component) form and x determine its   magnitude and direction. y |  |
+| B7.3.2.3.5 | Convert vectors in the column (component) form to the x Magnitude– Bearing form and vice versa  y (k, θ) |  |
+| B7.3.3.1 | Perform a single transformation (i.e. reflection and translation) on a 2D shape using graph paper (including technology) and describe the properties of the image under the transformation (i.e. congruence, similarity, etc.) | Ch 13 |
+| B7.3.3.1.1 | Determine shapes in real life that have reflectional (or fold) symmetries |  |
+| B7.3.3.1.2 | Plot points and shapes (i.e. plane figures) on a coordinate plane and draw their images under reflection in given lines |  |
+| B7.3.3.1.3 | Plot points and shapes (i.e. plane figures) on a coordinate plane and draw their images under translation by a given vector |  |
+| B7.3.3.1.4 | Verify the concept of congruent and similar shapes in coordinate plane using properties of both the object(s) and image(s); and in real life situations (carpet designs, fabric pattern) |  |
+| B7.4.1.1 | Select, justify, and use appropriate methods to collect data (quantitative and qualitative), display and analyse the data (grouped/ungrouped) presented in frequency tables, line graphs, pie graphs, bar graphs or pictographs and use these to solve and/or pose problems. Marks Tally Frequency i. Draw a bar graph to illustrate the data in the 1 /// 3 frequency table. 2 / 1 ii. Write your conclusion about the students’ scores in the test and/or pose questions 4 on the graph. Total | Ch 14 |
+| B7.4.1.1.1 | ) i. Will eating twice a person's normal number of cream crackers increase their productivity? ii. Are people who eat more cream crackers more productive? iii. Does a group of students study better when cream crackers are present or absent? |  |
+
+<!-- page 150 -->
+
+| B7.4.1.1.2 | Design and administer a questionnaire for collecting data to answer questions and record the results |  |
+| --- | --- | --- |
+| B7.4.1.1.3 | Organise and present data from a survey into a table and/or chart, and analyse it to solve and/or pose problems |  |
+| B7.4.1.2 | Determine the measures of central tendency (mean, median, mode) for a given ungrouped data and use it to solve problems | Ch 14 |
+| B7.4.1.2.1 | Calculate the mean for a given ungrouped data and use it to solve problems |  |
+| B7.4.1.2.2 | Calculate the median for a given ungrouped data and use it to solve problems |  |
+| B7.4.2.1 | Identify the sample space for a probability Ch 15 experiment involving single events and express the probabilities of given events as fractions, decimals, percentages and/or ratios to solve problems |  |
+| B7.4.2.1.1 | Demonstrate understanding of likelihood of a single outcome occurring by providing examples of events that are impossible, possible, or certain from personal contexts |  |
+| B7.4.2.1.2 | Classify the likelihood of a single outcome occurring in a probability experiment as impossible, possible, or certain |  |
+| B7.4.2.1.3 | Calculate the probability of the event and express the probability as fractions, decimals, percentages and/or ratios |  |
+
+*21 content standards · 70 indicators · all covered.*

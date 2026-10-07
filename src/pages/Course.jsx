@@ -2,6 +2,7 @@ import { useEffect, useMemo, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { BookOpen, FileText, GraduationCap, Loader2, Target } from 'lucide-react';
 import { libraryManifest, loadEntries } from '../data/courseLibrary';
+import { bookManifest } from '../data/courseLibrary/bookIndex';
 
 // curriculumData is ~600 KB — load lazily, only needed on this page.
 const curriculumPromise = import('../data/curriculumData');
@@ -27,7 +28,11 @@ export default function Course() {
   }, []);
 
   const classesFor = useMemo(
-    () => libraryManifest.filter(m => m.subjectId === subjectId).map(m => m.classId).sort(),
+    () => {
+      const fromContent = libraryManifest.filter(m => m.subjectId === subjectId).map(m => m.classId);
+      const fromBooks = bookManifest.filter(b => b.subjectId === subjectId).map(b => b.classId);
+      return [...new Set([...fromContent, ...fromBooks])].sort();
+    },
     [subjectId],
   );
 
@@ -45,6 +50,10 @@ export default function Course() {
 
   const strands = curriculum?.map?.[subjectId]?.[classId] ?? [];
   const totalEntries = libraryManifest.reduce((n, m) => n + m.entryCount, 0);
+  const booksForClass = useMemo(
+    () => bookManifest.filter(b => b.subjectId === subjectId && b.classId === classId),
+    [subjectId, classId],
+  );
 
   return (
     <div className="space-y-6">
@@ -77,7 +86,7 @@ export default function Course() {
         <div className="space-y-3">
           <div className="flex gap-2 flex-wrap">
             {curriculum.subjects
-              .filter(s => libraryManifest.some(m => m.subjectId === s.id))
+              .filter(s => libraryManifest.some(m => m.subjectId === s.id) || bookManifest.some(b => b.subjectId === s.id))
               .map(s => (
                 <button
                   key={s.id}
@@ -178,6 +187,30 @@ export default function Course() {
             </section>
           ))}
         </div>
+      )}
+
+      {/* Textbooks */}
+      {booksForClass.length > 0 && (
+        <section className="space-y-3">
+          <h2 className="font-serif text-xl text-ink">Textbooks</h2>
+          <div className="grid gap-3 sm:grid-cols-2">
+            {booksForClass.map(book => (
+              <Link key={book.id} to={`/library/${subjectId}/${classId}/book/${book.id}`} className="group">
+                <article className="h-full rounded-2xl border border-line bg-card p-4 transition-colors group-hover:border-accent/40">
+                  <div className="flex items-center gap-3">
+                    <div className="inline-flex rounded-lg bg-accent/10 p-2">
+                      <BookOpen size={18} className="text-accent" />
+                    </div>
+                    <div className="min-w-0">
+                      <p className="font-medium text-ink">{book.kindLabel}</p>
+                      <p className="text-sm text-ink-soft">{book.chapterCount} chapters</p>
+                    </div>
+                  </div>
+                </article>
+              </Link>
+            ))}
+          </div>
+        </section>
       )}
     </div>
   );

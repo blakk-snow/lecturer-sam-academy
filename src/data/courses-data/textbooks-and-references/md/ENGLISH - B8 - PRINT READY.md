@@ -1,0 +1,7501 @@
+<!-- Source PDF: ENGLISH - B8 - PRINT READY.pdf — 152 pages -->
+<!-- Converted to Markdown — figures in images/ — invisible page markers throughout -->
+
+<!-- page 1 -->
+
+# ENGLISH LANGUAGE
+for Junior High School
+
+**BASIC 8 · JHS 2**
+
+*Learner’s Book*
+
+Written to the NaCCA Common Core Programme
+
+English Language Curriculum for B7/JHS1 – B9/JHS3 · September 2020
+
+Ghana
+
+<!-- page 2 -->
+
+### English Language for Junior High School — Basic 8 (JHS 2)
+
+*Learner’s Book*
+
+This book is written to the English Language Curriculum of the Common Core Programme published by the National Council for Curriculum and Assessment (NaCCA), Ministry of Education, Ghana, September 2020.
+
+Every chapter states its strand, sub-strand, content standard, indicators and core competences exactly as they appear in that curriculum, before any content is taught.
+
+All 16 content standards and all 49 indicators prescribed for Basic 8 are covered.
+
+**Edition** First edition, 2026
+
+**Acknowledgements** Curriculum extracts are reproduced from the NaCCA Common Core Programme English Language Curriculum for
+
+B7/JHS1 – B9/JHS3, September 2020, for the purpose of alignment, and are the property of NaCCA.
+
+**A note on the passages** Every passage, dialogue, letter, advertisement, folktale and poem in this book was written for it. None is reproduced from any published work. The subjects are taken from the list of themes the curriculum itself suggests for Basic 8, which is printed on the Themes page.
+
+<!-- page 3 -->
+
+## Preface
+
+English is the one subject you cannot put down at the end of the lesson. You carry it into every other subject, into every office you will ever walk into, and into every conversation you have outside your own home. That is why this book spends as much time on speaking and listening as on writing, and why so many of its tasks ask you to perform something rather than only to hand it in.
+
+The book is written so that the connection to the national curriculum is visible on every page rather than hidden in a scheme of work. Each chapter opens with the strand, sub-strand, content standard, indicators and core competences it teaches, quoted word for word from the NaCCA curriculum. Nothing is paraphrased, and nothing is claimed that the curriculum does not say.
+
+Every chapter is built on the same spine: an explanation, then models set out so that you can see exactly what was changed and why, then a Practice exercise on that same skill. Where the curriculum gives an exemplar — identify a formal situation, give directions to a familiar place, match a Ghanaian proverb to an English one, compose an advertisement — that exemplar has been turned into something you can actually carry out.
+
+The assessment at the end of each chapter follows the modes the curriculum itself sets out. The English curriculum states no percentage weightings; it gives five levels of proficiency and a list of assessment modes. Accordingly each chapter ends with four sections: an objective test, a written response, a listening and speaking task, and a piece for your portfolio. Two of those four cannot be done sitting down, which is the point.
+
+<!-- page 4 -->
+
+## How to use this book
+
+Every chapter follows the same order, so that once you are used to it you can find anything quickly.
+
+**Curriculum alignment —** the strand, sub-strand, content standard and indicators, in the curriculum’s own words.
+
+**Core competences —** the competences the curriculum attaches to those indicators.
+
+**Learning objectives —** what you will be able to do by the end.
+
+**Key words —** every term used, each with a short definition.
+
+**Engage —** a short opening that gives you a reason to care.
+
+**The main sections —** the explanation, with tables and examples.
+
+**Models —** a weak version and a strong one, with the changes named.
+
+**Passages and dialogues —** texts written for this book, on the curriculum’s own themes.
+
+**Practice —** questions on exactly the skill just shown.
+
+**Activities —** practical work, with what you need, what to do and what to record.
+
+**Apply it —** a longer task that uses the whole chapter.
+
+**Chapter summary —** the whole chapter in ten lines.
+
+**Assessment —** Sections A, B, C and D.
+
+#### The four assessment sections
+
+Section A is an objective test. Section B is theory and written response. Section C is a listening and speaking task, carried out aloud and assessed as you perform it. Section D is a portfolio or project piece, collected over a longer period. All four are named in the curriculum’s own list of assessment modes.
+
+#### Speaking and listening
+
+Section C cannot be answered in a book. It has to be done aloud, in front of somebody. If you skip those sections you will have studied English rather than learnt it, and the difference will show the first time you have to explain yourself to a stranger.
+
+<!-- page 5 -->
+
+## Contents
+
+- **Themes for this year** — 6
+
+- **Scope and Sequence** — 7
+
+- **Strand 1: Oral Language (Listening and Speaking)** — 8
+
+- Chapter 1: Speaking in Everyday Situations — 8
+
+- Chapter 2: Listening for Key Information — 19
+
+- Chapter 3: English Consonant Sounds — 28
+
+- **Strand 2: Reading** — 37
+
+- Chapter 4: Reading Widely and Independently — 37
+
+- Chapter 5: Comprehending and Interpreting Texts — 45
+
+- Chapter 6: Citing Evidence and Summarising — 55
+
+- **Strand 3: Grammar Usage** — 63
+
+- Chapter 7: Word Classes and Their Functions — 63
+
+- Chapter 8: Reported Speech and Question Tags — 73
+
+- Chapter 9: Punctuation and Capitalisation — 82
+
+- Chapter 10: Building and Using Vocabulary — 90
+
+- **Strand 4: Writing** — 98
+
+- Chapter 11: Paragraphs, Cohesion and Openings — 98
+
+- Chapter 12: Composing Different Text Types — 107
+
+- Chapter 13: Writing for Real-Life Situations — 116
+
+- Chapter 14: Research and Presenting Knowledge — 127
+
+- **Strand 5: Literature** — 134
+
+- Chapter 15: Literature: Character, Poetry and Drama — 134
+
+- **Glossary** — 144
+
+- **Index of Content Standards** — 150
+
+<!-- page 6 -->
+
+## Themes for this year
+
+The curriculum lists the themes below for extensive reading in Basic 8. Every passage, dialogue and poem written for this book is drawn from them, and they are also the subjects to use for your own compositions, articles and projects.
+
+Tourism Values and attitude to work — loyalty, honesty, courtesy, hard work, patriotism, tolerance
+
+Engineering — spacecraft, architecture, sculpture, software, automotive Banking and finance Professions — education, medicine, the judiciary, trading Inventions, local and foreign Communication — e-mail, the internet, print and electronic media Diseases and their control Agriculture Environmental degradation Adolescent reproductive health Entrepreneurship Health — exercise and diet
+
+Social issues — gender, equality, equity, child marriage, bribery and corruption Technology Transport — land, air and sea
+
+Nature — the natural environment, plants and animals
+
+<!-- page 7 -->
+
+## Scope and Sequence
+
+Basic 8 covers all five NaCCA strands. The table below maps every chapter to the strand, sub-strand and content standards it teaches.
+
+| **Ch** | **Chapter title** | **Strand** | **Sub-strand** | **Content standardsInd.** |  |
+| --- | --- | --- | --- | --- | --- |
+| 1 | Speaking in Everyday Situations(Listening and | Oral Language Speaking) | Conversation/ Everyday Discourse | 1.1.1 | 5 |
+| 2 | Listening for Key Information | Oral Language (Listening and Speaking) | Listening Comprehension | 1.2.1 | 2 |
+| 3 | English Consonant Sounds | Oral Language (Listening and Speaking) | English Sounds | 1.3.1 | 3 |
+| 4 | Reading Widely and Reading Independently |  | Comprehension | 2.1.1 | 3 |
+| 5 | Comprehending and Interpreting Texts | Reading | Comprehension | 2.1.2 | 8 |
+| 6 | Citing Evidence and Reading Summarising |  | Summarising | 2.2.1 | 1 |
+| 7 | Word Classes and Their Functions | Grammar Usage | Grammar | 3.1.1 | 6 |
+| 8 | Reported Speech and Question Tags | Grammar Usage | Grammar | 3.1.6 | 2 |
+| 9 | Punctuation and Capitalisation | Grammar Usage | Punctuation and Capitalisation | 3.2.1 | 1 |
+| 10 | Building and Using Vocabulary | Grammar Usage | Vocabulary | 3.3.1 | 1 |
+| 11 | Paragraphs, Cohesion and Openings | Writing | Production and Distribution of Writing | 4.1.1 4.1.2 | 2 |
+| 12 | Composing Different Text Types | Writing | Text Types and Purposes | 4.2.1 | 4 |
+| 13 | Writing for Real-Life Writing Situations |  | Text Types and Purposes | 4.2.2 | 5 |
+| 14 | Research and Presenting Knowledge | Writing | Building and Presenting Knowledge | 4.3.1 | 1 |
+| 15 | Literature: Character, Poetry and Drama | Literature | Narrative, Drama and Poetry | 5.1.1 | 5 |
+
+*Codes are given in the short form. The curriculum prints each in full as B8/JHS2 — so 1.1.1 above is B8/JHS2.1.1.1.*
+
+<!-- page 8 -->
+
+## Strand 1: Oral Language (Listening and Speaking)
+
+*Strand 1: Oral Language (Listening and Speaking) · Sub-Strand 1: Conversation/Everyday Discourse*
+
+### Chapter 1: Speaking in Everyday Situations
+
+> **Curriculum alignment**
+>
+> **Strand 1: Oral Language (Listening and Speaking)**
+>
+> **Sub-Strand 1: Conversation/Everyday Discourse**
+>
+> **Content standard B8/JHS2.1.1.1**
+>
+> Demonstrate use of appropriate language orally in specific situations
+>
+> B8/JHS2.1.1.1.1 Use appropriate register in everyday communication (informal and formal) with diverse partners on grade-level topics/texts/issues
+>
+> B8/JHS2.1.1.1.2 Ask and respond to specific questions with elaboration by making comments that contribute to texts, issues or topics under discussion
+>
+> B8/JHS2.1.1.1.3 Use appropriate language orally to describe familiar places and events
+>
+> B8/JHS2.1.1.1.4 Listen to and give accurate directions of complex routes to different locations
+>
+> B8/JHS2.1.1.1.5 Demonstrate appropriate turn taking for effective oral communication
+>
+> **Core competences**
+>
+> Communication and Collaboration; Personal Development and Leadership; Creativity and Innovation; Critical Thinking and Problem Solving; Presentation; Digital Literacy
+
+#### Learning objectives
+
+By the end of this chapter you can:
+
+- choose a register that suits both the occasion and the person you are speaking to
+
+- hold a formal conversation on the telephone or at a counter, such as making a reservation
+
+- invite an official to a school function in speech, using the correct courtesies
+
+- ask open-ended questions that oblige a speaker to explain rather than merely answer
+
+- make comments that carry a discussion forward instead of ending it
+
+- describe a familiar place or event using precise adjectives, adverbs and sense words
+
+- use simile and metaphor in speech without sounding artificial
+
+- give directions along a complex route using street names, complex prepositions and distances
+
+- choose landmarks that will still be there when the listener arrives
+
+- take, hold and yield a turn properly in conversations, meetings and conferences
+
+#### Key words
+
+> **Register —** the level of formality of the language a speaker chooses.
+>
+> **Diverse partners —** the different kinds of people you speak to: peers, elders, officials, strangers.
+>
+> **Reservation —** a booking made in advance for a seat, a room or a service.
+>
+> **Courtesy expression —** a polite formula such as \*please\*, \*kindly\* or \*I would be grateful\*.
+>
+> **Open-ended question —** a question that cannot be answered with yes, no or one word.
+>
+> **Elaboration —** a fuller answer giving reasons, examples, evidence or consequences.
+>
+> **Contribution —** a comment that adds something new to a discussion.
+>
+> **Sense words —** words appealing to sight, sound, smell, taste or touch, such as \*foggy\* or \*tingling\*.
+>
+> **Figurative language —** language that describes one thing in terms of another.
+>
+> **Simile —** a comparison using \*like\* or \*as\*.
+
+<!-- page 9 -->
+
+> **Metaphor —** a comparison that states one thing is another.
+>
+> **Complex preposition —** a preposition of more than one word, such as \*in between\* or \*opposite to\*.
+>
+> **Permanent landmark —** a feature unlikely to move or close, used as a guide.
+>
+> **Distance expression —** a phrase stating how far, such as \*quite a distance\* or \*a day's journey\*.
+>
+> **Turn taking —** the orderly exchange of speaking turns among people in a conversation.
+>
+> **Interruption —** taking a turn before the current speaker has finished.
+>
+> **Yielding —** handing the turn to another speaker.
+>
+> **Round table conference —** a meeting at which each participant speaks in turn as an equal.
+
+#### Engage
+
+Last year you learnt to tell a formal situation from an informal one. That was the easy half. The hard half is the person in front of you. The same errand — booking a bus seat — is one conversation with a clerk you have never met and quite another with your cousin who works at the station. And in a meeting, knowing what to say matters less than knowing when to say it: the learner who has the best idea and never gets a turn has, as far as the meeting is concerned, no idea at all. This chapter is about handling the person, not only the occasion.
+
+#### 1.1 Register with different partners
+
+**Register** is the level of formality you choose. In Basic 7 you decided it from the occasion. Now add the second question: *who exactly am I speaking to?* The occasion sets a floor below which you may not go; the partner decides how far above that floor you stand.
+
+| **Partner** | **Occasion** | **Register** | **Opening you might use** |
+| --- | --- | --- | --- |
+| A clerk you have never met | booking a bus seat | formal | Good morning. I would like to book two seats for Friday, please. |
+| Your cousin at the same counter | booking a bus seat | informal but polite | Ei, Kojo. Can you keep two seats for me on Friday? |
+| A classmate | arguing about a match | informal | That penalty was never a penalty. |
+| A visiting official | welcoming them | formal | You are most welcome, sir. We are honoured to receive you. |
+| An elder in your house | asking permission | respectful | Please, may I go to the library this evening? |
+| A customer at your stall | selling | courteous formal | You are welcome. What may I get for you? |
+
+*Table 1.1 — Occasion sets the floor; the partner sets the height.*
+
+Notice the third row of Table 1.1. Informal does not mean rude, and formal does not mean cold. A market woman who says *You are welcome; what may I get for you?* is being formal and warm at the same time, and she sells more for it.
+
+##### 1.1.1 Handling a formal transaction
+
+A **reservation**, an enquiry at an office and a complaint at a bank all follow the same four moves. Learn the moves and you can walk into any counter in the country.
+
+**Greet and identify yourself.** *Good afternoon. My name is Adjoa Mensah.*
+
+<!-- page 10 -->
+
+**State your business in one sentence.** *I would like to make a reservation for the Kumasi service on*
+
+- *Friday.* **Give the details in order.** Date, number, name, contact — the order the clerk needs them.
+
+- **Confirm and close.** Repeat the essentials back, then thank the person.
+
+> - **Dialogue 1.1 — At a travel and tour office (formal)**
+>
+> **Adjoa:** Good afternoon.
+>
+> **Clerk:** Good afternoon. How may I help you?
+>
+> **Adjoa:** I would like to make a reservation for the Cape Coast service on Saturday, please.
+>
+> **Clerk:** For how many passengers?
+>
+> **Adjoa:** Two — myself and my brother. Is there a morning departure?
+>
+> **Clerk:** There is one at seven and another at half past nine.
+>
+> **Adjoa:** We shall take the seven o'clock one. The name is Adjoa Mensah, and my number is zero-two-four, five- five-five, one-two-one-two.
+>
+> **Clerk:** Two seats, Cape Coast, Saturday, seven o'clock, in the name of Adjoa Mensah.
+>
+> **Adjoa:** That is correct. Thank you very much for your help.
+>
+> **Clerk:** You are welcome. Please arrive thirty minutes before departure.
+
+> **Dialogue 1.2 — At a fast-food joint (informal)**
+>
+> **Kwame:** Charley, you dey chop what?
+>
+> **Yaw:** The jollof — but the queue is long paa.
+>
+> **Kwame:** Then let me join for you while you find seat. Two waakye and one jollof?
+>
+> **Yaw:** Make it two jollof. Mensah is coming.
+>
+> **Kwame:** He's always coming. He's never here.
+>
+> **Yaw:** Give him five minutes.
+
+Both conversations succeed, and neither would succeed in the other's place. Say *Charley, you dey chop what?* at a travel office and you will not get your seat; say *I would like to make a reservation* at the food joint and your friends will not stop laughing till Friday.
+
+##### 1.1.2 Inviting an official
+
+Inviting a District Chief Executive, a head of department or a chief to a school function is the most formal speaking most learners ever do. Three things carry it: the correct title, a complete statement of the occasion, and a clear request with the date, time and place.
+
+> **Model 1.1 — Inviting the District Chief Executive**
+>
+> **Weak:** *Please we want you to come for our speech day on Friday. Thank you.*
+>
+> **Strong:** *Good morning, sir. My name is Kofi Owusu and I am the Senior Prefect of Nkoranza Junior High School.*
+>
+> *On behalf of our headteacher and the school, I have come to invite you to our Speech and Prize-Giving Day. It comes off on Friday, the twelfth of June, at nine o'clock in the morning, in the school assembly hall. We would be honoured if you could be our special guest of honour and address the graduating class.*
+
+<!-- page 11 -->
+
+> **What changed:** the speaker names himself and his office; the occasion is named in full; the date, time and place are all given; *we want you to come* becomes *we would be honoured if you could*; and the invitation says what the guest is being asked to do.
+
+> **Practice 1.1**
+>
+> 1. Write the opening two lines you would use in each case: (a) enquiring at a bank about opening a savings account; (b) asking your elder sister to lend you her calculator; (c) reporting a faulty streetlight to the assembly office.
+>
+> 2. Rewrite in formal register: *We wanna book three seats. When you dey go?*
+>
+> 3. Rewrite for a close friend: *I would be most grateful if you could accompany me to the durbar on Saturday.*
+>
+> 4. With a partner, act out the four moves of a formal transaction at a hospital records counter. Write out the four lines first.
+>
+> 5. Name two things that go wrong when a learner uses school English with a market trader, and two that go wrong when a learner uses street English at a bank.
+
+#### 1.2 Asking and responding with elaboration
+
+A discussion dies when the questions can be answered in one word. It lives when each question obliges the other person to think aloud. An **open-ended question** does exactly that, and the words that open it are few enough to memorise: *why, how, what, in what way, for what reason, what would happen if*.
+
+| **Closed question** | **Open-ended version** | **What it now demands** |
+| --- | --- | --- |
+| Is the rain heavy? | Why is the rain so heavy this December? | an explanation |
+| Do you like farming? | What would make young people take up farming? | reasons and conditions |
+| Is corruption bad? | In what way does bribery affect an ordinary trader? | an example |
+| Did the festival go well? | How did the durbar differ from last year's? | a comparison |
+| Is the internet useful? | What would you lose if the internet stopped tomorrow? | consequences |
+
+*Table 1.2 — Turning closed questions into open ones.*
+
+##### 1.2.1 Comments that contribute
+
+A question is only half of a discussion. The other half is the **contribution** — a comment that adds something the discussion did not already have. Four kinds are always available:
+
+**Evidence.** *We planted trees last year and the gully behind the school has stopped widening.*
+
+- **A counter-case.** *That is true in the town, but in the villages there is no rubbish lorry at all.*
+
+- **A distinction.** *There are two different problems here — the dumping and the drains.*
+
+- **A consequence.** *If the rains keep coming like this, the road will cut before Christmas.*
+
+- Compare these with the comments that end discussions: *Yes. It is true. I agree. As for me I don't know.* None of them gives the next speaker anything to hold.
+
+> **Dialogue 1.3 — Why is it raining in December? (environmental degradation)**
+
+<!-- page 12 -->
+
+> **Tetteh:** It is December. Why is it raining so heavily?
+>
+> **Naa:** I think the seasons have shifted. My grandmother says the harmattan used to arrive before the schools closed, and now it comes in January if it comes at all.
+>
+> **Tetteh:** How can a whole season move?
+>
+> **Naa:** Not by itself. Our science teacher explained that when the forests are cut, less moisture goes back into the air, and the rains lose their pattern.
+>
+> **Tetteh:** But the forests near us were cut long ago and the rains were fine then.
+>
+> **Naa:** That is a fair point. Perhaps it is not only our own trees — the change is happening across the whole belt, not in one district.
+>
+> **Tetteh:** So what would you have us do — stop the sawmills? People work there.
+>
+> **Naa:** I would separate the two things. The sawmills are licensed and can be made to replant. It is the unlicensed cutting along the riverbanks that nobody replaces.
+>
+> **Tetteh:** In what way would replanting along the river help us in December?
+>
+> **Naa:** It would not help this December. It would help my children's.
+
+Read Naa's turns again. Every one of them does something: gives evidence, concedes a point, makes a distinction, states a consequence. That is what *contributing* means.
+
+> **Practice 1.2**
+>
+> 1. Turn each into an open-ended question: (a) Do you own a mobile phone? (b) Was the harvest good? (c) Is banking safe? (d) Did you enjoy the film?
+>
+> 2. Read this comment: *Child marriage is bad.* Rewrite it three times — once adding evidence, once adding a counter-case, once adding a consequence.
+>
+> 3. With a partner, hold a four-minute discussion on *values at the workplace*. Each of you must ask at least two open-ended questions and make at least one contribution of each of the four kinds. Tick them off on paper as you go.
+>
+> 4. Explain why *I agree* is not a contribution, and write a version of it that is.
+
+#### 1.3 Describing familiar places and events
+
+Anyone can say a place was *nice*. Describing means putting the listener where you stood. Three tools do it: precise adjectives, **sense words**, and **figurative language** — with adverbs to control how the action happens.
+
+| **Sense** | **Weak** | **Precise** |
+| --- | --- | --- |
+| Sight | It was dark | The path was murky, and the trees leaned in on both sides |
+| Sound | It was noisy | Drums, hawkers and a generator all fought for the same air |
+| Smell | It smelt bad | The stale, sour smell of yesterday's fish hung over the stalls |
+| Taste | The food was nice | The tantalising smell of grilled tilapia reached us first |
+| Touch | The road was bad | The bumpy laterite jolted us from side to side for an hour |
+
+*Table 1.3 — Words that appeal to the senses.*
+
+<!-- page 13 -->
+
+Adverbs finish the job: *the guide spoke slowly and deliberately***, \*the canopy walkway swayed** gently**\*, \*the** **crowd surged** suddenly\* *forward*. A description without adverbs tells the listener what happened but not how.
+
+##### 1.3.1 Simile and metaphor in speech
+
+A **simile** compares using *like* or *as*: *the rope bridge swayed like a hammock*. A **metaphor** states the comparison outright: *the bridge was a hammock strung between two hills*. In speech, one good comparison is worth five; a description stuffed with them sounds rehearsed.
+
+> **Model 1.2 — Describing a tourist site (Kakum canopy walkway)**
+>
+> **Weak:** *We went to Kakum. It was nice. The bridge was high and I was afraid. We took photos and came back.*
+>
+> **Strong:** *We reached Kakum a little after nine, when the forest was still foggy and the air smelt of wet earth.*
+>
+> *The climb to the first platform is steep, and by the time we got there my shirt was already sticking to my back.*
+>
+> *Then the walkway — seven bridges strung between the trees, swaying gently like a hammock every time somebody stepped on. I gripped the rope so hard my fingers were tingling. Below us there was nothing but green, and above us a hornbill complained loudly at being disturbed. By the third bridge I had stopped gripping and started looking.*
+>
+> **What changed:** a time and a condition to open; sense words (*foggy*, *smelt of wet earth*, *tingling*); one simile, not four; adverbs (*gently*, *loudly*); and an ending that shows a change in the speaker rather than a list of what was done.
+
+Describing an **event** — a durbar, a funeral, a school anniversary — works the same way, with one addition: an event has a shape. Something builds, something happens, something settles. Say what changed, and the listener will follow you to the end.
+
+> **Practice 1.3**
+>
+> 1. Replace each weak word with a precise one: a *nice* view; a *bad* smell; a *big* crowd; a *bad* road; a *good* dancer.
+>
+> 2. Write one simile and one metaphor for each: a busy lorry station; a quiet classroom before an examination;
+>
+> a river in the dry season.
+>
+> 3. Describe, in eight to ten sentences, a tourist site or a festival you have attended. Use at least four sense words, two adverbs and one comparison — and underline them.
+>
+> 4. Read your description aloud to a partner, who must then draw a rough sketch of the place from your words alone. What did they get wrong, and which sentence misled them?
+
+#### 1.4 Giving directions along a complex route
+
+A complex route has several stages, at least one turn that is easy to miss, and a destination the listener has never seen. Three things make such directions usable: order, **permanent landmarks**, and honest **distance expressions**.
+
+| **Kind of expression** | **Examples** |
+| --- | --- |
+| Position | opposite, adjacent to, in between, at the far end of, on |
+
+<!-- page 14 -->
+
+|  | your right-hand side |
+| --- | --- |
+| Complex prepositions | in between, next to, close to, in front of, out of, along the side of |
+| Distance | about two hundred metres, quite a distance, a good ten minutes' walk, a day's journey |
+| Street and place names | Liberation Road, the Tetteh Quarshie interchange, Adabraka |
+| Landmarks | the filling station, the Methodist church, the district hospital, the high-rise flats |
+
+*Table 1.4 — The vocabulary of directions.*
+
+Choose landmarks that will still be there next year. A parked truck, a hawker's table or a campaign poster is not a landmark. A church, a mosque, a school, a hospital, a filling station, a roundabout or a tall building is.
+
+> **Model 1.3 — From Kotoka International Airport to Jubilee House**
+>
+> **Weak:** *You go straight and ask somebody. It's not far.*
+>
+> **Strong:** *Come out of the arrivals hall and turn right onto the airport road. Follow it for about a kilometre until you reach the Liberation Road junction — you will see the tall office blocks on your left. Turn left onto Liberation Road and stay on it, going past the Independence Square turn-off. It is quite a distance, perhaps ten minutes by car. When you reach the roundabout, take the second exit; Jubilee House is on your right-hand side, in between the ministries and the open park. If you get as far as the police headquarters, you have gone too far by about three hundred metres.*
+>
+> **What changed:** the stages are in order; each turn is tied to something the traveller will actually see; distance is given twice, once in metres and once in minutes; and — the mark of good directions — the speaker says how the listener will know they have overshot.
+
+> **Exam tip 1.1**
+>
+> In an examination, directions are marked for order, landmarks and completeness. Number your stages in rough first, then write them out as connected prose. Always end by naming the destination and which side of the road it stands on.
+
+> **Practice 1.4**
+>
+> 1. List six permanent landmarks within one kilometre of your school, and two features that look like landmarks but are not.
+>
+> 2. Use each of these once in a direction: *in between*, *opposite*, *at the far end of*, *quite a distance*, *on your left- hand side*.
+>
+> 3. Write full directions from your school gate to the nearest hospital or clinic, in at least five stages, ending with an overshoot warning.
+>
+> 4. A visitor telephones from the lorry station and cannot see any of your landmarks. What two questions do you ask before you start again?
+
+<!-- page 15 -->
+
+#### 1.5 Turn taking
+
+**Turn taking** is the unwritten rule that lets several people talk without talking over one another. It works differently in different settings, and knowing which setting you are in is half the skill.
+
+| **Setting** | **How turns are taken** | **What goes wrong** |
+| --- | --- | --- |
+| Friends at a snack bar | freely; overlaps are normal and forgiven | one person telling the whole story |
+| A class discussion | raise a hand; the teacher allocates | shouting the answer |
+| A club or SRC meeting | through the chairperson; speak when recognised | speaking twice before others have spoken once |
+| A round table conference | each in turn, round the table | running past your time |
+| A radio or television panel | the host allocates and cuts off | interrupting the guest |
+
+*Table 1.5 — Turn taking in five settings.*
+
+##### 1.5.1 Taking, holding and yielding
+
+**Taking a turn.** Raise a hand, catch the chairperson's eye, or use an entry phrase: *May I come in here? If I*
+
+- *may add something…* **Holding a turn.** Keep to the point, and signal that you are not finished: *There are two things I want to*
+
+- *say. The first is…* **Yielding a turn.** Finish cleanly and hand over: *That is all from me. What do you think, Ama?* A question
+
+- is the politest way of yielding. **Showing you are listening while not speaking.** Eye contact, a nod, and notes on paper. Writing down a
+
+- point to raise later is better than interrupting to raise it now.
+
+Classes often use a **talking object** — a toy microphone, a flag or a word card — that is passed to whoever holds the turn. It looks like a game, and it teaches in one lesson what argument teaches in a year: only one voice at a time.
+
+> **Dialogue 1.4 — A Student Representative Council meeting**
+>
+> **Chairperson:** We now come to the third item, the state of the school urinal. Yes, Ama.
+>
+> **Ama:** Thank you, Madam Chair. I want to raise two things. The first is that the taps have not run since May, and the second is who is responsible for reporting it. On the taps —
+>
+> **Kwesi:** The caretaker said —
+>
+> **Chairperson:** Kwesi, please. Ama has the floor.
+>
+> **Kwesi:** I beg your pardon, Madam Chair.
+>
+> **Ama:** On the taps, I checked this morning and the main line is closed at the meter. That is all on my first point.
+>
+> Madam Chair, may I take the second?
+>
+> **Chairperson:** Please do.
+>
+> **Ama:** We have never said whose duty it is to report a fault. I would suggest the class prefects. That is all from me. Kwesi, you wanted to add something about the caretaker.
+>
+> **Kwesi:** Thank you. The caretaker told me last term that he reports faults to the bursar, but he has no form to fill. So it may not be a question of who notices; it may be a question of what happens after.
+>
+> **Chairperson:** Two useful points. Yaa, you have not spoken this evening — do you have a view?
+
+Notice what the chairperson does in the last line. Turn taking is not only about waiting your turn; it is also about noticing who has not had one.
+
+<!-- page 16 -->
+
+> **Common misconception 1.1**
+>
+> *Turn taking means never interrupting.* Not quite. In a friendly conversation, overlapping speech is normal and even shows enthusiasm — Ghanaian conversation among friends is full of it. What turn taking rules out is interrupting in a **formal** setting, and interrupting anywhere in order to take the floor away from somebody rather than to add to what they are saying.
+
+> **Activity 1.1 — The talking microphone**
+>
+> You need: a toy microphone or any object that can be passed round; a topic card.
+>
+> What to do:
+>
+> 1. Sit in a circle of eight. Draw a topic card — for example *Should JHS learners be allowed mobile phones in school?*
+>
+> 2. Only the person holding the microphone may speak. To take a turn, raise a hand; to yield, pass the microphone and name the next speaker.
+>
+> 3. Run the discussion for ten minutes. One member keeps a tally of turns per person and of attempted interruptions.
+>
+> Record: the tally sheet, and the three best contributions made.
+>
+> Think about it: was the tally even? If one person took five turns and another none, whose responsibility was that — theirs, or the group's?
+
+> **Activity 1.2 — The direction trial**
+>
+> You need: paper; a partner who does not know your neighbourhood well.
+>
+> What to do:
+>
+> 1. Write directions from the school to a place about a kilometre away, in at least five stages.
+>
+> 2. Read them aloud once, at speaking speed. Your partner may not ask questions.
+>
+> 3. Your partner writes down the route as they understood it and sketches it.
+>
+> 4. Compare the sketch with the real route.
+>
+> Record: the stage at which the two first differ, and why.
+>
+> Think about it: was the failure in your landmark, your distance, or the order of your stages?
+
+> **Apply it — The tourism desk**
+>
+> Your school has been asked to run a visitors' desk for one day during a district festival.
+>
+> (a) Write and rehearse the formal greeting your desk will use to welcome a stranger.
+>
+> (b) Prepare a two-minute spoken description of one attraction in your district, using at least four sense words and one comparison.
+>
+> (c) Write directions from the festival grounds to that attraction, in at least five stages, with permanent landmarks and two distance expressions.
+>
+> (d) Prepare six open-ended questions you could ask a visitor about where they have come from.
+>
+> (e) With three classmates, hold a five-minute planning meeting with a chairperson, in which every member speaks at least once and no one interrupts.
+>
+> (f) Perform the whole desk — greeting, description, directions — for the class, who will score you on register,
+
+<!-- page 17 -->
+
+> precision and turn taking.
+
+#### Chapter summary
+
+- The occasion sets the least formality allowed; the person you are speaking to decides how much more you use.
+
+- Formal does not mean cold and informal does not mean careless — both can be courteous.
+
+- A formal transaction has four moves: greet and identify, state the business, give the details, confirm and close.
+
+- An invitation to an official must name the occasion, the date, the time, the place and what the guest is being asked to do.
+
+- Open-ended questions begin with why, how, in what way, for what reason or what would happen if.
+
+- A contribution adds evidence, a counter-case, a distinction or a consequence; *I agree* adds nothing.
+
+- Description works through precise adjectives, sense words and adverbs, with one comparison rather than five.
+
+- Directions must be in order, must give distance in more than one way, and should say how the listener will know they have gone too far.
+
+- A landmark is only a landmark if it will still be there next year.
+
+- Taking, holding and yielding a turn are three separate skills, and the third is the one most speakers never learn.
+
+### Assessment
+
+*This assessment follows the modes the curriculum sets out: an objective test, a written response, a listening and speaking task, and a piece for your portfolio.*
+
+#### Section A — Objective test
+
+*Choose the correct option in each case.* 1.A question that cannot be answered with yes, no or a single word is… A. closed B. leading C. open-ended D. rhetorical
+
+2.Which of these is a complex preposition? A. under B. in between C. near D. behind 3.Which of these is the most reliable landmark for directions? A. a parked lorry B. a hawker's table C. a filling station D. a campaign poster
+
+4.*The bridge swayed like a hammock* is an example of a… A. metaphor B. simile C. proverb D. personification
+
+5.Which word appeals to the sense of touch? A. tantalising B. foggy C. bumpy D. piercing 6.In a Students' Representative Council meeting, a member takes a turn by… A. shouting the point B. being recognised by the chairperson C. interrupting the speaker D. leaving the room
+
+7.*Quite a distance* is an expression of… A. position B. direction C. distance D. time 8.Which of these is a contribution rather than a mere response? A. Yes. B. It is true. C. That is true in the town, but the villages have no lorry at all. D. As for me I don't know.
+
+9.Which opening suits a bank enquiry? A. Ei, my brother, I want account. B. Good morning. I would like to enquire about opening a savings account. C. Give me the form. D. You people open account here?
+
+10. The politest way of yielding a turn is to… A. stop suddenly B. repeat your point C. put a question to another speaker D. raise your voice
+
+<!-- page 18 -->
+
+#### Section B — Theory and written response
+
+*Answer all four questions.* 1.(a) Explain, with one example each, how the *occasion* and the *partner* each affect the register a speaker chooses. (b) State the four moves of a formal transaction at a counter. (c) Write out, in full, a telephone conversation of ten turns in which you reserve two rooms at a guest house for your family. (d) Rewrite for a close friend: *I would be most grateful if you would inform me of the outcome at your earliest convenience.*
+
+2.(a) Explain what makes a question open-ended, and give three question words that open discussion. (b) Turn these into open-ended questions: *Is agriculture profitable? Did the invention help? Is the internet safe for children?* (c) Name the four kinds of contribution and give one example of each on the topic of bribery and corruption. (d) Explain why a discussion in which everybody agrees produces the least learning.
+
+3.(a) Name three tools used in describing a place, and give two examples of each. (b) Rewrite this description so that a listener could picture it: *We went to the durbar. It was nice. There were many people and drumming. We came home late.* (c) Describe an event you have attended in about ten sentences, using at least four sense words, two adverbs and one metaphor. (d) Explain the difference between describing a place and describing an event.
+
+4.(a) List five expressions of position or distance used in giving directions, and use each in a sentence. (b) Explain, with two examples, what makes a landmark permanent. (c) Write directions from a named lorry station in your district to your school, in at least six stages, ending with an overshoot warning. (d) State three rules of turn taking that apply in a meeting but not among friends.
+
+#### Section C — Listening and speaking
+
+*These tasks are carried out aloud and assessed as you perform them.* 1.In pairs, perform the same errand twice before the class — once with a stranger at a counter and once with a relative who works there. The class must name three features of language that differed. Then swap roles and repeat with a different errand.
+
+2.Hold a six-minute round table discussion in a group of six on one of the year's themes — entrepreneurship, agriculture, or environmental degradation. Each member must ask at least one open-ended question and make at least two contributions. A seventh learner keeps a tally of turns and interruptions and reports it to the class.
+
+3.Give a two-minute spoken description of a place in your district to a partner who has never been there, without naming it. Your partner must guess the place, then say which sense word helped most. Afterwards, give directions from the school to that place while your partner sketches the route from your words.
+
+#### Section D — Portfolio and project
+
+*These pieces are collected in your portfolio over a longer period.* 1.Compile a *speaking file* over four weeks: for each of six real situations you meet outside school, record the partner, the setting, the register you used, and one thing you would say differently now. Close the file with a reflection of two paragraphs on where your register is strongest and where it lets you down.
+
+2.Working in groups of four, produce a visitor's guide to one attraction, business or institution in your district. It must contain a written description of at least two hundred words using sense words and figurative language, full directions from a named landmark, and a transcript of an interview you conducted there using at least six open-ended questions.
+
+3.Chair one real meeting — of your class, a club or a study group — and submit the agenda, your written notes of who spoke and for how long, and a one-page report on how turn taking was managed, naming one thing you did that kept the meeting orderly and one thing you would do differently.
+
+<!-- page 19 -->
+
+*Strand 1: Oral Language (Listening and Speaking) · Sub-Strand 2: Listening Comprehension*
+
+### Chapter 2: Listening for Key Information
+
+> **Curriculum alignment**
+>
+> **Strand 1: Oral Language (Listening and Speaking)**
+>
+> **Sub-Strand 2: Listening Comprehension**
+>
+> **Content standard B8/JHS2.1.2.1**
+>
+> Demonstrate the ability to listen to extended reading and identify key information
+>
+> B8/JHS2.1.2.1.1 Listen to a level-appropriate dialogue/discussion by more than one speaker attentively and identify key information
+>
+> B8/JHS2.1.2.1.2 Listen to and discuss ideas and share opinions from a level-appropriate text
+>
+> **Core competences**
+>
+> Communication and Collaboration; Creativity and Innovation; Critical Thinking and Problem Solving; Personal Development and Leadership; Presentation
+
+#### Learning objectives
+
+By the end of this chapter you can:
+
+- follow a discussion in which more than one speaker takes part
+
+- keep track of who said what, and of where the speakers agree and differ
+
+- identify the message, the mood and the tone of a spoken text
+
+- distinguish tone of voice from the attitude of the speaker towards the subject
+
+- listen a second time and compare what you now hear with what you noted first
+
+- work out implicit meaning from the words a speaker chooses
+
+- take notes from a talk, a news bulletin or a talk show using a fixed skeleton
+
+- separate the facts in a talk from the opinions expressed about them
+
+- state and support an opinion of your own on what you have heard
+
+- disagree with a speaker courteously and with a reason
+
+#### Key words
+
+> **Message —** the main thing a speaker wants the listener to take away.
+>
+> **Mood —** the feeling a text creates in the listener.
+>
+> **Tone —** the speaker's attitude to the subject, heard in the choice of words and the voice.
+>
+> **Discussion —** an exchange in which two or more speakers develop a topic.
+>
+> **Talk show —** a broadcast in which a host and guests discuss issues.
+>
+> **Bulletin —** a short broadcast of news items.
+>
+> **Explicit meaning —** meaning stated in so many words.
+>
+> **Implicit meaning —** meaning suggested but not stated.
+>
+> **Inference —** a conclusion drawn from evidence in what was said.
+>
+> **Loaded word —** a word carrying approval or disapproval beyond its plain sense.
+>
+> **Understatement —** saying less than is meant, often for effect.
+>
+> **Key information —** the details a listener must have to act or to report.
+>
+> **Note-taking —** writing down key information in short form as you listen.
+>
+> **Abbreviation —** a shortened form used in notes, such as \*govt\* for government.
+>
+> **Fact —** a statement that can be checked.
+>
+> **Opinion —** a judgement that others may reasonably reject.
+
+<!-- page 20 -->
+
+> **Concession —** admitting part of what another speaker says before disagreeing.
+
+#### Engage
+
+Switch on any radio station at six in the evening and you will hear four people talking at once about the price of fuel. Somewhere in that noise there are three facts, two opinions and one thing nobody actually said out loud but everybody understood. Listening is not sitting quietly while other people talk. It is the work of separating those things while the talking is still going on — and unlike a passage in a book, a talk does not wait for you to catch up.
+
+#### 2.1 Listening when more than one person is speaking
+
+A single speaker gives you one thread to follow. A discussion gives you several, and they cross. The listener's first task is therefore not understanding but **sorting**: who said which thing, and how do their positions relate?
+
+**Name the speakers first.** As soon as you know there are three, draw three columns.
+
+- **Attach every claim to a column.** A claim with no owner is useless in a report.
+
+- **Mark agreement and disagreement.** A tick where two speakers agree, a cross where they do not.
+
+- **Watch for the change of mind.** In a real discussion at least one speaker shifts, and that shift is usually
+
+- the most important thing that happened.
+
+> **Dialogue 2.1 — Talk show: \*Should young people go into farming?\***
+>
+> **Host:** Good evening. With me are Mr Baidoo, who runs a maize farm at Ejura, and Miss Asantewaa of the district agricultural office. Mr Baidoo, young people say farming does not pay. Are they wrong?
+>
+> **Mr Baidoo:** They are not wrong about what they have seen. They watched their parents farm for thirty years and remain poor. What they have not seen is a farm with a tractor, a market contract and a bank account.
+>
+> That is a different business altogether.
+>
+> **Miss Asantewaa:** I would agree with the last part. The difficulty is the beginning. A young person leaving school has no land, no capital and no contract. We can talk about tractors when they cannot afford a cutlass.
+>
+> **Host:** So is the problem attitude, or is it money?
+>
+> **Mr Baidoo:** Both, but not equally. I started with two acres borrowed from my uncle. What I did not have was the patience to wait three seasons — and that I had to learn.
+>
+> **Miss Asantewaa:** Then we are closer than it sounded. I do not say young people are lazy; I say we send them out with nothing and then complain that they do not farm.
+>
+> **Mr Baidoo:** On that we agree entirely.
+>
+> **Host:** Miss Asantewaa, one last thing — the block farm scheme. Has it worked?
+>
+> **Miss Asantewaa:** *(pause)* It has done some good in places.
+>
+> **Host:** Some good.
+>
+> **Miss Asantewaa:** I would rather leave it there.
+
+|  | **Mr Baidoo** | **Miss Asantewaa** |
+| --- | --- | --- |
+| Do young people avoid farming? | Yes, on the evidence they have seen | Yes, but with reason |
+| Main obstacle | Patience and the old model of farmingLand, capital and contracts |  |
+| Are young people lazy? | Not said | Explicitly denies it |
+| Where they agree | Farming as a business can pay | Farming as a business can pay |
+
+<!-- page 21 -->
+
+_[answer space — 2 lines]_
+
+Where they differ
+
+Puts weight on attitude
+
+Puts weight on the start-up problem
+
+*Table 2.1 — Sorting the speakers in Dialogue 2.1.*
+
+> **Practice 2.1**
+>
+> 1. From Dialogue 2.1, write down two claims made by Mr Baidoo and two made by Miss Asantewaa.
+>
+> 2. State one point on which the two speakers agreed, and quote the words that show it.
+>
+> 3. Which speaker changed position during the discussion, and at which turn?
+>
+> 4. Write one sentence reporting the discussion to somebody who did not hear it, naming both speakers and their positions.
+
+#### 2.2 Message, mood and tone
+
+Three things travel together in any spoken text, and learners lose marks by confusing them.
+
+| **Term** | **Question it answers** | **Where you find it** |
+| --- | --- | --- |
+| Message | What does the speaker want me to take away? | in the whole text, often restated at the end |
+| Mood | What feeling does this create in me? | in the subject, the pace and the images |
+| Tone | How does the speaker feel about the subject? | in the choice of words and the voice |
+
+*Table 2.2 — Message, mood and tone.*
+
+A radio report about a flood may have the **message** that drains must be cleared, a **mood** of alarm, and a **tone** of impatience — three different things in the same three minutes. And note this: the tone can contradict the words. *Very good* said slowly and flatly means the opposite of what it says.
+
+| **Words spoken** | **Tone** | **What is actually meant** |
+| --- | --- | --- |
+| Some good in places. | guarded | the speaker does not want to condemn it openly |
+| Well, that was interesting. | flat | it was not interesting |
+| I suppose it could work. | doubtful | the speaker expects it to fail |
+| At last! | relieved or sarcastic | depends entirely on the voice |
+| We are told the money was released. | sceptical | the speaker doubts it was |
+
+*Table 2.3 — When the tone carries more than the words.*
+
+> **Common misconception 2.1**
+>
+> *Tone means loudness.* It does not. Tone is the speaker's attitude to the subject — angry, amused, respectful, sarcastic, anxious. Loudness is volume, and a speaker can be furious in a whisper. In examinations, an answer such as *the tone was loud* earns nothing.
+
+> **Practice 2.2**
+>
+> 1. State the message, the mood and the tone of Dialogue 2.1's last three turns.
+>
+> 2. Give the tone of each: (a) *Naturally, the money has still not arrived.* (b) *We are grateful for the little that was done.* (c) *This is the third time this term.* (d) *It could be worse, I suppose.*
+>
+> 3. Say one sentence — *the meeting starts at four* — in four tones: pleased, annoyed, doubtful, official. Your partner names each.
+
+<!-- page 22 -->
+
+> 4. Explain the difference between mood and tone in one sentence, with an example.
+
+#### 2.3 The second hearing
+
+Anything worth listening to is worth listening to twice, and the two hearings do different work. The first hearing catches the shape; the second catches what the shape was hiding.
+
+| **First hearing** | **Second hearing** |
+| --- | --- |
+| Who is speaking and about what | Which speaker had the evidence |
+| The general position of each speaker | Where a speaker shifted, hedged or avoided |
+| The obvious facts and figures | The figures you missed or wrote down wrongly |
+| The overall mood | The tone of particular turns |
+| What was said | What was implied but not said |
+
+*Table 2.4 — What each hearing is for.*
+
+The discipline is simple: after the first hearing, write your notes and *draw a line under them*. After the second, write below the line only what is new or what corrects what is above. What appears below the line is your real work as a listener.
+
+> **Activity 2.1 — Above the line, below the line**
+>
+> You need: a recorded talk show, news bulletin or a passage read aloud twice by two learners.
+>
+> What to do:
+>
+> 1. Listen once and write your notes. Rule a line under them and do not alter them afterwards.
+>
+> 2. Listen a second time, writing only new points and corrections below the line.
+>
+> 3. Count the items below the line and sort them into: missed facts, corrected facts, tone, implied meaning.
+>
+> Record: both sets of notes and the counts.
+>
+> Think about it: which category was largest? Most learners find that facts survive the first hearing and implied meaning does not.
+
+#### 2.4 Implicit meaning
+
+**Explicit meaning** is what the words say. **Implicit meaning** is what the choice of words lets you conclude. The bridge between them is an **inference**, and an inference must always be tied to particular words — otherwise it is a guess.
+
+| **What the speaker says** | **Inference** | **The words that carry it** |
+| --- | --- | --- |
+| We have not yet been able to pay them. | the speaker expects to pay eventually | *not yet*, *been able* |
+| The so-called experts advised us. | the speaker does not respect them | *so-called* |
+| A few of the drugs expired. | the speaker is minimising | *a few* |
+| The drugs were allowed to expire. | somebody is at fault | *allowed*, the passive voice |
+| I would rather leave it there. | there is more the speaker will not say | *rather*, *leave it* |
+
+*Table 2.5 — Inferring from the words chosen.*
+
+**Loaded words** are the commonest signal. *Regime* and *government*, *crowd* and *mob*, *firm* and *stubborn*, *thrifty* and *stingy* — each pair names the same thing and carries opposite approval. When a speaker picks the second of any such pair, they have told you their position without stating it.
+
+_[answer space — 2 lines]_
+
+**Practice 2.3**
+
+<!-- page 23 -->
+
+> 1. What is implied, and by which words? (a) *He is quite hard-working, for someone his age.* (b) *We were informed that the clinic has drugs.* (c) *Only three patients complained.* (d) *She managed to pass.*
+>
+> 2. Give the neutral partner of each loaded word: *mob*, *stingy*, *scheme*, *interfere*.
+>
+> 3. In Dialogue 2.1, Miss Asantewaa says the block farm scheme *has done some good in places* and then refuses to say more. What do you infer, and what exactly makes you infer it?
+>
+> 4. Write two sentences reporting the same event — a school fee increase — one implying approval and one implying disapproval, without stating either.
+
+#### 2.5 Taking notes from talks and news
+
+Notes are not a transcript. A transcript is what was said; notes are what you will need. Use a fixed skeleton so that your hand knows where to go while your mind is still listening.
+
+- **Who?** — the speaker, the office they hold, and who else is named.
+
+- **What?** — the event or claim, in a phrase.
+
+- **When and where?** — dates, times, places, exactly as given.
+
+- **How many?** — every figure. Figures are what listeners most often get wrong.
+
+- **Why?** — the reason given, and by whom.
+
+- **So what?** — the consequence or the action asked for.
+
+- Write in short form. Drop *the*, *a*, *is* and *was*. Use standard abbreviations — *govt*, *yr*, *no.*, *↑* for a rise, *↓* for a fall, *∴* for therefore, *&* for and. Leave a wide margin on the right and put your own questions there, so that fact and reaction never mix.
+
+> **Passage 2.1 — News bulletin (read aloud twice)**
+>
+> Good evening. The Ghana Health Service has announced a district-wide immunisation exercise against measles, to run from the fourth to the eleventh of September. The Director of Health Services for the district, Dr Naana Boakye, said the exercise will cover all children between the ages of nine months and five years, and that eighty-two thousand doses have been received.
+>
+> Dr Boakye said uptake last year reached only sixty-one per cent, well below the ninety-five per cent needed to stop transmission, and that the shortfall was greatest in the farming communities along the eastern boundary, where the exercise coincided with the harvest. This year, she said, mobile teams will visit those communities in the early evening rather than at midday.
+>
+> The Assembly has appealed to parents to bring their children's health record books. Dr Boakye added that the vaccine is free of charge, and warned that reports of a fee being charged at two centres last year are being investigated.
+
+> **Model 2.1 — Two sets of notes on Passage 2.1**
+>
+> **Weak notes:** *Health service is doing immunisation in September. It is for children. Dr Boakye said many did not come last year. It is free.*
+
+<!-- page 24 -->
+
+> **Strong notes:**
+>
+> *Who:* GHS, district; Dr Naana Boakye (Dir. Health Services)
+>
+> *What:* measles immunisation exercise
+>
+> *When:* 4–11 Sept · *Who for:* children 9 months – 5 yrs
+>
+> *Figures:* 82,000 doses recd · last yr uptake 61% · target 95%
+>
+> *Why the shortfall:* eastern farming communities — clashed with harvest
+>
+> *Change this yr:* mobile teams, early evening not midday
+>
+> *Asked of parents:* bring child health record book
+>
+> *Also:* free of charge; fee reports at 2 centres under investigation
+>
+> *My questions (margin):* how many centres in all? what happens to a child without a book?
+>
+> **What changed:** every figure is captured; the reason for last year's failure is kept together with the change made because of it; the action asked of parents is separated from the background; and the listener's own questions are parked in the margin instead of being lost.
+
+> **Exam tip 2.1**
+>
+> In a listening test, write figures the instant you hear them, even in the middle of a word. You can rebuild a sentence from memory thirty seconds later; you cannot rebuild *eighty-two thousand*.
+
+> **Practice 2.4**
+>
+> 1. Take notes on Passage 2.1 as it is read to you, using the six-question skeleton. Compare with a partner and list what each of you missed.
+>
+> 2. Write these in note form: *The Assembly has appealed to parents to bring their children's health record books.*
+>
+> 3. From your notes alone, and without looking at the passage, write a report of the bulletin in four sentences.
+>
+> 4. Which single figure in the bulletin matters most, and why?
+
+#### 2.6 Discussing what you have heard
+
+After listening comes the part that is assessed most and taught least: saying what you think about it. Two rules cover almost everything.
+
+**Separate the fact from your opinion, and say which is which.** *Uptake was sixty-one per cent* is a fact
+
+- from the bulletin. *That is a failure of planning, not of parents* is your opinion, and it should be signalled: *In my view…*, *It seems to me…*, *I would argue that…* **Concede before you disagree.** *I take the point that the harvest made it difficult — but the harvest*
+
+- *comes every year, so it should have been planned for.* A **concession** shows you listened, and makes your disagreement much harder to dismiss.
+
+Avoid the two ways of saying nothing: agreeing with everybody, and disagreeing with everybody. Both are ways of not having listened.
+
+> **Activity 2.2 — The three-column panel**
+
+<!-- page 25 -->
+
+> You need: a recorded or read talk show with three speakers; paper ruled into three columns.
+>
+> What to do:
+>
+> 1. Head one column for each speaker. As you listen, put every claim in the right column.
+>
+> 2. Mark ✓ where two speakers agree and ✗ where they conflict.
+>
+> 3. In groups of four, agree on a single summary of the discussion in five sentences.
+>
+> 4. Each member then adds one opinion of their own, signalled as an opinion and preceded by a concession.
+>
+> Record: the three-column sheet, the agreed summary and the four opinions.
+>
+> Think about it: where did your group disagree about what a speaker actually said? Go back to the recording and settle it.
+
+> **Apply it — The evening news file**
+>
+> For one week, listen to one radio or television news bulletin each evening.
+>
+> (a) Take notes on two items each evening using the six-question skeleton.
+>
+> (b) For one item each evening, state the message, the mood and the tone.
+>
+> (c) Identify one thing that was implied rather than stated, and quote the words that implied it.
+>
+> (d) Choose the week's most important item and write a report of it in six sentences from your notes alone.
+>
+> (e) Add a paragraph of your own opinion on that item, opening with a concession.
+>
+> (f) Present the item and your opinion to the class in two minutes, and take two questions.
+
+#### Chapter summary
+
+- When several people speak, sort first: attach every claim to the speaker who made it.
+
+- The most important moment in a discussion is usually the point at which somebody shifts position.
+
+- The message is what you are meant to take away; the mood is what you feel; the tone is how the speaker feels about the subject.
+
+- Tone is attitude, not volume — a speaker can be furious in a whisper.
+
+- The first hearing catches the shape of a text; the second catches what the shape hid.
+
+- An inference must be tied to particular words, or it is only a guess.
+
+- Loaded words tell you a speaker's position without the speaker stating it.
+
+- Notes are not a transcript; use a fixed skeleton of who, what, when, how many, why and so what.
+
+- Write figures down the instant you hear them; sentences can be rebuilt from memory, numbers cannot.
+
+- Signal your opinions as opinions, and concede a point before you disagree with one.
+
+### Assessment
+
+*This assessment follows the modes the curriculum sets out: an objective test, a written response, a listening and speaking task, and a piece for your portfolio.*
+
+#### Section A — Objective test
+
+*Choose the correct option in each case.* 1.The feeling a spoken text creates in the listener is its… A. tone B. mood C. message D. register 2.A speaker's attitude towards the subject is heard in the… A. volume B. tone C. pace D. accent 3.Meaning that is suggested but not stated is said to be… A. explicit B. implicit C. literal D. formal
+
+<!-- page 26 -->
+
+4.A conclusion drawn from evidence in what a speaker said is called an… A. opinion B. inference C. instruction D. abbreviation
+
+5.Which of these is a loaded word? A. crowd B. mob C. group D. gathering 6.Which statement is a fact rather than an opinion? A. Uptake reached sixty-one per cent. B. The exercise was badly planned. C. Parents are careless. D. Evening visits are a better idea.
+
+7.In note-taking, *↑* is commonly used to mean… A. important B. a rise C. a question D. therefore 8.Admitting part of what another speaker says before disagreeing is called a… A. contribution B. concession C. correction D. conclusion
+
+9.*A few of the drugs expired* suggests that the speaker is… A. exaggerating B. minimising C. guessing D. accusing
+
+10. The second hearing of a talk is most useful for catching… A. the names of the speakers B. the general subject C. what was implied but not said D. the language used
+
+#### Section B — Theory and written response
+
+*Answer all four questions.* 1.(a) Explain, with an example of each, the difference between message, mood and tone. (b) Give the tone of each of the following and state the word that carries it: *Naturally, the money has not arrived; We are grateful for the little that was done; She managed to pass.* (c) Explain why *the tone was loud* is not an acceptable answer. (d) Write one sentence in which the tone contradicts the words.
+
+2.(a) State four things a listener should do when following a discussion among three speakers. (b) Explain why every claim must be attached to the speaker who made it. (c) From a discussion you have heard in class, name one point of agreement and one of disagreement, quoting words that show each. (d) Explain why a speaker changing position is worth noting.
+
+3.(a) Explain the difference between explicit and implicit meaning. (b) State what is implied in each and by which words: *We have not yet been able to pay them; The so-called committee met; The drugs were allowed to expire.* (c) Give the neutral partner of each loaded word: *regime, stingy, interfere, scheme.* (d) Write two reports of the same event, one implying approval and the other disapproval, without stating either.
+
+4.(a) Set out the six-question skeleton for taking notes from a talk. (b) Explain why figures should be written down immediately. (c) Take the following and write it in note form: *The Director said eighty-two thousand doses have been received and that mobile teams will visit farming communities in the early evening.* (d) Explain what a concession is, and write a paragraph disagreeing with the view that young people avoid farming because they are lazy, opening with one.
+
+#### Section C — Listening and speaking
+
+*These tasks are carried out aloud and assessed as you perform them.* 1.Listen to a recorded talk show or a discussion read aloud by three classmates. Using a three-column sheet, record every claim under the speaker who made it, then report to the class in one minute: who held which position, where they agreed, and which speaker shifted.
+
+2.Listen twice to a news bulletin read by your teacher, using the above-the-line and below-the-line method. Read out what you wrote below the line and explain why you missed each item the first time.
+
+3.In a group of four, listen to a short talk on one of the year's themes, then hold a four-minute discussion in which each member states one fact from the talk, one inference with the words that support it, and one opinion introduced by a concession.
+
+#### Section D — Portfolio and project
+
+*These pieces are collected in your portfolio over a longer period.*
+
+<!-- page 27 -->
+
+1.Keep a listening journal for two weeks. For each of ten broadcasts or talks, record the source, the date, notes under the six-question skeleton, the message, the mood and the tone, and one thing that was implied rather than stated. End with a reflection of two paragraphs on what you now catch that you missed in the first week.
+
+2.In a group of three, script, rehearse and record a five-minute talk show of your own on a district issue, with a host and two guests who genuinely disagree. Submit the script, the recording, and a listener's worksheet you have written for the class, with five questions on facts, two on tone and two on implied meaning.
+
+3.Choose a single issue reported over several days — a price change, an outbreak, a construction project. Collect notes from at least four broadcasts, then produce a two-page report distinguishing what was reported as fact, what was reported as opinion, what changed in the reporting over the days, and your own view supported by a concession.
+
+<!-- page 28 -->
+
+*Strand 1: Oral Language (Listening and Speaking) · Sub-Strand 3: English Sounds*
+
+### Chapter 3: English Consonant Sounds
+
+> **Curriculum alignment**
+>
+> **Strand 1: Oral Language (Listening and Speaking)**
+>
+> **Sub-Strand 3: English Sounds**
+>
+> **Content standard B8/JHS2.1.3.1**
+>
+> Articulate English speech sounds to develop confidence and skills in listening and speaking
+>
+> B8/JHS2.1.3.1.1 Produce consonant sounds in context (plosives)
+>
+> B8/JHS2.1.3.1.2 Produce consonant sounds (fricatives) in context
+>
+> B8/JHS2.1.3.1.3 Produce consonant sounds (nasals and affricates) in context
+>
+> **Core competences**
+>
+> Communication and Collaboration; Critical Thinking and Problem Solving; Personal Development and Leadership;
+>
+> Presentation
+
+#### Learning objectives
+
+By the end of this chapter you can:
+
+- explain how a consonant is made, in terms of where the air is stopped and whether the voice is on
+
+- tell a voiced consonant from a voiceless one by ear and by touch
+
+- produce the six plosives /p/, /b/, /t/, /d/, /k/, /g/ correctly in words and in speech
+
+- produce the fricatives /f/, /v/, /θ/, /ð/, /s/, /z/, /ʃ/, /ʒ/ and /h/ in context
+
+- distinguish the pairs that Ghanaian speakers most often merge, such as /θ/ and /t/
+
+- produce the nasals /m/, /n/ and /ŋ/ and place them correctly at the end of words
+
+- produce the affricates /tʃ/ and /dʒ/ and distinguish them from the fricatives /ʃ/ and /ʒ/
+
+- keep final consonants and consonant clusters in connected speech
+
+- use minimal pairs to test and correct your own pronunciation
+
+- read a passage aloud with the consonants of standard English kept clear
+
+#### Key words
+
+> **Consonant —** a speech sound made by obstructing the flow of air.
+>
+> **Voicing —** whether the vocal cords vibrate while a sound is made.
+>
+> **Voiced sound —** a sound made with the vocal cords vibrating, such as /b/.
+>
+> **Voiceless sound —** a sound made without vocal cord vibration, such as /p/.
+>
+> **Plosive —** a consonant made by stopping the air completely and releasing it.
+>
+> **Fricative —** a consonant made by forcing air through a narrow gap, producing friction.
+>
+> **Nasal —** a consonant made with the air escaping through the nose.
+>
+> **Affricate —** a consonant that begins as a plosive and ends as a fricative.
+>
+> **Minimal pair —** two words differing in one sound only, such as \*pin\* and \*bin\*.
+>
+> **Aspiration —** the small puff of air after /p/, /t/ or /k/ at the start of a word.
+>
+> **Consonant cluster —** two or more consonants together, as in \*asked\* or \*strength\*.
+>
+> **Cluster reduction —** dropping one consonant from a cluster in speech.
+>
+> **Final devoicing —** pronouncing a final voiced consonant as its voiceless partner.
+>
+> **Connected speech —** speech in continuous phrases rather than single words.
+>
+> **Elision —** the loss of a sound in rapid speech.
+
+<!-- page 29 -->
+
+> **Linking —** joining the last sound of one word to the first of the next.
+>
+> **Phonetic symbol —** a symbol standing for one sound, written between slashes.
+
+#### Engage
+
+Put two fingers lightly on your throat and say *sssss*. Now say *zzzzz*. Your mouth has not moved at all — the tongue is in the same place, the lips are the same — and yet the second one buzzes under your fingers. That buzz is the whole difference between *price* and *prize*, between *back* and *bag*, between *safe* and *save*. Last year you worked on vowels. Vowels carry the music of English; consonants carry the meaning. Lose one at the end of a word and you have not spoken carelessly — you have spoken a different word.
+
+#### 3.1 How a consonant is made
+
+A vowel is made with the air flowing freely. A **consonant** is made by getting in the way of the air. To describe any consonant, answer three questions.
+
+**Where is the air obstructed?** At the lips (*p*, *b*, *m*), between the lip and the teeth (*f*, *v*), at the teeth (*th*),
+
+- on the ridge behind the teeth (*t*, *d*, *s*, *z*, *n*), further back (*sh*, *ch*), or at the soft palate (*k*, *g*, *ng*). **How is it obstructed?** Stopped completely and released — a **plosive**. Squeezed through a narrow gap —
+
+- a **fricative**. Sent through the nose — a **nasal**. Stopped and then released with friction — an **affricate**. **Is the voice on?** If the vocal cords vibrate the sound is **voiced**; if not, it is **voiceless**.
+
+- The third question is answered with your fingers, not your ears. Hold your throat and say /f/ then /v/, /s/ then /z/, /t/ then /d/. The first of each pair is silent under the fingers; the second buzzes. Everything else about the pair is identical.
+
+| **Manner** | **Voiceless** | **Voiced** |
+| --- | --- | --- |
+| Plosive | /p/ /t/ /k/ | /b/ /d/ /g/ |
+| Fricative | /f/ /θ/ /s/ /ʃ/ /h/ | /v/ /ð/ /z/ /ʒ/ |
+| Affricate | /tʃ/ as in *church* | /dʒ/ as in *judge* |
+| Nasal | — (all nasals are voiced) | /m/ /n/ /ŋ/ |
+
+*Table 3.1 — The consonants of this chapter, by manner and voicing.*
+
+#### 3.2 The plosives: /p/ /b/ /t/ /d/ /k/ /g/
+
+A **plosive** is made by closing the air passage completely, building up pressure and releasing it. Say *pah* with your hand in front of your mouth and you will feel the puff. The six plosives come in three pairs, each pair made in the same place, differing only in voicing.
+
+| **Pair** | **Where it is made** | **Voiceless** | **Voiced** |
+| --- | --- | --- | --- |
+| /p/ – /b/ | both lips | *pay, cup, apple* | *bay, cub, rubber* |
+| /t/ – /d/ | tongue on the ridge behind *ten, cat, letter* the teeth |  | *den, cad, ladder* |
+| /k/ – /g/ | back of the tongue on the soft palate | *coat, back, market* | *goat, bag, bigger* |
+
+*Table 3.2 — The three plosive pairs.*
+
+##### 3.2.1 Minimal pairs for the plosives
+
+| **Voiceless** | **Voiced** | **Sentence to test** |
+| --- | --- | --- |
+| pay | bay | They *pay* at the *bay*. |
+| pin | bin | Put the *pin* in the *bin*. |
+| ten | den | *Ten* animals left the *den*. |
+
+<!-- page 30 -->
+
+| cart | card | He pushed the *cart* and lost the *card*. |
+| --- | --- | --- |
+| coat | goat | The *goat* ate his *coat*. |
+| back | bag | He put it at the *back* of the *bag*. |
+
+*Table 3.3 — Minimal pairs: plosives.*
+
+The last row is the one to watch. Many Ghanaian speakers pronounce a final voiced plosive as its voiceless partner, so *bag* comes out as *back* and *cad* as *cat*. This is called **final devoicing**. It is a normal feature of the way English is spoken across much of West Africa, and in conversation nobody will misunderstand you. But in a dictation, a listening test or an interview far from home, the difference does work, and it is worth being able to make it when you choose to.
+
+Two other things to notice about plosives. At the beginning of a word, /p/, /t/ and /k/ carry **aspiration** — a small puff of air. Hold a strip of paper before your lips: it should move for *pin* and stay still for *bin* and for *spin*. And a plosive at the end of a word must still be made, even if it is barely released: in *he kept quiet*, the /t/ of *kept* is small, but a listener notices when it is gone entirely.
+
+> **Practice 3.1**
+>
+> 1. Sort into voiced and voiceless: /k/, /b/, /t/, /g/, /p/, /d/.
+>
+> 2. Say each pair aloud with your fingers on your throat and write down what you feel: pay/bay, ten/den, coat/goat.
+>
+> 3. Read aloud: *The big pig dug a deep pit behind the back gate.* Underline every plosive.
+>
+> 4. Test yourself with a partner, who says one word from each minimal pair in Table 3.3 while you look away.
+>
+> Write what you hear. How many out of six did you get right?
+>
+> 5. Write two more minimal pairs of your own for each plosive pair.
+
+#### 3.3 The fricatives: /f/ /v/ /θ/ /ð/ /s/ /z/ /ʃ/ /ʒ/ /h/
+
+A **fricative** is made by narrowing the passage so that the air hisses, buzzes or rushes through. Unlike a plosive, a fricative can be held: you can say *ssssss* for as long as your breath lasts, but you cannot hold /t/.
+
+| **Symbol** | **As in** | **Voicing** | **Where it is made** |
+| --- | --- | --- | --- |
+| /f/ | *farm, coffee, laugh* | voiceless | top teeth on bottom lip |
+| /v/ | *van, seven, love* | voiced | top teeth on bottom lip |
+| /θ/ | *think, both, method* | voiceless | tongue tip between the teeth |
+| /ð/ | *this, mother, breathe* | voiced | tongue tip between the teeth |
+| /s/ | *sun, lesson, price* | voiceless | tongue near the ridge |
+| /z/ | *zoo, busy, prize* | voiced | tongue near the ridge |
+| /ʃ/ | *ship, nation, wash* | voiceless | tongue further back |
+| /ʒ/ | *measure, vision, leisure* | voiced | tongue further back |
+| /h/ | *hat, behind, ahead* | voiceless | in the throat, open |
+
+*Table 3.4 — The nine fricatives.*
+
+##### 3.3.1 The two that need most work: /θ/ and /ð/
+
+These two sounds are written with the same two letters, *th*, and they do not exist in most Ghanaian languages. Across the country they are commonly produced as /t/ and /d/, so *think* becomes *tink* and *this*
+
+<!-- page 31 -->
+
+becomes *dis*. Making them is not difficult once you know where the tongue goes: the tip comes lightly **between the teeth**, and the air is pushed through the gap. Voice off for /θ/ in *think*; voice on for /ð/ in *this*.
+
+| **/θ/ voiceless** | **/ð/ voiced** | **Contrast with /t/ or /d/** |
+| --- | --- | --- |
+| *think* | *this* | *think* / *tink* is not a word |
+| *three* | *that* | *three* / *tree* — two real words |
+| *both* | *breathe* | *both* / *boat* |
+| *mouth* (noun) | *mouth* (verb) | the *th* changes with the word class |
+| *thirty* | *they* | *thirty* / *dirty* — a costly confusion |
+
+*Table 3.5 — Practising /θ/ and /ð/.*
+
+> **Common misconception 3.1**
+>
+> *Saying* tink *for* think *is bad English.* It is not bad English; it is a regular feature of Ghanaian English, and Ghanaian English is a legitimate variety spoken by millions. What matters is **choice**. A speaker who can make /θ/ and /ð/ when the situation calls for it — an oral examination, a broadcast, a conversation with someone unfamiliar with the accent — is better off than one who cannot. Learn the sound; then use the variety that suits the occasion.
+
+Two more fricative pairs repay attention. **/s/ and /z/** at the end of words carry grammar: *price* and *prize*, *loose* and *lose*, and every plural and third-person verb ending in the language. **/ʒ/** is rare but real — it appears in *measure*, *pleasure*, *vision*, *decision*, *garage* — and is often replaced by /dʒ/, giving *mejure* for *measure*. Hold the sound: /ʒ/ can be sustained, /dʒ/ cannot.
+
+> **Practice 3.2**
+>
+> 1. Say each with your fingers on your throat and mark V for voiced, X for voiceless: /f/, /v/, /s/, /z/, /ʃ/, /ʒ/, /θ/, /ð/.
+>
+> 2. Read aloud slowly, keeping the tongue between the teeth: *Both brothers thought that the thirty-third path was theirs.*
+>
+> 3. Which fricative sounds appear in each word: *thirsty, measure, vision, breathe, laugh, houses*?
+>
+> 4. Say these pairs to a partner who must write what they hear: *price/prize, safe/save, thin/tin, they/day, sheep/cheap*.
+>
+> 5. Explain why /s/ and /z/ at the ends of words matter for grammar, with two examples.
+
+#### 3.4 The nasals and the affricates
+
+##### 3.4.1 Nasals: /m/ /n/ /ŋ/
+
+For a **nasal**, the mouth is closed at some point and the air goes out through the nose instead. Pinch your nose and try to say *mmmm* — nothing comes out. All three nasals are voiced.
+
+| **Symbol** | **Closed at** | **As in** |
+| --- | --- | --- |
+| /m/ | both lips | *man, hammer, come* |
+| /n/ | tongue on the ridge behind the teeth | *net, dinner, run* |
+| /ŋ/ | back of the tongue on the soft palate | *sing, singer, thing, bank* |
+
+*Table 3.6 — The three nasals.*
+
+<!-- page 32 -->
+
+/ŋ/ is written *ng* but it is one sound, not two. In standard English, *singer* has no /g/ in it at all — it is /sɪŋə/, not /sɪŋgə/ — although *finger* and *longer* do keep the /g/. Note also that *bank* and *think* contain /ŋ/ even though there is no letter *g* in sight; the /n/ before /k/ shifts back to meet it.
+
+| **/n/** | **/ŋ/** | **Test sentence** |
+| --- | --- | --- |
+| sin | sing | *Sin* is not *sing*. |
+| ban | bang | The *ban* came with a *bang*. |
+| thin | thing | That *thin* *thing*. |
+| ran | rang | He *ran* when the bell *rang*. |
+
+*Table 3.7 — Minimal pairs: /n/ and /ŋ/.*
+
+##### 3.4.2 Affricates: /tʃ/ and /dʒ/
+
+An **affricate** is a plosive and a fricative joined into a single sound. /tʃ/ begins as /t/ and finishes as /ʃ/, as in *church*; /dʒ/ begins as /d/ and finishes as /ʒ/, as in *judge*. The pair differs, as always, only in voicing.
+
+| **/tʃ/ voiceless** | **/dʒ/ voiced** | **Confused with** |
+| --- | --- | --- |
+| *chair, teacher, watch* | *jar, danger, bridge* | — |
+| *chin* | *gin* | each other |
+| *cheap* | *jeep* | each other |
+| *cheer* | *jeer* | each other |
+| *chose* | *shows* | /tʃ/ against /ʃ/ |
+| *catch* | *cash* | /tʃ/ against /ʃ/ |
+
+*Table 3.8 — Minimal pairs: affricates.*
+
+The test that separates an affricate from a fricative is length. You can hold /ʃ/ — *shhhhh* — for as long as you like. You cannot hold /tʃ/; it happens once and it is over. If your *catch* can be stretched, you are saying *cash*.
+
+> **Practice 3.3**
+>
+> 1. Say *sin, sing, sinner, singer, finger, thing, think, bank* and mark where you hear /ŋ/.
+>
+> 2. Which nasal ends each word: *come, run, song, drum, garden, morning*?
+>
+> 3. Read aloud: *The young singer sang a long song and everything rang.*
+>
+> 4. Say each pair to a partner who writes what they hear: *chin/gin, cheap/jeep, catch/cash, chose/shows*.
+>
+> 5. Explain, using the idea of length, how /tʃ/ differs from /ʃ/.
+
+#### 3.5 Consonants in connected speech
+
+Sounds behave differently in a sentence than in a word said alone. Three habits decide whether a listener can follow you at speed.
+
+**Keep the final consonant.** *He asked for his card* has a /t/ and a /d/ that carry the tense and the noun.
+
+- Drop them and the sentence loses its time and its object. **Keep the cluster, but do not force it.** English is full of **consonant clusters** — *strengths*, *asked*, *texts*,
+
+- *twelfths*. Native speakers simplify some of these too; what is not acceptable is losing the ending that carries grammar, as in *he walk home yesterday*. **Link, do not break.** *An apple* is said as *a-napple*; *turn it off* as *tur-ni-toff*. Linking the final consonant of
+
+- one word to the vowel of the next is what makes English sound continuous rather than chopped.
+
+<!-- page 33 -->
+
+The grammatical endings are where it matters most. The past tense /-d/ and /-t/, the plural and third- person /-s/ and /-z/, and the possessive /-s/ are all single consonants at the ends of words. A speaker who loses them consistently is not making a pronunciation error so much as a grammatical one — the listener hears *yesterday I walk to school* and *the boy book*.
+
+| **Written** | **Ending sound** | **Why it matters** |
+| --- | --- | --- |
+| *walked* | /t/ | marks the past tense |
+| *played* | /d/ | marks the past tense |
+| *books* | /s/ | marks the plural |
+| *bags* | /z/ | marks the plural |
+| *Ama's book* | /z/ | marks possession |
+| *he works* | /s/ | marks the third person singular |
+
+*Table 3.9 — Final consonants that carry grammar.*
+
+> **Passage 3.1 — Read aloud for consonants (theme: technology)**
+>
+> Three things changed in this town when the mast was built on the hill behind the church. The first was the shops. Traders who had kept their prices in their heads began writing them down, because customers now asked for a message with the figure on it. The second was the banking. Grandmothers who had never seen the inside of a bank started sending and receiving cash through a boy with a booth and a battered phone. The third was the arguing. Every disagreement in the market — about the weather, about the government, about whether the referee had judged the match fairly — could now be settled in thirty seconds by a boy holding a screen. Some of the elders think that has made the young sharper. Others think it has stopped them thinking at all. Both may be right.
+
+> **Exam tip 3.1**
+>
+> Reading aloud is assessed for clarity, not for speed or for an imitated accent. Read a little more slowly than you speak, land the final consonants of past tenses and plurals, and pause at the punctuation. That alone will place you above most candidates.
+
+> **Activity 3.1 — The throat test**
+>
+> You need: your own two fingers; the word list below.
+>
+> What to do:
+>
+> 1. With two fingers on your throat, say each sound for three seconds: /f/ /v/ /s/ /z/ /ʃ/ /ʒ/ /θ/ /ð/ /m/ /n/ /ŋ/.
+>
+> 2. Make a table of two columns, *buzzes* and *silent*, and place each sound.
+>
+> 3. Repeat with /p/ /b/ /t/ /d/ /k/ /g/ — this time you must say a vowel after them, as they cannot be held.
+>
+> Record: your completed table.
+>
+> Think about it: which pairs did you find you were producing identically? Those are the pairs to practise for the rest of the term.
+
+> **Activity 3.2 — Minimal pair dictation**
+>
+> You need: a partner; the minimal pairs in Tables 3.3, 3.5, 3.7 and 3.8.
+>
+> What to do:
+>
+> 1. Sit back to back so that lips cannot be read.
+
+<!-- page 34 -->
+
+> 2. Your partner reads one word from each pair, in a random order, twenty words in all.
+>
+> 3. Write down what you hear. Then swap roles.
+>
+> 4. Mark each other's papers and record the score.
+>
+> Record: both scored papers and the five pairs the class as a whole found hardest.
+>
+> Think about it: were your errors in hearing or in saying? Test this by having your partner mark your production of the same twenty words.
+
+> **Apply it — The consonant clinic**
+>
+> Working in groups of four, run a pronunciation clinic for your class.
+>
+> (a) Choose the three consonant contrasts your group finds most difficult.
+>
+> (b) For each, prepare a chart showing how the sound is made — where, how and whether voiced.
+>
+> (c) Write ten minimal pairs for each contrast, with a test sentence for each pair.
+>
+> (d) Compose one tongue twister of your own for each contrast.
+>
+> (e) Run a five-minute clinic for another group, testing them before and after.
+>
+> (f) Report the before-and-after scores and say what teaching made the greatest difference.
+
+#### Chapter summary
+
+- A consonant is described by where the air is obstructed, how it is obstructed, and whether the voice is on.
+
+- Voicing is tested with the fingers on the throat, not by ear: /s/ is silent, /z/ buzzes.
+
+- Plosives stop the air completely and release it; they come in three pairs, /p/–/b/, /t/–/d/ and /k/–/g/.
+
+- Final devoicing — saying *back* for *bag* — is a regular feature of Ghanaian English, but the contrast is worth being able to make when the occasion asks for it.
+
+- Fricatives can be held; /θ/ and /ð/ are made with the tongue tip between the teeth and are the two sounds that need most practice.
+
+- /s/ and /z/ at the ends of words carry plurals, possessives and third-person verbs.
+
+- All nasals are voiced; /ŋ/ is a single sound, and it occurs in *bank* and *think* as well as in *sing*.
+
+- An affricate is a plosive joined to a fricative; /tʃ/ cannot be held, /ʃ/ can, and that is the test.
+
+- In connected speech, keep the final consonants that carry grammar and link words rather than chopping them apart.
+
+- Reading aloud is assessed for clarity, not for an imitated accent.
+
+### Assessment
+
+*This assessment follows the modes the curriculum sets out: an objective test, a written response, a listening and speaking task, and a piece for your portfolio.*
+
+#### Section A — Objective test
+
+*Choose the correct option in each case.* 1.A consonant made by stopping the air completely and releasing it is called a… A. fricative B. plosive C. nasal D. affricate
+
+2.Which of these sounds is voiced? A. /s/ B. /f/ C. /z/ D. /θ/ 3.The sound at the beginning of *think* is written… A. /ð/ B. /θ/ C. /t/ D. /ʃ/ 4.Which pair of words is a minimal pair? A. cat / cup B. price / prize C. bag / bags D. think / thought
+
+<!-- page 35 -->
+
+5.Which of these consonants can be held for as long as your breath lasts? A. /t/ B. /d/ C. /ʃ/ D. /tʃ/ 6.The final sound in *sing* is… A. /n/ followed by /g/ B. /ŋ/ C. /n/ D. /g/ 7.Which word contains the sound /ʒ/? A. shop B. measure C. judge D. church 8.*Judge* begins and ends with the sound… A. /ʒ/ B. /dʒ/ C. /tʃ/ D. /d/ 9.Two or more consonants together, as in *asked*, form a… A. diphthong B. syllable C. consonant cluster D. digraph
+
+10. The final /t/ in *walked* is important because it… A. makes the word longer B. marks the past tense C. shows the plural D. shows possession
+
+#### Section B — Theory and written response
+
+*Answer all four questions.* 1.(a) State the three questions used to describe any consonant, and answer all three for the sound /v/. (b) Explain how a speaker can test voicing without listening. (c) Sort these into voiced and voiceless: /p/, /b/, /f/, /v/, /s/, /z/, /k/, /g/, /θ/, /ð/. (d) Explain the difference between a plosive and a fricative, giving two examples of each.
+
+2.(a) Write out the three plosive pairs and say where each pair is made. (b) Give three minimal pairs testing the /k/–/g/ contrast and use each in a sentence. (c) Explain what final devoicing is and give two examples. (d) Explain what aspiration is and describe an experiment with a strip of paper that shows it.
+
+3.(a) Describe exactly where the tongue goes for /θ/ and /ð/. (b) Write five words containing /θ/ and five containing /ð/. (c) Explain why /s/ and /z/ at the end of a word matter for grammar, giving three examples. (d) Explain, with examples, why *tink* for *think* is better described as a feature of Ghanaian English than as an error, and say when a speaker should nevertheless make the contrast.
+
+4.(a) Name the three nasal sounds and state where each is closed. (b) Explain why *sing* and *sin* are different words, using phonetic symbols. (c) Explain how an affricate is formed, and give the test that distinguishes /tʃ/ from /ʃ/. (d) Write out five words with consonant clusters and mark the clusters; then explain why dropping the ending of *he walked home* is a grammatical problem as well as a pronunciation one.
+
+#### Section C — Listening and speaking
+
+*These tasks are carried out aloud and assessed as you perform them.* 1.Sit back to back with a partner and take a twenty-word minimal-pair dictation covering plosives, fricatives, nasals and affricates. Swap roles, mark each other's work, and report to the class the three contrasts your pair found hardest and what you did about them.
+
+2.Read Passage 3.1 aloud to the class, at a pace slightly slower than your natural speech. Your listeners will mark you on three things only: final consonants kept, /θ/ and /ð/ produced, and past-tense and plural endings sounded.
+
+3.In a group of four, prepare and perform a two-minute pronunciation drill for one contrast of your choice: introduce the two sounds, demonstrate how each is made, take the class through five minimal pairs, and finish with a tongue twister you have written yourselves.
+
+#### Section D — Portfolio and project
+
+*These pieces are collected in your portfolio over a longer period.* 1.Build a personal sound file over the term. For each of the eight contrasts in this chapter, record ten minimal pairs, note your own dictation score at the start and at the end of the term, and write a short reflection naming the two contrasts you have improved most and the one that still defeats you.
+
+<!-- page 36 -->
+
+2.Record yourself reading the same two-hundred-word passage at the beginning and at the end of the term. Submit both recordings with a written analysis marking, on a copy of the passage, every final consonant, cluster and *th* sound, and stating in a paragraph what changed between the two readings.
+
+3.Working in a group, produce a pronunciation guide of at least four pages for learners entering Basic 8. It must cover all four manners of articulation, contain a chart of the consonants by voicing, give at least forty minimal pairs, and include a page explaining respectfully how Ghanaian English differs from the pronunciation taught in examinations, and why both are worth having.
+
+<!-- page 37 -->
+
+## Strand 2: Reading
+
+*Strand 2: Reading · Sub-Strand 1: Comprehension*
+
+### Chapter 4: Reading Widely and Independently
+
+> **Curriculum alignment**
+>
+> **Strand 2: Reading**
+>
+> **Sub-Strand 1: Comprehension**
+>
+> **Content standard B8/JHS2.2.1.1**
+>
+> Demonstrate increasing confidence and enjoyment in independent reading.
+>
+> B8/JHS2.2.1.1.1 Use Monitoring and mental visualisation to engage and understand non-fictional texts
+>
+> B8/JHS2.2.1.1.2 Use prediction to assess and improve engagement and understanding of non-fiction texts
+>
+> B8/JHS2.2.1.1.3 Generate and answer questions to increase confidence and independent reading through a variety of non- fiction texts
+>
+> **Core competences**
+>
+> Communication and Collaboration; Creativity and Innovation; Critical Thinking and Problem Solving; Personal Development and Leadership; Presentation
+
+#### Learning objectives
+
+By the end of this chapter you can:
+
+- explain how reading non-fiction differs from reading a story
+
+- set a purpose for your reading before you begin
+
+- monitor your own understanding and notice the moment you stop following
+
+- use fix-up strategies — re-reading, skimming back, reading on — when meaning breaks down
+
+- build mental pictures from an informational text
+
+- move from the basic information in a text to the more detailed information built on it
+
+- use what you already know to predict what a text will say next
+
+- generate your own questions before, during and after reading
+
+- recognise the four types of comprehension question and where each is answered
+
+- answer *on your own* questions with a position supported from the text and from experience
+
+#### Key words
+
+> **Non-fiction —** writing about real people, events, processes and ideas.
+>
+> **Purpose for reading —** what you intend to get out of a text before you begin.
+>
+> **Monitoring —** noticing, while reading, whether you still understand.
+>
+> **Fix-up strategy —** what a reader does when meaning breaks down.
+>
+> **Re-reading —** going back over a passage to recover meaning.
+>
+> **Skimming —** reading quickly to get the general sense.
+>
+> **Scanning —** searching a text for one particular piece of information.
+>
+> **Mental visualisation —** forming pictures in the mind from what is read.
+>
+> **Prior knowledge —** what a reader already knows about a subject.
+>
+> **Prediction —** a reasoned guess about what a text will say next.
+>
+> **Gist —** the main sense of a text in a sentence or two.
+>
+> **Right there question —** one whose answer is stated in one place in the text.
+
+<!-- page 38 -->
+
+> **Think and search question —** one whose answer must be gathered from several places.
+>
+> **Author and you question —** one answered by combining the text with your own knowledge.
+>
+> **On your own question —** one the text raises but does not answer.
+>
+> **Textual evidence —** the words of the text quoted in support of an answer.
+>
+> **Independent reading —** reading you choose and sustain without being made to.
+
+#### Engage
+
+You have been reading since Class One, so it seems late to be taught how. But consider what happens when you read three pages of a science book and then cannot say what you have just read. Your eyes worked perfectly. Your mind left somewhere on page one and nobody told it to come back. Good readers are not the ones whose minds never wander; they are the ones who notice when it happens and know what to do about it. That noticing is the whole of this chapter.
+
+#### 4.1 Reading non-fiction
+
+**Non-fiction** is writing about the real world: reports, articles, biographies, manuals, textbooks, news. It differs from a story in three ways that change how you must read it.
+
+|  | **A story** | **Non-fiction** |
+| --- | --- | --- |
+| What holds it together | what happens next | how one idea supports another |
+| What you must track | characters and events | claims, reasons and evidence |
+| Where the help is | in the telling | in headings, captions, tables and topic sentences |
+| What a re-read is for | enjoyment | recovering something you missed |
+| What you may skip | very little | whatever is not on your purpose |
+
+*Table 4.1 — Two kinds of reading.*
+
+The last row is the important one. You may read a novel from the first page to the last, but nobody reads a manual that way. Which means non-fiction reading begins before the reading does — with a **purpose**.
+
+##### 4.1.1 Setting a purpose
+
+**To find one fact.** You will *scan* — run your eye down the page for a name, a date or a figure, ignoring
+
+- everything else. **To get the general sense.** You will *skim* — headings, first sentences, last paragraph.
+
+- **To understand and be able to explain it.** You will read closely, slowly, with a pencil.
+
+- **To judge whether to believe it.** You will read closely and also ask who wrote it, when, and with what
+
+- interest.
+
+Write your purpose at the top of the page in six words before you start. Readers who do this finish sooner than readers who do not, which surprises everybody the first time.
+
+#### 4.2 Monitoring: noticing when you have stopped understanding
+
+**Monitoring** is running a quiet check on yourself as you read: *do I still know what this is about?* The check has to be deliberate, because losing the thread feels exactly like keeping it until you try to say what you have read.
+
+Four signals mean you have lost it: you reach the bottom of a page and cannot say what was on it; you meet a *this*, *it* or *they* and cannot say what it refers to; a sentence surprises you and you cannot see how it
+
+<!-- page 39 -->
+
+follows; or you find yourself thinking about something else entirely. When any of the four fires, stop. Do not read on hoping.
+
+| **The problem** | **The fix-up strategy** |
+| --- | --- |
+| I do not know this word | read the rest of the sentence, then the one before; use the context |
+| I do not know what *it* refers to | go back and find the last noun that fits; write it above |
+| I cannot follow the argument | re-read the paragraph aloud, slowly |
+| I have lost the thread altogether | skim back to the last heading and re-start from there |
+| The point seems to be missing | read one paragraph *forward* — writers often explain after |
+| My mind has wandered | note the last sentence you remember, and resume there |
+
+*Table 4.2 — Six breakdowns and what to do about each.*
+
+> **Exam tip 4.1**
+>
+> In a comprehension examination, read the passage once for the gist and once with the questions beside you.
+>
+> The second reading has a purpose, and a reading with a purpose is worth two without one.
+
+#### 4.3 Mental visualisation
+
+**Mental visualisation** means turning words into pictures as you read. Readers do it naturally with stories and hardly at all with information — which is why information is harder to remember. Deliberately picturing a process, a place or a quantity roughly doubles what you keep.
+
+**Picture a process as a sequence.** For a passage about how money moves, see the person, the agent,
+
+- the phone, the message, the second person. **Picture a quantity as something you know.** *Eighty thousand people* means nothing; *the whole of our*
+
+- *district, twice over* means something. **Picture a place from the words given.** Where is the reader standing? What is behind them?
+
+- **Say what you cannot picture.** If a paragraph produces no picture at all, that is exactly the paragraph
+
+- you have not understood.
+
+##### 4.3.1 From the basic to the detailed
+
+Informational texts are built in layers. The first paragraphs carry the basic information; the later ones carry the detail that only makes sense once the basics are in place. Read in that order, and underline the **main idea** of each paragraph as you go — one line per paragraph, no more. When you reach the end, your underlinings alone should tell the story.
+
+#### 4.4 Prediction and prior knowledge
+
+**Prediction** is not guessing. It is using two things you already have — the shape of the text and what you already know about the subject — to say what is probably coming. Predicting makes you read faster, because you are reading to confirm or correct rather than to receive.
+
+**Before reading.** Read the title, the headings and the first line of each section. Write three sentences
+
+- you expect to find. Then read to see how many were there. **During reading.** At each heading, stop and say what the section will cover. If the text surprises you, the
+
+- surprise is worth marking — it is where you learn something. **Connect with what you know.** *We use mobile money at home; my aunt sells credit* — a connection of
+
+- your own turns a strange text into a familiar one.
+
+<!-- page 40 -->
+
+**Ask ahead.** Write your questions in the margin before the text answers them. Questions you asked
+
+- yourself are answered more memorably than questions you were set.
+
+#### 4.5 Passage and question types
+
+> **Passage 4.1 — The bank in your pocket**
+>
+> **A shop with no counter**
+>
+> Twenty years ago, sending money from Accra to a village in the north was a small adventure. You found somebody travelling that way, gave them the notes, and hoped. Or you paid a transport company to carry an envelope, and hoped rather harder. Today the same money moves in the time it takes to type a number, and the shop that moves it is a wooden booth with a painted signboard and a young man on a stool.
+>
+> **How the money travels**
+>
+> It travels, in fact, nowhere. Nothing physical leaves Accra. What moves is a record. When you hand cash to an agent, the agent's account is credited and yours is too, in the books of the company that runs the service.
+>
+> When you send that value to your mother's number, one line in the record decreases and another increases.
+>
+> When your mother collects, an agent near her hands over notes that were already sitting in her town, and the record decreases again. The cash never crossed the country. Only the claim on it did.
+>
+> **Who it changed most**
+>
+> The people whose lives this changed most were never the ones with bank accounts. They were the traders, the farmers, the fish sellers and the grandmothers who had never been inside a banking hall and did not intend to go. A bank requires forms, an address, a photograph, a minimum balance and a working day free to sit down. A booth requires a telephone number. Whatever else it did, mobile money reached the people banks had spent a century failing to reach.
+>
+> **The other side**
+>
+> It brought its own troubles. A person who cannot read must hand the phone to the agent, and trust him.
+>
+> Fraudsters learnt very quickly to telephone in the voice of an official and ask for a number that should never be given out. Charges take a small bite from every transfer, and a small bite from a small trader is not small.
+>
+> And a village whose network fails for two days now discovers how much of its business had quietly moved onto a mast on a hill.
+>
+> **What it teaches**
+>
+> The lesson is not really about telephones. It is that a service reaches ordinary people when it is built around what they already have, rather than around what an institution wishes they had. The banks had the money, the buildings and the century of experience. The booth had the customer's own phone.
+
+##### 4.5.1 Four types of question
+
+Every comprehension question in your examinations belongs to one of four families, and the family tells you where to look for the answer.
+
+| **Type** | **Where the answer is** | **Example on Passage 4.1** |
+| --- | --- | --- |
+| Right there | in one place, in so many words | What does an agent hand over when |
+
+<!-- page 41 -->
+
+|  |  | your mother collects? |
+| --- | --- | --- |
+| Think and search | in several places, to be gathered | State three groups of people the service reached that banks had not. |
+| Author and you | in the text plus what you know | Why might a small charge matter more to a small trader? |
+| On your own | raised by the text, answered by you | Should the state control what agents may charge? Give reasons. |
+
+*Table 4.3 — The four question types.*
+
+> **Model 4.1 — Answering each type**
+>
+> **Right there:** *What moves when money is sent?* — Nothing physical moves; what moves is a record. (One place in the text; quote or restate it.)
+>
+> **Think and search:** *State three troubles the writer says the service brought.* — People who cannot read must trust the agent with the phone; fraudsters telephone pretending to be officials; charges take a bite from every transfer, which weighs heavily on small traders. (Three separate sentences, gathered from one section.)
+>
+> **Author and you:** *Why does the writer say the banks had failed for a century?* — The text says a bank requires forms, an address, a photograph, a minimum balance and a free working day. From what I know of my own community, a fish seller has none of these and cannot lose a day's trading. So the requirement, not the people, was the obstacle. (Text plus your own knowledge, and both are named.)
+>
+> **On your own:** *Should agents' charges be controlled?* — Any answer is acceptable; what is assessed is whether you gave reasons and whether you used the text. A bare *yes* earns nothing; *yes, because the passage shows the users are the poorest and a fixed charge takes a larger share of a small transfer* earns everything.
+
+> **Practice 4.1**
+>
+> 1. Write the six-word purpose you would set before reading Passage 4.1 for (a) a debate on banking; (b) a science lesson on networks; (c) a summary exercise.
+>
+> 2. Underline the main idea of each of the five sections of the passage — one line each.
+>
+> 3. Write one question of each of the four types on the passage, and mark which is which.
+>
+> 4. Answer your *author and you* question in three sentences, naming both what came from the text and what came from you.
+>
+> 5. The writer says *the cash never crossed the country. Only the claim on it did.* Picture what happens and explain it to a partner in your own words, without using the word *record*.
+
+> **Practice 4.2**
+>
+> 1. Before reading any article in a newspaper, read only its headline and first sentence and write three predictions. Read it, then mark each prediction right, wrong or partly right.
+>
+> 2. Give the fix-up strategy you would use for each: (a) you meet the word *remittance* and do not know it; (b) you have read a paragraph twice and it still means nothing; (c) you cannot tell what *they* refers to; (d) you reach the end of a page having thought about lunch.
+>
+> 3. From Passage 4.1, find one sentence you could not picture at all. What did you do about it?
+
+<!-- page 42 -->
+
+> 4. Explain the difference between skimming and scanning, and give one occasion for each.
+
+> **Common misconception 4.1**
+>
+> *A good reader never goes back.* The opposite is true. Weak readers plough forward because going back feels like failure; strong readers go back the moment the thread breaks, and finish with more. Re-reading is not the sign that you cannot read. It is the sign that you noticed.
+
+> **Activity 4.1 — The thinking-aloud reader**
+>
+> You need: a partner; a non-fiction article of about four hundred words that neither of you has read.
+>
+> What to do:
+>
+> 1. Read the article aloud, but stop at the end of every paragraph and say out loud what you are thinking: what you pictured, what you predict, what confused you, what you connected it to.
+>
+> 2. Your partner writes down every remark, sorted into four columns: *picture*, *predict*, *confused*, *connect*.
+>
+> 3. Swap roles with a different article.
+>
+> Record: both sheets.
+>
+> Think about it: which column was emptiest? For most learners it is *confused* — not because nothing confused them, but because they had stopped noticing.
+
+> **Activity 4.2 — Twenty minutes a day**
+>
+> You need: any non-fiction of your own choosing — newspaper, magazine, manual, biography, textbook of another subject.
+>
+> What to do:
+>
+> 1. Read for twenty minutes a day for two weeks, at a time you choose.
+>
+> 2. After each session write three lines only: what you read, one thing you learnt, one question you were left with.
+>
+> 3. At the end of the fortnight, count how many of your questions you have since answered, and how.
+>
+> Record: the reading log.
+>
+> Think about it: independent reading is the one part of English that cannot be taught, only chosen. What made you keep going on the days you did not feel like it?
+
+> **Apply it — The reading circle**
+>
+> In groups of four, run a reading circle on non-fiction for three weeks.
+>
+> (a) Choose four articles on one theme — agriculture, inventions, banking or communication.
+>
+> (b) Each member sets a written purpose before reading and reports whether it was met.
+>
+> (c) Each member brings to the circle one *think and search* and one *on your own* question.
+>
+> (d) Together, produce a one-paragraph gist of each article.
+>
+> (e) Identify one point on which two of your articles disagree, and quote both.
+>
+> (f) Present to the class the theme, the disagreement, and where your group came out on it.
+
+<!-- page 43 -->
+
+#### Chapter summary
+
+- Non-fiction is held together by ideas supporting one another, not by what happens next.
+
+- Set a purpose in six words before you read; it decides whether you scan, skim or read closely.
+
+- Monitoring means checking, while you read, that you still understand.
+
+- Four signals of breakdown: a blank page, an unattached pronoun, a sentence that does not follow, and a wandering mind.
+
+- Fix-up strategies are re-reading, reading back to the last heading, reading one paragraph forward, and using context for words.
+
+- Turning information into mental pictures roughly doubles what you retain; a paragraph that produces no picture is a paragraph you have not understood.
+
+- Informational texts move from basic information to detail built upon it — read and underline in that order.
+
+- Prediction uses the shape of the text and what you already know, and makes reading faster because you read to confirm.
+
+- Right there, think and search, author and you, and on your own — the four question types, and each tells you where to look.
+
+- Going back is what strong readers do; the weak reader is the one who ploughs on.
+
+### Assessment
+
+*This assessment follows the modes the curriculum sets out: an objective test, a written response, a listening and speaking task, and a piece for your portfolio.*
+
+#### Section A — Objective test
+
+*Choose the correct option in each case.* 1.Writing about real people, events and processes is called… A. fiction B. non-fiction C. narrative D. drama 2.Running your eye over a text to find one particular fact is called… A. skimming B. scanning C. monitoring D. predicting
+
+3.Reading quickly to get the general sense of a text is called… A. scanning B. skimming C. re-reading D. visualising
+
+4.Noticing, as you read, whether you still understand is called… A. prediction B. monitoring C. inference D. summarising
+
+5.A question whose answer is stated in one place in the passage is a… A. right there question B. think and search question C. author and you question D. on your own question
+
+6.A question answered by combining the text with what you already know is an… A. right there question B. on your own question C. author and you question D. open question
+
+7.Forming pictures in the mind while reading is called… A. prediction B. mental visualisation C. scanning D. inference
+
+8.The main sense of a text expressed in a sentence or two is its… A. theme B. gist C. tone D. title 9.Which of these is a fix-up strategy? A. reading faster B. skipping the paragraph C. skimming back to the last heading D. copying the passage
+
+10. What a reader already knows about a subject before reading is called… A. textual evidence B. prior knowledge C. context D. purpose
+
+#### Section B — Theory and written response
+
+*Answer all four questions.*
+
+<!-- page 44 -->
+
+1.(a) State three ways in which reading non-fiction differs from reading a story. (b) Explain why a purpose should be set before reading, and give the purpose you would set for reading a bus timetable, a biography and a science chapter. (c) Explain the difference between skimming and scanning with one example of each. (d) Explain why setting a purpose usually makes a reader finish sooner.
+
+2.(a) Name the four signals that tell a reader that meaning has broken down. (b) For each, state a fix-up strategy. (c) Explain why *ploughing on* is the commonest mistake of weak readers. (d) Describe what you personally do when you meet an unfamiliar word in the middle of a passage, and say whether it works.
+
+3.(a) Explain what mental visualisation is and why it matters more in non-fiction than in stories. (b) Take three sentences from Passage 4.1 and describe the picture each produces. (c) Explain how a reader should handle a paragraph that produces no picture at all. (d) Explain, with an example, how a large number can be made picturable.
+
+4.(a) Name the four types of comprehension question and state where each is answered. (b) Write one question of each type on Passage 4.1. (c) Answer your *think and search* question fully, citing the text. (d) Explain why a bare *yes* to an *on your own* question earns no marks, and write an answer that would.
+
+#### Section C — Listening and speaking
+
+*These tasks are carried out aloud and assessed as you perform them.* 1.Carry out a thinking-aloud reading of a non-fiction article of about four hundred words for a partner, stopping at every paragraph to say what you pictured, predicted, connected or failed to follow. Your partner records your remarks in four columns and reports which column was fullest.
+
+2.In a group of four, hold a six-minute discussion of Passage 4.1. Each member must contribute one right there fact, one think and search answer, and one on your own opinion with a reason. A fifth learner records who supplied evidence and who supplied only opinion.
+
+3.Give a two-minute spoken report on a non-fiction article you chose yourself: what your purpose was, what the article claimed, one thing you had to re-read, and one question you were left with. Take two questions from the class afterwards.
+
+#### Section D — Portfolio and project
+
+*These pieces are collected in your portfolio over a longer period.* 1.Keep an independent reading log for four weeks, reading non-fiction of your own choosing for twenty minutes a day. For each session record the text, your purpose, one thing learnt and one question left. Close with a page on what you now read that you would not have chosen four weeks ago.
+
+2.Choose one non-fiction article and produce a full reader's workbook on it for a Basic 7 class: a set of predictions from the headings, an underlined copy showing the main idea of each paragraph, a glossary of ten words with meanings worked out from context, and eight questions — two of each of the four types — with an answer key.
+
+3.Working in a group, collect three texts on one theme from different sources and different years. Produce a report of at least two pages setting out what all three agree on, where they differ, what each writer seems to want the reader to think, and what you concluded, quoting from all three.
+
+<!-- page 45 -->
+
+*Strand 2: Reading · Sub-Strand 1: Comprehension*
+
+### Chapter 5: Comprehending and Interpreting Texts
+
+> **Curriculum alignment**
+>
+> **Strand 2: Reading**
+>
+> **Sub-Strand 1: Comprehension**
+>
+> **Content standard B8/JHS2.2.1.2**
+>
+> Read, comprehend, interpret texts
+>
+> B8/JHS2.2.1.2.1 Identify the main text features of non-fiction texts
+>
+> B8/JHS2.2.1.2.2 Use contextual clues (topic sentence, vocabulary knowledge, cohesive devices, text features) to analyse text
+>
+> B8/JHS2.2.1.2.3 Read silently and answer more complex comprehension questions on texts /passages
+>
+> B8/JHS2.2.1.2.4 Provide evidence and show mastery to support understanding of texts
+>
+> B8/JHS2.2.1.2.5 Generate simple themes from a text and apply to different situations
+>
+> B8/JHS2.2.1.2.6 Examine the connections between a text and other points of view
+>
+> B8/JHS2.2.1.2.7 Use derivation to expand vocabulary to new contexts (historical, cultural, political)
+>
+> B8/JHS2.2.1.2.8 Integrate appropriate grade level vocabulary in different contexts
+>
+> **Core competences**
+>
+> Communication and Collaboration; Personal Development and Leadership; Creativity and Innovation; Critical Thinking and Problem Solving; Presentation; Digital Literacy
+
+#### Learning objectives
+
+By the end of this chapter you can:
+
+- name the main text features of non-fiction and say what each is for
+
+- use headings, captions, tables and bold terms to find your way about a text
+
+- use topic sentences and cohesive devices as clues to how a text is organised
+
+- work out the meaning of an unfamiliar word from the context around it
+
+- take account of who wrote a text, when, and for whom
+
+- read silently and answer complex comprehension questions accurately
+
+- cite textual evidence in support of an interpretation, including of implicit meaning
+
+- state the theme of a text and apply it to a situation outside the text
+
+- compare a text with another point of view and say where they differ
+
+- expand your vocabulary by derivation and use the new words in different contexts
+
+#### Key words
+
+> **Text feature —** a part of a text other than the running prose, such as a heading or a caption.
+>
+> **Byline —** the line naming the writer of an article.
+>
+> **Dateline —** the line giving the place and date of a report.
+>
+> **Subheading —** a heading within a section, naming what follows.
+>
+> **Caption —** the line of text explaining a picture, table or diagram.
+>
+> **Pull quote —** a sentence lifted from an article and printed large to catch the eye.
+>
+> **Sidebar —** a boxed passage beside the main text carrying extra information.
+>
+> **Topic sentence —** the sentence carrying the main idea of a paragraph.
+>
+> **Cohesive device —** a word linking one part of a text to another, such as \*however\* or \*therefore\*.
+>
+> **Contextual clue —** information around a word that reveals its meaning.
+
+<!-- page 46 -->
+
+> **Context of writing —** who wrote a text, when, where and for whom.
+>
+> **Interpretation —** a reasoned statement of what a text means.
+>
+> **Textual evidence —** words quoted from the text in support of an interpretation.
+>
+> **Implicit meaning —** meaning suggested by a text but not stated in it.
+>
+> **Theme —** an idea about life that a text carries beyond its own subject.
+>
+> **Viewpoint —** the position from which a writer sees a subject.
+>
+> **Derivation —** the making of new words from a root by adding prefixes or suffixes.
+>
+> **Root —** the base part of a word to which affixes are added.
+>
+> **Affix —** a prefix or suffix added to a root.
+>
+> **Register of a text —** the level of formality the writing adopts.
+
+#### Engage
+
+Two people read the same newspaper article about a mine. One comes away knowing that four hundred jobs were created. The other comes away knowing that four hundred jobs were created, that the article was written by somebody employed by the mining company, that the word *only* was doing quiet work in the fourth paragraph, and that the figure for jobs lost was never given. Both of them can read. Only one of them is reading.
+
+#### 5.1 The text features of non-fiction
+
+**Text features** are everything on the page that is not the running prose. They are not decoration. They are the writer's map, and a reader who ignores them is walking without one.
+
+| **Feature** | **What it tells you** |
+| --- | --- |
+| Title | the subject, and often the writer's attitude to it |
+| Byline | who wrote it — and therefore what interest they may have |
+| Dateline | where and when it was written; how much may have changed since |
+| Subheadings | the sections, and therefore the plan of the whole text |
+| Bold or italic terms | the terms the writer thinks you may not know |
+| Captions | what a picture, table or diagram is for |
+| Tables and graphs | the evidence, often more honestly than the prose |
+| Pull quotes | the sentence the editor wants you to remember |
+| Sidebars | background the main text would interrupt |
+| Index and glossary | how to get back to something without re-reading |
+
+*Table 5.1 — Ten text features and their uses.*
+
+A useful first move with any long text: read the title, the byline, the dateline and every subheading, in that order, before reading a word of the prose. Ninety seconds spent so will save you ten minutes.
+
+#### 5.2 Contextual clues
+
+A **contextual clue** is anything around a word or a sentence that reveals its meaning. The commonest are five.
+
+| **Clue** | **Signal** | **Example** |
+| --- | --- | --- |
+| Definition | *is*, *means*, *that is*, commas or dashes | *Erosion — the wearing away of soil by* *water — has closed the road.* |
+| Example | *such as*, *for instance*, *e.g.* | *Cash crops such as cocoa, cashew and* *shea are grown for sale.* |
+
+<!-- page 47 -->
+
+| Contrast | *but*, *unlike*, *whereas*, *however* | *The elder was taciturn, unlike his* *talkative brother.* |
+| --- | --- | --- |
+| Cause and effect | *because*, *so*, *therefore*, *as a result* | *The topsoil was gone, so the yields fell.* |
+| Restatement | *in other words*, *that is to say* | *The scheme is moribund; in other* *words, it has stopped working.* |
+
+*Table 5.2 — Five kinds of contextual clue.*
+
+##### 5.2.1 Topic sentences and cohesive devices
+
+The **topic sentence** carries the main idea of its paragraph. It usually stands first, sometimes last, and occasionally is not written at all — in which case you must supply it, which is the hardest and most useful comprehension exercise there is.
+
+**Cohesive devices** are the words that show how the parts of a text relate. They are small and easy to skip, and they carry the writer's whole argument:
+
+| **Relation** | **Devices** | **What it signals** |
+| --- | --- | --- |
+| Adding | furthermore, in addition, also, moreover | more of the same is coming |
+| Contrasting | however, nevertheless, on the other hand, yet | the argument is about to turn |
+| Result | therefore, so, consequently, as a result | a conclusion is being drawn |
+| Example | for instance, for example, such as | evidence is being offered |
+| Sequence | first, then, meanwhile, finally | order in time or in argument |
+| Concession | although, admittedly, granted, even though | the writer is giving ground before pressing on |
+
+*Table 5.3 — Cohesive devices and what they signal.*
+
+> **Exam tip 5.1**
+>
+> When a comprehension question asks *what is the function of the word* however *in line 12?*, the answer is never *to join sentences*. Say what it joins them **for**: *it signals that the writer is about to set against the previous claim a fact that weakens it.*
+
+#### 5.3 The context of writing
+
+Every text was written by somebody, somewhere, at some time, for some purpose. Four questions settle how much weight it deserves.
+
+**Who wrote it?** A doctor, a campaigner, a company, a pupil. What does the writer stand to gain or lose?
+
+- **When was it written?** A report on schools written in 1975 describes a country that no longer exists.
+
+- That does not make it useless; it makes it evidence about 1975. **For whom?** A leaflet for parents, an article for specialists and a speech for a rally handle the same facts
+
+- quite differently. **In what culture and place?** A text about family, land or marriage rests on assumptions its writer never
+
+- states because their first readers shared them.
+
+None of these four is a reason to dismiss a text. They are reasons to read it accurately — as a statement by a particular person at a particular time, rather than as a voice from nowhere.
+
+<!-- page 48 -->
+
+#### 5.4 Reading closely: a worked passage
+
+> **Passage 5.1 — Article with text features**
+>
+> **THE ROAD THAT ATE THE FARM**
+>
+> *By Efua Bonsu, District Correspondent · Nkwanta, 14 March*
+>
+> *“We did not lose the land in a year. We lost it in twenty rainy seasons, and nobody was watching.”*
+>
+> **A gully where a footpath was**
+>
+> The track that runs behind Nkwanta Junior High School was, within living memory, a footpath wide enough for two people. It is now a gully deep enough to hide a man standing upright. Each rainy season it takes a little more of the school's land and a good deal more of the farms beyond it.
+>
+> **How it happened**
+>
+> The immediate cause is water. When the trees along the slope were cleared for charcoal in the 1990s, nothing was left to hold the topsoil, and rain that once soaked into the ground began to run across it. Running water carries soil; soil-laden water cuts; a cut channels more water. The process, once started, feeds itself — which is why erosion is so much easier to prevent than to stop.
+>
+> **What was lost**
+>
+> Mr Yaw Adjei, who farms below the school, puts it plainly. “My father planted cassava to the edge of that path,” he says. “I plant to the edge of the gully, and every year the edge comes closer to my house.” He estimates he has lost about a third of his land, though he admits he has never measured it.
+>
+> *Table: Rainfall and gully width, 2015–2024 (school records)*
+>
+> *2015: 1,180 mm, 2.1 m · 2018: 1,240 mm, 3.4 m · 2021: 1,090 mm, 4.6 m · 2024: 1,310 mm, 6.2 m*
+>
+> **What has been tried**
+>
+> The school has planted trees twice. The first planting, in 2016, was done in March and most of the seedlings died before the rains. The second, in 2022, was timed better and about half survived. Neither planting was accompanied by any work on the channel itself. An assembly official who asked not to be named said that funds for erosion control exist but are “usually committed elsewhere by the time the applications are assessed”.
+>
+> **Whose problem?**
+>
+> It is nobody's, which is the difficulty. The gully begins on land belonging to one family, crosses school land, and ends on a farm belonging to another. Each owner can point to a neighbour. Meanwhile the rains come every year, indifferent to boundaries, and the edge continues to move.
+
+##### 5.4.1 Answering complex questions
+
+A complex question is one that cannot be answered by copying a line. It asks you to gather, to weigh or to infer. Three habits carry you through.
+
+<!-- page 49 -->
+
+**Restate the key words of the question.** *Why does the writer say erosion feeds itself?* — your answer
+
+- must contain *feeds itself*, or you have answered a different question. **Answer, then evidence.** Give the answer in a sentence, then quote or cite the text.
+
+- **Answer only what was asked.** Marks are given for the answer to the question, never for everything else
+
+- you happen to know about erosion.
+
+> **Model 5.1 — A weak answer and a strong one**
+>
+> **Question:** *What does the writer suggest about the assembly's handling of erosion funds, and how does she suggest it?*
+>
+> **Weak:** *The assembly has not helped. There is no money.*
+>
+> **Strong:** *The writer suggests that funds exist but are diverted before they reach cases like this one. She does not say so directly. Instead she quotes an official who asked not to be named — which suggests the official feared to be identified — and who says the funds are “usually committed elsewhere by the time the applications are assessed”. The word “usually” turns a single failure into a pattern, and the passive “are committed” leaves out whoever commits them.*
+>
+> **What changed:** the answer states the interpretation first; it quotes the exact words; it names *which* words carry the meaning — *usually*, the passive, the anonymity — and it distinguishes what the writer states from what she implies.
+
+#### 5.5 Citing evidence for implicit meaning
+
+**Implicit meaning** is what a text conveys without stating. To claim it, you must always do two things: say what you take the text to mean, and point at the words that made you take it so. An interpretation without words attached is an opinion about the text, not a reading of it.
+
+| **Implicit meaning** | **The evidence for it** |
+| --- | --- |
+| The writer thinks the loss was preventable | *erosion is so much easier to prevent than to stop* |
+| Mr Adjei's figure may not be reliable | *though he admits he has never measured it* |
+| The first tree planting was badly planned | *done in March* and *most of the seedlings died before the* *rains* |
+| The official fears consequences | *who asked not to be named* |
+| The writer blames no single person | *It is nobody's, which is the difficulty* |
+| The problem is continuing now | *the edge continues to move* — present tense in the last line |
+
+*Table 5.4 — Six inferences from Passage 5.1, each with its evidence.*
+
+> **Common misconception 5.1**
+>
+> *If it is not stated, it is my own opinion and cannot be marked.* Not so. An inference is assessed exactly like a stated fact — on its evidence. *The writer distrusts the assembly* is worth full marks if you quote the words that show it, and worth nothing if you do not, however true it may be.
+
+<!-- page 50 -->
+
+#### 5.6 Themes and their application
+
+The **subject** of Passage 5.1 is a gully at Nkwanta. Its **themes** are larger: that damage which arrives slowly is not noticed until it is expensive; that when responsibility is shared among many owners it belongs to none; that prevention is cheaper than repair. A theme is what survives when the particular facts are taken away.
+
+**Find the theme by asking what the text is \*really\* about.** Not *a gully*, but *slow damage and divided*
+
+- *responsibility*. **State it as a sentence, not a word.** *Responsibility* is a topic. *Damage that belongs to everybody is*
+
+- *repaired by nobody* is a theme. **Gather details that support it.** The three owners; the assembly's diverted funds; the twenty rainy
+
+- seasons. **Apply it elsewhere.** Where else does this theme hold — a school's broken taps, a shared refuse dump,
+
+- a class's untidy compound, a country's roads?
+
+> **Practice 5.1**
+>
+> 1. List every text feature used in Passage 5.1 and say what each contributes.
+>
+> 2. Give the topic sentence of the section headed *How it happened*.
+>
+> 3. Work out from context the meaning of *indifferent*, *committed*, *seedlings* and *channel* as used in the passage, and name the type of clue you used for each.
+>
+> 4. What does the table add that the prose does not? What does it fail to show?
+>
+> 5. State two themes of the passage as full sentences, with two supporting details each, and apply one of them to a situation in your own school.
+
+#### 5.7 A text against another point of view
+
+No text is the last word. Reading well means holding one text beside another and seeing where they part company — and being able to say *why* they part company, which is usually a matter of who is speaking.
+
+| **Question** | **Efua Bonsu's article** | **A charcoal burner's account** |
+| --- | --- | --- |
+| What caused the gully? | clearing the trees in the 1990s | the rains, and the road above |
+| Who is responsible? | nobody, and that is the problem | those who took the licences |
+| What should be done? | work on the channel, not only plantingcompensation before replanting |  |
+| What is left out? | why people cleared the trees at all | the effect on the school and farms |
+
+*Table 5.5 — The same gully from two positions.*
+
+Note the last row. What a text leaves out is as much a part of its viewpoint as what it says. The article never asks why families burnt charcoal in the 1990s; the answer — that they had few other ways of raising cash — would complicate the story it wants to tell.
+
+> **Practice 5.2**
+>
+> 1. Whose voices appear in Passage 5.1? Whose do not?
+>
+> 2. Write four sentences of the charcoal burner's account of the same events.
+>
+> 3. Name two things the article leaves out, and say what difference each would make.
+>
+> 4. The writer is described as *District Correspondent*. What does that tell you, and what does it not tell you?
+>
+> 5. Find any short newspaper report and write, beside it, the same events as the other party would tell them.
+
+<!-- page 51 -->
+
+#### 5.8 Building vocabulary by derivation
+
+**Derivation** is the making of words from other words. Knowing a **root** and a handful of **affixes** turns one known word into ten, which is why derivation is the fastest way to grow a vocabulary.
+
+| **Root** | **Meaning** | **Words built on it** |
+| --- | --- | --- |
+| *port* | carry | transport, import, export, portable, porter, deport |
+| *dict* | say | predict, dictate, verdict, dictionary, contradict |
+| *graph* | write | paragraph, geography, autograph, telegraph, graphic |
+| *form* | shape | reform, transform, formal, uniform, information |
+| *cred* | believe | credit, credible, incredible, creditor, credentials |
+| *duc / duct* | lead | conduct, produce, introduce, education, aqueduct |
+
+*Table 5.6 — Six roots and their families.*
+
+| **Affix** | **Effect** | **Examples** |
+| --- | --- | --- |
+| *un-, in-, im-, ir-, dis-* | makes the opposite | unfair, incapable, impossible, irregular, dishonest |
+| *re-* | again or back | rebuild, reclaim, reforestation |
+| *pre-, post-* | before, after | pre-colonial, post-independence |
+| *-tion, -ment, -ness, -ity* | makes a noun | urbanisation, government, darkness, equality |
+| *-ise / -ify* | makes a verb | industrialise, modernise, classify |
+| *-al, -ous, -ful, -less* | makes an adjective | colonial, dangerous, useful, landless |
+| *-ly* | makes an adverb | gradually, indifferently |
+
+*Table 5.7 — Affixes that change meaning or word class.*
+
+##### 5.8.1 Words of history, culture and politics
+
+Some vocabulary belongs to particular fields, and each field has its own family of derived words. Learning them in families is far easier than learning them one at a time.
+
+| **Field** | **Word family** |
+| --- | --- |
+| Historical | colony, colonial, colonise, coloniser, colonisation, pre- colonial, post-colonial |
+| Political | govern, government, governor, governance, ungovernable, self-government |
+| Political | democracy, democrat, democratic, undemocratic, democratise |
+| Cultural | tradition, traditional, traditionally, non-traditional, traditionalist |
+| Social | urban, urbanise, urbanisation, suburban, rural |
+| Economic | industry, industrial, industrialise, industrialisation, industrious |
+
+*Table 5.8 — Six word families for reading history, politics and culture.*
+
+Beware of one trap in that last row. *Industrial* and *industrious* come from the same root and mean quite different things: an *industrial* town has factories; an *industrious* learner works hard. Derivation gives you the family, not the exact meaning — the dictionary gives you that.
+
+<!-- page 52 -->
+
+> **Practice 5.3**
+>
+> 1. Write four words built on each root: *port*, *dict*, *graph*, *cred*.
+>
+> 2. Give the noun, the adjective and the verb from each: *govern*, *industry*, *tradition*, *democracy*.
+>
+> 3. Make the opposite of each with the correct prefix: *legal, possible, regular, honest, relevant, mature*.
+>
+> 4. Use each of these in a sentence of your own about your district: *urbanisation, colonial, governance, industrious, deforestation*.
+>
+> 5. Explain the difference between *industrial* and *industrious*, and between *credible* and *creditable*.
+
+> **Activity 5.1 — The text-feature hunt**
+>
+> You need: a newspaper, magazine or textbook chapter; a highlighter or coloured pencil.
+>
+> What to do:
+>
+> 1. Choose an article of at least four hundred words. Before reading it, list every text feature it uses.
+>
+> 2. From those features alone, write four sentences predicting the article's content.
+>
+> 3. Read it and mark each prediction right, wrong or partly right.
+>
+> 4. Find one place where a caption, table or pull quote says something the prose does not.
+>
+> Record: your feature list, your predictions and the marked outcome.
+>
+> Think about it: which feature was the most informative before reading? For most texts it is the subheadings — they are the writer's outline, printed.
+
+> **Activity 5.2 — Word family walls**
+>
+> You need: card or paper; a wall or notice board.
+>
+> What to do:
+>
+> 1. In groups, take one root or one field from Tables 5.6 and 5.8.
+>
+> 2. Collect every word in that family you can find in your reading over one week, with the sentence you found it in.
+>
+> 3. Build a wall chart: the root in the middle, the family around it, each with its word class.
+>
+> 4. Test another group on ten of your words used in fresh sentences.
+>
+> Record: the chart and the test scores.
+>
+> Think about it: which family produced the most words? Which produced words your group had never seen before?
+
+> **Apply it — Reading a public issue**
+>
+> Choose an issue in your district that has been written about: a road, a market, a clinic, a school, a mine or a dumping site.
+>
+> (a) Collect two texts about it from different sources.
+>
+> (b) For each, record the byline, dateline, purpose and intended reader.
+>
+> (c) List the text features each uses and what each contributes.
+>
+> (d) Write six inferences, three from each text, with the exact words that support them.
+>
+> (e) State one theme common to both and apply it to a situation in your school.
+
+<!-- page 53 -->
+
+> (f) Write a page setting out where the two texts differ, what each leaves out, and which you found more trustworthy and why.
+
+#### Chapter summary
+
+- Text features are the writer's map: read title, byline, dateline and all subheadings before the prose.
+
+- Contextual clues come as definition, example, contrast, cause and effect, and restatement.
+
+- The topic sentence carries a paragraph's main idea; where none is written, the reader must supply it.
+
+- Cohesive devices are small words carrying the whole argument — say what they signal, not that they join.
+
+- Who wrote a text, when, for whom and in what culture are questions about accuracy, not about dismissal.
+
+- A complex question is answered by restating its key words, giving the answer, then citing the evidence.
+
+- An inference is worth full marks with its evidence attached and nothing without it.
+
+- A theme is a sentence about life that survives when the particular facts are removed.
+
+- What a text leaves out is as much a part of its viewpoint as what it says.
+
+- Derivation grows vocabulary in families: learn the root, learn the affixes, and check the dictionary for the exact sense.
+
+### Assessment
+
+*This assessment follows the modes the curriculum sets out: an objective test, a written response, a listening and speaking task, and a piece for your portfolio.*
+
+#### Section A — Objective test
+
+*Choose the correct option in each case.* 1.The line naming the writer of an article is called the… A. dateline B. byline C. caption D. headline 2.The sentence carrying the main idea of a paragraph is the… A. topic sentence B. concluding sentence C. pull quote D. caption
+
+3.*However, the yields continued to fall.* The word *however* signals… A. an example B. a contrast C. a result D. a sequence
+
+4.*Erosion — the wearing away of soil by water — closed the road.* The clue to the meaning of *erosion* is by… A. example B. contrast C. definition D. cause
+
+5.Meaning suggested by a text but not stated in it is called… A. explicit B. implicit C. literal D. figurative 6.Words quoted from a text in support of an interpretation are called… A. context B. textual evidence C. cohesion D. captions
+
+7.An idea about life that a text carries beyond its own subject is its… A. topic B. plot C. theme D. tone 8.The making of new words from a root by adding affixes is called… A. derivation B. definition C. dictation D. description
+
+9.Which word means *hard-working*? A. industrial B. industrious C. industrialised D. industry
+
+10. Which prefix would you add to *regular* to make its opposite? A. un- B. in- C. ir- D. dis-
+
+#### Section B — Theory and written response
+
+*Answer all four questions.* 1.(a) Name six text features of non-fiction and state what each tells a reader. (b) Explain why a reader should read the byline and dateline before the prose. (c) List the text features used in Passage 5.1 and say what each contributes. (d) Explain what a caption or table may show that the prose does not.
+
+<!-- page 54 -->
+
+2.(a) Name the five kinds of contextual clue and give an example sentence of each. (b) Work out the meaning of *indifferent*, *committed* and *channel* as used in Passage 5.1, naming the clue you used for each. (c) Explain what a cohesive device is, and state what each of these signals: *nevertheless, consequently, admittedly, for instance.* (d) Explain why *it joins two sentences* is never an adequate answer about the function of *however*.
+
+3.(a) Explain what is meant by the context of writing, and give the four questions a reader should ask. (b) Write out three implicit meanings in Passage 5.1, each with the exact words that support it. (c) Explain why an inference without evidence earns no marks. (d) State one theme of Passage 5.1 as a full sentence, give two supporting details, and apply it to a situation in your own community.
+
+4.(a) Explain what derivation is and why it is the fastest way to grow a vocabulary. (b) Write four words built on each of the roots *port*, *dict* and *form*. (c) Give the noun, adjective and verb forms of *govern*, *industry* and *democracy*. (d) Use *urbanisation*, *colonial*, *deforestation* and *governance* in sentences of your own about your district, and explain the difference between *credible* and *creditable*.
+
+#### Section C — Listening and speaking
+
+*These tasks are carried out aloud and assessed as you perform them.* 1.Present a two-minute spoken analysis of a newspaper article to the class: who wrote it, when, for whom, what text features it uses, and one thing it implies without stating, quoting the words. Take two questions afterwards.
+
+2.In a group of four, read Passage 5.1 and hold a role-played meeting between the school, the two landowners and an assembly officer. Each speaker must quote at least one line from the passage in support of their position, and the group must reach one agreed proposal.
+
+3.In pairs, run a word-family quiz for the class: give a root, take five derived words from your classmates, then use three of them in spoken sentences of your own about history, politics or culture.
+
+#### Section D — Portfolio and project
+
+*These pieces are collected in your portfolio over a longer period.* 1.Build a comprehension portfolio of six non-fiction texts read over the term. For each, record the text features, four inferences with evidence, a theme stated as a sentence, and ten new words with their roots and word families. Close with a page on which text you found hardest and why.
+
+2.Take one issue covered by at least three sources and produce a comparison of at least two pages: a table setting out what each source claims, whose voices appear in each, what each leaves out, and a final section giving your own reading of the issue, quoting from all three sources.
+
+3.Compile a personal derivation dictionary of at least sixty words gathered from your own reading, grouped into word families with their roots and affixes marked, each with the sentence you first met it in and one sentence of your own. Include a page of pairs that look alike but differ in meaning, such as *industrial* and *industrious*.
+
+<!-- page 55 -->
+
+*Strand 2: Reading · Sub-Strand 2: Summarising*
+
+### Chapter 6: Citing Evidence and Summarising
+
+> **Curriculum alignment**
+>
+> **Strand 2: Reading**
+>
+> **Sub-Strand 2: Summarising**
+>
+> **Content standard B8/JHS2.2.2.1**
+>
+> Cite the textual evidence that supports an analysis of a text to determine the central idea and provide an objective summary
+>
+> B8/JHS2.2.2.1.1 Determine the central idea in paragraphs and analyse to identify supporting ideas
+>
+> **Core competences**
+>
+> Communication and Collaboration; Creativity and Innovation; Critical Thinking and Problem Solving; Digital Literacy;
+>
+> Presentation
+
+#### Learning objectives
+
+By the end of this chapter you can:
+
+- find the central idea of a paragraph whether it is stated or not
+
+- distinguish the central idea of a paragraph from its supporting ideas
+
+- recognise the four ways a paragraph supports its central idea
+
+- eliminate examples, repetition and asides when reducing a text
+
+- restate ideas in your own words without changing their meaning
+
+- use a generic term in place of a list of particulars
+
+- write an objective summary that adds no opinion of your own
+
+- keep the proportions of the original when you summarise
+
+- cite textual evidence accurately, using quotation marks and line references
+
+- support an analysis of a text with evidence rather than assertion
+
+#### Key words
+
+> **Central idea —** the one thing a paragraph is chiefly saying.
+>
+> **Supporting idea —** a detail, reason or example that carries the central idea.
+>
+> **Topic sentence —** the sentence in which a central idea is stated.
+>
+> **Implied central idea —** a central idea the writer never states in one sentence.
+>
+> **Illustration —** an example given to make an idea concrete.
+>
+> **Aside —** a remark that steps away from the main line of the paragraph.
+>
+> **Redundancy —** the saying of the same thing twice in different words.
+>
+> **Generic term —** a general word covering a list of particulars, such as \*livestock\*.
+>
+> **Paraphrase —** a restatement of a passage in your own words at similar length.
+>
+> **Summary —** a much shorter statement of a text keeping only what is essential.
+>
+> **Objective summary —** a summary containing no opinion or addition of the summariser.
+>
+> **Proportion —** giving each part of a summary the weight it had in the original.
+>
+> **Citation —** the naming of the exact place in a text from which evidence is taken.
+>
+> **Quotation —** the exact words of a text, marked as such.
+>
+> **Analysis —** an explanation of how and why a text works as it does.
+>
+> **Assertion —** a claim made without evidence.
+
+<!-- page 56 -->
+
+#### Engage
+
+Two learners are asked to reduce a page to eighty words. The first crosses out every sentence she does not like the look of, and hands in a shorter version of the same page with holes in it. The second asks, of each paragraph, one question — *what is this chiefly saying?* — writes the answer in her own words, and hands in eighty words that could be read by somebody who never saw the page at all. Summarising is not shortening. It is deciding what a thing is about, which is harder and much more useful.
+
+#### 6.1 The central idea of a paragraph
+
+A well-made paragraph is about one thing. That one thing is its **central idea**, and everything else in the paragraph is there to carry it. Finding it is the whole foundation of summarising, of comprehension, and of note-taking in every other subject you study.
+
+**Stated first.** The commonest arrangement: the topic sentence opens, and the rest supports it.
+
+- **Stated last.** The paragraph builds through details and lands on the point at the end — common in
+
+- argument. **Stated first and last.** The point is made, developed, and restated in different words.
+
+- **Not stated at all.** The details point unmistakably in one direction but no sentence names it. The reader
+
+- must supply it.
+
+To test a candidate sentence, ask: *does every other sentence in this paragraph help this one?* If two sentences do not, you have chosen a supporting idea by mistake.
+
+> **Model 6.1 — Finding an implied central idea**
+>
+> **Paragraph:** *The seamstress opens at six, before the tailors two doors down. She has never missed a delivery date in eleven years, even the year her mother was ill. Her customers include three schools, and two of them came to her after being let down elsewhere. She charges more than anyone else on the street, and there is a queue.*
+>
+> **Not the central idea:** *The seamstress opens at six.* (That is one supporting detail.)
+>
+> **Not the central idea:** *She charges more than anyone else.* (Also a detail — and by itself, misleading.)
+>
+> **The central idea, supplied by the reader:** *The seamstress's reliability has made her business succeed despite her higher prices.*
+>
+> **How it was found:** every sentence — the early opening, the unbroken record, the customers who left others, the queue despite the price — points at reliability paying. No sentence says it; all four require it.
+
+#### 6.2 How a paragraph supports its central idea
+
+**Supporting ideas** are not filler. They are what makes a central idea believable, and they come in four kinds. Naming the kind tells you at once whether it can be dropped.
+
+| **Kind of support** | **Signalled by** | **Drop it in a summary?** |
+| --- | --- | --- |
+| Reason | *because, since, as, for this reason* | usually keep — reasons are the argument |
+| Evidence | figures, dates, named sources, quotations | keep the fact, drop the detail |
+| Example or illustration | *for instance, such as, consider* | usually drop, or replace with a generic |
+
+<!-- page 57 -->
+
+|  |  | term |
+| --- | --- | --- |
+| Restatement | *in other words, that is to say* | always drop — it is the same idea twice |
+
+*Table 6.1 — Four kinds of support, and what to do with each.*
+
+Two other things routinely appear in paragraphs and can nearly always go: an **aside** (a remark that steps away from the line of thought, often between dashes or brackets) and **redundancy** (*a free gift*, *returned back*, *in my own personal opinion*).
+
+> **Practice 6.1**
+>
+> 1. For each paragraph of Passage 6.1 below, write the central idea in one sentence of your own.
+>
+> 2. State which paragraph's central idea is implied rather than stated, and say how you found it.
+>
+> 3. From the second paragraph, list two supporting ideas and name the kind of support each is.
+>
+> 4. Find one aside and one redundancy in the passage.
+
+#### 6.3 Cutting: what goes and what stays
+
+> **Passage 6.1 — The apprentice's first year**
+>
+> Every trade in this country teaches the same way, and it has taught that way for a long time. A young person is placed with a master — a fitter, a seamstress, a carpenter, a hairdresser — and for the first months is given no work at all that resembles the trade. She sweeps. She carries. She fetches water and she watches. Foreigners who study the system often describe this as a waste of a year, and say so in reports that are widely quoted.
+>
+> It is not a waste, though it is often explained badly. The apprentice who sweeps a workshop for six months learns, without being told, where every tool belongs, which customers come back and why, what a rush day looks like, and which mistakes cost money. A trade is not only a set of skills; it is a set of judgements about time, materials and people. Judgements of that kind cannot be taught in a lesson because nobody can list them. They are absorbed by being present.
+>
+> The system has real faults, and they are not the ones usually named. The fees paid to a master can be beyond a family that has nothing; a girl whose master falls ill may lose two years; and because there is no written standard, an apprentice who has finished has nothing to show a stranger except the word of the person who trained her. In other words, the training may be sound but it is not portable.
+>
+> Attempts to fix this have generally tried to replace the system rather than to finish it. Classroom courses were introduced in several districts, teaching the same trades in twelve weeks, and the graduates found that employers preferred the apprentices. Consider what an employer is actually buying: not a certificate, but somebody who will not ruin a job on a busy Friday. The classroom could not supply that.
+>
+> What is needed is smaller than a new system and harder than a new syllabus. It is a record: an agreed list of what an apprentice in each trade should be able to do, signed by the master and recognised beyond the street where she trained. Nothing about the workshop need change. What changes is that the judgement she has absorbed over three years becomes something she can carry with her.
+
+<!-- page 58 -->
+
+| **From Passage 6.1** | **Keep or cut?** | **Why** |
+| --- | --- | --- |
+| *A fitter, a seamstress, a carpenter, a* *hairdresser* | cut | a list of examples — use *a* *tradesperson* |
+| *She sweeps. She carries. She fetches* *water and she watches.* | compress | four illustrations of one idea: menial work |
+| *in reports that are widely quoted* | cut | an aside |
+| *A trade is not only a set of skills; it is a* keep *set of judgements* |  | a reason, and the heart of the argument |
+| *In other words, the training may be* *sound but it is not portable* | keep this, cut the rest | restatement — but here it is the clearest form |
+| *Consider what an employer is actually* cut the framing, keep the point *buying* |  | an illustration wrapped round a reason |
+| *the graduates found that employers* *preferred the apprentices* | keep | evidence, and it decides the argument |
+
+*Table 6.2 — Deciding what survives.*
+
+##### 6.3.1 Generic terms
+
+A **generic term** is a general word that swallows a list. It is the single most useful device in summary writing, because a list of five particulars costs five times as many words as the class they belong to.
+
+| **In the text** | **Generic term** |
+| --- | --- |
+| a fitter, a seamstress, a carpenter, a hairdresser | a tradesperson |
+| sweeping, carrying, fetching water, watching | menial tasks |
+| fees, illness of the master, no written standard | practical weaknesses |
+| cocoa, cashew, shea, rubber | cash crops |
+| measles, cholera, typhoid | communicable diseases |
+
+*Table 6.3 — Lists and the words that replace them.*
+
+#### 6.4 Putting it in your own words
+
+*State details in your own words as far as possible* is the instruction, and the phrase **as far as possible** matters. Technical terms with no plain equivalent — *apprentice*, *erosion*, *photosynthesis* — should be kept. Everything else should be recast.
+
+| **Original** | **Lifted (poor)** | **Own words (good)** |
+| --- | --- | --- |
+| is given no work that resembles the trade | is given no work that resembles the trade | does nothing connected with the craft |
+| absorbed by being present | absorbed by being present | picked up simply by being there |
+| it is not portable | it is not portable | it cannot be proved to anyone elsewhere |
+| beyond a family that has nothing | beyond a family that has nothing | unaffordable for the poorest |
+
+*Table 6.4 — Recasting rather than lifting.*
+
+Three techniques do most of the work: change the word class (*to train* → *training*), change the voice (*employers preferred them* → *they were preferred*), and replace a phrase with a single word (*at that point in time* → *then*).
+
+> **Common misconception 6.1**
+>
+> *Changing a few words is enough.* Turning *she has never missed a delivery date* into *she has never missed a delivery day* is not paraphrase; it is copying with an error added. A real paraphrase changes the structure of the sentence, not just its vocabulary — *in eleven years every order has been ready on time.*
+
+<!-- page 59 -->
+
+#### 6.5 The objective summary
+
+A summary is **objective** when a reader cannot tell from it what the summariser thought. Three rules produce that.
+
+**Add nothing.** No opinion, no example of your own, no conclusion the writer did not draw.
+
+- **Take nothing important away.** If the writer conceded a fault, your summary concedes it too.
+
+- **Keep the proportions.** A point given half the original text should not be given one line of eight, and a
+
+- single sentence in the original should not become half your summary.
+
+> **Model 6.2 — Summarising Passage 6.1 in about ninety words**
+>
+> **Weak (opinionated and lifted):** *This passage is about apprenticeship, which is a very good system that foreigners do not understand. Apprentices sweep and carry and fetch water and watch. It is absorbed by being present. But there are faults such as fees and illness. I think the government should give certificates because that would help the young people of this country.*
+>
+> **Strong (objective, own words, proportioned):** *Apprentices in Ghanaian trades spend their first months on menial tasks rather than on the craft itself. The writer argues this is not wasted: by being present the learner picks up judgements about time, materials and customers that cannot be listed and so cannot be taught directly. The system's real weaknesses are practical — the fees, dependence on one master, and the absence of any recognised record of what has been learnt. Classroom courses have not replaced it, since employers prefer apprentices. The writer therefore proposes a signed, recognised record of competence rather than a new system.*
+>
+> **What changed:** every clause is recast; the five paragraphs appear in proportion; the writer's concession about faults is kept; the summariser's own opinion — *a very good system*, *I think the government should* — is gone;
+>
+> and the last sentence reports the writer's proposal as the writer's, not as the summariser's.
+
+> **Exam tip 6.1**
+>
+> Count your words and write the number at the end. Examiners stop reading at the limit. A summary of 130 words where 90 were asked for is not a generous answer; it is an unfinished one.
+
+> **Practice 6.2**
+>
+> 1. Write the central idea of each of the five paragraphs of Passage 6.1 in one sentence each, in your own words.
+>
+> 2. Replace each list with a generic term: *lorries, taxis, tro-tros and motorcycles*; *maize, millet, sorghum and rice*; *nurses, midwives and pharmacists*.
+>
+> 3. Paraphrase, changing the structure and not merely the words: *A trade is not only a set of skills; it is a set of judgements about time, materials and people.*
+>
+> 4. Summarise Passage 6.1 in not more than seventy words. Count and write the number.
+>
+> 5. Exchange with a partner and mark each other's summary for the three rules of objectivity.
+
+<!-- page 60 -->
+
+#### 6.6 Citing evidence
+
+An **analysis** says how and why a text works; an **assertion** merely says that it does. The difference between them is a **citation**.
+
+| **Assertion** | **Analysis with evidence** |
+| --- | --- |
+| The writer respects apprenticeship. | The writer treats apprenticeship as rational rather than backward: *“It is not a waste, though it is often explained* *badly.”* |
+| The writer criticises foreigners. | The writer questions outside judgements by noting they are *“widely quoted”* rather than tested. |
+| The writer wants change. | The writer's proposal is deliberately modest — *“smaller* *than a new system”* — and is limited to a record. |
+
+*Table 6.5 — Turning assertions into analysis.*
+
+**Quote exactly.** Copy the words letter for letter, inside quotation marks.
+
+- **Quote briefly.** Take the few words that carry the point, not the whole sentence.
+
+- **Locate it.** Give the paragraph or the line number: *(paragraph 3)*, *(lines 11–12)*.
+
+- **Explain it.** A quotation left standing alone proves nothing. Say which word does the work and what it
+
+- does.
+
+> **Activity 6.1 — The eighty-word ladder**
+>
+> You need: a non-fiction article of about five hundred words; paper.
+>
+> What to do:
+>
+> 1. Write the central idea of each paragraph in one sentence. Count the words.
+>
+> 2. Reduce those sentences to eighty words in total, using generic terms.
+>
+> 3. Reduce again to forty words.
+>
+> 4. Reduce again to a single sentence.
+>
+> Record: all four versions with their word counts.
+>
+> Think about it: which step was hardest, and what were you forced to abandon at each rung? The point that survives to the last rung is the text's real subject.
+
+> **Activity 6.2 — Evidence court**
+>
+> You need: any passage; slips of paper.
+>
+> What to do:
+>
+> 1. Each member of the group writes three claims about the passage on separate slips — some supportable, some not.
+>
+> 2. Shuffle and redistribute. Each member must either support the claim they receive with an exact quotation and a line reference, or declare it unsupportable.
+>
+> 3. The group rules on each.
+>
+> Record: the slips with their verdicts.
+>
+> Think about it: how many claims that *felt* true turned out to have nothing in the text behind them?
+
+> **Apply it — The briefing note**
+>
+> Your headteacher has asked for a one-page briefing on an issue affecting learners in your district —
+
+<!-- page 61 -->
+
+> apprenticeship, teenage employment, transport, or the cost of schooling.
+>
+> (a) Find two texts of at least four hundred words each on the issue.
+>
+> (b) Write the central idea of every paragraph of both, in your own words.
+>
+> (c) Produce an objective summary of each in ninety words, with the count shown.
+>
+> (d) List three claims common to both texts, each supported by an exact quotation with a location.
+>
+> (e) Note one point on which the two disagree, quoting both.
+>
+> (f) Close with a clearly labelled section of your own recommendation — the only place in the whole briefing where your opinion may appear.
+
+#### Chapter summary
+
+- A paragraph is about one thing; that thing is its central idea and everything else supports it.
+
+- A central idea may be stated first, last, at both ends, or not at all — in which case the reader supplies it.
+
+- Test a candidate central idea by asking whether every other sentence helps it.
+
+- Support comes as reasons, evidence, examples and restatement; reasons and evidence usually stay, examples and restatement usually go.
+
+- Asides and redundancies can nearly always be cut.
+
+- A generic term swallows a list and is the summariser's most economical tool.
+
+- Paraphrase changes the structure of a sentence, not merely a few of its words; technical terms are kept.
+
+- An objective summary adds nothing, omits nothing important, and keeps the proportions of the original.
+
+- Count your words and write the number; examiners stop reading at the limit.
+
+- An assertion becomes an analysis when it carries an exact, brief, located and explained quotation.
+
+### Assessment
+
+*This assessment follows the modes the curriculum sets out: an objective test, a written response, a listening and speaking task, and a piece for your portfolio.*
+
+#### Section A — Objective test
+
+*Choose the correct option in each case.* 1.The one thing a paragraph is chiefly saying is its… A. supporting idea B. central idea C. theme D. tone 2.A central idea that no sentence states is said to be… A. objective B. generic C. implied D. redundant 3.*In other words, the training is not portable* is an example of… A. an example B. a restatement C. a reason D. evidence
+
+4.A general word covering a list of particulars is called a… A. generic term B. topic sentence C. citation D. paraphrase
+
+5.Which is the best generic term for *maize, millet, sorghum and rice*? A. food B. cereals C. plants D. farming 6.A restatement of a passage in your own words at similar length is a… A. summary B. citation C. paraphrase D. quotation
+
+7.A summary is objective when it… A. is very short B. uses the writer's words C. contains no opinion of the summariser D. contains no figures
+
+8.*A free gift* is an example of… A. an aside B. redundancy C. a citation D. an illustration 9.A claim made without evidence is called an… A. analysis B. assertion C. inference D. illustration
+
+10. In citing evidence, the quotation should be… A. long and complete B. brief, exact and located C. put in your own words D. left to speak for itself
+
+<!-- page 62 -->
+
+#### Section B — Theory and written response
+
+*Answer all four questions.* 1.(a) Explain what a central idea is and state the four positions in which it may be found. (b) Explain how a reader supplies an implied central idea, and give the test for checking a candidate sentence. (c) Write the central idea of each paragraph of Passage 6.1 in one sentence of your own. (d) Explain why a supporting detail is often mistaken for a central idea.
+
+2.(a) Name the four kinds of supporting idea and state which are normally kept in a summary. (b) Define *aside* and *redundancy* and give one example of each from Passage 6.1. (c) Replace each list with a generic term: *lorries, taxis and tro-tros*; *nurses, midwives and pharmacists*; *fees, illness and lack of records*. (d) Explain why a generic term saves more than it costs.
+
+3.(a) Explain the difference between a paraphrase and a summary. (b) Name three techniques for restating a sentence in your own words, with an example of each. (c) Paraphrase: *A trade is not only a set of skills; it is a set of judgements about time, materials and people.* (d) Explain why technical terms may be kept while ordinary vocabulary should be recast.
+
+4.(a) State the three rules of an objective summary. (b) Summarise Passage 6.1 in not more than ninety words, giving your word count. (c) Explain what is meant by keeping the proportions of the original. (d) Turn each of these assertions into an analysis with an exact quotation from Passage 6.1: *the writer respects apprenticeship*; *the writer's proposal is modest*; *the writer admits the system has faults.*
+
+#### Section C — Listening and speaking
+
+*These tasks are carried out aloud and assessed as you perform them.* 1.Listen to a four-hundred-word article read aloud twice. On the first hearing, write the central idea of each paragraph; on the second, correct them. Then deliver a spoken summary of one minute, and let the class judge whether any of your own opinion crept in.
+
+2.In a group of four, run an evidence court on a passage set by your teacher: each member makes three claims aloud, and the group requires each claim to be supported by an exact quotation before it is accepted. Report to the class how many claims failed.
+
+3.In pairs, take turns to paraphrase aloud, without notes, sentences read to you by your partner. The partner marks each attempt as *recast* or *merely reworded*, and you swap after five sentences.
+
+#### Section D — Portfolio and project
+
+*These pieces are collected in your portfolio over a longer period.* 1.Keep a summary file of eight non-fiction texts read over the term. For each, submit the central idea of every paragraph, an objective summary of ninety words with the count shown, and three pieces of cited evidence. Close with a page on which text resisted summarising and why.
+
+2.Take one long text — a chapter, a report or a feature article — and produce the eighty-word ladder for it: paragraph-by-paragraph central ideas, then eighty words, then forty, then one sentence. Add a page explaining what was abandoned at each step and why the surviving sentence is the text's real subject.
+
+3.Working in a group, produce a briefing pack of at least three pages for your school on a district issue: objective summaries of at least three sources with word counts, a table of claims with exact citations and locations, a note of the points on which sources disagree, and a clearly separated final section carrying your group's own recommendation.
+
+<!-- page 63 -->
+
+## Strand 3: Grammar Usage
+
+*Strand 3: Grammar Usage · Sub-Strand 1: Grammar*
+
+### Chapter 7: Word Classes and Their Functions
+
+> **Curriculum alignment**
+>
+> **Strand 3: Grammar Usage**
+>
+> **Sub-Strand 1: Grammar**
+>
+> **Content standard B8/JHS2.3.1.1**
+>
+> Apply the knowledge of word classes and their functions in Communication
+>
+> B8/JHS2.3.1.1.1 Use an increasing range of singular and plural forms of compound nouns correctly and appropriately in sentences
+>
+> B8/JHS2.3.1.1.2 Demonstrate use of relative pronouns (who/whom, which/that, whose) correctly in speaking and writing
+>
+> B8/JHS2.3.1.1.3 Demonstrate command of the use of adjectives in discourse
+>
+> B8/JHS2.3.1.1.4 Use verb forms correctly when talking about future events Future Time 1. Use the future form of verbs to talk/write about future events.
+>
+> B8/JHS2.3.1.1.5 Demonstrate command of the knowledge of adverbs
+>
+> B8/JHS2.3.1.1.6 Demonstrate command of use of prepositions in speaking and writing
+>
+> **Core competences**
+>
+> Communication and Collaboration; Creativity and Innovation; Critical Thinking and Problem Solving; Digital Literacy;
+>
+> Personal Development and Leadership; Presentation; Cultural Identity and Global Citizenship
+
+#### Learning objectives
+
+By the end of this chapter you can:
+
+- form the plural of compound nouns correctly, including those written as two words
+
+- use the relative pronouns who, whom, whose, which and that correctly
+
+- join two sentences into one using a relative pronoun
+
+- punctuate defining and non-defining relative clauses correctly
+
+- use adjectives to describe people, places, materials and objects vividly
+
+- place several adjectives before a noun in the accepted order
+
+- use the four future forms — simple, progressive, perfect and perfect progressive
+
+- choose between *will*, *shall*, *going to* and the present continuous for future time
+
+- use adverbs to modify adjectives, other adverbs, prepositions, pronouns and numerals
+
+- use prepositions of time, place, movement, agent, direction and instrument accurately
+
+#### Key words
+
+> **Compound noun —** a noun made of two or more words, such as \*passer-by\* or \*court martial\*.
+>
+> **Head word —** the main noun in a compound, which normally takes the plural.
+>
+> **Relative pronoun —** a pronoun introducing a clause that describes a noun: who, whom, whose, which, that.
+>
+> **Antecedent —** the noun a relative pronoun stands for.
+>
+> **Relative clause —** a clause introduced by a relative pronoun and describing a noun.
+>
+> **Defining relative clause —** one that identifies which person or thing is meant; no commas.
+>
+> **Non-defining relative clause —** one that adds extra information; set off by commas.
+
+<!-- page 64 -->
+
+> **Adjective —** a word describing a noun.
+>
+> **Order of adjectives —** the accepted sequence when several adjectives precede a noun.
+>
+> **Simple future —** \*will/shall\* + verb, for a future action stated plainly.
+>
+> **Future progressive —** \*will be\* + \*-ing\*, for an action in progress at a future time.
+>
+> **Future perfect —** \*will have\* + past participle, for an action completed before a future time.
+>
+> **Future perfect progressive —** \*will have been\* + \*-ing\*, for a continuing action up to a future time.
+>
+> **Adverb —** a word modifying a verb, adjective, another adverb or a phrase.
+>
+> **Pre-modify —** to stand before a word and qualify it.
+>
+> **Intensifier —** an adverb strengthening what follows, such as \*very\* or \*extremely\*.
+>
+> **Pre-determiner —** a word standing before a determiner, such as \*more than\* or \*nearly all\*.
+>
+> **Cardinal numeral —** a counting number such as \*three\*.
+>
+> **Preposition —** a word showing the relation of a noun to the rest of the sentence.
+>
+> **Agent —** in a passive sentence, the doer, introduced by \*by\*.
+
+#### Engage
+
+*The girl whose picture you sent me is now our prefect.* Ten words, and four of the hardest things in English grammar are working quietly inside it. Change *whose* to *who's* and it means nothing. Move *now* and it means something else. Word classes are not labels to be memorised for a test; they are the parts you are already using every time you open your mouth. This chapter is about using them on purpose.
+
+#### 7.1 Compound nouns and their plurals
+
+A **compound noun** is a noun made of more than one word. Some are written solid (*classroom*), some hyphenated (*passer-by*), some as separate words (*bus stop*). The rule for the plural is one rule: **pluralise the**
+
+- **head word** — the word that says what the thing really is.
+
+| **Singular** | **Plural** | **Why** |
+| --- | --- | --- |
+| classroom | classrooms | written solid — plural goes at the end |
+| bus stop | bus stops | the head is *stop* |
+| passer-by | passers-by | the head is *passer*, not *by* |
+| mother-in-law | mothers-in-law | the head is *mother* |
+| commander-in-chief | commanders-in-chief | the head is *commander* |
+| court martial | courts martial | the head is *court*; *martial* describes it |
+| attorney general | attorneys general | the head is *attorney* |
+| runner-up | runners-up | the head is *runner* |
+| looker-on | lookers-on | the head is *looker* |
+| spoonful | spoonfuls | *spoonful* is treated as one word |
+| grown-up | grown-ups | no noun head inside; plural at the end |
+| forget-me-not | forget-me-nots | no noun head inside; plural at the end |
+
+*Table 7.1 — Plurals of compound nouns.*
+
+Two cautions. First, where there is no noun inside the compound at all — *grown-up*, *forget-me-not*, *take-off* — the *-s* simply goes at the end. Second, a compound that has become a single word behaves like a single word: *spoonfuls*, not *spoonsful*, whatever older books may say.
+
+> **Practice 7.1**
+>
+> 1. Write the plural: *sister-in-law, passer-by, editor-in-chief, court martial, man-of-war, cupful, lay-by, son-in- law, maid-servant, take-off*.
+
+<!-- page 65 -->
+
+> 2. Correct the errors: *Three passer-bys stopped. Both my mother-in-laws came. The two attorney generals disagreed.*
+>
+> 3. Use each in a sentence of your own: *runners-up, mothers-in-law, bus stops, grown-ups*.
+>
+> 4. Explain how you decide where the *-s* goes in a hyphenated compound.
+
+#### 7.2 Relative pronouns
+
+A **relative pronoun** introduces a clause that describes a noun. The noun it stands for is its **antecedent**. Choosing the right one takes two decisions: is the antecedent human, and what job does the pronoun do inside its own clause?
+
+| **Pronoun** | **Used for** | **Job in its clause** | **Example** |
+| --- | --- | --- | --- |
+| who | people | subject | The boy **who** won the competition is Kwame. |
+| whom | people | object | The man **whom** we invited has arrived. |
+| whose | people and things | possessive | The girl **whose** picture you sent is our prefect. |
+| which | things and animals | subject or object | The car **which** is sprayed dark brown is Bashiru's. |
+| that | people or things | subject or object | The book **that** you lent me is finished. |
+
+*Table 7.2 — The five relative pronouns.*
+
+##### 7.2.1 Who or whom?
+
+Test it by answering the clause with *he* or *him*. If *he* fits, use **who**; if *him* fits, use **whom**. *The man ___ we invited* → *we invited him* **→** whom**. \*The man ___ invited us\* →** *he invited us* → **who**. In everyday speech *who* is now used for both, and nobody minds; in formal writing and in your examinations, keep the distinction.
+
+##### 7.2.2 Joining two sentences
+
+This is what relative pronouns are for. Two short sentences that share a noun can be made one, and the writing immediately becomes more mature.
+
+| **Two sentences** | **Joined** |
+| --- | --- |
+| I like friends. They are helpful. | I like friends **who** are helpful. |
+| The car is Bashiru's. It is sprayed dark brown. | The car **which** is sprayed dark brown is Bashiru's. |
+| We met a farmer. His maize failed. | We met a farmer **whose** maize failed. |
+| This is the nurse. I told you about her. | This is the nurse **whom** I told you about. |
+| The mast stands on the hill. It changed the town. | The mast **that** stands on the hill changed the town. |
+
+*Table 7.3 — Joining with a relative pronoun.*
+
+##### 7.2.3 Commas: defining and non-defining
+
+A **defining relative clause** tells you *which* one is meant, and takes no commas. A **non-defining relative clause** merely adds information about something already identified, and is fenced with commas. The comma changes the meaning, so it is not optional.
+
+| **Sentence** | **Meaning** |
+| --- | --- |
+| My sister who lives in Tamale is a nurse. | I have more than one sister; the Tamale one is meant. |
+| My sister, who lives in Tamale, is a nurse. | I have one sister; by the way, she lives in Tamale. |
+
+<!-- page 66 -->
+
+| The learners who had paid were admitted. | only the ones who had paid |
+| --- | --- |
+| The learners, who had paid, were admitted. | all of them; they had all paid |
+
+*Table 7.4 — The comma that changes the meaning.*
+
+> **Common misconception 7.1**
+>
+> *That and which are interchangeable.* Not quite. **That** cannot introduce a non-defining clause: *My sister, that lives in Tamale, is a nurse* is wrong. Use *who* or *which* after a comma, and reserve *that* for defining clauses.
+
+> **Practice 7.2**
+>
+> 1. Fill in *who, whom, whose, which* or *that*: (a) The teacher ___ taught us French has left. (b) The girl ___ bag was stolen reported it. (c) The report ___ you wrote was praised. (d) The officer to ___ I spoke was helpful.
+>
+> 2. Join each pair with a relative pronoun: *I know a tailor. He works quickly. · The clinic is closed. It was built last year. · We thanked the driver. His bus was full.*
+>
+> 3. Add commas where they are needed, and explain what each changes: *My uncle who farms at Ejura came yesterday. · The pupils who arrived late were marked absent.*
+>
+> 4. Explain the difference in meaning between *The books which were damaged were replaced* and *The books, which were damaged, were replaced.*
+
+#### 7.3 Adjectives in discourse
+
+Adjectives are how a description becomes a picture. In connected speech and writing they do four jobs especially: describing **people**, **settings**, **materials** and **objects**.
+
+| **What is described** | **Weak** | **Vivid** |
+| --- | --- | --- |
+| A person | The captain arrived with untidy hair. | The captain arrived wearing bushy, unkempt hair. |
+| A rural setting | The hotel is in a nice place. | The hotel is situated in a serene, wooded environment. |
+| An urban setting | The street was busy. | The narrow, congested street echoed with traffic. |
+| A material | She wore a nice cloth. | She wore a heavy, hand-woven kente cloth. |
+| An object | He bought a phone. | He bought a slim, second-hand, silver phone. |
+
+*Table 7.5 — Adjectives that make a picture.*
+
+##### 7.3.1 The order of adjectives
+
+When several adjectives stand before a noun, English puts them in a fixed order. Native speakers keep it without knowing it exists; a learner who breaks it is understood but sounds odd. The order is: **opinion – size – age – shape – colour – origin – material – purpose**.
+
+| **Order** | **Example** |
+| --- | --- |
+| opinion + size + colour + noun | a beautiful large blue cloth |
+| size + age + material + noun | a small old wooden stool |
+| opinion + origin + material + noun | a lovely Ghanaian cotton shirt |
+| size + shape + colour + purpose + noun | a big round black frying pan |
+
+*Table 7.6 — The accepted order of adjectives.*
+
+<!-- page 67 -->
+
+Three adjectives before a noun is usually the limit in good writing. Beyond that, break the description into two sentences, or move some of it after the verb: *The stool was small, old and carved from a single piece of wood.*
+
+> **Practice 7.3**
+>
+> 1. Put the adjectives in the correct order: *(wooden / old / a / large) door · (cotton / white / beautiful / a) dress · (round / small / two / metal) trays*.
+>
+> 2. Rewrite vividly, using at least two adjectives in each: *The market was full. · She wore a dress. · The room was hot. · The player was tall.*
+>
+> 3. Describe, in three sentences with at least five adjectives in all, either a durbar ground or a busy lorry station.
+>
+> 4. Explain why *a red big beautiful cloth* sounds wrong although every word is correct.
+
+#### 7.4 Talking about future events
+
+English has no future tense in the way it has a past tense; it has several ways of *referring* to future time. Four of them are built with *will* or *shall*.
+
+| **Form** | **Structure** | **Example** | **Use** |
+| --- | --- | --- | --- |
+| Simple future | will / shall + verb | I **will wash** my clothes. | a plain future action or a decision made now |
+| Future progressive | will be + -ing | We **shall be doing** the dishes. | an action in progress at a future moment |
+| Future perfect | will have + past participle | clothes. | a future point |
+| Future perfect progressive | will have been + -ing | his clothes. | future point |
+
+*Table 7.7 — The four future forms.*
+
+Two more ways are just as common and must not be forgotten. **Going to** states an intention already formed or a prediction from present evidence: *I am going to study medicine*; *those clouds are going to burst*. The **present continuous** states a fixed arrangement: *We are travelling on Friday.* And the plain present is used for timetables: *The bus leaves at six.*
+
+| **Situation** | **Correct choice** | **Why** |
+| --- | --- | --- |
+| Deciding at the moment of speaking | *I'll carry it for you.* | simple future |
+| An intention formed earlier | *I'm going to repair it this weekend.* | *going to* |
+| A fixed arrangement with others | *We're meeting the head at four.* | present continuous |
+| A timetable | *The train arrives at nine.* | simple present |
+| Something in progress at a future time*This time tomorrow we shall be* | *writing.* | future progressive |
+| Something finished before a deadline | *By June we will have completed the* *syllabus.* | future perfect |
+
+*Table 7.8 — Choosing the right future.*
+
+> **Exam tip 7.1**
+>
+> *Shall* with *I* and *we*, *will* with everything else, is the older rule and is still what examiners expect in formal writing. In speech both are heard everywhere, and the contracted *'ll* settles the matter.
+
+<!-- page 68 -->
+
+> **Practice 7.4**
+>
+> 1. Name the future form used in each: (a) *By Friday I will have finished the essay.* (b) *We shall be travelling all night.* (c) *She will call you.* (d) *They will have been farming there for twenty years.*
+>
+> 2. Complete with the best future form: (a) This time next week we ___ (sit) our examinations. (b) By December the contractor ___ (complete) the road. (c) Look at those clouds — it ___ (rain). (d) The plane ___ (leave) at 6.40 a.m.
+>
+> 3. Write one sentence of your own in each of the four *will* forms, about your plans after JHS.
+>
+> 4. Explain the difference between *I will help you* and *I am going to help you*.
+
+#### 7.5 Adverbs and what they modify
+
+In Basic 7 you used adverbs to modify verbs. That is their commonest job but not their only one: an adverb can stand before and qualify — **pre-modify** — five other things.
+
+| **Adverb modifies** | **Example** | **Note** |
+| --- | --- | --- |
+| a verb | She sang **beautifully**. | the familiar case |
+| an adjective | That was a **very** funny comedian. | *very* is an intensifier |
+| another adverb | I saw many **very** fast-moving vehicles. | *very* modifies *fast-moving* |
+| a preposition or prepositional phrase | The bullet went **right** through the wall.*right* intensifies *through the wall* |  |
+| an indefinite pronoun | **Nearly** everybody bought the same vehicle. | *nearly* limits *everybody* |
+| a pre-determiner | I paid **more than** three thousand Ghana cedis. | *more than* qualifies the amount |
+| a cardinal numeral | We shall stay for **about** three weeks. | *about* makes the number approximate |
+
+*Table 7.9 — Seven things an adverb can modify.*
+
+The small adverbs of quantity — *almost*, *nearly*, *about*, *just*, *only*, *even*, *hardly* — carry a great deal of meaning for their size, and their position decides what they govern.
+
+| **Sentence** | **Meaning** |
+| --- | --- |
+| **Only** I paid the fee. | nobody else paid it |
+| I **only** paid the fee. | I paid it and did nothing more |
+| I paid **only** the fee. | I paid nothing besides the fee |
+| I paid the **only** fee. | there was one fee, and I paid it |
+
+*Table 7.10 — Four positions of only, four meanings.*
+
+> **Practice 7.5**
+>
+> 1. In each, name the adverb and say what it modifies: (a) *The soup was extremely hot.* (b) *She drives very carefully.* (c) *He walked straight into the office.* (d) *Almost all the seedlings died.* (e) *It cost nearly two hundred cedis.*
+>
+> 2. Insert *only* in four positions in *She lent him the money* and give the meaning of each.
+>
+> 3. Use each to pre-modify a numeral or a pronoun: *about, nearly, more than, hardly*.
+>
+> 4. Correct: *The comedian was very funnily. · Almost everybody's came late. · The bullet went rightly through the wall.*
+
+<!-- page 69 -->
+
+#### 7.6 Prepositions and the meanings they carry
+
+A **preposition** shows how a noun relates to the rest of the sentence. The same short word carries very different meanings depending on the relation it expresses.
+
+| **Relation** | **Example** | **Prepositions often used** |
+| --- | --- | --- |
+| Time | I am going to study **for** two hours. | at, on, in, for, since, during, until, by |
+| Place | We slept **under** the canopy. | in, on, at, under, over, beside, between, among |
+| Movement | She does not like running her bike **up** the hills. | up, down, across, through, over, into, out of |
+| Agent | This book was written **by** Ama Ata Aidoo. | by |
+| Direction | She went **to** the club. | to, towards, into, onto, as far as |
+| Instrument | Kwame comes **by** train daily. | by, with, through |
+
+*Table 7.11 — Six meanings carried by prepositions.*
+
+Note that *by* appears three times in that table with three different jobs — agent, instrument and time (*by six o'clock*). This is why prepositions cannot be learnt from a list of translations; they are learnt from sentences.
+
+##### 7.6.1 Prepositions Ghanaian learners most often confuse
+
+| **Not this** | **But this** |
+| --- | --- |
+| discuss about the matter | discuss the matter |
+| He is married with a nurse. | He is married to a nurse. |
+| congratulate him for winning | congratulate him on winning |
+| different to mine | different from mine |
+| I am used with it. | I am used to it. |
+| He resembles with his father. | He resembles his father. |
+| Enter inside the room. | Enter the room. |
+| I look forward to see you. | I look forward to seeing you. |
+| on my way coming | on my way |
+| We reached at Accra. | We reached Accra. |
+
+*Table 7.12 — Ten expressions to check in your own writing.*
+
+> **Practice 7.6**
+>
+> 1. Name the relation carried by the preposition in each: (a) *We stayed until Friday.* (b) *The letter was signed by the head.* (c) *He climbed over the wall.* (d) *She travels by tro-tro.* (e) *The clinic is between the school and the market.*
+>
+> 2. Fill the gaps: I have been here ___ Monday. · Congratulate her ___ her success. · This one is different ___ that. · He is married ___ a teacher. · We shall be there ___ six o'clock.
+>
+> 3. Correct: *They discussed about the fees. · I am used with the noise. · We reached at the station late. · She resembles with her mother.*
+>
+> 4. Write one sentence for each of the six relations in Table 7.11, about your own district.
+
+> **Activity 7.1 — The grammar audit**
+>
+> You need: a piece of your own writing of at least three hundred words from earlier this term.
+>
+> What to do:
+>
+> 1. Underline every compound noun, relative pronoun, adjective, future form and preposition.
+
+<!-- page 70 -->
+
+> 2. Check each against this chapter and mark it ✓ or ✗.
+>
+> 3. Rewrite every sentence you marked ✗.
+>
+> 4. Count how many of your sentences contained no relative clause at all, and combine three pairs of short sentences using relative pronouns.
+>
+> Record: the marked original and the rewritten version.
+>
+> Think about it: which class of word produced most of your errors? That is your target for the term.
+
+> **Activity 7.2 — Describe and identify**
+>
+> You need: cards, each naming a person, a place, a material or an object.
+>
+> What to do:
+>
+> 1. Draw a card and describe what is on it in four sentences, without naming it, using at least five adjectives in the correct order, one relative clause and one prepositional phrase.
+>
+> 2. The class identifies it and then names your adjectives, your relative pronoun and your preposition.
+>
+> 3. Any misordered adjective costs a point; any correct relative clause earns one.
+>
+> Record: the class's score sheet.
+>
+> Think about it: which was harder — finding the adjectives or ordering them?
+
+> **Apply it — The school profile**
+>
+> Your class is preparing a written profile of the school for next year's Basic 7 entrants.
+>
+> (a) Describe four places in the school, using at least three adjectives each, in the correct order.
+>
+> (b) Describe four people by their role, using a relative clause for each — *the teacher who…*, *the woman whose…*
+>
+> (c) Write six sentences about what the school will be doing, and will have done, by this time next year, using all four future forms at least once each.
+>
+> (d) Write five sentences of direction and place using prepositions of at least four different relations.
+>
+> (e) Use at least six compound nouns, three of them in the plural.
+>
+> (f) Exchange with another group and mark each other's work against Tables 7.1, 7.4, 7.6, 7.7 and 7.12.
+
+#### Chapter summary
+
+- The plural of a compound noun goes on the head word: passers-by, mothers-in-law, courts martial.
+
+- Where a compound contains no noun head, the -s goes at the end: grown-ups, take-offs.
+
+- Who is for the subject, whom for the object; test by trying *he* and *him*.
+
+- Whose is the possessive relative for people and things alike, and is never spelt *who's*.
+
+- A defining relative clause takes no commas; a non-defining one is fenced with them, and the commas change the meaning.
+
+- *That* may not introduce a non-defining clause.
+
+- Adjectives follow a fixed order: opinion, size, age, shape, colour, origin, material, purpose.
+
+- There are four *will* futures — simple, progressive, perfect and perfect progressive — plus *going to*, the present continuous and the timetable present.
+
+- Adverbs modify not only verbs but adjectives, other adverbs, prepositions, indefinite pronouns, pre- determiners and numerals.
+
+<!-- page 71 -->
+
+- The position of a small adverb such as *only* decides what it governs, and prepositions are learnt from sentences rather than from lists.
+
+### Assessment
+
+*This assessment follows the modes the curriculum sets out: an objective test, a written response, a listening and speaking task, and a piece for your portfolio.*
+
+#### Section A — Objective test
+
+*Choose the correct option in each case.* 1.The plural of *passer-by* is… A. passer-bys B. passers-by C. passers-bys D. passer-by's 2.The plural of *court martial* is… A. court martials B. courts martials C. courts martial D. court's martial 3.The man ___ we invited has arrived. A. who B. whom C. which D. whose 4.The girl ___ picture you sent me is our prefect. A. who B. whom C. whose D. which 5.Which sentence is correctly punctuated? A. My sister, that lives in Tamale, is a nurse. B. My sister who lives in Tamale, is a nurse. C. My sister, who lives in Tamale, is a nurse. D. My sister, who lives in Tamale is a nurse.
+
+6.Which shows the correct order of adjectives? A. a red big beautiful cloth B. a beautiful big red cloth C. a big beautiful red cloth D. a red beautiful big cloth
+
+7.*By June we will have completed the syllabus* is in the… A. simple future B. future progressive C. future perfect D. future perfect progressive
+
+8.In *That was a very funny comedian*, the adverb *very* modifies… A. a verb B. an adjective C. a noun D. a preposition
+
+9.In *This book was written by Ama Ata Aidoo*, the preposition *by* introduces the… A. instrument B. agent C. direction D. place
+
+10. Which is correct? A. They discussed about the fees. B. He is married with a nurse. C. Congratulate her on her success. D. This is different to mine.
+
+#### Section B — Theory and written response
+
+*Answer all four questions.* 1.(a) State the rule for forming the plural of compound nouns and explain what a head word is. (b) Write the plural of: *sister-in-law, editor-in-chief, court martial, runner-up, lay-by, cupful, grown-up, man-of-war.* (c) Correct: *Three passer-bys were injured; both my mother-in-laws attended; the attorney generals met.* (d) Explain why *spoonfuls* rather than *spoonsful* is now correct.
+
+2.(a) Name the five relative pronouns and state what each is used for. (b) Give the test for choosing between *who* and *whom*, with two examples. (c) Join each pair using a relative pronoun: *I know a tailor. He works quickly. · We thanked the driver. His bus was full. · The clinic is closed. It was built last year.* (d) Explain, with the two versions written out, how commas change the meaning of *My sister who lives in Tamale is a nurse.*
+
+3.(a) State the accepted order of adjectives and give an example using four of the categories. (b) Rewrite vividly, using at least two adjectives each: *The market was full; she wore a dress; the room was hot.* (c) Explain why more than three adjectives before a noun is usually poor style, and show two ways of avoiding it. (d) Describe a place in your district in four sentences, underlining every adjective.
+
+4.(a) Name the four *will* future forms, give the structure of each and write a sentence in each. (b) Explain when *going to* and the present continuous are used for future time, with an example of each. (c) Name five things an adverb can modify apart from a verb, with an example of each. (d) Write out *She lent him the money* four times, placing *only* in a different position each time, and give the meaning of each.
+
+<!-- page 72 -->
+
+#### Section C — Listening and speaking
+
+*These tasks are carried out aloud and assessed as you perform them.* 1.Describe a person, a place and an object to the class without naming any of them, using at least five adjectives in the correct order, one relative clause and two prepositional phrases in each description. The class identifies each and then names your grammar.
+
+2.In pairs, hold a three-minute conversation about your plans for next year in which you must use, and your partner must tick off, all four *will* futures, *going to*, and the present continuous for a fixed arrangement.
+
+3.Play a correction game in groups of four: each member reads aloud five sentences, three of them containing an error from Table 7.12 or a wrong relative pronoun. The others must catch and correct the errors aloud, giving the rule.
+
+#### Section D — Portfolio and project
+
+*These pieces are collected in your portfolio over a longer period.* 1.Keep a grammar audit file for the term. Every fortnight, take a piece of your own writing, underline every compound noun, relative pronoun, adjective string, future form and preposition, mark each right or wrong, and rewrite the errors. Close with a page naming the two classes of word that give you most trouble and what you have done about them.
+
+2.Produce a written profile of your school or community of at least four hundred words for next year's entrants. It must contain at least six compound nouns with three in the plural, six relative clauses of which two are non-defining and correctly punctuated, twelve adjectives in correct order, all four future forms, and prepositions covering at least four of the six relations. Submit an annotated copy marking each.
+
+3.Compile a class error book. Collect at least forty real errors of preposition, relative pronoun, compound plural or adjective order from your own and your classmates' writing over the term. For each, record the wrong version, the correct version and the rule. Present the twelve commonest to the class as a wall chart.
+
+<!-- page 73 -->
+
+*Strand 3: Grammar Usage · Sub-Strand 1: Grammar*
+
+### Chapter 8: Reported Speech and Question Tags
+
+> **Curriculum alignment**
+>
+> **Strand 3: Grammar Usage**
+>
+> **Sub-Strand 1: Grammar**
+>
+> **Content standard B8/JHS2.3.1.6**
+>
+> Show understanding and use of question tags in communication
+>
+> B8/JHS2.3.1.5.2 Demonstrate command of the use of reported speech
+>
+> The curriculum lists this indicator under the content standard above, although its number belongs to a standard that the document does not print. It is reproduced here exactly as it appears.
+>
+> B8/JHS2.3.1.6.1 Demonstrate command of question tags
+>
+> **Core competences**
+>
+> Communication and Collaboration; Creativity and Innovation; Critical Thinking and Problem Solving; Digital Literacy;
+>
+> Personal Development and Leadership; Cultural Identity and Global Citizenship; Presentation
+
+#### Learning objectives
+
+By the end of this chapter you can:
+
+- change direct speech into reported speech, making all the necessary adjustments
+
+- backshift tenses correctly when the reporting verb is in the past
+
+- change pronouns, and words of time and place, when reporting
+
+- report questions without keeping the question word order or the question mark
+
+- report commands, requests and advice using the correct reporting verbs
+
+- choose a reporting verb that fairly represents how something was said
+
+- recognise when the tense need not be backshifted
+
+- write a short news report using reported speech accurately
+
+- form question tags correctly, matching auxiliary, tense and person
+
+- use falling and rising intonation on tags to check information or to invite agreement
+
+#### Key words
+
+> **Direct speech —** a speaker's exact words, inside quotation marks.
+>
+> **Reported speech —** an account of what was said, without the exact words.
+>
+> **Reporting verb —** the verb introducing reported speech, such as \*said\* or \*asked\*.
+>
+> **Reporting clause —** the clause containing the reporting verb.
+>
+> **Backshift —** moving a tense one step into the past when reporting.
+>
+> **Deixis —** words whose meaning depends on who is speaking, when and where.
+>
+> **Reported question —** a question reported as a statement, without question word order.
+>
+> **Yes/no question —** a question answered with yes or no.
+>
+> **Wh-question —** a question beginning with who, what, when, where, why or how.
+>
+> **Reported command —** an order reported with \*told\* and an infinitive.
+>
+> **Universal truth —** a statement always true, which need not be backshifted.
+>
+> **Question tag —** a short question added to a statement, such as \*isn't it?\*
+>
+> **Auxiliary verb —** a helping verb such as \*be\*, \*have\*, \*do\*, \*will\*, \*can\*.
+>
+> **Polarity —** whether a clause is positive or negative.
+>
+> **Falling intonation —** a drop in pitch, used on a tag when agreement is expected.
+
+<!-- page 74 -->
+
+> **Rising intonation —** a lift in pitch, used on a tag when the speaker is genuinely asking.
+
+#### Engage
+
+*She said she would come.* Four ordinary words — and inside them, three separate changes have been made to what the woman actually said, which was *I will come*. The pronoun moved, the tense moved, and the quotation marks vanished. Every news report you have ever read is built on those changes. Get them wrong and you have not merely made a grammar slip: you have reported somebody as saying something they did not say.
+
+#### 8.1 Direct and reported speech
+
+**Direct speech** gives a speaker's exact words inside quotation marks. **Reported speech** gives an account of them and needs no quotation marks, because the words are now yours.
+
+| **Direct** | **Reported** |
+| --- | --- |
+| Ama said, “I am tired.” | Ama said that she was tired. |
+| “We have finished,” they said. | They said that they had finished. |
+| The head said, “The fees will rise.” | The head said that the fees would rise. |
+
+*Table 8.1 — The same words, two ways of giving them.*
+
+Three things change when you report: the **tense**, the **pronouns**, and the words of **time and place**. Work through them in that order every time and you will not go wrong.
+
+##### 8.1.1 Backshift: the tense moves one step back
+
+| **Direct speech** | **Becomes** | **Example** |
+| --- | --- | --- |
+| present simple | past simple | *I work here* → he said he **worked** there |
+| present continuous | past continuous | *I am working* → she said she **was** **working** |
+| present perfect | past perfect | *I have paid* → he said he **had paid** |
+| past simple | past perfect | *I paid* → he said he **had paid** |
+| will | would | *I will come* → she said she **would** come |
+| can | could | *I can swim* → he said he **could** swim |
+| may | might | *I may be late* → she said she **might** be late |
+| must | had to | *You must pay* → he said we **had to** pay |
+| shall | should / would | *Shall I help?* → she asked whether she **should** help |
+
+*Table 8.2 — Backshift.*
+
+Notice that *past simple* and *present perfect* both become *past perfect*, so some information is lost — this is one reason careful reporters often keep the exact words for anything contentious.
+
+##### 8.1.2 Pronouns, time and place
+
+Words such as *I*, *here*, *now* and *this* are **deictic**: their meaning depends on who is speaking, and where and when. Reporting moves all of them.
+
+| **Direct** | **Reported** | **Direct** | **Reported** |
+| --- | --- | --- | --- |
+| I / we | he, she / they | now | then |
+| you | I, he, she, they | today | that day |
+
+<!-- page 75 -->
+
+| my / our | his, her / their | tomorrow | the next day |
+| --- | --- | --- | --- |
+| this | that | yesterday | the day before |
+| these | those | next week | the following week |
+| here | there | last year | the previous year |
+| come | go | ago | before |
+
+*Table 8.3 — Deictic words and their reported forms.*
+
+> **Model 8.1 — Working through the three changes**
+>
+> **Direct:** *“I saw your brother here yesterday, and I will speak to him tomorrow,” Kojo told Ama.*
+>
+> **Step 1, tense:** *saw* → *had seen*; *will speak* → *would speak*.
+>
+> **Step 2, pronouns:** Kojo's *I* → *he*; *your brother* (Ama's) → *her brother*; *him* stays.
+>
+> **Step 3, time and place:** *here* → *there*; *yesterday* → *the day before*; *tomorrow* → *the next day*.
+>
+> **Reported:** *Kojo told Ama that he had seen her brother there the day before, and that he would speak to him the next day.*
+
+##### 8.1.3 When the tense does not shift
+
+**When the reporting verb is present.** *She says she is tired* — no shift.
+
+- **When the statement is still true.** *He said the clinic opens at eight* — it still does.
+
+- **When it is a universal truth.** *The teacher said that water boils at 100 °C.*
+
+- **When a past time is stated.** *He said he arrived in 2019* — the date fixes it, so *had arrived* is
+
+- unnecessary.
+
+> **Practice 8.1**
+>
+> 1. Report each: (a) *“I am going home,” she said.* (b) *“We have finished the work,” they said.* (c) *“I will pay tomorrow,” he promised.* (d) *“I saw him here yesterday,” Ama said.*
+>
+> 2. Give the reported form of: *now, today, this, here, tomorrow, last week, ago*.
+>
+> 3. Explain why *He said that water boils at 100 °C* is preferred to *boiled*.
+>
+> 4. Report this in full, making all three kinds of change: *“I met your father in this town last year, and I shall visit him again next month,” the trader told Kofi.*
+
+#### 8.2 Reporting questions
+
+Reporting a question is where most errors happen, because two things must be undone: the **question word order** and the **question mark**. A reported question is a statement, and it is punctuated like one.
+
+| **Kind** | **Direct** | **Reported** |
+| --- | --- | --- |
+| Wh-question | She asked, “When will Genevieve meet Alfred?” | She asked when Genevieve would meet Alfred. |
+| Wh-question | “Where do you live?” he asked. | He asked where I lived. |
+| Yes/no question | “Have you paid?” she asked. | She asked whether I had paid. |
+| Yes/no question | “Is the clinic open?” they asked. | They asked if the clinic was open. |
+| With *shall I* | “Shall I help?” she asked. | She asked whether she should help. |
+
+*Table 8.4 — Reported questions.*
+
+<!-- page 76 -->
+
+- **Wh-questions keep the question word** — *when*, *where*, *why*, *how* — and it becomes the joining word.
+
+- **Yes/no questions need \*whether\* or \*if**\*, because there is no question word to keep.
+
+- **The word order becomes statement order**: *where did he go* → *where he had gone*, never *where did he*
+
+- *go*. **The auxiliary \*do\* disappears**: *where do you live* → *where I lived*.
+
+- **The question mark goes.** A reported question ends with a full stop.
+
+- **The reporting verb is usually \*asked\*, \*enquired\* or \*wanted to know** *— not* said\*.
+
+> - **Common misconception 8.1**
+>
+> *A reported question keeps its question mark.* It does not. *He asked where I was going?* is wrong twice over — the mark should be a full stop, and many learners also leave the question word order in place. The sentence is not a question; it is a statement about a question.
+
+##### 8.2.1 Reporting commands, requests and advice
+
+Orders and requests are reported with an **infinitive**, not with *that*.
+
+| **Function** | **Direct** | **Reported** |
+| --- | --- | --- |
+| Command | “Sit down,” the teacher said. | The teacher told us to sit down. |
+| Negative command | “Don't touch it,” he said. | He told me not to touch it. |
+| Request | “Please help me,” she said. | She asked me to help her. |
+| Advice | “You should rest,” the nurse said. | The nurse advised me to rest. |
+| Warning | “Don't go near the gully,” he said. | He warned us not to go near the gully. |
+| Invitation | “Come to my house,” she said. | She invited me to go to her house. |
+
+*Table 8.5 — Reporting commands, requests and advice.*
+
+The **reporting verb** is a choice, and it is never neutral. *He said*, *he claimed*, *he admitted*, *he insisted*, *he alleged*, *he explained* — each reports the same words and conveys a different attitude. Choose the one that is fair; readers of news reports should be able to trust that *admitted* means the speaker was conceding something.
+
+| **Reporting verb** | **What it conveys** |
+| --- | --- |
+| said, stated, told | neutral |
+| explained, pointed out | the speaker was giving reasons, and was right |
+| claimed, alleged | the writer is not vouching for it |
+| admitted, conceded | the speaker was giving ground |
+| insisted, maintained | the speaker was holding out against opposition |
+| complained, protested | the speaker was aggrieved |
+| urged, appealed | the speaker was pressing others to act |
+
+*Table 8.6 — Reporting verbs and the attitude they carry.*
+
+##### 8.2.2 Reported speech in a news report
+
+> **Passage 8.1 — A news report built on reported speech**
+>
+> **Assembly promises action on school water**
+>
+> *Nkwanta, 3 June*
+>
+> The District Assembly has said that work on the water supply to three junior high schools will begin before the end of the term.
+
+<!-- page 77 -->
+
+> Speaking at a meeting of headteachers on Tuesday, the District Works Engineer, Mr Kwabena Asare, explained that the delay had been caused by a broken pump at the main station rather than by a shortage of funds. He said the replacement pump had arrived in May and would be installed within three weeks.
+>
+> Headteachers at the meeting were not persuaded. Madam Rose Nkansah of Nkwanta JHS pointed out that her school had been told the same thing the previous year, and asked when the assembly would put its undertakings in writing. Mr Asare replied that he could not answer for decisions taken before his appointment.
+>
+> Another headteacher, who asked not to be named, complained that pupils were being sent home to fetch water during lessons. He urged the assembly to provide a tanker service until the work was completed.
+>
+> Mr Asare undertook to report the request to the Coordinating Director. He admitted that no timetable had yet been agreed for the two remaining schools.
+
+Read Passage 8.1 again and notice three things. Not one sentence uses quotation marks, yet every paragraph reports somebody. Every tense is backshifted. And the reporting verbs — *explained*, *pointed out*, *replied*, *complained*, *urged*, *admitted* — do most of the work of telling you how the meeting went.
+
+> **Practice 8.2**
+>
+> 1. Report each question: (a) *“Where is the clinic?” he asked.* (b) *“Have you seen my book?” she asked.* (c) *“Why did you leave early?” the head asked.* (d) *“Shall I wait?” he asked.*
+>
+> 2. Report each command or request: (a) *“Close the gate,” he said.* (b) *“Please lend me your pen,” she said.* (c) *“Don't write in the margin,” the teacher said.* (d) *“You should see a doctor,” my aunt said.*
+>
+> 3. Choose the fairest reporting verb and explain your choice: the engineer *said / claimed / admitted* that no timetable had been agreed.
+>
+> 4. Turn three sentences of Passage 8.1 back into direct speech, with correct punctuation.
+>
+> 5. Correct: *He asked where did I go? · She told to me to sit. · They said me that the road was closed. · He asked me that when I would come.*
+
+#### 8.3 Question tags
+
+A **question tag** is a short question added to a statement to check it or to invite agreement: *You like tea, don't you?* Three rules build every tag in the language.
+
+**Opposite polarity.** A positive statement takes a negative tag; a negative statement takes a positive one.
+
+- *She is late, isn't she?* · *She isn't late, is she?* **Same auxiliary.** Repeat the auxiliary from the statement. Where there is none, use the correct form of
+
+- *do*. *You like tea, don't you?* · *He has gone, hasn't he?* **Same tense and person, and always a pronoun.** *Ama sings well, doesn't she?* — not *doesn't Ama?*
+
+| **Statement** | **Tag** | **Note** |
+| --- | --- | --- |
+| You are coming, | aren't you? | positive → negative |
+| You're not going to play today, | are you? | negative → positive |
+
+<!-- page 78 -->
+
+| She is older than me, | isn't she? | auxiliary *is* repeated |
+| --- | --- | --- |
+| You like tea, | don't you? | no auxiliary, so *do* is supplied |
+| He finished the work, | didn't he? | past simple → *did* |
+| They have arrived, | haven't they? | auxiliary *have* |
+| We shall meet on Friday, | shan't we? | *shall* repeated |
+| I am late, | aren't I? | the one irregular tag in English |
+| Let us begin, | shall we? | *let us* always takes *shall we* |
+| Close the door, | will you? | imperatives take *will you* or *won't you* |
+| Nobody came, | did they? | *nobody* is treated as negative and plural |
+| Nothing was said, | was it? | *nothing* is negative and singular |
+| Everyone has paid, | haven't they? | *everyone* takes *they* |
+| There is a problem, | isn't there? | *there* is repeated as the subject |
+
+*Table 8.7 — Question tags, including the awkward cases.*
+
+The last five rows are where marks are won and lost. *Nobody*, *no one*, *nothing*, *never*, *hardly*, *scarcely* and *seldom* all count as negatives, so the tag that follows them is positive.
+
+##### 8.3.1 What the voice does to a tag
+
+The same tag means two different things depending on the tune.
+
+| **Intonation** | **What the speaker means** | **Expected answer** |
+| --- | --- | --- |
+| Falling — *It's hot today, isn't it?* | I am not really asking; agree with me | *Yes, very.* |
+| Rising — *You paid the fee, didn't you?* | I am genuinely unsure; tell me | *Yes, I did* / *No, I didn't* |
+
+*Table 8.8 — Falling and rising tags.*
+
+This is not a decorative detail. A rising tag from a headteacher — *you handed in the form, didn't you?* — is a question. A falling one is an accusation dressed as a question. Speakers of English hear the difference without being taught it, and learners who use the wrong tune are misunderstood in ways they never find out about.
+
+> **Dialogue 8.1 — Tags at work**
+>
+> **Auntie:** You've been to the bank already, haven't you? *(falling — she assumes you have)*
+>
+> **Kofi:** I went this morning.
+>
+> **Auntie:** And they gave you the statement, didn't they? *(rising — she is not sure)*
+>
+> **Kofi:** They said it would be ready on Thursday.
+>
+> **Auntie:** Thursday. That's the third Thursday, isn't it? *(falling — she is making a point)*
+>
+> **Kofi:** It is.
+>
+> **Auntie:** Nobody there has ever heard of a queue, have they?
+>
+> **Kofi:** Auntie, let us go together on Thursday, shall we?
+
+> **Exam tip 8.1**
+>
+> In examinations, tag questions are tested most often on *I am* (→ *aren't I?*), on imperatives (→ *will you?*), on *let us* (→ *shall we?*) and after negative words such as *nobody* and *hardly*. Learn those four and you have the marks.
+
+_[answer space — 2 lines]_
+
+**Practice 8.3**
+
+<!-- page 79 -->
+
+> 1. Add the correct tag: (a) You are coming, ___ (b) She hasn't paid, ___ (c) They finished early, ___ (d) I am next, ___ (e) Let us start, ___ (f) Nobody objected, ___ (g) Close the window, ___ (h) There were three, ___
+>
+> 2. Correct: *You like tea, isn't it? · She is late, doesn't she? · Nobody came, didn't they? · I am right, am I not it?*
+>
+> 3. Say each tag twice, once falling and once rising, and state what each version means: *You locked the gate, didn't you?*
+>
+> 4. Write a six-turn conversation between a shopkeeper and a customer using at least four tags, marking each as rising or falling.
+
+> **Activity 8.1 — The reporter's notebook**
+>
+> You need: a partner; a notebook.
+>
+> What to do:
+>
+> 1. Interview a partner for five minutes on any of this year's themes, writing their exact words for at least eight answers.
+>
+> 2. Write up the interview as a news report of about two hundred words using reported speech throughout, with no quotation marks at all.
+>
+> 3. Underline each reporting verb and justify your choice of it.
+>
+> 4. Show the report to your partner, who must confirm that nothing has been misreported.
+>
+> Record: the notes, the report and your partner's comments.
+>
+> Think about it: which reporting verb did your partner object to, and why? That objection is exactly what newspapers are sued over.
+
+> **Activity 8.2 — Tag tennis**
+>
+> You need: nothing but a partner.
+>
+> What to do:
+>
+> 1. Make a statement. Your partner must add a correct tag within three seconds.
+>
+> 2. Swap. Continue for two minutes, keeping score.
+>
+> 3. In the second round, statements must contain *nobody*, *nothing*, *hardly*, *let us*, *I am* or an imperative.
+>
+> Record: your scores in both rounds.
+>
+> Think about it: which forms slowed you down? Those are the ones to drill.
+
+> **Apply it — The school news bulletin**
+>
+> Your class is to produce a one-page news bulletin for the school notice board.
+>
+> (a) Attend or recall a real meeting, assembly or match and take notes of what was said.
+>
+> (b) Write three reports of about a hundred and fifty words each, entirely in reported speech.
+>
+> (c) Use at least six different reporting verbs and justify each in the margin.
+>
+> (d) Include at least two reported questions and two reported requests or commands.
+>
+> (e) Write a short interview transcript in direct speech to accompany one report, correctly punctuated.
+>
+> (f) Read one report aloud to the class, then answer their questions — in which you must use at least three question tags, and say afterwards which were rising and which falling.
+
+<!-- page 80 -->
+
+#### Chapter summary
+
+- Reporting changes three things: the tense, the pronouns, and the words of time and place.
+
+- Backshift moves each tense one step into the past; *will* becomes *would* and *must* becomes *had to*.
+
+- No backshift is needed when the reporting verb is present, the statement is still true, or a past date is given.
+
+- A reported question takes statement word order, loses the auxiliary *do*, and ends with a full stop.
+
+- Yes/no questions are reported with *whether* or *if*; wh-questions keep their question word.
+
+- Commands, requests and advice are reported with an infinitive: *told me to*, *asked me to*, *advised me to*.
+
+- The reporting verb is never neutral — *claimed*, *admitted* and *insisted* each report the same words differently.
+
+- A question tag reverses the polarity, repeats the auxiliary, and always uses a pronoun.
+
+- *I am* takes *aren't I*, imperatives take *will you*, *let us* takes *shall we*, and negative words such as *nobody* take a positive tag.
+
+- A falling tag invites agreement; a rising tag is a real question.
+
+### Assessment
+
+*This assessment follows the modes the curriculum sets out: an objective test, a written response, a listening and speaking task, and a piece for your portfolio.*
+
+#### Section A — Objective test
+
+*Choose the correct option in each case.* 1.*“I am tired,” she said* becomes… A. She said she is tired. B. She said she was tired. C. She said that I was tired. D. She said she has been tired.
+
+2.In reported speech, *must* usually becomes… A. must B. had to C. would D. should 3.*“Where do you live?” he asked* becomes… A. He asked where do I live. B. He asked where did I live? C. He asked where I lived. D. He asked me where do you live.
+
+4.A yes/no question is reported using… A. that B. whether or if C. which D. so 5.*“Don't touch it,” he said* becomes… A. He said not to touch it. B. He told me not to touch it. C. He said that I don't touch it. D. He told me don't touch it.
+
+6.Which reporting verb suggests the speaker was giving ground? A. insisted B. claimed C. admitted D. urged 7.You are coming, ___ A. isn't it? B. aren't you? C. don't you? D. are you? 8.I am next, ___ A. amn't I? B. am I? C. aren't I? D. isn't it? 9.Nobody came, ___ A. did they? B. didn't they? C. did he? D. weren't they?
+
+10. A tag said with rising intonation shows that the speaker… A. expects agreement B. is genuinely asking C. is angry D. is being polite
+
+#### Section B — Theory and written response
+
+*Answer all four questions.* 1.(a) State the three kinds of change made when direct speech becomes reported speech. (b) Give the reported form of these tenses: present simple, present perfect, past simple, *will*, *can*, *must*. (c) Report in full: *“I met your father in this town last year, and I shall visit him again next month,” the trader told Kofi.* (d) State three occasions on which the tense need not be backshifted, with an example of each.
+
+2.(a) Explain the two things that must be undone when a question is reported. (b) Report each: *“Where is the clinic?” · “Have you paid?” · “Why did you leave early?” · “Shall I wait?”* (c) Explain why *He asked where did I*
+
+<!-- page 81 -->
+
+*go?* is wrong in two ways. (d) Report these commands and requests: *“Sit down.” · “Please help me.” · “Don't go near the gully.” · “You should rest.”*
+
+3.(a) Explain why the choice of reporting verb matters in a news report. (b) State what each conveys: *claimed, admitted, insisted, urged, complained, pointed out.* (c) Take four sentences of Passage 8.1 and turn them back into direct speech, correctly punctuated. (d) Write a news report of about a hundred and twenty words, entirely in reported speech, on any school event, using at least four different reporting verbs.
+
+4.(a) State the three rules for forming a question tag. (b) Supply the tags: *You are coming, ___ · She hasn't paid, ___ · I am next, ___ · Let us start, ___ · Nobody objected, ___ · Close the window, ___ · There were three, ___* (c) Explain why *nobody*, *hardly* and *nothing* are followed by a positive tag. (d) Explain the difference between a falling and a rising tag, and write a short exchange in which the same tag is used both ways.
+
+#### Section C — Listening and speaking
+
+*These tasks are carried out aloud and assessed as you perform them.* 1.Interview a partner for five minutes, taking down their exact words. Then report the interview aloud to the class in reported speech only, with no quotations, using at least five different reporting verbs. Your partner confirms or challenges any point they feel has been misreported.
+
+2.Play tag tennis in pairs for three minutes: one makes a statement, the other supplies the tag within three seconds. In the second round, every statement must contain *nobody*, *nothing*, *hardly*, *let us*, *I am*, or an imperative. Report your scores to the class.
+
+3.In pairs, perform a six-turn conversation using at least four question tags, deliberately varying the intonation. The class must say, for each tag, whether the speaker was seeking agreement or genuinely asking, and how they could tell.
+
+#### Section D — Portfolio and project
+
+*These pieces are collected in your portfolio over a longer period.* 1.Keep a reporter's notebook for three weeks. Record the exact words of at least fifteen things said to you or around you, then write each up in reported speech with a justified reporting verb. Close with a page on where backshifting or deixis most often caught you out.
+
+2.Produce a two-page school news bulletin containing three reports written entirely in reported speech, with at least two reported questions, two reported commands and six different reporting verbs, plus one correctly punctuated direct-speech interview. Annotate a copy showing every backshift and every deictic change you made.
+
+3.Compile a question-tag workbook for Basic 7 learners: an explanation of the three rules, a chart of at least thirty statement-and-tag pairs including all the irregular cases, a page on rising and falling intonation with an annotated dialogue, and a twenty-item test with an answer key.
+
+<!-- page 82 -->
+
+*Strand 3: Grammar Usage · Sub-Strand 2: Punctuation and Capitalisation*
+
+### Chapter 9: Punctuation and Capitalisation
+
+> **Curriculum alignment**
+>
+> **Strand 3: Grammar Usage**
+>
+> **Sub-Strand 2: Punctuation and Capitalisation**
+>
+> **Content standard B8/JHS2.3.2.1**
+>
+> Demonstrate mastery of capitalisation and punctuation in communication
+>
+> B8/JHS2.3.2.1.1 Use punctuation marks (colon, semi-colon, apostrophe) in context
+>
+> **Core competences**
+>
+> Communication and Collaboration; Creativity and Innovation; Digital Literacy; Personal Development and Leadership;
+>
+> Cultural Identity and Global Citizenship; Presentation
+
+#### Learning objectives
+
+By the end of this chapter you can:
+
+- use a colon to introduce a list, and know when a colon must not be used
+
+- use a colon to introduce a speaker's lines in a play script
+
+- use a colon between chapter and verse and between hours and minutes
+
+- use a semi-colon to join two independent clauses without a conjunction
+
+- use a semi-colon to separate items in a list that already contains commas
+
+- use a semi-colon before a conjunctive adverb such as *however* or *therefore*
+
+- form the possessive of singular, plural and irregular nouns correctly
+
+- place the apostrophe correctly in compound nouns, joint ownership and indefinite pronouns
+
+- distinguish possessive pronouns, which take no apostrophe, from contractions, which do
+
+- punctuate and capitalise a continuous text of your own accurately
+
+#### Key words
+
+> **Colon —** the mark ( : ) introducing a list, an explanation or a speaker.
+>
+> **Semi-colon —** the mark ( ; ) joining closely related independent clauses.
+>
+> **Apostrophe —** the mark ( ’ ) showing possession or contraction.
+>
+> **Independent clause —** a clause that could stand alone as a sentence.
+>
+> **Coordinating conjunction —** and, but, or, nor, for, so, yet.
+>
+> **Conjunctive adverb —** however, therefore, moreover, nevertheless, consequently.
+>
+> **Comma splice —** the error of joining two independent clauses with only a comma.
+>
+> **Possession —** the relationship of belonging, shown by an apostrophe.
+>
+> **Regular plural —** a plural formed with -s, such as \*boys\*.
+>
+> **Irregular plural —** a plural not formed with -s, such as \*children\*.
+>
+> **Indefinite pronoun —** somebody, anyone, everyone, nobody, one.
+>
+> **Possessive pronoun —** its, hers, ours, yours, theirs — never written with an apostrophe.
+>
+> **Contraction —** a shortened form in which an apostrophe replaces missing letters.
+>
+> **Joint ownership —** ownership shared by two or more people.
+>
+> **Separate ownership —** ownership held individually by two or more people.
+>
+> **Proper noun —** the name of a particular person, place, organisation or title.
+
+<!-- page 83 -->
+
+#### Engage
+
+There is a signboard in every town in this country that reads *Fresh Coconut's For Sale*. The coconuts do not own anything. That small mark, wrongly placed, is the single commonest error in written English, and it is one of three marks this chapter is about. Punctuation is not decoration added at the end. It is part of the sentence, and moving one mark can send a reader in the opposite direction — as anyone knows who has read *Let's eat, Grandma* and *Let's eat Grandma*.
+
+#### 9.1 The colon
+
+A **colon** looks forward. What stands before it is complete; what comes after it delivers what was promised. It has four uses you will need.
+
+##### 9.1.1 Introducing a list
+
+| **Correct** | **Wrong** | **Why** |
+| --- | --- | --- |
+| We need three things: a bucket, a rope and a lamp. | We need: a bucket, a rope and a lamp.what stands before a colon must be a | complete statement |
+| The following were absent: Ama, Kofi and Yaw. | The following were: Ama, Kofi and Yaw. | *The following were* is not complete |
+| Bring the following items: a pen, a ruler and a notebook. | Bring: a pen, a ruler and a notebook. | *Bring* alone does not stand |
+
+*Table 9.1 — The colon before a list.*
+
+The test is simple: cover everything from the colon onwards. If what remains is a complete sentence, the colon is right. If it is not, remove the colon and let the list run on.
+
+##### 9.1.2 Three more uses
+
+**Before a speaker's words in a play script.** *KOFI: I told you the gate was locked.* This is why every play in
+
+- Chapter 15 is set out with colons and no quotation marks. **Between chapter and verse.** *Genesis 1:1*, *Surah 2:255*.
+
+- **Between hours and minutes.** *The bus leaves at 6:30.* (Many British and Ghanaian writers prefer a full
+
+- stop — *6.30* — and either is accepted, provided you are consistent.) **Before an explanation or a summing-up.** *The reason was simple: nobody had been told.* Here the colon
+
+- means *namely* or *that is*.
+
+#### 9.2 The semi-colon
+
+A **semi-colon** looks both ways. It is stronger than a comma and weaker than a full stop, and it has exactly two jobs.
+
+##### 9.2.1 Joining two independent clauses
+
+Two sentences that are closely related may be joined with a semi-colon **when no coordinating conjunction is used**. Each side must be able to stand alone.
+
+| **Two sentences** | **Joined with a semi-colon** |
+| --- | --- |
+| The rains came early. The road was cut by June. | The rains came early; the road was cut by June. |
+| Some had paid. Others had not. | Some had paid; others had not. |
+| Do not blame the driver. The brakes had failed. | Do not blame the driver; the brakes had failed. |
+
+*Table 9.2 — Semi-colons joining independent clauses.*
+
+Using a comma for this job is the error called a **comma splice**: *The rains came early, the road was cut by June.* There are three cures — a full stop, a semi-colon, or a comma plus *and*, *but* or *so*. Note that if you put
+
+<!-- page 84 -->
+
+in the conjunction, the semi-colon must come out: *The rains came early, and the road was cut* — comma, not semi-colon.
+
+##### 9.2.2 Separating items in a complicated list
+
+When the items in a list already contain commas, the commas between items cannot be seen. Semi-colons make the divisions visible.
+
+| **Confusing** | **Clear** |
+| --- | --- |
+| The delegates were Mr Asare, the engineer, Madam Nkansah, the headteacher, and Yaw Boateng, the driver. | The delegates were Mr Asare, the engineer; Madam Nkansah, the headteacher; and Yaw Boateng, the driver. |
+| We visited Ho, in the Volta Region, Wa, in the Upper West, We visited Ho, in the Volta Region; Wa, in the Upper West; and Tarkwa, in the Western Region. | and Tarkwa, in the Western Region. |
+
+*Table 9.3 — Semi-colons in a list containing commas.*
+
+##### 9.2.3 Before a conjunctive adverb
+
+**However**, **therefore**, **moreover**, **nevertheless** and **consequently** are not conjunctions; they are adverbs. They cannot join two sentences with a comma alone.
+
+| **Wrong** | **Right** | **Also right** |
+| --- | --- | --- |
+| The pump arrived, however it was never installed. | The pump arrived; however, it was never installed. | The pump arrived. However, it was never installed. |
+| She studied hard, therefore she passed. | She studied hard; therefore, she passed. | She studied hard, so she passed. |
+
+*Table 9.4 — However and therefore need more than a comma.*
+
+> **Common misconception 9.1**
+>
+> *A semi-colon is a fancy comma.* It is not. A semi-colon can only stand where a full stop could stand — that is, between two complete sentences — or between items of a list that already contain commas. If a full stop would be wrong there, so is a semi-colon.
+
+> **Practice 9.1**
+>
+> 1. Insert colons where they are needed and remove any that are wrong: (a) We bought the following cassava, plantain and yam. (b) I need: a pen and a ruler. (c) The reason was clear nobody had been informed. (d) The service begins at 9 15.
+>
+> 2. Join each pair with a semi-colon: *The lorry was late. The market had closed. · Some farmers replanted.*
+>
+> *Others gave up.*
+>
+> 3. Correct the comma splices: *He rang the bell, nobody came. · The clinic has drugs, however there is no nurse.*
+>
+> 4. Punctuate with semi-colons: *The winners were Ama Mensah Form 3 Kofi Asante Form 2 and Adisa Yakubu Form 1.*
+>
+> 5. Explain the test for deciding whether a colon may be used before a list.
+
+#### 9.3 The apostrophe
+
+The **apostrophe** does two jobs and no others: it shows **possession** and it marks a **contraction**. It never makes a plural.
+
+##### 9.3.1 Possession
+
+_[answer space — 2 lines]_
+
+**Kind of noun**
+
+**Rule**
+
+**Example**
+
+<!-- page 85 -->
+
+| Singular noun | add ’s | the boy’s bag |
+| --- | --- | --- |
+| Singular ending in -s | add ’s (or ’ alone) | James’s book (or James’ book) |
+| Regular plural ending in -s | add ’ only | the boys’ bags |
+| Irregular plural | add ’s | the children’s books; the men’s room |
+| Compound noun | add ’s to the last word | my mother-in-law’s house; the Attorney General’s office |
+| Joint ownership | ’s on the last name only | Ama and Kofi’s father (they share one father) |
+| Separate ownership | ’s on each name | Ama’s and Kofi’s bags (each has her or his own) |
+| Indefinite pronoun | add ’s | somebody’s pen; anyone’s guess; one’s duty |
+| Time expressions | add ’s or ’ | a day’s journey; two weeks’ notice |
+| Firms and organisations | usually ’s, sometimes dropped | Barclays Bank; McDonald’s; Adjei’s Chemist |
+
+*Table 9.5 — Where the apostrophe goes.*
+
+The position of the mark carries information: *the boy's bags* is one boy with several bags; *the boys' bags* is several boys. A reader who knows the rule reads a fact off the punctuation, so misplacing it does not merely look careless — it misinforms.
+
+##### 9.3.2 Possessive pronouns take no apostrophe
+
+| **No apostrophe (possessive)** | **Apostrophe (contraction)** |
+| --- | --- |
+| its — *The dog wagged its tail.* | it’s — *It’s raining.* (it is) |
+| theirs — *The choice is theirs.* | there’s — *There’s a problem.* (there is) |
+| yours — *Is this yours?* | you’re — *You’re early.* (you are) |
+| whose — *Whose bag is this?* | who’s — *Who’s coming?* (who is) |
+| hers, ours — *That seat is hers.* | he’s, we’re — *He’s late; we’re ready.* |
+
+*Table 9.6 — The five pairs that cause most errors.*
+
+One test settles all five: read the apostrophe form out as two words. If *it is*, *you are*, *who is* or *there is* makes sense, the apostrophe is right. If it does not, take the apostrophe out.
+
+##### 9.3.3 What the apostrophe never does
+
+**It never makes a plural.** *Coconuts for sale*, not *coconut's*. *In the 1990s*, not *1990's*.
+
+- **It never appears in a verb.** *She runs*, not *she run's*.
+
+- **It is not needed in most organisation names that have dropped it** — but follow whatever the
+
+- organisation itself writes.
+
+> **Common misconception 9.2**
+>
+> *Any word ending in -s needs an apostrophe.* This is the belief behind *Coconut's For Sale*, *Taxi's Here* and *Two Room's To Let*. The mark shows possession or omission. If nothing is owned and no letters are missing, no apostrophe.
+
+#### 9.4 Capitalisation revisited
+
+Capital letters were treated in Basic 7. Three cases give trouble at this level and are worth stating precisely.
+
+| **Rule** | **Capital** | **No capital** |
+| --- | --- | --- |
+| Titles before a name | President Mahama, Nana Kwesi, Dr | the president spoke |
+
+<!-- page 86 -->
+
+|  | Boakye |  |
+| --- | --- | --- |
+| Directions against regions | the Northern Region, the Upper East | we drove north for an hour |
+| Subjects and languages | English, French, Twi, Mathematics (as a school subject) | she studies science and history |
+| Seasons and days | Monday, January, Easter, Ramadan | the harmattan, the rainy season |
+| Titles of works | *Things Fall Apart*, *The Dilemma of a* *Ghost* | small words inside a title: *of*, *a*, *the* |
+
+*Table 9.7 — Five capitalisation rules that are commonly broken.*
+
+> **Practice 9.2**
+>
+> 1. Insert apostrophes: *the girls uniforms (several girls) · the childrens books · James bag · my sister-in-laws shop · two weeks notice · somebodys sandals · Ama and Kofis mother (one mother)*.
+>
+> 2. Choose the correct form: *Its / It’s* a long way. · The dog hurt *its / it’s* leg. · *Whose / Who’s* driving? · *Whose / Who’s* car is this? · The fault is *theirs / there’s*.
+>
+> 3. Correct the signboards: *Fresh Coconut's For Sale · Two Room's To Let · Taxi's Here · Best Price's In Town*.
+>
+> 4. Capitalise correctly: *we travelled north to the northern region where dr mensah teaches english and twi at st augustine’s junior high school.*
+>
+> 5. Explain the difference in meaning between *the teacher’s desks* and *the teachers’ desks*.
+
+> **Model 9.1 — One paragraph, punctuated twice**
+>
+> **Unpunctuated:** *the committee met on friday at 4 30 and agreed three things the fence should be repaired the borehole should be tested and a caretaker should be appointed the chairman however warned that funds were short we shall look at the schools budget he said its already overspent*
+>
+> **Punctuated:** *The committee met on Friday at 4:30 and agreed three things: the fence should be repaired; the borehole should be tested; and a caretaker should be appointed. The chairman, however, warned that funds were short. “We shall look at the school’s budget,” he said. “It’s already overspent.”*
+>
+> **What the marks are doing:** the colon promises the three things; the semi-colons separate items that are themselves clauses; *however* is fenced with commas because it interrupts; *school’s* is a singular possessive;
+>
+> and *It’s* is a contraction of *it is* — which you can test by reading it out in full.
+
+> **Exam tip 9.1**
+>
+> In a punctuation question, read the passage aloud in your head before you write anything. Every place where your voice drops and stops is a full stop or a semi-colon; every place where it leans forward, expecting something, is a colon. The ear is a better first guide than the rules — and then the rules decide.
+
+> **Activity 9.1 — The signboard survey**
+>
+> You need: a notebook; a walk through your town or market.
+>
+> What to do:
+>
+> 1. Copy down twenty signboards, notices or posters exactly as written, including any errors.
+>
+> 2. Mark each as correct or incorrect, and classify the errors: wrong apostrophe, missing apostrophe, wrong
+
+<!-- page 87 -->
+
+> capital, comma splice, other.
+>
+> 3. Rewrite each incorrect one correctly.
+>
+> 4. Count which error was commonest.
+>
+> Record: the twenty signs with your corrections and the tally.
+>
+> Think about it: the plural apostrophe is almost certainly your commonest finding. Why do you think that particular error spreads so easily?
+
+> **Activity 9.2 — Punctuation restoration**
+>
+> You need: a paragraph of about a hundred and fifty words from any book.
+>
+> What to do:
+>
+> 1. Copy it out with every mark of punctuation and every capital removed.
+>
+> 2. Exchange with a partner and restore each other's paragraph.
+>
+> 3. Compare with the original and score one point for each mark correctly placed.
+>
+> 4. List every mark you got wrong and the rule that governs it.
+>
+> Record: both restored versions and the scores.
+>
+> Think about it: where your version differs from the original but is still defensible, say why. Some punctuation is rule; some is choice.
+
+> **Apply it — The school notice board**
+>
+> Your class has been asked to write the notices for the school notice board for one term.
+>
+> (a) Write a notice listing four items pupils must bring, using a colon correctly.
+>
+> (b) Write a notice of a meeting giving the day, the date and the time, punctuated correctly.
+>
+> (c) Write a list of prize winners with their classes and towns, using semi-colons.
+>
+> (d) Write four sentences about school property using singular, plural, irregular-plural and compound-noun possessives.
+>
+> (e) Write a short announcement of about eighty words containing at least two contractions and two possessives, and none of the errors in Table 9.6.
+>
+> (f) Display them, and have another class mark them for punctuation and capitalisation only.
+
+#### Chapter summary
+
+- A colon looks forward: what stands before it must be a complete statement.
+
+- The colon also introduces a speaker in a play, and separates chapter from verse and hours from minutes.
+
+- A semi-colon can stand only where a full stop could stand, or between list items that already contain commas.
+
+- Joining two independent clauses with a comma is a comma splice; the cures are a full stop, a semi-colon, or a comma plus a conjunction.
+
+- However, therefore and nevertheless are adverbs, not conjunctions, and need a semi-colon or a full stop before them.
+
+- Singular nouns take ’s; regular plurals take the apostrophe alone; irregular plurals take ’s.
+
+<!-- page 88 -->
+
+- In compound nouns the apostrophe goes on the last word; joint ownership marks only the last name, separate ownership marks each.
+
+- Possessive pronouns — its, hers, ours, yours, theirs, whose — never take an apostrophe.
+
+- Test every apostrophe of contraction by reading it out in full: it is, you are, who is, there is.
+
+- An apostrophe never makes a plural: *coconuts*, not *coconut's*.
+
+### Assessment
+
+*This assessment follows the modes the curriculum sets out: an objective test, a written response, a listening and speaking task, and a piece for your portfolio.*
+
+#### Section A — Objective test
+
+*Choose the correct option in each case.* 1.Which sentence uses the colon correctly? A. We need: rice, oil and salt. B. We need three things: rice, oil and salt. C. We need three things, rice: oil and salt. D. We: need rice, oil and salt.
+
+2.Which is a comma splice? A. He rang the bell, but nobody came. B. He rang the bell; nobody came. C. He rang the bell, nobody came. D. He rang the bell. Nobody came.
+
+3.Which sentence is correctly punctuated? A. The pump arrived, however it was never installed. B. The pump arrived; however, it was never installed. C. The pump arrived; however it was never installed, D. The pump arrived however, it was never installed.
+
+4.The bags belonging to several boys are the… A. boy’s bags B. boys bag’s C. boys’ bags D. boys’s bags 5.The books belonging to the children are the… A. childrens’ books B. children’s books C. childrens books D. children’ books
+
+6.Which is correct? A. my mother-in-law’s shop B. my mother’s-in-law shop C. my mother-in-laws’ shop D. my mothers-in-law’s shop
+
+7.Ama and Kofi share one father. Write it correctly. A. Ama’s and Kofi’s father B. Ama and Kofi’s father C. Ama’s and Kofi father D. Ama and Kofis’ father
+
+8.Which sentence is correct? A. The dog hurt it’s leg. B. Its raining heavily. C. The dog hurt its leg. D. The choice is their’s.
+
+9.*Fresh Coconut's For Sale* is wrong because the apostrophe… A. should be after the s B. should be a comma C. is not needed at all D. should be before the c
+
+10. Which needs a capital letter? A. we drove north for an hour B. the northern region C. the rainy season D. the harmattan
+
+#### Section B — Theory and written response
+
+*Answer all four questions.* 1.(a) State the four uses of the colon, with an example of each. (b) Give the test for deciding whether a colon may precede a list. (c) Correct: *We need: a pen, a ruler and a book. · The following were: Ama, Kofi and Yaw. · The reason was simple nobody had been told.* (d) Write a five-line extract from a play script, correctly punctuated with colons.
+
+2.(a) State the two jobs of the semi-colon. (b) Explain what a comma splice is and give the three ways of correcting one. (c) Punctuate: *The winners were Ama Mensah Form 3 Nkwanta Kofi Asante Form 2 Kete Krachi and Adisa Yakubu Form 1 Damanko.* (d) Explain why *however* cannot join two sentences with only a comma, and write the same sentence correctly in two different ways.
+
+3.(a) State the rule for forming the possessive of singular nouns, regular plurals, irregular plurals and compound nouns, with an example of each. (b) Explain the difference between joint and separate
+
+<!-- page 89 -->
+
+ownership, with an example of each. (c) Write the correct form: *the girls uniforms (several girls); two weeks notice; somebodys sandals; James book; the Attorney Generals office.* (d) Explain why *the teacher’s desks* and *the teachers’ desks* do not mean the same thing.
+
+4.(a) List the possessive pronouns that never take an apostrophe, and the contractions with which each is confused. (b) Give the test that distinguishes them and apply it to *its/it’s* and *whose/who’s* in sentences of your own. (c) Explain, with two examples, what the apostrophe never does. (d) Punctuate and capitalise the following fully: *the committee met on friday at 4 30 and agreed three things the fence should be repaired the borehole should be tested and a caretaker should be appointed the chairman however warned that funds were short*
+
+#### Section C — Listening and speaking
+
+*These tasks are carried out aloud and assessed as you perform them.* 1.Read aloud a passage of about a hundred and fifty words that has had its punctuation removed, using your voice to show where each mark belongs. Your listeners write down the marks they hear, and you compare their versions with the original.
+
+2.In a group of four, present the findings of a signboard survey of your town: read out ten signs as written, say what is wrong with each, and give the corrected version aloud. The class votes on the worst offender.
+
+3.In pairs, dictate to each other five sentences each containing possessives and contractions. The writer must justify aloud every apostrophe placed, giving the rule, before the pair moves to the next sentence.
+
+#### Section D — Portfolio and project
+
+*These pieces are collected in your portfolio over a longer period.* 1.Carry out a punctuation audit of your own written work over the term. Collect eight pieces, mark every colon, semi-colon and apostrophe, classify each as correct or incorrect, and keep a running tally by error type. Close with a page on which error you have eliminated and which persists.
+
+2.Produce a corrected signboard gallery: photograph or copy at least twenty real signs, notices or posters from your community, present each with its error identified by name and its corrected version, and add a one-page note on why the plural apostrophe error is so widespread.
+
+3.Write and correctly punctuate a piece of continuous writing of at least four hundred words on any theme of the year — a report, an article or a short play scene. It must contain at least two colons in different uses, three semi-colons in both of their uses, six possessives covering singular, plural, irregular and compound nouns, and four contractions. Submit an annotated copy naming the rule behind every mark.
+
+<!-- page 90 -->
+
+*Strand 3: Grammar Usage · Sub-Strand 3: Vocabulary*
+
+### Chapter 10: Building and Using Vocabulary
+
+> **Curriculum alignment**
+>
+> **Strand 3: Grammar Usage**
+>
+> **Sub-Strand 3: Vocabulary**
+>
+> **Content standard B8/JHS2.3.3.1**
+>
+> Demonstrate appropriate use of vocabulary in communication
+>
+> B8/JHS2.3.3.1.1 Use vocabulary appropriately in speaking and writing
+>
+> **Core competences**
+>
+> Communication and Collaboration; Creativity and Innovation; Presentation
+
+#### Learning objectives
+
+By the end of this chapter you can:
+
+- explain what a synonym is and why no two synonyms are perfectly equal
+
+- choose between near-synonyms according to strength, formality and attitude
+
+- use antonyms, including those formed with prefixes
+
+- recognise gradable and complementary opposites
+
+- explain the difference between denotation and connotation
+
+- choose words whose connotations suit your purpose and audience
+
+- recognise the connotation a writer or speaker has chosen, and say what it reveals
+
+- solve and construct analogies, naming the relationship on which each rests
+
+- use a thesaurus without producing unnatural English
+
+- keep a vocabulary record that leads to words you actually use
+
+#### Key words
+
+> **Synonym —** a word with nearly the same meaning as another.
+>
+> **Near-synonym —** a synonym that differs in strength, formality or attitude.
+>
+> **Antonym —** a word opposite in meaning to another.
+>
+> **Gradable opposite —** a pair with degrees between them, such as \*hot\* and \*cold\*.
+>
+> **Complementary opposite —** a pair with nothing between them, such as \*alive\* and \*dead\*.
+>
+> **Converse pair —** opposites that describe the same relation from two sides, such as \*buy\* and \*sell\*.
+>
+> **Denotation —** the plain dictionary meaning of a word.
+>
+> **Connotation —** the association a word carries beyond its plain meaning.
+>
+> **Positive connotation —** an association of approval.
+>
+> **Negative connotation —** an association of disapproval.
+>
+> **Neutral word —** a word carrying no approval or disapproval.
+>
+> **Euphemism —** a mild word used in place of a harsh one.
+>
+> **Analogy —** a comparison of two pairs standing in the same relationship.
+>
+> **Collocation —** words that habitually go together, such as \*heavy rain\*.
+>
+> **Register of a word —** the level of formality at which a word belongs.
+>
+> **Thesaurus —** a book listing words grouped by meaning.
+
+#### Engage
+
+<!-- page 91 -->
+
+*Thrifty. Careful. Economical. Prudent. Stingy. Mean. Miserly.* Seven words for one habit — keeping hold of money. A dictionary will tell you they all mean roughly the same thing. Anybody who has been called *thrifty* by an aunt and *stingy* by a friend on the same afternoon knows that a dictionary is not the whole story. Choosing between those seven is not decoration; it is how you say what you actually think while appearing merely to describe.
+
+#### 10.1 Synonyms
+
+A **synonym** is a word with nearly the same meaning as another. The word *nearly* is the whole subject. English hardly ever keeps two words that mean exactly the same thing; where it seems to, the two differ in one of three ways.
+
+| **They differ in** | **Example set** | **The difference** |
+| --- | --- | --- |
+| Strength | warm – hot – scalding | how much of the quality |
+| Formality | buy – purchase – procure | everyday, formal, official |
+| Attitude | thrifty – careful – stingy | approval, neutrality, disapproval |
+| Collocation | heavy rain, strong wind | *strong rain* is understood but not said |
+| Field | ill – sick – indisposed | general, general, formal or evasive |
+
+*Table 10.1 — Five ways near-synonyms differ.*
+
+This is why replacing every word in an essay with something from a thesaurus produces writing that no one wants to read. *He procured a beverage and ambulated to his abode* is not better English than *he bought a drink and walked home*; it is worse, because every choice is wrong for the occasion.
+
+| **Common word** | **More formal** | **Stronger** | **Weaker** |
+| --- | --- | --- | --- |
+| big | substantial | enormous | fairly large |
+| ask | request | demand | wonder |
+| said | stated | declared | murmured |
+| walk | proceed | stride | stroll |
+| angry | displeased | furious | annoyed |
+| end | conclude | terminate | stop |
+
+*Table 10.2 — Choosing along two scales at once.*
+
+> **Exam tip 10.1**
+>
+> When a question asks for a word *similar in meaning as used in the passage*, the last four words are the whole question. Test your answer by putting it back into the sentence. If the sentence now sounds odd, the word is a synonym of the dictionary entry and not of the use.
+
+#### 10.2 Antonyms
+
+An **antonym** is a word opposite in meaning. Opposites come in three kinds, and knowing which kind you are dealing with prevents a common error of reasoning.
+
+| **Kind** | **Example** | **Test** |
+| --- | --- | --- |
+| Gradable | hot / cold, rich / poor, big / small | there are degrees: *quite hot*, *very cold* |
+| Complementary | alive / dead, present / absent, pass / fail | no middle: not alive means dead |
+| Converse | buy / sell, teacher / pupil, parent / child | the same relation from two sides |
+
+*Table 10.3 — Three kinds of opposite.*
+
+<!-- page 92 -->
+
+The error to avoid: with **gradable** opposites, *not hot* does not mean *cold* — the afternoon may be merely warm. With **complementary** opposites it does: *not present* means *absent*, and there is no third choice. Debaters and advertisers both exploit the confusion.
+
+##### 10.2.1 Opposites made with prefixes
+
+| **Prefix** | **Used before** | **Examples** |
+| --- | --- | --- |
+| un- | many adjectives and verbs | unfair, unable, unlock, unnecessary |
+| in- | many Latin-derived words | incapable, insufficient, invisible |
+| im- | words beginning with m or p | impossible, immature, impatient |
+| il- | words beginning with l | illegal, illiterate, illogical |
+| ir- | words beginning with r | irregular, irresponsible, irrelevant |
+| dis- | verbs and some nouns | disagree, dishonest, disadvantage |
+| non- | neutral negation | non-fiction, non-payment, non-violent |
+| mis- | wrongly | misunderstand, misreport, misplace |
+
+*Table 10.4 — Prefixes that reverse meaning.*
+
+*Non-* is worth a second look. It negates without condemning: *non-payment* is a fact, while *failure to pay* implies fault. Choosing *non-* is often a way of being fair.
+
+#### 10.3 Denotation and connotation
+
+The **denotation** of a word is its plain dictionary meaning. Its **connotation** is what the word drags along behind it — the approval, disapproval, warmth or coldness attached to it by long use.
+
+| **Same denotation** | **Positive** | **Neutral** | **Negative** |
+| --- | --- | --- | --- |
+| keeping money | thrifty | careful with money | stingy |
+| a group of people | gathering | crowd | mob |
+| not changing one's mind | firm | determined | stubborn |
+| speaking a great deal | eloquent | talkative | garrulous |
+| young | youthful | young | childish |
+| cheap | affordable | inexpensive | cheap |
+| a plan | initiative | plan | scheme |
+| an unusual idea | original | unusual | odd |
+
+*Table 10.5 — One denotation, three connotations.*
+
+Notice what this means for reading. When a writer calls a gathering a **mob**, no fact has been added to the report; an opinion has been inserted while appearing to describe. This is the commonest way in which writing takes sides without admitting it, and spotting it is a reading skill as much as a vocabulary one.
+
+> **Model 10.1 — The same event, three ways**
+>
+> **Neutral:** *About two hundred people gathered outside the assembly offices on Tuesday. A spokesperson said the group was protesting about the water supply.*
+>
+> **Sympathetic:** *About two hundred residents assembled outside the assembly offices on Tuesday, appealing for action on a water supply that has failed them for three years.*
+>
+> **Hostile:** *A mob of some two hundred descended on the assembly offices on Tuesday, demanding that officials do something about their water.*
+
+<!-- page 93 -->
+
+> **What changed:** not one fact. *People* became *residents* and then *a mob*; *gathered* became *assembled* and then *descended on*; *protesting about* became *appealing for* and then *demanding*. Each version is defensible in court and none is neutral except the first.
+
+##### 10.3.1 Euphemism
+
+A **euphemism** is a mild expression put in place of a harsh one: *passed away* for *died*, *let go* for *dismissed*, *a challenging pupil* for *a badly behaved one*. Euphemism can be kindness — at a funeral it certainly is — or it can be concealment, as when *staff rationalisation* is used to mean that two hundred people lost their jobs. The reader's task is to notice which it is.
+
+> **Practice 10.1**
+>
+> 1. Arrange from weakest to strongest: *annoyed, furious, displeased, irritated, enraged*.
+>
+> 2. Give one positive and one negative synonym for each: *confident, careful, quiet, curious, proud*.
+>
+> 3. Say which kind of opposite each pair is: *rich/poor · alive/dead · buy/sell · legal/illegal · teacher/pupil*.
+>
+> 4. Form the opposite with the right prefix: *legal, mature, responsible, sufficient, literate, honest, relevant, payment*.
+>
+> 5. Rewrite this sentence twice, once sympathetically and once hostilely, changing no facts: *Thirty traders remained at the market after the closing hour and spoke to the officers.*
+>
+> 6. What is being concealed in each euphemism: *staff rationalisation, collateral damage, revenue enhancement, let go*?
+
+#### 10.4 Analogies
+
+An **analogy** sets two pairs side by side and claims the same relationship holds in both: *hand is to arm as foot is to leg*. Written in the short form, this is *hand : arm :: foot : leg*. To solve one, name the relationship in a full sentence before looking at the options.
+
+| **Relationship** | **Example** | **Say it as** |
+| --- | --- | --- |
+| Part to whole | petal : flower :: page : book | a petal is part of a flower |
+| Whole to part | week : day :: year : month | a week is made up of days |
+| Worker to tool | farmer : hoe :: tailor : needle | a farmer works with a hoe |
+| Worker to place | nurse : clinic :: teacher : school | a nurse works in a clinic |
+| Cause to effect | rain : flood :: drought : famine | rain can cause a flood |
+| Synonym | brave : courageous :: sad : sorrowful | brave means courageous |
+| Antonym | hot : cold :: rich : poor | hot is the opposite of cold |
+| Degree | warm : hot :: cool : cold | warm is a milder form of hot |
+| Object to function | knife : cut :: pen : write | a knife is used to cut |
+| Young to adult | calf : cow :: chick : hen | a calf is a young cow |
+| Product to source | cloth : cotton :: bread : flour | cloth is made from cotton |
+| Class to member | fruit : mango :: bird : hawk | a mango is a kind of fruit |
+
+*Table 10.6 — Twelve relationships on which analogies rest.*
+
+> **Common misconception 10.1**
+>
+> *In an analogy, choose the word most closely related to the last one.* No — choose the word that repeats the **relationship**. In *doctor : hospital :: teacher : ?* the answer is *school*, not *pupil*, however closely teachers and pupils are connected. Name the relationship aloud first — *a doctor works in a hospital* — and the trap
+
+<!-- page 94 -->
+
+> disappears.
+
+> **Practice 10.2**
+>
+> 1. Complete and name the relationship: (a) *hoe : farmer :: chalk : ___* (b) *puppy : dog :: ___ : cat* (c) *hunger :*
+>
+> *famine :: ___ : flood* (d) *generous : mean :: brave : ___* (e) *page : book :: room : ___*
+>
+> 2. Write one analogy of your own for each of these relationships: cause and effect, object and function, class and member, degree.
+>
+> 3. Explain why, in *doctor : hospital :: teacher : ?*, the answer is not *pupil*.
+>
+> 4. Make an analogy using words from your own district — a trade, a tool, a crop and a market.
+
+#### 10.5 Making new words your own
+
+A word is not learnt when you can define it. It is learnt when you use it without noticing that you have. Four steps get a word from the page into your speech.
+
+**Meet it in context.** Record the sentence you found it in, not just the word.
+
+- **Fix its class and its family.** Is it a noun, verb or adjective? What else is built on the same root?
+
+- **Note its company.** Which words does it go with? *Heavy rain*, *strong wind*, *severe drought* — collocation
+
+- is what makes a sentence sound native.
+
+- **Use it three times within a week** — once in writing, twice in speech. A word used three times is yours;
+
+- a word looked up and admired is not.
+
+| **Word** | **Sentence I found it in** | **Class and family** | **My sentence** |
+| --- | --- | --- | --- |
+| *serene* | *The hotel is situated in a* *serene environment.* | adj.; serenity, serenely | *The lagoon was serene at* *six in the morning.* |
+| *sustain* | *The soil could no longer* *sustain a crop.* | verb; sustainable, sustenance | *Two boreholes cannot* *sustain a town of this size.* |
+
+*Table 10.7 — A vocabulary record with four columns.*
+
+> **Activity 10.1 — The connotation line**
+>
+> You need: card; a length of string or a chalk line on the floor.
+>
+> What to do:
+>
+> 1. Write one word from a set of near-synonyms on each card — for example *slim, slender, thin, skinny, bony, underweight*.
+>
+> 2. As a class, place the cards along a line running from *most approving* to *most disapproving*. Everyone must agree on the order before a card is fixed.
+>
+> 3. Repeat with sets for *clever*, *confident* and *cheap*.
+>
+> 4. Write down every case where the class could not agree.
+>
+> Record: the four lines and the disagreements.
+>
+> Think about it: the disagreements are the interesting part. Connotation is not fixed in a dictionary; it is what a community of speakers has come to feel.
+
+> **Activity 10.2 — Rewrite the report**
+>
+> You need: any short factual report from a newspaper or the school notice board.
+
+<!-- page 95 -->
+
+> What to do:
+>
+> 1. Underline every word that carries a connotation, positive or negative.
+>
+> 2. Rewrite the report twice, changing no facts: once to favour the subject, once against.
+>
+> 3. Read all three versions to a group who have not seen the original, and ask which is true.
+>
+> Record: the three versions and the group's response.
+>
+> Think about it: if all three are factually accurate, what exactly is the difference between them — and which would you want written about yourself?
+
+> **Apply it — The word bank**
+>
+> Working in groups of four, build a word bank for one of the year's themes — for example health, entrepreneurship or the environment.
+>
+> (a) Collect at least forty words from your own reading on that theme, each with the sentence you found it in.
+>
+> (b) For twenty of them, give a synonym and an antonym.
+>
+> (c) Group ten sets of near-synonyms along a connotation line from approving to disapproving.
+>
+> (d) Write ten analogies using words from the bank, naming the relationship in each.
+>
+> (e) Write a paragraph of about a hundred and fifty words on the theme using at least fifteen of your words.
+>
+> (f) Rewrite that paragraph for a different audience — a younger class, or a district official — changing only the words whose register or connotation no longer suits.
+
+#### Chapter summary
+
+- English rarely keeps two words with exactly the same meaning; near-synonyms differ in strength, formality, attitude, collocation or field.
+
+- A thesaurus supplies candidates, not answers — test every replacement by putting it back in the sentence.
+
+- Opposites are gradable, complementary or converse, and *not hot* means *cold* only for the complementary kind.
+
+- Prefixes un-, in-, im-, il-, ir-, dis-, non- and mis- reverse meaning, and *non-* negates without condemning.
+
+- Denotation is the dictionary meaning; connotation is the approval or disapproval the word carries.
+
+- Choosing *mob* rather than *crowd* adds no fact but inserts an opinion.
+
+- Euphemism may be kindness or concealment, and a reader's task is to tell which.
+
+- In an analogy, name the relationship in a full sentence before choosing an answer.
+
+- The commonest analogy trap is choosing the most closely related word rather than the matching relationship.
+
+- A word is learnt when it has been used three times, not when it has been defined once.
+
+### Assessment
+
+*This assessment follows the modes the curriculum sets out: an objective test, a written response, a listening and speaking task, and a piece for your portfolio.*
+
+#### Section A — Objective test
+
+*Choose the correct option in each case.* 1.A word with nearly the same meaning as another is a… A. synonym B. antonym C. homonym D. analogy 2.Which word has the most negative connotation? A. thrifty B. careful C. economical D. stingy
+
+<!-- page 96 -->
+
+3.The plain dictionary meaning of a word is its… A. connotation B. denotation C. collocation D. derivation 4.*Alive* and *dead* are… A. gradable opposites B. complementary opposites C. converse pairs D. synonyms 5.*Buy* and *sell* are… A. gradable opposites B. complementary opposites C. converse pairs D. near-synonyms 6.Which prefix gives the opposite of *responsible*? A. un- B. in- C. ir- D. dis- 7.*Passed away* for *died* is an example of… A. an analogy B. a euphemism C. a collocation D. an antonym 8.*Hoe : farmer :: chalk : ___* A. board B. classroom C. teacher D. lesson 9.*Doctor : hospital :: teacher : ___* A. pupil B. school C. book D. lesson
+
+10. Which pair shows the correct collocation? A. strong rain B. heavy wind C. heavy rain D. powerful rain
+
+#### Section B — Theory and written response
+
+*Answer all four questions.* 1.(a) Explain why two synonyms are rarely equal, naming three ways in which they differ. (b) Arrange from weakest to strongest: *annoyed, enraged, displeased, furious, irritated.* (c) Explain what is wrong with *He procured a beverage and ambulated to his abode.* (d) Give three pairs of words that collocate and three that do not, and explain how a learner can find out which is which.
+
+2.(a) Name the three kinds of opposite and give two examples of each. (b) Explain why *not hot* does not mean *cold*, but *not present* does mean *absent*. (c) Form the opposite of each with the correct prefix: *legal, mature, sufficient, literate, relevant, honest, payment, understand.* (d) Explain the difference in effect between *non- payment* and *failure to pay*.
+
+3.(a) Explain the difference between denotation and connotation, with an example. (b) Give a positive, a neutral and a negative word for each of: a group of people, a person who does not change their mind, a person who talks a great deal. (c) Rewrite this sentence twice, once favourably and once unfavourably, without changing any fact: *Thirty traders remained at the market after closing time and spoke to the officers.* (d) Explain, with two examples, when euphemism is kindness and when it is concealment.
+
+4.(a) Explain what an analogy is and describe the method for solving one. (b) Complete and name the relationship in each: *puppy : dog :: ___ : cat · page : book :: room : ___ · cloth : cotton :: bread : ___ · warm : hot :: cool : ___* (c) Explain why the answer to *doctor : hospital :: teacher : ?* is not *pupil*. (d) Write four analogies of your own using words from your district, naming the relationship in each.
+
+#### Section C — Listening and speaking
+
+*These tasks are carried out aloud and assessed as you perform them.* 1.Take part in a class connotation line: with a set of near-synonyms on cards, the class must agree aloud on their order from most approving to most disapproving, each learner justifying any card they move. Report afterwards on the sets where the class could not agree.
+
+2.Read aloud your neutral, sympathetic and hostile versions of the same short report to a group who have not seen the original. Ask them which is true, then explain to them which words did the work.
+
+3.In pairs, play a two-minute analogy game: one gives three terms aloud, the other supplies the fourth and must name the relationship in a full sentence before the point is scored.
+
+#### Section D — Portfolio and project
+
+*These pieces are collected in your portfolio over a longer period.* 1.Keep a four-column vocabulary record for the whole term: the word, the sentence you met it in, its class and word family, and a sentence of your own. Enter at least sixty words, and mark those you have used in speech at least twice. Close with a page on which kinds of word stuck and which did not.
+
+<!-- page 97 -->
+
+2.Build a themed word bank of at least forty words with synonyms, antonyms, connotation lines and analogies, and use it to write two versions of a paragraph on the theme for two different audiences, with a note explaining every word you changed between the versions.
+
+3.Collect at least eight reports of the same kind of event from different sources over the term. Produce an analysis of at least two pages on the connotations each writer chose — the nouns, the verbs and any euphemisms — with a table of the loaded words found, the neutral alternative in each case, and your conclusion about which sources describe and which judge.
+
+<!-- page 98 -->
+
+## Strand 4: Writing
+
+*Strand 4: Writing · Sub-Strand 1: Production and Distribution of Writing*
+
+### Chapter 11: Paragraphs, Cohesion and Openings
+
+> **Curriculum alignment**
+>
+> **Strand 4: Writing**
+>
+> **Sub-Strand 1: Production and Distribution of Writing**
+>
+> **Content standard B8/JHS2.4.1.1**
+>
+> Develop, organise and express ideas coherently and cohesively in writing
+>
+> B8/JHS2.4.1.1.1 Demonstrate understanding of how different sentences relate within a paragraph using appropriate cohesive devices (e.g., connectors, pronouns, repetition of vocabulary or grammatical structures)
+>
+> **Content standard B8/JHS2.4.1.2**
+>
+> Create different paragraphs within a composition on a given topic
+>
+> B8/JHS2.4.1.2.1 Record and use different techniques to capture the reader’s attention in introductory paragraphs
+>
+> **Core competences**
+>
+> Communication and Collaboration; Creativity and Innovation; Critical Thinking and Problem Solving; Digital Literacy;
+>
+> Personal Development and Leadership; Cultural Identity and Global Citizenship; Presentation
+
+#### Learning objectives
+
+By the end of this chapter you can:
+
+- explain what makes a paragraph unified, coherent and complete
+
+- use logical connectors of time, condition, purpose, reason, result, concession, place and manner
+
+- use subject, object and demonstrative pronouns to link sentences without ambiguity
+
+- use repetition, synonyms and antonyms to hold a paragraph together
+
+- expand a sentence with defining and non-defining relative clauses
+
+- expand a sentence with noun, adjectival and adverbial phrases
+
+- arrange the sentences of a paragraph in a logical sequence
+
+- open a composition with an anecdote, a striking fact, a question or a scene
+
+- match the opening technique to the type of text you are writing
+
+- revise a paragraph of your own for cohesion, coherence and unity
+
+#### Key words
+
+> **Paragraph —** a group of sentences developing one idea.
+>
+> **Unity —** the quality of a paragraph in which every sentence serves one idea.
+>
+> **Coherence —** the quality of ideas following one another in a sensible order.
+>
+> **Cohesion —** the linking of sentences by words that point back and forward.
+>
+> **Completeness —** the quality of a paragraph that has developed its idea sufficiently.
+>
+> **Logical connector —** a word or phrase showing the relation between clauses.
+>
+> **Time clause —** a clause introduced by when, before, after, since, while, as or until.
+>
+> **Conditional clause —** a clause introduced by if or unless.
+>
+> **Purpose clause —** a clause introduced by \*in order to\* or \*so that\*.
+>
+> **Reason clause —** a clause introduced by because, since or as.
+>
+> **Result clause —** a clause showing the outcome, introduced by \*so\* or \*so that\*.
+
+<!-- page 99 -->
+
+> **Concessive clause —** a clause introduced by although, though or while.
+>
+> **Referent —** the word or idea a pronoun points back to.
+>
+> **Ambiguous reference —** a pronoun that could point to more than one thing.
+>
+> **Demonstrative pronoun —** this, that, these, those.
+>
+> **Noun phrase —** a group of words doing the work of a noun.
+>
+> **Adjectival phrase —** a group of words describing a noun.
+>
+> **Adverbial phrase —** a group of words saying how, when, where or why.
+>
+> **Anecdote —** a very short story told to make a point.
+>
+> **Hook —** the opening that catches a reader's attention.
+
+#### Engage
+
+Read the first sentence of any newspaper article and you will keep reading or you will not, and the decision takes about two seconds. Inside the article, something quieter is going on: each sentence reaches back and takes hold of the one before it. When those grips are firm you say the writing *flows*, without being able to point at anything in particular. This chapter shows you what you were failing to point at.
+
+#### 11.1 What makes a paragraph
+
+A paragraph is a group of sentences developing **one** idea. Three qualities decide whether it works, and they are separate things that learners routinely confuse.
+
+| **Quality** | **Question it answers** | **What its absence looks like** |
+| --- | --- | --- |
+| Unity | Is every sentence about the one idea? | a stray sentence about something else |
+| Coherence | Do the ideas come in a sensible order?sentences that could be shuffled | without loss |
+| Cohesion | Are the sentences linked by words? | correct sentences that feel like a list |
+| Completeness | Has the idea been developed enough?a claim with nothing to support it |  |
+
+*Table 11.1 — Four qualities of a paragraph.*
+
+Coherence and cohesion are not the same. **Coherence** is in the ideas; **cohesion** is in the words. A paragraph can be full of connectors and still make no sense, and a paragraph with no connectors at all can be perfectly clear. You need both.
+
+#### 11.2 Cohesion by logical connectors
+
+A **logical connector** states the relation between two ideas so that the reader does not have to guess it. Eight relations cover nearly everything you will need.
+
+| **Relation** | **Connectors** | **Example** |
+| --- | --- | --- |
+| Time | when, before, after, since, while, as, until | *Until the pump was repaired, the* *school fetched water from the stream.* |
+| Condition | if, unless, provided that | *Unless the drains are cleared, the road* *will flood again.* |
+| Purpose | in order to, so as to, so that | *They planted along the bank so that* *the soil would hold.* |
+| Reason | because, since, as | *Since no record was kept, nobody* *could prove the payment.* |
+| Result | so, so that, therefore, as a result | *The rains were late; as a result, the* *maize failed.* |
+| Concession | although, though, while, even though | *Although the fees were paid, the* *books never arrived.* |
+
+<!-- page 100 -->
+
+| Place | where, wherever | *Wherever the trees were left standing,* *the bank held.* |
+| --- | --- | --- |
+| Manner | as, like, the way | *She kept the accounts the way her* *mother had taught her.* |
+| Contrast | however, nevertheless, on the other hand | *The scheme is popular. However, it has* *never been costed.* |
+
+*Table 11.2 — Nine relations and the words that carry them.*
+
+> **Exam tip 11.1**
+>
+> *Although* and *but* do the same job, so using both is an error: *Although he was tired, but he finished the work* should be *Although he was tired, he finished the work* — or *He was tired, but he finished the work.* The same applies to *because* with *so*.
+
+#### 11.3 Cohesion by pronouns
+
+A pronoun is a hook backwards. Every pronoun must have a clear **referent** — the word it stands for — and the reader must be able to find it without effort.
+
+| **Type** | **Words** | **Example** |
+| --- | --- | --- |
+| Subject pronouns | he, she, it, they, we | *The engineer arrived late. He blamed* *the traffic.* |
+| Object pronouns | me, him, her, them, us | *The traders saw the officer and* *greeted him.* |
+| Demonstratives | this, that, these, those | *Two boreholes failed in one year. This* *alarmed the assembly.* |
+| Possessives | his, her, their, its | *Every school submitted its report.* |
+
+*Table 11.3 — Pronouns as links.*
+
+> **Common misconception 11.1**
+>
+> *Any pronoun will do as long as the reader can work it out.* Consider: *Kofi told Yaw that his bicycle had been stolen.* Whose bicycle? The sentence is grammatical and useless. Where two possible referents stand nearby, name the person: *Kofi told Yaw that Yaw's bicycle had been stolen* — or recast the sentence entirely.
+
+**This** and **that** can point back to a whole idea rather than to a single noun, which makes them powerful and dangerous. *The pump broke, the funds were diverted and no record was kept. This is why the school still has no water.* Here *this* means the whole preceding sentence. If there is any doubt, add a noun: *This combination of failures…*
+
+#### 11.4 Cohesion by repetition, synonyms and antonyms
+
+The third way of holding a paragraph together is through the vocabulary itself.
+
+**Repetition.** Repeating a key word deliberately is not poor style; it is a thread. *Water* repeated four
+
+- times in a paragraph about water keeps the reader oriented. **Synonyms.** Varying between *the borehole*, *the pump* and *the water point* avoids monotony while
+
+- keeping the subject in view — provided the reader knows they are the same thing. **Antonyms.** Setting an opposite against a word links two sentences by contrast: *The town gained a*
+
+- *mast. It lost a footpath.*
+
+<!-- page 101 -->
+
+**Repeated structure.** Beginning three sentences the same way binds them: *Nobody reported it. Nobody*
+
+- *costed it. Nobody was asked to.*
+
+> **Model 11.1 — A paragraph without cohesion, and the same paragraph with it**
+>
+> **Weak:** *The school has no water. The pump broke last year. The assembly promised repairs. Pupils fetch water from the stream. Lessons are missed. The stream is a kilometre away. Nothing has been done.*
+>
+> **Revised:** *The school has had no water since the pump broke last year. Although the assembly promised repairs at the time, nothing has been done. As a result, pupils now fetch water from the stream, which is a kilometre away, and lessons are missed every morning while they do it.*
+>
+> **What changed:** *since* makes the time relation explicit; *although* concedes the promise before setting it aside;
+>
+> *as a result* names the consequence; the relative clause *which is a kilometre away* folds one whole sentence into another; and *while they do it* ties the missed lessons to the fetching. Seven flat sentences became three connected ones — and the paragraph is now shorter.
+
+#### 11.5 Expanding sentences
+
+Mature writing is not made of longer words; it is made of sentences that carry more. Four devices expand a sentence without spoiling it.
+
+| **Device** | **Simple** | **Expanded** |
+| --- | --- | --- |
+| Defining relative clause | The pump has been repaired. | The pump **that serves the three** **schools** has been repaired. |
+| Non-defining relative clause | Mr Asare promised action. | Mr Asare, **who is the district engineer**, promised action. |
+| Noun phrase | It worried the head. | **The cost of the replacement parts** worried the head. |
+| Adjectival phrase | The road was closed. | The road, **narrow and badly drained**, was closed. |
+| Adverbial phrase | They replanted. | They replanted **along the riverbank,** **early in the season**. |
+
+*Table 11.4 — Five ways of expanding a sentence.*
+
+Two cautions. A non-defining clause must be fenced with commas, as you learnt in Chapter 7. And expansion has a limit: when a sentence carries more than about twenty-five words, read it aloud. If you run out of breath, your reader has run out of patience.
+
+> **Practice 11.1**
+>
+> 1. Join with the connector named: (a) time — *The rains came. The road was cut.* (b) concession — *The fees were paid. The books never arrived.* (c) purpose — *They planted trees. The soil would hold.* (d) result — *No record was kept. Nobody could prove payment.*
+>
+> 2. Correct: *Although he was tired, but he finished. · Because it rained, so we stayed indoors.*
+>
+> 3. Remove the ambiguity: *Kofi told Yaw that his bicycle had been stolen. · The teachers told the pupils that they were late.*
+>
+> 4. Expand each sentence twice, once with a relative clause and once with an adverbial phrase: *The market was closed. · The nurse arrived.*
+
+<!-- page 102 -->
+
+> 5. Rewrite this as three connected sentences: *The clinic has one nurse. There are four villages. Patients wait all day. Some go to a herbalist. The nurse is due to retire.*
+
+#### 11.6 Introductory paragraphs
+
+The introduction has two jobs: to make the reader want to continue, and to say what the piece is about. An opening that does only the first is a trick; one that does only the second is a label. Five techniques do both.
+
+| **Technique** | **How it works** | **Suits** |
+| --- | --- | --- |
+| Anecdote | a very short true story about one person | articles, speeches, narrative |
+| Striking fact or figure | one number the reader did not expectreports, argument, articles |  |
+| Question | a question the reader wants answeredargument, speeches — used sparingly |  |
+| Scene | a place described in two sentences | descriptive and narrative writing |
+| Contradiction | two facts that do not sit together | argument and analysis |
+
+*Table 11.5 — Five ways to open.*
+
+> **Model 11.2 — Five openings on one topic: \*Water at our school\***
+>
+> **Anecdote:** *At half past seven every morning, Adisa Yakubu of Form 2 sets off with two buckets. She is back by ten past eight, and by then the first lesson is half over.*
+>
+> **Striking fact:** *In one term, our school lost the equivalent of eleven school days to fetching water.*
+>
+> **Question:** *What would you give up in order to have water at school — a lesson a day, or a year of your education?*
+>
+> **Scene:** *The tap behind the science block has a bucket beneath it that has not been moved in fourteen months.*
+>
+> *It is dry, and so is the tap.*
+>
+> **Contradiction:** *Our school has a borehole, a pump and a storage tank. It also has a queue of pupils at the stream every morning.*
+>
+> **Weak, for comparison:** *In this composition I am going to write about the water problem in my school and its causes and effects and solutions.* — This announces an essay instead of beginning one.
+
+##### 11.6.1 Logical sequence in the opening
+
+Whatever the technique, the sentences of an introduction move in a recognised order, and the order depends on the text type.
+
+| **Text type** | **Order of the opening** |
+| --- | --- |
+| Argument | hook → the issue → what is disputed → your position |
+| Report | hook → what happened → where and when → why it matters |
+| Narrative | scene or moment → who → what is about to change |
+| Description | the whole → the striking detail → the observer's position |
+| Letter of complaint | what is being written about → when it happened → what is |
+
+<!-- page 103 -->
+
+_[answer space — 2 lines]_
+
+now asked
+
+*Table 11.6 — What an opening does, by text type.*
+
+> **Practice 11.2**
+>
+> 1. Write five openings for the topic *The market on Saturday*, one of each technique in Table 11.5.
+>
+> 2. Explain what is wrong with *In this composition I am going to write about…* and rewrite it as a proper opening.
+>
+> 3. For an argument about mobile phones in school, write an opening of four sentences following the order in
+>
+> Table 11.6.
+>
+> 4. Take an introduction from a newspaper article and name the technique used. Would another have worked better?
+
+> **Activity 11.1 — The cohesion repair shop**
+>
+> You need: a flat paragraph of six or seven short unlinked sentences, written by your partner.
+>
+> What to do:
+>
+> 1. Exchange paragraphs.
+>
+> 2. Rewrite your partner's paragraph using at least three logical connectors, one pronoun link, one relative clause and one deliberate repetition.
+>
+> 3. Count the sentences before and after, and the words before and after.
+>
+> 4. Return it and let your partner say whether the meaning survived intact.
+>
+> Record: both versions with the counts.
+>
+> Think about it: did your rewrite get shorter? Cohesive writing usually does, because linking removes the need to repeat whole sentences.
+
+> **Activity 11.2 — Openings auction**
+>
+> You need: one topic for the whole class; slips of paper.
+>
+> What to do:
+>
+> 1. Everyone writes one opening paragraph on the same topic, of not more than fifty words.
+>
+> 2. All are read out anonymously.
+>
+> 3. Each learner has three votes for the openings that most make them want to read on.
+>
+> 4. The five with the most votes are analysed: which technique was used in each?
+>
+> Record: the winning openings and their techniques.
+>
+> Think about it: was there a technique that never won a vote? Why might that be — the technique, or how it was used?
+
+> **Apply it — One topic, four paragraphs**
+>
+> Choose one issue in your community.
+>
+> (a) Write an introductory paragraph using an anecdote, and a second using a striking fact.
+>
+> (b) Write a body paragraph of six to eight sentences that has unity, coherence, cohesion and completeness, and mark in the margin every device that creates cohesion.
+
+<!-- page 104 -->
+
+> (c) In that paragraph, include at least four different logical connectors from four different relations.
+>
+> (d) Include one defining and one non-defining relative clause, correctly punctuated.
+>
+> (e) Include one noun phrase, one adjectival phrase and one adverbial phrase, each underlined and labelled.
+>
+> (f) Exchange with a partner, who must try to shuffle your sentences. If the paragraph still reads sensibly in a different order, it is not yet coherent — find out why and fix it.
+
+#### Chapter summary
+
+- A paragraph develops one idea, and is judged on unity, coherence, cohesion and completeness.
+
+- Coherence is in the ideas; cohesion is in the words; a paragraph needs both.
+
+- Nine relations — time, condition, purpose, reason, result, concession, place, manner and contrast — cover almost every connector you need.
+
+- *Although* and *but* do the same job, so one of them must go; the same is true of *because* and *so*.
+
+- Every pronoun needs a referent the reader can find at once; where two are possible, name the person.
+
+- *This* and *that* can point back to a whole idea, so add a noun whenever there is doubt.
+
+- Deliberate repetition, synonyms, antonyms and repeated structure hold a paragraph together through its vocabulary.
+
+- Relative clauses and noun, adjectival and adverbial phrases expand a sentence — up to about twenty-five words.
+
+- An introduction must both catch the reader and say what the piece is about: anecdote, striking fact, question, scene or contradiction.
+
+- *In this composition I am going to write about…* announces an essay instead of beginning one.
+
+### Assessment
+
+*This assessment follows the modes the curriculum sets out: an objective test, a written response, a listening and speaking task, and a piece for your portfolio.*
+
+#### Section A — Objective test
+
+*Choose the correct option in each case.* 1.A paragraph in which every sentence serves one idea has… A. cohesion B. unity C. completeness D. variety 2.The linking of sentences by words that point back and forward is called… A. coherence B. cohesion C. unity D. clarity
+
+3.*Although the fees were paid, the books never arrived* contains a clause of… A. reason B. purpose C. concession D. result
+
+4.*They planted trees so that the soil would hold* contains a clause of… A. purpose B. result C. time D. manner 5.Which sentence is correct? A. Although he was tired, but he finished. B. Although he was tired, he finished. C. Because it rained, so we stayed. D. Although but he was tired, he finished.
+
+6.*Kofi told Yaw that his bicycle had been stolen* is faulty because of… A. a comma splice B. ambiguous reference C. a missing connector D. wrong tense
+
+7.In *The road, narrow and badly drained, was closed*, the words in commas form… A. a noun phrase B. an adjectival phrase C. an adverbial phrase D. a relative clause
+
+8.Which opening technique uses a very short true story? A. contradiction B. scene C. anecdote D. question 9.*In this composition I am going to write about the market* is a weak opening because it… A. is too short B. announces the essay instead of beginning it C. uses the first person D. has no connector
+
+<!-- page 105 -->
+
+10. *The town gained a mast. It lost a footpath.* These sentences are linked by… A. an antonym B. a connector C. a relative clause D. repetition of structure only
+
+#### Section B — Theory and written response
+
+*Answer all four questions.* 1.(a) Name the four qualities of a good paragraph and state the question each answers. (b) Explain the difference between coherence and cohesion, with an example of a paragraph that has one and not the other. (c) Explain what completeness means and give one sign that a paragraph lacks it. (d) Write a paragraph of six sentences that has unity, and then add one sentence that destroys it, explaining why.
+
+2.(a) Name eight relations carried by logical connectors and give two connectors for each. (b) Join each pair using the relation named: time, concession, purpose, result. (c) Explain why *Although he was tired, but he finished the work* is wrong, and give two correct versions. (d) Rewrite this as three connected sentences: *The clinic has one nurse. There are four villages. Patients wait all day. Some go to a herbalist.*
+
+3.(a) Explain what a referent is and why every pronoun needs one. (b) Remove the ambiguity from: *Kofi told Yaw that his bicycle had been stolen* and *The teachers told the pupils that they were late.* (c) Explain the risk in using *this* to refer to a whole idea, and show how to remove it. (d) Explain, with examples, how repetition, synonyms and antonyms create cohesion.
+
+4.(a) Name five techniques for opening a composition and say what each suits. (b) Write five openings on the topic *The market on Saturday*, one of each technique. (c) Set out the order in which the sentences of an opening should move for an argument and for a report. (d) Explain why an opening must do two jobs, and what goes wrong when it does only one of them.
+
+#### Section C — Listening and speaking
+
+*These tasks are carried out aloud and assessed as you perform them.* 1.Read aloud two versions of the same paragraph — one flat and unlinked, one revised for cohesion. Ask the class to name, from listening alone, three devices you added. Then ask which version they would rather listen to for a whole page.
+
+2.Take part in an openings auction: write one opening of not more than fifty words on the class topic, hear all of them read out anonymously, cast three votes, and then explain aloud why the winning opening worked and which technique it used.
+
+3.In pairs, play the connector game: your partner reads two short unlinked sentences, and you must join them aloud within five seconds using a named relation — time, concession, purpose, reason or result. Ten pairs each, then swap.
+
+#### Section D — Portfolio and project
+
+*These pieces are collected in your portfolio over a longer period.* 1.Keep a paragraph file for the term. Every week, write one paragraph of six to eight sentences on a theme of the year, then revise it a day later for cohesion, marking every device you added. Submit both versions each time, and close with a page on the devices you now use without thinking.
+
+2.Collect ten introductory paragraphs from newspapers, magazines or books. For each, name the technique used, state what makes it work or fail, and rewrite two of them using a different technique. Add your own five openings on a single topic, one of each technique.
+
+3.Write a composition of at least four hundred words on a community issue, then produce a fully annotated copy: every logical connector labelled with its relation, every pronoun joined by an arrow to its referent,
+
+<!-- page 106 -->
+
+every relative clause and phrase marked, and a one-page commentary on what you changed between your first and final drafts and why.
+
+<!-- page 107 -->
+
+*Strand 4: Writing · Sub-Strand 2: Text Types and Purposes*
+
+### Chapter 12: Composing Different Text Types
+
+> **Curriculum alignment**
+>
+> **Strand 4: Writing**
+>
+> **Sub-Strand 2: Text Types and Purposes**
+>
+> **Content standard B8/JHS2.4.2.1**
+>
+> Use a process approach to compose descriptive, narrative/ imaginative, informational, persuasive and argumentative texts
+>
+> B8/JHS2.4.2.1.1 Write personal narratives using effective techniques incorporating descriptive details and logical event sequences.
+>
+> B8/JHS2.4.2.1.2 Use precise words phrases and sensory language to convey a vivid mental picture of places and events
+>
+> B8/JHS2.4.2.1.3 Create shorter transactional texts to convince an audience to accept an opinion
+>
+> B8/JHS2.4.2.1.4 Compose paragraphs that identify an issue, give details about it and suggest solutions
+>
+> **Core competences**
+>
+> Communication and Collaboration; Personal Development and Leadership; Creativity and Innovation; Critical Thinking and Problem Solving; Digital Literacy; Cultural Identity and Global Citizenship; Presentation
+
+#### Learning objectives
+
+By the end of this chapter you can:
+
+- plan and write a personal narrative with a clear sequence of events
+
+- write in the first person to convey feelings, thoughts and experience
+
+- use adjectives, adverbials, connectors and reported speech to give a narrative variety
+
+- describe places and events with precise and sensory language
+
+- compose an advertisement with a headline, a body and selling points
+
+- write diary entries, postcards and invitation cards in the correct form
+
+- use modals, imperatives, mental verbs and rhetorical questions for persuasive effect
+
+- identify a problem and propose a solution in writing
+
+- show that a solution is workable, affordable and better than the alternatives
+
+- edit and proofread your own writing for sense, meaning and effect
+
+#### Key words
+
+> **Personal narrative —** a true account of something that happened to the writer.
+>
+> **First person —** writing that uses \*I\* and \*we\*.
+>
+> **Point of view —** the position from which a story is told.
+>
+> **Sequence —** the order in which events are set down.
+>
+> **Flashback —** an event told out of order, from earlier in time.
+>
+> **Sensory language —** words appealing to sight, sound, smell, taste and touch.
+>
+> **Transactional text —** a short text written to get something done.
+>
+> **Advertisement —** a text persuading an audience to buy or accept something.
+>
+> **Slogan —** a short memorable phrase attached to a product or campaign.
+>
+> **Selling point —** a reason why this product or idea is better than others.
+>
+> **Target audience —** the people a text is written for.
+>
+> **Modal verb —** can, may, must, should, will, would, ought to.
+>
+> **Imperative —** a verb form giving a command: \*Come early.\*
+
+<!-- page 108 -->
+
+> **Mental verb —** a verb of thinking or believing, such as \*I think\*, \*I believe\*.
+>
+> **Phrasal verb —** a verb plus a particle, such as \*pick up\* or \*turn down\*.
+>
+> **Rhetorical question —** a question asked for effect, not for an answer.
+>
+> **Problem–solution text —** writing that states a problem and proposes a remedy.
+>
+> **Feasible —** able to be done with the resources available.
+>
+> **Cost-effective —** worth what it costs.
+>
+> **Objection —** a reason someone might give against your proposal.
+
+#### Engage
+
+Four kinds of writing, four different jobs. A narrative asks the reader to live through something with you. A description asks them to see it. An advertisement asks them to act. A problem-and-solution paper asks them to agree. Use the wrong one and even good sentences fail — which is why an advertisement written like a story sells nothing, and a proposal written like an advertisement convinces nobody.
+
+#### 12.1 Personal narrative
+
+A **personal narrative** tells something that really happened to you. It is not a diary entry and not a list; it has a shape. Something was one way, something happened, and afterwards something was different — even if what changed was only what you understood.
+
+##### 12.1.1 Planning
+
+**Choose one incident, not a period.** *The day the lorry broke down at Atebubu*, not *my holidays*. Learners
+
+- who choose a period write a list; learners who choose an incident write a story. **Fix the setting.** Where, when, what the weather and the light were doing.
+
+- **List the events in order.** Five to eight of them. Mark the one that is the turning point.
+
+- **Decide what changed.** If nothing changed, you have an anecdote and not a narrative.
+
+- **Decide where to begin.** Often two events before the turning point, not at breakfast.
+
+##### 12.1.2 The grammar that makes a narrative work
+
+| **Device** | **Job in a narrative** | **Example** |
+| --- | --- | --- |
+| First-person pronouns | convey thought and feeling | *I did not tell anyone what I had seen.* |
+| Adjectives and adjective phrases | make the scene visible | *a narrow, unlit corridor smelling of* *paraffin* |
+| Adverbs and adverbials | show how an action was done | *He answered slowly, without looking* *up.* |
+| Connectors of sequence | keep the order clear | *at first, by then, an hour later, in the* *end* |
+| Direct speech | let a character speak for themselves | *“Sit down,” he said. “You are not going* *anywhere.”* |
+| Reported speech | move quickly over what was said | *He told us the road had been closed* *since morning.* |
+| Noun phrases | name things exactly | *the driver's mate, a boy of about* *fifteen* |
+| Prepositional phrases | place the action | *under the tarpaulin, at the back of the* *lorry* |
+
+*Table 12.1 — Eight devices in narrative writing.*
+
+Mixing direct and reported speech is what separates a lively narrative from a flat one. Report the ordinary exchanges; quote the one line that mattered.
+
+<!-- page 109 -->
+
+> **Model 12.1 — Opening a personal narrative**
+>
+> **Weak:** *Last year I travelled to Tamale with my father. We went by bus. On the way the bus broke down. It was a bad experience. We reached late. I will never forget it.*
+>
+> **Strong:** *We had been on the road for four hours when the noise started — a low knocking under the floor that the driver pretended not to hear. My father heard it. He put down his newspaper and looked at the ceiling of the bus in the way he does when he is about to be proved right about something. Twenty minutes later we were standing on the roadside at Atebubu in the full afternoon sun, and the driver's mate, a boy of about fifteen, was explaining to forty adults that there was nothing to worry about.*
+>
+> **What changed:** the narrative begins two events before the turning point, not at the beginning of the day; the father is characterised in one gesture; the time markers carry the sequence; and *there was nothing to worry about* invites the reader to expect the opposite. Not one word says *it was a bad experience* — the reader is left to conclude it.
+
+> **Practice 12.1**
+>
+> 1. Turn each period into one incident: *my holidays · our sports day · life at my grandmother's house*.
+>
+> 2. Rewrite with adjectives, an adverbial and one prepositional phrase: *We waited. The man came. He spoke to us.*
+>
+> 3. Write three sentences in which one exchange is reported and one line is quoted directly.
+>
+> 4. Plan a personal narrative in the five steps of 12.1.1, and write only its opening paragraph — beginning two events before the turning point.
+
+#### 12.2 Precise and sensory description
+
+Description is where the widest gap opens between weak and strong writing, and the gap is always the same: **precision**. *Nice*, *bad*, *many* and *very* are placeholders, not descriptions.
+
+| **Describing a place** | **Describing an event** |
+| --- | --- |
+| ancient, contemporary, bustling, deserted | historic, memorable, rare, common |
+| charming, serene, cramped, spacious | significant, major, minor, decisive |
+| boring, lively, forbidding, welcoming | violent, peaceful, tortuous, chaotic |
+| dusty, humid, breezy, stifling | unusual, inexplicable, dire, far-off |
+
+*Table 12.2 — Words worth having ready.*
+
+Add **sensory language** to precision and the reader is inside the scene. Two rules keep it from becoming decoration: use at least three of the five senses, and let one detail do the work of five. *The whole lorry park smelt of diesel and grilled plantain* says more than a paragraph of general noise.
+
+> **Model 12.2 — Describing a place**
+>
+> **Weak:** *The old part of town is nice. There are many old buildings. It is busy. People are selling many things.*
+>
+> **Strong:** *The old quarter is cramped and bustling, and it smells of dried fish, engine oil and, in one particular alley, of the crushed lemons a woman sells there every afternoon. The buildings are colonial and unrepaired:*
+>
+> *high shuttered windows, walls the colour of weak tea, and iron balconies that nobody has stood on for fifty*
+
+<!-- page 110 -->
+
+> *years. At four o'clock the shade reaches the western side of the street and the traders move across to it, all at once, like birds.*
+>
+> **What changed:** *nice* became *cramped and bustling*; three senses are used; one particular alley and one particular woman replace *people selling many things*; the colour is named exactly; and the last sentence gives the place a movement, which is what makes a description live.
+
+> **Practice 12.2**
+>
+> 1. Replace each with a precise word from Table 12.2: *a nice old town · a bad meeting · a very important match · a busy station*.
+>
+> 2. Describe your classroom in four sentences using at least three senses.
+>
+> 3. Take this and rewrite it so that one detail does the work of a paragraph: *The market was full of noise and people and things being sold and it was very hot.*
+>
+> 4. Describe one event you attended this year in six sentences, using at least four adjectives from Table 12.2 and two adverbials.
+
+#### 12.3 Short transactional texts
+
+A **transactional text** is written to get something done — to sell, to invite, to record, to greet. Each has a fixed shape, and marks are given for the shape as much as for the language.
+
+##### 12.3.1 The advertisement
+
+- **Headline or slogan** — short, memorable, and about the reader's benefit rather than your product.
+
+- **Body** — what it is, what it does, who it is for.
+
+- **Selling points** — two or three reasons it is better than the alternatives.
+
+- **Call to action and contact** — what to do next, and how to reach you.
+
+| **Device** | **Effect** | **Example** |
+| --- | --- | --- |
+| Simple present | states facts as timeless | *Adom Bags last three school years.* |
+| Imperative | tells the reader to act | *Call today. Ask for Mensah.* |
+| Modal verbs | promise or reassure | *You will not find a stronger strap.* |
+| Mental verbs | convey a viewpoint | *We believe a school bag should outlive* *the term.* |
+| Phrasal verbs | sound conversational | *Pick up yours at the junction.* |
+| Rhetorical question | makes the reader agree silently | *How many bags have you bought this* *year?* |
+| Repetition | fixes the message | *One bag. One price. One year's* *guarantee.* |
+
+*Table 12.3 — Persuasive devices in advertising.*
+
+> **Model 12.3 — An advertisement**
+>
+> **ADOM SCHOOL BAGS — BUY ONCE, CARRY FOR THREE YEARS**
+>
+> *How many school bags have you bought this year?*
+>
+> Adom bags are sewn in Kumasi from double canvas with reinforced straps. Each bag holds twelve exercise
+
+<!-- page 111 -->
+
+> books, a water bottle and a pair of sandals, and the base is waterproof for the walk through the rains.
+>
+> - Straps stitched four times, not glued
+>
+> - A full year's guarantee, in writing
+>
+> - GH₵65, or GH₵55 for two
+>
+> We believe a school bag should outlast the term. Pick up yours at the Adom stall opposite the lorry station, or call 024 555 0101 and ask for Mensah.
+>
+> **Why it works:** the headline names the benefit, not the product; the rhetorical question makes the reader answer honestly; the body gives specifics rather than praise; the selling points are checkable; the mental verb states a viewpoint; and the last line says exactly what to do next.
+
+##### 12.3.2 Diary entries, postcards and invitation cards
+
+| **Text** | **Form** | **Register** |
+| --- | --- | --- |
+| Diary entry | date at the top; first person; past tense; no greeting or signature | private and honest; may be incomplete in its sentences |
+| Postcard | short greeting, three or four sentences, sign-off; address on the other side | warm and informal; present and past tenses |
+| Invitation card | occasion, host, date, time, place, dress, RSVP | formal; third person is common: *Mr* *and Mrs Adjei request the pleasure…* |
+| Notice | heading, body, date, name and office of the writer | neutral and brief |
+
+*Table 12.4 — Four short forms.*
+
+> **Model 12.4 — A diary entry and an invitation card**
+>
+> **Diary — Tuesday, 4 June**
+>
+> *Told nobody about the letter today. Carried it in my bag through three lessons and read it again at break behind the science block. Fifteen out of fifty in mathematics. Auntie will ask on Friday, and I have four days to decide whether to answer honestly. Went to the library instead of the field. That is the first time this year, which perhaps says something.*
+>
+> **Invitation card**
+>
+> *The Headteacher and Staff of Nkwanta Junior High School request the pleasure of the company of ____________________ at the Speech and Prize-Giving Day on Friday, 12 June 2026, at 9.00 a.m.*
+>
+> *in the School Assembly Hall*
+>
+> *Dress: national or formal · RSVP: 024 555 0101 by 5 June*
+
+<!-- page 112 -->
+
+> **Practice 12.3**
+>
+> 1. Write a headline and a slogan for each: a barber's shop; a school debating club; a second-hand bicycle.
+>
+> 2. Write an advertisement of about eighty words for a product made in your community, using at least four devices from Table 12.3 and naming them in the margin.
+>
+> 3. Write a diary entry of about sixty words for a day on which something small went wrong.
+>
+> 4. Write an invitation card for a school event, with every one of the six required elements.
+>
+> 5. Explain why the headline of an advertisement should name the reader's benefit rather than the product's features.
+
+#### 12.4 Problem and solution
+
+This is the most useful piece of writing you will learn at this level, because it is what adults actually write: a letter to an assembly, a proposal to a headteacher, an application for support. Its shape is fixed.
+
+- **State the problem** — what it is, whom it affects, and how you know.
+
+- **Give the evidence** — figures, dates, an example, or an account from those affected.
+
+- **Propose the solution** — one, stated plainly, in a single sentence.
+
+- **Explain how it solves the problem** — the connection must be spelt out, not assumed.
+
+- **Say who does it and who pays** — a proposal without an owner is a wish.
+
+- **Show it will work** — an example of where it has worked, an expert's view, or a plain argument.
+
+- **Meet the objection** — name the strongest thing that can be said against it, and answer it.
+
+- **Compare with the alternative** — say why yours is better than the obvious other option.
+
+| **Test the marker applies** | **Question you must have answered** |
+| --- | --- |
+| Does it solve the problem? | Is the link between remedy and cause explicit? |
+| Is it cost-effective? | What does it cost, and against what benefit? |
+| Is it feasible? | Can it be done with what is actually available here? |
+| Is it reasonable? | Is it in proportion to the problem? |
+| Does it survive objection? | Have you named the strongest objection, not the weakest? |
+| Is it better than the alternative? | Have you said what the alternative is? |
+
+*Table 12.5 — The six tests of a proposal.*
+
+> **Model 12.5 — A problem–solution paragraph**
+>
+> *Pupils at this school lose lesson time every morning fetching water from the stream, a kilometre away. In a survey of two classes last term, thirty-one of forty-eight pupils reported missing part of the first lesson at least twice a week. We propose that the school install a polytank fed by a tanker delivery twice a month until the borehole is repaired. This would end the daily journey immediately, since a full tank holds enough for a week's drinking and washing. The Parent–Teacher Association has agreed in principle to meet the delivery cost, which at current rates is about GH₵400 a month, and the school prefects would manage the rota. It has been done at Kete Krachi JHS, where the arrangement has run for two years. It will be objected that a tanker is a temporary measure, and that is true — it is proposed only until the borehole is repaired, and it costs a fraction of a second* *borehole, which is the alternative most often suggested.*
+>
+> **What it does:** problem, evidence, one proposal, the mechanism, the owner and the cost, a precedent, the strongest objection admitted and answered, and the alternative named — in a single paragraph.
+
+<!-- page 113 -->
+
+> **Exam tip 12.1**
+>
+> In a problem–solution question, the marks are usually split evenly between the problem and the solution.
+>
+> Candidates spend eighty per cent of their time describing the problem, because it is easier. Time yourself.
+
+> **Activity 12.1 — The advertisement gallery**
+>
+> You need: A4 or A5 paper; colouring materials.
+>
+> What to do:
+>
+> 1. In pairs, choose a real product or service from your community.
+>
+> 2. Identify the target audience in one sentence before you write anything.
+>
+> 3. Produce the advertisement, with a headline, body, three selling points and a call to action.
+>
+> 4. Display all of them. Each learner votes for the one that would most make them buy.
+>
+> 5. The three winners explain which devices they used.
+>
+> Record: the advertisements and the vote.
+>
+> Think about it: did the winners have the best product or the best writing?
+
+> **Activity 12.2 — The proposal panel**
+>
+> You need: one real problem in your school, agreed by the class.
+>
+> What to do:
+>
+> 1. In groups of four, each group writes a proposal of one paragraph using the eight steps.
+>
+> 2. Groups exchange proposals and act as a panel, applying the six tests in Table 12.5 and scoring each out of six.
+>
+> 3. Every proposal is returned with the failed tests named.
+>
+> 4. Each group rewrites and resubmits.
+>
+> Record: both drafts and both scores.
+>
+> Think about it: which test did most groups fail first time? It is usually *who pays*.
+
+> **Apply it — A folder of four texts**
+>
+> Produce four pieces on a single theme of your choice from this year's list.
+>
+> (a) A personal narrative of about three hundred words, planned in the five steps and beginning before the turning point.
+>
+> (b) A description of a place or event of about a hundred and fifty words, using at least three senses and six precise adjectives.
+>
+> (c) An advertisement, a diary entry and an invitation card connected to the same theme.
+>
+> (d) A problem–solution piece of two paragraphs, answering all six tests.
+>
+> (e) Edit and proofread all four, and attach the marked first draft of each.
+>
+> (f) Write one paragraph explaining which of the four was hardest and what you did about it.
+
+#### Chapter summary
+
+- A personal narrative tells one incident, not a period, and something must have changed by the end.
+
+<!-- page 114 -->
+
+- Begin a narrative two events before the turning point, not at the beginning of the day.
+
+- Report the ordinary exchanges and quote only the line that mattered.
+
+- Precision, not length, is what separates strong description from weak: *nice* and *bad* are placeholders.
+
+- Use at least three senses, and let one exact detail do the work of five general ones.
+
+- An advertisement needs a headline about the reader's benefit, a specific body, checkable selling points and a call to action.
+
+- The persuasive devices are the simple present, imperatives, modals, mental verbs, phrasal verbs, rhetorical questions and repetition.
+
+- Diary entries, postcards, invitation cards and notices each have a fixed form, and marks are given for the form.
+
+- A proposal must name its owner and its cost; without them it is a wish.
+
+- Name the strongest objection to your solution and answer it — that is what makes a proposal credible.
+
+### Assessment
+
+*This assessment follows the modes the curriculum sets out: an objective test, a written response, a listening and speaking task, and a piece for your portfolio.*
+
+#### Section A — Objective test
+
+*Choose the correct option in each case.* 1.A true account of something that happened to the writer is a… A. report B. personal narrative C. description D. article
+
+2.Which point of view is used in a personal narrative? A. first person B. second person C. third person D. omniscient
+
+3.Which of these is sensory language? A. It was a nice place. B. The alley smelt of crushed lemons. C. There were many people. D. It was very interesting.
+
+4.*Pick up yours at the junction* contains a… A. modal verb B. mental verb C. phrasal verb D. rhetorical question
+
+5.*How many bags have you bought this year?* in an advertisement is a… A. real question B. rhetorical question C. slogan D. selling point
+
+6.*We believe a bag should outlast the term* contains a… A. mental verb B. imperative C. modal D. phrasal verb
+
+7.Which is required on an invitation card? A. the writer's opinion B. the RSVP C. a slogan D. a byline 8.A diary entry normally has… A. a greeting and a signature B. a date and the first person C. a headline and a body D. an address and a subject line
+
+9.In a proposal, saying who will carry it out and who will pay makes it… A. cost-effective B. feasible C. persuasive D. formal
+
+10. The strongest proposal is one that… A. avoids mentioning objections B. names the strongest objection and answers it C. lists many solutions D. describes the problem at length
+
+#### Section B — Theory and written response
+
+*Answer all four questions.* 1.(a) State the five steps of planning a personal narrative. (b) Explain why choosing one incident rather than a period matters. (c) Name six grammatical devices used in narrative writing and give an example of each. (d) Write the opening paragraph of a personal narrative that begins two events before the turning point.
+
+<!-- page 115 -->
+
+2.(a) Explain what is wrong with *nice*, *bad* and *very* in descriptive writing. (b) Give four precise adjectives for describing a place and four for describing an event. (c) Rewrite so that one detail does the work of a paragraph: *The market was full of noise and people and things being sold and it was very hot.* (d) Describe a place you know in six sentences, using at least three senses, and underline the sensory words.
+
+3.(a) Name the four parts of an advertisement and say what each does. (b) Name six persuasive devices and give an example of each. (c) Write an advertisement of about eighty words for a product or service in your community. (d) Set out the required elements of an invitation card and write one for a school event.
+
+4.(a) State the eight steps of a problem–solution text. (b) Name the six tests a marker applies to a proposal. (c) Write a problem–solution paragraph of about a hundred and fifty words on a real problem in your school, meeting all six tests. (d) Explain why naming the alternative to your own solution strengthens rather than weakens your case.
+
+#### Section C — Listening and speaking
+
+*These tasks are carried out aloud and assessed as you perform them.* 1.Tell a personal narrative aloud to the class in three minutes, beginning before the turning point, quoting only one line of direct speech. Afterwards the class must say what changed for you by the end of the story, and whether you told them or let them work it out.
+
+2.Present your advertisement to the class as a spoken pitch of ninety seconds. Your listeners identify the target audience, name three persuasive devices you used, and say whether they would buy.
+
+3.In groups of four, sit as a proposal panel. Each group presents its proposal aloud in two minutes; the panel applies the six tests aloud and names any that fail. Every group must then answer the objection raised without notes.
+
+#### Section D — Portfolio and project
+
+*These pieces are collected in your portfolio over a longer period.* 1.Build a writing folder over the term containing one personal narrative, two descriptions, three short transactional texts and two problem–solution pieces. Every item must be submitted with its plan and its marked first draft. Close with a page on which text type you write best and which you avoid.
+
+2.Working in pairs, run a real advertising campaign for a school event or a product from your community: a poster, a flyer, a spoken pitch and a short written advertisement, all with the same headline and slogan. Submit a note identifying your target audience and explaining which device you relied on in each medium.
+
+3.Choose one real problem affecting learners in your school and prepare a full proposal for the headteacher: a description of the problem with evidence you have gathered yourself, one solution, a costing, a named owner, a precedent, the strongest objection with your answer, and a comparison with the alternative. Submit it, and record whatever reply you receive.
+
+<!-- page 116 -->
+
+*Strand 4: Writing · Sub-Strand 2: Text Types and Purposes*
+
+### Chapter 13: Writing for Real-Life Situations
+
+> **Curriculum alignment**
+>
+> **Strand 4: Writing**
+>
+> **Sub-Strand 2: Text Types and Purposes**
+>
+> **Content standard B8/JHS2.4.2.2**
+>
+> Apply writing skills to specific life situations
+>
+> B8/JHS2.4.2.2.1 Compose formal writing (business letters, email) on given topics using the appropriate format
+>
+> B8/JHS2.4.2.2.2 Compose notes, brochures and flyers for different purposes and audiences
+>
+> B8/JHS2.4.2.2.3 Write articles on given issues for publication in school magazines
+>
+> B8/JHS2.4.2.2.4 Create dialogues among multiple interlocutors on different themes
+>
+> B8/JHS2.4.2.2.5 Compose speeches for different purposes and occasions.
+>
+> **Core competences**
+>
+> Communication and Collaboration; Creativity and Innovation; Critical Thinking and Problem Solving; Cultural Identity and Global Citizenship; Digital Literacy; Presentation; Personal Development and Leadership
+
+#### Learning objectives
+
+By the end of this chapter you can:
+
+- set out a formal letter with every part in its correct place
+
+- write letters of request, complaint, application, thanks, congratulation and sympathy
+
+- write a formal email with a useful subject line and an appropriate register
+
+- write a notice that tells members what they must know and do
+
+- design a flyer with a headline, benefits and contact details
+
+- read a media text for its implied as well as its stated message
+
+- plan an article by fixing its topic, purpose and audience before writing
+
+- sort and order gathered material into paragraphs before drafting
+
+- write a scripted dialogue among several speakers using the correct conventions
+
+- compose and deliver a speech with an introduction, a body and a conclusion
+
+#### Key words
+
+> **Formal letter —** a letter written to someone in an official capacity.
+>
+> **Sender's address —** the writer's address, placed at the top right.
+>
+> **Recipient's address —** the address of the person written to, placed on the left.
+>
+> **Salutation —** the greeting: \*Dear Sir\* or \*Dear Madam\*.
+>
+> **Heading —** the subject line of a formal letter, usually underlined.
+>
+> **Subscription —** the closing: \*Yours faithfully\* or \*Yours sincerely\*.
+>
+> **Subject line —** the line of an email stating what it is about.
+>
+> **Notice —** a short written announcement to a defined group.
+>
+> **Flyer —** a single small sheet distributed to advertise or announce.
+>
+> **Brochure —** a folded sheet or small booklet giving fuller information.
+>
+> **Overt message —** what a media text states outright.
+>
+> **Implied message —** what a media text suggests without stating.
+>
+> **Article —** a piece written for publication on a subject of interest.
+>
+> **Purpose —** what a piece of writing is meant to achieve.
+
+<!-- page 117 -->
+
+> **Audience —** the readers a piece is written for.
+>
+> **T-chart —** a two-column chart used for sorting ideas, such as for and against.
+>
+> **Interlocutor —** a person taking part in a conversation.
+>
+> **Stage direction —** an instruction in brackets telling how a line is spoken.
+>
+> **Speech —** a talk delivered to an audience on an occasion.
+>
+> **Appeal —** the means by which a speaker persuades: logical or emotional.
+
+#### Engage
+
+Sooner or later somebody will keep your money, sell you a bag that falls apart, or refuse you something you are entitled to. When that day comes, you will have two choices: complain to your friends, or write a letter that has to be answered. Everything in this chapter is a way of getting something done in the world — asking, complaining, announcing, persuading, thanking. This is the most practical chapter in the book.
+
+#### 13.1 The formal letter
+
+A formal letter has eight parts and they go in the same order every time. Marks are given for the layout before a single sentence is read.
+
+| **Part** | **Where it goes** | **Note** |
+| --- | --- | --- |
+| Sender's address | top right | no name above it; no punctuation at line ends |
+| Date | under the sender's address | written in full: 14 March 2026 |
+| Recipient's address | left, below the date | the office, not the person, where possible |
+| Salutation | left, below that | *Dear Sir,* or *Dear Madam,* |
+| Heading | centred or left, underlined | a phrase, not a sentence |
+| Body | three parts | why you write · the detail · what you now ask |
+| Subscription | left or right | *Yours faithfully* after *Dear Sir/Madam* |
+| Signature and name | below the subscription | sign, then print your name; add your office |
+
+*Table 13.1 — The eight parts of a formal letter.*
+
+The rule for the subscription catches out many candidates. If the salutation names nobody — *Dear Sir*, *Dear Madam* — close with **Yours faithfully**. If it names the person — *Dear Mr Asare* — close with **Yours sincerely**. And *Yours* takes a capital *Y* while *faithfully* does not.
+
+##### 13.1.1 Six kinds of formal letter
+
+| **Kind** | **What the body must contain** | **Tone** |
+| --- | --- | --- |
+| Request | what you want, why, and by when | courteous, not apologetic |
+| Complaint | what happened, when, what was lost, firm and factual, never abusive what you now want |  |
+| Application | the post, where you saw it, your qualifications, your availability | confident and specific |
+| Thanks | what was done, its effect, your gratitude | warm but brief |
+| Congratulation | the achievement, why it matters, your generous, about them not you good wishes |  |
+| Sympathy | the loss named plainly, one memory, an offer of help | short, plain, no clichés |
+
+<!-- page 118 -->
+
+*Table 13.2 — Six letters and what each must do.*
+
+> **Model 13.1 — A letter of complaint**
+>
+> *P.O. Box 44*
+>
+> *Nkwanta*
+>
+> *14 March 2026*
+>
+> *The Manager*
+>
+> *Adom Transport Services*
+>
+> *Kumasi*
+>
+> *Dear Sir,*
+>
+> *DAMAGE TO LUGGAGE ON THE ACCRA–NKWANTA SERVICE, 8 MARCH*
+>
+> *I travelled on your 7 a.m. service from Accra to Nkwanta on Saturday, 8 March, holding ticket number 4471.*
+>
+> *My box was carried on the roof rack and was returned to me at Nkwanta soaked through, with one corner torn open. Two textbooks and a school uniform were damaged beyond use.*
+>
+> *The rain began at Atebubu, and I twice asked the driver's mate whether the tarpaulin was secure. He assured me that it was. I reported the damage at your Nkwanta office the same afternoon and was told to write to you.*
+>
+> *I therefore request either the replacement of the two textbooks and the uniform, or the refund of GH₵180, which is what they cost. I attach copies of the receipts. I should be grateful for your reply within two weeks.*
+>
+> *Yours faithfully,*
+>
+> *(signature)*
+>
+> *ADISA YAKUBU*
+>
+> **Why it works:** every fact is dated and numbered; the tone is firm without a single angry word; what was lost is costed; one specific remedy is requested with a deadline; and the evidence is attached rather than merely mentioned.
+
+#### 13.2 Emails and notices
+
+##### 13.2.1 The formal email
+
+**Subject line.** Say the matter, not the mood: *Request for use of the assembly hall, 12 June* — not
+
+- *Urgent!!* A good subject line is one a reader could file by. **Salutation.** *Dear Sir/Madam* or *Dear Mr Asare*. Never *Hi* to somebody you have not met.
+
+<!-- page 119 -->
+
+**One screen.** Say the purpose in the first sentence. Detail follows; anything longer goes in an
+
+- attachment. **Close and sign.** *Yours faithfully* or *Kind regards*, then your full name, your class or office, and a
+
+- telephone number. **Before sending.** Read it once for tone. An email cannot be recalled, and it can be forwarded to anyone.
+
+> - **Model 13.2 — An email to a newspaper editor**
+>
+> *To: letters@thedistrictherald.com*
+>
+> *Subject: Correction — school named in your report of 3 June*
+>
+> *Dear Sir,*
+>
+> *I write about your report of 3 June, “Assembly promises action on school water”. The report names Nkwanta JHS as one of the three schools affected. In fact the water has been restored at Nkwanta since April; the three schools still affected are Damanko, Kete and Brewaniase.*
+>
+> *I am a Form 2 pupil at Nkwanta JHS and can be reached on the number below if you need to confirm this.*
+>
+> *Yours faithfully,*
+>
+> *Adisa Yakubu*
+>
+> *Form 2, Nkwanta JHS · 024 555 0101*
+
+##### 13.2.2 Notices
+
+A **notice** tells a defined group what they must know and do. It has a heading, a short body, and the writer's name and office with the date. Everything else is decoration.
+
+> **Model 13.3 — A notice**
+>
+> **NKWANTA JHS SCIENCE CLUB**
+>
+> **CHANGE OF MEETING DAY**
+>
+> *From next week, the club will meet on Thursdays at 3.30 p.m. in Room 5, and no longer on Tuesdays. Members preparing entries for the district fair should bring their record books to the first Thursday meeting.*
+>
+> *Kofi Owusu*
+>
+> *Secretary, Science Club*
+>
+> *4 June 2026*
+
+#### 13.3 Flyers and brochures
+
+A **flyer** is a single small sheet — A5 is usual — pressed into a person's hand. It is read in about four seconds, standing up, so everything must be visible at a glance.
+
+_[answer space — 2 lines]_
+
+**Element**
+
+**Purpose**
+
+<!-- page 120 -->
+
+| Eye-catching headline, slogan or logo | stops the reader in four seconds |
+| --- | --- |
+| Brief description | what the thing is, in one or two lines |
+| List of benefits or offers | three bullets, no more |
+| Date, time and place | if it is an event, these must be findable instantly |
+| Contact details | telephone number, stall, website or handle |
+
+*Table 13.3 — What must be on a flyer.*
+
+A **brochure** is folded and read sitting down, so it may carry more: a front panel that works like a flyer, inside panels giving detail, and a back panel with contact details and a map. The commonest fault in both is crowding — white space is what makes the words visible.
+
+##### 13.3.1 Reading media texts
+
+Every advertisement carries two messages: the **overt** one it states and the **implied** one it leaves you to supply.
+
+| **The text says** | **The text implies** | **How it implies it** |
+| --- | --- | --- |
+| This drink refreshes. | You will belong. | everyone in the picture is laughing together |
+| Sewn from double canvas. | Others cheat you. | *double* invites a comparison |
+| Trusted since 1968. | New firms cannot be trusted. | the date is doing the arguing |
+| Ask your teacher about it. | Educated people use this. | the authority chosen |
+
+*Table 13.4 — Overt and implied messages.*
+
+This is why an advertisement suits one magazine and not another. A page in a farming magazine and a page in a youth magazine may sell the same phone, but the picture, the words and the implied message will differ, because the reader differs. When you are asked *why is this advertisement appropriate for this magazine?*, the answer is always about the reader.
+
+> **Practice 13.1**
+>
+> 1. Name the eight parts of a formal letter in order, and say which subscription follows *Dear Madam* and which follows *Dear Mrs Asare*.
+>
+> 2. Write the heading and the first paragraph of a letter of complaint about a faulty item you have really bought.
+>
+> 3. Write a subject line for each: asking permission to use the hall; reporting a broken window; applying for a place on a school trip.
+>
+> 4. Design a flyer on paper for a school event, with all five elements of Table 13.3.
+>
+> 5. Take any advertisement you can find, state its overt message and its implied message, and say who its reader is meant to be.
+
+#### 13.4 Articles for a school magazine
+
+An **article** is written for people who did not have to read it. That single fact governs everything: the opening must earn attention, and the argument must be worth the reader's time.
+
+**Fix three things before writing.** The **topic** (narrow enough to cover), the **purpose** (to inform, to
+
+- persuade, to entertain) and the **audience** (Form 1 pupils? parents? teachers?). **Gather more than you need.** Interviews, observation, records, reading — from print and electronic
+
+- sources.
+
+<!-- page 121 -->
+
+**Sort what you have.** Use a **T-chart** — for and against, before and after, problem and cause — and see
+
+- what the arrangement reveals. **Check for gaps.** Is anything you have unsupported? Is any voice missing? Do more research rather than
+
+- write around the hole. **Order the material into paragraphs** before drafting, one idea to each.
+
+- **Open with a hook** — the techniques of Chapter 11 — and close with something the reader can take
+
+- away.
+
+| **Kind of article** | **Shape** |
+| --- | --- |
+| Report of an event | what happened → where and when → who said what → what follows |
+| Opinion piece | hook → the issue → your position → three reasons → the objection → restatement |
+| Profile of a person | one scene → who they are → their story → what they represent |
+| Explainer | the question → the short answer → how it works → why it matters |
+| Autobiography for a magazine | a moment → the background → the turning point → who you now are |
+
+*Table 13.5 — Five article shapes.*
+
+> **Exam tip 13.1**
+>
+> Articles are marked for a title, an identified audience, paragraphing and a byline — before content. Put your title and your name on it, and paragraph it properly, and you have earned marks that most candidates lose.
+
+#### 13.5 Written dialogue among several speakers
+
+A written **dialogue** is not a transcript of chatter. It is built, and it follows fixed conventions.
+
+- **Sketch the scenario first** — who is present, where they are, and what each wants.
+
+- **Names on the left**, followed by a **colon**.
+
+- **A new line for every new speaker**, without exception.
+
+- **Directions in brackets before the words**: *(quietly)*, *(turning to Ama)*.
+
+- **Give each speaker a distinguishable voice** — one is brisk, one is long-winded, one keeps asking
+
+- questions. Three identical voices are a monologue with names on it. **Let something change.** A dialogue in which nobody moves position is a list of opinions.
+
+> - **Model 13.4 — A dialogue among three speakers**
+>
+> *Scenario: The staff common room, Friday afternoon. AMA (a Form 3 prefect) has come to ask for the hall for a debating practice. MR ASARE holds the keys. MADAM ROSE is marking books.*
+>
+> **AMA:** Good afternoon, sir. Madam.
+>
+> **MR ASARE:** *(not looking up)* The hall is booked.
+>
+> **AMA:** I have not said what I came for.
+>
+> **MR ASARE:** You have come for the hall. Everyone comes for the hall.
+>
+> **MADAM ROSE:** *(mildly)* Let her ask, Mr Asare.
+>
+> **AMA:** We need it on Wednesday, from four to five-thirty, for the district debate practice. There are eleven of
+
+<!-- page 122 -->
+
+> us and it rains at that hour.
+>
+> **MR ASARE:** Wednesday the choir has it.
+>
+> **AMA:** The choir moved to Tuesday last month. I asked Madam Rose before I came.
+>
+> **MADAM ROSE:** *(without looking up)* She did.
+>
+> **MR ASARE:** *(a pause)* Four o'clock. And the chairs go back where you found them.
+>
+> **AMA:** They will, sir. Thank you.
+>
+> **What makes it work:** three distinct voices; the scenario is sketched before the first line; the directions are short and in brackets; something changes — Mr Asare gives way — and it changes because Ama came with a fact, not with a plea.
+
+#### 13.6 Speeches
+
+A speech is written to be heard once, by people who cannot go back and re-read. Hence the oldest advice in the subject: **tell them what you are going to tell them; tell them; tell them what you told them.**
+
+| **Part** | **What it does** | **How long** |
+| --- | --- | --- |
+| Introduction | greet, name the occasion, state what you will say | about one-eighth |
+| Body | three points, each with evidence and an example | about three-quarters |
+| Conclusion | restate the points, then one closing line worth remembering | about one-eighth |
+
+*Table 13.6 — The shape of a speech.*
+
+A speech persuades in two ways at once. A **logical appeal** gives figures, reasons and examples. An **emotional appeal** gives a person, a scene or a memory. Use both: figures alone are forgotten by the car park, and feeling alone convinces nobody who disagrees with you. And write for the ear — short sentences, repeated structures, and no clause so long that the listener loses the beginning.
+
+> **Model 13.5 — Opening and closing of a speech**
+>
+> **Opening:** *Madam Chairperson, our headteacher, invited guests, fellow pupils: good morning. I have been asked to speak for three minutes about the water at this school. I want to tell you three things — what it is costing us in lessons, what it would cost to fix, and what happened at a school forty kilometres from here that decided to fix it.*
+>
+> **Closing:** *So: eleven school days lost in one term. Four hundred cedis a month to end it. And a school at Kete Krachi that has done it for two years. Adisa Yakubu of Form 2 has fetched water before her first lesson two hundred and forty times since January. She has never once complained about it. Madam Chairperson, I am complaining on her behalf.*
+>
+> **What it does:** the opening names the audience, states the length and announces the three points; the closing restates all three in nine words, then ends on one named person — a logical appeal followed by an emotional one, in that order.
+
+<!-- page 123 -->
+
+> **Practice 13.2**
+>
+> 1. Write the scenario and the first eight lines of a dialogue among three speakers, using the conventions in 13.5.
+>
+> 2. Plan an article: state the topic, the purpose and the audience in three sentences, then draw a T-chart and fill both columns.
+>
+> 3. Write the introduction of a three-minute speech announcing three points.
+>
+> 4. Write a closing line for a speech on any theme of the year that a listener could repeat afterwards.
+>
+> 5. Explain the difference between a logical and an emotional appeal, and why a speech needs both.
+
+> **Activity 13.1 — The real letter**
+>
+> You need: a real matter — a fault, a request or an achievement worth congratulating.
+>
+> What to do:
+>
+> 1. Write a formal letter about it, with all eight parts.
+>
+> 2. Exchange with a partner, who marks the layout first and the content second, using Table 13.1 and Table 13.2.
+>
+> 3. Correct and, if the matter is real, send it.
+>
+> 4. Record any reply.
+>
+> Record: the letter, the marked draft, and the reply if one comes.
+>
+> Think about it: an unanswered letter is not always a failed one. What could you add, or to whom else could you write?
+
+> **Activity 13.2 — The magazine team**
+>
+> You need: your class, divided into an editorial team and three writing pairs.
+>
+> What to do:
+>
+> 1. The editors set a theme, a length and a deadline, and name the audience.
+>
+> 2. Each pair writes one article of a different kind from Table 13.5.
+>
+> 3. Editors mark for title, byline, audience, paragraphing and evidence, and return each with one required change.
+>
+> 4. Produce a two-page magazine and display it.
+>
+> Record: the drafts, the editors' notes and the final pages.
+>
+> Think about it: which was harder — writing to a deadline or being edited?
+
+> **Apply it — The campaign folder**
+>
+> Choose one thing you would like changed in your school or community.
+>
+> (a) Write a formal letter to the person with the power to change it, with all eight parts.
+>
+> (b) Write an email version of the same request, with a subject line a reader could file by.
+>
+> (c) Write a notice informing your class of what you have done and what you now need from them.
+>
+> (d) Design a flyer for the campaign with all five required elements.
+>
+> (e) Write an article of about three hundred words for the school magazine, with a title, a byline and a named audience.
+
+<!-- page 124 -->
+
+> (f) Write and deliver a three-minute speech on it, using at least one logical and one emotional appeal, and submit the script with the appeals labelled.
+
+#### Chapter summary
+
+- A formal letter has eight parts in a fixed order, and layout is marked before content.
+
+- *Yours faithfully* follows *Dear Sir* or *Dear Madam*; *Yours sincerely* follows a named person.
+
+- A letter of complaint is firm and factual: dates, numbers, what was lost, and one specific remedy with a deadline.
+
+- An email's subject line should state the matter, not the mood — a reader should be able to file by it.
+
+- A notice gives a heading, a short body, and the writer's name, office and date.
+
+- A flyer is read in four seconds standing up: headline, brief description, three benefits, details and contact.
+
+- Every media text carries an overt message and an implied one, and the implied one is aimed at a particular reader.
+
+- An article is planned by fixing topic, purpose and audience, gathering more than you need, and sorting it before drafting.
+
+- In written dialogue: names on the left with a colon, a new line for each speaker, directions in brackets, and each voice distinguishable.
+
+- A speech tells them what you will tell them, tells them, and tells them what you told them — using both logical and emotional appeals.
+
+### Assessment
+
+*This assessment follows the modes the curriculum sets out: an objective test, a written response, a listening and speaking task, and a piece for your portfolio.*
+
+#### Section A — Objective test
+
+*Choose the correct option in each case.* 1.In a formal letter, the sender's address is written… A. at the top left B. at the top right C. at the bottom D. after the salutation
+
+2.After the salutation *Dear Madam*, the correct subscription is… A. Yours sincerely B. Yours truly C. Yours faithfully D. Yours obediently
+
+3.Which is the best subject line for an email? A. Urgent!! B. Please read C. Request for use of the assembly hall, 12 June D. From Adisa
+
+4.Which must appear on a notice? A. a slogan B. the writer's name, office and the date C. a byline and a headline D. an RSVP
+
+5.Which of these belongs on a flyer? A. a full history of the product B. three benefits and contact details C. a bibliography D. a subscription
+
+6.The message an advertisement suggests without stating is its… A. overt message B. implied message C. slogan D. selling point
+
+7.Before writing an article you should first fix the… A. length and font B. topic, purpose and audience C. title and byline D. number of paragraphs
+
+8.A two-column chart used to sort ideas is called a… A. T-chart B. flow chart C. bar chart D. tally chart 9.In a written dialogue, an instruction on how a line is spoken is placed… A. after the line B. in brackets before the words C. in a footnote D. in the margin
+
+<!-- page 125 -->
+
+10. The body of a three-part speech should take about… A. one-eighth of it B. one-quarter of it C. half of it D. three-quarters of it
+
+#### Section B — Theory and written response
+
+*Answer all four questions.* 1.(a) Name the eight parts of a formal letter and state where each is placed. (b) State the rule governing the choice between *Yours faithfully* and *Yours sincerely*. (c) Write a full letter of complaint to a transport company about damaged luggage, inventing the necessary details. (d) State what the body of a letter of application and a letter of sympathy must each contain, and how their tones differ.
+
+2.(a) State five rules for writing a formal email. (b) Write a subject line for each of: requesting the hall; reporting a broken window; correcting an error in a newspaper report. (c) Write a full email to a newspaper editor correcting a factual error about your school. (d) Write a notice to a club announcing a change of meeting day, with every required element.
+
+3.(a) List the five elements that must appear on a flyer and explain why crowding is its commonest fault. (b) Explain the difference between an overt and an implied message, with two examples. (c) Explain why the same product is advertised differently in a farming magazine and a youth magazine. (d) Take an advertisement you know and set out its overt message, its implied message, its target audience and the device that carries the implication.
+
+4.(a) State the six steps in planning an article. (b) Give the shape of an opinion piece and of a report of an event. (c) State the conventions for setting out a written dialogue among several speakers. (d) Explain the three-part structure of a speech, define logical and emotional appeal, and write an opening and a closing paragraph for a three-minute speech on a theme of your choice.
+
+#### Section C — Listening and speaking
+
+*These tasks are carried out aloud and assessed as you perform them.* 1.Deliver a three-minute speech to the class on a matter you care about, following the three-part structure and using at least one logical and one emotional appeal. Afterwards the class must state your three points from memory — the test of whether your structure worked.
+
+2.In groups of three, perform a scripted dialogue of at least sixteen lines that you have written yourselves, with distinguishable voices and stage directions. The audience must say what each speaker wanted and which speaker changed position.
+
+3.Present a flyer or brochure you have designed to the class in ninety seconds: name your audience, read the headline, and explain the implied message you built in. The class then says what it thinks the implied message actually was.
+
+#### Section D — Portfolio and project
+
+*These pieces are collected in your portfolio over a longer period.* 1.Build a real-life writing folder containing six formal letters — request, complaint, application, thanks, congratulation and sympathy — each with a marked first draft. Where a letter was really sent, attach any reply. Close with a page on which kind you found hardest to keep in the right tone.
+
+2.Working as a class, produce a four-page school magazine: at least six articles of at least three different kinds, each with a title, a byline and a named audience, plus one advertisement, one notice and one interview in dialogue form. Submit your own contribution with its plan, its T-chart and its edited drafts.
+
+<!-- page 126 -->
+
+3.Run a campaign on one issue and document it: the formal letter, the email, the notice, the flyer, the magazine article and the speech script with its appeals labelled. Add a final page recording what happened — who replied, what changed, and what you would do differently next time.
+
+<!-- page 127 -->
+
+*Strand 4: Writing · Sub-Strand 3: Building and Presenting Knowledge*
+
+### Chapter 14: Research and Presenting Knowledge
+
+> **Curriculum alignment**
+>
+> **Strand 4: Writing**
+>
+> **Sub-Strand 3: Building and Presenting Knowledge**
+>
+> **Content standard B8/JHS2.4.3.1**
+>
+> Research to build and present knowledge
+>
+> B8/JHS2.4.3.1.1 Use information from non-text sources (figures, tables graphs, and maps) to support ideas in writing
+>
+> **Core competences**
+>
+> Communication and Collaboration; Creativity and Innovation; Critical Thinking and Problem Solving; Digital Literacy;
+>
+> Presentation
+
+#### Learning objectives
+
+By the end of this chapter you can:
+
+- read a table accurately, taking the units and the heading into account
+
+- read bar charts, line graphs and pie charts and say what each is best for
+
+- read a map, using its key, scale and direction
+
+- state in words what a figure, table or graph shows
+
+- distinguish what data shows from what it does not show
+
+- recognise a graph that misleads through its scale or its selection
+
+- use evidence from a table or graph to support a claim in writing
+
+- introduce, present and interpret a figure inside a paragraph of prose
+
+- acknowledge the source of any data you use
+
+- produce a short report of your own supported by data you gathered
+
+#### Key words
+
+> **Data —** facts and figures collected for reference or analysis.
+>
+> **Table —** data set out in rows and columns.
+>
+> **Row —** a horizontal line of a table.
+>
+> **Column —** a vertical line of a table.
+>
+> **Figure —** any diagram, chart, graph or map in a text.
+>
+> **Bar chart —** a chart comparing quantities by the height or length of bars.
+>
+> **Line graph —** a graph showing how a quantity changes over time.
+>
+> **Pie chart —** a circle divided to show the parts of a whole.
+>
+> **Axis —** a labelled line along the side or bottom of a graph.
+>
+> **Scale —** the relation between the units on a graph or map and what they represent.
+>
+> **Key or legend —** the part of a figure explaining its symbols or colours.
+>
+> **Trend —** the general direction in which figures are moving.
+>
+> **Fluctuation —** an up-and-down movement with no settled direction.
+>
+> **Source —** where a piece of data came from.
+>
+> **Sample —** the part of a population actually studied.
+>
+> **Correlation —** two things changing together.
+>
+> **Interpretation —** a statement of what data means.
+
+<!-- page 128 -->
+
+> **Caption —** the line naming and numbering a figure or table.
+
+#### Engage
+
+A graph looks like a fact. It has numbers on it, and straight lines, and somebody drew it carefully. But every graph was made by a person who chose what to count, which years to show and where to start the scale — and each of those choices can change the shape of the line without changing a single figure. Learning to read data is therefore two skills at once: getting what is there, and noticing what has been left out.
+
+#### 14.1 Reading a table
+
+A table is the plainest way of presenting data and the easiest to misread. Read it in a fixed order: the **caption**, then the **column headings**, then the **units**, and only then the numbers.
+
+| **Year** | **Pupils enrolled** | **Pupils completing JHS 3** | **Completion rate (%)** |
+| --- | --- | --- | --- |
+| 2020 | 312 | 241 | 77.2 |
+| 2021 | 348 | 265 | 76.1 |
+| 2022 | 331 | 268 | 81.0 |
+| 2023 | 377 | 279 | 74.0 |
+| 2024 | 402 | 331 | 82.3 |
+
+*Table 14.1 — Enrolment and completion at a district JHS, 2020–2024. Source: school records.*
+
+**What it shows.** Enrolment rose from 312 to 402 over five years — an increase of ninety pupils, or about
+
+- twenty-nine per cent. Completion also rose, and the completion rate ended higher than it began. **What is not a straight line.** The rate fell in 2021 and again in 2023. A reader who quotes only 2020 and
+
+\- 2024 is reporting a trend that the middle years do not support. **What the table does not show.** Why anyone left; whether the same pupils are counted; whether a
+
+- second school opened nearby; whether the intake changed. A table answers the question it was built to answer and no other.
+
+> **Exam tip 14.1**
+>
+> When asked what a table shows, always give a figure and a direction in the same sentence: *enrolment rose by ninety pupils between 2020 and 2024*. An answer with a direction but no number, or a number but no direction, earns half the marks.
+
+#### 14.2 Charts, graphs and maps
+
+| **Figure** | **Best for** | **Watch out for** |
+| --- | --- | --- |
+| Bar chart | comparing separate quantities | a vertical axis that does not start at zero |
+| Line graph | change over time | very few points, or uneven gaps between them |
+| Pie chart | parts of one whole | slices that do not total 100 per cent; too many slices |
+| Pictogram | simple comparison for a general reader | half-symbols that are hard to read |
+| Map | where things are | a missing key, or no scale |
+| Table | exact values | hidden units, and totals that include something unexpected |
+
+*Table 14.2 — Choosing and questioning a figure.*
+
+<!-- page 129 -->
+
+The commonest way a chart misleads is the **axis that does not start at zero**. If a bar chart of school fees runs from GH₵180 to GH₵200, a rise of ten cedis fills the page and looks enormous. Nothing on it is false. Look at the bottom left of every chart before you look at anything else.
+
+For a **map**, three things must be found before you read it: the **key**, which says what the symbols mean; the **scale**, which turns centimetres into kilometres; and the direction arrow. A map without a key is a picture.
+
+#### 14.3 From figure to sentence
+
+Reading a figure is not enough; the marks are for saying what it shows. Four moves turn a figure into a sentence a reader can use.
+
+**Name it.** *Table 14.1 shows enrolment and completion at the school between 2020 and 2024.*
+
+- **State the trend.** *Enrolment rose steadily; the completion rate fluctuated.*
+
+- **Quote the strongest figure.** *The rate fell to 74.0 per cent in 2023 before rising to 82.3 in 2024.*
+
+- **Interpret, and mark it as interpretation.** *This suggests that the fall in 2023 was an isolated event rather*
+
+- *than the beginning of a decline — though four years is a short run on which to say so.*
+
+> **Model 14.1 — Using data inside a paragraph**
+>
+> **Weak:** *Look at the table. The numbers went up and down. In 2023 it was 74.0. This shows the school is doing well.*
+>
+> **Strong:** *Enrolment at the school rose from 312 pupils in 2020 to 402 in 2024, an increase of about twenty-nine per cent (Table 14.1). Completion rose over the same period, but not evenly: the completion rate fell in 2021 and again in 2023, when it reached its lowest point of 74.0 per cent, before recovering to 82.3 per cent in 2024.*
+>
+> *The recovery is encouraging, although five years of school records cannot by themselves explain why the 2023 group did less well, and the table does not record the reasons pupils gave for leaving.*
+>
+> **What changed:** the figure is named; the trend is stated; exact numbers with units are quoted; the interpretation is separated from the data by *the recovery is encouraging, although*; and the limits of the evidence are admitted, which strengthens rather than weakens the paragraph.
+
+> **Common misconception 14.1**
+>
+> *Two things that rise together must be connected.* Ice-cream sales and drowning both rise in the hot season;
+>
+> neither causes the other. Two things changing together show a **correlation**, not a cause. Say *rose alongside* rather than *because of* unless you can show the mechanism.
+
+> **Practice 14.1**
+>
+> 1. From Table 14.1: (a) In which year was the completion rate lowest? (b) By how many pupils did enrolment rise between 2020 and 2024? (c) In which year did enrolment fall?
+>
+> 2. Write two sentences stating what Table 14.1 shows, each containing a figure and a direction.
+>
+> 3. Name two things Table 14.1 cannot tell you.
+>
+> 4. Which figure would you use for each: the share of a school's spending by category; monthly rainfall over two years; the number of pupils in each of six classes; the position of four boreholes in a village?
+>
+> 5. Explain how a bar chart can mislead without containing a single false number.
+
+<!-- page 130 -->
+
+#### 14.4 Gathering your own data
+
+The most convincing evidence in a school project is usually evidence you collected yourself. Four rules keep it honest.
+
+| **Rule** | **Why** |
+| --- | --- |
+| Say exactly what you counted | *forty-eight pupils in two Form 2 classes*, not *the school* |
+| Say when you counted it | a count in the harmattan is not a count in the rains |
+| Say how you asked | a question can produce the answer it wants |
+| Report what went wrong | nine pupils were absent; say so |
+
+*Table 14.3 — Four rules for your own data.*
+
+A leading question is the commonest fault. *Do you agree that the water situation is terrible?* produces one answer; *How does the water supply affect your school day?* produces evidence. And always acknowledge the **source** of data you did not gather: *(Ghana Statistical Service, 2023)*, *(school records)*, *(survey of two Form 2 classes, June 2026)*.
+
+##### 14.4.1 Presenting your data
+
+**Choose the right figure** for what you are showing — Table 14.2 decides it.
+
+- **Caption everything**, numbered: *Figure 3 — Reasons given for missing the first lesson.*
+
+- **Label both axes with units.** An unlabelled axis makes a chart worthless.
+
+- **Put the source underneath.** Even *(our own survey)* is a source.
+
+- **Refer to it in the prose.** A figure nobody points at is decoration.
+
+> - **Activity 14.1 — Read the paper**
+>
+> You need: any newspaper, report or textbook containing a table, a chart or a map.
+>
+> What to do:
+>
+> 1. Find three figures. For each, write down the caption, what it shows, the units and the source.
+>
+> 2. Write one sentence for each stating a trend with a number in it.
+>
+> 3. Find one thing each figure does *not* show but which a careless reader might assume it does.
+>
+> 4. Check where each vertical axis starts.
+>
+> Record: your three analyses.
+>
+> Think about it: how many of the three gave a source? Data without a source is a rumour with numbers on it.
+
+> **Activity 14.2 — The class survey**
+>
+> You need: a question your class genuinely wants answered.
+>
+> What to do:
+>
+> 1. Agree one question, worded so that it does not suggest its own answer. Write the rejected wordings down too.
+>
+> 2. Decide whom you will ask and how many; record absences.
+>
+> 3. Collect the data and tabulate it.
+>
+> 4. Draw the most suitable figure, fully captioned, labelled and sourced.
+>
+> 5. Write a paragraph of eight sentences using the four moves of 14.3.
+>
+> Record: the questionnaire, the table, the figure and the paragraph.
+
+<!-- page 131 -->
+
+> Think about it: compare your first wording of the question with the one you used. What would the first have produced?
+
+> **Apply it — The evidence report**
+>
+> Write a report of about five hundred words on an issue in your school or community, supported by data.
+>
+> (a) State the question your report answers.
+>
+> (b) Gather data yourself from at least twenty people or twenty observations, and record how, when and whom you asked.
+>
+> (c) Find one further source of data that you did not gather, and acknowledge it.
+>
+> (d) Present your data in one table and one chart or map, each fully captioned, labelled and sourced.
+>
+> (e) Write the report so that every figure is named, interpreted and clearly separated from your own opinion.
+>
+> (f) Add a final paragraph stating honestly what your evidence does *not* show, and what you would need in order to show it.
+
+#### Chapter summary
+
+- Read a table in order: caption, column headings, units, then numbers.
+
+- State what a figure shows with a number and a direction in the same sentence.
+
+- A bar chart compares quantities, a line graph shows change over time, a pie chart shows parts of a whole, and a map shows where.
+
+- Check where the vertical axis starts before you look at anything else on a chart.
+
+- A map without a key and a scale is a picture.
+
+- Name the figure, state the trend, quote the strongest number, then interpret — and mark the interpretation as interpretation.
+
+- Two things rising together show correlation, not cause.
+
+- Say exactly what you counted, when, how you asked, and what went wrong.
+
+- A leading question produces the answer it wanted; ask an open one.
+
+- Caption, label and source every figure, and refer to it in the prose — a figure nobody points at is decoration.
+
+### Assessment
+
+*This assessment follows the modes the curriculum sets out: an objective test, a written response, a listening and speaking task, and a piece for your portfolio.*
+
+#### Section A — Objective test
+
+*Choose the correct option in each case.* 1.The line naming and numbering a table or figure is its… A. key B. caption C. axis D. source 2.The part of a map explaining its symbols is the… A. scale B. caption C. key D. axis 3.Which figure is best for showing change over time? A. pie chart B. line graph C. map D. pictogram 4.Which figure is best for showing the parts of one whole? A. bar chart B. line graph C. pie chart D. table 5.A chart may exaggerate a small change if the vertical axis… A. is labelled B. does not start at zero C. has units D. is too long
+
+6.The general direction in which figures are moving is called a… A. fluctuation B. correlation C. trend D. sample
+
+7.Two quantities that rise together are said to show… A. causation B. correlation C. fluctuation D. a trend
+
+<!-- page 132 -->
+
+8.Where a piece of data came from is its… A. caption B. sample C. source D. scale 9.Which question is *not* leading? A. Don't you agree the water problem is terrible? B. How does the water supply affect your school day? C. Isn't the assembly to blame for the water? D. Would you say the situation is as bad as everyone says?
+
+10. Which is the better statement of what a table shows? A. The numbers went up. B. Enrolment rose. C. Enrolment rose from 312 to 402 between 2020 and 2024. D. The table is about enrolment.
+
+#### Section B — Theory and written response
+
+*Answer all four questions.* 1.(a) State the order in which a table should be read and explain why the units come before the numbers. (b) From Table 14.1, state the year of lowest completion rate, the rise in enrolment over the period, and the year in which enrolment fell. (c) Write three sentences stating what Table 14.1 shows, each containing a figure and a direction. (d) Name three things Table 14.1 cannot tell you and explain why each matters.
+
+2.(a) Name five kinds of figure and state what each is best for. (b) Explain, with an example, how a bar chart can mislead without containing a false number. (c) State the three things that must be found on a map before it can be read. (d) Say which figure you would choose for each of: monthly rainfall over two years; a school's spending by category; the location of four boreholes; the number of pupils in six classes.
+
+3.(a) State the four moves that turn a figure into usable prose. (b) Write a paragraph of about a hundred words using Table 14.1, naming the figure, stating the trend, quoting numbers, and separating interpretation from data. (c) Explain the difference between correlation and causation, with an example. (d) Explain why admitting the limits of your evidence strengthens a report.
+
+4.(a) State the four rules for gathering your own data. (b) Explain what a leading question is and rewrite this as an open one: *Don't you agree the school toilets are unacceptable?* (c) State five requirements for presenting a figure of your own. (d) Explain what should be acknowledged as a source, and write three examples of source acknowledgements in the correct form.
+
+#### Section C — Listening and speaking
+
+*These tasks are carried out aloud and assessed as you perform them.* 1.Present one table or chart to the class in ninety seconds without showing it: name it, state the trend with figures, and give one interpretation marked as an interpretation. The class then sees the figure and judges whether your description was fair.
+
+2.In groups of four, design a survey question aloud, testing each wording on the group until nobody can hear a suggested answer in it. Report to the class the wordings you rejected and why.
+
+3.Give a two-minute spoken report of your class survey: what you asked, whom you asked, what you found, and — the part most speakers omit — what your evidence does not show. Take two questions afterwards.
+
+#### Section D — Portfolio and project
+
+*These pieces are collected in your portfolio over a longer period.* 1.Keep a data file over the term of at least ten figures collected from newspapers, reports and textbooks. For each, record the caption, the source, what it shows in one numbered sentence, and one thing it does not show. Mark any whose axis does not start at zero.
+
+2.Design, run and report a survey of at least thirty respondents on an issue in your school. Submit the questionnaire with the rejected wordings, the raw tally, a table, one fully captioned chart, and a report of at least three hundred words in which every claim is tied to a figure.
+
+<!-- page 133 -->
+
+3.Produce an illustrated report of at least two pages on a change in your community over time — enrolment, rainfall, prices, transport or population. It must draw on at least two sources you did not gather yourself, both acknowledged, one table and two figures of your own making, and a closing section on the limits of your evidence.
+
+<!-- page 134 -->
+
+## Strand 5: Literature
+
+*Strand 5: Literature · Sub-Strand 1: Narrative, Drama and Poetry*
+
+### Chapter 15: Literature: Character, Poetry and Drama
+
+> **Curriculum alignment**
+>
+> **Strand 5: Literature**
+>
+> **Sub-Strand 1: Narrative, Drama and Poetry**
+>
+> **Content standard B8/JHS2.5.1.1**
+>
+> Demonstrate understanding of how various elements of literary genres contribute to meaning
+>
+> B8/JHS2.5.1.1.1 Analyse the types of characters in texts
+>
+> B8/JHS2.5.1.1.2 Examine the features of different types of poems
+>
+> B8/JHS2.5.1.1.3 Examine how monologues and dialogues are used to convey characters in narratives and play scripts (drama)
+>
+> B8/JHS2.5.1.1.4 Use literary devices (euphemism, hyperbole, onomatopoeia, etc.) in texts
+>
+> B8/JHS2.5.1.1.5 Analyse the sequence of events in film/media, narratives and play scripts (drama)
+>
+> **Core competences**
+>
+> Communication and Collaboration; Personal Development and Leadership; Creativity and Innovation; Critical Thinking and Problem Solving; Digital Literacy; Presentation; Cultural Identity and Global Citizenship
+
+#### Learning objectives
+
+By the end of this chapter you can:
+
+- distinguish round and flat characters, and dynamic and static ones
+
+- show how a writer reveals character through action, speech and the reactions of others
+
+- compare a character in one text with a character in another
+
+- recognise a sonnet, an acrostic and a haiku by their form
+
+- compose a short poem in a named form and perform it
+
+- explain how a monologue reveals what a character will not say to others
+
+- set out a monologue and a dialogue with correct punctuation and stage directions
+
+- identify euphemism, hyperbole and onomatopoeia and explain their effect
+
+- use literary devices in your own writing without overloading it
+
+- analyse the sequence of events in a narrative, a play or a film, including flashback
+
+#### Key words
+
+> **Character —** a person represented in a story, play or poem.
+>
+> **Round character —** one shown with several sides, capable of surprising us.
+>
+> **Flat character —** one built on a single trait, unchanged throughout.
+>
+> **Dynamic character —** one who changes as a result of events.
+>
+> **Static character —** one who is the same at the end as at the beginning.
+>
+> **Characterisation —** the means by which a writer reveals a character.
+>
+> **Protagonist —** the character whose story it is.
+>
+> **Foil —** a character whose difference throws another into relief.
+>
+> **Sonnet —** a poem of fourteen lines with a fixed rhyme scheme.
+>
+> **Acrostic —** a poem in which the first letters of the lines spell a word.
+
+<!-- page 135 -->
+
+> **Haiku —** a three-line poem of five, seven and five syllables.
+>
+> **Stanza —** a group of lines forming a division of a poem.
+>
+> **Rhyme scheme —** the pattern of rhymes, written as a, b, c and so on.
+>
+> **Monologue —** a long speech by one character, heard by others or alone.
+>
+> **Soliloquy —** a speech in which a character alone on stage speaks their thoughts.
+>
+> **Stage direction —** an instruction in a script about action or delivery.
+>
+> **Euphemism —** a mild expression standing in for a harsh one.
+>
+> **Hyperbole —** deliberate exaggeration for effect.
+>
+> **Onomatopoeia —** a word imitating the sound it names.
+>
+> **Plot —** the arrangement of events in a story.
+>
+> **Flashback —** an event narrated out of order, from earlier in time.
+>
+> **Foreshadowing —** an early hint of something that comes later.
+>
+> **Climax —** the point of greatest tension in a plot.
+
+#### Engage
+
+You can predict exactly what one of your relatives will say about anything, and you have no idea what another will say. Literature works the same way. Some characters exist to be predictable — the strict uncle, the loyal friend — and they are useful precisely because we know them at once. Others surprise us, and go on surprising us, because they have more than one thing inside them. Both kinds are made on purpose, and this chapter is about how.
+
+#### 15.1 Types of character
+
+Characters are described along two scales, and the two are separate. **Round or flat** is about how many sides a character has. **Dynamic or static** is about whether they change.
+
+| **Term** | **Meaning** | **How you recognise it** |
+| --- | --- | --- |
+| Round | many-sided; capable of surprising us | acts against expectation and it still makes sense |
+| Flat | built on one trait | can be summed up in a phrase, and does not exceed it |
+| Dynamic | changes because of events | believes or wants something different at the end |
+| Static | unchanged | the same at the end as at the beginning |
+| Foil | throws another character into relief | similar situation, opposite response |
+
+*Table 15.1 — Five terms for describing character.*
+
+A flat character is not a fault. A story is not improved by making every market woman, watchman and driver complicated; flat characters keep a narrative moving and let the reader spend attention where it matters. What is a fault is a **protagonist** who is flat.
+
+> **Passage 15.1 — \*The Substitute\* (extract)**
+>
+> For the first week we did what we always did with a substitute teacher. We tested her.
+>
+> Kwesi asked, on the Tuesday, whether she was qualified. He asked it politely, which was how he did everything; Kwesi had been rude to a teacher exactly once in his life, in Class Four, and had decided
+
+<!-- page 136 -->
+
+> afterwards that politeness got further. Madam Adjei looked at him for what felt like a long time.
+>
+> “No,” she said. “I have two years of the four. I am teaching you while Madam Owusu is on leave, and I am learning the rest at night. Anything else?”
+>
+> Nobody had expected that. We had expected the speech about respect. Kwesi, who always had another question ready, did not have another question ready.
+>
+> By the third week she had stopped being a substitute in our minds, though she was still one on paper. She marked everything, which Madam Owusu had never had time to do, and she marked it hard. When Adisa's essay came back with nine out of twenty on it, Adisa cried in the corridor and said the woman was wicked. On the Friday Madam Adjei kept Adisa behind and went through the essay line by line for forty minutes, and after that Adisa would not hear a word against her.
+>
+> What none of us knew until the end of term was that she had asked to be moved. She told us on the last day, without any ceremony, in the middle of returning our books. “I applied for a transfer in September,” she said.
+>
+> “I withdrew it in November.” She did not say why, and Kwesi — politely, and for once at the wrong moment — asked. She said: “Ask me in ten years.”
+>
+> The watchman at the gate said the same thing to her every afternoon for the whole term. “Madam, you are going?” And every afternoon she said, “I am going, Opanyin.” He is in this story only because he was there.
+
+| **Character** | **Round or flat** | **Dynamic or static** | **Evidence** |
+| --- | --- | --- | --- |
+| Madam Adjei | round | dynamic (off the page) | answers the challenge with the truth; marks hard, then gives forty minutes; withdrew the transfer and will not say why |
+| Adisa | flat but dynamic | dynamic | one trait — she reacts strongly — but her position reverses entirely |
+| Kwesi | round | static | polite by policy, always another question ready; unchanged, but explained |
+| The watchman | flat | static | one line, repeated; the narrator says outright why he is there |
+
+*Table 15.2 — The four characters of Passage 15.1.*
+
+Notice how the writer builds a round character without ever describing her. We learn Madam Adjei from what she does (marks everything, gives up a Friday afternoon), from what she says (*Anything else?*), from what she refuses to say (*Ask me in ten years*), and from how others change around her. That is **characterisation**: not a paragraph of description, but evidence.
+
+> **Practice 15.1**
+>
+> 1. Give one piece of evidence from Passage 15.1 that Madam Adjei is round rather than flat.
+
+<!-- page 137 -->
+
+> 2. Is Kwesi dynamic or static? Justify your answer with two details.
+>
+> 3. Why has the writer included the watchman? Quote the sentence that tells you.
+>
+> 4. Name one character from any other story or play you know, and compare them with Madam Adjei: in what way are they alike, and in what way different?
+>
+> 5. Write a paragraph of six sentences in which a flat character does one thing that shows they are not flat after all.
+
+#### 15.2 Types of poem
+
+A poem's **form** is its shape: how many lines, how long, and what pattern of rhyme or syllables. Three forms are named in your curriculum, and each teaches something different.
+
+| **Form** | **Shape** | **What it teaches** |
+| --- | --- | --- |
+| Sonnet | 14 lines; ten syllables a line; a fixed rhyme scheme, often ababcdcdefefgg | how to develop one idea and turn it |
+| Acrostic | the first letters of the lines spell a word | how to write to a constraint |
+| Haiku | three lines of 5, 7 and 5 syllables | how much can be left out |
+
+*Table 15.3 — Three poetic forms.*
+
+The **sonnet** is the most demanding. Its fourteen lines usually break into three quatrains and a closing couplet, and somewhere near the ninth line the poem **turns** — a new thought, an objection, or a change of view. Read the poem below and find the turn.
+
+> **Poem 15.1 — \*The Tailor's Lamp\* (a sonnet)**
+>
+> The generator fails at half past nine, *(a)* and darkness walks the whole length of the street; *(b)* the barbers shut, the traders leave their line, *(a)* the children fold their books and find their feet. *(b)*
+>
+> But one small window keeps a square of light — *(c)* my mother at her table: treadle, thread, *(d)* her needle stitching hems against the night, *(c)* the lamp beside her burning low and red. *(d)*
+>
+> She calls it neither patience nor a gift, *(e)* but work: the dress is promised, Friday comes. *(f)*
+>
+> I learn from her, through every evening shift, *(e)* that trust is built of small returning sums. *(f)*
+>
+> At ten the current comes; the fans begin. *(g)*
+>
+> Her lamp goes out. Her work goes on within. *(g)*
+
+**Count the lines.** Fourteen.
+
+<!-- page 138 -->
+
+**Count the syllables.** Ten in each line — read the first aloud and tap them.
+
+- **Mark the rhyme.** The letters are printed beside the lines: a b a b, c d c d, e f e f, g g.
+
+- **Find the turn.** It is at line 9. The first eight lines describe a scene; from *She calls it neither patience nor a*
+
+- *gift* the poem stops describing and starts arguing. **Find the point.** The couplet: the light goes out and the work does not stop. The whole poem is about
+
+- what continues when nobody is watching.
+
+> **Poem 15.2 — \*Market\* (an acrostic) and two haiku**
+>
+> **M** arket women arrive before the light,
+>
+> **A** rranging tomatoes in careful towers.
+>
+> **R** ain is the enemy; so is a slow day.
+>
+> **K** enkey steams at the corner from six o'clock.
+>
+> **E** veryone here knows what everything costs.
+>
+> **T** he last basket goes home unsold — or does not.
+>
+> *Haiku 1*
+>
+> Harmattan morning — the mango tree gives up dust and no shade at all.
+>
+> *Haiku 2*
+>
+> First rain on hot tin:
+>
+> the whole street stops to listen, then everyone shouts.
+
+Count the syllables of each haiku line — five, seven, five. Notice that neither haiku explains itself. A haiku puts two things side by side and leaves the reader to make the connection; that gap is the form's whole art.
+
+> **Practice 15.2**
+>
+> 1. From Poem 15.1: (a) How many lines has a sonnet? (b) Write out the rhyme scheme. (c) At which line does the poem turn, and what changes there? (d) Explain the last two lines in your own words.
+>
+> 2. Write an acrostic on your own name or on the name of your town, of at least six lines.
+>
+> 3. Write two haiku on the harmattan, a rainstorm, a football match or a funeral. Count the syllables and write the count beside each line.
+>
+> 4. Attempt the first four lines of a sonnet on any subject, keeping ten syllables to a line and the rhyme scheme abab.
+
+#### 15.3 Monologue and dialogue
+
+A **dialogue** shows what characters are willing to say to one another. A **monologue** shows what one of them is thinking, and often what they would never say aloud. A play needs both, and the contrast between them is where drama lives.
+
+<!-- page 139 -->
+
+|  | **Dialogue** | **Monologue** |
+| --- | --- | --- |
+| Speakers | two or more | one |
+| Reveals | relationships, conflict, position | motive, doubt, self-justification |
+| Truthfulness | characters manage what they show | usually franker, and sometimes self- deceiving |
+| Set out as | name, colon, new line for each speaker | one unbroken speech |
+| Special case | — | a *soliloquy*: alone on stage, thinking aloud |
+
+*Table 15.4 — Dialogue and monologue compared.*
+
+> **Extract 15.1 — from \*The Transfer\*, a play in one act**
+>
+> *A staff room. Late afternoon. MADAM ADJEI is packing exercise books into a bag. MR OWUSU, older, is drinking tea.*
+>
+> **MR OWUSU:** You have withdrawn it, then.
+>
+> **MADAM ADJEI:** *(not looking up)* Who told you that?
+>
+> **MR OWUSU:** The same person who told me you applied. This is a small staff room.
+>
+> **MADAM ADJEI:** It is a very small staff room.
+>
+> **MR OWUSU:** Kumasi would have paid you more. Your sister is there. Your course is there.
+>
+> **MADAM ADJEI:** All true.
+>
+> **MR OWUSU:** *(setting down the cup)* Then say why, and I will stop asking.
+>
+> **MADAM ADJEI:** *(pause)* Adisa Yakubu got nine out of twenty in September.
+>
+> **MR OWUSU:** And?
+>
+> **MADAM ADJEI:** And in November she got fifteen. *(She closes the bag.)* Good evening, sir.
+>
+> *MR OWUSU goes out. MADAM ADJEI stands alone.*
+>
+> **MADAM ADJEI:** *(to herself)* That is not the reason, and he knows it is not the reason. The reason is that I sat in this room in September writing that application, and I could hear them through the wall — forty of them, testing the new one to see what she was made of, the way they tested me. And I thought: if I go now, the next one has to start again from nothing. Somebody began me. Nobody ever told me who. *(She picks up the bag.)*
+>
+> Fifteen out of twenty is a better answer than the true one, and it is not a lie. It is simply the part I can say.
+
+Read the dialogue and the monologue against each other. In the dialogue Madam Adjei gives a reason that is true and incomplete. In the monologue she tells us it is incomplete, and gives the rest. Neither passage would work without the other: this is why playwrights put characters alone on the stage.
+
+#### 15.4 Literary devices
+
+| **Device** | **What it is** | **Example** |
+| --- | --- | --- |
+| Euphemism | a mild expression for a harsh one | *She passed away* for *she died* |
+| Hyperbole | deliberate exaggeration | *I have told you a thousand times* |
+| Onomatopoeia | a word imitating a sound | *the kettle hissed; the tin roof clattered* |
+| Understatement | saying less than is meant | *It rained a little* — of a flood |
+| Personification | giving human qualities to a thing | *darkness walks the length of the street* |
+
+<!-- page 140 -->
+
+| Simile | comparison using *like* or *as* | *the traders moved across, like birds* |
+| --- | --- | --- |
+| Metaphor | a comparison stated outright | *the market is a machine that starts at* *five* |
+| Alliteration | repeated initial consonants | *the treadle's steady tread* |
+| Repetition | deliberate repeating for effect | *Nobody reported it. Nobody costed it.* |
+| Irony | saying one thing and meaning its opposite | *Wonderful,* said the driver, of the flat tyre |
+
+*Table 15.5 — Ten devices, with examples from this book.*
+
+Each device has a job, and using one without a job is what makes writing sound like a school exercise.
+
+**Euphemism** protects — at a funeral it is kindness — or conceals, as when a dismissal becomes *a*
+
+- *rationalisation*. In literature it often shows a character avoiding something. **Hyperbole** is for feeling, not for facts. *I nearly died of shame* tells you about the speaker, not about the
+
+- event. **Onomatopoeia** puts the reader inside a scene: *clatter, hiss, thud, rustle, screech, gurgle, crackle, boom*.
+
+> - **Common misconception 15.1**
+>
+> *The more devices, the better the writing.* A paragraph with a simile, a metaphor, three adjectives and an alliteration in every sentence is exhausting, and readers stop believing it. One device that earns its place beats five that decorate. In Poem 15.1 there is exactly one personification — *darkness walks* — and it is remembered because it is alone.
+
+> **Practice 15.3**
+>
+> 1. Name the device in each: (a) *The rain drummed on the roof all night.* (b) *He has not been himself since his wife went to her rest.* (c) *This bag weighs a ton.* (d) *The wind pushed the door open and walked in.* (e) *It was a little damp,* he said, standing in the flood.
+>
+> 2. Write a euphemism for each: *he was sacked; she is poor; the man is fat; the pupil failed*. Then say, for each, whether your version is kind or evasive.
+>
+> 3. Use five onomatopoeic words in a paragraph of four sentences about a storm.
+>
+> 4. Write one sentence of hyperbole about hunger, and rewrite it plainly. What is lost, and what is gained?
+>
+> 5. From Extract 15.1, find one example of understatement and explain its effect.
+
+#### 15.5 The sequence of events
+
+A **plot** is not the same as the events. The events happened in one order; the writer chose to tell them in another. Analysing a story, a play or a film means holding both orders in mind at once.
+
+| **Stage** | **What happens** | **In Passage 15.1** |
+| --- | --- | --- |
+| Exposition | the situation before anything changes | a substitute arrives and the class tests her |
+| Inciting incident | the event that starts things moving | Kwesi asks whether she is qualified |
+| Rising action | complications build | hard marking; Adisa's nine out of twenty |
+| Climax | the point of greatest tension | the forty minutes after school with Adisa |
+| Falling action | consequences work themselves out | Adisa will hear no word against her |
+| Resolution | the new state of things | the withdrawn transfer, revealed on |
+
+<!-- page 141 -->
+
+_[answer space — 2 lines]_
+
+the last day
+
+*Table 15.6 — Six stages of a plot.*
+
+**Chronological order** tells events in the order they happened. Clearest, and the right default.
+
+- **Flashback** goes back: *What none of us knew until the end of term was that she had asked to be moved.*
+
+- Used to explain, or to withhold and then reveal. **Foreshadowing** hints ahead: the substitute's night classes in paragraph two prepare the reader for a
+
+- character who takes learning seriously.
+
+- **In medias res** — beginning in the middle of the action, then filling in. Common in film.
+
+- In **film and other media**, the same sequence is carried by pictures. A scene is broken into shots, and the order of the shots does the work that connectives do in prose. A **storyboard** — a row of boxes, one drawing to each shot, with a line of description underneath — is how that order is planned before anything is filmed.
+
+> **Activity 15.1 — The character file**
+>
+> You need: any story, play or film you all know.
+>
+> What to do:
+>
+> 1. List every named character. Mark each round or flat, dynamic or static.
+>
+> 2. For each judgement, write the one piece of evidence that decided it.
+>
+> 3. Argue out any disagreements in the group; a judgement without evidence loses.
+>
+> 4. Choose one flat character and write a paragraph that makes them round.
+>
+> Record: the table and the rewritten paragraph.
+>
+> Think about it: which flat characters would the story be worse for rounding out? Not every character should be deepened.
+
+> **Activity 15.2 — Poetry workshop and performance**
+>
+> You need: paper; a space at the front of the class.
+>
+> What to do:
+>
+> 1. Each learner writes one acrostic and two haiku, and attempts four lines of a sonnet.
+>
+> 2. In pairs, check each other's syllable counts and rhyme scheme by counting aloud.
+>
+> 3. Each learner performs one poem to the class from memory, deciding beforehand where to pause and which word to stress.
+>
+> 4. Listeners name the form and one word that carried the poem.
+>
+> Record: the poems, with syllable counts marked.
+>
+> Think about it: which form did the class find hardest — and was it the counting or the cutting?
+
+> **Apply it — A short play of your own**
+>
+> In groups of four, write and perform a play of one scene, about ten minutes long.
+>
+> (a) Include at least one round dynamic character and one flat character, and be able to say which is which.
+>
+> (b) Include one monologue in which a character says something they would not say to the others.
+>
+> (c) Set out the script correctly: names on the left with colons, a new line for each speaker, stage directions in brackets.
+
+<!-- page 142 -->
+
+> (d) Use at least one euphemism, one hyperbole and two onomatopoeic words, and mark them in the margin.
+>
+> (e) Draw a storyboard of six boxes showing how the scene would be filmed, with one line of description under each.
+>
+> (f) Perform it, then answer the class's questions about why you ordered the events as you did.
+
+#### Chapter summary
+
+- Round or flat describes how many sides a character has; dynamic or static describes whether they change.
+
+- A flat character is not a fault — but a flat protagonist is.
+
+- Characterisation is evidence: what a character does, says, refuses to say, and how others change around them.
+
+- A sonnet has fourteen lines of ten syllables with a fixed rhyme scheme, and turns near the ninth line.
+
+- An acrostic spells a word down its first letters; a haiku has lines of five, seven and five syllables and explains nothing.
+
+- Dialogue shows what characters will say to one another; a monologue shows what one of them will not.
+
+- Euphemism softens or conceals, hyperbole exaggerates for feeling, and onomatopoeia imitates sound.
+
+- One device that earns its place beats five that decorate.
+
+- Events happen in one order; a plot arranges them in another, using flashback, foreshadowing or a start in the middle.
+
+- In film, the order of shots does the work that connectives do in prose, and a storyboard is how it is planned.
+
+### Assessment
+
+*This assessment follows the modes the curriculum sets out: an objective test, a written response, a listening and speaking task, and a piece for your portfolio.*
+
+#### Section A — Objective test
+
+*Choose the correct option in each case.* 1.A character built on a single trait who does not change is… A. round B. flat C. dynamic D. a foil 2.A character who changes as a result of events is said to be… A. flat B. round C. dynamic D. static 3.A sonnet has… A. ten lines B. twelve lines C. fourteen lines D. sixteen lines 4.A haiku has the syllable pattern… A. 5-5-7 B. 7-5-7 C. 5-7-5 D. 7-7-5 5.A poem whose first letters spell a word is an… A. acrostic B. anagram C. epic D. ode 6.A long speech by a character alone on stage, thinking aloud, is a… A. dialogue B. soliloquy C. narration D. stage direction
+
+7.*She passed away* instead of *she died* is an example of… A. hyperbole B. euphemism C. irony D. understatement
+
+8.*This bag weighs a ton* is an example of… A. onomatopoeia B. euphemism C. hyperbole D. personification 9.*The rain drummed on the roof* uses… A. onomatopoeia B. irony C. euphemism D. simile
+
+10. An event narrated out of order, from earlier in time, is a… A. climax B. flashback C. foreshadowing D. resolution
+
+#### Section B — Theory and written response
+
+*Answer all four questions.* 1.(a) Explain the difference between a round and a flat character, and between a dynamic and a static one. (b) Using Passage 15.1, classify Madam Adjei, Adisa, Kwesi and the watchman, giving evidence for each. (c)
+
+<!-- page 143 -->
+
+Explain why a flat character is not necessarily a weakness in a story. (d) Compare Madam Adjei with a character from another text you have read, naming one similarity and one difference.
+
+2.(a) Describe the form of a sonnet, an acrostic and a haiku. (b) Write out the rhyme scheme of Poem 15.1 and state at which line the poem turns and what changes there. (c) Explain the meaning of the closing couplet of Poem 15.1 in your own words. (d) Write one acrostic of at least six lines and two haiku of your own, marking the syllable count of each haiku line.
+
+3.(a) Explain the difference between a monologue and a dialogue, and what each reveals. (b) State the conventions for setting out a play script. (c) Using Extract 15.1, explain what Madam Adjei tells Mr Owusu and what she tells only the audience, and why the playwright separated the two. (d) Write a monologue of about a hundred words in which a character admits something they have concealed.
+
+4.(a) Name six literary devices and give an example of each. (b) Explain when euphemism is kindness and when it is concealment, with one example of each. (c) Explain why a writer should use devices sparingly, referring to Poem 15.1. (d) Name the six stages of a plot and identify each in any story you know, then explain what flashback and foreshadowing each contribute.
+
+#### Section C — Listening and speaking
+
+*These tasks are carried out aloud and assessed as you perform them.* 1.Perform one poem you have written — an acrostic, a haiku or four lines of a sonnet — from memory, having decided in advance where to pause and which word to stress. The class names the form and the word that carried it.
+
+2.In groups of four, perform a scene of your own play containing one monologue. The audience must afterwards say which character is round, which is flat, and what the monologue told them that the dialogue did not.
+
+3.Hold a five-minute group discussion comparing two characters from different texts. Every claim about a character must be supported aloud with an action, a line of speech, or another character's reaction — an unsupported claim is challenged and withdrawn.
+
+#### Section D — Portfolio and project
+
+*These pieces are collected in your portfolio over a longer period.* 1.Keep a literature journal over the term covering at least four texts — a story, a play, a poem and a film. For each, record the characters classified with evidence, the sequence of events including any flashback, and three literary devices with their effect. Close with a page on the character you found most convincing and why.
+
+2.Produce a small anthology of your own poems: at least one sonnet, two acrostics and six haiku, each with its form marked and its syllable counts shown, plus a page for each form explaining its rules and what you found hardest about writing to it.
+
+3.Working in a group, write, rehearse and perform a play of one scene with a correct script, one monologue, at least two named literary devices and a storyboard of six shots showing how it would be filmed. Submit the script, the storyboard and a one-page account of why you ordered the events as you did, including any use of flashback or foreshadowing.
+
+<!-- page 144 -->
+
+## Glossary
+
+*Every key word from all 15 chapters, in alphabetical order, with the chapter in which it is introduced.*
+
+**Abbreviation —** a shortened form used in notes, such as \*govt\* for government. *(Ch 2)*
+
+**Acrostic —** a poem in which the first letters of the lines spell a word. *(Ch 15)*
+
+**Adjectival phrase —** a group of words describing a noun. *(Ch 11)*
+
+**Adjective —** a word describing a noun. *(Ch 7)*
+
+**Adverb —** a word modifying a verb, adjective, another adverb or a phrase. *(Ch 7)*
+
+**Adverbial phrase —** a group of words saying how, when, where or why. *(Ch 11)*
+
+**Advertisement —** a text persuading an audience to buy or accept something. *(Ch 12)*
+
+**Affix —** a prefix or suffix added to a root. *(Ch 5)*
+
+**Affricate —** a consonant that begins as a plosive and ends as a fricative. *(Ch 3)*
+
+**Agent —** in a passive sentence, the doer, introduced by \*by\*. *(Ch 7)*
+
+**Ambiguous reference —** a pronoun that could point to more than one thing. *(Ch 11)*
+
+**Analogy —** a comparison of two pairs standing in the same relationship. *(Ch 10)*
+
+**Analysis —** an explanation of how and why a text works as it does. *(Ch 6)*
+
+**Anecdote —** a very short story told to make a point. *(Ch 11)*
+
+**Antecedent —** the noun a relative pronoun stands for. *(Ch 7)*
+
+**Antonym —** a word opposite in meaning to another. *(Ch 10)*
+
+**Apostrophe —** the mark ( ’ ) showing possession or contraction. *(Ch 9)*
+
+**Appeal —** the means by which a speaker persuades: logical or emotional. *(Ch 13)*
+
+**Article —** a piece written for publication on a subject of interest. *(Ch 13)*
+
+**Aside —** a remark that steps away from the main line of the paragraph. *(Ch 6)*
+
+**Aspiration —** the small puff of air after /p/, /t/ or /k/ at the start of a word. *(Ch 3)*
+
+**Assertion —** a claim made without evidence. *(Ch 6)*
+
+**Audience —** the readers a piece is written for. *(Ch 13)*
+
+**Author and you question —** one answered by combining the text with your own knowledge. *(Ch 4)*
+
+**Auxiliary verb —** a helping verb such as \*be\*, \*have\*, \*do\*, \*will\*, \*can\*. *(Ch 8)*
+
+**Axis —** a labelled line along the side or bottom of a graph. *(Ch 14)*
+
+**Backshift —** moving a tense one step into the past when reporting. *(Ch 8)*
+
+**Bar chart —** a chart comparing quantities by the height or length of bars. *(Ch 14)*
+
+**Brochure —** a folded sheet or small booklet giving fuller information. *(Ch 13)*
+
+**Bulletin —** a short broadcast of news items. *(Ch 2)*
+
+**Byline —** the line naming the writer of an article. *(Ch 5)*
+
+**Caption —** the line of text explaining a picture, table or diagram. *(Ch 5)*
+
+**Cardinal numeral —** a counting number such as \*three\*. *(Ch 7)*
+
+**Central idea —** the one thing a paragraph is chiefly saying. *(Ch 6)*
+
+**Character —** a person represented in a story, play or poem. *(Ch 15)*
+
+**Characterisation —** the means by which a writer reveals a character. *(Ch 15)*
+
+**Citation —** the naming of the exact place in a text from which evidence is taken. *(Ch 6)*
+
+**Climax —** the point of greatest tension in a plot. *(Ch 15)*
+
+**Cluster reduction —** dropping one consonant from a cluster in speech. *(Ch 3)*
+
+**Coherence —** the quality of ideas following one another in a sensible order. *(Ch 11)*
+
+**Cohesion —** the linking of sentences by words that point back and forward. *(Ch 11)*
+
+**Cohesive device —** a word linking one part of a text to another, such as \*however\* or \*therefore\*. *(Ch 5)*
+
+**Collocation —** words that habitually go together, such as \*heavy rain\*. *(Ch 10)*
+
+**Colon —** the mark ( : ) introducing a list, an explanation or a speaker. *(Ch 9)*
+
+**Column —** a vertical line of a table. *(Ch 14)*
+
+<!-- page 145 -->
+
+**Comma splice —** the error of joining two independent clauses with only a comma. *(Ch 9)*
+
+**Complementary opposite —** a pair with nothing between them, such as \*alive\* and \*dead\*. *(Ch 10)*
+
+**Completeness —** the quality of a paragraph that has developed its idea sufficiently. *(Ch 11)*
+
+**Complex preposition —** a preposition of more than one word, such as \*in between\* or \*opposite to\*. *(Ch 1)*
+
+**Compound noun —** a noun made of two or more words, such as \*passer-by\* or \*court martial\*. *(Ch 7)*
+
+**Concession —** admitting part of what another speaker says before disagreeing. *(Ch 2)*
+
+**Concessive clause —** a clause introduced by although, though or while. *(Ch 11)*
+
+**Conditional clause —** a clause introduced by if or unless. *(Ch 11)*
+
+**Conjunctive adverb —** however, therefore, moreover, nevertheless, consequently. *(Ch 9)*
+
+**Connected speech —** speech in continuous phrases rather than single words. *(Ch 3)*
+
+**Connotation —** the association a word carries beyond its plain meaning. *(Ch 10)*
+
+**Consonant —** a speech sound made by obstructing the flow of air. *(Ch 3)*
+
+**Consonant cluster —** two or more consonants together, as in \*asked\* or \*strength\*. *(Ch 3)*
+
+**Context of writing —** who wrote a text, when, where and for whom. *(Ch 5)*
+
+**Contextual clue —** information around a word that reveals its meaning. *(Ch 5)*
+
+**Contraction —** a shortened form in which an apostrophe replaces missing letters. *(Ch 9)*
+
+**Contribution —** a comment that adds something new to a discussion. *(Ch 1)*
+
+**Converse pair —** opposites that describe the same relation from two sides, such as \*buy\* and \*sell\*. *(Ch 10)*
+
+**Coordinating conjunction —** and, but, or, nor, for, so, yet. *(Ch 9)*
+
+**Correlation —** two things changing together. *(Ch 14)*
+
+**Cost-effective —** worth what it costs. *(Ch 12)*
+
+**Courtesy expression —** a polite formula such as \*please\*, \*kindly\* or \*I would be grateful\*. *(Ch 1)*
+
+**Data —** facts and figures collected for reference or analysis. *(Ch 14)*
+
+**Dateline —** the line giving the place and date of a report. *(Ch 5)*
+
+**Defining relative clause —** one that identifies which person or thing is meant; no commas. *(Ch 7)*
+
+**Deixis —** words whose meaning depends on who is speaking, when and where. *(Ch 8)*
+
+**Demonstrative pronoun —** this, that, these, those. *(Ch 11)*
+
+**Denotation —** the plain dictionary meaning of a word. *(Ch 10)*
+
+**Derivation —** the making of new words from a root by adding prefixes or suffixes. *(Ch 5)*
+
+**Direct speech —** a speaker's exact words, inside quotation marks. *(Ch 8)*
+
+**Discussion —** an exchange in which two or more speakers develop a topic. *(Ch 2)*
+
+**Distance expression —** a phrase stating how far, such as \*quite a distance\* or \*a day's journey\*. *(Ch 1)*
+
+**Diverse partners —** the different kinds of people you speak to: peers, elders, officials, strangers. *(Ch 1)*
+
+**Dynamic character —** one who changes as a result of events. *(Ch 15)*
+
+**Elaboration —** a fuller answer giving reasons, examples, evidence or consequences. *(Ch 1)*
+
+**Elision —** the loss of a sound in rapid speech. *(Ch 3)*
+
+**Euphemism —** a mild word used in place of a harsh one. *(Ch 10)*
+
+**Explicit meaning —** meaning stated in so many words. *(Ch 2)*
+
+**Fact —** a statement that can be checked. *(Ch 2)*
+
+**Falling intonation —** a drop in pitch, used on a tag when agreement is expected. *(Ch 8)*
+
+**Feasible —** able to be done with the resources available. *(Ch 12)*
+
+**Figurative language —** language that describes one thing in terms of another. *(Ch 1)*
+
+**Figure —** any diagram, chart, graph or map in a text. *(Ch 14)*
+
+**Final devoicing —** pronouncing a final voiced consonant as its voiceless partner. *(Ch 3)*
+
+**First person —** writing that uses \*I\* and \*we\*. *(Ch 12)*
+
+**Fix-up strategy —** what a reader does when meaning breaks down. *(Ch 4)*
+
+**Flashback —** an event told out of order, from earlier in time. *(Ch 12)*
+
+**Flat character —** one built on a single trait, unchanged throughout. *(Ch 15)*
+
+<!-- page 146 -->
+
+**Fluctuation —** an up-and-down movement with no settled direction. *(Ch 14)*
+
+**Flyer —** a single small sheet distributed to advertise or announce. *(Ch 13)*
+
+**Foil —** a character whose difference throws another into relief. *(Ch 15)*
+
+**Foreshadowing —** an early hint of something that comes later. *(Ch 15)*
+
+**Formal letter —** a letter written to someone in an official capacity. *(Ch 13)*
+
+**Fricative —** a consonant made by forcing air through a narrow gap, producing friction. *(Ch 3)*
+
+**Future perfect —** \*will have\* + past participle, for an action completed before a future time. *(Ch 7)*
+
+**Future perfect progressive —** \*will have been\* + \*-ing\*, for a continuing action up to a future time. *(Ch 7)*
+
+**Future progressive —** \*will be\* + \*-ing\*, for an action in progress at a future time. *(Ch 7)*
+
+**Generic term —** a general word covering a list of particulars, such as \*livestock\*. *(Ch 6)*
+
+**Gist —** the main sense of a text in a sentence or two. *(Ch 4)*
+
+**Gradable opposite —** a pair with degrees between them, such as \*hot\* and \*cold\*. *(Ch 10)*
+
+**Haiku —** a three-line poem of five, seven and five syllables. *(Ch 15)*
+
+**Head word —** the main noun in a compound, which normally takes the plural. *(Ch 7)*
+
+**Heading —** the subject line of a formal letter, usually underlined. *(Ch 13)*
+
+**Hook —** the opening that catches a reader's attention. *(Ch 11)*
+
+**Hyperbole —** deliberate exaggeration for effect. *(Ch 15)*
+
+**Illustration —** an example given to make an idea concrete. *(Ch 6)*
+
+**Imperative —** a verb form giving a command: \*Come early.\*. *(Ch 12)*
+
+**Implicit meaning —** meaning suggested but not stated. *(Ch 2)*
+
+**Implied central idea —** a central idea the writer never states in one sentence. *(Ch 6)*
+
+**Implied message —** what a media text suggests without stating. *(Ch 13)*
+
+**Indefinite pronoun —** somebody, anyone, everyone, nobody, one. *(Ch 9)*
+
+**Independent clause —** a clause that could stand alone as a sentence. *(Ch 9)*
+
+**Independent reading —** reading you choose and sustain without being made to. *(Ch 4)*
+
+**Inference —** a conclusion drawn from evidence in what was said. *(Ch 2)*
+
+**Intensifier —** an adverb strengthening what follows, such as \*very\* or \*extremely\*. *(Ch 7)*
+
+**Interlocutor —** a person taking part in a conversation. *(Ch 13)*
+
+**Interpretation —** a reasoned statement of what a text means. *(Ch 5)*
+
+**Interruption —** taking a turn before the current speaker has finished. *(Ch 1)*
+
+**Irregular plural —** a plural not formed with -s, such as \*children\*. *(Ch 9)*
+
+**Joint ownership —** ownership shared by two or more people. *(Ch 9)*
+
+**Key information —** the details a listener must have to act or to report. *(Ch 2)*
+
+**Key or legend —** the part of a figure explaining its symbols or colours. *(Ch 14)*
+
+**Line graph —** a graph showing how a quantity changes over time. *(Ch 14)*
+
+**Linking —** joining the last sound of one word to the first of the next. *(Ch 3)*
+
+**Loaded word —** a word carrying approval or disapproval beyond its plain sense. *(Ch 2)*
+
+**Logical connector —** a word or phrase showing the relation between clauses. *(Ch 11)*
+
+**Mental verb —** a verb of thinking or believing, such as \*I think\*, \*I believe\*. *(Ch 12)*
+
+**Mental visualisation —** forming pictures in the mind from what is read. *(Ch 4)*
+
+**Message —** the main thing a speaker wants the listener to take away. *(Ch 2)*
+
+**Metaphor —** a comparison that states one thing is another. *(Ch 1)*
+
+**Minimal pair —** two words differing in one sound only, such as \*pin\* and \*bin\*. *(Ch 3)*
+
+**Modal verb —** can, may, must, should, will, would, ought to. *(Ch 12)*
+
+**Monitoring —** noticing, while reading, whether you still understand. *(Ch 4)*
+
+**Monologue —** a long speech by one character, heard by others or alone. *(Ch 15)*
+
+**Mood —** the feeling a text creates in the listener. *(Ch 2)*
+
+**Nasal —** a consonant made with the air escaping through the nose. *(Ch 3)*
+
+<!-- page 147 -->
+
+**Near-synonym —** a synonym that differs in strength, formality or attitude. *(Ch 10)*
+
+**Negative connotation —** an association of disapproval. *(Ch 10)*
+
+**Neutral word —** a word carrying no approval or disapproval. *(Ch 10)*
+
+**Non-defining relative clause —** one that adds extra information; set off by commas. *(Ch 7)*
+
+**Non-fiction —** writing about real people, events, processes and ideas. *(Ch 4)*
+
+**Note-taking —** writing down key information in short form as you listen. *(Ch 2)*
+
+**Notice —** a short written announcement to a defined group. *(Ch 13)*
+
+**Noun phrase —** a group of words doing the work of a noun. *(Ch 11)*
+
+**Objection —** a reason someone might give against your proposal. *(Ch 12)*
+
+**Objective summary —** a summary containing no opinion or addition of the summariser. *(Ch 6)*
+
+**On your own question —** one the text raises but does not answer. *(Ch 4)*
+
+**Onomatopoeia —** a word imitating the sound it names. *(Ch 15)*
+
+**Open-ended question —** a question that cannot be answered with yes, no or one word. *(Ch 1)*
+
+**Opinion —** a judgement that others may reasonably reject. *(Ch 2)*
+
+**Order of adjectives —** the accepted sequence when several adjectives precede a noun. *(Ch 7)*
+
+**Overt message —** what a media text states outright. *(Ch 13)*
+
+**Paragraph —** a group of sentences developing one idea. *(Ch 11)*
+
+**Paraphrase —** a restatement of a passage in your own words at similar length. *(Ch 6)*
+
+**Permanent landmark —** a feature unlikely to move or close, used as a guide. *(Ch 1)*
+
+**Personal narrative —** a true account of something that happened to the writer. *(Ch 12)*
+
+**Phonetic symbol —** a symbol standing for one sound, written between slashes. *(Ch 3)*
+
+**Phrasal verb —** a verb plus a particle, such as \*pick up\* or \*turn down\*. *(Ch 12)*
+
+**Pie chart —** a circle divided to show the parts of a whole. *(Ch 14)*
+
+**Plosive —** a consonant made by stopping the air completely and releasing it. *(Ch 3)*
+
+**Plot —** the arrangement of events in a story. *(Ch 15)*
+
+**Point of view —** the position from which a story is told. *(Ch 12)*
+
+**Polarity —** whether a clause is positive or negative. *(Ch 8)*
+
+**Positive connotation —** an association of approval. *(Ch 10)*
+
+**Possession —** the relationship of belonging, shown by an apostrophe. *(Ch 9)*
+
+**Possessive pronoun —** its, hers, ours, yours, theirs — never written with an apostrophe. *(Ch 9)*
+
+**Pre-determiner —** a word standing before a determiner, such as \*more than\* or \*nearly all\*. *(Ch 7)*
+
+**Pre-modify —** to stand before a word and qualify it. *(Ch 7)*
+
+**Prediction —** a reasoned guess about what a text will say next. *(Ch 4)*
+
+**Preposition —** a word showing the relation of a noun to the rest of the sentence. *(Ch 7)*
+
+**Prior knowledge —** what a reader already knows about a subject. *(Ch 4)* **Problem–solution text —** writing that states a problem and proposes a remedy. *(Ch 12)* **Proper noun —** the name of a particular person, place, organisation or title. *(Ch 9)*
+
+**Proportion —** giving each part of a summary the weight it had in the original. *(Ch 6)*
+
+**Protagonist —** the character whose story it is. *(Ch 15)*
+
+**Pull quote —** a sentence lifted from an article and printed large to catch the eye. *(Ch 5)*
+
+**Purpose —** what a piece of writing is meant to achieve. *(Ch 13)*
+
+**Purpose clause —** a clause introduced by \*in order to\* or \*so that\*. *(Ch 11)*
+
+**Purpose for reading —** what you intend to get out of a text before you begin. *(Ch 4)*
+
+**Question tag —** a short question added to a statement, such as \*isn't it?\*. *(Ch 8)*
+
+**Quotation —** the exact words of a text, marked as such. *(Ch 6)*
+
+**Re-reading —** going back over a passage to recover meaning. *(Ch 4)*
+
+**Reason clause —** a clause introduced by because, since or as. *(Ch 11)*
+
+**Recipient's address —** the address of the person written to, placed on the left. *(Ch 13)*
+
+<!-- page 148 -->
+
+**Redundancy —** the saying of the same thing twice in different words. *(Ch 6)*
+
+**Referent —** the word or idea a pronoun points back to. *(Ch 11)*
+
+**Register —** the level of formality of the language a speaker chooses. *(Ch 1)*
+
+**Register of a text —** the level of formality the writing adopts. *(Ch 5)*
+
+**Register of a word —** the level of formality at which a word belongs. *(Ch 10)*
+
+**Regular plural —** a plural formed with -s, such as \*boys\*. *(Ch 9)*
+
+**Relative clause —** a clause introduced by a relative pronoun and describing a noun. *(Ch 7)*
+
+**Relative pronoun —** a pronoun introducing a clause that describes a noun: who, whom, whose, which, that. *(Ch 7)* **Reported command —** an order reported with \*told\* and an infinitive. *(Ch 8)*
+
+**Reported question —** a question reported as a statement, without question word order. *(Ch 8)*
+
+**Reported speech —** an account of what was said, without the exact words. *(Ch 8)*
+
+**Reporting clause —** the clause containing the reporting verb. *(Ch 8)*
+
+**Reporting verb —** the verb introducing reported speech, such as \*said\* or \*asked\*. *(Ch 8)*
+
+**Reservation —** a booking made in advance for a seat, a room or a service. *(Ch 1)*
+
+**Result clause —** a clause showing the outcome, introduced by \*so\* or \*so that\*. *(Ch 11)*
+
+**Rhetorical question —** a question asked for effect, not for an answer. *(Ch 12)*
+
+**Rhyme scheme —** the pattern of rhymes, written as a, b, c and so on. *(Ch 15)*
+
+**Right there question —** one whose answer is stated in one place in the text. *(Ch 4)*
+
+**Rising intonation —** a lift in pitch, used on a tag when the speaker is genuinely asking. *(Ch 8)*
+
+**Root —** the base part of a word to which affixes are added. *(Ch 5)*
+
+**Round character —** one shown with several sides, capable of surprising us. *(Ch 15)*
+
+**Round table conference —** a meeting at which each participant speaks in turn as an equal. *(Ch 1)*
+
+**Row —** a horizontal line of a table. *(Ch 14)*
+
+**Salutation —** the greeting: \*Dear Sir\* or \*Dear Madam\*. *(Ch 13)*
+
+**Sample —** the part of a population actually studied. *(Ch 14)*
+
+**Scale —** the relation between the units on a graph or map and what they represent. *(Ch 14)*
+
+**Scanning —** searching a text for one particular piece of information. *(Ch 4)*
+
+**Selling point —** a reason why this product or idea is better than others. *(Ch 12)*
+
+**Semi-colon —** the mark ( ; ) joining closely related independent clauses. *(Ch 9)*
+
+**Sender's address —** the writer's address, placed at the top right. *(Ch 13)*
+
+**Sense words —** words appealing to sight, sound, smell, taste or touch, such as \*foggy\* or \*tingling\*. *(Ch 1)*
+
+**Sensory language —** words appealing to sight, sound, smell, taste and touch. *(Ch 12)*
+
+**Separate ownership —** ownership held individually by two or more people. *(Ch 9)*
+
+**Sequence —** the order in which events are set down. *(Ch 12)*
+
+**Sidebar —** a boxed passage beside the main text carrying extra information. *(Ch 5)*
+
+**Simile —** a comparison using \*like\* or \*as\*. *(Ch 1)*
+
+**Simple future —** \*will/shall\* + verb, for a future action stated plainly. *(Ch 7)*
+
+**Skimming —** reading quickly to get the general sense. *(Ch 4)*
+
+**Slogan —** a short memorable phrase attached to a product or campaign. *(Ch 12)*
+
+**Soliloquy —** a speech in which a character alone on stage speaks their thoughts. *(Ch 15)*
+
+**Sonnet —** a poem of fourteen lines with a fixed rhyme scheme. *(Ch 15)*
+
+**Source —** where a piece of data came from. *(Ch 14)*
+
+**Speech —** a talk delivered to an audience on an occasion. *(Ch 13)*
+
+**Stage direction —** an instruction in brackets telling how a line is spoken. *(Ch 13)*
+
+**Stanza —** a group of lines forming a division of a poem. *(Ch 15)*
+
+**Static character —** one who is the same at the end as at the beginning. *(Ch 15)*
+
+**Subheading —** a heading within a section, naming what follows. *(Ch 5)*
+
+<!-- page 149 -->
+
+**Subject line —** the line of an email stating what it is about. *(Ch 13)*
+
+**Subscription —** the closing: \*Yours faithfully\* or \*Yours sincerely\*. *(Ch 13)*
+
+**Summary —** a much shorter statement of a text keeping only what is essential. *(Ch 6)*
+
+**Supporting idea —** a detail, reason or example that carries the central idea. *(Ch 6)*
+
+**Synonym —** a word with nearly the same meaning as another. *(Ch 10)*
+
+**T-chart —** a two-column chart used for sorting ideas, such as for and against. *(Ch 13)*
+
+**Table —** data set out in rows and columns. *(Ch 14)*
+
+**Talk show —** a broadcast in which a host and guests discuss issues. *(Ch 2)*
+
+**Target audience —** the people a text is written for. *(Ch 12)*
+
+**Text feature —** a part of a text other than the running prose, such as a heading or a caption. *(Ch 5)*
+
+**Textual evidence —** the words of the text quoted in support of an answer. *(Ch 4)*
+
+**Theme —** an idea about life that a text carries beyond its own subject. *(Ch 5)*
+
+**Thesaurus —** a book listing words grouped by meaning. *(Ch 10)*
+
+**Think and search question —** one whose answer must be gathered from several places. *(Ch 4)*
+
+**Time clause —** a clause introduced by when, before, after, since, while, as or until. *(Ch 11)*
+
+**Tone —** the speaker's attitude to the subject, heard in the choice of words and the voice. *(Ch 2)*
+
+**Topic sentence —** the sentence carrying the main idea of a paragraph. *(Ch 5)*
+
+**Transactional text —** a short text written to get something done. *(Ch 12)*
+
+**Trend —** the general direction in which figures are moving. *(Ch 14)*
+
+**Turn taking —** the orderly exchange of speaking turns among people in a conversation. *(Ch 1)*
+
+**Understatement —** saying less than is meant, often for effect. *(Ch 2)*
+
+**Unity —** the quality of a paragraph in which every sentence serves one idea. *(Ch 11)*
+
+**Universal truth —** a statement always true, which need not be backshifted. *(Ch 8)*
+
+**Viewpoint —** the position from which a writer sees a subject. *(Ch 5)*
+
+**Voiced sound —** a sound made with the vocal cords vibrating, such as /b/. *(Ch 3)*
+
+**Voiceless sound —** a sound made without vocal cord vibration, such as /p/. *(Ch 3)*
+
+**Voicing —** whether the vocal cords vibrate while a sound is made. *(Ch 3)*
+
+**Wh-question —** a question beginning with who, what, when, where, why or how. *(Ch 8)*
+
+**Yes/no question —** a question answered with yes or no. *(Ch 8)*
+
+**Yielding —** handing the turn to another speaker. *(Ch 1)*
+
+*266 terms.*
+
+<!-- page 150 -->
+
+## Index of Content Standards
+
+*Every NaCCA content standard and indicator prescribed for Basic 8 English Language, with the chapter in which it is taught. This table is the alignment proof for the whole book.*
+
+| **Code** | **Content standard / indicator** | **Chapter** |
+| --- | --- | --- |
+| B8/JHS2.1.1.1 | Demonstrate use of appropriate language orally in specific situations | Ch 1 |
+| B8/JHS2.1.1.1.1 | Use appropriate register in everyday communication (informal and formal) with diverse partners on grade-level topics/texts/issues |  |
+| B8/JHS2.1.1.1.2 | Ask and respond to specific questions with elaboration by making comments that contribute to texts, issues or topics under discussion |  |
+| B8/JHS2.1.1.1.3 | Use appropriate language orally to describe familiar places and events |  |
+| B8/JHS2.1.1.1.4 | Listen to and give accurate directions of complex routes to different locations |  |
+| B8/JHS2.1.1.1.5 | Demonstrate appropriate turn taking for effective oral communication |  |
+| B8/JHS2.1.2.1 | Demonstrate the ability to listen to extended reading and identify key information | Ch 2 |
+| B8/JHS2.1.2.1.1 | Listen to a level-appropriate dialogue/discussion by more than one speaker attentively and identify key information |  |
+| B8/JHS2.1.2.1.2 | Listen to and discuss ideas and share opinions from a level-appropriate text |  |
+| B8/JHS2.1.3.1 | Articulate English speech sounds to develop confidence and skills in listening and speaking | Ch 3 |
+| B8/JHS2.1.3.1.1 | Produce consonant sounds in context (plosives) |  |
+| B8/JHS2.1.3.1.2 | Produce consonant sounds (fricatives) in context |  |
+| B8/JHS2.1.3.1.3 | Produce consonant sounds (nasals and affricates) in context |  |
+| B8/JHS2.2.1.1 | Demonstrate increasing confidence and enjoyment in independent reading. | Ch 4 |
+| B8/JHS2.2.1.1.1 | Use Monitoring and mental visualisation to engage and understand non-fictional texts |  |
+| B8/JHS2.2.1.1.2 | Use prediction to assess and improve engagement and understanding of non- fiction texts |  |
+| B8/JHS2.2.1.1.3 | Generate and answer questions to increase confidence and independent reading through a variety of non- fiction texts |  |
+| B8/JHS2.2.1.2 | Read, comprehend, interpret texts | Ch 5 |
+| B8/JHS2.2.1.2.1 | Identify the main text features of non- fiction texts |  |
+| B8/JHS2.2.1.2.2 | Use contextual clues (topic sentence, vocabulary knowledge, cohesive devices, text features) to analyse text |  |
+| B8/JHS2.2.1.2.3 | Read silently and answer more complex comprehension questions on texts /passages |  |
+| B8/JHS2.2.1.2.4 | Provide evidence and show mastery to support understanding of texts |  |
+
+<!-- page 151 -->
+
+| B8/JHS2.2.1.2.5 | Generate simple themes from a text and apply to different situations |  |
+| --- | --- | --- |
+| B8/JHS2.2.1.2.6 | Examine the connections between a text and other points of view |  |
+| B8/JHS2.2.1.2.7 | Use derivation to expand vocabulary to new contexts (historical, cultural, political) |  |
+| B8/JHS2.2.1.2.8 | Integrate appropriate grade level vocabulary in different contexts |  |
+| B8/JHS2.2.2.1 | Cite the textual evidence that supports an analysis of a text to determine the central idea and provide an objective summary | Ch 6 |
+| B8/JHS2.2.2.1.1 | Determine the central idea in paragraphs and analyse to identify supporting ideas |  |
+| B8/JHS2.3.1.1 | Apply the knowledge of word classes and their functions in Communication | Ch 7 |
+| B8/JHS2.3.1.1.1 | Use an increasing range of singular and plural forms of compound nouns correctly and appropriately in sentences |  |
+| B8/JHS2.3.1.1.2 | Demonstrate use of relative pronouns (who/whom, which/that, whose) correctly in speaking and writing |  |
+| B8/JHS2.3.1.1.3 | Demonstrate command of the use of adjectives in discourse |  |
+| B8/JHS2.3.1.1.4 | Use verb forms correctly when talking about future events Future Time 1. Use the future form of verbs to talk/write about future events. |  |
+| B8/JHS2.3.1.1.5 | Demonstrate command of the knowledge of adverbs |  |
+| B8/JHS2.3.1.1.6 | Demonstrate command of use of prepositions in speaking and writing |  |
+| B8/JHS2.3.1.6 | Show understanding and use of question tags in communication | Ch 8 |
+| B8/JHS2.3.1.5.2 | Demonstrate command of the use of reported speech |  |
+| B8/JHS2.3.1.6.1 | Demonstrate command of question tags |  |
+| B8/JHS2.3.2.1 | Demonstrate mastery of capitalisation and Ch 9 punctuation in communication |  |
+| B8/JHS2.3.2.1.1 | Use punctuation marks (colon, semi-colon, apostrophe) in context |  |
+| B8/JHS2.3.3.1 | Demonstrate appropriate use of vocabulary in communication | Ch 10 |
+| B8/JHS2.3.3.1.1 | Use vocabulary appropriately in speaking and writing |  |
+| B8/JHS2.4.1.1 | Develop, organise and express ideas coherently and cohesively in writing | Ch 11 |
+| B8/JHS2.4.1.1.1 | Demonstrate understanding of how different sentences relate within a paragraph using appropriate cohesive devices (e.g., connectors, pronouns, repetition of vocabulary or grammatical structures) |  |
+| B8/JHS2.4.1.2 | Create different paragraphs within a composition on a given topic | Ch 11 |
+| B8/JHS2.4.1.2.1 | Record and use different techniques to capture the reader’s attention in introductory paragraphs |  |
+| B8/JHS2.4.2.1 | Use a process approach to compose descriptive, narrative/ imaginative, informational, persuasive and argumentative texts | Ch 12 |
+
+<!-- page 152 -->
+
+| B8/JHS2.4.2.1.1 | Write personal narratives using effective techniques incorporating descriptive details and logical event sequences. |  |
+| --- | --- | --- |
+| B8/JHS2.4.2.1.2 | Use precise words phrases and sensory language to convey a vivid mental picture of places and events |  |
+| B8/JHS2.4.2.1.3 | Create shorter transactional texts to convince an audience to accept an opinion |  |
+| B8/JHS2.4.2.1.4 | Compose paragraphs that identify an issue, give details about it and suggest solutions |  |
+| B8/JHS2.4.2.2 | Apply writing skills to specific life situationsCh 13 |  |
+| B8/JHS2.4.2.2.1 | Compose formal writing (business letters, email) on given topics using the appropriate format |  |
+| B8/JHS2.4.2.2.2 | Compose notes, brochures and flyers for different purposes and audiences |  |
+| B8/JHS2.4.2.2.3 | Write articles on given issues for publication in school magazines |  |
+| B8/JHS2.4.2.2.4 | Create dialogues among multiple interlocutors on different themes |  |
+| B8/JHS2.4.2.2.5 | Compose speeches for different purposes and occasions. |  |
+| B8/JHS2.4.3.1 | Research to build and present knowledge | Ch 14 |
+| B8/JHS2.4.3.1.1 | Use information from non-text sources (figures, tables graphs, and maps) to support ideas in writing |  |
+| B8/JHS2.5.1.1 | Demonstrate understanding of how various elements of literary genres contribute to meaning | Ch 15 |
+| B8/JHS2.5.1.1.1 | Analyse the types of characters in texts |  |
+| B8/JHS2.5.1.1.2 | Examine the features of different types of poems |  |
+| B8/JHS2.5.1.1.3 | Examine how monologues and dialogues are used to convey characters in narratives and play scripts (drama) |  |
+| B8/JHS2.5.1.1.4 | Use literary devices (euphemism, hyperbole, onomatopoeia, etc.) in texts |  |
+| B8/JHS2.5.1.1.5 | Analyse the sequence of events in film/media, narratives and play scripts (drama) |  |
+
+*16 content standards · 49 indicators · all covered.*

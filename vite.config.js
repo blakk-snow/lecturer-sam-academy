@@ -51,6 +51,19 @@ export default defineConfig({
       workbox: {
         globPatterns: ["**/*.{js,css,html,ico,svg,png,woff2}"],
         maximumFileSizeToCacheInBytes: 4 * 1024 * 1024, // 4 MB
+        // Textbook figures are heavy (~8 MB across 72 PNGs) — exclude them
+        // from the precache and let them cache at runtime on first view.
+        globIgnores: ["**/*-fig*.png"],
+        runtimeCaching: [
+          {
+            urlPattern: /\/assets\/.*\.(?:png|jpg|jpeg|gif)$/,
+            handler: "CacheFirst",
+            options: {
+              cacheName: "textbook-figures",
+              expiration: { maxEntries: 100, maxAgeSeconds: 60 * 60 * 24 * 60 },
+            },
+          },
+        ],
       },
     }),
   ],

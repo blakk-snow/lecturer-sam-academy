@@ -287,6 +287,146 @@ for (const subject of Object.values(curriculumMap)) {
   }
 }
 
+// ── Textbook parsing (textbooks-and-references/md/) ───────────────────────────
+// NaCCA Learner's Books / Workbooks / Answer Books. Chapters are marked
+// `### Chapter N: Title`; strands are `## Strand N:` (English) or
+// `### Strand N:` (Maths); a trailing `## Index of Content Standards` table
+// maps curriculum codes to chapters.
+
+const BOOK_SUBJECT_IDS = { ENGLISH: 'english', MATHS: 'mathematics', MATHEMATICS: 'mathematics', SCIENCE: 'science' };
+
+function parseBookMeta(fileName) {
+  const match = fileName.match(/^(ENGLISH|MATHS|MATHEMATICS|SCIENCE)\s*-\s*B([789])\s*-\s*(.+)\.md$/i);
+  if (!match) return null;
+  const rest = match[3].toUpperCase();
+  const kind = /WORKBOOK ANSWER BOOK/.test(rest) ? 'answer-book'
+    : /WORKBOOK/.test(rest) ? 'workbook'
+    : /CHAPTER/.test(rest) ? 'draft'
+    : 'learner';
+  return {
+    subjectId: BOOK_SUBJECT_IDS[match[1].toUpperCase()],
+    classId: `B${match[2]}`,
+    kind,
+    label: { 'learner': 'Learner\'s Book', workbook: 'Workbook', 'answer-book': 'Answer Book', draft: 'Draft chapter' }[kind],
+  };
+}
+
+function slugBookId(fileName) {
+  return fileName.replace(/\.md$/i, '').toLowerCase()
+    .replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+}
+
+function stripComments(text) {
+  return text.replace(/<!--[\s\S]*?-->/g, '');
+}
+
+/** Parse the `## Index of Content Standards` table into code → chapter number. */
+function parseChapterIndex(bookText) {
+  const idxMatch = bookText.match(/^##\s*Index of Content Standards\s*$([\s\S]*)/im);
+  if (!idxMatch) return {};
+  const map = {};
+  let currentChapter = null;
+  for (const line of idxMatch[1].split(/\r?\n/)) {
+    const row = line.match(/^\|\s*(B[7-9](?:\/JHS\d+)?(?:\.\d+)+)\s*\|[^|]*\|(?:\s*(Ch\s*\d+))?\s*\|/i);
+    if (row) {
+      const code = normalizeCode(row[1]);
+      const chapter = row[2] ? Number(row[2].replace(/\D/g, '')) : null;
+      if (chapter) currentChapter = chapter;
+      if (currentChapter) map[code] = currentChapter;
+    }
+  }
+  return map;
+}
+
+/** Extract curriculum codes from `> …` blockquote lines (alignment boxes). */
+function extractBlockquoteCodes(text) {
+  const codes = new Set();
+  for (const line of text.split(/\r?\n/)) {
+    if (!line.startsWith('>')) continue;
+    for (const match of line.matchAll(/B[7-9](?:\/JHS\d+)?(?:\.\d+)+/gi)) {
+      codes.add(normalizeCode(match[0]));
+    }
+  }
+  return [...codes];
+}
+
+function parseBook(filePath) {
+  const fileName = path.basename(filePath);
+  const meta = parseBookMeta(fileName);
+  if (!meta) return null;
+
+  const raw = fs.readFileSync(filePath, 'utf8');
+  const text = stripComments(raw);
+  const lines = text.split(/\r?\n/);
+  const chapterIndex = parseChapterIndex(text);
+
+  const chapters = [];
+  let current = null;
+  let strandTitle = '';
+  let chapterNumber = 0;
+
+  const flush = () => {
+    if (!current) return;
+    const blockquoteCodes = extractBlockquoteCodes(current.bodyLines.join('\n'));
+    const indexCodes = Object.entries(chapterIndex)
+      .filter(([, ch]) => ch === current.number)
+      .map(([code]) => code);
+    current.codes = [...new Set([...indexCodes, ...blockquoteCodes])].sort();
+    chapters.push(current);
+    current = null;
+  };
+
+  for (const line of lines) {
+    const strandMatch = line.match(/^##\s*Strand\s*\d+\s*:?\s*(.*)$/i);
+    if (strandMatch) {
+      flush();
+      strandTitle = strandMatch[1].trim();
+      continue;
+    }
+    // Maths books mark strands at the same level as chapters (### Strand N:).
+    const strandMatchH3 = line.match(/^###\s*Strand\s*\d+\s*:?\s*(.*)$/i);
+    if (strandMatchH3) {
+      flush();
+      strandTitle = strandMatchH3[1].trim();
+      continue;
+    }
+    const chapterMatch = line.match(/^###\s*Chapter\s*(\d+)\s*:?\s*(.*)$/i);
+    if (chapterMatch) {
+      flush();
+      chapterNumber = Number(chapterMatch[1]);
+      current = {
+        id: `ch-${chapterNumber}`,
+        number: chapterNumber,
+        title: chapterMatch[2].trim(),
+        strand: strandTitle,
+        codes: [],
+        bodyLines: [],
+      };
+      continue;
+    }
+    // Back-matter headings (Glossary / Index) end the last chapter's body.
+    if (/^##\s/.test(line)) {
+      flush();
+      continue;
+    }
+    if (current) current.bodyLines.push(line);
+  }
+  flush();
+
+  const book = {
+    id: slugBookId(fileName),
+    fileName,
+    subjectId: meta.subjectId,
+    classId: meta.classId,
+    kind: meta.kind,
+    kindLabel: meta.label,
+    title: meta.label,
+    chapters: chapters.map(c => ({ ...c, body: c.bodyLines.join('\n').trim() })),
+  };
+  book.chapterCount = book.chapters.length;
+  return book;
+}
+
 // ── Walk + classify ────────────────────────────────────────────────────────────
 
 function walkMarkdownFiles(dir, base = COURSES_DIR) {
@@ -334,8 +474,14 @@ const warnings = [];
 const records = [];
 const ids = new Set();
 const library = new Map(); // `${subjectId}:${classId}` -> Map(code -> { notes, questions[] })
+const bookFiles = [];
 
 for (const filePath of files) {
+  // Textbooks get their own pipeline (chapter modules + book index).
+  if (filePath.replace(/\\/g, '/').includes('textbooks-and-references/')) {
+    if (filePath.toLowerCase().endsWith('.md')) bookFiles.push(filePath);
+    continue;
+  }
   const fileName = path.basename(filePath);
   const folderName = path.basename(path.dirname(filePath));
   const { kind, code } = classifyFile(filePath);
@@ -434,6 +580,93 @@ for (const filePath of files) {
   }
 }
 
+// ── Textbooks: parse + write book modules and the book index ──────────────────
+
+const books = [];
+for (const filePath of bookFiles) {
+  const book = parseBook(filePath);
+  if (!book) {
+    warnings.push(`${filePath}: could not determine subject/class from the filename (expected e.g. "MATHS - B8 - PRINT READY.md")`);
+    continue;
+  }
+  if (book.chapters.length === 0) {
+    errors.push(`${filePath}: no chapters found (expected "### Chapter N: …" headings)`);
+    continue;
+  }
+  books.push(book);
+}
+
+if (!fs.existsSync(LIBRARY_DIR)) fs.mkdirSync(LIBRARY_DIR, { recursive: true });
+const booksDir = path.join(LIBRARY_DIR, 'books');
+if (!fs.existsSync(booksDir)) fs.mkdirSync(booksDir, { recursive: true });
+
+const bookManifest = [];
+const chapterRefs = new Map(); // normalized code → refs[]
+for (const book of books) {
+  const modulePath = path.join(booksDir, `${book.id}.js`);
+  const moduleBody = `// AUTO-GENERATED by scripts/parse-course-content.mjs
+// Do not edit directly — re-run the script to regenerate.
+// Source: src/data/courses-data/textbooks-and-references/md/${book.fileName}
+
+export const bookMeta = ${JSON.stringify({
+    id: book.id,
+    fileName: book.fileName,
+    subjectId: book.subjectId,
+    classId: book.classId,
+    kind: book.kind,
+    kindLabel: book.kindLabel,
+    chapterCount: book.chapterCount,
+  }, null, 2)};
+
+export const chapters = ${JSON.stringify(book.chapters, null, 2)};
+`;
+  fs.writeFileSync(modulePath, moduleBody, 'utf8');
+
+  bookManifest.push({
+    id: book.id,
+    subjectId: book.subjectId,
+    classId: book.classId,
+    kind: book.kind,
+    kindLabel: book.kindLabel,
+    chapterCount: book.chapterCount,
+    loader: `() => import('./books/${book.id}.js')`,
+  });
+
+  for (const chapter of book.chapters) {
+    for (const code of chapter.codes) {
+      if (!chapterRefs.has(code)) chapterRefs.set(code, []);
+      chapterRefs.get(code).push({
+        bookId: book.id,
+        bookKindLabel: book.kindLabel,
+        subjectId: book.subjectId,
+        classId: book.classId,
+        chapterNumber: chapter.number,
+        chapterTitle: chapter.title,
+      });
+    }
+  }
+}
+
+const bookIndexBody = `// AUTO-GENERATED by scripts/parse-course-content.mjs
+// Do not edit directly — re-run the script to regenerate.
+
+export const bookManifest = [
+${bookManifest.map(b => `  { id: ${JSON.stringify(b.id)}, subjectId: ${JSON.stringify(b.subjectId)}, classId: ${JSON.stringify(b.classId)}, kind: ${JSON.stringify(b.kind)}, kindLabel: ${JSON.stringify(b.kindLabel)}, chapterCount: ${b.chapterCount}, loader: ${b.loader} },`).join('\n')}
+];
+
+/** Load one book (meta + chapters) by id. */
+export async function loadBook(bookId) {
+  const entry = bookManifest.find(b => b.id === bookId);
+  if (!entry) return null;
+  const mod = await entry.loader();
+  return { ...mod.bookMeta, chapters: mod.chapters };
+}
+
+/** Normalized indicator code → book chapters that teach it. */
+export const chapterRefs = ${JSON.stringify(Object.fromEntries([...chapterRefs.entries()].sort()), null, 2)};
+`;
+fs.writeFileSync(path.join(LIBRARY_DIR, 'bookIndex.js'), bookIndexBody, 'utf8');
+
 // ── Report + write ─────────────────────────────────────────────────────────────
 
 const isCheck = process.argv.includes('--check');
@@ -521,5 +754,6 @@ fs.writeFileSync(path.join(LIBRARY_DIR, 'index.js'), indexBody, 'utf8');
 
 console.log(`Indexed ${records.length} course markdown files into ${path.relative(ROOT, OUTPUT_FILE)}.`);
 console.log(`Content modules: ${manifest.length} subject-class modules (${manifest.reduce((n, m) => n + m.entryCount, 0)} indicator entries).`);
+console.log(`Textbooks: ${books.length} books, ${books.reduce((n, b) => n + b.chapters.length, 0)} chapters, ${chapterRefs.size} curriculum codes linked.`);
 console.log(`Validated ${records.length} files; ${warnings.length} warning(s), ${errors.length} error(s).`);
 if (errors.length) process.exitCode = 1;

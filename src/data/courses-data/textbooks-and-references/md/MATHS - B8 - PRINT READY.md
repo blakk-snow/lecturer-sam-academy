@@ -1,0 +1,6621 @@
+<!-- Source PDF: MATHS - B8 - PRINT READY.pdf — 164 pages -->
+<!-- Converted to Markdown — figures in images/ — invisible page markers throughout -->
+
+<!-- page 1 -->
+
+**MATHEMATICS**
+
+for Junior High School
+
+**BASIC 8 · JHS 2**
+
+*Learner’s Book*
+
+Written to the NaCCA Common Core Programme
+
+Mathematics Curriculum for JHS1 (B7) – JHS3 (B9) · September 2020
+
+Ghana
+
+<!-- page 2 -->
+
+### Mathematics for Junior High School — Basic 8 (JHS 2)
+
+*Learner’s Book*
+
+This book is written to the Mathematics Curriculum of the Common Core Programme published by the National Council for Curriculum and Assessment (NaCCA), Ministry of Education, Ghana, September 2020.
+
+Every chapter states its strand, sub-strand, content standard, indicators and core competences exactly as they appear in that curriculum, before any content is taught.
+
+All 18 content standards and all 58 indicators prescribed for Basic 8 are covered.
+
+### Edition
+
+First edition, 2026
+
+### Acknowledgements
+
+Curriculum extracts are reproduced from the NaCCA Common Core Programme Mathematics Curriculum for JHS1 (B7) – JHS3 (B9), September 2020, for the purpose of alignment, and are the property of NaCCA.
+
+### A note on figures
+
+Every diagram in this book has been drawn to a single house style, at print resolution. Number lines, grids, factor trees, compass constructions, coordinate plots and statistical displays are drawn exactly as a learner would be expected to draw them.
+
+<!-- page 3 -->
+
+### Preface
+
+Basic 8 is the year in which the tools built in Basic 7 are put to work. Standard form makes very large and very small numbers manageable; the laws of indices turn long multiplications into short ones; Pythagoras’ theorem and the trigonometric ratios measure what cannot be reached; and a frequency table turns a page of raw figures into something a person can read at a glance.
+
+This book has been written so that the connection to the national curriculum is visible on every page rather than hidden in a scheme of work. Each chapter opens with the strand, sub-strand, content standard, indicators and core competences it teaches, quoted word for word from the NaCCA curriculum. Nothing is paraphrased, and nothing is claimed that the curriculum does not say.
+
+Every chapter is built on the same spine: an explanation, then worked examples set out line by line, then a Practice exercise on exactly that skill. Nothing in the practice asks for anything the worked examples have not shown you. Where the curriculum gives an exemplar — model a billion with graph paper, cut a strip of paper to find the highest common factor, measure a bearing across the school compound, test a probability by tossing a coin a hundred times — that exemplar has been turned into an activity you can actually carry out.
+
+The assessment at the end of every chapter is weighted as the curriculum requires: three tenths of the items test knowledge and understanding, four tenths application of knowledge, and three tenths attitudes, values and process skills. Every item carries a tag so that you can see which is which, and the questions are written in the language and layout of the BECE.
+
+<!-- page 4 -->
+
+### How to use this book
+
+Every chapter follows the same order, so that once you are used to it you can find anything quickly.
+
+**Curriculum alignment —** the strand, sub-strand, content standard and indicators, in the curriculum’s own words.
+
+**Core competences —** the competences the curriculum attaches to those indicators.
+
+**Learning objectives —** what you will be able to do by the end.
+
+**Key words —** every term used, each with a short definition.
+
+**Engage —** a short opening that gives you a reason to care.
+
+**The main sections —** the explanation, with tables and figures.
+
+**Worked examples —** a complete solution set out line by line, with the answer in bold.
+
+**Practice —** questions on exactly the skill just shown.
+
+**Activities —** practical work, with what you need, what to do and what to record.
+
+**Apply it —** a longer problem that uses the whole chapter.
+
+**Chapter summary —** the whole chapter in ten or so lines.
+
+**Assessment —** Sections A, B and C.
+
+### The assessment sections
+
+Each item carries a tag showing which profile dimension it tests: [K] Knowledge and Understanding, [A] Application of Knowledge, [P] Attitudes, Values and Process Skills. Section A is objective, Section B is theory and application, and Section C is practical work you carry out and record.
+
+### Showing your working
+
+In mathematics the working is the answer. Marks are given for the method even when the arithmetic goes wrong, and a correct figure with no working earns very little. Set your work out as the worked examples do — one step to a line, with the reason beside it where the step is not obvious.
+
+<!-- page 5 -->
+
+### Contents
+
+- **Scope and Sequence** — 5
+
+- **Strand 1: Number........................................................................................................... 7**
+
+- Chapter 1: Standard Form, Significant Figures and Square Roots — 7
+
+- Chapter 2: Mental Strategies and the Four Operations — 18
+
+- Chapter 3: Laws of Indices — 28
+
+- Chapter 4: Operations on Fractions — 37
+
+- Chapter 5: Ratio, Rate and Proportion — 47
+
+- **Strand 2: Algebra..........................................................................................................58**
+
+- Chapter 6: Linear Graphs and Gradient — 58
+
+- Chapter 7: Expanding and Factorising Algebraic Expressions — 68
+
+- Chapter 8: Linear Inequalities — 80
+
+- **Strand 3: Geometry and Measurement.........................................................................90**
+
+- Chapter 9: Parallel Lines, Triangles and Construction — 90
+
+- Chapter 10: Pythagoras, Trigonometry, Area of a Circle and Vectors — 105
+
+- Chapter 11: Rotation — 119
+
+- **Strand 4: Handling Data..............................................................................................130**
+
+- Chapter 12: Frequency Tables, Histograms and Grouped Data — 130
+
+- Chapter 13: Probability of Two Independent Events — 143
+
+- **Glossary......................................................................................................................154**
+
+- **Index of Content Standards.........................................................................................159**
+
+<!-- page 6 -->
+
+### Scope and Sequence
+
+Basic 8 covers all four NaCCA strands across their sub-strands. The table below maps every chapter to the strand, sub-strand and content standards it teaches.
+
+| **Ch** | **Chapter title** | **Strand** | **Sub-strand** | **Content** **standards** | **Ind.** |
+| --- | --- | --- | --- | --- | --- |
+| 1 | Standard Form, Significant Number Figures and Square Roots |  | Number and Numeration System1.1.2 | 1.1.1 | 8 |
+| 2 | Mental Strategies and the Four Operations | Number | Number Operations1.2.1 | 1.2.2 | 6 |
+| 3 | Laws of Indices | Number | Number Operations1.2.3 |  | 4 |
+| 4 | Operations on Fractions | Number | Fractions, Decimals 1.3.1 and Percentages |  | 3 |
+| 5 | Ratio, Rate and Proportion | Number | Number: Ratios and 1.4.1 Proportion |  | 5 |
+| 6 | Linear Graphs and Gradient | Algebra | Patterns and Relations | 2.1.1 | 3 |
+| 7 | Expanding and Factorising Algebraic Expressions | Algebra | Algebraic Expressions | 2.2.1 | 4 |
+| 8 | Linear Inequalities | Algebra | Variables and Equations | 2.3.1 | 3 |
+| 9 | Parallel Lines, Triangles and Construction | Measurement | Geometry and Shapes and Space | 3.1.1 3.1.2 | 5 |
+| 10 | Area of a Circle and Vectors | Pythagoras, Trigonometry, Geometry and Measurement Measurement |  | 3.2.1 3.2.2 | 7 |
+| 11 | Rotation | Geometry and Position and Measurement | Transformation | 3.3.1 | 3 |
+| 12 | Frequency Tables, Histograms and Grouped Data | Handling Data | Data | 4.1.1 4.1.2 | 5 |
+| 13 | Probability of Two Independent Events | Handling Data | Chance or Probability | 4.2.1 | 2 |
+
+*Codes are given in the short form. The full form used by the curriculum prefixes each with B8 — so*
+
+*1.1.1 above is B8.1.1.1.*
+
+<!-- page 7 -->
+
+### Strand 1: Number
+
+*Strand 1: Number · Sub-Strand 1: Number and Numeration Systems*
+
+### Chapter 1: Standard Form, Significant Figures and Square Roots
+
+> **Curriculum alignment**
+>
+> Strand 1: Number
+>
+> Sub-Strand 1: Number and Numeration Systems
+>
+> Content standard B8.1.1.1
+>
+> Demonstrate understanding and the use of place value for expressing quantities in standard form and rounding numbers and decimals to significant figures and a given number of decimal places
+>
+> B8.1.1.1.1 Apply the understanding of place value to read and write in number quantities over 1,000,000,000
+>
+> B8.1.1.1.2 Skip count forwards and backwards in 10,000s, 100,000s, 500,000s, etc
+>
+> B8.1.1.1.3 Compare and order whole numbers using “>, <, and =”
+>
+> B8.1.1.1.4 Express integers of any size into standard form
+>
+> B8.1.1.1.5 Express integers in a given number of significant and decimal places
+>
+> B8.1.1.1.6 Create and solve word or real-life problems on place values
+>
+> Content standard B8.1.1.2
+>
+> Apply the concepts and vocabulary of sets on sets of factors of numbers to identify perfect squares, determine their square root and solve real life problems involving union and intersection of two sets
+>
+> B8.1.1.2.1 Use the concept of sets to identify perfect squares and determine the square roots. Use the knowledge on sets and sets of factors of numbers to solve problems
+>
+> B8.1.1.2.2 Use the knowledge on sets and sets of factors of numbers to solve real life problems involving union and intersection
+
+> **Core competences**
+>
+> Communication and Collaboration
+>
+> Critical Thinking and Problem Solving
+>
+> Creativity and Innovation
+
+### Learning objectives
+
+By the end of this chapter you can:
+
+- read and write numbers greater than one billion in words and in figures
+
+- skip count forwards and backwards in 10,000s, 100,000s and 500,000s
+
+- compare and order whole numbers using >, < and =
+
+<!-- page 8 -->
+
+- write positive and negative integers and small decimals in standard form
+
+- express integers and decimals to a given number of significant figures and decimal places
+
+- solve word problems involving place value
+
+- identify perfect squares from sets of numbers
+
+- find the square root of a perfect square by subtracting consecutive odd numbers
+
+- list the set of factors of a number and find the common factors of two numbers
+
+- solve real-life problems involving the union and intersection of two sets
+
+> **Key words**
+>
+> Standard form — a number written as a value between 1 and 10 multiplied by a power of ten.
+>
+> Index (power) — the raised number showing how many times the base is used as a factor.
+>
+> Significant figures — the digits carrying information about the size of a number.
+>
+> Decimal place — a position to the right of the decimal point.
+>
+> Perfect square — a number obtained by multiplying a whole number by itself.
+>
+> Square root — the number which, multiplied by itself, gives the given number.
+>
+> Set — a collection of well-defined objects or numbers.
+>
+> Element (member) — an object belonging to a set.
+>
+> Factor — a whole number that divides exactly into another.
+>
+> Common factor — a factor shared by two or more numbers.
+>
+> Union ( ) — all the elements belonging to either set or to both.
+>
+> Intersection (∩) — the elements belonging to both sets.
+>
+> Venn diagram — overlapping circles used to show the relationship between sets.
+>
+> Universal set — the set containing everything under discussion.
+>
+> Skip counting — counting forwards or backwards in equal steps.
+
+> **Engage**
+>
+> The distance to the sun is 150,000,000 km. A human cell is 0.00001 m across. Written out like that, both are almost unreadable, and a single miscounted zero changes everything. Scientists gave up writing them out long ago: they write 1.5 × 10⁸ and 1 × 10⁻⁵. Same numbers, but now you can see their size at a glance and multiply them without counting a single zero. That shorthand is called standard form, and it is the first thing in this chapter.
+
+### 1.1 Reading and writing large numbers
+
+You met place value in Basic 7. Here it is put to work on numbers over a billion, and on the numbers that appear on real documents — serial numbers, populations, budgets.
+
+Read a large number in groups of three from the left, saying the group name as you pass it: billion, million, thousand, and then the last three on their own.
+
+> **Worked example 1 — reading numbers**
+
+<!-- page 9 -->
+
+> Write each number in words.
+>
+> (a) 2,408,321 — split as 2 | 408 | 321
+>
+> **Two million, four hundred and eight thousand, three hundred and twenty-one**
+>
+> (b) The numeral part of the serial number on a currency note, TD1567451 — that is 1,567,451
+>
+> **One million, five hundred and sixty-seven thousand, four hundred and fifty-one**
+>
+> (c) 4,050,900,006 — split as 4 | 050 | 900 | 006
+>
+> **Four billion, fifty million, nine hundred thousand and six**
+
+> **Worked example 2 — skip counting**
+>
+> (a) Count forward in 500,000s from 200,000, giving five numbers.
+>
+> 200,000; 700,000; 1,200,000; 1,700,000; **2,200,000** (b) Count backwards in 100,500s from 1,800,000, giving five numbers.
+>
+> 1,800,000; 1,699,500; 1,599,000; 1,498,500; **1,398,000**
+>
+> Check the second one by adding: 1,398,000 + 4 × 100,500 = 1,398,000 + 402,000 = 1,800,000 ✓
+
+> **Practice 1.1**
+>
+> 1. Write in words: (a) 2,408,321 (b) 1,567,451 (c) 4,050,900,006
+>
+> 2. Write in figures: (a) five million, two hundred thousand and forty (b) three billion, seventy- one million, six hundred
+>
+> 3. Count forward in 500,000s from 200,000, giving five numbers.
+>
+> 4. Count backwards in 100,500s from 1,800,000, giving five numbers.
+>
+> 5. Write down the number that is (a) 1,500,000 more than 84,300,000 (b) 100,000 less than 12,046,000
+>
+> 6. Insert >, < or =: (a) 4,208,000 ____ 4,280,000 (b) 96,000,000 ____ 9,600,000
+
+### 1.2 Standard form
+
+**Standard form** writes any number as a value between 1 and 10 multiplied by a power of ten. It makes very large and very small numbers readable and easy to compare.
+
+standard form: A × 10ⁿ where 1 ≤ A < 10 and n is any integer. For a negative number, put the minus sign
+
+before A.
+
+Start from the powers of ten themselves.
+
+*Table 1.1 — Powers of ten.*
+
+| **Number** | **As a power of 10** | **In standard form** |
+| --- | --- | --- |
+| 1 | 10⁰ | 1 × 10⁰ |
+| 10 | 10¹ | 1 × 10¹ |
+| 100 | 10² | 1 × 10² |
+
+<!-- page 10 -->
+
+| 1,000 | 10³ | 1 × 10³ |
+| --- | --- | --- |
+| 1,000,000 | 10⁶ | 1 × 10⁶ |
+| 1,000,000,000 | 10⁹ | 1 × 10⁹ |
+
+For a number greater than 1, move the decimal point left until exactly one non-zero digit stands in front of it. The number of places moved is a positive index. For a positive number less than 1, move the point right; the index is negative. For a negative number, keep the minus sign before A.
+
+> **Worked example 3 — writing integers in standard form**
+>
+> Express each in standard form.
+>
+> (a) 26 — the point moves 1 place: **2.6 × 10¹** (b) 375 — the point moves 2 places: **3.75 × 10²** (c) 8,765,049 — the point moves 6 places: **8.765049 × 10⁶** (d) 150,000,000 — the point moves 8 places: **1.5 × 10⁸** (e) 0.00072 — move the point 4 places right: 7.2 × 10⁻⁴. Check: 7.2 × 0.0001 = 0.00072.
+>
+> Check (d) by expanding: 1.5 × 100,000,000 = 150,000,000 ✓
+>
+> For a negative integer, keep the sign: −3,750 = −3.75 × 10³.
+
+> **Common misconception 1.1**
+>
+> In standard form the first number must be **between 1 and 10** — one non-zero digit before the point and no more. So 375 is 3.75 × 10², not 37.5 × 10¹ and not 0.375 × 10³. Both of those equal 375, but neither is in standard form.
+
+![Figure 1.1 Standard form, significant figures and decimal places compared.](images/maths-b8-print-ready-p010-fig01.png)
+
+<!-- page 11 -->
+
+> **Practice 1.2**
+>
+> 1. Write as a power of 10: (a) 100 (b) 1,000 (c) 1,000,000
+>
+> 2. Express in standard form: (a) 26 (b) 375 (c) 8,765,049 (d) 60,200
+>
+> 3. Express in standard form: (a) 150,000,000 (b) 4,900 (c) 87 (d) 0.00072 (e) −3,750
+>
+> 4. Write out in full: (a) 3.2 × 10⁴ (b) 5.06 × 10⁶ (c) 9 × 10³
+>
+> 5. A learner writes 375 as 37.5 × 10¹. Explain why this is not standard form and give the correct answer.
+
+### 1.3 Significant figures and decimal places
+
+Both were met in Basic 7 and both are needed constantly here, so the rules are worth restating.
+
+- **Decimal places** are counted from the decimal point. To round to two decimal places, keep two digits after the point and look at the third to decide.
+
+- **Significant figures** are counted from the first non-zero digit. To round to two significant figures, keep two such digits and look at the next to decide.
+
+- When rounding a **whole number** to significant figures, the dropped digits become zeros — they hold the places open.
+
+> **Worked example 4 — significant figures in an integer**
+>
+> Express 56,734 correct to two significant figures.
+>
+> The first two significant figures are 5 and 6. The next digit is 7, which is 5 or more, so round up.
+>
+> 56,734 → **57,000**
+>
+> The three zeros are essential — writing 57 would change the number from fifty-seven thousand to fifty-seven.
+
+> **Worked example 5 — decimal places**
+>
+> Express 975.8674 correct to (a) two decimal places, (b) three decimal places.
+>
+> (a) Two places gives 975.86; the next digit is 7, so round up: **975.87** (b) Three places gives 975.867; the next digit is 4, so round down: **975.867**
+
+> **Exam tip 1.1**
+>
+> Read whether the question wants significant figures or decimal places — they are not the same and they very often give different answers. For 0.004628, two decimal places gives 0.00, which is useless; two significant figures gives 0.0046, which is not.
+
+> **Practice 1.3**
+>
+> 1. Express correct to two significant figures: (a) 56,734 (b) 8,092 (c) 0.004628
+>
+> 2. Express 975.8674 correct to (a) one decimal place (b) two decimal places (c) three decimal places
+
+<!-- page 12 -->
+
+> 3. Express 4,506,900 correct to (a) 1 s.f. (b) 3 s.f. (c) 5 s.f.
+>
+> 4. Express 0.0705 correct to (a) 2 s.f. (b) 2 d.p.
+>
+> 5. Adom earns GH₵2,500 a month after tax and his elder brother Arko earns three times as much. Find their total income over five years if their earnings do not change. Give your answer in standard form correct to three significant figures.
+
+### 1.4 Perfect squares and square roots
+
+A **perfect square** is a number obtained by multiplying a whole number by itself. The **square root** of a number is the value which, multiplied by itself, gives that number.
+
+**7 × 7 = 49, so 49 is a perfect square and √49 = 7**
+
+*Table 1.2 — The first twelve perfect squares.*
+
+| **n** | **1** | **2** | **3** | **4** | **5** | **6** | **7** | **8** | **9** | **10** | **11** | **12** |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| n² | 1 | 4 | 9 | 16 | 25 | 36 | 49 | 64 | 81 | 100 | 121 | 144 |
+
+Learn that row. Recognising 144 as 12² on sight saves time in every later chapter, and especially in Chapter 10 where Pythagoras' theorem is used.
+
+### 1.4.1 Finding a square root by subtracting odd numbers
+
+There is a method that needs no table and no calculator, and it shows \*why\* the squares are what they are. Subtract the consecutive odd numbers 1, 3, 5, 7, … from the given number until nothing is left. The number of subtractions is the square root.
+
+> **Worked example 6 — the odd-number method**
+>
+> Determine the square root of 49.
+>
+> 49 − 1 = 48 (1 subtraction)
+>
+> 48 − 3 = 45 (2)
+>
+> 45 − 5 = 40 (3)
+>
+> 40 − 7 = 33 (4)
+>
+> 33 − 9 = 24 (5)
+>
+> 24 − 11 = 13 (6)
+>
+> 13 − 13 = 0 (7)
+>
+> Seven odd numbers were subtracted, so **√49 = 7** ✓
+>
+> If the remainder never reaches exactly zero, the number is not a perfect square.
+
+The method works because every square is the sum of consecutive odd numbers: 1 + 3 = 4, 1 + 3 + 5 = 9, 1 + 3 + 5 + 7 = 16. Adding the next odd number is the same as adding a border of unit squares to turn one square into the next.
+
+<!-- page 13 -->
+
+![Figure 1.2 Perfect squares built from consecutive odd numbers.](images/maths-b8-print-ready-p013-fig02.png)
+
+> **Practice 1.4**
+>
+> 1. Write down the first twelve perfect squares.
+>
+> 2. From the set {2, 4, 6, 9, 12, 16, 18, 25, 30, 36}, list the perfect squares.
+>
+> 3. Find, by subtracting consecutive odd numbers: (a) √49 (b) √36 (c) √81
+>
+> 4. Show, by the same method, that 50 is not a perfect square.
+>
+> 5. Find: (a) √121 (b) √144 (c) √0.25
+
+### 1.5 Sets, factors, union and intersection
+
+A **set** is a collection of well-defined objects, written inside curly brackets. The objects in it are its **elements**.
+
+**F = {1, 2, 3, 6, 7, 14, 21, 42} is the set of factors of 42**
+
+Two operations on sets matter here.
+
+- The **intersection** A ∩  B is the set of elements in **both** A and B. Read ∩  as "and".
+
+- The **union** A ∪ B is the set of elements in A, or in B, or in both. Read ∪  as "or".
+
+> **Worked example 7 — factors and common factors**
+>
+> List the factors of 42 and of 36, and find their common factors.
+>
+> Factors of 42: {1, 2, 3, 6, 7, 14, 21, 42}
+>
+> Factors of 36: {1, 2, 3, 4, 6, 9, 12, 18, 36}
+>
+> The intersection — the numbers in both lists — is **{1, 2, 3, 6}**
+>
+> The largest of these is 6, so the HCF of 42 and 36 is 6.
+
+<!-- page 14 -->
+
+### 1.5.1 Venn diagrams and real problems
+
+A **Venn diagram** shows two sets as overlapping circles. The overlap holds what belongs to both. When you fill one in, always **start with the overlap** — everything else is then worked out from it.
+
+> **Worked example 8 — a two-set problem**
+>
+> There are 80 farmers in a village who grow maize or rice or both. Of the 80, 50 grow maize and 60 grow rice. Let x be the number who grow both crops.
+>
+> (a) Represent the information on a Venn diagram.
+>
+> (b) Write an equation in x and solve it.
+>
+> (a) Draw two overlapping circles inside a rectangle. Put x in the overlap.
+>
+> Maize only = 50 − x, because 50 grow maize altogether and x of them also grow rice.
+>
+> Rice only = 60 − x, by the same reasoning.
+>
+> (b) Every farmer falls into exactly one of the three regions, and there are 80 in all:
+>
+> (50 − x) + x + (60 − x) = 80
+>
+> 110 − x = 80
+>
+> x = **30**
+>
+> So 30 farmers grow both crops, 20 grow maize only and 30 grow rice only.
+>
+> Check: 20 + 30 + 30 = 80 ✓
+
+![Figure 1.3 A Venn diagram of two overlapping sets.](images/maths-b8-print-ready-p014-fig03.png)
+
+> **Common misconception 1.2**
+>
+> In Worked example 8, the 50 who grow maize **includes** those who also grow rice. Adding 50 and 60 to get 110 counts the 30 who grow both twice, which is exactly why the answer is 110 − 80 =
+
+<!-- page 15 -->
+
+> 30. Whenever two totals add to more than the whole group, the excess is the overlap.
+
+> **Activity 1.1 — Squares, sets and a village survey**
+>
+> You need: squared paper, scissors, counters, a notebook.
+>
+> What to do:
+>
+> 1. On squared paper, cut out squares of side 1, 2, 3, 4 and 5 units. Count the unit squares in each and record the results in a table.
+>
+> 2. Take the 3-by-3 square and add unit squares along two edges to make it 4 by 4. Count how many you added. Repeat from 4 by 4 to 5 by 5. Record the numbers added each time and state what you notice.
+>
+> 3. Use the odd-number subtraction method to find √64 and √100, writing every line.
+>
+> 4. Test 30 by the same method and state what happens.
+>
+> 5. Survey your class: ask every learner whether they walk to school, come by vehicle, or do both on different days. Record the three totals.
+>
+> 6. Draw a Venn diagram of your results, form an equation for the number in the overlap, and solve it. Check that your three regions add to the size of your class.
+>
+> Record: your table of squares, the numbers added in step 2, both square-root workings, and your Venn diagram with its equation and check.
+>
+> Think about it: in step 2 the numbers you added were consecutive odd numbers. Explain, using your cut squares, why adding a border to a square always adds an odd number of unit squares.
+
+> **Apply it — The district budget**
+>
+> A district assembly receives GH₵48,650,000 for the year. (a) Write the amount in words. (b) Express it in standard form. (c) Express it correct to two significant figures. (d) Of the 200 schools in the district, 140 need new desks and 120 need new roofing; every school needs at least one of the two. By drawing a Venn diagram and forming an equation, find how many need both. (e) The assembly spends GH₵2,500 on each school needing desks only; find that total and give it in standard form.
+
+### Chapter summary
+
+- Large numbers are read in groups of three from the left: billion, million, thousand, then the last three.
+
+- Standard form writes a number as A × 10ⁿ where A lies between 1 and 10 — one non-zero digit before the point.
+
+- To write a number in standard form, move the point until one non-zero digit stands before it, and count the places moved to get the index.
+
+- Decimal places are counted from the decimal point; significant figures from the first non-zero digit.
+
+<!-- page 16 -->
+
+- When rounding a whole number to significant figures, the dropped digits become zeros.
+
+- A perfect square is a whole number multiplied by itself; its square root is the number that was squared.
+
+- The first twelve perfect squares are 1, 4, 9, 16, 25, 36, 49, 64, 81, 100, 121 and 144.
+
+- Subtracting consecutive odd numbers from a perfect square until zero remains gives its square root as the number of subtractions.
+
+- Every perfect square is the sum of consecutive odd numbers, because each new border of a square holds an odd number of unit squares.
+
+- The intersection of two sets holds the elements in both; the union holds the elements in either or both.
+
+- In a two-set problem, put the overlap in first; when two totals exceed the whole group, the excess is the overlap.
+
+### Assessment
+
+> **How this assessment is balanced**
+>
+> Weighted to the NaCCA Mathematics profile dimensions — Knowledge and Understanding 30%, Application of Knowledge 40%, Attitudes, Values and Process Skills 30%. This chapter carries 20 items: 6 tagged [K], 8 tagged [A] and 6 tagged [P].
+>
+> Indicators assessed: B8.1.1.1.1; B8.1.1.1.2; B8.1.1.1.3; B8.1.1.1.4; B8.1.1.1.5; B8.1.1.1.6;
+>
+> B8.1.1.2.1; B8.1.1.2.2
+
+### Section A — Objective
+
+1.A number written as a value between 1 and 10 multiplied by a power of ten is said to be in… A. index form B. standard form C. expanded form D. decimal form **[K]**
+
+2.A number obtained by multiplying a whole number by itself is called a… A. prime number B. perfect square C. common factor D. multiple **[K]**
+
+3.The elements belonging to both of two sets form their… A. union B. intersection C. complement D. universal set **[K]**
+
+4.A collection of well-defined objects is called a… A. set B. factor C. power D. array **[K]** 5.Significant figures are counted from the… A. decimal point B. last digit C. first non-zero digit D. first zero **[K]**
+
+6.Overlapping circles used to show the relationship between sets form a… A. bar chart B. Venn diagram C. factor tree D. number line **[K]**
+
+7.Express 375 in standard form. A. 37.5 × 10¹ B. 3.75 × 10² C. 0.375 × 10³ D. 3.75 × 10³ **[A]** 8.Express 56,734 correct to two significant figures. A. 56 B. 57 C. 56,000 D. 57,000 **[A]** 9.Express 975.8674 correct to two decimal places. A. 975.86 B. 975.87 C. 975.90 D. 976.00 **[A]**
+
+10. Find √49 by any method. A. 6 B. 7 C. 8 D. 24.5 **[A]**
+
+<!-- page 17 -->
+
+### Section B — Theory and application
+
+1.(a) Write 2,408,321 and 4,050,900,006 in words. (b) Count forward in 500,000s from 200,000, giving five numbers. (c) Count backwards in 100,500s from 1,800,000, giving five numbers. (d) Insert >, < or = between 4,208,000 and 4,280,000. **[A]**
+
+2.(a) Express each of the following in standard form: 26, 375, 8,765,049 and 150,000,000. (b) Write 3.2 × 10⁴ and 5.06 × 10⁶ out in full. (c) A learner writes 375 as 37.5 × 10¹; explain why this is not standard form. **[A]**
+
+3.(a) Express 56,734 correct to two significant figures. (b) Express 975.8674 correct to one, two and three decimal places. (c) Express 0.004628 correct to two significant figures and to two decimal places, and explain why the two answers differ so greatly. **[A]**
+
+4.(a) Find √49 by subtracting consecutive odd numbers, showing every line. (b) List the factors of 42 and of 36 and write down their intersection. (c) Of 80 farmers in a village, 50 grow maize and 60 grow rice, and every farmer grows at least one crop. Draw a Venn diagram, form an equation in x for the number growing both, and solve it. **[A]**
+
+### Section C — Attitudes, values and process tasks
+
+1.Build and count: (a) cut out squares of side 1, 2, 3, 4 and 5 units from squared paper; (b) count the unit squares in each and record the results in a table; (c) state the connection between the side length and the count. (Activity 1.1, step 1) **[P]**
+
+2.Investigate the borders: (a) add unit squares to a 3-by-3 square to make it 4-by-4 and count how many you added; (b) repeat from 4-by-4 to 5-by-5; (c) state what kind of numbers these are and explain, using your cut squares, why that must be so. (Activity 1.1, step 2) **[P]**
+
+3.Find square roots practically: use the odd-number subtraction method to find √64 and √100, writing every line of working. (Activity 1.1, step 3) **[P]**
+
+4.Test a non-square: apply the same method to 30, state what happens to the remainder, and give a conclusion. (Activity 1.1, step 4) **[P]**
+
+5.Survey your class: ask every learner whether they walk to school, come by vehicle, or do both on different days, and record the three totals. (Activity 1.1, step 5) **[P]**
+
+6.Model and solve: draw a Venn diagram of your survey results, form an equation for the number in the overlap, solve it, and verify that your three regions add to the size of your class. (Activity 1.1, step 6) **[P]**
+
+<!-- page 18 -->
+
+*Strand 1: Number · Sub-Strand 2: Number Operations*
+
+### Chapter 2: Mental Strategies and the Four Operations
+
+> **Curriculum alignment**
+>
+> Strand 1: Number
+>
+> Sub-Strand 2: Number Operations
+>
+> Content standard B8.1.2.1
+>
+> Apply mental mathematics strategies and number properties used to solve problems
+>
+> B8.1.2.1.1 Multiply and divide by power of 10 including decimals and the benchmark fractions
+>
+> B8.1.2.1.2 Apply mental mathematics strategies and number properties to do calculation
+>
+> B8.1.2.1.3 Apply mental mathematics strategies to solve word problems
+>
+> Content standard B8.1.2.2
+>
+> Apply the understanding of the addition, subtraction, multiplication and division of (i) whole numbers within 10,000, and (ii) decimals up to 1/1000, to solve problems and round answers to given decimal places
+>
+> B8.1.2.2.1 Add and subtract more than four-digit numbers
+>
+> B8.1.2.2.2 Multiply or divide multi-digit numbers by 2- and 3-digit numbers
+>
+> B8.1.2.2.3 Create and solve story problems involving decimals on the four understanding of the basic operations. addition, subtraction,
+
+> **Core competences**
+>
+> Critical Thinking and Problem Solving
+>
+> Communication and Collaboration
+>
+> Creativity and Innovation
+
+### Learning objectives
+
+By the end of this chapter you can:
+
+- recall multiplication facts to 144 and the related division facts
+
+- recall the decimal and percentage equivalents of the benchmark fractions
+
+- multiply and divide decimals by 10, 100 and 1,000 and by the benchmark fractions
+
+- use halving and doubling and the distributive property to calculate mentally
+
+- use mental strategies to solve word problems
+
+- add and subtract numbers of more than four digits by partitioning
+
+- add and subtract decimals to three decimal places
+
+- multiply multi-digit numbers by two- and three-digit numbers using the area (expand and box) method
+
+- multiply using the vertical place value method and divide multi-digit numbers
+
+<!-- page 19 -->
+
+- create and solve story problems involving decimals and the four operations
+
+> **Key words**
+>
+> Mental mathematics — working out an answer in the head, without written calculation.
+>
+> Partitioning — splitting a number into the values of its digits so it can be worked with in parts.
+>
+> Area model (expand and box) — a grid in which each part of one number is multiplied by each part of the other.
+>
+> Vertical place value method — long multiplication set out in columns.
+>
+> Benchmark fraction — a common fraction whose decimal and percentage forms are worth memorising.
+>
+> Distributive property — a × (b + c) = a × b + a × c.
+>
+> Halving and doubling — halving one factor and doubling the other leaves the product unchanged.
+>
+> Compensation — rounding a number to make the work easy, then correcting at the end.
+>
+> Estimate — an approximate answer used to check whether an exact answer is reasonable.
+>
+> Product — the answer to a multiplication.
+>
+> Quotient — the answer to a division.
+
+> **Engage**
+>
+> A carpenter quoting for a roof does not reach for a calculator to work out 526 lengths at 54 pesewas. He splits it — five hundred at fifty, five hundred at four, twenty-six at fifty, twenty-six at four — and adds the four pieces. It takes him eight seconds and he is never far wrong. The method has a name, the area model, and it is the same one you will use on paper in this chapter for numbers too big to hold in the head.
+
+### 2.1 Recall and the powers of ten
+
+Everything in this chapter rests on facts recalled instantly rather than worked out. Three sets matter, and all three were met in Basic 7.
+
+- **Multiplication facts to 12 × 12 = 144,** and each one backwards as two division facts.
+
+- **The benchmark fractions** and their decimal and percentage forms: ½ = 0.5 = 50%, ¼ = 0.25 = 25%, ⅛ = 0.125 = 12.5%, ⅓ = 0.333… = 33⅓%, ⅕ = 0.2 = 20%, and so on.
+
+- **Multiplying and dividing by powers of ten,** which moves every digit left or right.
+
+*Table 2.1 — Multiplying and dividing by powers of ten.*
+
+| **Operation** | **Effect on the digits** | **Example** |
+| --- | --- | --- |
+| × 10 | one place left | 4.276 × 10 = 42.76 |
+| × 100 | two places left | 4.276 × 100 = 427.6 |
+| × 1,000 | three places left | 4.276 × 1,000 = 4,276 |
+| × 1/10 (same as ÷ 10) | one place right | 4.276 × 1/10 = 0.4276 |
+
+<!-- page 20 -->
+
+| × 1/100 (same as ÷ 100) | two places right | 4.276 × 1/100 = 0.04276 |
+| --- | --- | --- |
+| × 1/1000 (same as ÷ 1,000) | three places right | 4.276 × 1/1000 = 0.004276 |
+
+> **Worked example 1 — powers of ten and benchmark fractions**
+>
+> Find each answer mentally.
+>
+> (a) 63.7 × 1,000 = **63,700** (b) 8,400 × 1/100 = 8,400 ÷ 100 = **84** (c) 0.9 × 10,000 = **9,000** (d) 3/8 of 240 — recall 3/8 = 0.375, so 0.375 × 240 = **90**
+>
+> Or work in eighths: 240 ÷ 8 = 30, and 3 × 30 = 90 ✓
+
+> **Practice 2.1**
+>
+> 1. Write down: (a) 12 × 12 (b) 132 ÷ 11 (c) 9 × 8 (d) 144 ÷ 12
+>
+> 2. Express as decimals and as percentages: (a) 3/4 (b) 1/8 (c) 2/5
+>
+> 3. Find: (a) 63.7 × 1,000 (b) 8,400 × 1/100 (c) 0.045 × 10,000 (d) 512 × 1/1000
+>
+> 4. Find: (a) 3/8 of 240 (b) 2/5 of 350 (c) 25% of 168
+>
+> 5. A sack holds 0.375 kg. Find the total mass of 1,000 sacks.
+
+### 2.2 Mental strategies
+
+A mental strategy replaces a hard calculation with an easy one having the same answer.
+
+*Table 2.2 — Mental strategies for multiplication and addition.*
+
+| **Strategy** | **What to do** | **Example** |
+| --- | --- | --- |
+| Halving and doubling | Halve one factor, double the other, and repeat | 48 × 25 → 24 × 50 → 12 × 100 = 1,200 |
+| Distributive property | Split a factor into easy parts | 7 × 306 = 7 × 300 + 7 × 6 = 2,100 + 42 = 2,142 |
+| Difference form | Split a factor just below a round number | 18 × 99 = 18 × 100 − 18 = 1,800 − 18 = 1,782 |
+| Compensation | Round, calculate, then correct | 497 + 368 = 500 + 368 − 3 = 865 |
+| Reorder and regroup | Put the easy pair together | 4 × 37 × 25 = (4 × 25) × 37 = 100 × 37 = 3,700 |
+
+> **Worked example 2 — choosing a strategy**
+>
+> Find each product mentally, naming the strategy.
+>
+> (a) 48 × 25 Halving and doubling twice: 48 × 25 → 24 × 50 → 12 × 100 = **1,200**
+
+<!-- page 21 -->
+
+> (b) 7 × 306 Distributive: 7 × 300 + 7 × 6 = 2,100 + 42 = **2,142** (c) 18 × 99 Difference form: 18 × 100 − 18 = 1,800 − 18 = **1,782** (d) 4 × 37 × 25 Reorder: (4 × 25) × 37 = 100 × 37 = **3,700**
+
+> **Exam tip 2.1**
+>
+> Before any long calculation, make an estimate by rounding each number to one significant figure. For 526 × 54, estimate 500 × 50 = 25,000. If your final answer is nowhere near that, you have made an error you can find before the marker does.
+
+> **Activity 2.1 — Mental mathematics word games**
+>
+> You need: a stopwatch or phone timer, a set of question cards, paper for scoring only.
+>
+> What to do:
+>
+> 1. In pairs, one reads a question and the other answers aloud within fifteen seconds, with no writing.
+>
+> 2. Use this round to begin. Work each entirely in your head:
+>
+> (i) 48 × 25 (ii) 7 × 306 (iii) 18 × 99 (iv) 3/8 of 240
+>
+> (v) A trader buys 12 crates at GH₵25 each; find the total cost.
+>
+> (vi) Find 15% of GH₵600.
+>
+> (vii) A tank holds 2,500 litres and is 4/5 full; find the volume of water in it.
+>
+> (viii) How many 250 ml cups can be filled from 6 litres?
+>
+> (ix) A journey of 180 km is covered in 3 hours; find the average speed.
+>
+> (x) Find the change from GH₵50 after spending GH₵18.75.
+>
+> 3. After each answer, the answerer must name the strategy used before the point is awarded.
+>
+> 4. Write five new questions of your own, each solvable in under fifteen seconds by a named strategy. Test them on another pair and record which strategies they used.
+>
+> Record: your score out of ten, the strategy named for each question, and your five new questions with answers and intended strategies.
+>
+> Think about it: for question (i) some of your class will have doubled and halved and some will have split 25 into 20 + 5. Both are correct. Does that mean one is better, or only that people find different things easy?
+
+### 2.3 Adding and subtracting by partitioning
+
+For numbers too large to hold in the head, **partition** them into the values of their digits, work on each place, then recombine. It is the column method with the reasons left visible.
+
+> **Worked example 3 — adding large numbers**
+>
+> Add 896,854 and 76,329.
+>
+> 896,854 = 800,000 + 90,000 + 6,000 + 800 + 50 + 4
+
+<!-- page 22 -->
+
+> 76,329 = 70,000 + 6,000 + 300 + 20 + 9
+>
+> Add each place:
+>
+> 800,000 + (90,000 + 70,000) + (6,000 + 6,000) + (800 + 300) + (50 + 20) + (4 + 9) = 800,000 + 160,000 + 12,000 + 1,100 + 70 + 13 = **973,183**
+>
+> Each bracket that passed ten is what 'carrying' does in the column method.
+
+> **Worked example 4 — adding decimals**
+>
+> Add 3,627.6 and 854.13.
+>
+> Write both to two decimal places and line up the points:
+>
+> 3,627.60 + 854.13 ‾‾‾‾‾‾‾‾
+>
+> **4,481.73**
+
+> **Worked example 5 — subtracting decimals**
+>
+> Subtract 37.85 from 193.6.
+>
+> Write 193.6 as 193.60 so both have two decimal places:
+>
+> 193.60 − 37.85 ‾‾‾‾‾‾
+>
+> **155.75**
+>
+> Check by adding back: 155.75 + 37.85 = 193.60 ✓
+
+> **Common misconception 2.1**
+>
+> When adding or subtracting decimals, line up the **decimal points**, not the last digits. Setting 193.6 under 37.85 by their right-hand ends gives 193.6 − 37.85 worked as though the 6 were hundredths, and the answer is wrong by a factor of ten. Write the extra zero.
+
+> **Practice 2.2**
+>
+> 1. Add by partitioning, showing every step: (a) 896,854 + 76,329 (b) 45,608 + 397,455
+>
+> 2. Find: (a) 3,627.6 + 854.13 (b) 193.6 − 37.85 (c) 12.45 + 6.708 + 0.9
+>
+> 3. Subtract 148.375 from 500 and check your answer by addition.
+>
+> 4. A trader's takings for three days were GH₵4,286.50, GH₵3,975.25 and GH₵5,108.75. Find the total.
+>
+> 5. From a roll of 250.5 m of cloth, 78.35 m is sold. Find the length remaining.
+
+<!-- page 23 -->
+
+### 2.4 Multiplying by the area model
+
+The **area model**, also called the expand and box method, sets out a multiplication as a grid. Split each number into the values of its digits, write one along the top and one down the side, multiply each pair and add all the products. Nothing is carried while you multiply, so there is far less to go wrong.
+
+> **Worked example 6 — the area model**
+>
+> Multiply 526 by 54.
+>
+> Split 526 into 500 + 20 + 6, and 54 into 50 + 4.
+>
+> | 500 | 20 | 6
+>
+> 50 | 25,000 | 1,000 | 300
+>
+> 4 | 2,000 | 80 | 24
+>
+> Add all six products:
+>
+> 25,000 + 1,000 + 300 + 2,000 + 80 + 24 = **28,404**
+>
+> Estimate as a check: 500 × 50 = 25,000, so 28,404 is the right size ✓
+
+![Figure 2.1 Multiplying 526 by 54 three ways.](images/maths-b8-print-ready-p023-fig04.png)
+
+### 2.4.1 The vertical place value method
+
+> **Worked example 7 — long multiplication**
+>
+> Multiply 657 by 27.
+>
+> 657
+>
+> × 27
+
+<!-- page 24 -->
+
+> ‾‾‾‾‾
+>
+> 4,599 ← 657 × 7
+>
+> 13,140 ← 657 × 20 ‾‾‾‾‾‾
+>
+> **17,739**
+>
+> The second line ends in a zero because you are multiplying by 20, not by 2. Omitting that zero is the commonest error in long multiplication, and it makes the answer wrong by thousands.
+
+> **Worked example 8 — dividing a multi-digit number**
+>
+> Divide 28,404 by 54.
+>
+> Estimate first: 28,000 ÷ 50 is about 560, so expect an answer in the hundreds.
+>
+> 54 into 284 goes 5 times (270), remainder 14
+>
+> 54 into 140 goes 2 times (108), remainder 32
+>
+> 54 into 324 goes 6 times (324), remainder 0
+>
+> So 28,404 ÷ 54 = **526**
+>
+> This is Worked example 6 run backwards, which is the check.
+
+> **Practice 2.3**
+>
+> 1. Use the area model, showing your grid: (a) 526 × 54 (b) 348 × 26
+>
+> 2. Use the vertical place value method: (a) 657 × 27 (b) 409 × 35
+>
+> 3. Multiply 234 by 125 by any method, and state the method you used.
+>
+> 4. Divide, showing your working: (a) 28,404 ÷ 54 (b) 17,739 ÷ 27 (c) 9,844 ÷ 46
+>
+> 5. Estimate 683 × 48 by rounding each number to one significant figure, then find the exact answer and state how close your estimate was.
+
+### 2.5 Solving word problems
+
+Four steps, written down every time: identify what is given and what is asked; write the calculation; work it out showing the method; check that the answer is sensible and give it with its unit.
+
+> **Worked example 9 — a two-part problem**
+>
+> Kofi bought 8 notebooks at GH₵12.00 each. Ama bought 12 pens at GH₵5.00 each. Find how much they spent altogether.
+>
+> Kofi: 8 × 12 = GH₵96.00
+>
+> Ama: 12 × 5 = GH₵60.00
+>
+> Total = 96 + 60 = **GH₵156.00**
+
+> **Worked example 10 — sharing**
+
+<!-- page 25 -->
+
+> A man gave GH₵2,477.25 to be shared equally among his three children. Find how much each received.
+>
+> 2,477.25 ÷ 3
+>
+> Partition: 2,400 ÷ 3 = 800; 77.25 ÷ 3 = 25.75
+>
+> Each child received 800 + 25.75 = **GH₵825.75**
+>
+> Check: 825.75 × 3 = 2,477.25 ✓
+
+> **Worked example 11 — a remainder problem**
+>
+> On Adwoa's birthday her father bought a pack of 250 bars of chocolate. Adwoa took 90 bars and shared the rest equally among 8 friends. Find how many bars each friend received and how many were left over.
+>
+> Bars remaining = 250 − 90 = 160
+>
+> 160 ÷ 8 = 20 exactly
+>
+> Each friend received **20 bars**, with **none left over**.
+
+> **Apply it — The provisions shop**
+>
+> A shopkeeper buys 526 tins of milk at GH₵5.40 each. (a) Estimate the total cost by rounding each figure to one significant figure. (b) Find the exact total cost using the area model. (c) He sells the tins at GH₵7.25 each; find his takings if he sells them all. (d) Find his profit. (e) He shares the profit equally among his three assistants; find each share, correct to the nearest pesewa. (f) State how close your estimate in (a) was to the exact cost, and say whether it was close enough to be useful.
+
+> **Activity 2.2 — A shop of our own**
+>
+> You need: a notebook, price information from a real shop or market, card for making problem cards.
+>
+> What to do:
+>
+> 1. Visit a shop or market and record the actual prices of eight items, to the pesewa.
+>
+> 2. Write four word problems from your list, one for each operation, each involving decimals and each needing at least two steps.
+>
+> 3. Solve each of your problems in the four steps, showing all working, and write the solution on the back of the card.
+>
+> 4. For every problem, first write down an estimate, then the exact answer, and state the difference.
+>
+> 5. Exchange cards with another group, solve theirs, and compare answers. Where you disagree, find out which solution is right and why.
+>
+> Record: your price list, four problems with full solutions, your estimates beside your exact answers, and the four problems you solved from another group.
+
+<!-- page 26 -->
+
+> Think about it: in step 4, which of your estimates was furthest from the exact answer? What was it about that particular calculation that made the estimate poor?
+
+### Chapter summary
+
+- Multiplication facts to 144, the benchmark fractions and the effect of multiplying by powers of ten should be recalled instantly.
+
+- Multiplying by 10, 100 or 1,000 moves every digit one, two or three places left; multiplying by 1/10, 1/100 or 1/1000 moves them the same number of places right.
+
+- Halving and doubling, the distributive property, the difference form, compensation and reordering are the five mental strategies.
+
+- Estimate by rounding each number to one significant figure before any long calculation, and use it to check the exact answer.
+
+- Partitioning splits a number into the values of its digits so each place can be added or subtracted separately.
+
+- When adding or subtracting decimals, line up the decimal points and fill the shorter number with zeros.
+
+- The area model splits both numbers into place values, multiplies every pair in a grid, and adds all the products.
+
+- In the vertical place value method, the second partial product ends in a zero because you are multiplying by tens.
+
+- Every division can be checked by multiplying the quotient by the divisor.
+
+- Word problems are solved in four steps: identify, write the calculation, work it out, then check and give the unit.
+
+### Assessment
+
+> **How this assessment is balanced**
+>
+> Weighted to the NaCCA Mathematics profile dimensions — Knowledge and Understanding 30%, Application of Knowledge 40%, Attitudes, Values and Process Skills 30%. This chapter carries 20 items: 6 tagged [K], 8 tagged [A] and 6 tagged [P].
+>
+> Indicators assessed: B8.1.2.1.1; B8.1.2.1.2; B8.1.2.1.3; B8.1.2.2.1; B8.1.2.2.2; B8.1.2.2.3
+
+### Section A — Objective
+
+1.Splitting a number into the values of its digits in order to calculate is called… A. rounding B. partitioning C. estimating D. factorising **[K]**
+
+2.The grid method in which each part of one number is multiplied by each part of the other is called the… A. lattice model B. area model C. vertical method D. column method **[K]**
+
+3.The answer to a division is called the… A. product B. sum C. quotient D. difference **[K]** 4.Multiplying a number by 1/100 has the same effect as… A. multiplying by 100 B. dividing by 100 C. adding 100 D. subtracting 100 **[K]**
+
+<!-- page 27 -->
+
+5.Expressed as a decimal, 3/8 is… A. 0.125 B. 0.375 C. 0.38 D. 0.83 **[K]** 6.Rounding each number to one significant figure before calculating gives an… A. exact answer B. estimate C. remainder D. index **[K]**
+
+7.Find 63.7 × 1,000. A. 637 B. 6,370 C. 63,700 D. 637,000 **[A]** 8.Add 896,854 and 76,329. A. 963,183 B. 972,183 C. 973,183 D. 983,183 **[A]** 9.Subtract 37.85 from 193.6. A. 155.75 B. 156.25 C. 165.75 D. 231.45 **[A]**
+
+10. Multiply 526 by 54. A. 26,404 B. 28,304 C. 28,404 D. 29,404 **[A]**
+
+### Section B — Theory and application
+
+1.(a) Find, mentally: 63.7 × 1,000; 8,400 × 1/100; 0.045 × 10,000. (b) Find 3/8 of 240 by two different methods. (c) Find 48 × 25 and 18 × 99 mentally, naming the strategy used in each case. **[A]**
+
+2.(a) Add 896,854 and 76,329 by partitioning, showing every step. (b) Add 3,627.6 and 854.13. (c) Subtract 37.85 from 193.6 and check your answer by addition. (d) Explain why 193.6 must be written as 193.60 before the subtraction is set out. **[A]**
+
+3.(a) Multiply 526 by 54 using the area model, drawing your grid in full. (b) Multiply 657 by 27 using the vertical place value method. (c) Explain why the second line of the vertical method ends in a zero. (d) Estimate 683 × 48 by rounding to one significant figure. **[A]**
+
+4.(a) Kofi bought 8 notebooks at GH₵12.00 each and Ama bought 12 pens at GH₵5.00 each; find the total spent. (b) A man shared GH₵2,477.25 equally among three children; find each share and check your answer. (c) A pack holds 250 bars of chocolate; Adwoa took 90 and shared the rest equally among 8 friends. Find how many each friend received and how many were left over. **[A]**
+
+### Section C — Attitudes, values and process tasks
+
+1.Recall under timed conditions: working in pairs, answer the ten mental questions in Activity 2.1 aloud within fifteen seconds each, with no writing, and record your score out of ten. (Activity 2.1, steps 1-2) **[P]**
+
+2.Name the strategies: for each of the ten questions, state the strategy you used before your point is awarded, and record which strategy proved most useful. (Activity 2.1, step 3) **[P]**
+
+3.Compose and test: write five mental mathematics questions of your own, each solvable in under fifteen seconds, test them on another pair and record which strategies they used. (Activity 2.1, step 4) **[P]**
+
+4.Collect real prices: visit a shop or market and record the actual prices of eight items to the pesewa. (Activity 2.2, step 1) **[P]**
+
+5.Compose and solve: write four two-step word problems from your price list, one for each operation, and solve each in the four steps showing all working. (Activity 2.2, steps 2-3) **[P]**
+
+6.Estimate, exchange and mark: write an estimate beside every exact answer and state the difference; then exchange cards with another group, solve their problems, and resolve every disagreement. (Activity 2.2, steps 4-5) **[P]**
+
+<!-- page 28 -->
+
+*Strand 1: Number · Sub-Strand 2: Number Operations*
+
+### Chapter 3: Laws of Indices
+
+> **Curriculum alignment**
+>
+> Strand 1: Number
+>
+> Sub-Strand 2: Number Operations
+>
+> Content standard B8.1.2.3
+>
+> Demonstrate understanding and the use of the laws of indices in solving problems (including real life problems) involving powers of natural numbers
+>
+> B8.1.2.3.1 Identify and explain the laws of indices
+>
+> B8.1.2.3.2 Apply the laws of indices to simplify and evaluate numbers involving powers of numbers. (PEDMAS)
+>
+> B8.1.2.3.3 Solve exponential equations
+>
+> B8.1.2.3.4 Solve real life problems involving powers of natural numbers
+
+> **Core competences**
+>
+> Communication and Collaboration
+>
+> Creativity and Innovation
+>
+> Critical Thinking and Problem Solving
+
+### Learning objectives
+
+By the end of this chapter you can:
+
+- identify the base and the index of a power
+
+- state the law for multiplying powers of the same base
+
+- state the law for dividing powers of the same base
+
+- show that any non-zero number raised to the power zero is 1
+
+- state and use the law for a power raised to another power
+
+- state and use the law for a product raised to a power
+
+- apply the laws of indices to simplify expressions
+
+- evaluate expressions involving indices using the correct order of operations
+
+- solve exponential equations by equating indices
+
+- solve real-life problems involving powers of natural numbers
+
+> **Key words**
+>
+> Index (exponent) — the raised number showing how many times the base is used as a factor.
+>
+> Base — the number being raised to a power.
+>
+> Power — a base together with its index, such as 2⁵.
+>
+> Index form — a repeated multiplication written using a base and an index.
+
+<!-- page 29 -->
+
+> Laws of indices — the rules for combining powers of the same base.
+>
+> Exponential equation — an equation in which the unknown appears as an index.
+>
+> Equating indices — solving an exponential equation by making both bases the same.
+>
+> PEDMAS — the order of operations: powers, division and multiplication, addition and subtraction.
+>
+> Reciprocal — the value obtained by turning a fraction upside down.
+>
+> Generation — one step back in a family line: parents, grandparents, and so on.
+
+> **Engage**
+>
+> You have two parents. They had two parents each, so you have four grandparents, eight great- grandparents, sixteen the generation before that. Keep going back twelve generations — roughly to the time of the Asante Empire's founding — and the number of people you are descended from is 4,096. Nobody counts that on their fingers. You get it from 2¹², and the rules that make such a calculation easy are the subject of this chapter.
+
+### 3.1 The five laws
+
+In the power aⁿ, the number a is the **base** and n is the **index** or exponent. In Basic 7 you wrote repeated multiplication in index form. Now you learn how powers combine, and every law comes from writing them out in full and counting.
+
+### 3.1.1 Law 1 — multiplying powers of the same base
+
+Write it out and count the factors.
+
+**a³ × a² = (a × a × a) × (a × a) = a⁵ so aᵐ × aⁿ = aᵐ⁺ⁿ**
+
+When multiplying powers of the **same base**, keep the base and **add** the indices.
+
+### 3.1.2 Law 2 — dividing powers of the same base
+
+**a⁵ ÷ a² = (a × a × a × a × a) ÷ (a × a) = a³ so aᵐ ÷ aⁿ = aᵐ⁻ⁿ**
+
+When dividing powers of the same base, keep the base and **subtract** the indices.
+
+### 3.1.3 Law 3 — the zero index
+
+Law 2 forces this on us. Take any power divided by itself.
+
+**a³ ÷ a³ = 1 and a³ ÷ a³ = a³⁻³ = a⁰ therefore a⁰ = 1**
+
+The same calculation done two ways must agree, so **any non-zero number raised to the power zero is 1**.
+
+### 3.1.4 Law 4 — a power raised to a power
+
+**(a³)² = a³ × a³ = a⁶ so (aᵐ)ⁿ = aᵐⁿ**
+
+When a power is raised to another power, **multiply** the indices.
+
+<!-- page 30 -->
+
+### 3.1.5 Law 5 — a product or quotient raised to a power
+
+**(ab)ⁿ = aⁿbⁿ (a/b)ⁿ = aⁿ/bⁿ**
+
+*Table 3.1 — The laws of indices.*
+
+| **Law** | **Statement** | **Example** |
+| --- | --- | --- |
+| 1 | aᵐ × aⁿ = aᵐ⁺ⁿ | 2³ × 2⁴ = 2⁷ = 128 |
+| 2 | aᵐ ÷ aⁿ = aᵐ⁻ⁿ | 3⁶ ÷ 3² = 3⁴ = 81 |
+| 3 | a⁰ = 1 | 7⁰ = 1 |
+| 4 | (aᵐ)ⁿ = aᵐⁿ | (5²)³ = 5⁶ |
+| 5 | (ab)ⁿ = aⁿbⁿ | (2 × 3)² = 2² × 3² = 36 |
+
+![Figure 3.1 The laws of indices, shown by writing the factors out.](images/maths-b8-print-ready-p030-fig05.png)
+
+> **Common misconception 3.1**
+>
+> The laws apply only to powers of the **same base**. So 2³ × 2⁴ = 2⁷, but 2³ × 3⁴ cannot be simplified at all — the bases differ, so there is nothing to add. And 2³ × 2⁴ is **not** 4⁷: the base stays 2 and only the indices are added.
+
+> **Practice 3.1**
+>
+> 1. State each law of indices in symbols and give one numerical example of each.
+>
+> 2. Simplify, leaving your answer in index form: (a) 3⁴ × 3⁵ (b) 7⁸ ÷ 7³ (c) (2⁵)³ (d) 5⁶ × 5⁰
+>
+> 3. Simplify: (a) x⁷ × x² (b) y⁹ ÷ y⁴ (c) (m³)⁴
+>
+> 4. Explain why 2³ × 3⁴ cannot be simplified.
+>
+> 5. Show, using Law 2, why 9⁰ = 1.
+
+<!-- page 31 -->
+
+### 3.2 Simplifying and evaluating
+
+When several operations appear together, work in the **PEDMAS** order: powers first, then division and multiplication, then addition and subtraction.
+
+> **Worked example 1 — simplifying with one base**
+>
+> Simplify, leaving each answer in index form.
+>
+> (a) 2⁵ × 2² = 2⁵⁺² = **2⁷** (b) 3⁹ ÷ 3⁴ = 3⁹⁻⁴ = **3⁵** (c) (4³)² = 4³ˣ² = **4⁶** (d) (5² × 5⁴) ÷ 5³ = 5⁶ ÷ 5³ = **5³**
+
+> **Worked example 2 — different bases made the same**
+>
+> Simplify 2⁵ × 16.
+>
+> 16 is not a power of 2 as written, but it is 2⁴.
+>
+> 2⁵ × 16 = 2⁵ × 2⁴ = 2⁵⁺⁴ = **2⁹**
+>
+> Evaluated: 2⁹ = 512
+>
+> Whenever bases differ, look first for a way to write them as powers of the same base.
+
+> **Worked example 3 — evaluating**
+>
+> Find the value of each.
+>
+> (a) 2³ × 2⁴ = 2⁷ = **128** (b) 3⁶ ÷ 3⁴ = 3² = **9** (c) (2³)² = 2⁶ = **64** (d) 5⁰ + 3² = 1 + 9 = **10** (e) 2 × 3² = 2 × 9 = **18** (powers before multiplication — it is not 6² = 36)
+
+> **Worked example 4 — algebraic indices**
+>
+> Simplify each expression.
+>
+> (a) x⁴ × x⁶ = **x¹⁰** (b) 6a⁵ ÷ 2a² = (6 ÷ 2) × a⁵⁻² = **3a³** (c) (2x³)⁴ = 2⁴ × x³ˣ⁴ = **16x¹²** (d) (3m²n)² = 3² × m⁴ × n² = **9m⁴n²**
+
+> **Exam tip 3.1**
+>
+> In (2x³)⁴ the index outside the bracket applies to **everything** inside, the number as well as the letters. Forgetting to raise the 2 as well gives 2x¹² instead of 16x¹², and that is the commonest error in the whole topic.
+
+<!-- page 32 -->
+
+> **Practice 3.2**
+>
+> 1. Simplify, leaving in index form: (a) 2⁵ × 2² (b) 3⁹ ÷ 3⁴ (c) (4³)² (d) (5² × 5⁴) ÷ 5³
+>
+> 2. Simplify by writing both as powers of the same base: (a) 2⁵ × 16 (b) 3⁴ × 27 (c) 5³ × 125
+>
+> 3. Find the value of: (a) 2³ × 2⁴ (b) 3⁶ ÷ 3⁴ (c) (2³)² (d) 5⁰ + 3² (e) 2 × 3²
+>
+> 4. Simplify: (a) x⁴ × x⁶ (b) 6a⁵ ÷ 2a² (c) (2x³)⁴ (d) (3m²n)²
+>
+> 5. A learner writes (2x³)⁴ = 2x¹². Identify the error and give the correct answer.
+
+### 3.3 Exponential equations
+
+An **exponential equation** has the unknown in the index. The method is short: write both sides as powers of the **same base**, then the indices must be equal.
+
+**if aˣ = aʸ and a ≠ 1, then x = y**
+
+> **Worked example 5 — equating indices**
+>
+> Solve each equation.
+>
+> (a) 2ˣ = 16
+>
+> Write 16 as a power of 2: 16 = 2⁴
+>
+> So 2ˣ = 2⁴, and therefore x = **4** (b) 25 = 5ˣ
+>
+> 25 = 5², so 5ˣ = 5² and x = **2** (c) 2ˣ⁺² = 2⁵
+>
+> The bases match, so x + 2 = 5, giving x = **3** (d) 3²ˣ = 81
+>
+> 81 = 3⁴, so 2x = 4 and x = **2**
+>
+> Check (d): 3²ˣ = 3⁴ = 81 ✓
+
+> **Common misconception 3.2**
+>
+> In 2ˣ = 16 the answer is not 8. Dividing 16 by 2 answers a different question. The equation asks \*how many 2s multiplied together give 16\* — and that is 4, because 2 × 2 × 2 × 2 = 16. Always rewrite the right-hand side as a power of the same base.
+
+> **Practice 3.3**
+>
+> 1. Solve: (a) 2ˣ = 16 (b) 3ˣ = 27 (c) 5ˣ = 125 (d) 10ˣ = 1,000
+>
+> 2. Solve: (a) 25 = 5ˣ (b) 64 = 4ˣ (c) 49 = 7ˣ
+>
+> 3. Solve: (a) 2ˣ⁺² = 2⁵ (b) 3²ˣ = 81 (c) 2³ˣ = 64
+>
+> 4. Solve 4ˣ = 1 and explain your answer.
+>
+> 5. A learner solves 2ˣ = 16 and writes x = 8. Explain the error and give the correct solution.
+
+<!-- page 33 -->
+
+### 3.4 Powers in real life
+
+Anything that doubles, trebles or multiplies by a fixed amount at every step grows as a power. Such growth is startlingly fast, and it is why powers matter outside the classroom.
+
+> **Worked example 6 — counting ancestors**
+>
+> While studying her family's history, Saratu finds records of ancestors twelve generations back.
+>
+> Every person has two parents.
+>
+> (a) Make a table of the number of ancestors in each of the first six generations.
+>
+> (b) Write an equation for the number of ancestors in generation n.
+>
+> (c) Find the number of ancestors in the twelfth generation.
+>
+> (a) Each generation back has twice as many people as the one before:
+>
+> Generation | 1 | 2 | 3 | 4 | 5 | 6
+>
+> Ancestors | 2 | 4 | 8 | 16 | 32 | 64 (b) Each entry is a power of 2, and the index equals the generation number:
+>
+> **A = 2ⁿ**, where A is the number of ancestors in generation n (c) Generation 12: A = 2¹² = **4,096 ancestors**
+>
+> Check the pattern: 2⁶ = 64, which matches the table ✓
+
+![Figure 3.2 Doubling growth: ancestors by generation.](images/maths-b8-print-ready-p033-fig06.png)
+
+> **Worked example 7 — a growth problem**
+>
+> A bacterium divides into two every hour. Starting with one bacterium, find how many there are after 10 hours.
+>
+> After 1 hour: 2 = 2¹
+
+<!-- page 34 -->
+
+> After 2 hours: 4 = 2²
+>
+> After n hours: 2ⁿ
+>
+> After 10 hours: 2¹⁰ = **1,024 bacteria**
+>
+> Note how slowly it begins and how fast it ends: from hour 9 to hour 10 the number rises by 512, more than the whole of the first nine hours produced.
+
+> **Activity 3.1 — Investigating doubling**
+>
+> You need: a sheet of paper, rice grains or counters, a chessboard or a drawn 8-by-8 grid, a notebook, graph paper.
+>
+> What to do:
+>
+> 1. Take a sheet of paper and fold it in half. Count the layers. Fold again and count. Continue until you physically cannot fold it any more, recording the number of folds and the number of layers each time.
+>
+> 2. Write the number of layers in index form at each stage. Predict, using your rule, the number of layers after 20 folds.
+>
+> 3. On an 8-by-8 grid, place 1 counter on the first square, 2 on the second, 4 on the third, doubling each time. Record how far you get before you run out of counters, and write the number on that square in index form.
+>
+> 4. Calculate the number that would be needed on the 64th square, leaving your answer in index form.
+>
+> 5. Draw a family tree for yourself going back four generations. Count the people in each generation, tabulate the results, and write the rule in the form A = 2ⁿ.
+>
+> 6. Plot generation number against number of ancestors on graph paper and describe the shape of the graph.
+>
+> Record: your fold table with index forms, your prediction for 20 folds, the counter results, your family tree with its table and rule, and the graph.
+>
+> Think about it: in step 1 you probably managed six or seven folds. Using your rule, work out how many layers that is, and explain why the paper became impossible to fold long before the layers became impossible to count.
+
+> **Apply it — The savings scheme**
+>
+> A susu collector offers a scheme in which a deposit doubles every year. Kofi deposits GH₵50. (a) Make a table showing the value of his deposit at the end of each of the first five years. (b) Write an equation for the value V after n years. (c) Find the value after 8 years. (d) Express your answer to (c) in standard form correct to three significant figures. (e) State one reason why no real savings scheme can go on doubling for very long.
+
+<!-- page 35 -->
+
+### Chapter summary
+
+- In the power aⁿ, a is the base and n is the index; the index counts how many times the base is used as a factor.
+
+- Law 1: aᵐ × aⁿ = aᵐ⁺ⁿ — multiplying powers of the same base adds the indices.
+
+- Law 2: aᵐ ÷ aⁿ = aᵐ⁻ⁿ — dividing powers of the same base subtracts the indices.
+
+- Law 3: a⁰ = 1 for any non-zero base, because aᵐ ÷ aᵐ is both 1 and a⁰.
+
+- Law 4: (aᵐ)ⁿ = aᵐⁿ — a power raised to a power multiplies the indices.
+
+- Law 5: (ab)ⁿ = aⁿbⁿ — an index outside a bracket applies to everything inside, numbers included.
+
+- The laws apply only to powers of the same base; 2³ × 3⁴ cannot be simplified.
+
+- Work in the PEDMAS order: powers, then division and multiplication, then addition and subtraction.
+
+- To solve an exponential equation, write both sides as powers of the same base and equate the indices.
+
+- Quantities that multiply by a fixed amount at every step grow as powers, and such growth is very fast.
+
+### Assessment
+
+> **How this assessment is balanced**
+>
+> Weighted to the NaCCA Mathematics profile dimensions — Knowledge and Understanding 30%, Application of Knowledge 40%, Attitudes, Values and Process Skills 30%. This chapter carries 20 items: 6 tagged [K], 8 tagged [A] and 6 tagged [P].
+>
+> Indicators assessed: B8.1.2.3.1; B8.1.2.3.2; B8.1.2.3.3; B8.1.2.3.4
+
+### Section A — Objective
+
+1.In the power 5³, the number 3 is called the… A. base B. index C. coefficient D. factor **[K]** 2.The law aᵐ × aⁿ = aᵐ⁺ⁿ applies only when the two powers have the same… A. index B. base C. value D. sign **[K]**
+
+3.The value of any non-zero number raised to the power zero is… A. 0 B. 1 C. the number itself D. undefined **[K]**
+
+4.An equation in which the unknown appears as an index is called… A. linear B. quadratic C. exponential D. simultaneous **[K]**
+
+5.In the order of operations, powers are worked out… A. last B. first C. after addition D. after division **[K]**
+
+6.The law (aᵐ)ⁿ = aᵐⁿ tells you to… A. add the indices B. subtract the indices C. multiply the indices D. divide the indices **[K]**
+
+7.Simplify 2⁵ × 2². A. 2³ B. 2⁷ C. 2¹⁰ D. 4⁷ **[A]** 8.Simplify 3⁹ ÷ 3⁴. A. 3² B. 3⁵ C. 3¹³ D. 3³⁶ **[A]** 9.Simplify 2⁵ × 16, leaving your answer in index form. A. 2⁶ B. 2⁷ C. 2⁹ D. 2²⁰ **[A]**
+
+<!-- page 36 -->
+
+10. Find the value of 2 × 3². A. 12 B. 18 C. 36 D. 216 **[A]**
+
+### Section B — Theory and application
+
+1.(a) State each of the five laws of indices in symbols. (b) Show, by writing out the factors in full, why a³ × a² = a⁵ and why a⁵ ÷ a² = a³. (c) Show, using Law 2, why a⁰ = 1. (d) Explain why 2³ × 3⁴ cannot be simplified. **[A]**
+
+2.Simplify each of the following, leaving your answers in index form: (a) 2⁵ × 2²; (b) 3⁹ ÷ 3⁴; (c) (4³)²; (d) (5² × 5⁴) ÷ 5³; (e) 2⁵ × 16, first writing 16 as a power of 2. **[A]**
+
+3.(a) Find the value of 2³ × 2⁴, 3⁶ ÷ 3⁴, (2³)² and 5⁰ + 3². (b) Simplify x⁴ × x⁶, 6a⁵ ÷ 2a², (2x³)⁴ and (3m²n)². (c) A learner writes (2x³)⁴ = 2x¹²; identify the error and give the correct answer. **[A]**
+
+4.(a) Solve 2ˣ = 16, 25 = 5ˣ and 3²ˣ = 81, showing your working. (b) Saratu has two parents, four grandparents and eight great-grandparents. Make a table for the first six generations, write an equation for the number of ancestors in generation n, and find the number in the twelfth generation. **[A]**
+
+### Section C — Attitudes, values and process tasks
+
+1.Fold and record: (a) fold a sheet of paper repeatedly, recording the number of folds and the number of layers each time until you cannot fold it further; (b) write the number of layers in index form at each stage. (Activity 3.1, steps 1-2) **[P]**
+
+2.Predict and explain: (a) use your rule to predict the number of layers after twenty folds; (b) state how many folds you actually achieved and explain why the paper became impossible to fold long before the layers became impossible to count. (Activity 3.1, step 2 and think about it) **[P]**
+
+3.Model with counters: place 1 counter on the first square of an 8-by-8 grid, 2 on the second and 4 on the third, doubling each time; record how far you get before running out and write that number in index form. (Activity 3.1, step 3) **[P]**
+
+4.Calculate an extreme value: find, in index form, the number of counters that would be needed on the 64th square, and comment on the result. (Activity 3.1, step 4) **[P]**
+
+5.Build a family tree: draw your own family tree back four generations, count the people in each generation, tabulate the results and write the rule in the form A = 2ⁿ. (Activity 3.1, step 5) **[P]**
+
+6.Plot and describe: plot generation number against number of ancestors on graph paper, describe the shape of the graph, and state how it differs from the straight-line graphs of Basic 7. (Activity 3.1, step 6) **[P]**
+
+<!-- page 37 -->
+
+*Strand 1: Number · Sub-Strand 3: Fractions, Decimals and Percentages*
+
+### Chapter 4: Operations on Fractions
+
+> **Curriculum alignment**
+>
+> Strand 1: Number
+>
+> Sub-Strand 3: Fractions, Decimals and Percentages
+>
+> Content standard B8.1.3.1
+>
+> Apply the understanding of operation on fractions to solve problems involving fractions of given quantities and round the results to given decimal and significant places. ii. Faako answers 42 out of 60 questions correctly. What percentage of her answers are correct? iii. In a school of the students eat from the school feeding programme, bring their packed lunch, and the rest go home to eat. What fraction of the students go home for lunch? iv. Esi and Fusena prepared an orange drink by mixing orange squash and water. Esi’s drink was made of orange squash and Fusena’s was made up of orange squash. Whose drink tastes stronger of orange?
+>
+> B8.1.3.1.1 Review fractions and solve problems involving basic operations on fractions
+>
+> B8.1.3.1.2 Add and/or subtract, multiply and/or divide given fractions, by using the principle of the order of operations (the rule of BODMAS or PEMDAS), and apply the understanding to solve problems
+>
+> B8.1.3.1.3 Review word problems involving basic operations on fractions and related concepts
+
+> **Core competences**
+>
+> Critical Thinking and Problem Solving
+
+### Learning objectives
+
+By the end of this chapter you can:
+
+- write equivalent fractions and express a fraction in its simplest form
+
+- convert between improper fractions and mixed numbers
+
+- add and subtract fractions and mixed numbers
+
+- multiply and divide fractions and mixed numbers
+
+- state the order of operations and apply it to whole-number expressions
+
+- apply the order of operations to expressions involving fractions
+
+- find a fraction of a quantity and express one quantity as a fraction of another
+
+- express a fraction as a percentage and round the result to given decimal or significant places
+
+- compare two fractions to decide which is the greater
+
+- solve word problems involving fractions, including perimeter and area
+
+> **Key words**
+
+<!-- page 38 -->
+
+> Numerator — the number above the line in a fraction.
+>
+> Denominator — the number below the line in a fraction.
+>
+> Equivalent fractions — different fractions naming the same amount.
+>
+> Simplest form — a fraction whose numerator and denominator share no factor except 1.
+>
+> Improper fraction — a fraction whose numerator is at least as large as its denominator.
+>
+> Mixed number — a whole number written beside a proper fraction.
+>
+> Lowest Common Multiple (LCM) — the smallest number two or more numbers divide into exactly.
+>
+> Reciprocal — the fraction turned upside down.
+>
+> Order of operations — the agreed sequence: brackets, indices, division and multiplication, addition and subtraction.
+>
+> BODMAS / PEDMAS — two names for the same order of operations.
+>
+> Percentage — a fraction with denominator 100.
+>
+> Perimeter — the total distance round a shape.
+>
+> Area — the amount of surface a shape covers.
+
+> **Engage**
+>
+> Esi mixes her orange drink from one part squash to four parts water. Fusena uses two parts squash to seven parts water. Whose drink tastes more strongly of orange? You cannot tell by looking at the numbers — 1 and 4 against 2 and 7 tells you nothing until you turn both into fractions of the whole and put them over a common denominator. Half the arguments people have about sharing come down to exactly this, and this chapter settles them.
+
+### 4.1 Reviewing fractions
+
+Basic 7 covered all four operations on fractions. This section is a rapid review; if any of it is unfamiliar, go back to Chapters 4 and 5 of the Basic 7 book before going on.
+
+*Table 4.1 — The four operations on fractions.*
+
+| **Task** | **Method** | **Example** |
+| --- | --- | --- |
+| Simplify | Divide top and bottom by their HCF | 18/24 = 3/4 |
+| Equivalent fractions | Multiply top and bottom by the same number | 2/3 = 4/6 = 6/9 |
+| Improper → mixed | Divide; the remainder is the new numerator | 17/5 = 3 2/5 |
+| Mixed → improper | Whole × denominator, add numerator | 3 2/5 = 17/5 |
+| Add or subtract | Common denominator, then | 2/3 + 1/4 = 8/12 + 3/12 = |
+
+<!-- page 39 -->
+
+|  | work on numerators | 11/12 |
+| --- | --- | --- |
+| Multiply | Multiply numerators and denominators; cancel first | 3/4 × 8/9 = 2/3 |
+| Divide | Multiply by the reciprocal of the divisor | 3/5 ÷ 2/5 = 3/5 × 5/2 = 3/2 |
+
+> **Worked example 1 — the four operations**
+>
+> Work out each of the following.
+>
+> (a) 4/5 + 3/8
+>
+> LCM of 5 and 8 is 40: 32/40 + 15/40 = **47/40 = 1 7/40** (b) 7/6 − 1/4
+>
+> LCM of 6 and 4 is 12: 14/12 − 3/12 = **11/12** (c) 2/3 × 5/8
+>
+> Cancel the 2 into the 8: 1/3 × 5/4 = **5/12** (d) 3/4 ÷ 1/8
+>
+> Multiply by the reciprocal: 3/4 × 8/1 = 24/4 = **6**
+
+> **Practice 4.1**
+>
+> 1. Express in simplest form: (a) 18/24 (b) 45/60 (c) 36/84
+>
+> 2. Write three fractions equivalent to 2/3.
+>
+> 3. Convert: (a) 17/5 to a mixed number (b) 3 2/5 to an improper fraction
+>
+> 4. Work out: (a) 4/5 + 3/8 (b) 7/6 − 1/4 (c) 2/3 × 5/8 (d) 3/4 ÷ 1/8
+>
+> 5. Work out: (a) 2 1/3 + 1 3/4 (b) 5 1/2 − 2 2/3 (c) 1 1/4 × 2 2/5
+
+### 4.2 The order of operations
+
+When an expression contains several operations, everyone must work them in the same order or answers will disagree. The agreed order is remembered as **BODMAS** or **PEDMAS** — two names for the same rule.
+
+*Table 4.2 — The order of operations.*
+
+| **Letter** | **Stands for** | **Do** |
+| --- | --- | --- |
+| B or P | Brackets / Parentheses | first |
+| O or E | Of, Orders / Exponents (powers) | second |
+| D and M | Division and Multiplication | third, left to right |
+| A and S | Addition and Subtraction | last, left to right |
+
+<!-- page 40 -->
+
+Two points are missed by almost everyone. Division and multiplication rank **equally** and are done left to right, not division first. Addition and subtraction likewise. So 12 ÷ 3 × 2 is 8, not 2.
+
+> **Worked example 2 — whole numbers**
+>
+> Simplify each expression.
+>
+> (a) 21 ÷ 3 + (3 × 9)
+>
+> Brackets: 21 ÷ 3 + 27
+>
+> Division: 7 + 27
+>
+> Addition: **34** (b) 18 ÷ 6 × (4 − 3) + 6
+>
+> Brackets: 18 ÷ 6 × 1 + 6
+>
+> Left to right: 3 × 1 + 6
+>
+> 3 + 6 = **9** (c) 40 + 36 ÷ 9 − 2 × 3
+>
+> Division and multiplication first: 40 + 4 − 6
+>
+> Then left to right: **38**
+
+> **Common misconception 4.1**
+>
+> BODMAS does not mean division before multiplication. They rank equally and are worked left to right. In 18 ÷ 6 × 3, doing the division first gives 3 × 3 = 9, which is correct; doing the multiplication first gives 18 ÷ 18 = 1, which is wrong. Work left to right.
+
+> **Worked example 3 — order of operations with fractions**
+>
+> Simplify 3/4 − 1/5 + 2/3 × 1/8.
+>
+> Multiplication first:
+>
+> 2/3 × 1/8 = 2/24 = 1/12
+>
+> Now the addition and subtraction, left to right. The LCM of 4, 5 and 12 is 60:
+>
+> 3/4 = 45/60, 1/5 = 12/60, 1/12 = 5/60
+>
+> 45/60 − 12/60 + 5/60 = **38/60 = 19/30**
+
+> **Worked example 4 — brackets with fractions**
+>
+> Simplify (3/4 + 1/2) ÷ 5/8.
+>
+> Brackets first: 3/4 + 1/2 = 3/4 + 2/4 = 5/4
+>
+> Then divide: 5/4 ÷ 5/8 = 5/4 × 8/5 = 40/20 = **2**
+
+> **Exam tip 4.1**
+>
+> Write one operation per line and say which rule you are applying. A four-line solution earns method marks even if one line has an arithmetic slip; a single line with the wrong answer earns
+
+<!-- page 41 -->
+
+> nothing.
+
+> **Practice 4.2**
+>
+> 1. Simplify: (a) 21 ÷ 3 + (3 × 9) (b) 18 ÷ 6 × (4 − 3) + 6 (c) 40 + 36 ÷ 9 − 2 × 3
+>
+> 2. Simplify: (a) 12 ÷ 3 × 2 (b) 20 − 8 + 3 (c) 5 + 2 × 3²
+>
+> 3. Simplify: (a) 3/4 − 1/5 + 2/3 × 1/8 (b) 5/6 + 1/3 × 3/4
+>
+> 4. Simplify: (a) (3/4 + 1/2) ÷ 5/8 (b) (2/3 − 1/4) × 12
+>
+> 5. A learner simplifies 18 ÷ 6 × 3 as 1. Identify the error and give the correct answer.
+
+### 4.3 Fractions of quantities and percentages
+
+Three questions come up constantly, and it is worth being able to tell them apart at a glance.
+
+- **A fraction of a quantity** — multiply. Three quarters of 60 is 3/4 × 60 = 45.
+
+- **One quantity as a fraction of another** — put the part over the whole. 42 out of 60 is 42/60 = 7/10.
+
+- **A fraction as a percentage** — multiply by 100. 7/10 × 100 = 70%.
+
+> **Worked example 5 — expressing a score as a percentage**
+>
+> Faako answers 42 out of 60 questions correctly. Find the percentage of her answers that are correct.
+>
+> Fraction correct = 42/60 = 7/10
+>
+> As a percentage = 7/10 × 100 = **70%**
+
+> **Worked example 6 — the remaining fraction**
+>
+> In a school, 2/5 of the learners eat from the school feeding programme and 1/3 bring packed lunch. The rest go home to eat. Find the fraction who go home.
+>
+> Fraction accounted for = 2/5 + 1/3
+>
+> LCM of 5 and 3 is 15: 6/15 + 5/15 = 11/15
+>
+> The whole school is 1, which is 15/15.
+>
+> Fraction going home = 15/15 − 11/15 = **4/15**
+>
+> Check: 6/15 + 5/15 + 4/15 = 15/15 = 1 ✓
+
+> **Worked example 7 — comparing two mixtures**
+>
+> Esi and Fusena each prepare an orange drink. Esi's drink is 1/5 orange squash. Fusena's is 2/9 orange squash. Find whose drink tastes more strongly of orange.
+>
+> Compare 1/5 and 2/9 by putting them over a common denominator. The LCM of 5 and 9 is 45:
+>
+> 1/5 = 9/45 2/9 = 10/45
+>
+> Since 10/45 > 9/45, **Fusena's drink** tastes more strongly of orange.
+>
+> As percentages: Esi's is 20% squash and Fusena's is 22.2% squash — a small but real difference.
+
+<!-- page 42 -->
+
+![Figure 4.1 Comparing two fractions and finding the remaining part.](images/maths-b8-print-ready-p042-fig07.png)
+
+> **Practice 4.3**
+>
+> 1. Find: (a) 3/4 of 60 (b) 2/5 of 350 kg (c) 5/8 of GH₵96
+>
+> 2. Faako answers 42 out of 60 questions correctly. Express her score as (a) a fraction in its simplest form, (b) a percentage.
+>
+> 3. In a school 2/5 of the learners eat from the feeding programme and 1/3 bring packed lunch.
+>
+> Find the fraction who go home to eat.
+>
+> 4. Esi's drink is 1/5 orange squash and Fusena's is 2/9. State whose tastes more strongly of orange, showing your working.
+>
+> 5. Express 5/8 as a percentage correct to one decimal place.
+
+### 4.4 Solving word problems
+
+> **Worked example 8 — perimeter and area with fractions**
+>
+> A rectangle measures 3 1/3 cm by 1 3/4 cm. Find (a) its perimeter, (b) its area.
+>
+> (a) Perimeter = 2(length + width)
+>
+> 3 1/3 + 1 3/4 — whole numbers: 3 + 1 = 4; fractions: 1/3 + 3/4 = 4/12 + 9/12 = 13/12 = 1 1/12
+>
+> Sum = 4 + 1 1/12 = 5 1/12
+>
+> Perimeter = 2 × 5 1/12 = 2 × 61/12 = 122/12 = **10 1/6 cm**
+>
+> (b) Area = length × width
+>
+> Change both to improper fractions: 3 1/3 = 10/3 and 1 3/4 = 7/4
+
+<!-- page 43 -->
+
+> Area = 10/3 × 7/4 = 70/12 = **5 5/6 cm²**
+>
+> Note that the perimeter is in centimetres and the area in square centimetres. Marks are lost for the unit more often than for the arithmetic.
+
+> **Worked example 9 — rounding the answer**
+>
+> A tank holds 2/7 of a cubic metre of water. Express this as a decimal correct to (a) three decimal places, (b) two significant figures.
+>
+> 2 ÷ 7 = 0.285714…
+>
+> (a) Three decimal places: the fourth digit is 7, so round up — **0.286** (b) Two significant figures: the third digit is 5, so round up — **0.29**
+
+> **Activity 4.1 — Fractions in the kitchen and the workshop**
+>
+> You need: a measuring jug, water, orange squash or a similar concentrate, cups, a ruler, squared paper, a notebook.
+>
+> What to do:
+>
+> 1. Make two drinks. In the first, mix 1 part squash to 4 parts water. In the second, mix 2 parts squash to 7 parts water. Write the fraction of each drink that is squash.
+>
+> 2. Compare the two fractions by putting them over a common denominator, and predict which will taste stronger. Then taste both and record whether the prediction was right.
+>
+> 3. Express each fraction as a percentage correct to one decimal place.
+>
+> 4. Measure the length and width of four rectangular objects to the nearest quarter of a centimetre, writing each as a mixed number.
+>
+> 5. For each object, calculate the perimeter and the area, leaving your answers as mixed numbers, and give the units.
+>
+> 6. Check one of your areas by drawing the rectangle on squared paper and counting the squares, treating part-squares as fractions.
+>
+> Record: both mixture fractions with the common-denominator comparison, your prediction and the taste result, the four measurements, and the perimeter and area calculations with the square-counting check.
+>
+> Think about it: in step 2 the two fractions were very close — 9/45 against 10/45. Could you actually taste the difference? What does that tell you about how precise a calculation needs to be before it becomes more precise than the thing it is measuring?
+
+> **Apply it — The school farm plot**
+>
+> A rectangular plot on the school farm measures 12 1/2 m by 8 3/4 m. (a) Find its perimeter. (b) Find its area. (c) Of the plot, 2/5 is planted with maize and 1/4 with cassava; find the fraction left unplanted. (d) Find the area of the unplanted part, correct to two decimal places. (e) Fencing
+
+<!-- page 44 -->
+
+> costs GH₵18 per metre; find the cost of fencing the whole plot. (f) Express the maize area as a percentage of the whole plot.
+
+### Chapter summary
+
+- To add or subtract fractions, write them with a common denominator and work on the numerators only.
+
+- To multiply fractions, multiply numerators and denominators, cancelling common factors first.
+
+- To divide by a fraction, multiply by its reciprocal.
+
+- Mixed numbers must be changed to improper fractions before multiplying or dividing.
+
+- The order of operations is brackets, then indices, then division and multiplication, then addition and subtraction.
+
+- Division and multiplication rank equally and are worked left to right; so do addition and subtraction.
+
+- A fraction of a quantity is found by multiplying; one quantity as a fraction of another is the part over the whole.
+
+- A fraction becomes a percentage when multiplied by 100.
+
+- To compare two fractions, write both over a common denominator and compare the numerators.
+
+- To find a remaining fraction, subtract the parts accounted for from 1, written with the same denominator.
+
+- Perimeter is measured in the original unit and area in square units; state the unit in every answer.
+
+### Assessment
+
+> **How this assessment is balanced**
+>
+> Weighted to the NaCCA Mathematics profile dimensions — Knowledge and Understanding 30%, Application of Knowledge 40%, Attitudes, Values and Process Skills 30%. This chapter carries 20 items: 6 tagged [K], 8 tagged [A] and 6 tagged [P].
+>
+> Indicators assessed: B8.1.3.1.1; B8.1.3.1.2; B8.1.3.1.3
+
+### Section A — Objective
+
+1.The number below the line in a fraction is called the… A. numerator B. denominator C. reciprocal D. quotient **[K]**
+
+2.The fraction turned upside down is called its… A. equivalent B. simplest form C. reciprocal D. multiple **[K]**
+
+3.In BODMAS, the letter B stands for… A. base B. brackets C. below D. both **[K]** 4.Division and multiplication in an expression are worked… A. division first B. multiplication first C. left to right D. right to left **[K]**
+
+<!-- page 45 -->
+
+5.A fraction with denominator 100 is called a… A. decimal B. percentage C. ratio D. proportion **[K]**
+
+6.The amount of surface a shape covers is called its… A. perimeter B. area C. volume D. capacity **[K]**
+
+7.Work out 4/5 + 3/8. A. 7/13 B. 7/40 C. 1 7/40 D. 12/40 **[A]** 8.Work out 3/4 ÷ 1/8. A. 3/32 B. 3/2 C. 6 D. 8 **[A]** 9.Simplify 21 ÷ 3 + (3 × 9). A. 34 B. 90 C. 108 D. 216 **[A]**
+
+10. Simplify 18 ÷ 6 × 3. A. 1 B. 3 C. 9 D. 27 **[A]**
+
+### Section B — Theory and application
+
+1.Work out each of the following, giving your answers in simplest form: (a) 4/5 + 3/8; (b) 7/6 − 1/4; (c) 2/3 × 5/8; (d) 3/4 ÷ 1/8; (e) 2 1/3 + 1 3/4; (f) 1 1/4 × 2 2/5. **[A]**
+
+2.(a) State the order of operations in full. (b) Simplify 21 ÷ 3 + (3 × 9) and 18 ÷ 6 × (4 − 3) + 6, writing one operation per line. (c) A learner simplifies 18 ÷ 6 × 3 as 1; identify the error and give the correct answer. **[A]**
+
+3.(a) Simplify 3/4 − 1/5 + 2/3 × 1/8. (b) Simplify (3/4 + 1/2) ÷ 5/8. (c) Faako answers 42 out of 60 questions correctly; express her score as a fraction in its simplest form and as a percentage. (d) In a school 2/5 of the learners eat from the feeding programme and 1/3 bring packed lunch; find the fraction who go home. **[A]**
+
+4.(a) Esi's drink is 1/5 orange squash and Fusena's is 2/9; determine whose tastes more strongly of orange, showing the common denominator you used. (b) A rectangle measures 3 1/3 cm by 1 3/4 cm; find its perimeter and its area, giving the correct unit for each. (c) Express 2/7 as a decimal correct to three decimal places and to two significant figures. **[A]**
+
+### Section C — Attitudes, values and process tasks
+
+1.Mix and compare: (a) prepare one drink of 1 part squash to 4 parts water and another of 2 parts squash to 7 parts water; (b) write the fraction of each drink that is squash; (c) compare the two fractions over a common denominator and predict which tastes stronger. (Activity 4.1, steps 1-2) **[P]**
+
+2.Test the prediction: taste both drinks, record whether your prediction was correct, and express each fraction as a percentage correct to one decimal place. (Activity 4.1, steps 2-3) **[P]**
+
+3.Measure and record: measure the length and width of four rectangular objects to the nearest quarter of a centimetre, writing each measurement as a mixed number. (Activity 4.1, step 4) **[P]**
+
+4.Calculate: for each object, calculate the perimeter and the area, leaving your answers as mixed numbers and stating the unit in each case. (Activity 4.1, step 5) **[P]**
+
+5.Verify by counting: draw one of your rectangles on squared paper, count the unit squares treating part-squares as fractions, and compare the count with your calculated area. (Activity 4.1, step 6) **[P]**
+
+<!-- page 46 -->
+
+6.Investigate precision: state whether you could taste the difference between 9/45 and 10/45, and write a short paragraph on how precise a calculation needs to be before it becomes more precise than the thing it measures. (Activity 4.1, think about it) **[P]**
+
+<!-- page 47 -->
+
+*Strand 1: Number · Sub-Strand 4: Number: Ratios and Proportion*
+
+### Chapter 5: Ratio, Rate and Proportion
+
+> **Curriculum alignment**
+>
+> Strand 1: Number
+>
+> Sub-Strand 4: Number: Ratios and Proportion
+>
+> Content standard B8.1.4.1
+>
+> Demonstrate an understanding of ratio, rate and proportions and use it these to solve real- world mathematical problems. Salamatu is a drummer for a band. She burns 756 calories while drumming •
+>
+> B8.1.4.1.1 Use ratio reasoning to convert measurement units; manipulate and transform units appropriately when multiplying or dividing quantities. Convert (cm to m; km to m; ml to cm; etc.) one unit of measure to
+>
+> B8.1.4.1.2 Solve unit rate problems including those involving unit pricing and constant speed;
+>
+> and speed translation
+>
+> B8.1.4.1.3 Apply the knowledge of speed to draw and interpret travel graphs or distance-time graphs
+>
+> B8.1.4.1.4 Recognise and represent proportional relationships between quantities by deciding whether two quantities are in a proportional relationship. (e.g. by testing for equivalent ratios in a table or graphing on a coordinate plane and observing whether the graph is a straight line through the origin)
+>
+> B8.1.4.1.5 Identify the constant of proportionality (unit rate) in tables, graphs, equations, diagrams, and verbal descriptions of proportional relationships
+
+> **Core competences**
+>
+> Creativity and Innovation
+>
+> Critical Thinking and Problem Solving
+>
+> Personal Development and Leadership
+
+### Learning objectives
+
+By the end of this chapter you can:
+
+- use a conversion factor written as a ratio to change between units of measure
+
+- convert between cm and m, km and m, ml and litres, and g and kg
+
+- solve unit rate problems including unit pricing and constant speed
+
+- compare two rates by reducing both to a unit rate
+
+- use the relationship between distance, speed and time
+
+- draw a distance–time (travel) graph from a description of a journey
+
+<!-- page 48 -->
+
+- interpret a travel graph, reading off distances, times and periods of rest
+
+- decide whether two quantities are in a proportional relationship from a table
+
+- decide whether two quantities are proportional from a graph
+
+- identify the constant of proportionality from a table, a graph or an equation
+
+> **Key words**
+>
+> Ratio — a comparison of two quantities of the same kind.
+>
+> Rate — a comparison of two quantities of different kinds, such as km per hour.
+>
+> Unit rate — a rate given for exactly one of the second quantity.
+>
+> Conversion factor — an equality between two units, used as a ratio equal to 1.
+>
+> Speed — the distance travelled in one unit of time.
+>
+> Average speed — total distance divided by total time.
+>
+> Distance–time graph (travel graph) — a graph of distance against time.
+>
+> Gradient (slope) — the steepness of a line; on a travel graph it is the speed.
+>
+> Proportional relationship — one in which the ratio of the two quantities is always the same.
+>
+> Constant of proportionality — the fixed ratio of one quantity to the other; the unit rate.
+>
+> Origin — the point (0, 0) on a graph.
+
+> **Engage**
+>
+> Agbo walks 4 km to school and it takes him 60 minutes. Rukiya covers 4,200 m in 45 minutes.
+>
+> Who walks faster? The numbers are set up so that you cannot tell — one is in kilometres and one in metres, one in an hour and one in three quarters of an hour. Nothing can be compared until both are reduced to the same thing: metres per minute. That single move settles it, and it is the whole idea of a rate.
+
+### 5.1 Converting units with ratio reasoning
+
+A **conversion factor** is an equality between two units, such as 1 m = 100 cm. Written as a ratio it equals 1, and multiplying by 1 changes nothing except the unit.
+
+**1 m = 100 cm so 100 cm / 1 m = 1 and 1 m / 100 cm = 1**
+
+Choose whichever form cancels the unit you want to lose. Write the units in the working — they behave exactly like numbers and they tell you at once whether you have multiplied or divided correctly.
+
+*Table 5.1 — Common conversion factors.*
+
+| **Conversion** | **Factor** | **Example** |
+| --- | --- | --- |
+| m to cm | × 100 | 3.4 m = 340 cm |
+| cm to m | ÷ 100 | 250 cm = 2.5 m |
+| km to m | × 1,000 | 4 km = 4,000 m |
+
+<!-- page 49 -->
+
+| m to km | ÷ 1,000 | 4,200 m = 4.2 km |
+| --- | --- | --- |
+| litres to ml | × 1,000 | 2.5 L = 2,500 ml |
+| ml to litres | ÷ 1,000 | 750 ml = 0.75 L |
+| kg to g | × 1,000 | 1.8 kg = 1,800 g |
+| hours to minutes | × 60 | 1.25 h = 75 min |
+
+> **Worked example 1 — converting with units in the working**
+>
+> Convert 3.4 m to centimetres.
+>
+> 3.4 m × (100 cm / 1 m) = 3.4 × 100 cm = **340 cm**
+>
+> The metres cancel — one on the top of the first quantity, one on the bottom of the ratio — leaving centimetres, which is what was asked for. Had you used the other form of the ratio you would have been left with m²/cm, which is not a length, and the mistake would have been obvious immediately.
+
+> **Practice 5.1**
+>
+> 1. Convert: (a) 4.7 m to cm (b) 385 cm to m (c) 2.6 km to m (d) 4,200 m to km
+>
+> 2. Convert: (a) 3.5 litres to ml (b) 250 ml to litres (c) 2.4 kg to g
+>
+> 3. Convert: (a) 1.5 hours to minutes (b) 135 minutes to hours
+>
+> 4. Write the conversion factor 1 km = 1,000 m as two different ratios, and state which one you would use to convert metres into kilometres.
+>
+> 5. A cloth is 2 m 45 cm long. Express its length in (a) centimetres, (b) metres as a decimal.
+
+### 5.2 Unit rates
+
+A **unit rate** gives the amount for exactly one of the second quantity, and it is found by dividing. It is the only reliable way to compare two rates.
+
+> **Worked example 2 — comparing two walkers**
+>
+> Agbo walks 4 km to school and takes 60 minutes. Rukiya covers 4,200 m in 45 minutes. Find who is faster.
+>
+> Put both into the same units — metres and minutes.
+>
+> Agbo: 4 km = 4,000 m in 60 min, so his rate is 4,000 ÷ 60 = 66.7 m per minute Rukiya: 4,200 m in 45 min, so her rate is 4,200 ÷ 45 = 93.3 m per minute
+>
+> **Rukiya is faster**, by about 27 metres every minute.
+
+> **Worked example 3 — a work rate**
+>
+> It takes 7 hours to mow 4 lawns.
+>
+> (a) Find the rate at which lawns are being mowed.
+>
+> (b) At that rate, find how many lawns could be mowed in 35 hours.
+
+<!-- page 50 -->
+
+> (a) Rate = 4 lawns ÷ 7 hours = **4/7 of a lawn per hour** (b) In 35 hours: 35 × 4/7 = 20 lawns
+>
+> Or by proportion: 35 ÷ 7 = 5, so five times as long gives five times as many: 5 × 4 = **20 lawns**
+
+### 5.2.1 Speed, distance and time
+
+**speed = distance ÷ time distance = speed × time time = distance ÷ speed**
+
+All three are the same relationship rearranged. Cover the quantity you want in the triangle below and the other two show you what to do with them.
+
+> **Worked example 4 — the three forms**
+>
+> (a) A car travels 180 km in 3 hours. Find its average speed.
+>
+> speed = 180 ÷ 3 = **60 km/h** (b) A lorry travels for 2.5 hours at 48 km/h. Find the distance covered.
+>
+> distance = 48 × 2.5 = **120 km** (c) A journey of 150 km is made at 50 km/h. Find the time taken.
+>
+> time = 150 ÷ 50 = **3 hours**
+
+> **Exam tip 5.1**
+>
+> Convert the units before you calculate, not afterwards. A speed in km/h with a time in minutes gives a nonsense answer, and no method marks will rescue it. Write the units into every line.
+
+> **Practice 5.2**
+>
+> 1. Find the unit rate: (a) GH₵96 for 8 kg (b) 240 km in 4 hours (c) 4 lawns in 7 hours
+>
+> 2. Agbo walks 4 km in 60 minutes and Rukiya covers 4,200 m in 45 minutes. State who is faster, showing your working in metres per minute.
+>
+> 3. It takes 7 hours to mow 4 lawns. Find how many lawns could be mowed in 35 hours.
+>
+> 4. Find: (a) the speed of a car covering 180 km in 3 hours (b) the distance covered in 2.5 hours at 48 km/h (c) the time taken to travel 150 km at 50 km/h
+>
+> 5. Shop A sells 5 kg of rice for GH₵72 and Shop B sells 8 kg for GH₵112. State which is better value.
+
+### 5.3 Travel graphs
+
+A **distance–time graph**, or travel graph, plots distance from a starting point on the vertical axis against time on the horizontal axis. It shows a whole journey at a glance.
+
+*Table 5.2 — Reading a travel graph.*
+
+_[answer space — 2 lines]_
+
+### What the line does
+
+**What it means**
+
+<!-- page 51 -->
+
+| Slopes upward | Travelling away from the starting point |
+| --- | --- |
+| Steeper upward slope | Travelling faster |
+| Horizontal | At rest — time passes but distance does not change |
+| Slopes downward | Returning towards the starting point |
+| Reaches the horizontal axis again | Back at the starting point |
+
+The **gradient** of each section is the speed for that part of the journey: the distance covered divided by the time taken.
+
+> **Worked example 5 — drawing a travel graph**
+>
+> A trader travels by car from Buduata to Adawso, 20 miles away. After 60 minutes he stops at Assin, 8 miles from Buduata. Thirty-six minutes later he continues to Adawso, arriving 24 minutes after setting off again. He rests 12 minutes, then returns to Buduata in 48 minutes.
+>
+> Build the table of key points first, keeping a running total of the time:
+>
+> Time (min) | 0 | 60 | 96 | 120 | 132 | 180
+>
+> Distance | 0 | 8 | 8 | 20 | 20 | 0
+>
+> Now read off the answers:
+>
+> (a) Speed from Buduata to Assin = 8 miles ÷ 60 min = **8 miles per hour** (b) Speed from Assin to Adawso = 12 miles ÷ 24 min = 0.5 miles per minute = **30 miles per hour** (c) Total resting time = 36 + 12 = **48 minutes** (d) Speed on the return journey = 20 miles ÷ 48 min = **25 miles per hour**
+>
+> The second stage was the fastest, which the graph shows as the steepest rising section.
+
+<!-- page 52 -->
+
+![Figure 5.1 A distance–time graph of a journey with two stops.](images/maths-b8-print-ready-p052-fig08.png)
+
+> **Common misconception 5.1**
+>
+> A horizontal line on a distance–time graph does not mean the traveller is going along a level road, and it does not mean a steady speed. It means the distance is **not changing** — the traveller has stopped. A steady speed shows as a straight sloping line, not a flat one.
+
+> **Practice 5.3**
+>
+> 1. A trader travels from Buduata to Adawso, 20 miles away. He stops at Assin, 8 miles out, after 60 minutes, waits 36 minutes, reaches Adawso 24 minutes later, rests 12 minutes and returns to Buduata in 48 minutes. (a) Draw the travel graph. (b) Find the speed of each stage in miles per hour. (c) Find his total resting time.
+>
+> 2. From the graph in question 1, state during which stage he was travelling fastest and give a reason.
+>
+> 3. Explain what a horizontal section of a travel graph tells you.
+>
+> 4. A cyclist rides 15 km in 45 minutes, rests 15 minutes, then rides a further 10 km in 30 minutes.
+>
+> Draw the travel graph and find her average speed for the whole journey.
+>
+> 5. State what a downward-sloping section of a travel graph means.
+
+### 5.4 Proportional relationships
+
+Two quantities are in a **proportional relationship** when the ratio between them is always the same. Doubling one doubles the other; trebling one trebles the other.
+
+There are three ways to test it, and they always agree.
+
+<!-- page 53 -->
+
+- **From a table.** Divide each value of the second quantity by the matching value of the first. If every answer is the same, the relationship is proportional.
+
+- **From a graph.** Plot the pairs. If the points lie on a **straight line through the origin**, the relationship is proportional. A straight line that misses the origin is **not** proportional.
+
+- **From an equation.** If it can be written as y = kx with no number added or subtracted, it is proportional.
+
+> **Worked example 6 — testing a table**
+>
+> Decide whether each table shows a proportional relationship.
+>
+> Table A: x | 2 | 4 | 6 | 8 Table B: x | 1 | 2 | 3 | 4
+>
+> y | 6 | 12| 18| 24 y | 5 | 7 | 9 | 11
+>
+> Table A: 6÷2 = 3, 12÷4 = 3, 18÷6 = 3, 24÷8 = 3. Every ratio is 3, so this **is proportional**, with y = 3x.
+>
+> Table B: 5÷1 = 5, 7÷2 = 3.5, 9÷3 = 3, 11÷4 = 2.75. The ratios differ, so this is **not proportional** — even though the values rise by a steady 2 each time. A constant difference is not the same as a constant ratio.
+
+> **Worked example 7 — the constant of proportionality**
+>
+> An ant travels 9/8 inches in 45 seconds, and 27/8 inches in 2 minutes and 15 seconds. Find the constant of proportionality.
+>
+> Put both times into the same unit: 2 min 15 s = 135 seconds.
+>
+> First pair: (9/8) ÷ 45 = 9/360 = 1/40 inch per second
+>
+> Second pair: (27/8) ÷ 135 = 27/1080 = 1/40 inch per second
+>
+> Both give the same value, so the relationship is proportional and the constant of proportionality is **1/40 inch per second**.
+>
+> The equation is d = t/40, where d is the distance in inches and t the time in seconds.
+
+The constant of proportionality is exactly the **unit rate** met in Section 5.2 — how much of the second quantity goes with one of the first. On a graph it is the gradient of the line.
+
+<!-- page 54 -->
+
+![Figure 5.2 Proportional and non-proportional relationships compared.](images/maths-b8-print-ready-p054-fig09.png)
+
+> **Activity 5.1 — Rates, journeys and proportion**
+>
+> You need: a tape measure or a marked-out distance, a stopwatch or phone timer, graph paper, a ruler, price information from a shop.
+>
+> What to do:
+>
+> 1. Mark out 50 m in the school compound. Time three learners walking it at their normal pace, and calculate each one's speed in metres per second and in kilometres per hour.
+>
+> 2. Time one of them walking 100 m. Predict the time first, using the speed from step 1, then compare the prediction with the actual time and account for any difference.
+>
+> 3. Record the price of one item in five different quantities from a shop. Calculate the unit rate for each and tabulate the results.
+>
+> 4. Plot quantity against price. State whether the points lie on a straight line through the origin, and therefore whether price and quantity are proportional for that seller.
+>
+> 5. Make up a journey of your own with at least two stops and a return leg. Write it out in words, build the table of times and distances, and draw the travel graph.
+>
+> 6. Exchange your written journey — not your graph — with another group. Draw a graph from their description, then compare with the graph they drew.
+>
+> Record: your three walking speeds in both units, the prediction and actual time from step 2, the price table with unit rates, the graph from step 4 with your verdict, and both travel graphs from steps 5 and 6.
+>
+> Think about it: in step 4, if a seller gives a discount for buying in bulk, the points will not lie on a straight line through the origin. Sketch what the graph would look like in that case, and explain why bulk discounts break proportionality.
+
+<!-- page 55 -->
+
+> **Apply it — The delivery run**
+>
+> A driver leaves a depot at 8:00 a.m. and drives 60 km to a first drop, arriving at 9:00 a.m. He unloads for 30 minutes, then drives a further 40 km, arriving at 10:10 a.m. After a 20-minute break he returns directly to the depot, arriving at 12:00 noon. (a) Build a table of times in minutes from 8:00 a.m. and distances from the depot. (b) Draw the travel graph. (c) Find his speed on each of the three driving stages, in km/h. (d) Find his average speed for the whole journey, including the stops. (e) State whether distance and time are in a proportional relationship for this journey, giving a reason from your graph.
+
+### Chapter summary
+
+- A conversion factor is an equality between two units written as a ratio equal to 1; multiplying by it changes the unit, not the amount.
+
+- Write the units into every line of working — they cancel like numbers and reveal a wrong step immediately.
+
+- A unit rate gives the amount for exactly one of the second quantity, and is found by dividing.
+
+- Two rates can only be compared once both are reduced to a unit rate in the same units.
+
+- speed = distance ÷ time, distance = speed × time, and time = distance ÷ speed.
+
+- A distance–time graph plots distance from the start against time; the gradient of each section is the speed.
+
+- A horizontal section of a travel graph means the traveller is at rest, not moving at a steady speed.
+
+- A downward-sloping section means the traveller is returning towards the starting point.
+
+- Two quantities are proportional when the ratio between them is always the same.
+
+- Proportional quantities plot as a straight line through the origin; a straight line missing the origin is not proportional.
+
+- The constant of proportionality is the unit rate, and it is the gradient of the line.
+
+### Assessment
+
+> **How this assessment is balanced**
+>
+> Weighted to the NaCCA Mathematics profile dimensions — Knowledge and Understanding 30%, Application of Knowledge 40%, Attitudes, Values and Process Skills 30%. This chapter carries 20 items: 6 tagged [K], 8 tagged [A] and 6 tagged [P].
+>
+> Indicators assessed: B8.1.4.1.1; B8.1.4.1.2; B8.1.4.1.3; B8.1.4.1.4; B8.1.4.1.5
+
+### Section A — Objective
+
+1.A comparison of two quantities of different kinds, such as km per hour, is called a… A. ratio B. rate C. fraction D. proportion **[K]**
+
+2.A rate given for exactly one of the second quantity is called a… A. constant B. gradient C. unit rate D. conversion factor **[K]**
+
+<!-- page 56 -->
+
+3.On a distance–time graph, a horizontal line means the traveller is… A. speeding up B. at rest C. returning D. travelling steadily **[K]**
+
+4.The fixed ratio between two proportional quantities is called the… A. gradient of the axis B. constant of proportionality C. conversion factor D. average speed **[K]**
+
+5.Two quantities are proportional if their graph is a straight line passing through the… A. origin B. y-axis only C. x-axis only D. midpoint **[K]**
+
+6.Total distance divided by total time gives the… A. unit rate B. gradient C. average speed D. constant **[K]**
+
+7.Convert 4,200 m to kilometres. A. 0.42 km B. 4.2 km C. 42 km D. 420 km **[A]** 8.Agbo walks 4 km in 60 minutes; Rukiya covers 4,200 m in 45 minutes. State who is faster. A. Agbo B. Rukiya C. They are equal D. Cannot be determined **[A]**
+
+9.It takes 7 hours to mow 4 lawns. Find how many lawns could be mowed in 35 hours. A. 5 B. 12 C. 20 D. 28 **[A]**
+
+10. A car travels 180 km in 3 hours. Find its average speed. A. 54 km/h B. 60 km/h C. 90 km/h D. 540 km/h **[A]**
+
+### Section B — Theory and application
+
+1.(a) Write the conversion factor 1 m = 100 cm as two different ratios and state which converts centimetres into metres. (b) Convert 3.4 m to centimetres, showing the units in your working. (c) Convert 4,200 m to kilometres and 2.4 kg to grams. (d) Explain how writing the units into the working shows you at once if you have multiplied when you should have divided. **[A]**
+
+2.(a) Agbo walks 4 km to school in 60 minutes and Rukiya covers 4,200 m in 45 minutes; determine who is faster, giving both speeds in metres per minute. (b) It takes 7 hours to mow 4 lawns; find the rate in lawns per hour and the number of lawns that could be mowed in 35 hours. (c) Find the time taken to travel 150 km at 50 km/h. **[A]**
+
+3.A trader drives from Buduata to Adawso, 20 miles away. After 60 minutes he stops at Assin, 8 miles from Buduata. Thirty-six minutes later he continues to Adawso, taking 24 minutes. He rests 12 minutes, then returns to Buduata in 48 minutes. (a) Build a table of time and distance. (b) Draw the travel graph. (c) Find the speed of each stage in miles per hour. (d) Find his total resting time. (e) State during which stage he travelled fastest, giving a reason from the graph. **[A]**
+
+4.(a) State the three ways of testing whether two quantities are proportional. (b) Test each table: A has x: 2, 4, 6, 8 with y: 6, 12, 18, 24; B has x: 1, 2, 3, 4 with y: 5, 7, 9, 11. (c) An ant travels 9/8 inches in 45 seconds and 27/8 inches in 2 minutes 15 seconds; show that the relationship is proportional and find the constant of proportionality. (d) Explain why a constant difference is not the same as a constant ratio. **[A]**
+
+<!-- page 57 -->
+
+### Section C — Attitudes, values and process tasks
+
+1.Measure walking speeds: (a) mark out 50 m and time three learners walking it at their normal pace; (b) calculate each speed in metres per second and in kilometres per hour; (c) tabulate the results. (Activity 5.1, step 1) **[P]**
+
+2.Predict and test: predict the time one learner will take to walk 100 m using the speed from step 1, then time the actual walk and account for any difference. (Activity 5.1, step 2) **[P]**
+
+3.Survey and tabulate: record the price of one item in five different quantities from a shop and calculate the unit rate for each. (Activity 5.1, step 3) **[P]**
+
+4.Plot and judge: plot quantity against price, state whether the points lie on a straight line through the origin, and give your verdict on whether the relationship is proportional. (Activity 5.1, step 4) **[P]**
+
+5.Compose a journey: write out a journey of your own with at least two stops and a return leg, build the table of times and distances, and draw the travel graph. (Activity 5.1, step 5) **[P]**
+
+6.Exchange and compare: give another group your written journey only, draw a graph from their description, and compare the two graphs, accounting for any difference. (Activity 5.1, step 6) **[P]**
+
+<!-- page 58 -->
+
+### Strand 2: Algebra
+
+*Strand 2: Algebra · Sub-Strand 1: Patterns and Relations*
+
+### Chapter 6: Linear Graphs and Gradient
+
+> **Curriculum alignment**
+>
+> Strand 2: Algebra
+>
+> Sub-Strand 1: Patterns and Relations
+>
+> Content standard B8.2.1.1
+>
+> Demonstrate the ability to draw table of values for a linear relation, graph the relation in a number plane, determine the gradient of the line and use it to write equation of a line of the form y = mx + c. Copy and complete the table for the relation: Distanc 1 2 3 4 5 e Time
+>
+> B8.2.1.1.1 Calculate the gradient of a line and use it to write equation of a line of the form y = mx + c
+>
+> B8.2.1.1.2 Use graph of a linear relation to determine subsequent missing elements in the ordered pairs of the relation
+>
+> B8.2.1.1.3 Use graphs of linear relations to solve real life problems. Draw graphs for real life problems
+
+> **Core competences**
+>
+> Creativity and Innovation
+>
+> Critical Thinking and Problem Solving
+>
+> Personal Development and Leadership
+
+### Learning objectives
+
+By the end of this chapter you can:
+
+- explain what gradient means using real examples of slope
+
+- state and use the formula for the gradient of a straight line
+
+- calculate the gradient from two points on a line
+
+- recognise positive, negative and zero gradients
+
+- draw a table of values for a linear relation
+
+- plot a linear relation on the number plane
+
+- write the equation of a straight line in the form y = mx + c
+
+- state the meaning of m and of c in y = mx + c
+
+- use a graph to find missing values in a relation
+
+- draw and use graphs of linear relations to solve real-life problems
+
+> **Key words**
+>
+> Gradient (slope) — a measure of the steepness of a line.
+
+<!-- page 59 -->
+
+> Rise — the vertical change between two points on a line.
+>
+> Run — the horizontal change between the same two points.
+>
+> Linear relation — a relation whose graph is a straight line.
+>
+> Table of values — a table of inputs beside their outputs.
+>
+> Intercept — the value of y where the line crosses the y-axis.
+>
+> y = mx + c — the equation of a straight line, with m the gradient and c the intercept.
+>
+> Coefficient — the number multiplying a variable.
+>
+> Origin — the point (0, 0).
+>
+> Ordered pair — a pair of values written (x, y).
+>
+> Model — a mathematical description of a real situation.
+
+> **Engage**
+>
+> A roofer talks about the pitch of a roof. A cyclist talks about how steep the hill is. A road sign warns of a 1 in 8 incline. All three are describing the same thing, and all three mean the same by it: how much you rise for every step you go forward. Mathematics calls it the gradient, gives it a formula, and then does something the roofer cannot — uses it to write down the equation of the slope and predict a height nobody has measured.
+
+### 6.1 What gradient means
+
+The **gradient** measures how steep a line is. Everyday slopes give the idea directly: the pitch of a roof, the steepness of a hill a rider is climbing, the rake of a staircase. In every case the question is the same — **how much does it rise for each step forward?**
+
+**gradient = rise ÷ run = (change in y) ÷ (change in x)**
+
+For two points on a line, written (x₁, y₁) and (x₂, y₂), the formula is:
+
+**m = (y₂ − y₁) / (x₂ − x₁)**
+
+It does not matter which point you call the first — provided you take **both** differences in the same order. Taking y₂ − y₁ on top and x₁ − x₂ underneath reverses the sign and gives the wrong answer.
+
+*Table 6.1 — Reading a gradient.*
+
+| **Gradient** | **What the line does** | **Example** |
+| --- | --- | --- |
+| Positive | Rises from left to right | A hill you are climbing |
+| Negative | Falls from left to right | The same hill going down |
+| Zero | Horizontal — no rise at all | Level ground |
+| Large | Steep | A steep roof |
+| Small | Gentle | A gently sloping ramp |
+
+> **Worked example 1 — gradient from two points**
+
+<!-- page 60 -->
+
+> Find the gradient of the line through (2, 3) and (6, 11).
+>
+> Take (x₁, y₁) = (2, 3) and (x₂, y₂) = (6, 11).
+>
+> m = (11 − 3) / (6 − 2) = 8/4 = **2**
+>
+> Check by reversing the points: (3 − 11)/(2 − 6) = (−8)/(−4) = 2 ✓ — the same answer, as it must be.
+
+> **Worked example 2 — a negative gradient**
+>
+> Find the gradient of the line through (1, 9) and (4, 3).
+>
+> m = (3 − 9) / (4 − 1) = (−6)/3 = **−2**
+>
+> The gradient is negative, so the line falls from left to right.
+
+![Figure 6.1 Gradient as rise over run.](images/maths-b8-print-ready-p060-fig10.png)
+
+> **Practice 6.1**
+>
+> 1. State the formula for the gradient of a straight line through two points.
+>
+> 2. Find the gradient of the line through: (a) (2, 3) and (6, 11) (b) (1, 9) and (4, 3) (c) (0, 2) and (5, 12)
+>
+> 3. State whether each gradient describes a line that rises, falls or is horizontal: (a) 3 (b) −5 (c) 0 (d) 1/2
+>
+> 4. A roof rises 2 m over a horizontal run of 5 m. Find its gradient.
+>
+> 5. Explain why the gradient of the line through (2, 3) and (6, 11) is the same whichever point you take first.
+
+<!-- page 61 -->
+
+### 6.2 The equation y = mx + c
+
+Every straight line can be written in one standard form.
+
+**y = mx + c where m is the gradient and c is the y-intercept**
+
+The **y-intercept** c is the value of y where the line crosses the y-axis — that is, the value of y when x = 0. So the two numbers in the equation between them tell you everything: **c says where the line**
+
+### starts and m says how fast it climbs.
+
+> **Worked example 3 — reading m and c**
+>
+> State the gradient and the y-intercept of each line.
+>
+> (a) y = 3x + 4 gradient **3**, intercept **4** (b) y = −2x + 7 gradient **−2**, intercept **7** (c) y = 5x gradient **5**, intercept **0** — the line passes through the origin (d) y = 20x gradient **20**, intercept **0**
+
+> **Worked example 4 — finding the equation from a graph**
+>
+> A straight line crosses the y-axis at 4 and passes through the point (3, 13). Find its equation.
+>
+> The intercept is given: c = 4.
+>
+> For the gradient, use the intercept point (0, 4) and the given point (3, 13):
+>
+> m = (13 − 4)/(3 − 0) = 9/3 = 3
+>
+> So the equation is **y = 3x + 4**
+>
+> Check with the given point: 3(3) + 4 = 13 ✓
+
+> **Common misconception 6.1**
+>
+> In y = mx + c, m is the number **multiplying** x and c is the number **on its own**. In y = 7 + 2x the gradient is 2 and the intercept is 7 — not the other way round. Rewrite the equation as y = 2x + 7 before reading off the values, every time.
+
+> **Practice 6.2**
+>
+> 1. State the gradient and the y-intercept of: (a) y = 3x + 4 (b) y = −2x + 7 (c) y = 5x (d) y = 20x
+>
+> 2. State the gradient and the y-intercept of: (a) y = 6 + 4x (b) y = 10 − 3x
+>
+> 3. Write the equation of the line with: (a) gradient 5, intercept 2 (b) gradient −1, intercept 8 (c) gradient 1/2, passing through the origin
+>
+> 4. A line crosses the y-axis at 4 and passes through (3, 13). Find its equation.
+>
+> 5. A line passes through (0, −2) and (4, 6). Find its gradient, its intercept and its equation.
+
+<!-- page 62 -->
+
+### 6.3 Tables of values and drawing the graph
+
+To draw the graph of a linear relation, build a **table of values** by substituting each value of x into the equation, plot the ordered pairs, and rule a straight line through them.
+
+Three or four points are enough, but always plot at least three — if one point is out of line with the other two you know at once that you have made an arithmetic slip.
+
+> **Worked example 5 — table and graph**
+>
+> Draw the graph of y = 2x + 1 for values of x from −2 to 3.
+>
+> Substitute each value in turn:
+>
+> x = −2: 2(−2) + 1 = −3 x = −1: 2(−1) + 1 = −1 x = 0: 2(0) + 1 = 1 x = 1: 2(1) + 1 = 3 x = 2: 2(2) + 1 = 5 x = 3: 2(3) + 1 = 7
+>
+> x | −2 | −1 | 0 | 1 | 2 | 3
+>
+> y | −3 | −1 | 1 | 3 | 5 | 7
+>
+> Plot (−2, −3), (−1, −1), (0, 1), (1, 3), (2, 5), (3, 7) and rule the line through them.
+>
+> Check against the equation: the line should cross the y-axis at 1, and it does; and it should rise 2 for every 1 across, and it does ✓
+
+> **Exam tip 6.1**
+>
+> Take great care with negative values of x. In y = 2x + 1 at x = −2, write 2 × (−2) = −4 as a separate step, then −4 + 1 = −3. Rushing this line straight to an answer is where most marks are lost in graph questions.
+
+> **Practice 6.3**
+>
+> 1. Copy and complete the table for y = 2x + 1: x: −2, −1, 0, 1, 2, 3
+>
+> 2. Draw the graph of y = 2x + 1 for x from −2 to 3.
+>
+> 3. Draw a table of values and the graph of y = 3x − 2 for x from −1 to 4.
+>
+> 4. Draw the graph of y = 10 − 2x for x from 0 to 5, and state its gradient.
+>
+> 5. From your graph in question 2, find the value of y when x = 1.5 and check it by substitution.
+
+### 6.4 Using graphs to solve problems
+
+Once a real situation has been written as a linear relation and drawn, the graph answers questions in both directions: give it an x and read off the y, or give it a y and read back to find the x.
+
+> **Worked example 6 — the cost of meat**
+
+<!-- page 63 -->
+
+> In a market, the cost y in Ghana cedis of x kilograms of meat is given by y = 20x. Use the relation to find:
+>
+> (a) the cost of 3.5 kg of meat (b) the weight of meat that can be bought for GH₵80 (c) the weight that can be bought for GH₵240
+>
+> (a) Substitute x = 3.5: y = 20 × 3.5 = **GH₵70** (b) Substitute y = 80 and solve: 80 = 20x, so x = 80 ÷ 20 = **4 kg** (c) Substitute y = 240: 240 = 20x, so x = 240 ÷ 20 = **12 kg**
+>
+> On the graph, (a) is read by going along to 3.5 and up to the line; (b) and (c) are read by going up the y-axis and across. Part (c) lies beyond the drawn part of the graph, which is why it is quicker to use the equation — a graph can only be read as far as it has been drawn.
+
+> **Worked example 7 — a walking model**
+>
+> Every morning you go for a walk, and the distance walked is modelled by d = 3h, where d is the distance in kilometres and h is the number of hours walked.
+>
+> (a) Make a table of values for h from 0 to 6.
+>
+> (b) State what the number 3 represents.
+>
+> (c) Find the distance walked after 6 hours.
+>
+> (d) Find how long it takes to walk 10.5 km.
+>
+> (a) h | 0 | 1 | 2 | 3 | 4 | 5 | 6
+>
+> d | 0 | 3 | 6 | 9 | 12 | 15 | 18 (b) The 3 is the gradient, and here it is the **walking speed — 3 km per hour**.
+>
+> (c) d = 3 × 6 = **18 km** (d) 10.5 = 3h, so h = 10.5 ÷ 3 = **3.5 hours**
+>
+> The graph passes through the origin because after zero hours you have walked zero kilometres — which is exactly the proportional relationship of Chapter 5.
+
+<!-- page 64 -->
+
+![Figure 6.2 A linear model and how to read it both ways.](images/maths-b8-print-ready-p064-fig11.png)
+
+> **Activity 6.1 — Measuring gradients and modelling a real cost**
+>
+> You need: a metre rule or tape measure, a long plank or a ramp, graph paper, a ruler, price information from a shop or a taxi driver.
+>
+> What to do:
+>
+> 1. Prop a plank at an angle to make a ramp. Measure its height at three points along the ground and the horizontal distance to each. Calculate the gradient from each pair of measurements.
+>
+> 2. State whether your three gradients agree, and account for any difference.
+>
+> 3. Find two more slopes around the school — a step, a roof edge, a path — measure the rise and run of each, and calculate the gradient. Rank all your slopes from steepest to gentlest.
+>
+> 4. Find the price of one item per kilogram or per unit from a shop. Write the relation in the form y = mx and state what m represents.
+>
+> 5. Make a table of values for 1 to 6 units, plot the graph and rule the line.
+>
+> 6. Use your graph twice: read off the cost of a quantity between two whole numbers, and read back to find the quantity that a given sum of money would buy. Check both against the equation.
+>
+> 7. Now find a charge that has a fixed part — a taxi fare with a starting charge, or a delivery fee.
+>
+> Write it in the form y = mx + c, draw its graph, and state what c represents on your graph.
+>
+> Record: your ramp measurements and three gradients, your ranked slopes, both relations with their tables and graphs, and the two readings from step 6 with their checks.
+>
+> Think about it: the graph in step 5 passes through the origin and the one in step 7 does not.
+>
+> Explain, in terms of the real situation, what the difference between them means for a customer.
+
+> **Apply it — The mobile data bundle**
+
+<!-- page 65 -->
+
+> A network charges GH₵5 to activate a bundle and GH₵2 for each gigabyte of data used. (a) Write the relation between the total cost y and the data used x in the form y = mx + c. (b) State what m and c each represent. (c) Make a table of values for 0 to 6 GB. (d) Draw the graph. (e) Use the graph to find the cost of 4.5 GB. (f) A customer pays GH₵19; find how much data was used. (g) A second network charges no activation fee but GH₵3 per gigabyte; write its relation, draw it on the same axes, and state the amount of data at which the two networks cost the same.
+
+### Chapter summary
+
+- The gradient measures steepness: how much a line rises for each step forward.
+
+- m = (y₂ − y₁) / (x₂ − x₁); both differences must be taken in the same order.
+
+- A positive gradient rises from left to right, a negative gradient falls, and a zero gradient is horizontal.
+
+- Every straight line can be written as y = mx + c, where m is the gradient and c is the y- intercept.
+
+- The y-intercept is the value of y when x = 0 — where the line crosses the y-axis.
+
+- In y = 7 + 2x the gradient is 2 and the intercept is 7; rewrite in the standard order before reading them off.
+
+- To draw a linear graph, build a table of values, plot the ordered pairs and rule a straight line through them.
+
+- Plot at least three points, so that a point out of line reveals an arithmetic error.
+
+- Take multiplication of negative values as a separate written step.
+
+- A graph is read in both directions: along and up to find y, or up and across to find x.
+
+- A line through the origin has c = 0 and represents a proportional relationship.
+
+### Assessment
+
+> **How this assessment is balanced**
+>
+> Weighted to the NaCCA Mathematics profile dimensions — Knowledge and Understanding 30%, Application of Knowledge 40%, Attitudes, Values and Process Skills 30%. This chapter carries 20 items: 6 tagged [K], 8 tagged [A] and 6 tagged [P].
+>
+> Indicators assessed: B8.2.1.1.1; B8.2.1.1.2; B8.2.1.1.3
+
+### Section A — Objective
+
+1.A measure of the steepness of a line is called its… A. intercept B. gradient C. origin D. coefficient **[K]**
+
+2.In the equation y = mx + c, the letter c represents the… A. gradient B. coefficient C. y- intercept D. origin **[K]**
+
+3.A line that falls from left to right has a gradient that is… A. positive B. negative C. zero D. undefined **[K]**
+
+<!-- page 66 -->
+
+4.The vertical change between two points on a line is called the… A. run B. rise C. intercept D. domain **[K]**
+
+5.A relation whose graph is a straight line is described as… A. linear B. proportional C. exponential D. quadratic **[K]**
+
+6.The y-intercept is the value of y when x is… A. 1 B. 0 C. negative D. the gradient **[K]** 7.Find the gradient of the line through (2, 3) and (6, 11). A. 1/2 B. 2 C. 4 D. 8 **[A]** 8.Find the gradient of the line through (1, 9) and (4, 3). A. −2 B. −1/2 C. 2 D. 6 **[A]** 9.State the gradient and intercept of y = 6 + 4x. A. m = 6, c = 4 B. m = 4, c = 6 C. m = 10, c = 0 D. m = 4, c = 0 **[A]**
+
+10. For y = 2x + 1, find y when x = −2. A. −5 B. −3 C. 3 D. 5 **[A]**
+
+### Section B — Theory and application
+
+1.(a) Explain what is meant by the gradient of a line, using one everyday example. (b) State the formula for the gradient through two points. (c) Find the gradient of the line through (2, 3) and (6, 11), and through (1, 9) and (4, 3). (d) Explain why the answer to the first is the same whichever point is taken first. **[A]**
+
+2.(a) State the gradient and the y-intercept of y = 3x + 4, y = −2x + 7 and y = 5x. (b) State the gradient and intercept of y = 6 + 4x, explaining the order in which you read them. (c) A line crosses the y-axis at 4 and passes through (3, 13); find its equation and verify it with the given point. **[A]**
+
+3.(a) Copy and complete a table of values for y = 2x + 1 for x from −2 to 3. (b) Draw the graph on graph paper. (c) Use your graph to find y when x = 1.5 and check by substitution. (d) State the gradient and intercept of your line and show that they agree with the equation. **[A]**
+
+4.In a market the cost y cedis of x kilograms of meat is given by y = 20x. (a) Find the cost of 3.5 kg. (b) Find the weight that can be bought for GH₵80. (c) Find the weight that can be bought for GH₵240. (d) Give a reason why part (c) is quicker to answer from the equation than from a drawn graph. (e) The distance walked in h hours is d = 3h; state what the 3 represents and find how long it takes to walk 10.5 km. **[A]**
+
+### Section C — Attitudes, values and process tasks
+
+1.Measure a ramp: (a) prop a plank to form a ramp and measure its height at three points along the ground together with the horizontal distance to each; (b) calculate the gradient from each pair; (c) state whether the three agree and account for any difference. (Activity 6.1, steps 1-2) **[P]**
+
+2.Survey and rank slopes: find two further slopes around the school, measure the rise and run of each, calculate the gradients and rank all your slopes from steepest to gentlest. (Activity 6.1, step 3) **[P]**
+
+3.Model a price: find the price of one item per unit from a shop, write the relation in the form y = mx, and state what m represents. (Activity 6.1, step 4) **[P]**
+
+4.Tabulate and plot: make a table of values for one to six units, plot the points on graph paper and rule the line. (Activity 6.1, step 5) **[P]**
+
+<!-- page 67 -->
+
+5.Read the graph both ways: read off the cost of a quantity lying between two whole numbers, then read back to find the quantity a given sum would buy, and check both against the equation. (Activity 6.1, step 6) **[P]**
+
+6.Model a fixed charge: find a charge with a fixed part such as a taxi fare, write it as y = mx + c, draw its graph, state what c represents, and explain what the difference between this graph and the one in step 5 means for a customer. (Activity 6.1, step 7) **[P]**
+
+<!-- page 68 -->
+
+*Strand 2: Algebra · Sub-Strand 2: Patterns and Relations*
+
+### Chapter 7: Expanding and Factorising Algebraic Expressions
+
+> **Curriculum alignment**
+>
+> Strand 2: Algebra
+>
+> Sub-Strand 2: Patterns and Relations
+>
+> Content standard B8.2.2.1
+>
+> Solve problems involving algebraic expressions (including multiplication of binomial expressions) factorise given expressions and substitute values to evaluate algebraic expressions.
+>
+> Simplify:
+>
+> B8.2.2.1.1 Use the distributive property to remove brackets and solve multiplication of binomial expression
+>
+> B8.2.2.1.2 Perform addition, subtraction, multiplication and division of algebraic expressions including fractions. Solve problems based on multiplication and division of algebraic fractions
+>
+> B8.2.2.1.3 Substitute values to evaluate algebraic expressions including fractions and use these to solve problems. simplify, then substitute in the value to evaluate the following expressions: io x = 2, y = -2, z = 3, a = 1 ama a = -1, i. 3 2 3a 10d 2 2 2 x+1 - x-1 iv. 15a d x 9a ii. 2 2 1 2 6x +2xy 15z + v. x x-1 x+1 5z 3x+y iii. 12xy 14x 2 2 7 x 20 vi. 5x + 7z - 4a + 3y
+>
+> B8.2.2.1.4 Factorise given expressions involving the four operations and use the experiences gained to solve problems
+
+> **Core competences**
+>
+> Creativity and Innovation
+>
+> Critical Thinking and Problem Solving
+>
+> Personal Development and Leadership
+
+### Learning objectives
+
+By the end of this chapter you can:
+
+- use the distributive property to remove a single bracket
+
+- expand expressions with a negative term in front of the bracket
+
+- expand and simplify expressions containing two brackets
+
+- multiply two binomial expressions
+
+- recognise and expand the difference of two squares
+
+- add, subtract, multiply and divide algebraic fractions
+
+- substitute values to evaluate algebraic expressions, including fractions
+
+- factorise expressions by taking out a common factor
+
+- factorise expressions by grouping
+
+<!-- page 69 -->
+
+- factorise the difference of two squares factorise simple monic quadratics of the form x² + bx + c when integer factors exist
+
+> **Key words**
+>
+> Expand — remove brackets by multiplying out.
+>
+> Distributive property — a(b + c) = ab + ac.
+>
+> Binomial — an expression with two terms, such as x + 3.
+>
+> Product of binomials — the result of multiplying two two-term expressions.
+>
+> Difference of two squares — an expression of the form a² − b², which factorises to (a + b)(a − b).
+>
+> Factorise — write an expression as a product; the reverse of expanding.
+>
+> Common factor — a factor appearing in every term of an expression.
+>
+> Grouping — factorising by taking terms in pairs.
+>
+> Algebraic fraction — a fraction whose numerator or denominator contains a variable.
+>
+> Like terms — terms with exactly the same variable part.
+>
+> Substitute — replace each variable with a given number.
+
+> **Engage**
+>
+> Expanding and factorising are the same journey travelled in opposite directions. Multiply out 3(x + 4) and you get 3x + 12; take the common factor back out of 3x + 12 and you are back where you started. Neither direction is more correct than the other — but knowing which one a problem needs is most of the skill in algebra, and this chapter drills both until the choice becomes automatic.
+
+### 7.1 Expanding a single bracket
+
+The **distributive property** says that the term outside a bracket multiplies **every** term inside it.
+
+**a(b + c) = ab + ac**
+
+> **Worked example 1 — simple expansions**
+>
+> Expand each expression.
+>
+> (a) 6(x + 3) = 6x + **18**, so the answer is **6x + 18** (b) 4(3x − 1) = **12x − 4** (c) −5x(3x + 4) = −15x² − 20x, so the answer is **−15x² − 20x**
+>
+> In (c) the negative sign belongs to the −5x and multiplies both terms inside.
+
+### 7.1.1 A minus sign in front of a bracket
+
+A minus sign in front of a bracket changes the sign of **every** term inside. Think of it as multiplying by −1.
+
+<!-- page 70 -->
+
+> **Worked example 2 — negative signs**
+>
+> Expand and simplify each expression.
+>
+> (a) 8 − (4 − a)
+>
+> = 8 − 4 + a (both signs inside change)
+>
+> = **4 + a** (b) 2(6 − 5x) − 3(2 + 2x)
+>
+> = 12 − 10x − 6 − 6x
+>
+> = (12 − 6) + (−10x − 6x)
+>
+> = **6 − 16x** (c) 3(x + 4) − 2(x − 5)
+>
+> = 3x + 12 − 2x + 10
+>
+> = **x + 22** (d) (m + o − g) − (m − o + g)
+>
+> = m + o − g − m + o − g
+>
+> = **2o − 2g**
+
+> **Common misconception 7.1**
+>
+> In −(4 − a) both signs change, giving −4 + a. Changing only the first gives −4 − a, which is wrong.
+>
+> Test it with a number: if a = 1, then 8 − (4 − 1) = 8 − 3 = 5, and 4 + a = 5 ✓, while 4 − a would give ✗
+>
+> 3 .
+
+> **Practice 7.1**
+>
+> 1. Expand: (a) 6(x + 3) (b) 4(3x − 1) (c) −5x(3x + 4) (d) 7(2a − 3b)
+>
+> 2. Expand and simplify: (a) 8 − (4 − a) (b) 10 − (6 − 2x)
+>
+> 3. Expand and simplify: (a) 2(6 − 5x) − 3(2 + 2x) (b) 3(x + 4) − 2(x − 5)
+>
+> 4. Expand and simplify (m + o − g) − (m − o + g).
+>
+> 5. A learner writes 8 − (4 − a) = 4 − a. Identify the error and give the correct answer.
+
+### 7.2 Multiplying two binomials
+
+A **binomial** has two terms. To multiply two of them, every term in the first bracket must multiply every term in the second — four products in all. The order does not matter, but a system does; work **first, outer, inner, last**.
+
+> **Worked example 3 — expanding a product of binomials**
+>
+> Expand and simplify (a + 2)(a + 3).
+>
+> First: a × a = a²
+>
+> Outer: a × 3 = 3a
+>
+> Inner: 2 × a = 2a
+
+<!-- page 71 -->
+
+> Last: 2 × 3 = 6
+>
+> Sum: a² + 3a + 2a + 6 = **a² + 5a + 6**
+
+> **Worked example 4 — more products**
+>
+> Expand and simplify each expression.
+>
+> (a) (2x + 3)(x + 4)
+>
+> = 2x² + 8x + 3x + 12 = **2x² + 11x + 12** (b) (3x − 2y)(3x + 2y)
+>
+> = 9x² + 6xy − 6xy − 4y² = **9x² − 4y²** (c) (2x + 3)²
+>
+> A square means the bracket times itself: (2x + 3)(2x + 3)
+>
+> = 4x² + 6x + 6x + 9 = **4x² + 12x + 9**
+
+> **Common misconception 7.2**
+>
+> (2x + 3)² is **not** 4x² + 9. Squaring a bracket does not mean squaring each term — it means multiplying the bracket by itself, which produces a middle term as well. The correct answer is 4x² + 12x + 9. Write the bracket out twice before you start.
+
+### 7.2.1 The difference of two squares
+
+Look again at Worked example 4(b). The two middle terms cancelled, leaving only two terms. That happens whenever the brackets are identical except for the sign between them.
+
+**(a + b)(a − b) = a² − b²**
+
+This pattern is called the **difference of two squares**, and recognising it saves a great deal of work — both when expanding and, as you will see in Section 7.4, when factorising.
+
+<!-- page 72 -->
+
+![Figure 7.1 Expanding two brackets as an area.](images/maths-b8-print-ready-p072-fig12.png)
+
+> **Practice 7.2**
+>
+> 1. Expand and simplify: (a) (a + 2)(a + 3) (b) (x + 5)(x + 2) (c) (x − 3)(x − 4)
+>
+> 2. Expand and simplify: (a) (2x + 3)(x + 4) (b) (3a − 1)(2a + 5)
+>
+> 3. Expand and simplify: (a) (3x − 2y)(3x + 2y) (b) (2x + y)(2x − y)
+>
+> 4. Expand and simplify: (a) (2x + 3)² (b) (a − 4)²
+>
+> 5. A learner writes (2x + 3)² = 4x² + 9. Identify the error and give the correct expansion.
+
+### 7.3 Algebraic fractions
+
+Algebraic fractions obey exactly the rules of ordinary fractions. To multiply, multiply the numerators and the denominators, cancelling common factors first. To divide, multiply by the reciprocal. To add or subtract, find a common denominator.
+
+> **Worked example 5 — multiplying and dividing**
+>
+> Simplify each expression.
+>
+> (a) (3a³ / 10d) × (15a²d / 9a)
+>
+> Numbers: 3 × 15 ÷ (10 × 9) = 45/90 = 1/2
+>
+> Letters: a³ × a² ÷ a = a⁴; d ÷ d = 1
+>
+> Answer: **a⁴ / 2** (b) (12xy / 7) ÷ (14x / 20)
+>
+> Multiply by the reciprocal: (12xy / 7) × (20 / 14x)
+>
+> Numbers: 12 × 20 ÷ (7 × 14) = 240/98 = 120/49
+>
+> Letters: xy ÷ x = y
+
+<!-- page 73 -->
+
+> Answer: **120y / 49**
+
+> **Worked example 6 — adding algebraic fractions**
+>
+> Simplify 2/(x + 1) + 1/(x − 1).
+>
+> The common denominator is (x + 1)(x − 1).
+>
+> = [2(x − 1) + 1(x + 1)] / [(x + 1)(x − 1)]
+>
+> = [2x − 2 + x + 1] / [(x + 1)(x − 1)]
+>
+> = **(3x − 1) / (x² − 1)**
+>
+> The denominator was expanded using the difference of two squares.
+
+### 7.3.1 Substituting values
+
+Always **simplify first, then substitute**. It is far quicker and there are far fewer places to go wrong.
+
+> **Worked example 7 — substitution**
+>
+> Given x = 2, y = −2, z = 3 and a = −1, evaluate each expression.
+>
+> (a) 5x + 7z − 4a + 3y
+>
+> = 5(2) + 7(3) − 4(−1) + 3(−2)
+>
+> = 10 + 21 + 4 − 6 = **29** (b) (6x² + 2xy) / (3x + y)
+>
+> Numerator: 6(2²) + 2(2)(−2) = 24 − 8 = 16
+>
+> Denominator: 3(2) + (−2) = 6 − 2 = 4
+>
+> Answer: 16 ÷ 4 = **4** (c) 15z / 5z
+>
+> Simplify first: 15z ÷ 5z = **3**, whatever the value of z.
+
+> **Exam tip 7.1**
+>
+> Put every negative value in brackets when you substitute. Writing −4a with a = −1 as −4 × (−1) = +4 makes the sign obvious; writing −4 × −1 invites a slip. This single habit prevents more lost marks than any other in algebra.
+
+> **Practice 7.3**
+>
+> 1. Simplify: (a) (3a³/10d) × (15a²d/9a) (b) (12xy/7) ÷ (14x/20)
+>
+> 2. Simplify: (a) (8x²y)/(4xy) (b) (20a³b²)/(15a²b)
+>
+> 3. Simplify: (a) 2/(x + 1) + 1/(x − 1) (b) 3/x − 1/(2x)
+>
+> 4. Given x = 2, y = −2, z = 3 and a = −1, evaluate: (a) 5x + 7z − 4a + 3y (b) (6x² + 2xy)/(3x + y) (c) 15z/5z
+>
+> 5. Explain why it is better to simplify an expression before substituting.
+
+<!-- page 74 -->
+
+### 7.4 Factorising
+
+To **factorise** is to write an expression as a product — the exact reverse of expanding. Every answer can be checked instantly by expanding it again.
+
+### 7.4.1 Taking out a common factor
+
+Look for the highest factor common to **every** term, take it outside a bracket, and write what remains inside.
+
+> **Worked example 8 — common factors**
+>
+> Factorise each expression.
+>
+> (a) 3ax + 6ay
+>
+> Common to both terms: 3a
+>
+> = **3a(x + 2y)**
+>
+> Check: 3a(x + 2y) = 3ax + 6ay ✓ (b) 100x² − 25x
+>
+> Common: 25x
+>
+> = **25x(4x − 1)** (c) 2ap + aq
+>
+> Common: a
+>
+> = **a(2p + q)**
+
+### 7.4.2 Factorising by grouping
+
+When an expression has four terms and no factor common to all of them, take the terms in pairs. Factorise each pair, and a common bracket should appear — which is then itself taken out.
+
+> **Worked example 9 — grouping**
+>
+> Factorise a² − ay − ay + y².
+>
+> First collect like terms: a² − 2ay + y².
+>
+> This is (a − y)(a − y) = **(a − y)²**
+>
+> Now factorise 3x² + 2xy − 12xy − 8y² by grouping.
+>
+> Group in pairs: (3x² + 2xy) + (−12xy − 8y²)
+>
+> Factorise each pair: x(3x + 2y) − 4y(3x + 2y)
+>
+> The bracket (3x + 2y) is now common:
+>
+> = **(3x + 2y)(x − 4y)**
+>
+> Check by expanding: (3x + 2y)(x − 4y) = 3x² − 12xy + 2xy − 8y² ✓
+
+### 7.4.3 Factorising the difference of two squares
+
+Recognise the pattern from Section 7.2 and use it in reverse.
+
+<!-- page 75 -->
+
+**a² − b² = (a + b)(a − b)**
+
+> **Worked example 10 — difference of two squares**
+>
+> Factorise each expression.
+>
+> (a) 54 − 81x²
+>
+> Take out the common factor 27 first: 27(2 − 3x²)
+>
+> Since 2 is not a perfect square, this is as far as it goes: **27(2 − 3x²)** (b) 9x² − 4y²
+>
+> This is (3x)² − (2y)², so a = 3x and b = 2y
+>
+> = **(3x + 2y)(3x − 2y)** (c) 100 − 49m²
+>
+> = 10² − (7m)² = **(10 + 7m)(10 − 7m)**
+
+> **Exam tip 7.2**
+>
+> Always look for a common factor **first**, before anything else. In 2x² − 18, taking out the 2 gives 2(x² − 9), and only then does the difference of two squares appear: 2(x + 3)(x − 3). Going straight for the squares misses the 2 and loses a mark.
+
+> **7.4.4 Factorising x² + bx + c**
+>
+> For x² + bx + c, look for two integers whose product is c and whose sum is b. These become the constants in the two brackets.
+>
+> Worked example 11 — a monic quadratic
+>
+> Factorise x² + 7x + 12. The numbers 3 and 4 multiply to 12 and add to 7.
+>
+> x² + 7x + 12 = x² + 3x + 4x + 12 = x(x + 3) + 4(x + 3) = (x + 3)(x + 4)
+>
+> Check by expanding: (x + 3)(x + 4) = x² + 7x + 12 ✓
+>
+> **Practice 7.4**
+>
+> 1. Factorise: (a) 3ax + 6ay (b) 100x² − 25x (c) 2ap + aq (d) 12m²n − 18mn²
+>
+> 2. Factorise by grouping: (a) 3x² + 2xy − 12xy − 8y² (b) ab + 3a + 2b + 6
+>
+> 3. Factorise: (a) 9x² − 4y² (b) 100 − 49m² (c) x² − 81
+>
+> 4. Factorise completely: (a) 2x² − 18 (b) 54 − 81x²
+>
+> 5. Factorise and check by expanding: (a) a² − 2ay + y² (b) x² + 7x + 12.
+
+<!-- page 76 -->
+
+![Figure 7.2 Expanding and factorising as opposite directions.](images/maths-b8-print-ready-p076-fig13.png)
+
+> **Activity 7.1 — Areas, expansions and a factorising race**
+>
+> You need: squared paper, scissors, coloured pencils, card for making question cards, a stopwatch.
+>
+> What to do:
+>
+> 1. On squared paper draw a rectangle of length (x + 3) and width (x + 2), taking x as 4 units.
+>
+> Divide it into four parts by extending the split in each side, and write the area of each part.
+>
+> 2. Add the four areas and compare the total with the area found by multiplying length by width directly. State what this shows about (x + 3)(x + 2).
+>
+> 3. Repeat with x = 6 and confirm that the same expansion works.
+>
+> 4. Cut a square of side a units and remove from one corner a square of side b units. Cut the remaining L-shape into two rectangles and rearrange them into a single rectangle. Measure its sides and state what this shows about a² − b².
+>
+> 5. Write twelve question cards — six to expand and six to factorise. On the back of each, write the answer.
+>
+> 6. In pairs, race: one learner draws a card and the other has thirty seconds to answer. Score one point for a correct answer and record which type, expanding or factorising, your class found harder.
+>
+> Record: both labelled area diagrams with their totals, the cut-and-rearrange result from step 4, your twelve cards with answers, and the class scores.
+>
+> Think about it: in step 4 the L-shape rearranged into a rectangle with sides (a + b) and (a − b).
+>
+> Explain, using your cut pieces rather than algebra, why that had to happen.
+
+> **Apply it — The garden path**
+
+<!-- page 77 -->
+
+> A square garden of side x metres is surrounded by a path 2 m wide on all sides. (a) Write an expression for the length of one side of the whole area including the path. (b) Write an expression for the total area including the path, and expand it. (c) Write an expression for the area of the path alone, and simplify it. (d) Given that x = 10, find the area of the path. (e) Factorise your expression from (c) completely. (f) The gardener says the path's area is 16 m² whatever the size of the garden. Use your expression to show that he is wrong.
+
+### Chapter summary
+
+- The distributive property says a(b + c) = ab + ac — the outside term multiplies every term inside.
+
+- A minus sign in front of a bracket changes the sign of every term inside it.
+
+- To multiply two binomials, multiply every term in the first by every term in the second — four products in all.
+
+- (2x + 3)² means (2x + 3)(2x + 3) and produces a middle term; it is not 4x² + 9.
+
+- (a + b)(a − b) = a² − b², the difference of two squares, because the middle terms cancel.
+
+- Algebraic fractions follow the rules of ordinary fractions: cancel and multiply, or use a common denominator.
+
+- Simplify an expression before substituting, and put every negative value in brackets.
+
+- To factorise is to write an expression as a product — the reverse of expanding, and always checkable by expanding again.
+
+- Take out the highest common factor first, before looking for any other pattern.
+
+- Four terms with no common factor are factorised by grouping in pairs until a common bracket appears.
+
+- a² − b² factorises to (a + b)(a − b).
+
+### Assessment
+
+> **How this assessment is balanced**
+>
+> Weighted to the NaCCA Mathematics profile dimensions — Knowledge and Understanding 30%, Application of Knowledge 40%, Attitudes, Values and Process Skills 30%. This chapter carries 20 items: 6 tagged [K], 8 tagged [A] and 6 tagged [P].
+>
+> Indicators assessed: B8.2.2.1.1; B8.2.2.1.2; B8.2.2.1.3; B8.2.2.1.4
+
+### Section A — Objective
+
+1.Removing brackets by multiplying out is called… A. factorising B. expanding C. substituting D. simplifying **[K]**
+
+2.An expression with exactly two terms is called a… A. binomial B. coefficient C. constant D. factor **[K]**
+
+3.Writing an expression as a product is called… A. expanding B. evaluating C. factorising D. substituting **[K]**
+
+<!-- page 78 -->
+
+4.The expression a² − b² is known as the… A. perfect square B. difference of two squares C. common factor D. binomial sum **[K]**
+
+5.The property a(b + c) = ab + ac is called the… A. commutative property B. associative property C. distributive property D. identity property **[K]**
+
+6.Factorising four terms by taking them in pairs is called factorising by… A. inspection B. grouping C. substitution D. expansion **[K]**
+
+7.Expand and simplify 8 − (4 − a). A. 4 − a B. 4 + a C. 12 − a D. 12 + a **[A]** 8.Expand and simplify (a + 2)(a + 3). A. a² + 6 B. a² + 5a + 6 C. a² + 5a D. 2a + 5 **[A]** 9.Expand and simplify (3x − 2y)(3x + 2y). A. 9x² + 4y² B. 9x² − 4y² C. 9x² − 12xy − 4y² D. 6x² − 4y² **[A]**
+
+10. Expand (2x + 3)². A. 4x² + 9 B. 4x² + 6x + 9 C. 4x² + 12x + 9 D. 2x² + 12x + 9 **[A]**
+
+### Section B — Theory and application
+
+1.Expand and simplify each of the following: (a) 6(x + 3); (b) −5x(3x + 4); (c) 8 − (4 − a); (d) 2(6 − 5x) − 3(2 + 2x); (e) 3(x + 4) − 2(x − 5); (f) (m + o − g) − (m − o + g). **[A]**
+
+2.(a) Expand and simplify (a + 2)(a + 3), showing all four products. (b) Expand and simplify (2x + 3)(x + 4). (c) Expand and simplify (3x − 2y)(3x + 2y) and state the name of the pattern produced. (d) Expand (2x + 3)² and explain why the answer is not 4x² + 9. **[A]**
+
+3.(a) Simplify (3a³/10d) × (15a²d/9a). (b) Simplify (12xy/7) ÷ (14x/20). (c) Given x = 2, y = −2, z = 3 and a = −1, evaluate 5x + 7z − 4a + 3y and (6x² + 2xy)/(3x + y). (d) Give a reason why an expression should be simplified before values are substituted. **[A]**
+
+4.Factorise each of the following completely: (a) 3ax + 6ay; (b) 100x² − 25x; (c) 3x² + 2xy − 12xy − 8y², by grouping; (d) 9x² − 4y²; (e) 2x² − 18. (f) Check your answer to (c) by expanding it. **[A]**
+
+### Section C — Attitudes, values and process tasks
+
+1.Model an expansion: (a) on squared paper draw a rectangle of length (x + 3) and width (x + 2) taking x as 4 units; (b) divide it into four parts and write the area of each; (c) add the four areas and compare with the area found by multiplying the sides directly. (Activity 7.1, steps 1-2) **[P]**
+
+2.Confirm the expansion: repeat the construction with x = 6 and state whether the same expansion holds. (Activity 7.1, step 3) **[P]**
+
+3.Cut and rearrange: cut a square of side a, remove a square of side b from one corner, cut the L-shape into two rectangles and rearrange them into a single rectangle; measure its sides and state what this shows about a² − b². (Activity 7.1, step 4) **[P]**
+
+4.Explain from the pieces: using your cut pieces rather than algebra, explain why the rearranged rectangle must have sides (a + b) and (a − b). (Activity 7.1, think about it) **[P]**
+
+5.Compose question cards: write twelve cards, six to expand and six to factorise, with the answer on the back of each. (Activity 7.1, step 5) **[P]**
+
+6.Race and record: in pairs, answer your partner's cards within thirty seconds each, score the results, and state whether your class found expanding or factorising harder, giving a reason. (Activity 7.1, step 6) **[P]**
+
+<!-- page 79 -->
+
+<!-- page 80 -->
+
+*Strand 2: Algebra · Sub-Strand 3: Patterns and Relations*
+
+### Chapter 8: Linear Inequalities
+
+> **Curriculum alignment**
+>
+> Strand 2: Algebra
+>
+> Sub-Strand 3: Patterns and Relations
+>
+> Content standard B8.2.3.1
+>
+> Demonstrate an understanding of linear inequalities of the form x + a ≥ b (where a and b are integers) by modelling problems as a linear inequalities and solving the problems concretely, pictorially, and symbolically
+>
+> B8.2.3.1.1 Translate word problems into linear inequalities in one variable and vice versa
+>
+> B8.2.3.1.2 Solve simple linear inequalities
+>
+> B8.2.3.1.3 Determine solution sets of simple linear inequalities in given domains
+
+> **Core competences**
+>
+> Creativity and Innovation
+>
+> Critical Thinking and Problem Solving
+
+### Learning objectives
+
+By the end of this chapter you can:
+
+- state the meaning of the four inequality symbols
+
+- translate a word problem into a linear inequality in one variable
+
+- translate an inequality back into words
+
+- explain why an inequality has many solutions rather than one
+
+- solve simple linear inequalities using the idea of balance
+
+- state and apply the rule for multiplying or dividing an inequality by a negative number
+
+- solve inequalities with the variable on both sides
+
+- find the solution set of an inequality over a given domain
+
+- represent the solution of an inequality on a number line
+
+- solve real-life problems by forming and solving inequalities
+
+> **Key words**
+>
+> Inequality — a statement that one quantity is greater or less than another.
+>
+> Greater than (>) — larger than.
+>
+> Less than (<) — smaller than.
+>
+> Greater than or equal to (≥) — at least.
+>
+> Less than or equal to (≤) — at most.
+>
+> Linear inequality — an inequality in which the variable appears to the power 1 only.
+
+<!-- page 81 -->
+
+> Solution set — the set of all values that satisfy the inequality.
+>
+> Domain — the set of numbers from which solutions may be taken.
+>
+> Number line — a line on which numbers are marked at equal intervals.
+>
+> Open circle — a circle left unfilled on a number line, showing the value is not included.
+>
+> Closed circle — a filled circle on a number line, showing the value is included.
+>
+> Balance — the principle that the same operation may be done to both sides.
+
+> **Engage**
+>
+> An equation says a thing is exactly so. Most of life is not like that. A trotro may carry \*at most\* fifteen passengers. A candidate needs \*at least\* fifty per cent to pass. A bridge takes \*no more than\* three tonnes. None of these is a single number — each is a whole range of acceptable ones, with a boundary. Inequalities are how mathematics writes down a boundary, and they describe the world far more often than equations do.
+
+### 8.1 The language of inequalities
+
+An **inequality** says that one quantity is greater or less than another. Four symbols do all the work, and each has everyday words that signal it.
+
+*Table 8.1 — The four inequality symbols.*
+
+| **Symbol** | **Read as** | **Everyday words** |
+| --- | --- | --- |
+| > | is greater than | more than, above, over, exceeds |
+| < | is less than | fewer than, below, under |
+| ≥ | is greater than or equal to | at least, no less than, minimum of |
+| ≤ | is less than or equal to | at most, no more than, up to, maximum of |
+
+The two words that cause the most trouble are **at least** and **at most**. "At least 12" means 12 is allowed, and so is anything bigger: x ≥ 12. "At most 12" means 12 is allowed, and so is anything smaller: x ≤ 12. In both cases the boundary value itself is included, which is what the line under the symbol means.
+
+> **Worked example 1 — writing inequalities from words**
+>
+> Write an inequality for each statement.
+>
+> (a) Think of a whole number less than 17.
+>
+> **x < 17**
+>
+> (b) Eight less than the product of −3 and a number is greater than −26.
+>
+> The product of −3 and a number is −3x; eight less than that is −3x − 8.
+
+<!-- page 82 -->
+
+> **−3x − 8 > −26**
+>
+> (c) A trotro carries at most 15 passengers.
+>
+> **p ≤ 15**
+>
+> (d) Kwaakye's March profit of GH₵32 was at least GH₵12 less than his February profit.
+>
+> If February's profit is GH₵p, then GH₵12 less than it is p − 12. March fell short by at least that
+>
+> much, so March was no bigger than p − 12:
+>
+> **32 ≤ p − 12**
+
+> **Common misconception 8.1**
+>
+> 'At least GH₵12 less' does not mean exactly 12 less. It means the shortfall was 12 or more, so the earlier figure could have been much larger. Read the whole phrase before choosing the symbol, and ask yourself whether the boundary value itself is allowed.
+
+> **Practice 8.1**
+>
+> 1. State the meaning of each symbol: (a) > (b) < (c) ≥ (d) ≤
+>
+> 2. Write an inequality for: (a) a whole number less than 17 (b) a number at least 8 (c) a lorry carrying no more than 4 tonnes
+>
+> 3. Write an inequality for: eight less than the product of −3 and a number is greater than −26.
+>
+> 4. Write in words: (a) x ≥ 20 (b) y < −3 (c) 2n ≤ 50
+>
+> 5. Explain the difference between x > 5 and x ≥ 5.
+
+### 8.2 Solving linear inequalities
+
+An inequality is solved exactly as an equation is: whatever you do to one side, you do to the other. The balance still holds, with **one exception**, which is the whole difficulty of this chapter.
+
+### 8.2.1 The ordinary cases
+
+> **Worked example 2 — adding and subtracting**
+>
+> Solve each inequality.
+>
+> (a) x − 5 > 1
+>
+> Add 5 to both sides: x > **6** (b) x − 3 ≥ 2
+>
+> Add 3 to both sides: x ≥ **5** (c) 2x − 13 > 29
+>
+> Add 13: 2x > 42
+>
+> Divide by 2: x > **21** (d) 5x − 9 > −5
+>
+> Add 9: 5x > 4
+>
+> Divide by 5: x > **4/5**
+
+<!-- page 83 -->
+
+### 8.2.2 The one exception
+
+Multiplying or dividing both sides by a **negative** number reverses the inequality sign. Here is why.
+
+**3 < 5 is true. Multiply both sides by −1: −3 and −5. But −3 > −5, not less.**
+
+On the number line, −3 lies to the **right** of −5, so it is the larger. Multiplying by a negative number flips the whole line about zero, and so it flips every comparison with it.
+
+**when multiplying or dividing an inequality by a negative number, reverse the sign**
+
+> **Worked example 3 — dividing by a negative**
+>
+> Solve 15 < 8 − 2x.
+>
+> Subtract 8 from both sides: 7 < −2x
+>
+> Divide both sides by −2, **and reverse the sign**:
+>
+> −3.5 > x which is usually written x < **−3.5**
+>
+> Check with a value: try x = −4. Then 8 − 2(−4) = 8 + 8 = 16, and 15 < 16 ✓ Try x = 0: 8 − 0 = 8, and 15 < 8 is false ✓ — so values above −3.5 correctly fail.
+
+> **Exam tip 8.1**
+>
+> There is a way to avoid the reversal rule entirely: move the variable to whichever side keeps it positive. For 15 < 8 − 2x, add 2x to both sides to get 2x + 15 < 8, then 2x < −7 and x < −3.5 — the same answer with no reversal and no risk.
+
+### 8.2.3 The variable on both sides
+
+> **Worked example 4 — variable on both sides**
+>
+> Solve each inequality.
+>
+> (a) 3x ≤ 8 + x
+>
+> Subtract x from both sides: 2x ≤ 8
+>
+> Divide by 2: x ≤ **4** (b) 13 − x < 12
+>
+> Add x to both sides: 13 < 12 + x
+>
+> Subtract 12: 1 < x, that is x > **1** (c) 2x − 5 ≤ 35 − x
+>
+> Add x to both sides: 3x − 5 ≤ 35
+>
+> Add 5: 3x ≤ 40
+>
+> Divide by 3: x ≤ **40/3**, that is x ≤ 13⅓
+
+<!-- page 84 -->
+
+> **Practice 8.2**
+>
+> 1. Solve: (a) x − 5 > 1 (b) x − 3 ≥ 2 (c) x + 7 < 12
+>
+> 2. Solve: (a) 2x − 13 > 29 (b) 5x − 9 > −5 (c) 2x − 5 ≤ 35 − x
+>
+> 3. Solve, taking care with the sign: (a) 15 < 8 − 2x (b) 9 − 5x < 6 (c) −3x > 12
+>
+> 4. Solve: (a) 3x ≤ 8 + x (b) 13 − x < 12 (c) x + 4 ≤ 3x − 16
+>
+> 5. State what happens to an inequality sign when both sides are divided by a negative number, and give a numerical example showing why.
+
+### 8.3 Solution sets and the number line
+
+An equation such as x + 3 = 7 has exactly one solution. An inequality such as x < 4 has **many** — and which ones depends on the **domain**, the set of numbers you are allowed to choose from.
+
+> **Worked example 5 — solution sets over a domain**
+>
+> Find the solution set of x < 4 when the domain is (a) the whole numbers, (b) the integers.
+>
+> (a) The whole numbers are 0, 1, 2, 3, …
+>
+> Solution set = **{0, 1, 2, 3}** (b) The integers include the negatives, so the set never ends:
+>
+> Solution set = **{…, −2, −1, 0, 1, 2, 3}**
+>
+> The inequality has not changed. The domain decides how the answer is written.
+
+> **Worked example 6 — solving first, then listing**
+>
+> Find the solution set of each inequality over the whole numbers.
+>
+> (a) 2x > 24
+>
+> Divide by 2: x > 12
+>
+> Solution set = **{13, 14, 15, …}** (b) x + 4 ≤ 3x − 16
+>
+> Subtract x: 4 ≤ 2x − 16
+>
+> Add 16: 20 ≤ 2x
+>
+> Divide by 2: 10 ≤ x, that is x ≥ 10
+>
+> Solution set = **{10, 11, 12, …}** (c) 9 − 5x < 6
+>
+> Subtract 9: −5x < −3
+>
+> Divide by −5 and reverse: x > 3/5
+>
+> Over the whole numbers, solution set = **{1, 2, 3, …}**
+
+### 8.3.1 Showing the solution on a number line
+
+A number line shows the whole solution at once. Two conventions carry all the information.
+
+<!-- page 85 -->
+
+- An **open circle** at the boundary means the value is **not** included — used for > and <.
+
+- A **closed (filled) circle** means the value **is** included — used for ≥ and ≤.
+
+- An arrow along the line shows the direction in which the solutions continue.
+
+![Figure 8.1 Inequalities on the number line.](images/maths-b8-print-ready-p085-fig14.png)
+
+> **Worked example 7 — from inequality to number line**
+>
+> Show each solution on a number line.
+>
+> (a) x > 6 — open circle at 6, arrow to the right (b) x ≤ 4 — closed circle at 4, arrow to the left (c) x ≥ 10 — closed circle at 10, arrow to the right (d) −2 < x ≤ 3 — open circle at −2, closed circle at 3, the line between them shaded
+
+> **Common misconception 8.2**
+>
+> x > 6 does not mean x = 7. It means every number larger than 6 — including 6.1, 6.5 and 6.0001 — unless the domain restricts you to whole numbers. The open circle at 6 says 'start here but do not include this point', and the arrow says 'and continue for ever'.
+
+> **Practice 8.3**
+>
+> 1. Find the solution set of x < 4 over (a) the whole numbers (b) the integers
+>
+> 2. Find the solution set over the whole numbers of: (a) 2x > 24 (b) x + 4 ≤ 3x − 16 (c) 9 − 5x < 6
+>
+> 3. Show each solution on a number line: (a) x > 6 (b) x ≤ 4 (c) x ≥ 10
+>
+> 4. Show −2 < x ≤ 3 on a number line and list the integers in the solution set.
+>
+> 5. Explain the difference between an open circle and a closed circle on a number line.
+
+<!-- page 86 -->
+
+### 8.4 Solving real problems
+
+The method is the same as for equations, with one extra step: say clearly what the letter stands for, and at the end check that the answer makes sense in the real situation. A number of passengers cannot be negative or fractional, however correct the algebra.
+
+> **Worked example 8 — a profit problem**
+>
+> Kwaakye's profit for March was GH₵32, which was at least GH₵12 less than his February profit.
+>
+> Find the least his February profit could have been.
+>
+> Let February's profit be GH₵p.
+>
+> March fell short of February by at least GH₵12, so the shortfall p − 32 was 12 or more:
+>
+> p − 32 ≥ 12
+>
+> Add 32 to both sides:
+>
+> p ≥ 44
+>
+> His February profit was **at least GH₵44**.
+>
+> Check: if February was GH₵44, the shortfall is 44 − 32 = 12 ✓, and any larger February profit gives a bigger shortfall, which the word 'at least' allows.
+
+> **Worked example 9 — a capacity problem**
+>
+> A trotro may carry at most 15 passengers. Six are already on board. Find how many more may board.
+>
+> Let the further passengers be n.
+>
+> 6 + n ≤ 15
+>
+> n ≤ 9
+>
+> Since n must be a whole number and cannot be negative, the solution set is {0, 1, 2, …, 9}.
+>
+> **At most 9 more passengers** may board.
+
+> **Activity 8.1 — Boundaries in real life**
+>
+> You need: a notebook, a balance or drawn balance, counters and small bags, card, a metre rule, string.
+>
+> What to do:
+>
+> 1. Collect six real statements from your school or community that contain a boundary — a maximum number of passengers, a minimum pass mark, a weight limit, an age restriction, a closing time, a minimum order. Write each as an inequality, stating clearly what your letter represents.
+>
+> 2. For each, state whether the boundary value itself is allowed, and therefore whether you used < or ≤.
+>
+> 3. Model x + 3 ≤ 7 with a balance: put a sealed bag and three counters on one pan and seven on the other, with the bag side no lower than the other. Remove three from each side and state what remains.
+
+<!-- page 87 -->
+
+> 4. Draw a long number line on card, from −10 to 10. Represent four of your six inequalities on it, using open and closed circles correctly.
+>
+> 5. Test the reversal rule: write down three true inequalities between pairs of numbers, multiply both sides of each by −1, and record what happens to the truth of each statement.
+>
+> 6. Write a short conclusion stating the rule you discovered in step 5 and why it must be so.
+>
+> Record: your six real inequalities with their letters defined, your reasoning about < versus ≤, the balance working, the number line, and your three reversal tests with the conclusion.
+>
+> Think about it: in step 1, did any of your statements have two boundaries at once — a minimum and a maximum? Write that one as a double inequality and show it on your number line.
+
+> **Apply it — The school bus**
+>
+> A school bus may carry at most 45 passengers. Each trip costs the school GH₵180, and the school charges each passenger GH₵5. (a) Let n be the number of passengers; write an inequality for the capacity. (b) Write an expression for the takings on one trip. (c) The school wants the takings to be at least the cost; write and solve an inequality for n. (d) State the least number of passengers needed, and check your answer. (e) Give the solution set for n taking both conditions together. (f) State one reason why the algebraic solution to (c) had to be adjusted before it could be used as an answer.
+
+### Chapter summary
+
+- An inequality states that one quantity is greater or less than another; the four symbols are >, <, ≥ and ≤.
+
+- 'At least' means ≥ and 'at most' means ≤; in both, the boundary value itself is included.
+
+- An inequality is solved like an equation: the same operation is applied to both sides.
+
+- Multiplying or dividing both sides by a negative number reverses the inequality sign.
+
+- The reversal can be avoided altogether by moving the variable to the side that keeps it positive.
+
+- An inequality has many solutions; the domain decides which of them are listed.
+
+- The solution set is the set of all values in the domain that satisfy the inequality.
+
+- On a number line, an open circle excludes the boundary value and a closed circle includes it.
+
+- An arrow on the number line shows that the solutions continue in that direction.
+
+- In a real problem, state what the letter represents and check that the answer makes sense — a number of people cannot be negative or fractional.
+
+### Assessment
+
+> **How this assessment is balanced**
+>
+> Weighted to the NaCCA Mathematics profile dimensions — Knowledge and Understanding 30%, Application of Knowledge 40%, Attitudes, Values and Process Skills 30%. This chapter carries 20 items: 6 tagged [K], 8 tagged [A] and 6 tagged [P].
+
+<!-- page 88 -->
+
+> Indicators assessed: B8.2.3.1.1; B8.2.3.1.2; B8.2.3.1.3
+
+### Section A — Objective
+
+1.The symbol ≥ is read as… A. is greater than B. is less than C. is greater than or equal to D. is not equal to **[K]**
+
+2.The phrase 'at most' is written using the symbol… A. > B. < C. ≥ D. ≤ **[K]** 3.The set of all values satisfying an inequality is called the… A. domain B. solution set C. range D. boundary **[K]**
+
+4.On a number line, a value that is not included in the solution is shown by a… A. closed circle B. open circle C. cross D. square **[K]**
+
+5.Multiplying both sides of an inequality by a negative number… A. changes nothing B. reverses the sign C. makes it an equation D. removes the solution **[K]**
+
+6.The set of numbers from which solutions may be taken is called the… A. solution set B. domain C. boundary D. interval **[K]**
+
+7.Solve x − 5 > 1. A. x > 4 B. x > 6 C. x < 6 D. x > −4 **[A]** 8.Solve 2x − 13 > 29. A. x > 8 B. x > 16 C. x > 21 D. x > 42 **[A]** 9.Solve 15 < 8 − 2x. A. x < −3.5 B. x > −3.5 C. x < 3.5 D. x > 11.5 **[A]**
+
+10. Find the solution set of x < 4 over the whole numbers. A. {1, 2, 3} B. {0, 1, 2, 3} C. {0, 1, 2, 3, 4} D. {4, 5, 6, …} **[A]**
+
+### Section B — Theory and application
+
+1.(a) State the meaning of each of the four inequality symbols and give the everyday words that signal each. (b) Write an inequality for each statement: a whole number less than 17; eight less than the product of −3 and a number is greater than −26; a trotro carries at most 15 passengers. (c) Explain the difference between x > 5 and x ≥ 5. **[A]**
+
+2.Solve each of the following, showing every line: (a) x − 5 > 1; (b) 2x − 13 > 29; (c) 5x − 9 > −5; (d) 3x ≤ 8 + x; (e) 2x − 5 ≤ 35 − x. **[A]**
+
+3.(a) State what happens to an inequality when both sides are divided by a negative number, and show with a numerical example why this must be so. (b) Solve 15 < 8 − 2x, showing the reversal. (c) Solve the same inequality a second way, by moving the variable to the side that keeps it positive, and confirm that the answers agree. (d) Solve 9 − 5x < 6. **[A]**
+
+4.(a) Find the solution set of x < 4 over the whole numbers and over the integers, and explain why the two differ. (b) Find the solution set of x + 4 ≤ 3x − 16 over the whole numbers. (c) Show x > 6, x ≤ 4 and −2 < x ≤ 3 on separate number lines. (d) Kwaakye's March profit of GH₵32 was at least GH₵12 less than his February profit; form an inequality and find the least his February profit could have been. **[A]**
+
+<!-- page 89 -->
+
+### Section C — Attitudes, values and process tasks
+
+1.Collect real boundaries: gather six statements from your school or community containing a boundary, write each as an inequality, and state clearly what your letter represents in each case. (Activity 8.1, step 1) **[P]**
+
+2.Judge the boundary: for each of your six inequalities, state whether the boundary value itself is allowed and therefore whether you used a strict or a non-strict symbol, giving a reason. (Activity 8.1, step 2) **[P]**
+
+3.Model with a balance: represent x + 3 ≤ 7 using a sealed bag and counters on a balance, remove three counters from each side, and state what remains and what it tells you about x. (Activity 8.1, step 3) **[P]**
+
+4.Represent on a number line: draw a number line from −10 to 10 on card and represent four of your six inequalities on it, using open and closed circles correctly. (Activity 8.1, step 4) **[P]**
+
+5.Test the reversal rule: write three true inequalities between pairs of numbers, multiply both sides of each by −1, record whether each statement remains true, and state the rule you have discovered. (Activity 8.1, steps 5-6) **[P]**
+
+6.Investigate a double boundary: find a statement having both a minimum and a maximum, write it as a double inequality, show it on your number line and list its solution set over the whole numbers. (Activity 8.1, think about it) **[P]**
+
+<!-- page 90 -->
+
+### Strand 3: Geometry and Measurement
+
+*Strand 3: Geometry and Measurement · Sub-Strand 1: Shapes and Space*
+
+### Chapter 9: Parallel Lines, Triangles and Construction
+
+> **Curriculum alignment**
+>
+> Strand 3: Geometry and Measurement
+>
+> Sub-Strand 1: Shapes and Space
+>
+> Content standard B8.3.1.1
+>
+> Demonstrate understanding and use of the relationship between parallel lines and alternate and corresponding angles and use the sum of angles in a triangle to deduce the angle sum in any polygon
+>
+> B8.3.1.1.1 Draw and determine the values of alternate and corresponding angles
+>
+> B8.3.1.1.2 Determine the values of angles in a triangle using knowledge of the sum of interior angles in a triangle and other properties
+>
+> Content standard B8.3.1.2
+>
+> Demonstrate the ability to perform geometric constructions of the angles (75˚, 105˚, 60˚, 135˚ and 150˚), and construct triangles and find locus of points under given conditions. Any point on line CD is of equal distance from the two fixed points A and B
+>
+> B8.3.1.2.1 Construct and bisect angles of 120˚, 105˚, 135˚ and 150˚
+>
+> B8.3.1.2.2 : Construct scalene triangles, isosceles triangles, equilateral triangles, obtuse- angled triangle, and acute-angled triangles in different orientations under given conditions
+>
+> B8.3.1.2.3 : Construct loci under given conditions including: (i) the locus of sets of points from a fixed point; (ii) the locus of points equidistant from two fixed points; (iii) the locus of points equidistant from two intersecting straight lines, and (iv) the locus of points equidistant from two parallel lines
+
+> **Core competences**
+>
+> Creativity and Innovation
+
+### Learning objectives
+
+By the end of this chapter you can:
+
+- name the angles formed when a transversal crosses two parallel lines
+
+- state and use the alternate, corresponding and co-interior angle facts
+
+- calculate unknown angles in a diagram of parallel lines, giving reasons
+
+- state and use the fact that the interior angles of a triangle sum to 180°
+
+- use the exterior angle property of a triangle
+
+- deduce the formula (n − 2) × 180° for the sum of the interior angles of a polygon
+
+<!-- page 91 -->
+
+- calculate the interior angle of a regular polygon
+
+- construct angles of 60°, 90°, 120°, 30°, 45°, 75°, 105°, 135° and 150° with ruler and compasses
+
+- construct scalene, isosceles, equilateral, acute-angled and obtuse-angled triangles under given conditions
+
+- construct the four standard loci and describe each in words
+
+> **Key words**
+>
+> Parallel lines — lines in the same plane that never meet, however far they are produced.
+>
+> Transversal — a line that cuts across two or more other lines.
+>
+> Alternate angles — a pair of equal angles on opposite sides of a transversal, between the parallel lines.
+>
+> Corresponding angles — a pair of equal angles in matching positions at the two crossings.
+>
+> Co-interior angles — a pair of angles on the same side of the transversal, between the parallels, adding to 180°.
+>
+> Vertically opposite angles — the equal angles opposite each other where two lines cross.
+>
+> Interior angle — an angle inside a polygon at one of its vertices.
+>
+> Exterior angle — the angle between one side of a polygon and the next side produced.
+>
+> Polygon — a closed plane figure bounded by straight sides.
+>
+> Regular polygon — a polygon with all sides equal and all angles equal.
+>
+> Construction — an accurate drawing made with only a ruler and a pair of compasses.
+>
+> Bisect — to cut exactly into two equal parts.
+>
+> Locus — the path traced by a point that moves according to a given rule.
+>
+> Equidistant — the same distance from.
+>
+> Perpendicular bisector — the line that cuts a segment in half at right angles.
+
+> **Engage**
+>
+> Look at the roof trusses of your classroom, the rails of a railway line, the lines ruled on a football pitch, the courses of blocks in a wall. Straight lines that keep the same distance apart, and other lines cutting across them, are everywhere in building. A mason who knows that alternate angles are equal can set out a roof without measuring every angle, and a surveyor who knows what a locus is can mark a boundary that is fair to two landowners. This chapter gives you the rules and the instruments to do both.
+
+### 9.1 Angles made by a transversal
+
+Two lines are **parallel** if they are always the same distance apart. On a diagram this is shown by matching arrowheads on the two lines. A line that cuts across them is called a **transversal**, and it creates eight angles — four at each crossing.
+
+<!-- page 92 -->
+
+![Figure 9.1 Angles formed by a transversal cutting two parallel lines.](images/maths-b8-print-ready-p092-fig15.png)
+
+Three angle facts do almost all the work. Each has a name, and in an examination the **name is part of the answer**.
+
+*Table 9.1 — The angle facts for parallel lines.*
+
+| **Fact** | **Where the angles are** | **Relationship** |
+| --- | --- | --- |
+| Vertically opposite angles | Opposite each other at one crossing | equal |
+| Corresponding angles | Matching positions at the two equal crossings (an F shape) |  |
+| Alternate angles | Opposite sides of the transversal, between the parallels (a Z shape) | equal |
+| Co-interior angles | Same side of the transversal, between the parallels (a C or U shape) | add up to 180° |
+| Angles on a straight line | Next to each other at one crossing | add up to 180° |
+
+> **Exam tip 9.1**
+>
+> The letters F, Z and C are a memory aid only. Never write 'F angles' as your reason — write 'corresponding angles', 'alternate angles' or 'co-interior angles'. Marks are given for the correct name, not for the shape you saw.
+
+<!-- page 93 -->
+
+> **Worked example 1 — finding all eight angles**
+>
+> In Figure 9.1 the angle marked 2 is 68°. Find the other seven angles, giving a reason for each.
+>
+> ∠
+>
+> 1 = 180° − 68° = **112°** (angles on a straight line)
+>
+> ∠
+>
+> 3 = **112°** (vertically opposite ∠1)
+>
+> ∠
+>
+> 4 = **68°** (vertically opposite ∠2)
+>
+> ∠
+>
+> 6 = **68°** (corresponding to ∠2)
+>
+> ∠
+>
+> 5 = **112°** (angles on a straight line with ∠6)
+>
+> ∠
+>
+> 7 = **112°** (vertically opposite ∠5)
+>
+> ∠
+>
+> 8 = **68°** (vertically opposite ∠6)
+>
+> Notice that only two different sizes appear, 68° and 112°, and that they add to 180°. This is always true.
+
+> **Worked example 2 — a chain of reasons**
+>
+> In a diagram, a transversal cuts two parallel lines. One angle is a = 115°, and b, c and d are the angles at the second crossing. Find b, c and d.
+>
+> b = **115°** (corresponding angles are equal) c = 180° − 115° = **65°** (co-interior angles add up to 180°) d = **65°** (vertically opposite c)
+>
+> Check: b + c = 115° + 65° = 180° ✓ — the two angles at a point on a straight line.
+
+> **Common misconception 9.1**
+>
+> The equal-angle facts hold **only** when the lines are parallel. If a diagram has no arrowheads and the question does not say the lines are parallel, you may not assume it. Equally, do not decide from the picture that two angles look equal — say which rule makes them equal.
+
+> **Practice 9.1**
+>
+> 1. Name the angle fact used in each case: (a) angles in an F shape (b) angles in a Z shape (c) angles in a C shape between parallels
+>
+> 2. A transversal cuts two parallel lines and one angle is 68°. Write down the sizes of all eight angles.
+>
+> 3. A transversal cuts two parallel lines. Find a, b, c and d if one angle is 115°, giving a reason for each.
+>
+> 4. Two co-interior angles are (2x)° and (3x + 20)°. Find x.
+>
+> 5. Explain why the eight angles at a transversal can only ever have two different sizes.
+
+<!-- page 94 -->
+
+### 9.2 Angles in a triangle
+
+### 9.2.1 The angle sum of a triangle
+
+The interior angles of any triangle add up to **180°**. The parallel-line facts prove it. Draw a triangle, then draw a line through one vertex parallel to the opposite side.
+
+![Figure 9.2 Proving that the angles of a triangle add up to 180°.](images/maths-b8-print-ready-p094-fig16.png)
+
+The two outer angles at the apex equal the two base angles, because they are **alternate angles**. The three angles at the apex lie on a straight line, so they add up to 180°. Therefore the three angles of the triangle add up to 180°.
+
+A second fact follows at once. If one side of a triangle is produced, the **exterior angle** formed equals the sum of the two interior opposite angles.
+
+> **Worked example 3 — finding angles in a triangle**
+>
+> In a triangle the angles are y, 2y and 3y. Find y and the three angles.
+>
+> y + 2y + 3y = 180° (angle sum of a triangle)
+>
+> 6y = 180°
+>
+> y = **30°**
+>
+> The angles are **30°, 60° and 90°** — a right-angled triangle.
+>
+> Check: 30 + 60 + 90 = 180 ✓
+
+> **Worked example 4 — the exterior angle**
+>
+> A triangle has interior angles of 52° and 61°. One side is produced to form an exterior angle x.
+>
+> Method 1, using the exterior angle property:
+>
+> x = 52° + 61° = **113°**
+
+<!-- page 95 -->
+
+> Method 2, the long way:
+>
+> third interior angle = 180° − 52° − 61° = 67° x = 180° − 67° = **113°** (angles on a straight line)
+>
+> Both give the same answer, which is why the exterior angle property is worth remembering.
+
+### 9.2.2 The angle sum of a polygon
+
+A **polygon** is a closed figure with straight sides. To find the sum of its interior angles, choose one vertex and join it to every other vertex that is not next to it. The polygon splits into triangles.
+
+![Figure 9.3 Splitting polygons into triangles from one vertex.](images/maths-b8-print-ready-p095-fig17.png)
+
+*Table 9.2 — Deducing the angle sum of a polygon.*
+
+| **Polygon** | **Number of sides n** | **Number of triangles** | **Sum of interior angles** |
+| --- | --- | --- | --- |
+| Triangle | 3 | 1 | 1 × 180° = 180° |
+| Quadrilateral | 4 | 2 | 2 × 180° = 360° |
+| Pentagon | 5 | 3 | 3 × 180° = 540° |
+| Hexagon | 6 | 4 | 4 × 180° = 720° |
+| Heptagon | 7 | 5 | 5 × 180° = 900° |
+| n-gon | n | n − 2 | (n − 2) × 180° |
+
+The pattern in the third column is clear: the number of triangles is always **two fewer** than the number of sides. This gives the formula.
+
+**sum of interior angles = (n − 2) × 180°**
+
+If the polygon is **regular**, all its interior angles are equal, so each one is the sum divided by n.
+
+<!-- page 96 -->
+
+**each interior angle of a regular polygon = (n − 2) × 180° ÷ n**
+
+> **Worked example 5 — an angle of a regular hexagon**
+>
+> Find the size of one interior angle of a regular hexagon.
+>
+> n = 6 sum = (6 − 2) × 180° = 4 × 180° = 720° each angle = 720° ÷ 6 = **120°**
+>
+> This is why regular hexagons tile a floor with no gaps: three of them meet at a point, and 3 × 120° = 360°.
+
+> **Worked example 6 — using the formula to find x**
+>
+> The interior angles of a hexagon are 100°, 130°, 145°, 110°, x and x. Find x.
+>
+> sum of interior angles = (6 − 2) × 180° = 720°
+>
+> 100 + 130 + 145 + 110 + x + x = 720
+>
+> 485 + 2x = 720
+>
+> 2x = 235
+>
+> x = **117.5°**
+>
+> Check: 100 + 130 + 145 + 110 + 117.5 + 117.5 = 720 ✓
+
+> **Common misconception 9.2**
+>
+> In (n − 2) × 180°, subtract **before** you multiply. A common error is to work out n × 180° and then subtract 2, or to subtract 360°. For a pentagon the sum is (5 − 2) × 180° = 540°, not 900° − 2 and not 540 − 360.
+
+> **Practice 9.2**
+>
+> 1. Find y if the angles of a triangle are y, 2y and 3y.
+>
+> 2. A triangle has angles 52° and 61°. Find (a) the third angle (b) the exterior angle at the third vertex.
+>
+> 3. Copy and complete a table of n, number of triangles and angle sum for n = 3 to 8, then state the formula.
+>
+> 4. Find the size of one interior angle of (a) a regular hexagon (b) a regular octagon (c) a regular decagon.
+>
+> 5. The interior angles of a hexagon are 100°, 130°, 145°, 110°, x and x. Find x.
+
+### 9.3 Constructions with ruler and compasses
+
+A **construction** is an accurate drawing made with only two instruments: a straight edge and a pair of compasses. A protractor may be used to **check** the result, but never to make it. Always leave
+
+<!-- page 97 -->
+
+your arcs showing — they are the evidence that you constructed rather than measured, and marks are awarded for them.
+
+### 9.3.1 The two basic constructions
+
+Everything in this section is built from two skills.
+
+- **A 60° angle.** With centre at the vertex, draw an arc cutting the base line. With the same radius and centre at that cutting point, draw a second arc to cross the first. Join the vertex to the crossing point.
+
+- **Bisecting an angle.** With centre at the vertex, draw an arc cutting both arms. From each cutting point, and with the same radius, draw arcs that cross. Join the vertex to that crossing.
+
+From these two, every angle in the syllabus can be reached.
+
+*Table 9.3 — Building every required angle from 60° and bisection.*
+
+| **Angle** | **How it is reached** |
+| --- | --- |
+| 60° | the basic construction |
+| 120° | two 60° arcs stepped along the same arc, one after the other |
+| 30° | bisect 60° |
+| 90° | bisect the 180° straight angle, or step 60° then bisect the remaining 60° |
+| 45° | bisect 90° |
+| 150° | construct 120°, then add a further 30° by bisecting the next 60° step |
+| 135° | construct 90° and 180°, then bisect the 90° between them |
+| 105° | bisect the 30° between 90° and 120° |
+| 75° | bisect the 30° between 60° and 90° |
+
+<!-- page 98 -->
+
+![Figure 9.4 Constructing 120° and 150° with ruler and compasses.](images/maths-b8-print-ready-p098-fig18.png)
+
+> **Worked example 7 — constructing an angle of 120°**
+>
+> Construct ∠ABC = 120°, using only a ruler and a pair of compasses.
+>
+> 1. Draw a base line and mark B on it, with C to the right of B.
+>
+> 2. With centre B and any convenient radius, draw a semicircle cutting BC at Q.
+>
+> 3. With centre Q and the **same** radius, draw an arc cutting the semicircle at P. (∠PBQ is 60°.)
+>
+> 4. With centre P and the same radius again, draw an arc cutting the semicircle at R.
+>
+> 5. Join BR and produce it. Then **∠ABC = 120°**, where A is a point on BR.
+>
+> Why it works: each step of the compass, being the same length as the radius, cuts off an arc of 60°. Two steps give 60° + 60° = 120°.
+>
+> Check with a protractor: it should read 120°.
+
+> **Worked example 8 — constructing an angle of 150°**
+>
+> Construct an angle of 150° and confirm it with a protractor.
+>
+> 1. Construct 120° as in Worked example 7, giving points Q, P and R on the semicircle.
+>
+> 2. With centre R and the same radius, draw a further arc cutting the semicircle at S. (∠SBQ is 180°, the straight line.)
+>
+> 3. Bisect ∠SBR: with centres R and S in turn and a radius greater than half of RS, draw two arcs crossing at T.
+>
+> 4. Join BT. Then **∠TBQ = 120° + 30° = 150°**.
+>
+> Check with a protractor: it should read 150°.
+
+<!-- page 99 -->
+
+### 9.3.2 Constructing triangles
+
+A triangle can be constructed exactly when enough of its measurements are given. Three cases matter.
+
+*Table 9.4 — Constructing a triangle from given conditions.*
+
+| **Given** | **Name** | **Method** |
+| --- | --- | --- |
+| Three sides | SSS | draw one side, then swing arcs of the other two lengths from its ends |
+| Two sides and the angle between | SAS | draw one side, construct the angle at one end, mark off the second side |
+| Two angles and the side between | ASA | draw the side, construct an angle at each end, produce until they meet |
+
+> **Worked example 9 — constructing an equilateral triangle**
+>
+> Construct an equilateral triangle VJN of side 6.2 cm, and justify why it is equilateral.
+>
+> 1. Draw VJ = 6.2 cm with a ruler.
+>
+> 2. With centre V and radius 6.2 cm, draw an arc above VJ.
+>
+> 3. With centre J and the **same** radius 6.2 cm, draw an arc crossing the first at N.
+>
+> 4. Join VN and JN.
+>
+> Justification: N was found as the crossing of two arcs both of radius 6.2 cm, so VN = 6.2 cm and JN = 6.2 cm. Since VJ = 6.2 cm as well, all three sides are equal, and the triangle is **equilateral**.
+>
+> It follows that each angle is 180° ÷ 3 = 60°. Measure with a protractor to confirm.
+
+> **Worked example 10 — an isosceles triangle from given conditions**
+>
+> Construct triangle ABC in which AB = 7 cm, ∠BAC = 30° and AC = 7 cm. State its type.
+>
+> 1. Draw AB = 7 cm.
+>
+> 2. At A, construct 60° and bisect it to obtain 30°.
+>
+> 3. Along the 30° arm, mark off AC = 7 cm with the compasses.
+>
+> 4. Join BC.
+>
+> Since AB = AC, the triangle is **isosceles**. The two base angles are equal, and each is (180° − 30°) ÷ 2 = 75°. Because every angle is less than 90°, it is also an **acute-angled** triangle.
+
+> **Exam tip 9.2**
+>
+> Never rub out your construction arcs. An accurate finished triangle with no arcs showing looks measured, not constructed, and loses marks. Draw arcs lightly but leave them all.
+
+<!-- page 100 -->
+
+### 9.4 Loci
+
+A **locus** (plural **loci**) is the path traced by a point that moves according to a fixed rule. Four loci are needed at this level, and each turns out to be something you can already construct.
+
+*Table 9.5 — The four standard loci.*
+
+| **The rule the point obeys** | **The locus** |
+| --- | --- |
+| always the same distance r from a fixed point O | a circle of centre O and radius r |
+| equidistant from two fixed points A and B | the perpendicular bisector of AB |
+| equidistant from two intersecting straight linesthe pair of bisectors of the angles between | them |
+| equidistant from two parallel lines | a line parallel to both, midway between them |
+
+![Figure 9.5 The four standard loci.](images/maths-b8-print-ready-p100-fig19.png)
+
+> **Worked example 11 — the locus from a fixed point**
+>
+> Describe and construct the locus of a point P which moves so that its distance from a fixed point O is always 4 cm.
+>
+> Every position of P is 4 cm from O. Set the compasses to 4 cm, place the point at O, and turn.
+>
+> The locus is a **circle of centre O and radius 4 cm**.
+>
+> This is exactly what a pair of compasses does, and it is why a circle can be defined as the locus of points at a fixed distance from a fixed point.
+
+> **Worked example 12 — equidistant from two points**
+>
+> Two boreholes A and B are 8 m apart. A tap is to be fixed so that it is the same distance from
+
+<!-- page 101 -->
+
+> each. Describe and construct the locus of possible positions.
+>
+> 1. Draw AB = 8 cm to a scale of 1 cm to 1 m.
+>
+> 2. With centre A and a radius greater than half of AB, draw arcs above and below AB.
+>
+> 3. With centre B and the **same** radius, draw arcs crossing the first two at C and D.
+>
+> 4. Join CD.
+>
+> CD is the **perpendicular bisector of AB**, and any point on CD is of equal distance from A and B.
+>
+> The tap may be fixed anywhere along it.
+>
+> Check: choose any point on CD, measure to A and to B, and the two distances should agree.
+
+> **Common misconception 9.3**
+>
+> A locus is usually not a single point. The perpendicular bisector of AB contains the midpoint of AB, but it contains infinitely many other points too, and every one of them is equidistant from A and B. Give the whole path as your answer, and describe it in words as well as drawing it.
+
+> **Practice 9.3**
+>
+> 1. Construct, with ruler and compasses only, an angle of (a) 60° (b) 120° (c) 150°, and confirm each with a protractor.
+>
+> 2. Construct an angle of 105° and one of 135°, showing all arcs.
+>
+> 3. Construct an equilateral triangle of side 6.2 cm and justify why it is equilateral.
+>
+> 4. Construct triangle PQR with PQ = 8 cm, QR = 6 cm and PR = 5 cm, and state its type.
+>
+> 5. Draw two points A and B 7 cm apart and construct the locus of points equidistant from them.
+
+> **Activity 9.1 — Angles, constructions and paths**
+>
+> You need: a pair of compasses, a ruler, a protractor, a sharp pencil, plain paper, card, string, two pegs or stones, chalk.
+>
+> What to do:
+>
+> 1. Draw two parallel lines and a transversal. Measure all eight angles with a protractor and record them in a table. State what you notice about the number of different sizes, and name the fact linking each equal pair.
+>
+> 2. Cut out a paper triangle of any shape. Tear off its three corners and fit them together along a straight edge. Record what you find and explain how it demonstrates the angle sum.
+>
+> 3. Draw a quadrilateral, a pentagon, a hexagon and a heptagon. In each, join one vertex to all non-adjacent vertices, count the triangles, and enter n and the triangle count in a table. State the pattern and write the formula it gives.
+>
+> 4. Using only a ruler and a pair of compasses, construct angles of 60°, 120°, 150°, 105° and 135°.
+>
+> Check each with a protractor and record the reading beside it. Leave all arcs showing.
+>
+> 5. Construct an equilateral triangle of side 6.2 cm, an isosceles triangle and a scalene triangle.
+>
+> Measure the angles of each and record them, then classify each triangle by both sides and
+
+<!-- page 102 -->
+
+> angles.
+>
+> 6. On the school field, drive in two pegs 6 m apart. Using string, mark with chalk ten points that are the same distance from both pegs. Describe the shape formed and name the locus.
+>
+> Record: your table of eight angles with reasons, the torn-corner result, the polygon table with the formula, your five constructions with protractor readings, your three triangles with classifications, and a sketch and description of the field locus.
+>
+> Think about it: in step 6, would the chalk marks still form a straight line if the two pegs were moved further apart? Test it and explain what changes and what stays the same.
+
+> **Apply it — Siting a water tank**
+>
+> A village has two boreholes, A and B, which are 60 m apart, and a straight main road that passes 40 m from A. A water tank is to be built. (a) Using a scale of 1 cm to 10 m, draw a plan showing A, B and the road. (b) Construct the locus of points equidistant from A and B. (c) Construct the locus of points 30 m from A. (d) Mark clearly the position or positions satisfying both conditions in (b) and (c). (e) State how many such positions there are and explain why. (f) The elders add that the tank must also be at least 20 m from the road; state whether your positions still qualify, and give a reason.
+
+### Chapter summary
+
+- Parallel lines are always the same distance apart; a transversal is a line that cuts across them.
+
+- Corresponding angles are equal, alternate angles are equal, and co-interior angles add up to 180°.
+
+- The angle facts for parallel lines hold only when the lines are truly parallel, and the name of the fact is part of the answer.
+
+- The interior angles of any triangle add up to 180°, which the alternate angle fact proves.
+
+- An exterior angle of a triangle equals the sum of the two interior opposite angles.
+
+- A polygon of n sides splits into n − 2 triangles from one vertex, so its angle sum is (n − 2) × 180°.
+
+- Each interior angle of a regular polygon of n sides is (n − 2) × 180° ÷ n; for a regular hexagon this is 120°.
+
+- A construction uses only a ruler and a pair of compasses; a protractor may check the work but never make it.
+
+- Every required angle is built from the basic 60° construction and repeated bisection, and all arcs must be left showing.
+
+- A locus is the path of a point obeying a rule: a circle from a fixed point, the perpendicular bisector between two points, the angle bisectors between two intersecting lines, and the midway parallel between two parallel lines.
+
+<!-- page 103 -->
+
+### Assessment
+
+> **How this assessment is balanced**
+>
+> Weighted to the NaCCA Mathematics profile dimensions — Knowledge and Understanding 30%, Application of Knowledge 40%, Attitudes, Values and Process Skills 30%. This chapter carries 20 items: 6 tagged [K], 8 tagged [A] and 6 tagged [P].
+>
+> Indicators assessed: B8.3.1.1.1; B8.3.1.1.2; B8.3.1.2.1; B8.3.1.2.2; B8.3.1.2.3
+
+### Section A — Objective
+
+1.A line that cuts across two parallel lines is called a… A. bisector B. transversal C. locus D. diagonal **[K]**
+
+2.Angles on opposite sides of a transversal and between the parallel lines are… A. corresponding B. co-interior C. alternate D. vertically opposite **[K]**
+
+3.Co-interior angles between two parallel lines add up to… A. 90° B. 180° C. 270° D. 360° **[K]** 4.The sum of the interior angles of a polygon with n sides is… A. n × 180° B. (n − 2) × 180° C. (n + 2) × 180° D. 360° ÷ n **[K]**
+
+5.The path traced by a point moving according to a given rule is called a… A. locus B. transversal C. bisector D. tangent **[K]**
+
+6.The locus of points equidistant from two fixed points A and B is the… A. circle through A and B B. line AB C. perpendicular bisector of AB D. bisector of angle AB **[K]**
+
+7.A transversal cuts two parallel lines and one angle is 68°. The angle corresponding to it is… A. 22° B. 68° C. 112° D. 122° **[A]**
+
+8.The angles of a triangle are y, 2y and 3y. The value of y is… A. 20° B. 30° C. 45° D. 60° **[A]** 9.The sum of the interior angles of a hexagon is… A. 360° B. 540° C. 720° D. 900° **[A]**
+
+10. One interior angle of a regular hexagon is… A. 60° B. 108° C. 120° D. 135° **[A]**
+
+### Section B — Theory and application
+
+1.(a) Name the four angle facts used when a transversal cuts two parallel lines, and state the relationship in each. (b) A transversal cuts two parallel lines and one of the angles is 68°; write down the sizes of all eight angles, giving a reason for each. (c) Two co-interior angles are (2x)° and (3x + 20)°; find x. **[A]**
+
+2.(a) Show, using the alternate angle fact and a line drawn through one vertex parallel to the opposite side, that the interior angles of a triangle add up to 180°. (b) The angles of a triangle are y, 2y and 3y; find y and state the three angles. (c) A triangle has interior angles of 52° and 61°; find the exterior angle at the third vertex by two different methods. **[A]**
+
+3.(a) Copy and complete a table showing, for n = 3 to 8, the number of triangles formed by joining one vertex to all non-adjacent vertices and the resulting angle sum. (b) Deduce the formula for the sum of the interior angles of a polygon of n sides. (c) Use your formula to find one interior angle of a regular hexagon. (d) The interior angles of a hexagon are 100°, 130°, 145°, 110°, x and x; find x. **[A]**
+
+<!-- page 104 -->
+
+4.Using a ruler and a pair of compasses only, (a) construct an angle of 120° and confirm it with a protractor; (b) construct an angle of 150°; (c) construct an equilateral triangle of side 6.2 cm and justify why it is equilateral; (d) mark two points A and B 7 cm apart and construct the locus of points equidistant from them, stating the name of the locus. Leave all construction arcs showing. **[A]**
+
+### Section C — Attitudes, values and process tasks
+
+1.Measure and classify: draw two parallel lines and a transversal, measure all eight angles with a protractor, record them in a table, and name the fact linking each equal pair. (Activity 9.1, step 1) **[P]**
+
+2.Demonstrate the angle sum: tear the three corners from a paper triangle, fit them along a straight edge, and explain how the result demonstrates the angle sum of a triangle. (Activity 9.1, step 2) **[P]**
+
+3.Deduce a formula: split a quadrilateral, pentagon, hexagon and heptagon into triangles from one vertex, tabulate n against the triangle count, state the pattern and write the formula it gives. (Activity 9.1, step 3) **[P]**
+
+4.Construct with accuracy: using only a ruler and a pair of compasses, construct angles of 60°, 120°, 150°, 105° and 135°, check each with a protractor, record the reading and leave all arcs showing. (Activity 9.1, step 4) **[P]**
+
+5.Construct and classify triangles: construct an equilateral triangle of side 6.2 cm, an isosceles triangle and a scalene triangle, measure the angles of each and classify each by both sides and angles. (Activity 9.1, step 5) **[P]**
+
+6.Trace a locus in the field: using two pegs 6 m apart and a length of string, mark ten points equidistant from both pegs, describe the shape formed, name the locus, and test whether it stays a straight line when the pegs are moved further apart. (Activity 9.1, step 6 and think about it) **[P]**
+
+<!-- page 105 -->
+
+*Strand 3: Geometry and Measurement · Sub-Strand 2: Measurement*
+
+### Chapter 10: Pythagoras, Trigonometry, Area of a Circle and Vectors
+
+> **Curriculum alignment**
+>
+> Strand 3: Geometry and Measurement
+>
+> Sub-Strand 2: Measurement
+>
+> Content standard B8.3.2.1
+>
+> Apply the Pythagoras theorem, the primary trigonometric ratios and the formulas for determining the area of a circle to solve real problems. ii. Write two trig ratios of the angle marked θ in the diagram below:
+>
+> B8.3.2.1.1 Use the relationship between the diameter and circumference of a circle to deduce the formula for finding its area, and use this to solve problems
+>
+> B8.3.2.1.2 Establish the relationship between the hypotenuse ‘c’ and the two other sides ‘a’ and ‘b’ of a right-angled triangle (i.e. a2 + 2 2 b = c ) and use it to solve problems
+>
+> B8.3.2.1.3 Use the Pythagorean theorem to solve problems on right- angled triangle
+>
+> B8.3.2.1.4 Use the Pythagoras theorem to calculate the area of a triangle in real life problems
+>
+> B8.3.2.1.5 Establish the relationship between the basic trigonometric ratios and solve problems involving right-angled triangles
+>
+> Content standard B8.3.2.2
+>
+> Demonstrate understanding of addition and subtraction of vectors and their applications in solving basic problems
+>
+> B8.3.2.2.1 Add, subtract and find the scalar multiplication of vectors in the component form
+>
+> B8.3.2.2.2 Demonstrate understanding of vector equality
+
+> **Core competences**
+>
+> Critical Thinking and Problem Solving
+>
+> Personal Development and Leadership
+
+### Learning objectives
+
+By the end of this chapter you can:
+
+- deduce the formula for the area of a circle by rearranging its sectors
+
+- calculate the area of a circle, a semicircle and a ring
+
+- state Pythagoras' theorem and demonstrate it using squares on the sides
+
+- use Pythagoras' theorem to find the hypotenuse of a right-angled triangle
+
+- use Pythagoras' theorem to find a shorter side of a right-angled triangle
+
+- solve real problems involving ladders, journeys and picture frames using Pythagoras' theorem
+
+<!-- page 106 -->
+
+- use Pythagoras' theorem to find the height and hence the area of a triangle
+
+- identify the hypotenuse, opposite and adjacent sides for a given angle
+
+- write down the sine, cosine and tangent of an angle in a right-angled triangle use a given sine, cosine or tangent ratio to find a missing side in a right-angled triangle
+
+- add, subtract and scalar-multiply vectors in component form, and apply the condition for equal vectors
+
+> **Key words**
+>
+> Circumference — the distance round a circle.
+>
+> Radius — the distance from the centre of a circle to its edge.
+>
+> Sector — a slice of a circle bounded by two radii and an arc.
+>
+> Semicircle — half a circle.
+>
+> Annulus — the ring between two circles having the same centre.
+>
+> Right-angled triangle — a triangle containing an angle of 90°.
+>
+> Hypotenuse — the longest side of a right-angled triangle, opposite the right angle.
+>
+> Pythagoras' theorem — in a right-angled triangle, a² + b² = c².
+>
+> Opposite side — the side facing the angle being used.
+>
+> Adjacent side — the side next to the angle that is not the hypotenuse.
+>
+> Sine, cosine, tangent — the three primary trigonometric ratios.
+>
+> Vector — a quantity having both magnitude and direction.
+>
+> Component form — a vector written as an ordered pair (x, y), giving its horizontal and vertical steps.
+>
+> Scalar — an ordinary number, having magnitude but no direction.
+>
+> Magnitude — the length of a vector.
+
+> **Engage**
+>
+> A carpenter checks that a door frame is square by measuring 3 units along one edge, 4 along the other, and confirming that the diagonal is exactly 5. A fisherman who paddles south and then east knows he is nearer home than the two distances added. A surveyor finds the height of a mast without climbing it. All three are using the same handful of relationships between the sides and angles of a right-angled triangle — the most useful shape in mathematics. This chapter also measures the roundest shape, the circle, and introduces vectors, the way mathematics writes down a journey.
+
+### 10.1 The area of a circle
+
+You already know that the circumference of a circle is C = 2πr, and that π is a little more than 3. The area needs a new idea, and it comes from cutting the circle up.
+
+Cut a circle into a large number of equal **sectors** — sixteen at least — and lay them out alternately, point up and point down. The shape that results is very nearly a rectangle. The more sectors you use, the nearer it comes.
+
+<!-- page 107 -->
+
+![Figure 10.1 Rearranging the sectors of a circle to form a rectangle.](images/maths-b8-print-ready-p107-fig20.png)
+
+The **width** of this near-rectangle is the radius r. Its **length** is made of half the arcs pointing up and half pointing down, so it is half the circumference, that is πr. Therefore
+
+**area = length × width = πr × r = πr²**
+
+**A = πr²**
+
+In this book π is taken as 22/7 when the radius is a multiple of 7, and as 3.14 otherwise. Always use the value the question tells you to use.
+
+> **Worked example 1 — area of a circle**
+>
+> Find the area of a circle of radius 14 cm. Take π = 22/7.
+>
+> A = πr²
+>
+> = 22/7 × 14 × 14
+>
+> = 22 × 2 × 14 (since 14 ÷ 7 = 2)
+>
+> = **616 cm²**
+
+> **Worked example 2 — a semicircle**
+>
+> Find the area of a semicircle of radius 7 cm. Take π = 22/7.
+>
+> area of the whole circle = 22/7 × 7 × 7 = 154 cm² area of the semicircle = 154 ÷ 2 = **77 cm²**
+
+> **Worked example 3 — a ring between two circles**
+>
+> Two circles have the same centre. The small one has radius 7 cm and the large one radius 14 cm.
+>
+> Find the area of the shaded ring between them. Take π = 22/7.
+
+<!-- page 108 -->
+
+> area of large circle = 22/7 × 14 × 14 = 616 cm² area of small circle = 22/7 × 7 × 7 = 154 cm² shaded area = 616 − 154 = **462 cm²**
+>
+> Notice that doubling the radius made the area four times as large, not twice, because the radius is squared.
+
+> **Common misconception 10.1**
+>
+> πr² means π × r × r, not (πr)². Square the radius first, then multiply by π. With r = 14, πr² = 22/7 × 196 = 616, whereas (πr)² would be 44² = 1936, which is quite wrong.
+
+> **Practice 10.1**
+>
+> 1. Find the area of a circle of radius 14 cm, taking π = 22/7.
+>
+> 2. Find the area of a semicircle of radius 7 cm, taking π = 22/7.
+>
+> 3. Two circles share a centre; their radii are 7 cm and 14 cm. Find the area between them.
+>
+> 4. A circular garden has diameter 20 m. Find its area, taking π = 3.14.
+>
+> 5. Explain, using the sector rearrangement, why the area of a circle is πr².
+
+### 10.2 Pythagoras' theorem
+
+In a right-angled triangle, the side opposite the right angle is the longest and is called the **hypotenuse**. Pythagoras' theorem links it to the other two sides.
+
+**a² + b² = c², where c is the hypotenuse**
+
+### 10.2.1 Seeing why it is true
+
+Draw a right-angled triangle on squared paper with sides 3 and 4 units, and construct a square on each of its three sides. Count the small squares.
+
+<!-- page 109 -->
+
+![Figure 10.2 Squares constructed on the three sides of a right-angled triangle.](images/maths-b8-print-ready-p109-fig21.png)
+
+*Table 10.1 — Counting the squares on the sides of a 3-4-5 triangle.*
+
+| **Square on** | **Side length** | **Area (unit squares)** |
+| --- | --- | --- |
+| the shorter side | 3 | 9 |
+| the other shorter side | 4 | 16 |
+| the hypotenuse | 5 | 25 |
+
+The two smaller areas together make the largest: 9 + 16 = 25. This is Pythagoras' theorem. It holds for **every** right-angled triangle, and for no other kind.
+
+### 10.2.2 Finding the hypotenuse
+
+> **Worked example 4 — finding the hypotenuse**
+>
+> A ladder leans against a vertical wall. It reaches 13 m up the wall, and its foot is 6 m from the wall. Find the length of the ladder.
+>
+> The wall, the ground and the ladder form a right-angled triangle, with the ladder as the hypotenuse.
+>
+> c² = a² + b² c² = 13² + 6² c² = 169 + 36 c² = 205 c = √205 ≈ **14.3 m** (to 1 decimal place)
+>
+> Check that the answer is sensible: the ladder must be longer than 13 m and shorter than 13 + 6 = 19 m ✓
+
+<!-- page 110 -->
+
+> **Worked example 5 — a journey**
+>
+> A boat travels 2 m south and then 9 m east. Find how far it is from its starting point.
+>
+> South and east are at right angles, so the two legs and the direct distance form a right-angled triangle with the direct distance as hypotenuse.
+>
+> d² = 2² + 9² d² = 4 + 81 = 85 d = √85 ≈ **9.2 m** (to 1 decimal place)
+>
+> The boat travelled 11 m altogether but ended up only about 9.2 m from where it started.
+
+### 10.2.3 Finding a shorter side
+
+If the hypotenuse is known and one shorter side is wanted, **subtract** instead of adding. Rearranging a² + b² = c² gives a² = c² − b².
+
+> **Worked example 6 — finding the altitude of an isosceles triangle**
+>
+> An isosceles triangle has two equal sides 6 cm long and a base 4 cm long. Find its altitude.
+>
+> The altitude from the apex meets the base at right angles and cuts it exactly in half, giving two right- angled triangles with hypotenuse 6 cm and base 4 ÷ 2 = 2 cm.
+>
+> h² = 6² − 2² h² = 36 − 4 = 32 h = √32 ≈ **5.7 cm** (to 1 decimal place)
+>
+> Check: the altitude must be shorter than the slant side of 6 cm ✓
+
+> **Common misconception 10.2**
+>
+> Adding when you should subtract is the commonest error in this topic. Ask first: **is the unknown side the hypotenuse?** If it is, add the squares. If it is not, subtract the square of the shorter known side from the square of the hypotenuse. A quick test on your answer: the hypotenuse must come out largest.
+
+> **Practice 10.2**
+>
+> 1. State Pythagoras' theorem and say which side the letter c stands for.
+>
+> 2. A ladder leans against a wall of height 13 m with its foot 6 m from the wall. Find its length.
+>
+> 3. A boat travels 2 m south then 9 m east. Find its distance from the starting point.
+>
+> 4. An isosceles triangle has equal sides of 6 cm and a base of 4 cm. Find its altitude.
+>
+> 5. A right-angled triangle has hypotenuse 25 cm and one side 7 cm. Find the third side.
+
+<!-- page 111 -->
+
+### 10.3 Using Pythagoras to find areas
+
+The area of a triangle is ½ × base × **perpendicular height**. Very often the height is not given, and Pythagoras' theorem is what supplies it.
+
+> **Worked example 7 — an equilateral triangle**
+>
+> The side of an equilateral triangle is 12 cm. Find (i) its height, (ii) its area, (iii) its perimeter.
+>
+> (i) The height splits the triangle into two right-angled triangles with hypotenuse 12 cm and base 6 cm.
+>
+> h² = 12² − 6² = 144 − 36 = 108
+>
+> h = √108 ≈ **10.4 cm** (ii) area = ½ × base × height
+>
+> = ½ × 12 × 10.4
+>
+> = **62.4 cm²** (to 1 decimal place) (iii) perimeter = 12 + 12 + 12 = **36 cm**
+
+> **Worked example 8 — the picture frame**
+>
+> Yeboah hangs a picture frame of width 15 cm on the wall. The wire runs from each top corner to a single nail, and the distance from the nail down to the top edge of the frame is 10 cm. Find (i) the length of wire used, (ii) the area of the triangle the wire makes with the frame.
+>
+> (i) The nail sits above the middle of the top edge, so each half of the wire is the hypotenuse of a right-
+>
+> angled triangle with sides 10 cm and 15 ÷ 2 = 7.5 cm.
+>
+> L² = 10² + 7.5² = 100 + 56.25 = 156.25
+>
+> L = √156.25 = 12.5 cm
+>
+> Both halves together: 2 × 12.5 = **25 cm** of wire.
+>
+> (ii) area = ½ × base × height = ½ × 15 × 10 = **75 cm²**
+
+> **Exam tip 10.1**
+>
+> Keep the exact square-root value in your calculation and round only at the very end. Rounding √108 to 10 before multiplying gives an area of 60 cm² instead of 62.4 cm², and marks are lost for an inaccurate final answer.
+
+### 10.4 The trigonometric ratios
+
+Pythagoras' theorem links the three **sides** of a right-angled triangle. Trigonometry links the sides to the **angles**. Three ratios do this, and each is named after the pair of sides it compares.
+
+First, name the sides **with respect to the angle you are using**, usually written θ (theta).
+
+- The **hypotenuse** is opposite the right angle. It never changes, whichever angle you use.
+
+- The **opposite** side faces θ — it is the side you would walk to if you stepped across from θ.
+
+<!-- page 112 -->
+
+- The **adjacent** side is the remaining side, next to θ.
+
+![Figure 10.3 Naming the sides of a right-angled triangle relative to an angle.](images/maths-b8-print-ready-p112-fig22.png)
+
+Now the three ratios.
+
+**sin θ = opposite ÷ hypotenuse**
+
+**cos θ = adjacent ÷ hypotenuse**
+
+**tan θ = opposite ÷ adjacent**
+
+> **10.4.1 Using a ratio to find a side**
+>
+> A trigonometric ratio can be used in reverse. If the ratio and one side are known, form the equation and solve for the missing side.
+>
+> Using sine to find a side
+>
+> In a right-angled triangle, sin θ = 5/13 and the hypotenuse is 26 cm. Find the opposite side.
+>
+> sin θ = opposite ÷ hypotenuse, so 5/13 = opposite ÷ 26. Therefore opposite = 26 × 5/13 = 10 cm.
+>
+> **Exam tip 10.2**
+>
+> Remember these by the made-up word **SOH-CAH-TOA**: Sine is Opposite over Hypotenuse, Cosine is Adjacent over Hypotenuse, Tangent is Opposite over Adjacent. Write it in the margin before you start the question.
+
+> **Worked example 9 — writing down the ratios**
+>
+> A right-angled triangle has hypotenuse 13 cm, and the sides about the right angle are 5 cm and 12 cm. The angle θ faces the 5 cm side. Write down sin θ, cos θ and tan θ.
+
+<!-- page 113 -->
+
+> First name the sides for θ: opposite = 5 cm, adjacent = 12 cm, hypotenuse = 13 cm.
+>
+> sin θ = 5/13 cos θ = 12/13 tan θ = 5/12
+>
+> Check with Pythagoras: 5² + 12² = 25 + 144 = 169 = 13² ✓ — the triangle is genuinely right- angled.
+
+> **Worked example 10 — the ratios of the other angle**
+>
+> In the same triangle, φ is the angle facing the 12 cm side. Write down sin φ, cos φ and tan φ, and compare them with those of θ.
+>
+> For φ: opposite = 12 cm, adjacent = 5 cm, hypotenuse = 13 cm.
+>
+> sin φ = 12/13, cos φ = 5/13, tan φ = 12/5
+>
+> Comparing: sin φ = cos θ and cos φ = sin θ. The sine of one acute angle equals the cosine of the other, because the two angles add up to 90° and the words 'opposite' and 'adjacent' simply swap over.
+
+> **Common misconception 10.3**
+>
+> The opposite and adjacent sides change places when you change the angle; only the hypotenuse stays fixed. Always mark the angle you are using on your diagram before you label the sides.
+
+> **Practice 10.3**
+>
+> 1. Name the three sides of a right-angled triangle with respect to a marked angle θ.
+>
+> 2. Write down the three trigonometric ratios in words.
+>
+> 3. A right-angled triangle has sides 5 cm, 12 cm and 13 cm. Write down sin θ, cos θ and tan θ for the angle facing the 5 cm side.
+>
+> 4. For the other acute angle in the same triangle, write down the three ratios and state what you notice.
+>
+> 5. In a right-angled triangle, tan θ = 3/4 and the adjacent side is 12 cm. Find the opposite side and the hypotenuse.
+
+### 10.5 Vectors
+
+A **vector** has both a size and a direction. "Five kilometres" is not a vector; "five kilometres east" is. Vectors are written as a column of two numbers: the step across, then the step up.
+
+**a = (3, 2) written as a column: 3 across, 2 up**
+
+In this book a vector is written as the ordered pair (x, y): x is the horizontal step and y is the vertical step. A negative x means a step left, and a negative y means a step down.
+
+<!-- page 114 -->
+
+### 10.5.1 Adding and subtracting vectors
+
+To add two vectors, follow one journey by the other. On a grid, place the tail of the second at the head of the first, and the total is the single arrow from the very start to the very end. In components, simply add the x parts and add the y parts.
+
+![Figure 10.4 Adding two vectors by the triangle method.](images/maths-b8-print-ready-p114-fig23.png)
+
+> **Worked example 11 — adding and subtracting in components**
+>
+> Given p = (−1, 2), q = (4, 3) and r = (3, −2), find (i) 3q − 2p, (ii) r − 3p, (iii) q − p + 2r.
+>
+> (i) 3q = (12, 9) and 2p = (−2, 4)
+>
+> 3q − 2p = (12 − (−2), 9 − 4) = **(14, 5)** (ii) 3p = (−3, 6)
+>
+> r − 3p = (3 − (−3), −2 − 6) = **(6, −8)** (iii) q − p = (4 − (−1), 3 − 2) = (5, 1) and 2r = (6, −4)
+>
+> q − p + 2r = (5 + 6, 1 + (−4)) = **(11, −3)**
+>
+> Work down the x column and the y column separately, and take great care with the double negatives.
+
+Multiplying a vector by an ordinary number, called a **scalar**, multiplies both components. If a = (x, y) then ka = (kx, ky). The direction is unchanged, but the length is k times as great — and if k is negative, the direction is reversed.
+
+### 10.5.2 Equal vectors and magnitude
+
+Two vectors are **equal** when both their components match. This gives a way of forming equations.
+
+> **Worked example 12 — equal vectors**
+
+<!-- page 115 -->
+
+> Given M = (x − y, 1) and N = (2x − 1, x − 2), and M = N, find x and y.
+>
+> Equating the second components: 1 = x − 2, so x = **3**
+>
+> Equating the first components: x − y = 2x − 1
+>
+> Substituting x = 3: 3 − y = 2(3) − 1 = 5
+>
+> −y = 2, so y = **−2**
+>
+> Check: M = (3 − (−2), 1) = (5, 1) and N = (2(3) − 1, 3 − 2) = (5, 1) ✓
+
+The **magnitude** of a vector is its length, and Pythagoras' theorem gives it: the x and y components are the two shorter sides of a right-angled triangle, and the vector itself is the hypotenuse.
+
+**|(x, y)| = √(x² + y²)**
+
+> **Worked example 13 — combining vectors and finding a magnitude**
+>
+> Given a = (3, 5), b = (7, 2) and c = (−3, −4), find |p| where p = a + ½(b − c).
+>
+> b − c = (7 − (−3), 2 − (−4)) = (10, 6) ½(b − c) = (5, 3) p = a + (5, 3) = (3 + 5, 5 + 3) = (8, 8) |p| = √(8² + 8²) = √(64 + 64) = √128 ≈ **11.3** (to 1 decimal place)
+>
+> Pythagoras' theorem, met earlier in this chapter, is exactly what makes this last step possible.
+
+> **Practice 10.4**
+>
+> 1. Explain the difference between a vector and a scalar, giving one example of each.
+>
+> 2. Given p = (−1, 2), q = (4, 3) and r = (3, −2), find (a) 3q − 2p (b) r − 3p (c) q − p + 2r.
+>
+> 3. Given a = (3, 5), b = (7, 2) and c = (−3, −4), find p = a + ½(b − c) and then |p|.
+>
+> 4. If M = N where M = (x − y, 1) and N = (2x − 1, x − 2), find x and y.
+>
+> 5. Draw the vectors (3, 2) and (2, −4) on squared paper and use the triangle method to show their sum.
+
+> **Activity 10.1 — Circles, squares, ratios and journeys**
+>
+> You need: card, scissors, a pair of compasses, a ruler, a protractor, squared paper, a calculator, string, a metre rule or tape measure.
+>
+> What to do:
+>
+> 1. Draw a circle of radius 10 cm on card and divide it into sixteen equal sectors. Cut them out and interlock them alternately to form a near-rectangle. Measure its length and width, calculate its area, and compare this with πr². Record how close the two figures are and explain any difference.
+>
+> 2. On squared paper draw a right-angled triangle with sides 3 and 4 units. Construct a square on each side, count the unit squares in each, and record the three areas. Repeat with a triangle of sides 6 and 8. State the relationship you find.
+
+<!-- page 116 -->
+
+> 3. Using a pair of compasses and a ruler, construct squares on the three sides of a right-angled triangle of your own choosing. Measure each square and compare the area on the hypotenuse with the sum of the other two, recording the small differences and explaining where they come from.
+>
+> 4. Draw three right-angled triangles of different sizes but all having an angle of 30°. In each, measure the three sides and calculate opposite ÷ hypotenuse, adjacent ÷ hypotenuse and opposite ÷ adjacent. Record all nine values in a table and state what you notice.
+>
+> 5. Outside, measure a distance of 9 m east and 2 m south from a fixed point, marking the finish.
+>
+> Predict the straight-line distance back to the start using Pythagoras' theorem, then measure it with the tape and compare.
+>
+> 6. On squared paper, draw the vectors p = (−1, 2), q = (4, 3) and r = (3, −2) from a common origin. Use the triangle method to draw q − p + 2r, then check your drawing against the components you calculate.
+>
+> Record: your sector measurements and comparison, the two square-counting tables, the constructed-square measurements, the table of nine ratios with your observation, the field prediction against the measurement, and the vector drawings with their calculated components.
+>
+> Think about it: in step 4, why did the three ratios stay the same even though the triangles were different sizes? What does this tell you about what the ratios really depend on?
+
+> **Apply it — Fencing a circular pond**
+>
+> A rectangular plot 40 m by 30 m contains a circular pond of radius 7 m. (a) Find the area of the plot. (b) Find the area of the pond, taking π = 22/7. (c) Find the area of grass surrounding the pond. (d) A straight path runs from one corner of the plot to the opposite corner; use Pythagoras' theorem to find its length. (e) A support wire runs from the top of a 9 m pole at the centre of the plot to a peg 12 m away on level ground; find the length of the wire. (f) State one measurement in this question that is a vector and one that is a scalar, giving a reason for each.
+
+### Chapter summary
+
+- Rearranging a circle's sectors into a near-rectangle of length πr and width r shows that its area is πr².
+
+- The area of a semicircle is half πr², and the area of a ring is the difference between two circle areas.
+
+- In πr², the radius is squared first and then multiplied by π.
+
+- The hypotenuse of a right-angled triangle is the longest side and lies opposite the right angle.
+
+- Pythagoras' theorem states that a² + b² = c², which the squares constructed on the three sides demonstrate.
+
+- To find the hypotenuse, add the squares of the other two sides; to find a shorter side, subtract.
+
+<!-- page 117 -->
+
+- Pythagoras' theorem supplies the perpendicular height needed for the area of a triangle, ½ × base × height.
+
+- With respect to a chosen angle, the sides are named hypotenuse, opposite and adjacent; only the hypotenuse is fixed.
+
+- SOH-CAH-TOA: sin θ = opp/hyp, cos θ = adj/hyp, tan θ = opp/adj.
+
+- Vectors in component form are added, subtracted and scalar-multiplied component by component, are equal only when both components match, and have magnitude √(x² + y²).
+
+### Assessment
+
+> **How this assessment is balanced**
+>
+> Weighted to the NaCCA Mathematics profile dimensions — Knowledge and Understanding 30%, Application of Knowledge 40%, Attitudes, Values and Process Skills 30%. This chapter carries 20 items: 6 tagged [K], 8 tagged [A] and 6 tagged [P].
+>
+> Indicators assessed: B8.3.2.1.1; B8.3.2.1.2; B8.3.2.1.3; B8.3.2.1.4; B8.3.2.1.5; B8.3.2.2.1;
+>
+> B8.3.2.2.2
+
+### Section A — Objective
+
+1.The formula for the area of a circle is… A. 2πr B. πr² C. πd D. ½πr² **[K]** 2.The side opposite the right angle in a right-angled triangle is called the… A. adjacent B. opposite C. hypotenuse D. altitude **[K]**
+
+3.Pythagoras' theorem states that… A. a + b = c B. a² + b² = c² C. a² − b² = c² D. a² + b² + c² = 0 **[K]**
+
+4.The ratio opposite ÷ hypotenuse is called the… A. sine B. cosine C. tangent D. gradient **[K]** 5.A quantity having both magnitude and direction is called a… A. scalar B. vector C. constant D. variable **[K]**
+
+6.The magnitude of the vector (x, y) is… A. x + y B. xy C. √(x² + y²) D. x² + y² **[K]** 7.The area of a circle of radius 14 cm, taking π = 22/7, is… A. 88 cm² B. 154 cm² C. 616 cm² D. 1232 cm² **[A]**
+
+8.A boat sails 2 m south then 9 m east. Its distance from the start is… A. 7 m B. √85 m C. 11 m D. √121 m **[A]**
+
+9.In a right-angled triangle the sides are 5 cm, 12 cm and 13 cm. For the angle facing the 5 cm side, tan θ is… A. 5/13 B. 12/13 C. 5/12 D. 13/12 **[A]**
+
+10. If p = (−1, 2) and q = (4, 3), then 3q − 2p is… A. (10, 5) B. (14, 5) C. (14, 13) D. (10, 13) **[A]**
+
+### Section B — Theory and application
+
+1.(a) Explain, with the aid of a sketch, how dividing a circle into sixteen sectors and rearranging them leads to the formula A = πr². (b) Taking π = 22/7, find the area of a circle of radius 14 cm and the area of a semicircle of radius 7 cm. (c) Two circles have a common centre, of radii 7 cm and 14 cm; find the area of the region between them. **[A]**
+
+<!-- page 118 -->
+
+2.(a) State Pythagoras' theorem, naming the side represented by c. (b) A ladder leans against a vertical wall, reaching 13 m up the wall with its foot 6 m from the wall; calculate the length of the ladder, correct to one decimal place. (c) An isosceles triangle has equal sides of 6 cm and a base of 4 cm; find its altitude. (d) A boat travels 2 m south and then 9 m east; find how far it is from its starting point. **[A]**
+
+3.(a) The side of an equilateral triangle is 12 cm. Find (i) its height, (ii) its area, (iii) its perimeter, giving answers to one decimal place where necessary. (b) A picture frame of width 15 cm is hung by a wire from a single nail 10 cm above the top edge; find (i) the length of wire used, (ii) the area of the triangle formed by the wire and the frame. **[A]**
+
+4.(a) Sketch a right-angled triangle, mark an angle θ, and label the hypotenuse, opposite and adjacent sides. (b) A right-angled triangle has sides 5 cm, 12 cm and 13 cm; write down sin θ, cos θ and tan θ for the angle facing the 5 cm side, and verify with Pythagoras' theorem that the triangle is right-angled. (c) Given p = (−1, 2), q = (4, 3) and r = (3, −2), find q − p + 2r. (d) Given M = N, where M = (x − y, 1) and N = (2x − 1, x − 2), find the values of x and y. **[A]**
+
+### Section C — Attitudes, values and process tasks
+
+1.Deduce the area formula: divide a circle of radius 10 cm into sixteen sectors, rearrange them into a near-rectangle, measure and calculate its area, and compare the result with πr², explaining any difference. (Activity 10.1, step 1) **[P]**
+
+2.Count the squares: on squared paper construct squares on the three sides of right-angled triangles with sides 3 and 4, and 6 and 8, count the unit squares in each and state the relationship you find. (Activity 10.1, step 2) **[P]**
+
+3.Construct and measure: using a pair of compasses and a ruler, construct squares on the three sides of a right-angled triangle of your own choosing, compare the area on the hypotenuse with the sum of the other two, and account for the small differences. (Activity 10.1, step 3) **[P]**
+
+4.Investigate the ratios: draw three right-angled triangles of different sizes each containing a 30° angle, calculate the three trigonometric ratios in each, tabulate the nine values, and explain why the ratios stay the same. (Activity 10.1, steps 4 and think about it) **[P]**
+
+5.Predict then measure: mark out 9 m east and 2 m south from a fixed point on the field, predict the straight-line distance back to the start using Pythagoras' theorem, measure it with a tape, and compare the two figures. (Activity 10.1, step 5) **[P]**
+
+6.Draw and check vectors: on squared paper draw p = (−1, 2), q = (4, 3) and r = (3, −2), construct q − p + 2r by the triangle method, and check the drawing against the components you calculate. (Activity 10.1, step 6) **[P]**
+
+<!-- page 119 -->
+
+*Strand 3: Geometry and Measurement · Sub-Strand 3: Position and Transformation*
+
+### Chapter 11: Rotation
+
+> **Curriculum alignment**
+>
+> Strand 3: Geometry and Measurement
+>
+> Sub-Strand 3: Position and Transformation
+>
+> Content standard B8.3.3.1
+>
+> Perform a single transformation (i.e. rotation) on a 2D shape using graph paper (including technology) and describe the properties of the image under the transformation (i.e. congruence)
+>
+> B8.3.3.1.1 Understand rotation and identify real-life situations involving rotation
+>
+> B8.3.3.1.2 Draw rotation image in a coordinate plane and determine the angle of rotation
+>
+> B8.3.3.1.3 Investigate the concept of congruent shapes
+
+> **Core competences**
+>
+> Creativity and Innovation
+>
+> Critical Thinking and Problem Solving
+>
+> Digital Literacy
+
+### Learning objectives
+
+By the end of this chapter you can:
+
+- explain what a rotation is and name its three ingredients
+
+- identify examples of rotation in everyday life
+
+- distinguish between clockwise and anticlockwise turning
+
+- state the rules for rotating a point about the origin through 90°, 180° and 270°
+
+- draw the image of a point under a given rotation on a coordinate plane
+
+- draw the image of a shape under a given rotation on a coordinate plane
+
+- write down the coordinates of object points and their corresponding image points
+
+- determine the angle of rotation from an object, its image and the centre
+
+- explain what congruent shapes are and state their properties
+
+- verify that a shape and its image under rotation are congruent
+
+> **Key words**
+>
+> Transformation — a change in the position, size or orientation of a shape.
+>
+> Rotation — a turning of a shape about a fixed point.
+>
+> Centre of rotation — the fixed point about which the turning takes place.
+>
+> Angle of rotation — the amount of the turn, measured in degrees.
+>
+> Direction of rotation — clockwise or anticlockwise.
+>
+> Clockwise — turning the same way as the hands of a clock.
+
+<!-- page 120 -->
+
+> Anticlockwise — turning the opposite way to the hands of a clock.
+>
+> Object — the original shape before the transformation.
+>
+> Image — the shape after the transformation.
+>
+> Congruent — exactly the same shape and size.
+>
+> Origin — the point (0, 0) where the axes cross.
+>
+> Invariant point — a point that does not move under the transformation.
+
+> **Engage**
+>
+> Watch the blades of a ceiling fan, the hands of a clock, a bicycle wheel, a door swinging on its hinges, a car steering wheel, the opening of a bottle top. Each is turning about a fixed point, and nothing about the turning object changes except where it is facing. Mathematics calls this a **rotation**, and on a coordinate plane it can be written down exactly.
+
+### 11.1 What a rotation is
+
+A **rotation** turns a shape about a fixed point. To describe one completely, three things must be given, and leaving out any of them makes the description useless.
+
+- The **centre of rotation** — the fixed point that the shape turns about. It is the only point that does not move.
+
+- The **angle of rotation** — how far the shape turns, such as 90°, 180° or 270°.
+
+- The **direction** — clockwise or anticlockwise.
+
+One exception is worth noting at once: a rotation of 180° gives the same result whichever way you turn, so the direction need not be stated for a half turn.
+
+### 11.1.1 Rotation in everyday life
+
+*Table 11.1 — Rotation in everyday life.*
+
+| **Everyday example** | **Centre of rotation** | **Typical direction** |
+| --- | --- | --- |
+| The hands of a clock | the centre pin | clockwise |
+| A ceiling fan blade | the motor spindle | either, depending on the fan |
+| A door on its hinges | the hinge | either |
+| A bicycle wheel | the axle | clockwise when moving forward, seen from the right |
+| Opening a bottle top | the neck of the bottle | anticlockwise |
+| A merry-go-round | the central post | either |
+| The steering wheel of a car | the steering column | either |
+
+In every one of these, the turning object stays exactly the same shape and the same size. Only its
+
+- **orientation** — the way it faces — changes. This is the single most important property of a rotation, and the whole of Section 11.4 rests on it.
+
+<!-- page 121 -->
+
+![Figure 11.1 Clockwise and anticlockwise turning.](images/maths-b8-print-ready-p121-fig24.png)
+
+> **Practice 11.1**
+>
+> 1. State the three things needed to describe a rotation completely.
+>
+> 2. Give four examples of rotation from your home, school or community, naming the centre in each case.
+>
+> 3. State the direction of turning needed to (a) open a bottle top (b) move a clock hand forward.
+>
+> 4. Explain why the direction need not be given for a rotation of 180°.
+>
+> 5. State what changes and what stays the same when a shape is rotated.
+
+### 11.2 Rotating a point about the origin
+
+On a coordinate plane the centre of rotation is very often the **origin**, the point (0, 0). Take the point (3, 1) and turn it anticlockwise about the origin, a quarter turn at a time. Plot each position.
+
+<!-- page 122 -->
+
+![Figure 11.2 One point rotated about the origin through 90°, 180° and 270° anticlockwise.](images/maths-b8-print-ready-p122-fig25.png)
+
+*Table 11.2 — The rules for rotation about the origin.*
+
+| **Rotation about the origin** | **Point (3, 1) becomes** | **General rule** |
+| --- | --- | --- |
+| 90° anticlockwise | (−1, 3) | (x, y) → (−y, x) |
+| 180° (either direction) | (−3, −1) | (x, y) → (−x, −y) |
+| 270° anticlockwise | (1, −3) | (x, y) → (y, −x) |
+| 360° | (3, 1) | (x, y) → (x, y) |
+
+Two shortcuts save a great deal of memorising.
+
+- **270° anticlockwise is the same as 90° clockwise**, and 90° anticlockwise is the same as 270° clockwise. A quarter turn one way equals three quarter turns the other.
+
+- **For a quarter turn, swap the coordinates and change one sign.** Which sign changes depends on the direction: anticlockwise changes the sign of the number that moves to the front, clockwise changes the other.
+
+> **Worked example 1 — rotating single points**
+>
+> Rotate each point about the origin as stated.
+>
+> (a) (4, 2) through 90° anticlockwise
+>
+> (x, y) → (−y, x), so (4, 2) → **(−2, 4)** (b) (4, 2) through 180°
+>
+> (x, y) → (−x, −y), so (4, 2) → **(−4, −2)** (c) (4, 2) through 90° clockwise
+>
+> 90° clockwise is 270° anticlockwise: (x, y) → (y, −x), so (4, 2) → **(2, −4)** (d) (−3, 5) through 180°
+
+<!-- page 123 -->
+
+> (x, y) → (−x, −y), so (−3, 5) → **(3, −5)**
+
+> **Exam tip 11.1**
+>
+> If you cannot recall a rule under pressure, plot the point and physically turn your paper through the required angle, keeping the origin fixed under your pencil point. Read off where the point has landed, then turn the paper back. It is slower than the rule, but it is never wrong.
+
+> **Common misconception 11.1**
+>
+> In a rotation of 90°, the two coordinates **swap places** as well as changing sign. Writing (4, 2) → (−4, 2) is a reflection, not a rotation. Always swap first, then decide the signs.
+
+> **Practice 11.2**
+>
+> 1. Write down the rule for rotating a point about the origin through (a) 90° anticlockwise (b) 180° (c) 270° anticlockwise.
+>
+> 2. Rotate (4, 2) about the origin through (a) 90° anticlockwise (b) 180° (c) 90° clockwise.
+>
+> 3. Rotate (−3, 5) about the origin through (a) 180° (b) 270° anticlockwise.
+>
+> 4. Explain why a rotation of 270° anticlockwise gives the same image as one of 90° clockwise.
+>
+> 5. A point is rotated through 360° about the origin. State its image and explain your answer.
+
+### 11.3 Rotating a shape and finding the angle
+
+### 11.3.1 Drawing the image of a shape
+
+A shape is rotated by rotating each of its **vertices** in turn and then joining the images in the same order. Setting the work out in a table keeps it orderly and makes checking easy.
+
+> **Worked example 2 — rotating a triangle**
+>
+> Triangle ABC has vertices A(1, 1), B(4, 1) and C(4, 3). Draw the image of the triangle under a rotation of 90° anticlockwise about the origin, and state the image points.
+>
+> Apply (x, y) → (−y, x) to each vertex:
+>
+> A(1, 1) → A ′(−1, 1)
+>
+> B(4, 1) → B ′(−1, 4)
+>
+> C(4, 3) → C ′(−3, 4)
+>
+> Plot A′ , ′B and C′ and join them in the same order, A ′to B ′to C ′to A ′.
+>
+> **′ ′ ′** lies in the second quadrant, turned a quarter turn from the object.
+>
+> The image triangle **A B C**
+
+> **Worked example 3 — a half turn**
+>
+> The square PQRS has vertices P(2, 1), Q(5, 1), R(5, 4) and S(2, 4). Find its image under a rotation of 180° about the origin.
+
+<!-- page 124 -->
+
+> Apply (x, y) → (−x, −y):
+>
+> P(2, 1) → P′ (−2, −1)
+>
+> Q(5, 1) → Q ′(−5, −1)
+>
+> R(5, 4) → R ′(−5, −4)
+>
+> S(2, 4) → S′ (−2, −4)
+>
+> **′ ′ ′ ′** lies in the third quadrant, diagonally opposite the object through the origin.
+>
+> The image **P Q R S**
+>
+> Every image point is exactly as far from the origin as its object point, but on the other side of it.
+
+![Figure 11.3 A triangle and its image under a 90° anticlockwise rotation about the origin.](images/maths-b8-print-ready-p124-fig26.png)
+
+### 11.3.2 Finding the angle of rotation
+
+Sometimes the object, the image and the centre are given, and the **angle** is what you must find. The method is direct.
+
+- Choose one vertex of the object and identify its matching vertex on the image.
+
+- Join the centre of rotation to each of the two points.
+
+- Measure the angle between those two lines with a protractor, and state the direction of the turn.
+
+> **Worked example 4 — finding the angle**
+>
+> A point A(3, 0) has image A ′(0, 3) under a rotation about the origin. Find the angle and direction of the rotation.
+>
+> OA lies along the positive x-axis and OA ′lies along the positive y-axis.
+>
+> The angle between them is **90°**, and turning from the x-axis to the y-axis is **anticlockwise**.
+>
+> So the rotation is 90° anticlockwise about the origin.
+>
+> Check with the rule: (x, y) → (−y, x) gives (3, 0) → (0, 3) ✓
+
+<!-- page 125 -->
+
+> **Worked example 5 — angle from a pair of triangles**
+>
+> Triangle DEF has vertices D(2, 1), E(5, 1) and F(5, 3). Its image under a rotation about the origin has vertices D ′(−2, −1), E′ (−5, −1) and F′ (−5, −3). Find the angle of rotation.
+>
+> Compare one pair, D(2, 1) and D ′(−2, −1). Both coordinates have changed sign and neither has swapped place, which is the rule (x, y) → (−x, −y).
+>
+> The rotation is therefore **180°**, and no direction need be stated.
+>
+> Confirm with a second pair: F(5, 3) → F ′(−5, −3) ✓ — the same rule works for every vertex, as it must.
+
+> **Practice 11.3**
+>
+> 1. Triangle ABC has vertices A(1, 1), B(4, 1) and C(4, 3). Find the image under a rotation of 90° anticlockwise about the origin, and draw both triangles.
+>
+> 2. Square PQRS has vertices P(2, 1), Q(5, 1), R(5, 4) and S(2, 4). Find its image under a rotation of 180° about the origin.
+>
+> 3. A(3, 0) has image A ′(0, 3) under a rotation about the origin. Find the angle and direction.
+>
+> 4. Triangle DEF with D(2, 1), E(5, 1), F(5, 3) has image D (′−2, −1), E ′(−5, −1), F ′(−5, −3). Find the angle of rotation.
+>
+> 5. Explain why checking a second pair of matching vertices is a useful way to confirm your answer.
+
+### 11.4 Congruence
+
+Two shapes are **congruent** when they are exactly the same shape and exactly the same size. One could be picked up and laid on top of the other, matching perfectly, though it might have to be turned round first.
+
+Congruent shapes have these properties.
+
+- Corresponding **sides** are equal in length.
+
+- Corresponding **angles** are equal in size.
+
+- The **areas** and the **perimeters** are equal.
+
+- The number of sides and the order of the vertices are the same.
+
+A rotation produces an image that is always **congruent** to the object. Nothing is stretched, shrunk or reshaped — the whole figure is simply carried round the centre. Every point stays exactly as far from the centre as it was, so every distance within the shape is preserved.
+
+> **Worked example 6 — verifying congruence**
+>
+> Triangle ABC has vertices A(1, 1), B(4, 1) and C(4, 3), and its image under a 90° anticlockwise rotation about the origin is A (′−1, 1), B ′(−1, 4), C′ (−3, 4). Verify that the two triangles are congruent.
+
+<!-- page 126 -->
+
+> Compare the side lengths.
+>
+> ✓
+>
+> AB: from (1, 1) to (4, 1), length 3 A′ B′ : from (−1, 1) to (−1, 4), length 3
+>
+> ✓
+>
+> BC: from (4, 1) to (4, 3), length 2 B′ C′ : from (−1, 4) to (−3, 4), length 2
+>
+> ✓
+>
+> AC: by Pythagoras, √(3² + 2²) = √13 A ′C ′: √(2² + 3²) = √13
+>
+> All three pairs of corresponding sides are equal, so the triangles are **congruent**.
+>
+> The areas agree too: ½ × 3 × 2 = 3 square units for each.
+
+> **Common misconception 11.2**
+>
+> Congruent does not mean identically placed or identically oriented. Two triangles lying in different quadrants and facing different ways are still congruent, provided their sides and angles match. What has changed is position and orientation, not shape or size.
+
+> **Exam tip 11.2**
+>
+> When a question asks you to \*verify\* congruence, do not simply write 'they look the same'.
+>
+> Calculate at least two or three pairs of corresponding side lengths and show they are equal. That is the evidence the examiner is looking for.
+
+> **Activity 11.1 — Turning shapes**
+>
+> You need: graph paper, tracing paper or a thin plastic sheet, a drawing pin or sharp pencil, a protractor, a ruler, scissors, card.
+>
+> What to do:
+>
+> 1. Walk round your school and find six objects that rotate. For each, record the object, where its centre of rotation is, and the usual direction of turning. State one thing that changes and one thing that stays the same as each turns.
+>
+> 2. On graph paper draw axes from −6 to 6. Plot the point (3, 1). Trace it and the axes on tracing paper, hold the tracing at the origin with a pin, and turn it a quarter turn anticlockwise. Record where the point lands. Repeat for half and three-quarter turns and tabulate the four positions.
+>
+> 3. From your table in step 2, write down a rule in the form (x, y) → (…, …) for each of 90°, 180° and 270° anticlockwise. Test each rule on two further points of your own choosing.
+>
+> 4. Draw triangle ABC with A(1, 1), B(4, 1) and C(4, 3) on graph paper. Using your rules, draw its image under a rotation of 90° anticlockwise about the origin, then under 180°, then under 270° anticlockwise, labelling every image point.
+>
+> 5. Cut your original triangle out of card and lay it over each of the three images in turn, turning it as needed. Record whether it fits each one exactly, and what this tells you.
+>
+> 6. Measure all three sides and all three angles of the object and of one image. Tabulate them side by side and state whether the two triangles are congruent, giving your evidence.
+>
+> Record: your table of six rotating objects, the four positions of the point (3, 1), your three rules with the tests, the four drawn triangles with labelled coordinates, the card-fitting results, and
+
+<!-- page 127 -->
+
+> the table of measured sides and angles with your conclusion.
+>
+> Think about it: in step 4, is there any point on the plane that stayed exactly where it was through all three rotations? Name it and explain why it did not move.
+
+> **Apply it — Designing a floor tile**
+>
+> A tile design is made by rotating a single motif about the centre of a square tile. The motif has vertices at A(1, 1), B(3, 1) and C(3, 2), and the centre of the tile is the origin. (a) Draw the motif on graph paper with axes from −4 to 4. (b) Draw its image under a rotation of 90° anticlockwise about the origin and state the image coordinates. (c) Draw the images under 180° and 270° anticlockwise as well. (d) State how many motifs appear in the finished design and what fraction of a complete turn separates each from the next. (e) Show that the motif and one of its images are congruent, giving your evidence. (f) State the total area covered by the four motifs, and explain how you obtained it from the area of one.
+
+### Chapter summary
+
+- A rotation turns a shape about a fixed point, and is described by its centre, its angle and its direction.
+
+- Clockwise turning follows the hands of a clock; anticlockwise is the opposite.
+
+- A rotation of 180° gives the same image whichever direction is used, so no direction need be stated.
+
+- About the origin, 90° anticlockwise sends (x, y) to (−y, x).
+
+- About the origin, 180° sends (x, y) to (−x, −y).
+
+- About the origin, 270° anticlockwise sends (x, y) to (y, −x), which is the same as 90° clockwise.
+
+- A shape is rotated by rotating each vertex in turn and joining the images in the same order.
+
+- The angle of rotation is found by joining the centre to an object point and to its image and measuring between them.
+
+- Congruent shapes have equal corresponding sides, equal corresponding angles, equal areas and equal perimeters.
+
+- A rotation always produces an image congruent to the object; only position and orientation change.
+
+### Assessment
+
+> **How this assessment is balanced**
+>
+> Weighted to the NaCCA Mathematics profile dimensions — Knowledge and Understanding 30%, Application of Knowledge 40%, Attitudes, Values and Process Skills 30%. This chapter carries 20 items: 6 tagged [K], 8 tagged [A] and 6 tagged [P].
+>
+> Indicators assessed: B8.3.3.1.1; B8.3.3.1.2; B8.3.3.1.3
+
+<!-- page 128 -->
+
+### Section A — Objective
+
+1.The fixed point about which a shape turns is called the… A. origin B. centre of rotation C. vertex D. axis **[K]**
+
+2.Turning in the same sense as the hands of a clock is described as… A. anticlockwise B. clockwise C. inverted D. reflected **[K]**
+
+3.Shapes that are exactly the same shape and size are said to be… A. similar B. congruent C. parallel D. equal **[K]**
+
+4.Under a rotation of 180° about the origin, (x, y) becomes… A. (y, x) B. (−y, x) C. (−x, −y) D. (x, −y) **[K]**
+
+5.The shape before a transformation is called the… A. image B. object C. locus D. vector **[K]** 6.Under a rotation of 90° anticlockwise about the origin, (x, y) becomes… A. (−y, x) B. (y, −x) C. (−x, y) D. (x, −y) **[K]**
+
+7.The image of (4, 2) under a rotation of 90° anticlockwise about the origin is… A. (2, 4) B. (−2, 4) C. (2, −4) D. (−4, −2) **[A]**
+
+8.The image of (4, 2) under a rotation of 180° about the origin is… A. (−4, 2) B. (4, −2) C. (−4, −2) D. (2, 4) **[A]**
+
+9.A(3, 0) maps to A ′(0, 3) under a rotation about the origin. The rotation is… A. 90° clockwise B. 90° anticlockwise C. 180° D. 270° anticlockwise **[A]**
+
+10. A rotation of 270° anticlockwise about the origin gives the same image as one of… A. 90° anticlockwise B. 90° clockwise C. 180° D. 360° **[A]**
+
+### Section B — Theory and application
+
+1.(a) State the three things needed to describe a rotation completely, and explain why one of them may be omitted for a rotation of 180°. (b) Give four examples of rotation from everyday life, naming the centre of rotation in each. (c) State what changes and what remains unchanged when a shape is rotated. **[A]**
+
+2.(a) Write down the rule, in the form (x, y) → (…, …), for a rotation about the origin through 90° anticlockwise, 180° and 270° anticlockwise. (b) Find the image of (4, 2) under each of the three rotations. (c) Find the image of (−3, 5) under a rotation of 180° about the origin. (d) Explain why 270° anticlockwise gives the same image as 90° clockwise. **[A]**
+
+3.Triangle ABC has vertices A(1, 1), B(4, 1) and C(4, 3). Using graph paper with axes from −6 to 6, (a) draw triangle ABC; (b) draw its image A′ B′ C′ under a rotation of 90° anticlockwise about the origin and state the coordinates of A ′, B′ and C ′; (c) draw its image A″B″C″ under a rotation of 180° about the origin and state the coordinates; (d) state the coordinates of the point that did not move under either rotation, and give a reason. **[A]**
+
+4.(a) A(3, 0) has image A ′(0, 3) under a rotation about the origin; find the angle and the direction. (b) Triangle DEF with D(2, 1), E(5, 1) and F(5, 3) has image D ′(−2, −1), E′ (−5, −1) and F′ (−5, −3); determine the angle of rotation and show how you checked it. (c) Explain what is meant by congruent shapes and list three of their properties. (d) Show, by calculating corresponding side lengths, that triangle DEF and its image are congruent. **[A]**
+
+<!-- page 129 -->
+
+### Section C — Attitudes, values and process tasks
+
+1.Survey rotation in your surroundings: find six objects in your school or home that rotate, record the centre and usual direction of each, and state one thing that changes and one that stays the same as each turns. (Activity 11.1, step 1) **[P]**
+
+2.Model a rotation: using tracing paper pinned at the origin, turn the point (3, 1) through quarter, half and three-quarter turns anticlockwise and tabulate the four positions. (Activity 11.1, step 2) **[P]**
+
+3.Deduce and test rules: from your table, write a rule in the form (x, y) → (…, …) for each of 90°, 180° and 270° anticlockwise, and test each rule on two further points of your own choosing. (Activity 11.1, step 3) **[P]**
+
+4.Draw the images of a shape: plot triangle A(1, 1), B(4, 1), C(4, 3) and use your rules to draw and label its images under rotations of 90°, 180° and 270° anticlockwise about the origin. (Activity 11.1, step 4) **[P]**
+
+5.Test the fit: cut the object triangle from card, lay it over each image in turn, record whether it fits exactly, and state what this shows about rotation. (Activity 11.1, step 5) **[P]**
+
+6.Verify congruence by measurement: measure the three sides and three angles of the object and of one image, tabulate them side by side, and state with evidence whether the two triangles are congruent. (Activity 11.1, step 6) **[P]**
+
+<!-- page 130 -->
+
+### Strand 4: Handling Data
+
+*Strand 4: Handling Data · Sub-Strand 1: Data*
+
+### Chapter 12: Frequency Tables, Histograms and Grouped Data
+
+> **Curriculum alignment**
+>
+> Strand 4: Handling Data
+>
+> Sub-Strand 1: Data
+>
+> Content standard B8.4.1.1
+>
+> Select, justify, and use appropriate methods to collect data (quantitative and qualitative), use the data (grouped/ungrouped) to construct and interpret frequency tables, bar charts, pie charts, and pictograms to solve and/or pose problems
+>
+> B8.4.1.1.1 Identify types of given data including numerical, categorical, ungrouped and grouped data
+>
+> B8.4.1.1.2 Select and justify a method to collect data (quantitative and qualitative) to answer a given question
+>
+> B8.4.1.1.3 Organise data (grouped/ungrouped), present it in frequency tables, line graphs, pie graphs, bar graphs and/or pictographs (representations include info graphics, waffle diagrams, box and whisker plots and stem and leaf plots) and analyse it to solve and/or pose problems
+>
+> Content standard B8.4.1.2
+>
+> Demonstrate an understanding of measures of central tendency (mean, median, mode) and range for grouped data and explain when it’s most appropriate to use the mean, median, or mode
+>
+> B8.4.1.2.1 Calculate the mean, median and mode for a given set of ungrouped data, and explain why these values may be the same or different
+>
+> B8.4.1.2.2 Justify a context in which the mean, median or mode is the most appropriate measure of central tendency to use when reporting findings
+
+> **Core competences**
+>
+> Communication and Collaboration
+>
+> Critical Thinking and Problem Solving
+>
+> Digital Literacy
+>
+> Personal Development and Leadership
+
+### Learning objectives
+
+By the end of this chapter you can:
+
+- distinguish between numerical and categorical data
+
+- distinguish between discrete and continuous numerical data
+
+<!-- page 131 -->
+
+- distinguish between ungrouped and grouped data
+
+- name the main methods of collecting data and state when each is appropriate
+
+- justify the choice of a data collection method for a given question
+
+- construct a frequency table using tally marks
+
+- construct a grouped frequency distribution table from raw data
+
+- draw and interpret bar charts, pie charts, pictograms and histograms
+
+- calculate the mean, median, mode and range of ungrouped data
+
+- justify which measure of central tendency best describes a given set of data estimate the mean of grouped data using class midpoints
+
+> **Key words**
+>
+> Data — facts or figures collected for a purpose.
+>
+> Numerical data — data recorded as numbers.
+>
+> Discrete data — numerical data that can only take separate, countable values.
+>
+> Continuous data — numerical data that can take any value in a range, including fractions.
+>
+> Categorical data — data recorded in categories rather than numbers.
+>
+> Ordinal data — categorical data that has a natural order.
+>
+> Raw data — data as first collected, in no particular order.
+>
+> Ungrouped data — data listed as individual values.
+>
+> Grouped data — data collected into classes or intervals.
+>
+> Class interval — a range of values into which data is grouped.
+>
+> Tally — a mark used to count items one at a time.
+>
+> Frequency — the number of times a value or class occurs.
+>
+> Histogram — a chart of grouped numerical data drawn with bars that touch.
+>
+> Mean — the total of the values divided by how many there are.
+>
+> Median — the middle value when the data is arranged in order.
+>
+> Mode — the value that occurs most often.
+>
+> Range — the difference between the highest and the lowest value.
+>
+> Outlier — a value far away from the rest of the data.
+
+> **Engage**
+>
+> A health worker weighs every baby at a clinic. A shopkeeper records each day's takings. A teacher marks a class test. Each of them ends up with a page of numbers in no particular order, which tells them very little as it stands. Statistics is the craft of turning that page into something a person can actually read — a table, a chart, and one or two numbers that stand for the whole set. This chapter teaches that craft.
+
+<!-- page 132 -->
+
+### 12.1 Types of data
+
+Before data can be organised, it must be recognised for what it is. There are two main divisions, and each has two parts.
+
+### 12.1.1 Numerical and categorical data
+
+**Numerical data** is recorded as numbers, and arithmetic can sensibly be done with it. **Categorical data** is recorded in categories, and although you may count how many fall into each category, you cannot add the categories themselves.
+
+*Table 12.1 — Types of data.*
+
+| **Type** | **Meaning** | **Examples** |
+| --- | --- | --- |
+| Numerical, discrete | counted in whole steps, no values in between | the number of Nissan cars sold by Japan Motors in a year; the number of children in a family; the number of learners in a B8 class |
+| Numerical, continuous | measured, and may take fractional values | the weights of babies in a crèche, such as 4.5 kg; the heights of learners; the lengths of leaves |
+| Categorical | sorted into named groups, not sex (male or female); marital numbers | status; movie type; income group |
+| Categorical, ordinal | categories that have a natural a boxer's weight class; age order | group; level of education |
+
+The test for **discrete** against **continuous** is simple: ask whether a value halfway between two readings makes sense. A family may have 2 children or 3, but never 2.5 — so that is discrete. A baby may weigh 4.5 kg or 4.53 kg — so weight is continuous.
+
+**Ordinal** data sits between the two divisions. A boxer's weight class is a category, not a number, but the classes have a definite order from lightest to heaviest. Age groups behave in the same way.
+
+### 12.1.2 Ungrouped and grouped data
+
+**Ungrouped** data lists each value on its own. **Grouped** data collects the values into classes. Grouping loses a little detail but makes a large set readable.
+
+> **Worked example 1 — grouping a small set**
+>
+> The scores of 11 learners in a class test are 25, 30, 35, 40, 45, 26, 29, 50, 45, 37 and 47.
+>
+> As listed, these are **ungrouped** — each individual score appears separately.
+>
+> Now sort them into two classes.
+
+<!-- page 133 -->
+
+> 25 to 35: 25, 30, 35, 26, 29 → **5 learners**
+>
+> 36 to 50: 40, 45, 45, 37, 50, 47 → **6 learners**
+>
+> The data is now **grouped**. Notice that the total is still 5 + 6 = 11 ✓, and that you can no longer tell from the groups alone that one learner scored exactly 29.
+
+> **Practice 12.1**
+>
+> 1. State the difference between numerical and categorical data, giving one example of each.
+>
+> 2. Classify each as discrete or continuous: (a) the number of learners in a class (b) the weights of babies in a crèche (c) the number of cars sold in a year (d) the lengths of leaves.
+>
+> 3. From this list, pick out the categorical data: sex, income group, movie type, marital status, number of children.
+>
+> 4. Which of these categories can be put in a natural order: boxers' weight class, sex, age group, marital status?
+>
+> 5. The scores of 11 learners are 25, 30, 35, 40, 45, 26, 29, 50, 45, 37, 47. Group them into 25–35 and 36–50, and state how many are in each group.
+
+### 12.2 Collecting data
+
+Data must come from somewhere, and the method chosen affects how much you can trust the answer. Four methods are common.
+
+*Table 12.2 — Methods of collecting data.*
+
+| **Method** | **What it involves** | **Best used when** |
+| --- | --- | --- |
+| Observation | watching and recording what happens, without asking | behaviour is being studied and people might not report it accurately |
+| Interview | asking questions face to face and recording the replies | few people are involved and detailed or sensitive answers are wanted |
+| Questionnaire | a written set of questions given to many people | a large number of people must be reached quickly and cheaply |
+| Experiment | changing one thing under controlled conditions and measuring the effect | cause and effect is being tested |
+
+Data you collect yourself is called **primary** data. Data collected by someone else, such as figures from the Ghana Statistical Service or a school register, is **secondary** data. Secondary data is quicker to obtain, but you must check that it was collected for a purpose close enough to your own.
+
+<!-- page 134 -->
+
+> **Worked example 2 — choosing a method**
+>
+> A researcher wishes to study how eating cream crackers affects a worker's output. State which method is most appropriate and give a reason.
+>
+> The question is one of **cause and effect** — does the eating change the output? So the researcher must control the eating and measure the output.
+>
+> Method: an **experiment**. One group is given cream crackers and a second, similar group is not;
+>
+> the output of both is measured over the same period and compared.
+>
+> A questionnaire would be poor here, because workers would only be reporting what they \*believe\* about their own output, not what it actually was.
+
+> **Exam tip 12.1**
+>
+> When a question asks you to \*justify\* a method, do not simply name it. Say what the method allows you to do that the others do not, and name one method you rejected and why. Two sentences earn the marks; one word does not.
+
+> **Practice 12.2**
+>
+> 1. Name four methods of collecting data.
+>
+> 2. State one advantage and one disadvantage of a questionnaire.
+>
+> 3. Explain the difference between primary and secondary data, with an example of each.
+>
+> 4. Choose and justify a method for studying how eating cream crackers affects a worker's output.
+>
+> 5. Choose and justify a method for finding out the favourite subject of every learner in your school.
+
+### 12.3 Frequency tables
+
+A **frequency table** counts how many times each value or class occurs. **Tally marks** are used while counting: four upright strokes with the fifth drawn across them, so that the marks can be read off in fives.
+
+### 12.3.1 Ungrouped frequency tables
+
+> **Worked example 3 — an ungrouped frequency table**
+>
+> Kojo's taxi made the following numbers of trips from Monday to Sunday: 8, 6, 10, 10, 9, 10, 3.
+>
+> Trips Tally Frequency
+>
+> 3 | 1
+>
+> 6 | 1
+>
+> 8 | 1
+>
+> 9 | 1
+>
+> 10 ||| 3
+
+<!-- page 135 -->
+
+> Total **7** ✓ — which matches the seven days.
+>
+> The table shows at once that 10 trips is the commonest figure.
+
+### 12.3.2 Grouped frequency tables
+
+When the values are spread widely, individual values are grouped into **class intervals**. Choose between five and ten classes, all of the same width, with no gaps and no overlaps.
+
+> **Worked example 4 — a grouped frequency distribution**
+>
+> The lengths, in millimetres to the nearest mm, of 40 leaves taken from plants of a certain species are:
+>
+> 40 54 25 50 58 45 47 49 30 28 52 31 52 41 47 44 46 39 51 59
+>
+> 49 38 43 48 43 43 40 51 40 56 31 53 44 37 35 37 33 38 46 36
+>
+> Copy and complete the frequency distribution table.
+>
+> Length (mm) Tally Frequency
+>
+> 25 – 29 || 2
+>
+> 30 – 34 |||| 4
+>
+> 35 – 39 |||| || 7
+>
+> 40 – 44 |||| |||| 9
+>
+> 45 – 49 |||| ||| 8
+>
+> 50 – 54 |||| || 7
+>
+> 55 – 59 ||| 3
+>
+> Total **40** ✓
+>
+> Always check that the frequencies add to the number of items you started with. If they do not, a value has been missed or counted twice.
+
+From the completed table, useful facts can be read off directly. The commonest class, called the **modal class**, is 40–44 mm with 9 leaves. The number of leaves shorter than 40 mm is 2 + 4 + 7 = 13.
+
+> **Common misconception 12.1**
+>
+> Class intervals must not overlap. Writing 25–30, 30–35, 35–40 leaves a leaf of length 30 mm belonging to two classes at once. Use 25–29, 30–34, 35–39 instead, so that every value has exactly one home.
+
+### 12.4 Presenting data in charts
+
+A chart shows at a glance what a table shows in detail. Different data calls for different charts.
+
+*Table 12.3 — Choosing a chart.*
+
+_[answer space — 2 lines]_
+
+### Chart
+
+**Best for**
+
+**Key feature**
+
+<!-- page 136 -->
+
+| Bar chart | categorical or discrete data | bars of equal width with gaps between them |
+| --- | --- | --- |
+| Pictogram | categorical data, for a general a symbol stands for a fixed audience | number of items; a key must be given |
+| Pie chart | showing the parts of a whole | the whole circle is 360°, shared out in proportion |
+| Line graph | showing change over time | points plotted against time and joined |
+| Histogram | grouped continuous data | bars of equal width with no gaps between them |
+
+The difference between a bar chart and a **histogram** matters. A bar chart shows separate categories, so its bars stand apart. A histogram shows continuous measurements running from one class straight into the next, so its bars **touch**.
+
+![Figure 12.1 A bar chart and a histogram compared.](images/maths-b8-print-ready-p136-fig27.png)
+
+> **Worked example 5 — drawing a pie chart**
+>
+> In a survey of 60 learners, 20 chose football, 15 netball, 15 athletics and 10 volleyball. Find the angle for each sector of a pie chart.
+>
+> Each sector's angle is its share of the whole 360°.
+>
+> football: 20/60 × 360° = **120°** netball: 15/60 × 360° = **90°** athletics: 15/60 × 360° = **90°**
+
+<!-- page 137 -->
+
+> volleyball: 10/60 × 360° = **60°**
+>
+> Check: 120 + 90 + 90 + 60 = 360° ✓ — the angles must always total 360°.
+
+> **Worked example 6 — drawing a histogram**
+>
+> Draw a histogram for the leaf-length data of Worked example 4.
+>
+> 1. Mark the class intervals along the horizontal axis, in order and with no gaps: 25–29, 30–34, and so on up to 55–59.
+>
+> 2. Mark frequency up the vertical axis, from 0 to at least 9, using a sensible even scale.
+>
+> 3. Draw a bar over each class, of height equal to its frequency: 2, 4, 7, 9, 8, 7, 3.
+>
+> 4. Make sure that consecutive bars **touch**, since length is continuous.
+>
+> 5. Label both axes and give the histogram a title.
+>
+> The finished shape rises to a peak at the 40–44 class and falls away on both sides, showing that most leaves are of middling length and very few are extreme.
+
+> **Practice 12.3**
+>
+> 1. State two differences between a bar chart and a histogram.
+>
+> 2. Complete a grouped frequency table for the 40 leaf lengths given in Worked example 4.
+>
+> 3. Draw a histogram of the leaf-length data, labelling both axes.
+>
+> 4. In a survey of 60 learners, 20 chose football, 15 netball, 15 athletics and 10 volleyball.
+>
+> Calculate the pie chart angles and draw the chart.
+>
+> 5. State which chart you would use for (a) the marital status of 200 adults (b) the heights of 50 learners (c) a shop's daily takings over one week, giving a reason for each.
+
+### 12.5 Mean, median, mode and range
+
+One or two numbers can stand for a whole set of data. Three of them, the **measures of central tendency**, describe where the middle of the data lies. The **range** describes how spread out it is.
+
+**mean = sum of all the values ÷ number of values**
+
+**median = the middle value when the data is arranged in order**
+
+**mode = the value that occurs most often**
+
+**range = highest value − lowest value**
+
+For the median, if there is an even number of values, take the two middle ones and find the number halfway between them. A set may have one mode, more than one, or none at all.
+
+> **Worked example 7 — when the three agree**
+>
+> A bar graph shows the sales of a small business from Monday to Friday as GH₵150, GH₵200, GH₵200, GH₵250 and GH₵200. Calculate the mean, median and mode, and explain your
+
+<!-- page 138 -->
+
+> findings.
+>
+> Mean = (150 + 200 + 200 + 250 + 200) ÷ 5 = 1000 ÷ 5 = **GH₵200**
+>
+> Ordered: 150, 200, 200, 200, 250 → the third of five is the middle, so Median = **GH₵200** Mode = **GH₵200**, since 200 occurs three times
+>
+> Range = 250 − 150 = GH₵100
+>
+> All three measures come out the same. This happens because the figures are **symmetrical** about GH₵200: the one low day is exactly GH₵50 below it and the one high day exactly GH₵50 above, so they cancel, and GH₵200 is also the commonest figure. When data is balanced in this way, any of the three measures describes it equally well.
+
+> **Worked example 8 — Kojo's taxi trips**
+>
+> Kojo's taxi made these numbers of trips: Monday 8, Tuesday 6, Wednesday 10, Thursday 10, Friday 9, Saturday 10, Sunday 3.
+>
+> (i) Calculate the mean, median and mode.
+>
+> Mean = (8 + 6 + 10 + 10 + 9 + 10 + 3) ÷ 7 = 56 ÷ 7 = **8 trips**
+>
+> Ordered: 3, 6, 8, 9, 10, 10, 10 → the fourth value is the middle of seven, so Median = **9 trips**
+>
+> Mode = **10 trips**, since 10 occurs three times
+>
+> Range = 10 − 3 = 7 trips (ii) Which measure best describes the number of trips Kojo makes each day?
+>
+> The **median, 9 trips**.
+>
+> (iii) Justify the choice.
+>
+> Sunday's figure of 3 is an **outlier** — far below every other day — and it drags the mean down to 8, which is lower than five of the seven days. The mode of 10 is the best day rather than the usual day. The median of 9 is not affected by the single low Sunday and sits fairly among the other figures, so it describes a typical day best.
+>
+> **Estimating a mean from grouped data**
+>
+> Grouping hides individual values, so use each class midpoint as a representative value. Multiply each midpoint by its frequency, add the products, then divide by the total frequency. The result is an estimate, not the exact mean of the original data.
+>
+> Worked example 9 — estimated mean from a grouped table
+>
+> For the classes 10–14, 15–19, 20–24, 25–29, 30–34 and 35–39, the frequencies are 2, 4, 5, 5, 3 and 1. The midpoints are 12, 17, 22, 27, 32 and 37.
+>
+> Σ(f × midpoint) = 24 + 68 + 110 + 135 + 96 + 37 = 470. Total frequency = 20, so estimated mean = 470 ÷ 20 = 23.5. The exact mean of the original scores is 23.45; grouping accounts for the small difference.
+
+*Table 12.4 — Choosing a measure of central tendency.*
+
+_[answer space — 2 lines]_
+
+### Measure
+
+**Use it when**
+
+**Be careful when**
+
+<!-- page 139 -->
+
+| Mean | the values are fairly evenly spread and every value should drags the mean towards itself count | there is an outlier, which |
+| --- | --- | --- |
+| Median | there is an outlier or the data is lopsided | the data is very small in quantity |
+| Mode | the data is categorical, or the commonest value is what matters | there is no mode, or more than one |
+
+> **Common misconception 12.2**
+>
+> The data must be arranged **in order** before the median is read off. Taking the middle of the unsorted list 8, 6, 10, 10, 9, 10, 3 gives 10, which is wrong. Sorted, the list is 3, 6, 8, 9, 10, 10, 10 and the median is 9.
+
+> **Exam tip 12.2**
+>
+> Check your mean against the data: it must always lie between the lowest and the highest value.
+>
+> If it does not, you have made an arithmetic slip in the total or divided by the wrong count.
+
+> **Practice 12.4**
+>
+> 1. Define mean, median, mode and range.
+>
+> 2. Kojo's taxi made 8, 6, 10, 10, 9, 10 and 3 trips on the seven days of a week. Find the mean, median, mode and range.
+>
+> 3. State which measure best describes Kojo's typical day, and justify your choice.
+>
+> 4. A shop's takings for five days were GH₵150, GH₵200, GH₵200, GH₵250 and GH₵200. Find the mean, median and mode, and explain why the three values are the same.
+>
+> 5. Explain why the mean is a poor choice when the data contains an outlier, using an example of your own.
+
+> **Activity 12.1 — A statistical investigation**
+>
+> You need: a metre rule or tape measure, a notebook, graph paper, a pair of compasses, a protractor, a ruler, a calculator, forty leaves from one kind of plant.
+>
+> What to do:
+>
+> 1. In small groups, list ten pieces of information that could be collected about the learners in your class. Sort them into numerical discrete, numerical continuous, and categorical, and mark which of the categorical ones could be put in a natural order. Record your reasoning for three of them.
+>
+> 2. Choose one question your group would like to answer about your school. Decide which of observation, interview, questionnaire or experiment you would use, and write two sentences
+
+<!-- page 140 -->
+
+> justifying the choice and naming one method you rejected and why.
+>
+> 3. Collect forty leaves from one kind of plant and measure each to the nearest millimetre.
+>
+> Record the measurements as raw data, exactly as you take them.
+>
+> 4. Construct a grouped frequency distribution table for your leaf lengths, using seven classes of equal width, with tally marks. Check that your frequencies total forty.
+>
+> 5. Draw a histogram of your grouped data on graph paper, with the bars touching, and label both axes. Describe the shape of the distribution in one sentence and state the modal class.
+>
+> 6. Record the number of trips or journeys made by a taxi, tro-tro or family member on each of seven days. Calculate the mean, median, mode and range. State which measure best describes a typical day and justify your choice by referring to any outlier in your figures.
+>
+> Record: your classified list of ten items with reasoning, your chosen question and justified method, the raw leaf measurements, the completed frequency table with the total check, the labelled histogram with its modal class, and the four calculated measures with your justification.
+>
+> Think about it: in step 4, what would have happened to the shape of your histogram if you had used three wide classes instead of seven? Redraw it and state what detail is lost.
+
+> **Apply it — The school clinic**
+>
+> The school nurse records the weights, in kilograms, of 40 learners and groups them into the classes 30–34, 35–39, 40–44, 45–49 and 50–54, obtaining frequencies of 3, 9, 14, 10 and 4. (a) State whether weight is discrete or continuous, giving a reason. (b) Copy the frequency table and check that the frequencies total 40. (c) Draw a histogram of the data. (d) State the modal class. (e) Calculate the number of learners weighing less than 45 kg, and express it as a percentage of the whole. (f) The nurse wants one figure to report as the typical weight; state which measure of central tendency you would advise and justify your advice.
+
+### Chapter summary
+
+- Numerical data is recorded as numbers; categorical data is recorded in named groups.
+
+- Discrete data is counted in whole steps; continuous data is measured and may take fractional values.
+
+- Ordinal data is categorical data whose categories have a natural order, such as age group.
+
+- Ungrouped data lists each value separately; grouped data collects values into class intervals that must not overlap.
+
+- Data may be collected by observation, interview, questionnaire or experiment, and the method must suit the question.
+
+- A frequency table counts occurrences using tally marks, and the frequencies must total the number of items collected.
+
+- Bar charts show separate categories with gaps between the bars; histograms show continuous grouped data with the bars touching.
+
+- In a pie chart, each sector's angle is its share of 360°, and the angles must total 360°.
+
+<!-- page 141 -->
+
+- The mean is the total divided by the count, the median is the middle value in order, the mode is the commonest value, and the range is the highest minus the lowest.
+
+- An outlier drags the mean towards itself, so the median is usually the better description of a typical value when one is present.
+
+### Assessment
+
+> **How this assessment is balanced**
+>
+> Weighted to the NaCCA Mathematics profile dimensions — Knowledge and Understanding 30%, Application of Knowledge 40%, Attitudes, Values and Process Skills 30%. This chapter carries 20 items: 6 tagged [K], 8 tagged [A] and 6 tagged [P].
+>
+> Indicators assessed: B8.4.1.1.1; B8.4.1.1.2; B8.4.1.1.3; B8.4.1.2.1; B8.4.1.2.2
+
+### Section A — Objective
+
+1.Data recorded in named groups rather than numbers is described as… A. discrete B. continuous C. categorical D. grouped **[K]**
+
+2.The number of learners in a class is an example of data that is… A. continuous B. discrete C. categorical D. ordinal **[K]**
+
+3.The number of times a value occurs is called its… A. tally B. frequency C. range D. mode **[K]**
+
+4.The difference between the highest and the lowest value is called the… A. mean B. median C. mode D. range **[K]**
+
+5.A chart of grouped continuous data in which the bars touch is called a… A. bar chart B. pictogram C. histogram D. pie chart **[K]**
+
+6.The middle value of a set of data arranged in order is the… A. mean B. median C. mode D. range **[K]**
+
+7.Kojo's taxi made 8, 6, 10, 10, 9, 10 and 3 trips in a week. The mean number of trips is… A. 7 B. 8 C. 9 D. 10 **[A]**
+
+8.For the same set of trips, the median is… A. 8 B. 9 C. 10 D. 6 **[A]** 9.In a pie chart of 60 learners, the sector for 20 who chose football has an angle of… A. 60° B. 90° C. 120° D. 200° **[A]**
+
+10. In a frequency table of 40 leaf lengths the classes 25–29, 30–34, 35–39 have frequencies 2, 4 and 7. The number of leaves shorter than 40 mm is… A. 6 B. 7 C. 11 D. 13 **[A]**
+
+### Section B — Theory and application
+
+1.(a) Explain the difference between numerical and categorical data, giving one example of each. (b) Classify each of the following as discrete or continuous, giving a reason: the number of Nissan cars sold in a year; the weights of babies in a crèche; the number of learners in a B8 class; the lengths of leaves. (c) From the list sex, income group, boxers' weight class, movie type and age group, pick out those that can be placed in a natural order. (d) The scores of 11
+
+<!-- page 142 -->
+
+learners are 25, 30, 35, 40, 45, 26, 29, 50, 45, 37 and 47; group them into 25–35 and 36–50 and state the frequency of each group. **[A]**
+
+2.(a) Name four methods of collecting data and state one situation in which each is the best choice. (b) A researcher wishes to study how eating cream crackers affects a worker's output; select a method, justify your selection, and name one method you rejected with a reason. (c) Explain the difference between primary and secondary data, giving one example of each. **[A]**
+
+3.The lengths, in millimetres, of 40 leaves are 40, 54, 25, 50, 58, 45, 47, 49, 30, 28, 52, 31, 52, 41, 47, 44, 46, 39, 51, 59, 49, 38, 43, 48, 43, 43, 40, 51, 40, 56, 31, 53, 44, 37, 35, 37, 33, 38, 46 and 36. (a) Copy and complete a frequency distribution table using the classes 25–29, 30– 34, 35–39, 40–44, 45–49, 50–54 and 55–59, showing your tally marks. (b) Check that your frequencies total 40. (c) State the modal class. (d) Find how many leaves are shorter than 40 mm. (e) Draw a histogram of the data, labelling both axes. **[A]**
+
+4.Kojo's taxi made the following numbers of trips: Monday 8, Tuesday 6, Wednesday 10, Thursday 10, Friday 9, Saturday 10, Sunday 3. (a) Calculate the mean, median, mode and range. (b) State which measure of central tendency best describes the number of trips Kojo makes each day. (c) Justify your choice in (b), referring to any outlier in the data. (d) Explain why arranging the data in order is essential before the median is read off. **[A]**
+
+### Section C — Attitudes, values and process tasks
+
+1.Classify data types: in a group, list ten pieces of information that could be collected about your class, sort them into numerical discrete, numerical continuous and categorical, mark which categorical ones are ordinal, and record your reasoning for three of them. (Activity 12.1, step 1) **[P]**
+
+2.Select and justify a method: choose a question about your school, decide between observation, interview, questionnaire and experiment, and write two sentences justifying your choice and naming one method rejected with a reason. (Activity 12.1, step 2) **[P]**
+
+3.Collect raw data: gather forty leaves from one kind of plant, measure each to the nearest millimetre, and record the measurements exactly as taken. (Activity 12.1, step 3) **[P]**
+
+4.Organise into a table: construct a grouped frequency distribution table for your leaf lengths using seven classes of equal width with tally marks, and verify that the frequencies total forty. (Activity 12.1, step 4) **[P]**
+
+5.Present and interpret: draw a labelled histogram of your grouped data with the bars touching, state the modal class, describe the shape of the distribution, and redraw it with three wide classes to show what detail is lost. (Activity 12.1, step 5 and think about it) **[P]**
+
+6.Analyse and justify: record the number of journeys made by a taxi, tro-tro or family member over seven days, calculate the mean, median, mode and range, and justify which measure best describes a typical day. (Activity 12.1, step 6) **[P]**
+
+<!-- page 143 -->
+
+*Strand 4: Handling Data · Sub-Strand 2: Chance or Probability*
+
+### Chapter 13: Probability of Two Independent Events
+
+> **Curriculum alignment**
+>
+> Strand 4: Handling Data
+>
+> Sub-Strand 2: Chance or Probability
+>
+> Content standard B8.4.2.1
+>
+> Identify the sample space for a probability experiment involving two independent events and express the probabilities of given events as fractions, decimals, percentages and/or ratios to solve problems
+>
+> B8.4.2.1.1 Perform a probability experiment involving two independent events such as drawing coloured bottle tops from a bag with replacement and list the elements of the sample space
+>
+> B8.4.2.1.2 Express the probabilities of the events as fractions, decimals, percentages and/or ratios. e.g.by using a tree diagram, table or other graphic organiser
+
+> **Core competences**
+>
+> Communication and Collaboration
+>
+> Critical Thinking and Problem Solving
+>
+> Cultural Identity and Global Citizenship
+>
+> Personal Development and Leadership
+
+### Learning objectives
+
+By the end of this chapter you can:
+
+- explain what is meant by an experiment, an outcome and an event
+
+- list the elements of the sample space for a single experiment
+
+- explain what independent events are and give examples
+
+- decide whether two given events are independent
+
+- list the sample space for two independent events performed together
+
+- carry out a probability experiment with replacement and record the results
+
+- explain why replacement keeps two draws independent
+
+- draw a probability tree diagram for two independent events
+
+- calculate the probability of two independent events both happening
+
+- express a probability as a fraction, a decimal, a percentage and a ratio
+
+> **Key words**
+>
+> Experiment — an activity with a result that is not certain in advance.
+>
+> Trial — one performance of an experiment.
+
+<!-- page 144 -->
+
+> Outcome — a single possible result of an experiment.
+>
+> Sample space — the set of all possible outcomes.
+>
+> Event — an outcome or a set of outcomes that we are interested in.
+>
+> Probability — a measure of how likely an event is, from 0 to 1.
+>
+> Favourable outcome — an outcome that counts as the event happening.
+>
+> Independent events — events where the result of one does not affect the result of the other.
+>
+> With replacement — returning an item to the bag before the next draw.
+>
+> Without replacement — keeping the item out, so the next draw is changed.
+>
+> Tree diagram — a branching diagram showing all outcomes of two or more stages.
+>
+> Certain event — an event whose probability is 1.
+>
+> Impossible event — an event whose probability is 0.
+
+> **Engage**
+>
+> Before a football match the referee tosses a coin, and neither captain can say which way it will fall. Yet if the same coin were tossed a thousand times, the number of heads would come remarkably close to five hundred. Chance is unpredictable in the single case and highly predictable in the mass, and probability is the mathematics of that strange fact. This chapter goes one step further than Basic 7 by looking at two things happening together.
+
+### 13.1 Sample space and probability
+
+An **experiment** is any activity whose result is not certain in advance — tossing a coin, throwing a die, spinning a spinner, drawing a bottle top from a bag. Each possible result is an **outcome**, and the set of all of them is the **sample space**, usually written S.
+
+*Table 13.1 — Sample spaces for some simple experiments.*
+
+| **Experiment** | **Sample space S** | **Number of outcomes** |
+| --- | --- | --- |
+| Tossing a fair coin | {H, T} | 2 |
+| Throwing a fair six-sided die | {1, 2, 3, 4, 5, 6} | 6 |
+| Drawing from a bag of 3 red, 2 {R, G, P} green and 1 pink bottle top |  | 3 colours, 6 tops |
+| Spinning a spinner marked win {W, L} and lose |  | 2 |
+
+When every outcome is equally likely, the probability of an event is a simple fraction.
+
+**P(event) = number of favourable outcomes ÷ total number of outcomes**
+
+Every probability lies between 0 and 1. An impossible event has probability 0, a certain event has probability 1, and all the probabilities in a sample space add up to 1.
+
+<!-- page 145 -->
+
+> **Worked example 1 — drawing a bottle top**
+>
+> A bag contains 3 red, 2 green and 1 pink bottle top. Emmanuel picks one top at random.
+>
+> (i) List the elements of the sample space.
+>
+> By colour, S = **{R, G, P}**. There are 6 tops altogether.
+>
+> (ii) Find the probability of picking a red top.
+>
+> P(R) = 3/6 = **1/2** (iii) Find P(G) and P(P).
+>
+> P(G) = 2/6 = **1/3** and P(P) = 1/6
+>
+> Check: 1/2 + 1/3 + 1/6 = 3/6 + 2/6 + 1/6 = 6/6 = 1 ✓ — the three probabilities must total 1.
+
+### 13.1.1 Writing a probability four ways
+
+The same probability may be written as a fraction, a decimal, a percentage or a ratio. Examiners often ask for a particular form, so be ready to convert.
+
+*Table 13.2 — One probability written four ways.*
+
+| **Fraction** | **Decimal** | **Percentage** | **Ratio (favourable to** **unfavourable)** |
+| --- | --- | --- | --- |
+| 1/2 | 0.5 | 50% | 1 : 1 |
+| 1/3 | 0.333… | 33⅓% | 1 : 2 |
+| 1/4 | 0.25 | 25% | 1 : 3 |
+| 3/4 | 0.75 | 75% | 3 : 1 |
+| 1/6 | 0.1666… | 16⅔% | 1 : 5 |
+
+> **Common misconception 13.1**
+>
+> A probability of 3/4 is **not** a ratio of 3 : 4. The fraction compares the favourable outcomes with the **total**, while the ratio compares favourable with **unfavourable**. Three favourable out of four altogether leaves one unfavourable, so the ratio is 3 : 1.
+
+> **Practice 13.1**
+>
+> 1. Explain what is meant by an experiment, an outcome and a sample space.
+>
+> 2. Write down the sample space for (a) tossing a fair coin (b) throwing a fair six-sided die.
+>
+> 3. A bag contains 3 red, 2 green and 1 pink bottle top. Find P(R), P(G) and P(P), and check that they total 1.
+>
+> 4. Express the probability 3/4 as a decimal, a percentage and a ratio.
+>
+> 5. State the probability of an event that is (a) impossible (b) certain.
+
+<!-- page 146 -->
+
+### 13.2 Independent events
+
+Two events are **independent** when the happening of one has no effect whatever on the chance of the other. This is the single idea on which the rest of the chapter rests.
+
+> **Worked example 2 — testing for independence**
+>
+> Consider two events: (a) throwing a fair six-sided die, and (b) tossing a fair coin.
+>
+> (i) State the sample space for each.
+>
+> For the die, S = {1, 2, 3, 4, 5, 6}. For the coin, S = {H, T}.
+>
+> (ii) Does the occurrence of (a) affect the occurrence of (b)?
+>
+> **No.** The die has no way of influencing which face of the coin lands upwards.
+>
+> (iii) Find P(an even number on the die) and P(a head on the coin).
+>
+> The even numbers are 2, 4 and 6, so P(even) = 3/6 = **1/2**
+>
+> P(head) = **1/2** (iv) State the relationship between the two events.
+>
+> They are **independent events**, and they can occur together in the same trial.
+
+> **Worked example 3 — independent but not simultaneous**
+>
+> Ampofo and Serwa are two learners at the same school. Ampofo walks to school daily and Serwa travels by bus daily.
+>
+> (i) Does the event of Ampofo affect that of Serwa?
+>
+> **No.** Ampofo walking has no bearing on whether Serwa's bus arrives, so the events are independent.
+>
+> (ii) Can the two events occur together?
+>
+> **Yes.** On any given morning Ampofo may walk while Serwa rides; the two happen side by side without interfering.
+>
+> Independent events are therefore quite different from events that cannot both happen — a coin cannot show a head and a tail on the same toss, but a die and a coin may each do their own thing at once.
+
+### 13.2.1 Why replacement matters
+
+When an item is drawn from a bag and then **replaced** before the next draw, the bag is exactly as it was, so the second draw is unaffected by the first. The two draws are independent.
+
+If the item is **not** replaced, the bag has changed. Drawing a red top from a bag of 6 leaves only 5 tops, of which 2 are red, so the chance of red on the second draw is no longer 3/6 but 2/5. The draws are then **dependent**. In this chapter every draw is made with replacement.
+
+> **Common misconception 13.2**
+>
+> A coin has no memory. After four heads in a row, the probability of a head on the fifth toss is still 1/2, not less. Each toss is independent of the ones before it, however strongly the run seems to
+
+<!-- page 147 -->
+
+> suggest otherwise.
+
+> **Practice 13.2**
+>
+> 1. Explain what is meant by independent events and give two examples from everyday life.
+>
+> 2. A fair die is thrown and a fair coin is tossed. State the sample space for each, and say whether the events are independent, giving a reason.
+>
+> 3. Ampofo walks to school and Serwa travels by bus. State whether the two events are independent and whether they can occur together.
+>
+> 4. Explain why drawing with replacement keeps two draws independent.
+>
+> 5. A bag holds 3 blue pens and 4 pink pens. Find the probability of a blue pen on the second draw if the first pen was blue and (a) was replaced (b) was not replaced.
+
+### 13.3 The sample space for two events
+
+When two experiments are performed one after the other, each outcome of the first can be paired with each outcome of the second. Two tools set out all the pairs: a **table**, and a **tree diagram**.
+
+### 13.3.1 Using a table
+
+> **Worked example 4 — die and coin together**
+>
+> A fair die is thrown and a fair coin is tossed. List the sample space of the combined experiment.
+>
+> Set the die outcomes across the top and the coin outcomes down the side.
+>
+> 1 2 3 4 5 6
+>
+> H H1 H2 H3 H4 H5 H6
+>
+> T T1 T2 T3 T4 T5 T6
+>
+> S = {H1, H2, H3, H4, H5, H6, T1, T2, T3, T4, T5, T6}, giving **12 outcomes**.
+>
+> Notice that 12 = 6 × 2. The number of combined outcomes is always the number for the first experiment multiplied by the number for the second.
+
+### 13.3.2 Using a tree diagram
+
+A **tree diagram** shows the first stage as a set of branches, and grows a fresh set of branches from the end of each. Writing the probability on every branch turns the diagram into a calculating machine.
+
+<!-- page 148 -->
+
+![Figure 13.1 A probability tree diagram for two independent spins.](images/maths-b8-print-ready-p148-fig28.png)
+
+Two rules make tree diagrams work, and they are worth learning by heart.
+
+- **Multiply along the branches.** The probability of a whole path is the product of the probabilities on it.
+
+- **Add down the ends.** If several paths satisfy the event, add their probabilities.
+
+- At every branching point, the probabilities must add to 1 — a useful check before you go any further.
+
+> **Worked example 5 — the spinner, spun twice**
+>
+> A spinner has two equal sections marked win, W, and lose, L. It is spun twice.
+>
+> (i) Identify the sample space.
+>
+> S = **{WW, WL, LW, LL}**, giving 4 outcomes.
+>
+> (ii) Calculate P(W) and P(L) for a single spin.
+>
+> P(W) = 1/2 and P(L) = 1/2 (iii) Complete the tree diagram for the first and second spins.
+>
+> Each of the four branches carries the probability 1/2.
+>
+> (iv) Find the probability of each combined outcome.
+>
+> P(WW) = 1/2 × 1/2 = **1/4** P(WL) = 1/2 × 1/2 = **1/4**
+>
+> P(LW) = 1/2 × 1/2 = **1/4** P(LL) = 1/2 × 1/2 = **1/4**
+>
+> Check: 1/4 + 1/4 + 1/4 + 1/4 = 1 ✓ (v) Express the branch probabilities in decimals, percentages and ratios.
+>
+> 1/2 = 0.5 = 50% = 1 : 1
+
+> **Worked example 6 — pens drawn with replacement**
+
+<!-- page 149 -->
+
+> A box contains 3 blue pens and 4 pink pens. A pen is taken, its colour noted, and then replaced.
+>
+> Another pen is then taken and its colour noted.
+>
+> (i) State the sample space for the first and second trials.
+>
+> For each trial, S = {B, P}. For the two together, S = **{BB, BP, PB, PP}**.
+>
+> (ii) Draw a probability tree diagram.
+>
+> There are 7 pens altogether, so on every branch P(B) = 3/7 and P(P) = 4/7. Because the pen is replaced, the second stage carries exactly the same probabilities as the first.
+>
+> (iii) Find the probability of drawing two blue pens.
+>
+> P(BB) = 3/7 × 3/7 = **9/49** (iv) Find the probability of drawing one of each colour.
+>
+> P(BP) = 3/7 × 4/7 = 12/49 and P(PB) = 4/7 × 3/7 = 12/49
+>
+> P(one of each) = 12/49 + 12/49 = **24/49**
+>
+> Check: P(BB) + P(BP) + P(PB) + P(PP) = 9/49 + 12/49 + 12/49 + 16/49 = 49/49 = 1 ✓
+
+> **Worked example 7 — three draws with replacement**
+>
+> Emmanuel picks one bottle top from a bag containing 3 red, 2 green and 1 pink top, three times, replacing the top each time. Find the probability that all three are red.
+>
+> Because each top is replaced, the bag is unchanged and the three draws are independent.
+>
+> P(R) = 3/6 = 1/2 on every draw
+>
+> P(RRR) = 1/2 × 1/2 × 1/2 = **1/8**
+>
+> As a decimal this is 0.125, as a percentage 12.5%, and as a ratio 1 : 7.
+
+> **Exam tip 13.1**
+>
+> 'And' means multiply; 'or' means add. Red on the first draw **and** red on the second is 1/2 × 1/2.
+>
+> One blue **or** the other order is 12/49 + 12/49. Underline the word in the question before you start calculating.
+
+> **Practice 13.3**
+>
+> 1. A fair die is thrown and a fair coin is tossed. List the sample space of the combined experiment and state how many outcomes it has.
+>
+> 2. A spinner marked win and lose is spun twice. Identify the sample space and find the probability of each combined outcome.
+>
+> 3. A box contains 3 blue and 4 pink pens, drawn with replacement. Draw the tree diagram and find P(BB).
+>
+> 4. For the same box, find the probability of drawing one pen of each colour.
+>
+> 5. A bag holds 3 red, 2 green and 1 pink top, drawn three times with replacement. Find the probability of three reds, and express it as a decimal and a percentage.
+
+<!-- page 150 -->
+
+> **Activity 13.1 — Testing chance by experiment**
+>
+> You need: a bag or tin, 3 red, 2 green and 1 pink bottle tops, a fair six-sided die, a coin, card, a paper fastener, a ruler, a calculator, squared paper.
+>
+> What to do:
+>
+> 1. Put the six bottle tops in the bag. List the elements of the sample space. Draw one top, record its colour, and replace it. Repeat until you have 60 draws.
+>
+> 2. Tabulate your results and work out the experimental probability of each colour as a fraction of 60. Compare each with the theoretical probability, and comment on how close they are.
+>
+> 3. Repeat 20 of the draws **without** replacement, refilling the bag whenever it empties. Record what you notice about the chance of red as the bag empties, and explain why replacement matters.
+>
+> 4. Throw the die and toss the coin together 40 times, recording each combined result. Set your possible results out in a table of 12 cells first, then tally your 40 trials into it. State whether every cell was filled and what that suggests.
+>
+> 5. Make a spinner from card and a paper fastener, with two equal sections marked win and lose.
+>
+> Spin it twice and record the pair; repeat for 40 pairs. Draw the tree diagram for two spins, write the probability on every branch, and compare each theoretical probability with your experimental one.
+>
+> 6. Take your four branch probabilities from step 5 and express each as a fraction, a decimal, a percentage and a ratio, setting them out in a table.
+>
+> Record: your sample space, the table of 60 draws with the two sets of probabilities compared, your observations on drawing without replacement, the 12-cell table with 40 tallies, the labelled tree diagram with theoretical and experimental figures side by side, and the table of four forms.
+>
+> Think about it: in step 2, were your experimental probabilities closer to the theoretical ones after 20 draws or after 60? What does your answer suggest about how many trials an experiment needs?
+
+> **Apply it — The school raffle**
+>
+> A school raffle uses a bag containing 3 blue tickets and 4 pink tickets. A ticket is drawn, its colour recorded, and then returned to the bag before a second is drawn. (a) State the sample space for a single draw and for the two draws together. (b) Explain why the two draws are independent.
+>
+> (c) Draw a probability tree diagram, writing the probability on every branch, and check that the probabilities at each branching point total 1. (d) Calculate the probability that both tickets are blue. (e) Calculate the probability that the two tickets are of different colours. (f) Express your answer to (d) as a fraction, a decimal to three places and a percentage to one decimal place.
+
+<!-- page 151 -->
+
+### Chapter summary
+
+- An experiment has an uncertain result; each possible result is an outcome, and the set of all outcomes is the sample space.
+
+- P(event) = number of favourable outcomes ÷ total number of outcomes, when all outcomes are equally likely.
+
+- Every probability lies between 0 and 1, and all the probabilities in a sample space add up to 1.
+
+- A probability may be written as a fraction, a decimal, a percentage or a ratio of favourable to unfavourable.
+
+- Two events are independent when the happening of one has no effect on the chance of the other.
+
+- Drawing with replacement leaves the bag unchanged, so the draws stay independent; drawing without replacement makes them dependent.
+
+- For two experiments performed together, the number of combined outcomes is the product of the two separate numbers.
+
+- A table or a tree diagram sets out every combined outcome.
+
+- On a tree diagram, multiply along the branches to find the probability of a path, and add the ends of the paths that satisfy the event.
+
+- 'And' means multiply; 'or' means add.
+
+### Assessment
+
+> **How this assessment is balanced**
+>
+> Weighted to the NaCCA Mathematics profile dimensions — Knowledge and Understanding 30%, Application of Knowledge 40%, Attitudes, Values and Process Skills 30%. This chapter carries 20 items: 6 tagged [K], 8 tagged [A] and 6 tagged [P].
+>
+> Indicators assessed: B8.4.2.1.1; B8.4.2.1.2
+
+### Section A — Objective
+
+1.The set of all possible outcomes of an experiment is called the… A. event B. sample space C. trial D. frequency **[K]**
+
+2.An event that is certain to happen has a probability of… A. 0 B. 0.5 C. 1 D. 100 **[K]** 3.Two events are independent when… A. they cannot both happen B. one affects the other C. neither affects the other D. they have the same probability **[K]**
+
+4.Returning an item to the bag before the next draw is called drawing… A. at random B. with replacement C. without replacement D. in order **[K]**
+
+5.On a tree diagram, the probability of a whole path is found by… A. adding along the branches B. multiplying along the branches C. subtracting the branches D. dividing the branches **[K]**
+
+<!-- page 152 -->
+
+6.A branching diagram showing all the outcomes of two stages is called a… A. histogram B. pie chart C. tree diagram D. bar chart **[K]**
+
+7.A bag holds 3 red, 2 green and 1 pink bottle top. The probability of picking a red top is… A. 1/6 B. 1/3 C. 1/2 D. 2/3 **[A]**
+
+8.A fair die is thrown and a fair coin tossed. The number of outcomes in the combined sample space is… A. 6 B. 8 C. 12 D. 36 **[A]**
+
+9.A spinner marked win and lose is spun twice. The probability of two wins is… A. 1/8 B. 1/4 C. 1/2 D. 1 **[A]**
+
+10. A box holds 3 blue and 4 pink pens, drawn twice with replacement. The probability of two blue pens is… A. 6/49 B. 9/49 C. 3/7 D. 1/7 **[A]**
+
+### Section B — Theory and application
+
+1.(a) Explain what is meant by an experiment, an outcome and a sample space. (b) A bag contains 3 red, 2 green and 1 pink bottle top; list the elements of the sample space and calculate P(R), P(G) and P(P), showing that they total 1. (c) Express the probability 3/4 as a decimal, a percentage and a ratio. **[A]**
+
+2.Consider two events: throwing a fair six-sided die, and tossing a fair coin. (a) State the sample space for each. (b) State, with a reason, whether the occurrence of the first affects the occurrence of the second. (c) Find the probability of an even number showing on the die and the probability of a head showing on the coin. (d) State the relationship between the two events. (e) Explain why drawing an item with replacement keeps two draws independent. **[A]**
+
+3.A spinner has two equal sections marked win, W, and lose, L, and is spun twice. (a) Identify the sample space for the two spins. (b) Calculate P(W) and P(L) for a single spin. (c) Draw a probability tree diagram for the first and second spins, writing the probability on every branch. (d) Calculate the probability of each of the four combined outcomes and verify that they total 1. (e) Express the branch probabilities as decimals, percentages and ratios. **[A]**
+
+4.A box contains 3 blue pens and 4 pink pens. A pen is taken, its colour noted, and then replaced; a second pen is then taken and its colour noted. (a) State the sample space for the first and second trials. (b) Draw a probability tree diagram to represent the event. (c) Calculate the probability that both pens are blue. (d) Calculate the probability that the two pens are of different colours. (e) Verify that the probabilities of all four combined outcomes total 1. **[A]**
+
+### Section C — Attitudes, values and process tasks
+
+1.Perform an experiment with replacement: place 3 red, 2 green and 1 pink bottle top in a bag, list the sample space, and carry out 60 draws with replacement, recording each result. (Activity 13.1, step 1) **[P]**
+
+2.Compare experimental with theoretical: tabulate your 60 results, calculate the experimental probability of each colour, compare each with the theoretical probability, and comment on
+
+<!-- page 153 -->
+
+how close they are and on the effect of the number of trials. (Activity 13.1, steps 2 and think about it) **[P]**
+
+3.Investigate replacement: repeat 20 draws without replacement, record how the chance of red changes as the bag empties, and explain why replacement matters for independence. (Activity 13.1, step 3) **[P]**
+
+4.Tabulate a combined sample space: draw a 12-cell table for a die thrown with a coin, perform 40 combined trials, tally them into the table, and state whether every cell was filled and what that suggests. (Activity 13.1, step 4) **[P]**
+
+5.Model with a tree diagram: make a two-section spinner, record 40 pairs of spins, draw the tree diagram with a probability on every branch, and compare each theoretical probability with your experimental one. (Activity 13.1, step 5) **[P]**
+
+6.Convert between forms: take the four branch probabilities from your tree diagram and express each as a fraction, a decimal, a percentage and a ratio in a single table. (Activity 13.1, step 6) **[P]**
+
+<!-- page 154 -->
+
+### Glossary
+
+*Every key word from all 13 chapters, in alphabetical order, with the chapter in which it is introduced.*
+
+**Adjacent side —** the side next to the angle that is not the hypotenuse. *(Ch 10)*
+
+**Algebraic fraction —** a fraction whose numerator or denominator contains a variable. *(Ch 7)* **Alternate angles —** a pair of equal angles on opposite sides of a transversal, between the parallel lines. *(Ch 9)* **Angle of rotation —** the amount of the turn, measured in degrees. *(Ch 11)*
+
+**Annulus —** the ring between two circles having the same centre. *(Ch 10)*
+
+**Anticlockwise —** turning the opposite way to the hands of a clock. *(Ch 11)*
+
+**Area —** the amount of surface a shape covers. *(Ch 4)*
+
+**Area model (expand and box) —** a grid in which each part of one number is multiplied by each part of the other. *(Ch 2)* **Average speed —** total distance divided by total time. *(Ch 5)*
+
+**Balance —** the principle that the same operation may be done to both sides. *(Ch 8)*
+
+**Base —** the number being raised to a power. *(Ch 3)*
+
+**Benchmark fraction —** a common fraction whose decimal and percentage forms are worth memorising. *(Ch 2)* **Binomial —** an expression with two terms, such as x + 3. *(Ch 7)*
+
+**Bisect —** to cut exactly into two equal parts. *(Ch 9)*
+
+**BODMAS / PEDMAS —** two names for the same order of operations. *(Ch 4)*
+
+**Categorical data —** data recorded in categories rather than numbers. *(Ch 12)*
+
+**Centre of rotation —** the fixed point about which the turning takes place. *(Ch 11)*
+
+**Certain event —** an event whose probability is 1. *(Ch 13)*
+
+**Circumference —** the distance round a circle. *(Ch 10)*
+
+**Class interval —** a range of values into which data is grouped. *(Ch 12)*
+
+**Clockwise —** turning the same way as the hands of a clock. *(Ch 11)*
+
+**Closed circle —** a filled circle on a number line, showing the value is included. *(Ch 8)*
+
+**Co-interior angles —** a pair of angles on the same side of the transversal, between the parallels, adding to 180°. *(Ch 9)* **Coefficient —** the number multiplying a variable. *(Ch 6)*
+
+**Common factor —** a factor shared by two or more numbers. *(Ch 1)*
+
+**Compensation —** rounding a number to make the work easy, then correcting at the end. *(Ch 2)* **Component form —** a vector written as a column of its x and y steps. *(Ch 10)*
+
+**Congruent —** exactly the same shape and size. *(Ch 11)*
+
+**Constant of proportionality —** the fixed ratio of one quantity to the other; the unit rate. *(Ch 5)*
+
+<!-- page 155 -->
+
+**Construction —** an accurate drawing made with only a ruler and a pair of compasses. *(Ch 9)* **Continuous data —** numerical data that can take any value in a range, including fractions. *(Ch 12)* **Conversion factor —** an equality between two units, used as a ratio equal to 1. *(Ch 5)*
+
+**Corresponding angles —** a pair of equal angles in matching positions at the two crossings. *(Ch 9)* **Data —** facts or figures collected for a purpose. *(Ch 12)*
+
+**Decimal place —** a position to the right of the decimal point. *(Ch 1)*
+
+**Denominator —** the number below the line in a fraction. *(Ch 4)*
+
+**Difference of two squares —** an expression of the form a² − b², which factorises to (a + b)(a − b). *(Ch 7)* **Direction of rotation —** clockwise or anticlockwise. *(Ch 11)*
+
+**Discrete data —** numerical data that can only take separate, countable values. *(Ch 12)* **Distance–time graph (travel graph) —** a graph of distance against time. *(Ch 5)* **Distributive property —** a × (b + c) = a × b + a × c. *(Ch 2)*
+
+**Domain —** the set of numbers from which solutions may be taken. *(Ch 8)*
+
+**Element (member) —** an object belonging to a set. *(Ch 1)*
+
+**Equating indices —** solving an exponential equation by making both bases the same. *(Ch 3)*
+
+**Equidistant —** the same distance from. *(Ch 9)*
+
+**Equivalent fractions —** different fractions naming the same amount. *(Ch 4)*
+
+**Estimate —** an approximate answer used to check whether an exact answer is reasonable. *(Ch 2)* **Event —** an outcome or a set of outcomes that we are interested in. *(Ch 13)*
+
+**Expand —** remove brackets by multiplying out. *(Ch 7)*
+
+**Experiment —** an activity with a result that is not certain in advance. *(Ch 13)*
+
+**Exponential equation —** an equation in which the unknown appears as an index. *(Ch 3)*
+
+**Exterior angle —** the angle between one side of a polygon and the next side produced. *(Ch 9)* **Factor —** a whole number that divides exactly into another. *(Ch 1)*
+
+**Factorise —** write an expression as a product; the reverse of expanding. *(Ch 7)*
+
+**Favourable outcome —** an outcome that counts as the event happening. *(Ch 13)*
+
+**Frequency —** the number of times a value or class occurs. *(Ch 12)*
+
+**Generation —** one step back in a family line: parents, grandparents, and so on. *(Ch 3)*
+
+**Gradient (slope) —** the steepness of a line; on a travel graph it is the speed. *(Ch 5)* **Greater than (>) —** larger than. *(Ch 8)* **Greater than or equal to (≥) —** at least. *(Ch 8)* **Grouped data —** data collected into classes or intervals. *(Ch 12)*
+
+**Grouping —** factorising by taking terms in pairs. *(Ch 7)*
+
+<!-- page 156 -->
+
+**Halving and doubling —** halving one factor and doubling the other leaves the product unchanged. *(Ch 2)* **Histogram —** a chart of grouped numerical data drawn with bars that touch. *(Ch 12)*
+
+**Hypotenuse —** the longest side of a right-angled triangle, opposite the right angle. *(Ch 10)*
+
+**Image —** the shape after the transformation. *(Ch 11)*
+
+**Impossible event —** an event whose probability is 0. *(Ch 13)*
+
+**Improper fraction —** a fraction whose numerator is at least as large as its denominator. *(Ch 4)* **Independent events —** events where the result of one does not affect the result of the other. *(Ch 13)* **Index (exponent) —** the raised number showing how many times the base is used as a factor. *(Ch 3)* **Index (power) —** the raised number showing how many times the base is used as a factor. *(Ch 1)* **Index form —** a repeated multiplication written using a base and an index. *(Ch 3)*
+
+**Inequality —** a statement that one quantity is greater or less than another. *(Ch 8)*
+
+**Intercept —** the value of y where the line crosses the y-axis. *(Ch 6)*
+
+**Interior angle —** an angle inside a polygon at one of its vertices. *(Ch 9)* **Intersection (∩) —** the elements belonging to both sets. *(Ch 1)* **Invariant point —** a point that does not move under the transformation. *(Ch 11)*
+
+**Laws of indices —** the rules for combining powers of the same base. *(Ch 3)* **Less than (<) —** smaller than. *(Ch 8)* **Less than or equal to (≤) —** at most. *(Ch 8)* **Like terms —** terms with exactly the same variable part. *(Ch 7)*
+
+**Linear inequality —** an inequality in which the variable appears to the power 1 only. *(Ch 8)*
+
+**Linear relation —** a relation whose graph is a straight line. *(Ch 6)*
+
+**Locus —** the path traced by a point that moves according to a given rule. *(Ch 9)*
+
+**Lowest Common Multiple (LCM) —** the smallest number two or more numbers divide into exactly. *(Ch 4)* **Magnitude —** the length of a vector. *(Ch 10)*
+
+**Mean —** the total of the values divided by how many there are. *(Ch 12)*
+
+**Median —** the middle value when the data is arranged in order. *(Ch 12)*
+
+**Mental mathematics —** working out an answer in the head, without written calculation. *(Ch 2)* **Mixed number —** a whole number written beside a proper fraction. *(Ch 4)*
+
+**Mode —** the value that occurs most often. *(Ch 12)*
+
+**Model —** a mathematical description of a real situation. *(Ch 6)*
+
+**Number line —** a line on which numbers are marked at equal intervals. *(Ch 8)*
+
+**Numerator —** the number above the line in a fraction. *(Ch 4)*
+
+**Numerical data —** data recorded as numbers. *(Ch 12)*
+
+<!-- page 157 -->
+
+**Object —** the original shape before the transformation. *(Ch 11)*
+
+**Open circle —** a circle left unfilled on a number line, showing the value is not included. *(Ch 8)* **Opposite side —** the side facing the angle being used. *(Ch 10)*
+
+**Order of operations —** the agreed sequence: brackets, indices, division and multiplication, addition and subtraction. *(Ch 4)* **Ordered pair —** a pair of values written (x, y). *(Ch 6)*
+
+**Ordinal data —** categorical data that has a natural order. *(Ch 12)*
+
+**Origin —** the point (0, 0) on a graph. *(Ch 5)*
+
+**Outcome —** a single possible result of an experiment. *(Ch 13)*
+
+**Outlier —** a value far away from the rest of the data. *(Ch 12)*
+
+**Parallel lines —** lines in the same plane that never meet, however far they are produced. *(Ch 9)* **Partitioning —** splitting a number into the values of its digits so it can be worked with in parts. *(Ch 2)* **PEDMAS —** the order of operations: powers, division and multiplication, addition and subtraction. *(Ch 3)* **Percentage —** a fraction with denominator 100. *(Ch 4)*
+
+**Perfect square —** a number obtained by multiplying a whole number by itself. *(Ch 1)*
+
+**Perimeter —** the total distance round a shape. *(Ch 4)*
+
+**Perpendicular bisector —** the line that cuts a segment in half at right angles. *(Ch 9)*
+
+**Polygon —** a closed plane figure bounded by straight sides. *(Ch 9)*
+
+**Power —** a base together with its index, such as 2⁵. *(Ch 3)*
+
+**Probability —** a measure of how likely an event is, from 0 to 1. *(Ch 13)*
+
+**Product —** the answer to a multiplication. *(Ch 2)*
+
+**Product of binomials —** the result of multiplying two two-term expressions. *(Ch 7)*
+
+**Proportional relationship —** one in which the ratio of the two quantities is always the same. *(Ch 5)* **Pythagoras' theorem —** in a right-angled triangle, a² + b² = c². *(Ch 10)*
+
+**Quotient —** the answer to a division. *(Ch 2)*
+
+**Radius —** the distance from the centre of a circle to its edge. *(Ch 10)*
+
+**Range —** the difference between the highest and the lowest value. *(Ch 12)*
+
+**Rate —** a comparison of two quantities of different kinds, such as km per hour. *(Ch 5)*
+
+**Ratio —** a comparison of two quantities of the same kind. *(Ch 5)*
+
+**Raw data —** data as first collected, in no particular order. *(Ch 12)*
+
+**Reciprocal —** the value obtained by turning a fraction upside down. *(Ch 3)*
+
+**Regular polygon —** a polygon with all sides equal and all angles equal. *(Ch 9)*
+
+**Right-angled triangle —** a triangle containing an angle of 90°. *(Ch 10)*
+
+**Rise —** the vertical change between two points on a line. *(Ch 6)*
+
+**Rotation —** a turning of a shape about a fixed point. *(Ch 11)*
+
+<!-- page 158 -->
+
+**Run —** the horizontal change between the same two points. *(Ch 6)*
+
+**Sample space —** the set of all possible outcomes. *(Ch 13)*
+
+**Scalar —** an ordinary number, having magnitude but no direction. *(Ch 10)*
+
+**Sector —** a slice of a circle bounded by two radii and an arc. *(Ch 10)*
+
+**Semicircle —** half a circle. *(Ch 10)*
+
+**Set —** a collection of well-defined objects or numbers. *(Ch 1)*
+
+**Significant figures —** the digits carrying information about the size of a number. *(Ch 1)*
+
+**Simplest form —** a fraction whose numerator and denominator share no factor except 1. *(Ch 4)* **Sine, cosine, tangent —** the three primary trigonometric ratios. *(Ch 10)*
+
+**Skip counting —** counting forwards or backwards in equal steps. *(Ch 1)*
+
+**Solution set —** the set of all values that satisfy the inequality. *(Ch 8)*
+
+**Speed —** the distance travelled in one unit of time. *(Ch 5)*
+
+**Square root —** the number which, multiplied by itself, gives the given number. *(Ch 1)*
+
+**Standard form —** a number written as a value between 1 and 10 multiplied by a power of ten. *(Ch 1)* **Substitute —** replace each variable with a given number. *(Ch 7)*
+
+**Table of values —** a table of inputs beside their outputs. *(Ch 6)*
+
+**Tally —** a mark used to count items one at a time. *(Ch 12)*
+
+**Transformation —** a change in the position, size or orientation of a shape. *(Ch 11)*
+
+**Transversal —** a line that cuts across two or more other lines. *(Ch 9)*
+
+**Tree diagram —** a branching diagram showing all outcomes of two or more stages. *(Ch 13)*
+
+**Trial —** one performance of an experiment. *(Ch 13)*
+
+**Ungrouped data —** data listed as individual values. *(Ch 12)* **Union (∪) —** all the elements belonging to either set or to both. *(Ch 1)* **Unit rate —** a rate given for exactly one of the second quantity. *(Ch 5)*
+
+**Universal set —** the set containing everything under discussion. *(Ch 1)*
+
+**Vector —** a quantity having both magnitude and direction. *(Ch 10)*
+
+**Venn diagram —** overlapping circles used to show the relationship between sets. *(Ch 1)*
+
+**Vertical place value method —** long multiplication set out in columns. *(Ch 2)*
+
+**Vertically opposite angles —** the equal angles opposite each other where two lines cross. *(Ch 9)* **With replacement —** returning an item to the bag before the next draw. *(Ch 13)*
+
+**Without replacement —** keeping the item out, so the next draw is changed. *(Ch 13)* **y = mx + c —** the equation of a straight line, with m the gradient and c the intercept. *(Ch 6)*
+
+*161 terms.*
+
+<!-- page 159 -->
+
+### Index of Content Standards
+
+*Every NaCCA content standard and indicator prescribed for Basic 8 Mathematics, with the chapter in which it is taught. This table is the alignment proof for the whole book.*
+
+| **Code** | **Content standard / indicator** | **Chapter** |
+| --- | --- | --- |
+| B8.1.1.1 | Demonstrate understanding and the use of place value for expressing quantities in standard form and rounding numbers and decimals to significant figures and a given number of decimal places | Ch 1 |
+| B8.1.1.1.1 | Apply the understanding of place value to read and write in number quantities over 1,000,000,000 |  |
+| B8.1.1.1.2 | Skip count forwards and backwards in 10,000s, 100,000s, 500,000s, etc |  |
+| B8.1.1.1.3 | Compare and order whole numbers using “>, <, and =” |  |
+| B8.1.1.1.4 | Express integers of any size into standard form |  |
+| B8.1.1.1.5 | Express integers in a given number of significant and decimal places |  |
+| B8.1.1.1.6 | Create and solve word or real-life problems on place values |  |
+| B8.1.1.2 | Apply the concepts and vocabulary of sets on sets of factors of numbers to identify perfect squares, determine their square root and solve real life problems involving union and intersection of two sets | Ch 1 |
+| B8.1.1.2.1 | Use the concept of sets to identify perfect squares and determine the square roots. Use the knowledge on sets and sets of factors of numbers to solve problems |  |
+| B8.1.1.2.2 | Use the knowledge on sets and sets of factors of numbers to solve real life problems involving union and intersection |  |
+| B8.1.2.1 | Apply mental mathematics strategies and number properties used to solve problems | Ch 2 |
+| B8.1.2.1.1 | Multiply and divide by power of 10 including decimals and the benchmark fractions |  |
+| B8.1.2.1.2 | Apply mental mathematics strategies and number properties to do calculation |  |
+| B8.1.2.1.3 | Apply mental mathematics strategies to solve word problems |  |
+| B8.1.2.2 | Apply the understanding of the addition, subtraction, multiplication and division of (i) whole numbers within 10,000, and (ii) decimals up to 1/1000, to solve problems and round answers to given decimal places | Ch 2 |
+| B8.1.2.2.1 | Add and subtract more than four-digit numbers |  |
+
+<!-- page 160 -->
+
+| B8.1.2.2.2 | Multiply or divide multi-digit numbers by 2- and 3-digit numbers |  |
+| --- | --- | --- |
+| B8.1.2.2.3 | Create and solve story problems involving decimals on the four understanding of the basic operations. addition, subtraction, |  |
+| B8.1.2.3 | Demonstrate understanding and the use of the laws of indices in Ch 3 solving problems (including real life problems) involving powers of natural numbers |  |
+| B8.1.2.3.1 | Identify and explain the laws of indices |  |
+| B8.1.2.3.2 | Apply the laws of indices to simplify and evaluate numbers involving powers of numbers. (PEDMAS) |  |
+| B8.1.2.3.3 | Solve exponential equations |  |
+| B8.1.2.3.4 | Solve real life problems involving powers of natural numbers |  |
+| B8.1.3.1 | Apply the understanding of operation on fractions to solve problems involving fractions of given quantities and round the results to given decimal and significant places. ii. Faako answers 42 out of 60 questions correctly. What percentage of her answers are correct? iii. In a school of the students eat from the school feeding programme, bring their packed lunch, and the rest go home to eat. What fraction of the students go home for lunch? iv. Esi and Fusena prepared an orange drink by mixing orange squash and water. Esi’s drink was made of orange squash and Fusena’s was made up of orange squash. Whose drink tastes stronger of orange? | Ch 4 |
+| B8.1.3.1.1 | Review fractions and solve problems involving basic operations on fractions |  |
+| B8.1.3.1.2 | Add and/or subtract, multiply and/or divide given fractions, by using the principle of the order of operations (the rule of BODMAS or PEMDAS), and apply the understanding to solve problems |  |
+| B8.1.3.1.3 | Review word problems involving basic operations on fractions and related concepts |  |
+| B8.1.4.1 | Demonstrate an understanding of ratio, rate and proportions and Ch 5 use it these to solve real- world mathematical problems. Salamatu is a drummer for a band. She burns 756 calories while drumming • |  |
+| B8.1.4.1.1 | Use ratio reasoning to convert measurement units; manipulate and transform units appropriately when multiplying or dividing quantities. Convert (cm to m; km to m; ml to cm; etc.) one unit of measure to |  |
+| B8.1.4.1.2 | Solve unit rate problems including those involving unit pricing |  |
+
+<!-- page 161 -->
+
+|  | and constant speed; and speed translation |  |
+| --- | --- | --- |
+| B8.1.4.1.3 | Apply the knowledge of speed to draw and interpret travel graphs or distance-time graphs |  |
+| B8.1.4.1.4 | Recognise and represent proportional relationships between quantities by deciding whether two quantities are in a proportional relationship. (e.g. by testing for equivalent ratios in a table or graphing on a coordinate plane and observing whether the graph is a straight line through the origin) |  |
+| B8.1.4.1.5 | Identify the constant of proportionality (unit rate) in tables, graphs, equations, diagrams, and verbal descriptions of proportional relationships |  |
+| B8.2.1.1 | Demonstrate the ability to draw table of values for a linear relation, graph the relation in a number plane, determine the gradient of the line and use it to write equation of a line of the form y = mx + c. Copy and complete the table for the relation: Distanc 1 2 3 4 5 e Time | Ch 6 |
+| B8.2.1.1.1 | Calculate the gradient of a line and use it to write equation of a line of the form y = mx + c |  |
+| B8.2.1.1.2 | Use graph of a linear relation to determine subsequent missing elements in the ordered pairs of the relation |  |
+| B8.2.1.1.3 | Use graphs of linear relations to solve real life problems. Draw graphs for real life problems |  |
+| B8.2.2.1 | Solve problems involving algebraic expressions (including multiplication of binomial expressions) factorise given expressions and substitute values to evaluate algebraic expressions. Simplify: | Ch 7 |
+| B8.2.2.1.1 | Use the distributive property to remove brackets and solve multiplication of binomial expression |  |
+| B8.2.2.1.2 | Perform addition, subtraction, multiplication and division of algebraic expressions including fractions. Solve problems based on multiplication and division of algebraic fractions |  |
+| B8.2.2.1.3 | Substitute values to evaluate algebraic expressions including fractions and use these to solve problems. simplify, then substitute in the value to evaluate the following expressions: io x = 2, y = -2, z = 3, a = 1 ama a = -1, i. 3 2 3a 10d 2 2 2 x+1 - x-1 iv. 15a d x 9a ii. 2 2 1 2 6x +2xy 15z + v. x x-1 x+1 5z 3x+y iii. 12xy 14x 2 2 7 x 20 vi. 5x + 7z - 4a + 3y |  |
+| B8.2.2.1.4 | Factorise given expressions involving the four operations and use the experiences gained to solve problems |  |
+
+<!-- page 162 -->
+
+| B8.2.3.1 | Demonstrate an understanding of linear inequalities of the form x + a ≥ b (where a and b are integers) by modelling problems as a linear inequalities and solving the problems concretely, pictorially, and symbolically | Ch 8 |
+| --- | --- | --- |
+| B8.2.3.1.1 | Translate word problems into linear inequalities in one variable and vice versa |  |
+| B8.2.3.1.2 | Solve simple linear inequalities |  |
+| B8.2.3.1.3 | Determine solution sets of simple linear inequalities in given domains |  |
+| B8.3.1.1 | Demonstrate understanding and use of the relationship between Ch 9 parallel lines and alternate and corresponding angles and use the sum of angles in a triangle to deduce the angle sum in any polygon |  |
+| B8.3.1.1.1 | Draw and determine the values of alternate and corresponding angles |  |
+| B8.3.1.1.2 | Determine the values of angles in a triangle using knowledge of the sum of interior angles in a triangle and other properties |  |
+| B8.3.1.2 | Demonstrate the ability to perform geometric constructions of the angles (75˚, 105˚, 60˚, 135˚ and 150˚), and construct triangles and find locus of points under given conditions. Any point on line CD is of equal distance from the two fixed points A and B | Ch 9 |
+| B8.3.1.2.1 | Construct and bisect angles of 120˚, 105˚, 135˚ and 150˚ |  |
+| B8.3.1.2.2 | : Construct scalene triangles, isosceles triangles, equilateral triangles, obtuse-angled triangle, and acute-angled triangles in different orientations under given conditions |  |
+| B8.3.1.2.3 | : Construct loci under given conditions including: (i) the locus of sets of points from a fixed point; (ii) the locus of points equidistant from two fixed points; (iii) the locus of points equidistant from two intersecting straight lines, and (iv) the locus of points equidistant from two parallel lines |  |
+| B8.3.2.1 | Apply the Pythagoras theorem, the primary trigonometric ratios and the formulas for determining the area of a circle to solve real problems. ii. Write two trig ratios of the angle marked θ in the diagram below: | Ch 10 |
+| B8.3.2.1.1 | Use the relationship between the diameter and circumference of a circle to deduce the formula for finding its area, and use this to solve problems |  |
+| B8.3.2.1.2 | Establish the relationship between the hypotenuse ‘c’ and the two other sides ‘a’ and ‘b’ of a right-angled triangle (i.e. a2 + 2 2 |  |
+
+<!-- page 163 -->
+
+|  | b = c ) and use it to solve problems |  |
+| --- | --- | --- |
+| B8.3.2.1.3 | Use the Pythagorean theorem to solve problems on right- angled triangle |  |
+| B8.3.2.1.4 | Use the Pythagoras theorem to calculate the area of a triangle in real life problems |  |
+| B8.3.2.1.5 | Establish the relationship between the basic trigonometric ratios and solve problems involving right-angled triangles |  |
+| B8.3.2.2 | Demonstrate understanding of addition and subtraction of vectors and their applications in solving basic problems | Ch 10 |
+| B8.3.2.2.1 | Add, subtract and find the scalar multiplication of vectors in the component form |  |
+| B8.3.2.2.2 | Demonstrate understanding of vector equality |  |
+| B8.3.3.1 | Perform a single transformation (i.e. rotation) on a 2D shape using graph paper (including technology) and describe the properties of the image under the transformation (i.e. congruence) | Ch 11 |
+| B8.3.3.1.1 | Understand rotation and identify real-life situations involving rotation |  |
+| B8.3.3.1.2 | Draw rotation image in a coordinate plane and determine the angle of rotation |  |
+| B8.3.3.1.3 | Investigate the concept of congruent shapes |  |
+| B8.4.1.1 | Select, justify, and use appropriate methods to collect data (quantitative and qualitative), use the data (grouped/ungrouped) to construct and interpret frequency tables, bar charts, pie charts, and pictograms to solve and/or pose problems | Ch 12 |
+| B8.4.1.1.1 | Identify types of given data including numerical, categorical, ungrouped and grouped data |  |
+| B8.4.1.1.2 | Select and justify a method to collect data (quantitative and qualitative) to answer a given question |  |
+| B8.4.1.1.3 | Organise data (grouped/ungrouped), present it in frequency tables, line graphs, pie graphs, bar graphs and/or pictographs (representations include info graphics, waffle diagrams, box and whisker plots and stem and leaf plots) and analyse it to solve and/or pose problems |  |
+| B8.4.1.2 | Demonstrate an understanding of measures of central tendency (mean, median, mode) and range for grouped data and explain when it’s most appropriate to use the mean, median, or mode | Ch 12 |
+| B8.4.1.2.1 | Calculate the mean, median and mode for a given set of ungrouped data, and explain why these values may be the same |  |
+
+<!-- page 164 -->
+
+|  | or different |  |
+| --- | --- | --- |
+| B8.4.1.2.2 | Justify a context in which the mean, median or mode is the most appropriate measure of central tendency to use when reporting findings |  |
+| B8.4.2.1 | Identify the sample space for a probability experiment involving two independent events and express the probabilities of given events as fractions, decimals, percentages and/or ratios to solve problems | Ch 13 |
+| B8.4.2.1.1 | Perform a probability experiment involving two independent events such as drawing coloured bottle tops from a bag with replacement and list the elements of the sample space |  |
+| B8.4.2.1.2 | Express the probabilities of the events as fractions, decimals, percentages and/or ratios. e.g.by using a tree diagram, table or other graphic organiser |  |
+
+*18 content standards · 58 indicators · all covered.*
