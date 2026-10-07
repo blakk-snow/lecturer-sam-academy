@@ -24,3 +24,8 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Textbook upstream sources — the app only reads the md/ conversions
+src/data/courses-data/textbooks-and-references/*.docx
+src/data/courses-data/textbooks-and-references/*.xlsx
+src/data/courses-data/textbooks-and-references/uploads/
