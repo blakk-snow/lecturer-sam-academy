@@ -14,6 +14,7 @@ const links = [
   { to: "/practice", label: "Practice" },
   { to: "/dashboard", label: "Progress" },
   { to: "/profile", label: "Profile" },
+  { to: "/help", label: "Help" },
 ];
 
 // ── User menu (avatar + sign-out) ─────────────────────────────────────────────

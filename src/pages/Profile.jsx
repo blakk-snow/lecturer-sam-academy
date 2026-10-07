@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { CloudUpload, Loader2, LogIn, LogOut } from "lucide-react";
 import { Button } from "../components/ui/Button";
 import { Card } from "../components/ui/Card";
@@ -148,6 +148,11 @@ export default function Profile() {
         </form>
       </Card>
       <AccountCard />
+      <p className="text-center">
+        <Link to="/help" className="text-sm text-accent hover:underline">
+          How to use this app →
+        </Link>
+      </p>
     </div>
   );
 }

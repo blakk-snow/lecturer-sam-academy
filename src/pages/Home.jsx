@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { BookMarked, BookOpen, Bot, CalendarDays, GraduationCap } from "lucide-react";
+import { BookMarked, BookOpen, Bot, CalendarDays, GraduationCap, HelpCircle } from "lucide-react";
 import { Button } from "../components/ui/Button";
 import { useStudent } from "../context/StudentContext";
 import { useChat } from "../context/ChatContext";
@@ -120,6 +120,22 @@ export default function Home() {
         </div>
         <Button onClick={openPanel} className="shrink-0">Start a chat</Button>
       </section>
+
+      {/* How-to guide */}
+      <Link to="/help" className="block group">
+        <section className="rounded-2xl border border-line bg-card p-6 flex items-center gap-4 transition-colors group-hover:border-accent/40">
+          <div className="w-11 h-11 rounded-full bg-accent/10 flex items-center justify-center shrink-0">
+            <HelpCircle size={22} className="text-accent" />
+          </div>
+          <div className="flex-1">
+            <h2 className="font-serif text-xl">How to use this app</h2>
+            <p className="mt-1 text-sm text-ink-soft">
+              New here? Take the short tour — every feature explained step by step.
+            </p>
+          </div>
+          <span className="shrink-0 text-accent font-medium text-sm">Open guide →</span>
+        </section>
+      </Link>
 
       {/* Quote strip */}
       <section className="rounded-2xl border border-line bg-card px-8 py-7">
