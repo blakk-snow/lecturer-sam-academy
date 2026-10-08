@@ -1,5 +1,5 @@
 import { useState, useEffect, useRef, useCallback, useMemo } from 'react';
-import { useParams, useNavigate } from 'react-router-dom';
+import { useParams, useNavigate, Link } from 'react-router-dom';
 import { ArrowLeft, ChevronLeft, ChevronRight, Sparkles, Loader2, Download } from 'lucide-react';
 import {
   useSubject, useWeekPlans, useWeekTopicsForSubject, useLessonNote,
@@ -7,6 +7,7 @@ import {
 } from '../hooks/usePlanner';
 import { generateLessonPlan, generateAssessment, generateMethodLessonPlan, extractMethodSections } from '../services/ai';
 import { getMethodForSubject, methodSectionsToFields } from '../data/teachingMethods';
+import { useUsage, FREE_MONTHLY_LIMIT } from '../hooks/useUsage';
 import { findSamplePlans } from '../data/sampleLessonPlans';
 import { Markdown } from '../components/chat/Markdown';
 import { PrintLessonPlan } from '../components/lesson/PrintLessonPlan';
@@ -38,14 +39,25 @@ const STEPS = [
 // ── AI Generate Button ─────────────────────────────────────────────────────────
 
 function AIButton({ label, loading, disabled, onClick, tooltip }) {
+  const { signedIn, outOfQuota } = useUsage();
+  // AI needs an account and the free tier is metered. Say so on the button
+  // rather than letting the request fail with a proxy error afterwards.
+  const blocked = !signedIn || outOfQuota;
+  const isDisabled = disabled || blocked;
+  const tip = tooltip ?? (blocked
+    ? (!signedIn
+      ? 'Sign in to use AI generation — it needs a free account.'
+      : `You have used all ${FREE_MONTHLY_LIMIT} free AI generations this month. Upgrade to Pro on your Profile page.`)
+    : undefined);
+
   return (
     <div className="relative group">
       <button
         type="button"
         onClick={onClick}
-        disabled={disabled || loading}
+        disabled={isDisabled || loading}
         className={`flex items-center gap-1.5 px-3 py-1.5 rounded-xl text-xs font-medium border transition-colors ${
-          disabled
+          isDisabled
             ? 'border-line text-ink-soft/40 bg-paper cursor-not-allowed'
             : loading
             ? 'border-accent/30 text-accent bg-accent/5 cursor-wait'
@@ -58,10 +70,39 @@ function AIButton({ label, loading, disabled, onClick, tooltip }) {
         }
         {loading ? 'Generating…' : label}
       </button>
-      {disabled && tooltip && (
+      {isDisabled && tip && (
         <div className="absolute bottom-full left-0 mb-1.5 w-52 rounded-lg bg-ink text-white text-xs px-2.5 py-1.5 pointer-events-none opacity-0 group-hover:opacity-100 transition-opacity z-10 leading-snug">
-          {tooltip}
+          {tip}
         </div>
+      )}
+    </div>
+  );
+}
+
+/**
+ * Visible version of the AIButton tooltip — tooltips are hover-only, so mobile
+ * users (most of them) would never see why generation is unavailable.
+ */
+function AIGateNotice() {
+  const { signedIn, outOfQuota } = useUsage();
+  if (signedIn && !outOfQuota) return null;
+
+  return (
+    <div className="mb-5 rounded-xl border border-line bg-card px-3.5 py-2.5 text-xs leading-relaxed text-ink-soft">
+      {!signedIn ? (
+        <>
+          <Sparkles size={12} className="inline mr-1.5 -mt-0.5 text-accent" />
+          AI generation needs a free account.{' '}
+          <Link to="/profile" className="font-medium text-accent hover:underline">Sign in</Link>{' '}
+          to generate this lesson plan — everything you type yourself saves without one.
+        </>
+      ) : (
+        <>
+          <Sparkles size={12} className="inline mr-1.5 -mt-0.5 text-accent" />
+          You have used all {FREE_MONTHLY_LIMIT} free AI generations this month.{' '}
+          <Link to="/profile" className="font-medium text-accent hover:underline">Upgrade to Pro</Link>{' '}
+          for unlimited generations — the counter resets on the 1st.
+        </>
       )}
     </div>
   );
@@ -905,6 +946,8 @@ export default function PlannerLesson() {
           <span className="text-2xl mb-1 block">{currentStep.icon}</span>
           <h1 className="text-2xl font-bold text-ink font-serif">{currentStep.label}</h1>
         </div>
+
+        <AIGateNotice />
 
         {/* Slide content */}
         {renderSlide()}
