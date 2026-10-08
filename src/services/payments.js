@@ -15,13 +15,20 @@ export function paymentsConfigured() {
 
 /**
  * Open the Paystack Inline checkout.
+ *
+ * The signed-in user's uid travels in the transaction metadata so the webhook
+ * credits exactly this account, even if the payment email differs from the
+ * account email (Paystack echoes metadata back on the webhook and in the
+ * verify response).
+ *
  * @param {object} opts
  * @param {string} opts.email - payer's email (the signed-in user's email)
  * @param {string} [opts.name] - payer's display name
+ * @param {string} [opts.uid] - Firebase uid of the signed-in user
  * @param {() => void} [opts.onSuccess] - called when the payment dialog succeeds
  * @param {() => void} [opts.onClose] - called when the user closes the dialog
  */
-export function openProCheckout({ email, name, onSuccess, onClose }) {
+export function openProCheckout({ email, name, uid, onSuccess, onClose }) {
   const key = import.meta.env.VITE_PAYSTACK_PUBLIC_KEY;
   if (!key) {
     window.alert('Payments are coming soon — check back in a few days.');
@@ -51,7 +58,13 @@ export function openProCheckout({ email, name, onSuccess, onClose }) {
       amount: PRO_AMOUNT_PESAWA,
       currency: 'GHS',
       ref: `lsa-${Date.now()}-${Math.floor(Math.random() * 1e6)}`,
-      metadata: { custom_fields: [{ display_name: 'Plan', variable_name: 'plan', value: 'pro-monthly' }] },
+      metadata: {
+        uid: uid ?? '',
+        custom_fields: [
+          { display_name: 'Plan', variable_name: 'plan', value: 'pro-monthly' },
+          ...(name ? [{ display_name: 'Name', variable_name: 'name', value: name }] : []),
+        ],
+      },
       callback: () => onSuccess?.(),
       onClose: () => onClose?.(),
     });

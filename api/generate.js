@@ -7,12 +7,15 @@
  *
  * The OPENROUTER_API_KEY environment variable must be set in the platform
  * dashboard (Vercel → Project Settings → Environment Variables).
- * Auth + quota enforcement (FIREBASE_SERVICE_ACCOUNT) is always active here.
+ *
+ * FIREBASE_SERVICE_ACCOUNT must be set here too: auth + quota enforcement is
+ * mandatory on Vercel, and without the key this function fails CLOSED (503)
+ * rather than serving unmetered AI.
  */
 
 import { gateAiRequest } from './_aiGate.mjs';
 
-export const config = { runtime: 'nodejs' };
+export const config = { maxDuration: 60 };
 
 export default async function handler(req, res) {
   // CORS preflight

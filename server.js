@@ -1,12 +1,17 @@
 /**
- * server.js — Lightweight AI proxy server for Lecturer Sam Academy
+ * server.js — Local development proxy for Lecturer Sam Academy
  *
- * Uses only Node.js built-ins. No Express, no external dependencies.
- * Reads OPENROUTER_API_KEY from .env and proxies POST /api/generate
- * to OpenRouter, keeping the API key off the client.
+ * Built on Node.js built-ins for the HTTP layer, with two shared modules so
+ * dev behaviour matches production:
+ *   api/_aiGate.mjs        — Firebase auth + monthly AI quota (active when
+ *                            FIREBASE_SERVICE_ACCOUNT is set, otherwise it
+ *                            warns and lets requests through unauthenticated)
+ *   api/_paystackWebhook.mjs — Paystack charge.success verification. Here the
+ *                            raw body IS available, so signature checking runs
+ *                            in its strict, byte-exact mode — the way to test
+ *                            a webhook before deploying.
  *
- * Start: node server.js
- * Default port: 3001
+ * Reads configuration from .env. Start: node server.js   (default port 3001)
  */
 
 import http from 'http';
@@ -15,6 +20,7 @@ import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
 import { gateAiRequest } from './api/_aiGate.mjs';
+import { processWebhook } from './api/_paystackWebhook.mjs';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
@@ -253,6 +259,31 @@ const server = http.createServer(async (req, res) => {
     return;
   }
 
+  // Paystack webhook (dev). The raw body is captured verbatim, so signature
+  // verification runs byte-exact here — useful for testing with a tunnel
+  // (e.g. `ngrok http 3001`) or with the curl recipe in the README.
+  if (req.method === 'POST' && req.url === '/api/paystack-webhook') {
+    try {
+      const rawBody = await readBody(req);
+      const result = await processWebhook({
+        body: rawBody,
+        signature: req.headers['x-paystack-signature'],
+      });
+      res.writeHead(result.status, { 'Content-Type': 'application/json' });
+      res.end(JSON.stringify(result.body));
+    } catch (err) {
+      if (err.status === 413) {
+        res.writeHead(413, { 'Content-Type': 'application/json' });
+        res.end(JSON.stringify({ error: 'Request body too large' }));
+        return;
+      }
+      console.error('[server] webhook error:', err.message);
+      res.writeHead(500, { 'Content-Type': 'application/json' });
+      res.end(JSON.stringify({ error: 'Internal server error', detail: err.message }));
+    }
+    return;
+  }
+
   // 404
   res.writeHead(404, { 'Content-Type': 'application/json' });
   res.end(JSON.stringify({ error: 'Not found' }));
@@ -261,5 +292,7 @@ const server = http.createServer(async (req, res) => {
 server.listen(PORT, () => {
   console.log(`[server] ✓ AI proxy running on http://localhost:${PORT}`);
   console.log(`[server]   POST http://localhost:${PORT}/api/generate`);
+  console.log(`[server]   POST http://localhost:${PORT}/api/paystack-webhook`);
   console.log(`[server]   API key: ${OPENROUTER_API_KEY ? '✓ set' : '✗ missing — add to .env'}`);
+  console.log(`[server]   Paystack: ${process.env.PAYSTACK_SECRET_KEY ? '✓ secret key set' : '✗ no secret key — webhook returns 500'}`);
 });

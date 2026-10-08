@@ -11,8 +11,12 @@
  * Free plan: 10 AI generations per calendar month.
  * Pro plan:  unlimited while proExpiresAt is in the future.
  *
- * Without a FIREBASE_SERVICE_ACCOUNT the gate is disabled (dev convenience);
- * production must always set it.
+ * Without a FIREBASE_SERVICE_ACCOUNT the gate cannot verify anything, so:
+ *   - in a production runtime (VERCEL=1 or NODE_ENV=production) it fails
+ *     CLOSED with 503 — a missing or malformed key must never turn the proxy
+ *     into an open, unmetered endpoint that spends the OpenRouter balance;
+ *   - under `node server.js` it fails open with a warning, so local
+ *     development works without exporting a service-account key.
  */
 
 export const FREE_MONTHLY_LIMIT = 10;
@@ -20,6 +24,7 @@ export const PRO_AMOUNT_PESAWA = 5000; // GH₵50.00
 
 let adminApp = null;
 let adminModule = null;
+let devFallbackWarned = false;
 
 async function getAdmin() {
   if (adminModule === undefined) {
@@ -34,6 +39,16 @@ async function getAdmin() {
 
 export function adminInitialized() {
   return adminApp !== null;
+}
+
+/**
+ * True when a missing Firebase Admin must fail CLOSED instead of falling back
+ * to open access. Vercel sets VERCEL=1 on every function invocation; other
+ * production hosts set NODE_ENV=production. `node server.js` sets neither, so
+ * local development keeps working without a service-account key.
+ */
+export function enforcementRequired() {
+  return process.env.VERCEL === '1' || process.env.NODE_ENV === 'production';
 }
 
 /** Lazily initialise Firebase Admin from FIREBASE_SERVICE_ACCOUNT (JSON). */
@@ -68,11 +83,32 @@ export async function initFirebaseAdmin() {
  *   status 200 → allowed (call OpenRouter)
  *   status 401 → auth-required
  *   status 402 → quota-exceeded
+ *   status 503 → the server cannot enforce quota (misconfigured production)
  */
 export async function gateAiRequest(authHeader) {
   const app = await initFirebaseAdmin();
   if (!app) {
-    // Dev fallback: no service account configured — allow unauthenticated.
+    if (enforcementRequired()) {
+      // Fail CLOSED. A missing or malformed FIREBASE_SERVICE_ACCOUNT must not
+      // turn into an open, unmetered proxy that spends the OpenRouter balance.
+      console.error(
+        '[ai-gate] FIREBASE_SERVICE_ACCOUNT is missing or invalid in a production runtime — refusing the request.',
+      );
+      return {
+        status: 503,
+        body: {
+          error: {
+            code: 'service-unavailable',
+            message: 'The assistant is temporarily unavailable. Please try again later or contact support.',
+          },
+        },
+      };
+    }
+    // Dev fallback: `node server.js` with no service account configured.
+    if (!devFallbackWarned) {
+      devFallbackWarned = true;
+      console.warn('[ai-gate] no Firebase Admin — allowing unauthenticated AI (local development only).');
+    }
     return { status: 200, uid: null };
   }
 

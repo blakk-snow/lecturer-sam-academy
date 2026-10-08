@@ -33,6 +33,7 @@ function AccountCard() {
     openProCheckout({
       email: user.email,
       name: user.displayName ?? undefined,
+      uid: user.uid,
       onSuccess: () => setPayNotice('Payment received — your Pro plan activates within a minute.'),
       onClose: () => setPayNotice('Payment window closed. Your plan was not changed.'),
     });

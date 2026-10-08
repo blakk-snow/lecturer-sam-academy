@@ -102,7 +102,11 @@ export function AuthProvider({ children }) {
   async function signInWithGoogle() {
     setAuthError(null);
     try {
-      await signInWithPopup(auth, googleProvider);
+      const result = await signInWithPopup(auth, googleProvider);
+      // A first-time Google account is a registration, not just a login.
+      if (result?._tokenResponse?.isNewUser) {
+        track('sign_up', { method: 'google' });
+      }
     } catch (err) {
       const code = err?.code;
       const silentCodes = ['auth/popup-closed-by-user', 'auth/cancelled-popup-request'];
@@ -146,6 +150,7 @@ export function AuthProvider({ children }) {
       if (trimmedName) {
         await updateProfile(credential.user, { displayName: trimmedName });
       }
+      track('sign_up', { method: 'email' });
       return true;
     } catch (err) {
       setAuthError(friendlyAuthError(err));
