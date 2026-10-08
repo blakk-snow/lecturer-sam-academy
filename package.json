@@ -16,7 +16,8 @@
     "seed:course-notes": "node scripts/seed-course-notes.mjs",
     "test": "node --test scripts/test-*.mjs",
     "test:webhook": "node --test scripts/test-paystack-webhook.mjs",
-    "test:gate": "node --test scripts/test-ai-gate.mjs"
+    "test:gate": "node --test scripts/test-ai-gate.mjs",
+    "test:support": "node --test scripts/test-support-link.mjs"
   },
   "dependencies": {
     "dexie": "^4.2.0",

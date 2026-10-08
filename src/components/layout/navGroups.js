@@ -7,6 +7,20 @@
  */
 
 import { BookMarked, BookOpen, CalendarDays, UserRound } from 'lucide-react';
+import { buildSupportLink } from '../../utils/whatsapp';
+
+/**
+ * WhatsApp support line, configured at build time so the number can change
+ * without a code edit:  VITE_SUPPORT_WHATSAPP=233241234567
+ *
+ * Number normalisation lives in src/utils/whatsapp.js (and is tested there).
+ * Without a usable number the entry is omitted entirely — a wa.me link with no
+ * recipient just opens WhatsApp and asks the user to pick a contact.
+ */
+export const supportLink = buildSupportLink(
+  import.meta.env.VITE_SUPPORT_WHATSAPP,
+  'Hello Lecturer Sam Academy support — ',
+);
 
 export const NAV_GROUPS = [
   {
@@ -50,11 +64,7 @@ export const NAV_GROUPS = [
       { to: '/terms', label: 'Terms' },
       { to: '/privacy', label: 'Privacy' },
       { to: '/onboarding', label: 'Welcome tour' },
-      {
-        to: 'https://wa.me/?text=Hello%20Lecturer%20Sam%20Academy%20support%20—',
-        label: 'WhatsApp support',
-        external: true,
-      },
+      ...(supportLink ? [{ to: supportLink, label: 'WhatsApp support', external: true }] : []),
     ],
   },
 ];

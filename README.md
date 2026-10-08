@@ -133,6 +133,8 @@ AI is a paid upstream cost, so it is metered server-side. Signed-out visitors ca
 - `401 auth-required` → the UI shows "Sign in to use the assistant".
 - `402 quota-exceeded` → the UI shows the monthly limit message and an upgrade prompt.
 
+The client blocks those paths up front so a teacher is told *before* typing, rather than watching a request fail: the chat composer and its action chips are disabled with an inline sign-in/upgrade prompt when signed out or out of quota, and the planner's AI generation buttons are disabled with the same reason. `PlannerLesson` also renders a visible notice, because the button tooltips are hover-only and most users are on touch devices.
+
 In development, `server.js` skips enforcement when `FIREBASE_SERVICE_ACCOUNT` is absent (it logs a warning) so local work stays friction-free. In a production runtime — detected via `VERCEL=1` or `NODE_ENV=production` — the gate fails **closed** with `503` instead, so a missing or malformed key can never turn the proxy into an open, unmetered endpoint that spends the OpenRouter balance.
 
 **Payment path** — `src/services/payments.js` opens Paystack Inline with the signed-in user's email and uid in the transaction metadata; `api/_paystackWebhook.mjs` confirms the charge and sets `plan: 'pro'` for 30 days (renewals stack onto an unexpired period). See [Deployment & production](#deployment--production) for the verification model and setup steps.
@@ -202,6 +204,7 @@ npm run test:webhook
 | `FIREBASE_SERVICE_ACCOUNT` | **Production** | — | Firebase Admin key (whole JSON on one line). Enables auth + quota enforcement and Pro activation; without it the AI gate is disabled locally and payments cannot be applied |
 | `PAYSTACK_SECRET_KEY` | For payments | — | Verifies webhook signatures and calls Paystack's verify API. Server-side only |
 | `VITE_PAYSTACK_PUBLIC_KEY` | For payments | — | Opens the Paystack Inline checkout in the browser. Must be `VITE_`-prefixed to reach the client |
+| `VITE_SUPPORT_WHATSAPP` | No | — | Support number, digits only with country code (`233241234567`). The Settings → "WhatsApp support" entry is hidden until it is set |
 | `VITE_FIREBASE_API_KEY` | For Firebase | — | Firebase web app API key |
 | `VITE_FIREBASE_AUTH_DOMAIN` | For Firebase | — | Firebase Authentication domain |
 | `VITE_FIREBASE_PROJECT_ID` | For Firebase | — | Firebase project ID |
@@ -280,7 +283,7 @@ A forged signature returns `401`; a correctly signed but unverifiable reference 
 - [ ] Signed-out AI is refused with a sign-in prompt; the 11th free generation of a month is refused with the upgrade prompt
 - [ ] Paystack **test** webhook configured and a test charge activates Pro (Profile shows "Pro plan")
 - [ ] A repeat delivery of the same charge does not extend `proExpiresAt` twice
-- [ ] `/terms` and `/privacy` reviewed by a lawyer and the WhatsApp support number filled in (`src/components/layout/navGroups.js`)
+- [ ] `/terms` and `/privacy` reviewed by a lawyer, and `VITE_SUPPORT_WHATSAPP` set so the support link has a recipient
 - ] Custom HTTPS domain live, PWA installs, and the offline shell loads on a cold start
 - [ ] Textbook permission resolved (see below)
 

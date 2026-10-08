@@ -13,7 +13,7 @@ import { useChat } from '../../context/ChatContext';
 import { useUsage, FREE_MONTHLY_LIMIT } from '../../hooks/useUsage';
 import { Markdown } from './Markdown';
 
-function MessageBubble({ message, interactive, picks, busy, onChip, closePanel }) {
+function MessageBubble({ message, interactive, picks, busy, chipsDisabled, onChip, closePanel }) {
   const isUser = message.role === 'user';
   const showChips = interactive && message.chips?.length > 0;
 
@@ -85,7 +85,7 @@ function MessageBubble({ message, interactive, picks, busy, onChip, closePanel }
                 <button
                   key={chip.id}
                   onClick={() => onChip(chip.id)}
-                  disabled={busy}
+                  disabled={busy || chipsDisabled}
                   className={`text-left rounded-xl border px-3 py-2 text-sm transition-colors disabled:opacity-50 ${
                     checked
                       ? 'border-accent bg-accent/10 text-accent font-medium'
@@ -112,6 +112,11 @@ export function ChatPanel({ className = '' }) {
   } = useChat();
   const { signedIn, plan, remaining, outOfQuota } = useUsage();
 
+  // AI needs an account and the free tier is metered. Block the entry points up
+  // front so the user gets a prompt explaining why, instead of typing a
+  // question and watching it fail with a 401/402 from the proxy.
+  const aiBlocked = !signedIn || outOfQuota;
+
   const [input, setInput] = useState('');
   const bottomRef = useRef(null);
   const inputRef = useRef(null);
@@ -124,7 +129,7 @@ export function ChatPanel({ className = '' }) {
 
   function submit() {
     const text = input.trim();
-    if (!text) return;
+    if (!text || aiBlocked) return;
     setInput('');
     send(text);
     inputRef.current?.focus();
@@ -234,6 +239,7 @@ export function ChatPanel({ className = '' }) {
             }
             picks={flow?.stage == null && flow?.picks?.size ? flow.picks : null}
             busy={loading}
+            chipsDisabled={aiBlocked}
             onChip={handleChip}
             closePanel={closePanel}
           />
@@ -279,6 +285,27 @@ export function ChatPanel({ className = '' }) {
 
       {/* ── Input ────────────────────────────────────────────────────────── */}
       <div className="shrink-0 border-t border-line bg-card px-3 py-2.5">
+        {aiBlocked && (
+          <div className="mb-2 rounded-xl border border-line bg-paper px-3 py-2 text-[11px] leading-relaxed text-ink-soft">
+            {!signedIn ? (
+              <>
+                The assistant needs a free account.{' '}
+                <Link to="/profile" onClick={closePanel} className="font-medium text-accent hover:underline">
+                  Sign in
+                </Link>{' '}
+                to ask questions, build a timetable or generate a lesson plan. Everything else works without one.
+              </>
+            ) : (
+              <>
+                You have used all {FREE_MONTHLY_LIMIT} free AI generations this month.{' '}
+                <Link to="/profile" onClick={closePanel} className="font-medium text-accent hover:underline">
+                  Upgrade to Pro
+                </Link>{' '}
+                for unlimited generations — your counter resets on the 1st.
+              </>
+            )}
+          </div>
+        )}
         <div className="flex items-end gap-2">
           <textarea
             ref={inputRef}
@@ -290,15 +317,19 @@ export function ChatPanel({ className = '' }) {
               e.target.style.height = Math.min(e.target.scrollHeight, 120) + 'px';
             }}
             onKeyDown={onKeyDown}
-            placeholder={mode === 'research' ? 'Ask me to research a topic…' : 'Ask about any curriculum topic…'}
-            disabled={loading}
+            placeholder={
+              aiBlocked
+                ? (signedIn ? 'Monthly AI limit reached' : 'Sign in to ask the assistant…')
+                : mode === 'research' ? 'Ask me to research a topic…' : 'Ask about any curriculum topic…'
+            }
+            disabled={loading || aiBlocked}
             className="flex-1 resize-none overflow-hidden border border-line rounded-xl bg-paper px-3.5 py-2.5 text-sm text-ink placeholder:text-ink-soft/60 focus:outline-none focus:border-accent leading-relaxed disabled:opacity-50"
             style={{ minHeight: '42px', maxHeight: '120px' }}
             aria-label="Message input"
           />
           <button
             onClick={submit}
-            disabled={!input.trim() || loading}
+            disabled={!input.trim() || loading || aiBlocked}
             className="shrink-0 w-10 h-10 rounded-xl bg-accent text-white flex items-center justify-center hover:bg-accent/90 transition disabled:opacity-40 disabled:cursor-not-allowed"
             aria-label="Send message"
           >
