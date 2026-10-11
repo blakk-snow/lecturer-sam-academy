@@ -16,24 +16,42 @@ export default function Planner() {
   const [editingTerm, setEditingTerm] = useState(null);
 
   async function handleCreate(formData) {
-    await actions.createTerm(formData);
-    setShowCreate(false);
+    try {
+      await actions.createTerm(formData);
+      setShowCreate(false);
+    } catch (err) {
+      window.alert(err?.message ?? 'Could not create the term. Please try again.');
+    }
   }
 
   async function handleEdit(formData) {
-    await actions.updateTerm(editingTerm.id, formData);
-    setEditingTerm(null);
+    try {
+      await actions.updateTerm(editingTerm.id, formData);
+      setEditingTerm(null);
+    } catch (err) {
+      window.alert(err?.message ?? 'Could not update the term. Please try again.');
+    }
   }
 
   async function handleDelete(term) {
-    if (window.confirm(`Delete "${term.name}"? This will also remove all classes, subjects and week plans inside it.`)) {
+    if (!window.confirm(`Delete "${term.name}"? This will also remove all classes, subjects and week plans inside it.`)) return;
+    try {
       await actions.deleteTerm(term.id);
+    } catch (err) {
+      window.alert(err?.message ?? 'Could not delete the term. Please try again.');
     }
   }
 
   function formatDateRange(start, end) {
     if (!start && !end) return null;
-    const fmt = d => d ? new Date(d).toLocaleDateString(undefined, { day: 'numeric', month: 'short', year: 'numeric' }) : '?';
+    // Append the time so date-only strings ("2026-01-15") parse as local
+    // midnight instead of UTC — otherwise the range shifts a day in
+    // timezones behind UTC.
+    const fmt = d => {
+      if (!d) return '?';
+      const date = /^\d{4}-\d{2}-\d{2}$/.test(d) ? new Date(`${d}T00:00:00`) : new Date(d);
+      return date.toLocaleDateString(undefined, { day: 'numeric', month: 'short', year: 'numeric' });
+    };
     return `${fmt(start)} – ${fmt(end)}`;
   }
 

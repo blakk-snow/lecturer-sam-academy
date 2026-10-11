@@ -164,6 +164,11 @@ The production output is written to `dist/`.
 | `VITE_FIREBASE_STORAGE_BUCKET` | As configured | — | Firebase storage bucket |
 | `VITE_FIREBASE_MESSAGING_SENDER_ID` | As configured | — | Firebase messaging sender ID |
 | `VITE_FIREBASE_APP_ID` | For Firebase | — | Firebase web app ID |
+| `VITE_WHATSAPP_NUMBER` | For Pro upgrades | — | Admin WhatsApp number (digits only, e.g. `233201234567`); powers the upgrade button and support link |
+| `FIREBASE_SERVICE_ACCOUNT` | For Pro + quotas | — | Service-account JSON (server-side only): enables AI auth/quota enforcement and Pro code redemption |
+| `PAYSTACK_SECRET_KEY` | Only with Paystack | — | Webhook HMAC key (Paystack path is dormant until keys are set) |
+| `VITE_PAYSTACK_PUBLIC_KEY` | Only with Paystack | — | Paystack Inline public key (dormant) |
+| `ALLOWED_ORIGIN` | No | `SITE_URL` | CORS origin for the AI proxy and redemption endpoint |
 
 ## Tech stack
 

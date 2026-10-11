@@ -11,8 +11,6 @@ import { bankManifest, loadPapers } from '../../data/questionBank';
 import { Markdown } from '../chat/Markdown';
 import { recordAttempt } from '../../db/attempts';
 
-const OPTION_KEYS = ['A', 'B', 'C', 'D'];
-
 export function QuestionBankRunner() {
   const [classId, setClassId] = useState('B7');
   const [papers, setPapers] = useState(undefined);
@@ -20,15 +18,22 @@ export function QuestionBankRunner() {
   const [qIndex, setQIndex] = useState(0);
   const [picked, setPicked] = useState({});   // question number → key
   const [finished, setFinished] = useState(false);
+  const [loadFailed, setLoadFailed] = useState(false);
+  const [reloadKey, setReloadKey] = useState(0);
 
   useEffect(() => {
+    let ignore = false;
     setPapers(undefined);
     setPaperId(null);
     setQIndex(0);
     setPicked({});
     setFinished(false);
-    loadPapers('science', classId).then(setPapers).catch(() => setPapers([]));
-  }, [classId]);
+    setLoadFailed(false);
+    loadPapers('science', classId)
+      .then(list => { if (!ignore) setPapers(list); })
+      .catch(() => { if (!ignore) { setPapers([]); setLoadFailed(true); } });
+    return () => { ignore = true; };
+  }, [classId, reloadKey]);
 
   const paper = useMemo(
     () => papers?.find(p => p.id === paperId) ?? null,
@@ -47,7 +52,7 @@ export function QuestionBankRunner() {
       correct,
       score: correct ? 1 : 0,
       topicId: paper.id,
-    }).catch(() => {});
+    }).catch(error => console.warn('Could not record attempt:', error));
   }
 
   const score = mcqs.filter(q => picked[q.number] === q.answer).length;
@@ -82,6 +87,18 @@ export function QuestionBankRunner() {
           <div className="flex items-center gap-2 text-sm text-ink-soft py-8 justify-center">
             <Loader2 size={16} className="animate-spin" /> Loading question bank…
           </div>
+        ) : loadFailed ? (
+          <div className="text-center py-8 space-y-3">
+            <p className="text-sm text-ink-soft">Couldn't load the question bank. Check your connection and try again.</p>
+            <button
+              onClick={() => setReloadKey(k => k + 1)}
+              className="rounded-xl border border-line px-4 py-2 text-sm font-medium hover:bg-paper"
+            >
+              Retry
+            </button>
+          </div>
+        ) : papers.length === 0 ? (
+          <p className="text-sm text-ink-soft py-8 text-center">No papers for this class yet.</p>
         ) : (
           <ul className="space-y-2">
             {papers.map(p => (

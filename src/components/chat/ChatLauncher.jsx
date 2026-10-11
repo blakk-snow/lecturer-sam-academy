@@ -8,6 +8,7 @@
 import { Link } from 'react-router-dom';
 import { Bot, Expand, X } from 'lucide-react';
 import { useChat } from '../../context/ChatContext';
+import { ErrorBoundary } from '../ui/ErrorBoundary';
 import { ChatPanel } from './ChatPanel';
 
 export function ChatLauncher() {
@@ -59,7 +60,12 @@ export function ChatLauncher() {
                 <X size={16} />
               </button>
             </div>
-            <ChatPanel className="flex-1 min-h-0" />
+            <ErrorBoundary
+              title="The assistant hit a problem"
+              message="The chat crashed unexpectedly. You can try again, or close this panel."
+            >
+              <ChatPanel className="flex-1 min-h-0" />
+            </ErrorBoundary>
           </div>
         </>
       )}

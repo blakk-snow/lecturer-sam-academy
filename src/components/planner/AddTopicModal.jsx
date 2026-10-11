@@ -14,26 +14,36 @@ export function AddTopicModal({
   initialData,
   onUpdate,
 }) {
+  const isEditMode = Boolean(onUpdate);
+  // In edit mode the topic's own saved class wins over the planner class —
+  // a topic may legitimately be linked to a different NaCCA class than the
+  // class group it sits in, and overriding it here silently corrupts the link.
+  const effectivePlannerClass = isEditMode ? null : plannerClassId;
   const [selectedCurriculumSubjectId, setSelectedCurriculumSubjectId] = useState(
     initialData?.curriculumSubjectId ?? curriculumSubjectId ?? '',
   );
   const [selectedCurriculumClassId, setSelectedCurriculumClassId] = useState(
-    plannerClassId ?? initialData?.curriculumClassId ?? curriculumClassId ?? '',
+    initialData?.curriculumClassId ?? plannerClassId ?? curriculumClassId ?? '',
   );
   const availableClasses = curriculumClasses.filter(cl =>
-    (!plannerClassId || cl.id === plannerClassId) &&
+    (!effectivePlannerClass || cl.id === effectivePlannerClass) &&
     (curriculumMap[selectedCurriculumSubjectId] ?? {})[cl.id]?.length > 0,
   );
   const subjectHasCurriculum = subjectId => curriculumClasses.some(cl =>
-    (!plannerClassId || cl.id === plannerClassId) &&
+    (!effectivePlannerClass || cl.id === effectivePlannerClass) &&
     (curriculumMap[subjectId] ?? {})[cl.id]?.length > 0,
   );
   const strands = (curriculumMap[selectedCurriculumSubjectId] ?? {})[selectedCurriculumClassId] ?? [];
   const hasCurriculum = strands.length > 0;
   const inputClass = 'border border-line rounded-xl bg-paper px-3 py-2 w-full text-ink text-sm focus:outline-none focus:border-accent';
 
-  const parseIds = (raw) =>
-    Array.isArray(raw) ? raw : (typeof raw === 'string' ? JSON.parse(raw || '[]') : []);
+  const parseIds = (raw) => {
+    if (Array.isArray(raw)) return raw;
+    if (typeof raw === 'string') {
+      try { return JSON.parse(raw || '[]'); } catch { return []; }
+    }
+    return [];
+  };
 
   // Step 1: strand
   const [activeStrandId, setActiveStrandId] = useState(
@@ -92,7 +102,7 @@ export function AddTopicModal({
   function handleCurriculumSubjectChange(nextSubjectId) {
     setSelectedCurriculumSubjectId(nextSubjectId);
     const nextClassId = curriculumClasses.find(cl =>
-      (!plannerClassId || cl.id === plannerClassId) &&
+      (!effectivePlannerClass || cl.id === effectivePlannerClass) &&
       (curriculumMap[nextSubjectId] ?? {})[cl.id]?.length > 0,
     )?.id ?? '';
     setSelectedCurriculumClassId(nextClassId);
@@ -117,13 +127,21 @@ export function AddTopicModal({
   }
 
   function handleSubmit() {
+    // When editing a topic whose saved link no longer resolves to any strand
+    // (missing curriculum data for its class), keep the saved link rather than
+    // silently unlinking it while the user only meant to edit notes/resources.
+    const keepSavedLink = isEditMode && initialData?.contentStandardId != null && !hasCurriculum;
     const payload = {
-      curriculumSubjectId: selectedCurriculumSubjectId || null,
-      curriculumClassId: selectedCurriculumClassId || null,
-      strandId: hasCurriculum ? activeStrandId : null,
-      subStrandId: hasCurriculum ? activeSubStrandId : null,
-      contentStandardId: hasCurriculum ? activeStandardId : null,
-      indicatorIds: hasCurriculum ? selectedIndicatorIds : [],
+      curriculumSubjectId: keepSavedLink
+        ? (initialData?.curriculumSubjectId ?? null)
+        : (selectedCurriculumSubjectId || null),
+      curriculumClassId: keepSavedLink
+        ? (initialData?.curriculumClassId ?? null)
+        : (selectedCurriculumClassId || null),
+      strandId: hasCurriculum ? activeStrandId : (keepSavedLink ? (initialData?.strandId ?? null) : null),
+      subStrandId: hasCurriculum ? activeSubStrandId : (keepSavedLink ? (initialData?.subStrandId ?? null) : null),
+      contentStandardId: hasCurriculum ? activeStandardId : (keepSavedLink ? initialData.contentStandardId : null),
+      indicatorIds: hasCurriculum ? selectedIndicatorIds : (keepSavedLink ? parseIds(initialData?.indicatorIds) : []),
       notes,
       resources,
     };
@@ -138,8 +156,6 @@ export function AddTopicModal({
   const canSubmit = hasCurriculum
     ? Boolean(activeStandardId)
     : Boolean(notes.trim() || resources.trim());
-
-  const isEditMode = Boolean(onUpdate);
 
   return (
     <div className="fixed inset-0 z-50 bg-black/50 flex items-center justify-center">

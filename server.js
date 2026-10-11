@@ -15,6 +15,7 @@ import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
 import { gateAiRequest } from './api/_aiGate.mjs';
+import { redeemProToken } from './api/_redeem.mjs';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
@@ -53,7 +54,9 @@ const ALLOWED_ORIGIN = process.env.ALLOWED_ORIGIN || SITE_URL;
 function setCors(res) {
   res.setHeader('Access-Control-Allow-Origin', ALLOWED_ORIGIN);
   res.setHeader('Access-Control-Allow-Methods', 'POST, OPTIONS');
-  res.setHeader('Access-Control-Allow-Headers', 'Content-Type');
+  // Authorization is required — the client sends the Firebase ID token here,
+  // and preflights fail without it in allow-headers.
+  res.setHeader('Access-Control-Allow-Headers', 'Content-Type, Authorization');
   res.setHeader('Vary', 'Origin');
 }
 
@@ -249,6 +252,29 @@ const server = http.createServer(async (req, res) => {
       }
       res.writeHead(500, { 'Content-Type': 'application/json' });
       res.end(JSON.stringify({ error: 'Internal server error', detail: err.message }));
+    }
+    return;
+  }
+
+  // Pro access-code redemption (WhatsApp manual payment flow)
+  if (req.method === 'POST' && req.url === '/api/redeem-token') {
+    try {
+      const rawBody = await readBody(req);
+      let parsed;
+      try {
+        parsed = JSON.parse(rawBody);
+      } catch {
+        res.writeHead(400, { 'Content-Type': 'application/json' });
+        res.end(JSON.stringify({ error: { code: 'bad-request', message: 'Invalid JSON body.' } }));
+        return;
+      }
+      const result = await redeemProToken(req.headers.authorization, parsed?.code);
+      res.writeHead(result.status, { 'Content-Type': 'application/json' });
+      res.end(JSON.stringify(result.body));
+    } catch (err) {
+      console.error('[server] redeem-token error:', err.message);
+      res.writeHead(500, { 'Content-Type': 'application/json' });
+      res.end(JSON.stringify({ error: { code: 'redeem-failed', message: 'Could not activate your Pro plan. Please try again.' } }));
     }
     return;
   }

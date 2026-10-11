@@ -1,6 +1,6 @@
 import { useEffect, useMemo, useState } from 'react';
 import { Link, useParams } from 'react-router-dom';
-import { ArrowLeft, CheckCircle2, Loader2, PenLine, RotateCcw } from 'lucide-react';
+import { ArrowLeft, CheckCircle2, Loader2, Lock, PenLine, RotateCcw } from 'lucide-react';
 import { loadEntries } from '../data/courseLibrary';
 import { Markdown } from '../components/chat/Markdown';
 import { QuestionCard } from '../components/quiz/QuestionCard';
@@ -9,6 +9,8 @@ import { Button } from '../components/ui/Button';
 import { saveQuizResult } from '../db/attempts';
 import { completeLesson } from '../db/progress';
 import { useChat } from '../context/ChatContext';
+import { useUsage } from '../hooks/useUsage';
+import { isProBook } from '../services/pro';
 import { track } from '../services/analytics';
 
 const normalizeCode = (code) => (code ?? '').replace(/\/JHS\d+/g, '').toUpperCase();
@@ -20,21 +22,28 @@ function IndicatorQuiz({ code, questions, onRestart }) {
   const [index, setIndex] = useState(0);
   const [results, setResults] = useState(() => new Array(questions.length).fill(null));
   const [finished, setFinished] = useState(false);
+  const [finishError, setFinishError] = useState(null);
   const current = questions[index];
 
   function handleResolved(result) {
-    setResults(prev => (prev[index] != null ? prev : prev.map((v, i) => (i === index ? Boolean(result.correct) : v))));
+    // Always overwrite the slot — a "Try again" correction must replace the
+    // earlier wrong result, or the final score keeps the wrong answer.
+    setResults(prev => prev.map((v, i) => (i === index ? Boolean(result.correct) : v)));
   }
 
   async function finish() {
     const correct = results.filter(r => r === true).length;
     const percentage = Math.round((correct / questions.length) * 100);
-    await Promise.all([
-      saveQuizResult({ quizId: lessonIdFor(code), score: correct, percentage }),
-      completeLesson(lessonIdFor(code), percentage),
-    ]);
-    track('quiz_completed', { percentage });
-    setFinished(true);
+    try {
+      await Promise.all([
+        saveQuizResult({ quizId: lessonIdFor(code), score: correct, percentage }),
+        completeLesson(lessonIdFor(code), percentage),
+      ]);
+      track('quiz_completed', { percentage });
+      setFinished(true);
+    } catch (err) {
+      setFinishError(err?.message ?? 'Could not save your results. Please try again.');
+    }
   }
 
   if (finished) {
@@ -85,6 +94,11 @@ function IndicatorQuiz({ code, questions, onRestart }) {
           </Button>
         )}
       </div>
+      {finishError && (
+        <p role="alert" className="rounded-xl border border-red-200 bg-red-50 px-4 py-2 text-sm text-red-700">
+          {finishError}
+        </p>
+      )}
     </div>
   );
 }
@@ -98,6 +112,8 @@ export default function LibraryIndicator() {
   const [tab, setTab] = useState('notes');
   const [quizKey, setQuizKey] = useState(0);
   const [bookRefs, setBookRefs] = useState([]);
+  const { plan } = useUsage();
+  const isPro = plan === 'pro';
 
   const normalized = normalizeCode((indicatorCode ?? '').replaceAll('_', '/'));
 
@@ -164,17 +180,21 @@ export default function LibraryIndicator() {
         {bookRefs.length > 0 && (
           <p className="mt-2 text-sm text-ink-soft">
             Taught in{' '}
-            {bookRefs.map((ref, i) => (
-              <span key={ref.bookId}>
-                {i > 0 && ', '}
-                <Link
-                  to={`/library/${subjectId}/${classId}/book/${ref.bookId}`}
-                  className="text-accent hover:underline"
-                >
-                  {ref.bookKindLabel}, Chapter {ref.chapterNumber}
-                </Link>
-              </span>
-            ))}.
+            {bookRefs.map((ref, i) => {
+              const locked = isProBook(ref.bookId) && !isPro;
+              return (
+                <span key={ref.bookId}>
+                  {i > 0 && ', '}
+                  <Link
+                    to={locked ? '/pro' : `/library/${subjectId}/${classId}/book/${ref.bookId}`}
+                    className="text-accent hover:underline"
+                  >
+                    {ref.bookKindLabel}, Chapter {ref.chapterNumber}
+                  </Link>
+                  {locked && <Lock size={11} className="inline ml-1 text-ink-soft" aria-label="Pro feature" />}
+                </span>
+              );
+            })}.
           </p>
         )}
       </div>

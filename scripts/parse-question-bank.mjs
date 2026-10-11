@@ -37,6 +37,19 @@ function detectClass(fileName, text) {
   return m ? `Basic ${m[1]}` : null;
 }
 
+/** Human-readable paper title derived from the file name (e.g. "Atomic Structure"). */
+function detectTopic(fileName) {
+  const cleaned = fileName
+    .replace(/\.md$/i, '')
+    .replace(/^BECE_Mock_/, '').replace(/^Beacon_/, '')
+    .replace(/^Basic[789]_?/i, '').replace(/_Basic[789]/i, '')
+    .replace(/^Integrated_?Science_?/i, '').replace(/_Integrated_?Science/i, '')
+    .replace(/_Science/i, '').replace(/_Mock_Pack_.+$/i, '')
+    .replace(/_20\d{2}(?:_\d{2})?$/i, '').replace(/_/g, ' ')
+    .replace(/\s+/g, ' ').trim();
+  return cleaned || 'Untitled paper';
+}
+
 function between(lines, startRe, endRe) {
   const blocks = [];
   let current = null;
@@ -126,7 +139,12 @@ function parsePaper(filePath) {
   const raw = fs.readFileSync(filePath, 'utf8');
   const lines = raw.split('\n');
 
-  const title = (raw.match(/^#\s+(.+)$/m) ?? [])[1]?.trim() ?? fileName;
+  const titleHeading = (raw.match(/^#\s+(.+)$/m) ?? [])[1]?.trim();
+  // Every source file starts with "# BEACON EDUCATIONAL CONSULT" — treat that
+  // generic banner as no title and derive one from the file name instead.
+  const title = titleHeading && !/^BEACON EDUCATIONAL CONSULT$/i.test(titleHeading)
+    ? titleHeading
+    : detectTopic(fileName);
 
   const sectionA = between(lines, /^##\s*SECTION\s*A/i, /^##\s*SECTION\s*B/i)[0] ?? '';
   const sectionB = between(lines, /^##\s*SECTION\s*B/i, /^##\s*ANSWER\s*KEY/i)[0] ?? '';

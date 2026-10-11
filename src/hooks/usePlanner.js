@@ -113,7 +113,9 @@ export function useClassGroups(termId) {
   }, [user, termId]);
 
   const dexieData = useLiveQuery(
-    () => !user ? dexieDb.classGroups.where('termId').equals(Number(termId)).toArray() : Promise.resolve(undefined),
+    () => (!user && termId != null)
+      ? dexieDb.classGroups.where('termId').anyOf([Number(termId), String(termId)]).toArray()
+      : Promise.resolve(undefined),
     [user, termId],
   );
 
@@ -150,7 +152,7 @@ export function useSubjectsForTerm(termId, classGroups) {
   const dexieData = useLiveQuery(
     () => {
       if (user || termId == null || !classGroups?.length) return Promise.resolve(undefined);
-      const ids = classGroups.map(cg => cg.id);
+      const ids = classGroups.flatMap(cg => [Number(cg.id), String(cg.id)]);
       return dexieDb.subjects.where('classGroupId').anyOf(ids).toArray();
     },
     [user, classGroups],
@@ -202,7 +204,7 @@ export function useWeekPlans(termId, cgId, subjectId) {
 
   const dexieData = useLiveQuery(
     () => (!user && subjectId != null)
-      ? dexieDb.weekPlans.where('subjectId').equals(Number(subjectId)).toArray()
+      ? dexieDb.weekPlans.where('subjectId').anyOf([Number(subjectId), String(subjectId)]).toArray()
       : Promise.resolve(undefined),
     [user, subjectId],
   );
@@ -245,7 +247,7 @@ export function useWeekTopicsForSubject(termId, cgId, subjectId, weekPlans) {
     () => {
       if (user || weekPlans === undefined) return Promise.resolve(undefined);
       if (weekPlans.length === 0) return Promise.resolve([]);
-      const planIds = weekPlans.map(wp => wp.id);
+      const planIds = weekPlans.flatMap(wp => [Number(wp.id), String(wp.id)]);
       return dexieDb.weekTopics.where('weekPlanId').anyOf(planIds).toArray();
     },
     [user, weekPlans],

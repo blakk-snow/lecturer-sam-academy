@@ -249,10 +249,13 @@ const lessonPlanFlow = {
     // 1. Term (create if this flow started from "__new")
     let termId = data.term && data.term !== '__new' ? data.term : null;
     if (!termId) {
+      // Ghana's academic year starts in September.
+      const now = new Date();
+      const startYear = now.getMonth() + 1 >= 9 ? now.getFullYear() : now.getFullYear() - 1;
       termId = await ctx.planner.createTerm({
-        name: data.termName,
-        year: '2026/2027',
-        termNumber: Number(data.termNumber),
+        name: (data.termName ?? '').trim() || 'New Term',
+        year: `${startYear}/${startYear + 1}`,
+        termNumber: Number(data.termNumber) || 1,
         startDate: '',
         endDate: '',
       });

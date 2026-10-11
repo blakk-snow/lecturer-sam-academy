@@ -63,7 +63,10 @@ export default function PlannerSubject() {
         status: existing?.status ?? 'planned',
       }, termId, cgId, existing?.revision ?? null);
     } catch (error) {
-      if (error?.code !== 'planner/conflict') throw error;
+      if (error?.code !== 'planner/conflict') {
+        window.alert(error?.message ?? 'Could not save the week change. Please try again.');
+        return;
+      }
       window.alert('This week plan changed on another device. The latest version has been loaded; please try your change again.');
     }
   }
@@ -76,33 +79,53 @@ export default function PlannerSubject() {
         status: value,
       }, termId, cgId, existing?.revision ?? null);
     } catch (error) {
-      if (error?.code !== 'planner/conflict') throw error;
+      if (error?.code !== 'planner/conflict') {
+        window.alert(error?.message ?? 'Could not save the status change. Please try again.');
+        return;
+      }
       window.alert('This week plan changed on another device. The latest version has been loaded; please try your change again.');
     }
   }
 
   async function handleAddTopic(weekNum, topicData) {
+    // weekPlans must be loaded before upserting — otherwise a fresh plan is
+    // created with default weekType/status and overwrites an existing plan.
+    if (weekPlans === undefined) return;
     const existing = weekPlanByWeekNumber[weekNum];
-    const planId = existing?.id ?? await actions.upsertWeekPlan(subjectId, weekNum, {
-      weekType: 'teaching',
-      status: 'planned',
-    }, termId, cgId, null);
-    if (planId != null) {
-      await actions.addWeekTopic(planId, {
-        ...topicData,
-        indicatorIds: JSON.stringify(topicData.indicatorIds ?? []),
-      }, termId, cgId, subjectId, weekNum);
+    try {
+      const planId = existing?.id ?? await actions.upsertWeekPlan(subjectId, weekNum, {
+        weekType: 'teaching',
+        status: 'planned',
+      }, termId, cgId, null);
+      if (planId != null) {
+        await actions.addWeekTopic(planId, {
+          ...topicData,
+          indicatorIds: JSON.stringify(topicData.indicatorIds ?? []),
+        }, termId, cgId, subjectId, weekNum);
+      }
+    } catch (error) {
+      if (error?.code !== 'planner/conflict') {
+        window.alert(error?.message ?? 'Could not add the topic. Please try again.');
+        return;
+      }
+      window.alert('This week plan changed on another device. Close and reopen it before adding a topic.');
+      return;
     }
     setAddTopicForWeek(null);
   }
 
   async function handleRemoveTopic(topic) {
+    if (!window.confirm('Remove this topic? Its lesson note will also be deleted.')) return;
     // In Firestore the topic's weekPlanId IS the week-number doc id, so it
     // doubles as the weekNum path segment. Dexie ignores the extra args.
-    await actions.removeWeekTopic(
-      topic.id, termId, cgId, subjectId, topic.weekPlanId
-    );
-    setExpandedTopicId(null);
+    try {
+      await actions.removeWeekTopic(
+        topic.id, termId, cgId, subjectId, topic.weekPlanId
+      );
+      setExpandedTopicId(null);
+    } catch (err) {
+      window.alert(err?.message ?? 'Could not remove the topic. Please try again.');
+    }
   }
 
   async function handleUpdateTopic(topicData) {
@@ -422,7 +445,8 @@ export default function PlannerSubject() {
               {/* Add topic button */}
               <button
                 onClick={() => setAddTopicForWeek(weekNum)}
-                className="flex items-center gap-1 text-sm text-accent hover:text-accent/80 font-medium"
+                disabled={weekPlans === undefined}
+                className="flex items-center gap-1 text-sm text-accent hover:text-accent/80 font-medium disabled:opacity-40"
               >
                 <Plus size={15} />
                 Add Topic

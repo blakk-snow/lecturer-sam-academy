@@ -9,15 +9,22 @@ export function TermForm({ initialValues = {}, onSubmit, onCancel }) {
     startDate: initialValues.startDate ?? '',
     endDate: initialValues.endDate ?? '',
   });
+  const [submitting, setSubmitting] = useState(false);
 
   function handleChange(e) {
     const { name, value } = e.target;
     setForm(prev => ({ ...prev, [name]: name === 'termNumber' ? Number(value) : value }));
   }
 
-  function handleSubmit(e) {
+  async function handleSubmit(e) {
     e.preventDefault();
-    onSubmit(form);
+    if (submitting) return;
+    setSubmitting(true);
+    try {
+      await onSubmit(form);
+    } finally {
+      setSubmitting(false);
+    }
   }
 
   const labelClass = 'text-sm text-ink-soft font-medium';
@@ -88,10 +95,10 @@ export function TermForm({ initialValues = {}, onSubmit, onCancel }) {
       </div>
 
       <div className="flex gap-3 pt-2">
-        <Button type="submit" variant="primary" className="flex-1">
-          Save
+        <Button type="submit" variant="primary" className="flex-1" disabled={submitting}>
+          {submitting ? 'Saving…' : 'Save'}
         </Button>
-        <Button type="button" variant="secondary" className="flex-1" onClick={onCancel}>
+        <Button type="button" variant="secondary" className="flex-1" onClick={onCancel} disabled={submitting}>
           Cancel
         </Button>
       </div>

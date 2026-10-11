@@ -212,7 +212,7 @@ export function ChatPanel({ className = '' }) {
           ) : plan === 'pro' ? (
             'Pro plan — unlimited AI generations'
           ) : outOfQuota ? (
-            <Link to="/profile" className="text-amber-700 hover:underline">
+            <Link to="/pro" className="text-amber-700 hover:underline">
               Monthly limit reached — upgrade to Pro
             </Link>
           ) : (

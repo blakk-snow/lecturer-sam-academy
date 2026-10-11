@@ -32,6 +32,9 @@ function sectionBody(lines, start) {
   const out = [];
   for (let i = start; i < lines.length; i++) {
     const line = lines[i];
+    // Stop at any heading, including the `## N.` plan separator — otherwise
+    // the last section of a plan (Homework) absorbs every later plan.
+    if (/^##\s/.test(line)) break;
     if (/^###\s/.test(line)) break;
     if (/^####\s/.test(line)) break;
     out.push(line);

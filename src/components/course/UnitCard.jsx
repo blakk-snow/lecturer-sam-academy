@@ -10,7 +10,11 @@ export function UnitCard({ unit, progress = 0 }) {
       <h2 className="mt-2 font-serif text-xl">{unit.title}</h2>
       <p className="mt-2 flex-1 text-sm leading-relaxed text-ink-soft">{unit.shortDescription}</p>
       <p className="mt-3 text-sm text-ink-soft">
-        {unit.sections.length ? `${unit.sections.length} topics` : "Coming after Unit 1"}
+        {unit.sections.length
+          ? `${unit.sections.length} topics`
+          : unit.number > 1
+            ? `Coming after Unit ${unit.number - 1}`
+            : "Coming soon"}
       </p>
       <div className="mt-3">
         <ProgressBar value={locked ? 0 : progress} />

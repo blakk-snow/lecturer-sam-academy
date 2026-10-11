@@ -1,13 +1,10 @@
 import { Link } from "react-router-dom";
 import { BookMarked, BookOpen, Bot, CalendarDays, GraduationCap, HelpCircle } from "lucide-react";
 import { Button } from "../components/ui/Button";
-import { useStudent } from "../context/StudentContext";
 import { useChat } from "../context/ChatContext";
 
 export default function Home() {
-  const { student } = useStudent();
   const { openPanel } = useChat();
-  const startTo = student ? "/dashboard" : "/profile";
 
   return (
     <div className="space-y-10">

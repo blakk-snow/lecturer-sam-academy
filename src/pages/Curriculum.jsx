@@ -268,8 +268,11 @@ export default function Curriculum() {
 
   // ── Load curriculum data lazily ──────────────────────────────────────────
   const [currData, setCurrData] = useState(null);
+  const [loadFailed, setLoadFailed] = useState(false);
   useEffect(() => {
-    curriculumDataPromise.then(mod => setCurrData(mod));
+    curriculumDataPromise
+      .then(mod => setCurrData(mod))
+      .catch(() => setLoadFailed(true));
   }, []);
 
   const curriculumMap = currData?.curriculumMap ?? {};
@@ -289,7 +292,9 @@ export default function Curriculum() {
     setActiveSubjectId(subjectId);
     const subjectData = curriculumMap[subjectId] || {};
     const firstAvailableClass = classes.find(c => subjectData[c.id]?.length > 0);
-    const newClassId = firstAvailableClass ? firstAvailableClass.id : 'B7';
+    // No invented fallback: when a subject has no class with data, select
+    // nothing so the empty state is honest instead of pointing at a dead pill.
+    const newClassId = firstAvailableClass ? firstAvailableClass.id : '';
     setActiveClassId(newClassId);
     setActiveStrandId(null);
   }
@@ -318,6 +323,15 @@ export default function Curriculum() {
   const subjectData   = curriculumMap[activeSubjectId] || {};
 
   if (!currData) {
+    if (loadFailed) {
+      return (
+        <div className="flex items-center justify-center min-h-[60dvh] px-4">
+          <p className="text-sm text-ink-soft text-center">
+            Couldn't load the curriculum data. Check your connection and reload the page.
+          </p>
+        </div>
+      );
+    }
     return (
       <div className="flex items-center justify-center min-h-[60dvh]">
         <div className="w-6 h-6 rounded-full border-2 border-accent border-t-transparent animate-spin" />

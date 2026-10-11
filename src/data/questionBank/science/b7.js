@@ -5,7 +5,7 @@ export const papers = [
   {
     "id": "bece-mock-basic7-integratedscience-agricultural-tools",
     "fileName": "BECE_Mock_Basic7_IntegratedScience_Agricultural_Tools.md",
-    "title": "BEACON EDUCATIONAL CONSULT",
+    "title": "Agricultural Tools",
     "subject": "Integrated Science",
     "classLevel": "Basic 7",
     "mcqCount": 40,
@@ -969,7 +969,7 @@ export const papers = [
   {
     "id": "bece-mock-basic7-integratedscience-animal-production",
     "fileName": "BECE_Mock_Basic7_IntegratedScience_Animal_Production.md",
-    "title": "BEACON EDUCATIONAL CONSULT",
+    "title": "Animal Production",
     "subject": "Integrated Science",
     "classLevel": "Basic 7",
     "mcqCount": 40,
@@ -1933,7 +1933,7 @@ export const papers = [
   {
     "id": "bece-mock-basic7-integratedscience-climate-change-and-green-economy",
     "fileName": "BECE_Mock_Basic7_IntegratedScience_Climate_Change_and_Green_Economy.md",
-    "title": "BEACON EDUCATIONAL CONSULT",
+    "title": "Climate Change and Green Economy",
     "subject": "Integrated Science",
     "classLevel": "Basic 7",
     "mcqCount": 40,
@@ -2897,7 +2897,7 @@ export const papers = [
   {
     "id": "bece-mock-basic7-integratedscience-conversion-and-conservation-of-energy",
     "fileName": "BECE_Mock_Basic7_IntegratedScience_Conversion_and_Conservation_of_Energy.md",
-    "title": "BEACON EDUCATIONAL CONSULT",
+    "title": "Conversion and Conservation of Energy",
     "subject": "Integrated Science",
     "classLevel": "Basic 7",
     "mcqCount": 40,
@@ -3861,7 +3861,7 @@ export const papers = [
   {
     "id": "bece-mock-basic7-integratedscience-crop-production",
     "fileName": "BECE_Mock_Basic7_IntegratedScience_Crop_Production.md",
-    "title": "BEACON EDUCATIONAL CONSULT",
+    "title": "Crop Production",
     "subject": "Integrated Science",
     "classLevel": "Basic 7",
     "mcqCount": 40,
@@ -4825,7 +4825,7 @@ export const papers = [
   {
     "id": "bece-mock-basic7-integratedscience-ecosystem",
     "fileName": "BECE_Mock_Basic7_IntegratedScience_Ecosystem.md",
-    "title": "BEACON EDUCATIONAL CONSULT",
+    "title": "Ecosystem",
     "subject": "Integrated Science",
     "classLevel": "Basic 7",
     "mcqCount": 40,
@@ -5789,7 +5789,7 @@ export const papers = [
   {
     "id": "bece-mock-basic7-integratedscience-electricity-and-electronics",
     "fileName": "BECE_Mock_Basic7_IntegratedScience_Electricity_and_Electronics.md",
-    "title": "BEACON EDUCATIONAL CONSULT",
+    "title": "Electricity and Electronics",
     "subject": "Integrated Science",
     "classLevel": "Basic 7",
     "mcqCount": 40,
@@ -6753,7 +6753,7 @@ export const papers = [
   {
     "id": "bece-mock-basic7-integratedscience-energy",
     "fileName": "BECE_Mock_Basic7_IntegratedScience_Energy.md",
-    "title": "BEACON EDUCATIONAL CONSULT",
+    "title": "Energy",
     "subject": "Integrated Science",
     "classLevel": "Basic 7",
     "mcqCount": 40,
@@ -7717,7 +7717,7 @@ export const papers = [
   {
     "id": "bece-mock-basic7-integratedscience-farming-systems",
     "fileName": "BECE_Mock_Basic7_IntegratedScience_Farming_Systems.md",
-    "title": "BEACON EDUCATIONAL CONSULT",
+    "title": "Farming Systems",
     "subject": "Integrated Science",
     "classLevel": "Basic 7",
     "mcqCount": 40,
@@ -8681,7 +8681,7 @@ export const papers = [
   {
     "id": "bece-mock-basic7-integratedscience-force-and-motion",
     "fileName": "BECE_Mock_Basic7_IntegratedScience_Force_and_Motion.md",
-    "title": "BEACON EDUCATIONAL CONSULT",
+    "title": "Force and Motion",
     "subject": "Integrated Science",
     "classLevel": "Basic 7",
     "mcqCount": 40,
@@ -9645,7 +9645,7 @@ export const papers = [
   {
     "id": "bece-mock-basic7-integratedscience-human-body-digestion",
     "fileName": "BECE_Mock_Basic7_IntegratedScience_Human_Body_Digestion.md",
-    "title": "BEACON EDUCATIONAL CONSULT",
+    "title": "Human Body Digestion",
     "subject": "Integrated Science",
     "classLevel": "Basic 7",
     "mcqCount": 40,
@@ -10609,7 +10609,7 @@ export const papers = [
   {
     "id": "bece-mock-basic7-integratedscience-human-health",
     "fileName": "BECE_Mock_Basic7_IntegratedScience_Human_Health.md",
-    "title": "BEACON EDUCATIONAL CONSULT",
+    "title": "Human Health",
     "subject": "Integrated Science",
     "classLevel": "Basic 7",
     "mcqCount": 40,
@@ -11573,7 +11573,7 @@ export const papers = [
   {
     "id": "bece-mock-basic7-integratedscience-life-cycle-housefly",
     "fileName": "BECE_Mock_Basic7_IntegratedScience_Life_Cycle_Housefly.md",
-    "title": "BEACON EDUCATIONAL CONSULT",
+    "title": "Life Cycle Housefly",
     "subject": "Integrated Science",
     "classLevel": "Basic 7",
     "mcqCount": 40,
@@ -12537,7 +12537,7 @@ export const papers = [
   {
     "id": "bece-mock-basic7-integratedscience-living-cells",
     "fileName": "BECE_Mock_Basic7_IntegratedScience_Living_Cells.md",
-    "title": "BEACON EDUCATIONAL CONSULT",
+    "title": "Living Cells",
     "subject": "Integrated Science",
     "classLevel": "Basic 7",
     "mcqCount": 40,
@@ -13501,7 +13501,7 @@ export const papers = [
   {
     "id": "bece-mock-basic7-integratedscience-materials",
     "fileName": "BECE_Mock_Basic7_IntegratedScience_Materials.md",
-    "title": "BEACON EDUCATIONAL CONSULT",
+    "title": "Materials",
     "subject": "Integrated Science",
     "classLevel": "Basic 7",
     "mcqCount": 40,
@@ -14465,7 +14465,7 @@ export const papers = [
   {
     "id": "bece-mock-basic7-integratedscience-science-and-industry",
     "fileName": "BECE_Mock_Basic7_IntegratedScience_Science_and_Industry.md",
-    "title": "BEACON EDUCATIONAL CONSULT",
+    "title": "Science and Industry",
     "subject": "Integrated Science",
     "classLevel": "Basic 7",
     "mcqCount": 40,
@@ -15429,7 +15429,7 @@ export const papers = [
   {
     "id": "bece-mock-basic7-integratedscience-solar-system",
     "fileName": "BECE_Mock_Basic7_IntegratedScience_Solar_System.md",
-    "title": "BEACON EDUCATIONAL CONSULT",
+    "title": "Solar System",
     "subject": "Integrated Science",
     "classLevel": "Basic 7",
     "mcqCount": 40,
@@ -16393,7 +16393,7 @@ export const papers = [
   {
     "id": "bece-mock-basic7-integratedscience-understanding-the-environment",
     "fileName": "BECE_Mock_Basic7_IntegratedScience_Understanding_the_Environment.md",
-    "title": "BEACON EDUCATIONAL CONSULT",
+    "title": "Understanding the Environment",
     "subject": "Integrated Science",
     "classLevel": "Basic 7",
     "mcqCount": 40,
@@ -17357,7 +17357,7 @@ export const papers = [
   {
     "id": "bece-mock-basic7-integratedscience-waste-management",
     "fileName": "BECE_Mock_Basic7_IntegratedScience_Waste_Management.md",
-    "title": "BEACON EDUCATIONAL CONSULT",
+    "title": "Waste Management",
     "subject": "Integrated Science",
     "classLevel": "Basic 7",
     "mcqCount": 40,
@@ -18321,7 +18321,7 @@ export const papers = [
   {
     "id": "bece-mock-basic7-integratedscience-water-cycle",
     "fileName": "BECE_Mock_Basic7_IntegratedScience_Water_Cycle.md",
-    "title": "BEACON EDUCATIONAL CONSULT",
+    "title": "Water Cycle",
     "subject": "Integrated Science",
     "classLevel": "Basic 7",
     "mcqCount": 40,
@@ -19285,7 +19285,7 @@ export const papers = [
   {
     "id": "beacon-basic7-integrated-science-mock-pack-2026-27",
     "fileName": "Beacon_Basic7_Integrated_Science_Mock_Pack_2026_27.md",
-    "title": "BEACON EDUCATIONAL CONSULT",
+    "title": "Mock Pack",
     "subject": "Integrated Science",
     "classLevel": "Basic 7",
     "mcqCount": 40,

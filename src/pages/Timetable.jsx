@@ -23,7 +23,7 @@ function emptyDay() {
 
 export default function Timetable() {
   const { schedule, source, loading, save } = useTeacherSchedule();
-  const { user } = useAuth();
+  const { user, loading: authLoading } = useAuth();
   const { openPanel } = useChat();
 
   const [timetable, setTimetable] = useState(null); // { [cls]: { [day]: [{subject, period}] } }
@@ -171,7 +171,7 @@ export default function Timetable() {
           </p>
         </div>
         <div className="flex items-center gap-2">
-          {!user && dirty && (
+          {!user && !authLoading && dirty && (
             <span className="text-xs text-amber-700">Saves on this device only — sign in on Profile to sync.</span>
           )}
           <Button variant="primary" className="text-sm px-4 py-2 min-h-0" onClick={handleSave} disabled={!dirty || saving}>

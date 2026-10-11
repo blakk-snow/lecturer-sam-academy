@@ -156,7 +156,11 @@ export function ChatProvider({ children }) {
     }
     // Skip steps whose value is already known (pre-filled flows started from
     // content pages pass subject/class/strand/indicators/method in advance).
-    while (next < def.steps.length && def.steps[next].key in flowState.data) {
+    while (
+      next < def.steps.length &&
+      def.steps[next].key in flowState.data &&
+      flowState.data[def.steps[next].key] != null
+    ) {
       next += 1;
     }
     if (next < def.steps.length) {
@@ -200,7 +204,6 @@ export function ChatProvider({ children }) {
       flowId: 'lessonplan',
       stepIndex: 0,
       data: {
-        term: null,
         class: classId,
         subject: subjectId,
         strand: found.strandId,

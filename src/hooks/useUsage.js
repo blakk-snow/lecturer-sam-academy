@@ -1,7 +1,7 @@
 /**
  * useUsage.js — live snapshot of the signed-in user's plan and AI quota
  *
- * Mirrors the server-side usage doc at /users/{uid}/usage:
+ * Mirrors the server-side usage doc at /users/{uid}/usage/current:
  *   { plan: 'free'|'pro', aiMonth: 'YYYY-MM', aiCount, proExpiresAt }
  */
 
@@ -12,6 +12,11 @@ import { useAuth } from '../context/AuthContext';
 
 export const FREE_MONTHLY_LIMIT = 10;
 export const PRO_PRICE_GHS = 50;
+
+// Usage lives in a single-doc subcollection — a Firestore document reference
+// must have an even number of path segments, so /users/{uid}/usage alone is
+// invalid and throws "Invalid document reference".
+const USAGE_DOC_ID = 'current';
 
 const monthKey = () => {
   const now = new Date();
@@ -25,7 +30,7 @@ export function useUsage() {
   useEffect(() => {
     if (!user?.uid) { setUsage(null); return undefined; }
     return onSnapshot(
-      doc(db, 'users', user.uid, 'usage'),
+      doc(db, 'users', user.uid, 'usage', USAGE_DOC_ID),
       snapshot => setUsage(snapshot.exists() ? snapshot.data() : null),
       () => setUsage(null),
     );

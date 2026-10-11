@@ -5,7 +5,7 @@
  * enforcement logic lives in one place. Verifies the Firebase ID token and
  * enforces the monthly AI-generation quota per user:
  *
- *   /users/{uid}/usage → { plan: 'free' | 'pro', aiMonth: 'YYYY-MM',
+ *   /users/{uid}/usage/current → { plan: 'free' | 'pro', aiMonth: 'YYYY-MM',
  *                          aiCount, proExpiresAt, updatedAt }
  *
  * Free plan: 10 AI generations per calendar month.
@@ -96,7 +96,9 @@ export async function gateAiRequest(authHeader) {
 
   const uid = decoded.uid;
   const month = new Date().toISOString().slice(0, 7);
-  const usageRef = app.firestore().doc(`users/${uid}/usage`);
+  // Document references need an even number of path segments, so the usage
+  // doc lives at users/{uid}/usage/current.
+  const usageRef = app.firestore().doc(`users/${uid}/usage/current`);
 
   const result = await app.firestore().runTransaction(async transaction => {
     const snapshot = await transaction.get(usageRef);

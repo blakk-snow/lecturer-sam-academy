@@ -82,7 +82,7 @@ function UserMenu({ user, onSignOut }) {
           />
         ) : (
           <div className="w-8 h-8 rounded-full bg-accent/20 text-accent text-sm font-semibold flex items-center justify-center">
-            {(user.displayName ?? user.email ?? '?')[0].toUpperCase()}
+            {((user.displayName || user.email || '?')[0] ?? '?').toUpperCase()}
           </div>
         )}
         <span className="hidden lg:block text-sm text-ink max-w-[120px] truncate">

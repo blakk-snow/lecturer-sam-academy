@@ -31,6 +31,7 @@ const PlannerLesson  = lazy(() => import("./pages/PlannerLesson"));
 const AIAssistant    = lazy(() => import("./pages/AIAssistant"));
 const SchemeOfLearning = lazy(() => import("./pages/SchemeOfLearning"));
 const Timetable      = lazy(() => import("./pages/Timetable"));
+const ProPortal      = lazy(() => import("./pages/ProPortal"));
 
 // ── Fallback shown while a page chunk is loading ───────────────────────────────
 
@@ -101,6 +102,7 @@ function GatedApp() {
         <Route path="/quiz/:quizId"                            element={<Quiz />} />
         <Route path="/results/:resultId"                       element={<Results />} />
         <Route path="/profile"                                 element={<Profile />} />
+        <Route path="/pro"                                     element={<ProPortal />} />
       </Route>
     </Routes>
   );

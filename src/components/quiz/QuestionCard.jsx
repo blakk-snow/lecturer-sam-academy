@@ -14,14 +14,19 @@ export function QuestionCard({ question, onResolved }) {
     const misconception = checked.misconceptionId
       ? misconceptions[checked.misconceptionId]
       : null;
-    await recordAttempt({
-      questionId: question.id,
-      answer: response,
-      correct: checked.correct,
-      score: checked.correct ? 1 : 0,
-      misconceptionId: checked.misconceptionId,
-      topicId: question.topicId,
-    });
+    try {
+      await recordAttempt({
+        questionId: question.id,
+        answer: response,
+        correct: checked.correct,
+        score: checked.correct ? 1 : 0,
+        misconceptionId: checked.misconceptionId,
+        topicId: question.topicId,
+      });
+    } catch (error) {
+      // Attempt logging must never block the learner's feedback.
+      console.warn('Could not record attempt:', error);
+    }
     setResult({ ...checked, misconception });
     onResolved?.({ ...checked, misconception, answer: response, questionId: question.id });
   }

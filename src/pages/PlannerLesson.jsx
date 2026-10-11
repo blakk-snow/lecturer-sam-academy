@@ -24,6 +24,17 @@ const STATUS_STYLES = {
   delivered: 'bg-green-100 text-green-700',
 };
 
+// Empty form — also the baseline used when switching between topics.
+const EMPTY_FORM = {
+  day: '', date: '',
+  starter: '', mainLearning: '', plenary: '',
+  resourceUrl: '', resourceType: 'none',
+  evaluation: '', homework: '',
+  status: 'draft',
+  methodId: null,
+  sections: [],
+};
+
 // Step definitions — step 0 is the curriculum overview (read-only)
 const STEPS = [
   { key: 'overview',     label: 'Overview',     icon: '📋' },
@@ -111,22 +122,17 @@ export default function PlannerLesson() {
   // ── Lazy curriculum data ─────────────────────────────────────────────────────
   const [curriculumMap, setCurriculumMap] = useState(null);
   useEffect(() => {
-    curriculumDataPromise.then(mod => setCurriculumMap(mod.curriculumMap));
+    curriculumDataPromise.then(mod => setCurriculumMap(mod.curriculumMap)).catch(() => {
+      // Chunk load failed (offline / cache eviction) — the page still works,
+      // curriculum links just won't resolve until a reload.
+    });
   }, []);
 
   // ── Stepper state ───────────────────────────────────────────────────────────
   const [step, setStep] = useState(0);
 
   // ── Form state ──────────────────────────────────────────────────────────────
-  const [form, setForm] = useState({
-    day: '', date: '',
-    starter: '', mainLearning: '', plenary: '',
-    resourceUrl: '', resourceType: 'none',
-    evaluation: '', homework: '',
-    status: 'draft',
-    methodId: null,
-    sections: [],
-  });
+  const [form, setForm] = useState(EMPTY_FORM);
   const [saveState, setSaveState] = useState('idle');
   const [saveError, setSaveError] = useState(null);
   const [isDirty, setIsDirty] = useState(false);
@@ -136,6 +142,8 @@ export default function PlannerLesson() {
   const revisionRef = useRef(undefined);
   const editSequenceRef = useRef(0);
   const saveInProgressRef = useRef(false);
+  const isDirtyRef = useRef(false);
+  const topicIdRef = useRef(topicId);
 
   // ── Curriculum lookup ───────────────────────────────────────────────────────
   const currDetails = useMemo(() => {
@@ -185,13 +193,14 @@ export default function PlannerLesson() {
     resourceType: note?.resourceType ?? 'none',
     evaluation:   note?.evaluation   ?? '',
     homework:     note?.homework     ?? '',
-    status:       note?.status       ?? 'draft',
+    status:       STATUSES.includes(note?.status) ? note.status : 'draft',
     methodId:     note?.methodId     ?? null,
     sections:     note?.sections     ?? [],
   }), []);
 
   const updateForm = useCallback((field, value) => {
     editSequenceRef.current += 1;
+    isDirtyRef.current = true;
     setIsDirty(true);
     setForm(current => ({ ...current, [field]: value }));
   }, []);
@@ -209,6 +218,24 @@ export default function PlannerLesson() {
   function clearAiError(stepKey) {
     setAiState(prev => ({ ...prev, [stepKey]: { ...prev[stepKey], error: null } }));
   }
+
+  // Reset the editor when the route moves to a different topic — React Router
+  // keeps this component mounted on param-only navigation, so without this the
+  // form/revision from topic A leaks into topic B (and can overwrite B's note).
+  useEffect(() => {
+    if (topicIdRef.current === topicId) return;
+    topicIdRef.current = topicId;
+    initializedRef.current = false;
+    revisionRef.current = undefined;
+    editSequenceRef.current = 0;
+    isDirtyRef.current = false;
+    setForm(EMPTY_FORM);
+    setIsDirty(false);
+    setConflict(null);
+    setSaveError(null);
+    setSaveState('idle');
+    setStep(0);
+  }, [topicId]);
 
   useEffect(() => {
     if (lessonNote === undefined) return;
@@ -247,7 +274,9 @@ export default function PlannerLesson() {
   const save = useCallback(async (overrides = {}, allowConflict = false) => {
     if (topicId == null) return;
     if (conflict && !allowConflict) return;
-    if (!isDirty && Object.keys(overrides).length === 0) return;
+    // Use the ref — isDirty state can be stale when save() runs in the same
+    // tick as an updateForm() call (e.g. radio/status changes).
+    if (!isDirtyRef.current && Object.keys(overrides).length === 0) return;
     const sequenceAtSave = editSequenceRef.current;
     setSaveState('saving');
     setSaveError(null);
@@ -260,7 +289,10 @@ export default function PlannerLesson() {
       );
       revisionRef.current = saved?.revision ?? revisionRef.current;
       setConflict(null);
-      if (editSequenceRef.current === sequenceAtSave) setIsDirty(false);
+      if (editSequenceRef.current === sequenceAtSave) {
+        isDirtyRef.current = false;
+        setIsDirty(false);
+      }
       setSaveState('saved');
       if (saveTimer.current) clearTimeout(saveTimer.current);
       saveTimer.current = setTimeout(() => setSaveState('idle'), 2000);
@@ -275,7 +307,7 @@ export default function PlannerLesson() {
     } finally {
       saveInProgressRef.current = false;
     }
-  }, [actions, buildPayload, conflict, isDirty, topicId]);
+  }, [actions, buildPayload, conflict, topicId]);
 
   const handleBlur  = useCallback(() => save(), [save]);
 
@@ -293,6 +325,7 @@ export default function PlannerLesson() {
   const reloadAfterConflict = useCallback(() => {
     const record = conflict?.record ?? null;
     revisionRef.current = record?.revision ?? null;
+    isDirtyRef.current = false;
     setForm(noteToForm(record));
     setIsDirty(false);
     setConflict(null);

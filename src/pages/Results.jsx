@@ -8,8 +8,9 @@ import { getQuiz } from "../data/quizzes";
 
 export default function Results() {
   const { resultId } = useParams();
+  const numericId = Number(resultId);
   const result = useLiveQuery(
-    () => db.quizResults.get(Number(resultId)),
+    () => (Number.isInteger(numericId) ? db.quizResults.get(numericId) : Promise.resolve(null)),
     [resultId],
   );
   const quiz = result ? getQuiz(result.quizId) : null;
@@ -40,8 +41,8 @@ export default function Results() {
         <Link to="/dashboard">
           <Button>View progress</Button>
         </Link>
-        <Link to="/course/unit-1">
-          <Button variant="secondary">Back to Unit 1</Button>
+        <Link to={quiz?.unitId ? `/course/${quiz.unitId}` : "/course"}>
+          <Button variant="secondary">Back to the course</Button>
         </Link>
       </div>
     </div>

@@ -5,8 +5,10 @@ service cloud.firestore {
 
     // Quota/plan documents are readable by their owner but only writable
     // by the server (Admin SDK) — clients must not be able to upgrade
-    // themselves or reset their counters.
-    match /users/{uid}/usage {
+    // themselves or reset their counters. Usage is a single doc in a
+    // subcollection (users/{uid}/usage/current) because document references
+    // require an even number of path segments.
+    match /users/{uid}/usage/{usageId} {
       allow read: if request.auth != null && request.auth.uid == uid;
       allow write: if false;
     }

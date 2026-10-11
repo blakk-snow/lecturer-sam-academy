@@ -8,6 +8,7 @@
 
 import { useNavigate } from 'react-router-dom';
 import { ArrowLeft } from 'lucide-react';
+import { ErrorBoundary } from '../components/ui/ErrorBoundary';
 import { ChatPanel } from '../components/chat/ChatPanel';
 
 export default function AIAssistant() {
@@ -26,7 +27,12 @@ export default function AIAssistant() {
         <h1 className="text-lg font-bold font-serif">AI Assistant</h1>
       </div>
       <div className="flex-1 min-h-0 rounded-2xl border border-line overflow-hidden bg-paper">
-        <ChatPanel className="h-full" />
+        <ErrorBoundary
+          title="The assistant hit a problem"
+          message="The chat crashed unexpectedly. Try again to resume the conversation."
+        >
+          <ChatPanel className="h-full" />
+        </ErrorBoundary>
       </div>
     </div>
   );

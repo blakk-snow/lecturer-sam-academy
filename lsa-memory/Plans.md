@@ -6,7 +6,7 @@ Add firebase-admin; a shared gate module (api/\_aiGate.mjs) used by both proxies
 
 services/ai.js attaches the Firebase ID token (Authorization: Bearer) to every /api/generate call and maps structured errors: 401 auth-required (→ "Sign in to use the assistant") and 402 quota-exceeded (→ upgrade prompt).
 
-Quota model: /users/{uid}/usage doc — { plan: 'free'|'pro', aiMonth: 'YYYY-MM', aiCount }. Server verifies the token, reads usage, and increments via transaction before calling OpenRouter. Free = 10 AI generations/month; Pro = unlimited (GH₵50/month). Pro users bypass the counter.
+Quota model: /users/{uid}/usage/current doc — { plan: 'free'|'pro', aiMonth: 'YYYY-MM', aiCount }. Server verifies the token, reads usage, and increments via transaction before calling OpenRouter. Free = 10 AI generations/month; Pro = unlimited (GH₵50/month). Pro users bypass the counter.
 
 server.js (dev): enforces when FIREBASE\_SERVICE\_ACCOUNT is present; without it, warns and stays unauthenticated so your local workflow keeps working. api/generate.js (Vercel): always enforces.
 
@@ -415,3 +415,13 @@ Build + browser verification + commit
 
 
 
+
+## WhatsApp Pro upgrade flow (2026-10-10)
+
+Manual payment replaces Paystack as the primary upgrade path:
+
+- User taps "Upgrade via WhatsApp" (Profile or /pro) → prefilled chat with the admin (VITE_WHATSAPP_NUMBER) including the user's account email.
+- User pays via mobile money; admin confirms and runs `node scripts/pro-token.mjs new 1` (needs FIREBASE_SERVICE_ACCOUNT) → one-time code (LSA-XXXX-XXXX), 30 days each, stored in `proTokens/{code}`. Also: `list`, `revoke`.
+- User enters the code (Profile or /pro) → POST /api/redeem-token → server verifies the Firebase ID token, marks the code used, writes `plan: 'pro'` + `proExpiresAt` to `users/{uid}/usage/current` (stacking on any existing expiry). Client can never read proTokens (rules deny).
+- Pro unlocks: unlimited AI generations + the print-ready Learner's Books (B7–B9 Maths & English; ids ending `-print-ready`). Print-ready gating is client-side UX (Course, LibraryIndicator, BookReader gate screens) since the SPA bundles content; AI quotas remain server-enforced.
+- Paystack service + webhook kept dormant in the repo (hidden UI); can be re-enabled by setting the PAYSTACK keys.

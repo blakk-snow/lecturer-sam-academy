@@ -37,27 +37,38 @@ export default function PlannerTerm() {
   const [subjectCurriculumClassId, setSubjectCurriculumClassId] = useState('');
 
   async function handleAddClass() {
-    await actions.addClassGroup(termId, classLevelInput);
-    setShowAddClass(false);
-    setClassLevelInput('B7');
+    try {
+      await actions.addClassGroup(termId, classLevelInput);
+      setShowAddClass(false);
+      setClassLevelInput('B7');
+    } catch (err) {
+      window.alert(err?.message ?? 'Could not add the class. Please try again.');
+    }
   }
 
   async function handleRemoveClass(cg) {
-    if (window.confirm(`Remove ${getClassLabel(cg.classLevel)}? All subjects and week plans inside will be deleted.`)) {
+    if (!window.confirm(`Remove ${getClassLabel(cg.classLevel)}? All subjects and week plans inside will be deleted.`)) return;
+    try {
       await actions.removeClassGroup(cg.id, termId);
+    } catch (err) {
+      window.alert(err?.message ?? 'Could not remove the class. Please try again.');
     }
   }
 
   async function handleAddSubject() {
     if (!subjectNameInput.trim()) return;
-    await actions.addSubject(
-      addSubjectForGroup,
-      subjectNameInput.trim(),
-      subjectCurriculumSubjectId || null,
-      subjectCurriculumClassId || null,
-      termId
-    );
-    closeAddSubjectModal();
+    try {
+      await actions.addSubject(
+        addSubjectForGroup,
+        subjectNameInput.trim(),
+        subjectCurriculumSubjectId || null,
+        subjectCurriculumClassId || null,
+        termId
+      );
+      closeAddSubjectModal();
+    } catch (err) {
+      window.alert(err?.message ?? 'Could not add the subject. Please try again.');
+    }
   }
 
   function closeAddSubjectModal() {
@@ -68,8 +79,11 @@ export default function PlannerTerm() {
   }
 
   async function handleRemoveSubject(subject) {
-    if (window.confirm(`Remove "${subject.name}"? All week plans will be deleted.`)) {
+    if (!window.confirm(`Remove "${subject.name}"? All week plans will be deleted.`)) return;
+    try {
       await actions.removeSubject(subject.id, termId, subject.classGroupId);
+    } catch (err) {
+      window.alert(err?.message ?? 'Could not remove the subject. Please try again.');
     }
   }
 

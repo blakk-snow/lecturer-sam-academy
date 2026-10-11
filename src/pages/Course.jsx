@@ -1,8 +1,10 @@
 import { useEffect, useMemo, useState } from 'react';
 import { Link } from 'react-router-dom';
-import { BookOpen, FileText, GraduationCap, Loader2, Target } from 'lucide-react';
+import { BookOpen, FileText, GraduationCap, Loader2, Lock, Target } from 'lucide-react';
 import { libraryManifest, loadEntries } from '../data/courseLibrary';
 import { bookManifest } from '../data/courseLibrary/bookIndex';
+import { useUsage } from '../hooks/useUsage';
+import { isProBook } from '../services/pro';
 
 // curriculumData is ~600 KB — load lazily, only needed on this page.
 const curriculumPromise = import('../data/curriculumData');
@@ -19,12 +21,17 @@ const safeCode = (code) => (code ?? '').replaceAll('/', '_');
  */
 export default function Course() {
   const [curriculum, setCurriculum] = useState(null); // { subjects, map }
+  const [curriculumFailed, setCurriculumFailed] = useState(false);
   const [subjectId, setSubjectId] = useState(libraryManifest[0]?.subjectId ?? null);
   const [classId, setClassId] = useState(null);
   const [entriesByCode, setEntriesByCode] = useState(undefined); // normalized code → entry
+  const { plan } = useUsage();
+  const isPro = plan === 'pro';
 
   useEffect(() => {
-    curriculumPromise.then(m => setCurriculum({ subjects: m.subjects, map: m.curriculumMap }));
+    curriculumPromise
+      .then(m => setCurriculum({ subjects: m.subjects, map: m.curriculumMap }))
+      .catch(() => setCurriculumFailed(true));
   }, []);
 
   const classesFor = useMemo(
@@ -42,10 +49,14 @@ export default function Course() {
 
   useEffect(() => {
     if (!subjectId || !classId) { setEntriesByCode({}); return; }
+    let ignore = false;
     setEntriesByCode(undefined);
     loadEntries(subjectId, classId)
-      .then(list => setEntriesByCode(Object.fromEntries(list.map(e => [normalizeCode(e.code), e]))))
-      .catch(() => setEntriesByCode({}));
+      .then(list => {
+        if (!ignore) setEntriesByCode(Object.fromEntries(list.map(e => [normalizeCode(e.code), e])));
+      })
+      .catch(() => { if (!ignore) setEntriesByCode({}); });
+    return () => { ignore = true; };
   }, [subjectId, classId]);
 
   const strands = curriculum?.map?.[subjectId]?.[classId] ?? [];
@@ -82,6 +93,11 @@ export default function Course() {
       </Link>
 
       {/* Subject + class pickers */}
+      {curriculumFailed && (
+        <div className="rounded-xl border border-red-200 bg-red-50 px-4 py-3 text-sm text-red-700">
+          Couldn't load the curriculum index. Check your connection and reload the page.
+        </div>
+      )}
       {curriculum && (
         <div className="space-y-3">
           <div className="flex gap-2 flex-wrap">
@@ -194,21 +210,32 @@ export default function Course() {
         <section className="space-y-3">
           <h2 className="font-serif text-xl text-ink">Textbooks</h2>
           <div className="grid gap-3 sm:grid-cols-2">
-            {booksForClass.map(book => (
-              <Link key={book.id} to={`/library/${subjectId}/${classId}/book/${book.id}`} className="group">
+            {booksForClass.map(book => {
+              const locked = isProBook(book.id) && !isPro;
+              const card = (
                 <article className="h-full rounded-2xl border border-line bg-card p-4 transition-colors group-hover:border-accent/40">
                   <div className="flex items-center gap-3">
                     <div className="inline-flex rounded-lg bg-accent/10 p-2">
                       <BookOpen size={18} className="text-accent" />
                     </div>
-                    <div className="min-w-0">
+                    <div className="min-w-0 flex-1">
                       <p className="font-medium text-ink">{book.kindLabel}</p>
                       <p className="text-sm text-ink-soft">{book.chapterCount} chapters</p>
                     </div>
+                    {locked && (
+                      <span className="inline-flex shrink-0 items-center gap-1 rounded-full border border-line bg-paper px-2 py-0.5 text-[11px] font-semibold text-ink-soft">
+                        <Lock size={11} /> Pro
+                      </span>
+                    )}
                   </div>
                 </article>
-              </Link>
-            ))}
+              );
+              return locked ? (
+                <Link key={book.id} to="/pro" className="group">{card}</Link>
+              ) : (
+                <Link key={book.id} to={`/library/${subjectId}/${classId}/book/${book.id}`} className="group">{card}</Link>
+              );
+            })}
           </div>
         </section>
       )}

@@ -30,6 +30,7 @@ function buildStages(lesson) {
       id: `${block.type}-${index}`,
       title: block.title,
       block,
+      blockIndex: index,
     });
   });
 
@@ -40,17 +41,23 @@ export function LessonRenderer({ lesson, onOpenQuiz }) {
   const stages = useMemo(() => buildStages(lesson), [lesson]);
   const [index, setIndex] = useState(0);
   const [practiceResults, setPracticeResults] = useState({});
+  const [thinkBack, setThinkBack] = useState({});
   const [reflections, setReflections] = useState("");
-  const stage = stages[index];
+  // Clamp the index: the reset effect below runs after render, so a lesson
+  // with fewer stages than the previous index must not read past the array.
+  const stage = stages[Math.min(index, stages.length - 1)];
   const progress = Math.round(((index + 1) / stages.length) * 100);
 
   useEffect(() => {
-    touchLesson(lesson.id);
+    touchLesson(lesson.id).catch(() => {
+      // Progress tracking must never crash the lesson flow.
+    });
   }, [lesson.id]);
 
   useEffect(() => {
     setIndex(0);
     setPracticeResults({});
+    setThinkBack({});
     setReflections("");
   }, [lesson.id]);
 
@@ -59,19 +66,36 @@ export function LessonRenderer({ lesson, onOpenQuiz }) {
       setIndex((value) => value + 1);
       return;
     }
+    // Score against every practice question in the lesson (try + practise),
+    // not just the ones answered — skipping questions must lower the score.
+    const expected = lesson.sections.reduce(
+      (total, block) => total + (
+        block.type === 'try'
+          ? 1
+          : block.type === 'practise'
+            ? (block.questionIds?.length ?? 0)
+            : 0
+      ),
+      0,
+    );
     const values = Object.values(practiceResults);
-    const percentage = values.length
-      ? Math.round((values.filter(Boolean).length / values.length) * 100)
-      : 80;
-    await completeLesson(lesson.id, percentage);
+    const percentage = expected > 0
+      ? Math.round((values.filter(Boolean).length / expected) * 100)
+      : 100;
+    try {
+      await completeLesson(lesson.id, percentage);
+    } catch {
+      // Persisting progress must not block the quiz hand-off.
+    }
     if (lesson.quizId) {
       onOpenQuiz(lesson.quizId);
     }
   }
 
-  function renderBlock(block) {
+  function renderBlock(block, blockIndex) {
     if (!block) return null;
     if (block.type === "think-back") {
+      const selected = thinkBack[blockIndex];
       return (
         <div className="space-y-3">
           <p className="leading-relaxed">{block.prompt}</p>
@@ -79,7 +103,15 @@ export function LessonRenderer({ lesson, onOpenQuiz }) {
             {block.options.map((option) => (
               <li key={option}>
                 <label className="flex min-h-12 items-start gap-3 rounded-xl border border-line bg-paper/70 px-4 py-3">
-                  <input type="radio" name={`${lesson.id}-think`} />
+                  <input
+                    type="radio"
+                    name={`${lesson.id}-think-${blockIndex}`}
+                    value={option}
+                    checked={selected === option}
+                    onChange={() =>
+                      setThinkBack((current) => ({ ...current, [blockIndex]: option }))
+                    }
+                  />
                   <span>{option}</span>
                 </label>
               </li>
@@ -90,16 +122,17 @@ export function LessonRenderer({ lesson, onOpenQuiz }) {
       );
     }
     if (block.type === "observe") {
-      return <ClassifyActivity items={block.items} intro={block.intro} />;
+      return <ClassifyActivity items={block.items ?? []} intro={block.intro} />;
     }
     if (block.type === "explanation") {
       return <p className="leading-relaxed">{block.content}</p>;
     }
     if (block.type === "example") {
-      return <WorkedExample question={block.question} steps={block.steps} />;
+      return <WorkedExample question={block.question} steps={block.steps ?? []} />;
     }
     if (block.type === "try") {
       const question = getQuestion(block.questionId);
+      if (!question) return null;
       return (
         <QuestionCard
           key={question.id}
@@ -111,7 +144,7 @@ export function LessonRenderer({ lesson, onOpenQuiz }) {
       );
     }
     if (block.type === "practise") {
-      const items = getQuestions(block.questionIds);
+      const items = getQuestions(block.questionIds ?? []);
       return (
         <div className="space-y-6">
           {items.map((question) => (
@@ -151,7 +184,7 @@ export function LessonRenderer({ lesson, onOpenQuiz }) {
     <div className="space-y-5">
       <Card>
         <p className="mb-1 text-xs uppercase tracking-wide text-accent">{stage.title}</p>
-        {stage.render ? stage.render() : renderBlock(stage.block)}
+        {stage.render ? stage.render() : renderBlock(stage.block, stage.blockIndex)}
       </Card>
       <div className="flex gap-3">
         <Button

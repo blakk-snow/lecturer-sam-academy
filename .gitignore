@@ -29,3 +29,8 @@ dist-ssr
 src/data/courses-data/textbooks-and-references/*.docx
 src/data/courses-data/textbooks-and-references/*.xlsx
 src/data/courses-data/textbooks-and-references/uploads/
+
+# Stray scratch files (Untitled-1.js contains a live API key — keep local)
+Untitled-1.js
+result-image-1.png
+result-image-2

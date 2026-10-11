@@ -8,6 +8,13 @@
 
 import { BookMarked, BookOpen, CalendarDays, UserRound } from 'lucide-react';
 
+// Admin WhatsApp number for support and Pro upgrades (digits only). Without
+// it the links open WhatsApp's share picker instead of a direct chat.
+const WHATSAPP_NUMBER = String(import.meta.env.VITE_WHATSAPP_NUMBER ?? '').replace(/\D/g, '');
+const supportLink = WHATSAPP_NUMBER
+  ? `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent('Hello Lecturer Sam Academy support —')}`
+  : `https://wa.me/?text=${encodeURIComponent('Hello Lecturer Sam Academy support —')}`;
+
 export const NAV_GROUPS = [
   {
     id: 'teacher',
@@ -45,13 +52,14 @@ export const NAV_GROUPS = [
     items: [
       { to: '/', label: 'Home' },
       { to: '/profile', label: 'Profile' },
+      { to: '/pro', label: 'Go Pro' },
       { to: '/dashboard', label: 'Progress' },
       { to: '/help', label: 'Help' },
       { to: '/terms', label: 'Terms' },
       { to: '/privacy', label: 'Privacy' },
       { to: '/onboarding', label: 'Welcome tour' },
       {
-        to: 'https://wa.me/?text=Hello%20Lecturer%20Sam%20Academy%20support%20—',
+        to: supportLink,
         label: 'WhatsApp support',
         external: true,
       },
@@ -73,6 +81,7 @@ const PATH_GROUPS = [
   { prefix: '/quiz', group: 'student' },
   { prefix: '/results', group: 'student' },
   { prefix: '/profile', group: 'settings' },
+  { prefix: '/pro', group: 'settings' },
   { prefix: '/dashboard', group: 'settings' },
   { prefix: '/help', group: 'settings' },
   { prefix: '/ai-assistant', group: null },

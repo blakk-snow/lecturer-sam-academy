@@ -1,11 +1,13 @@
 import { useEffect, useMemo, useState } from 'react';
 import { Link, useParams } from 'react-router-dom';
-import { ArrowLeft, BookOpen, ChevronLeft, ChevronRight, Loader2, PenLine } from 'lucide-react';
+import { ArrowLeft, BookOpen, ChevronLeft, ChevronRight, Loader2, Lock, PenLine } from 'lucide-react';
 import { loadBook } from '../data/courseLibrary/bookIndex';
 import { resolveBookBodyImages } from '../data/courseLibrary/bookImages';
 import { Markdown } from '../components/chat/Markdown';
 import { Button } from '../components/ui/Button';
 import { useChat } from '../context/ChatContext';
+import { useUsage } from '../hooks/useUsage';
+import { isProBook } from '../services/pro';
 
 const safeCode = (code) => (code ?? '').replaceAll('/', '_');
 const isIndicator = (code) => (code ?? '').split('.').length >= 5;
@@ -17,9 +19,12 @@ const isIndicator = (code) => (code ?? '').split('.').length >= 5;
 export default function BookReader() {
   const { subjectId, classId, bookId } = useParams();
   const { openPanel, startLessonPlanFlow } = useChat();
+  const { plan } = useUsage();
   const [book, setBook] = useState(undefined);
   const [chapterIndex, setChapterIndex] = useState(0);
   const [body, setBody] = useState('');
+
+  const locked = isProBook(bookId) && plan !== 'pro';
 
   function planFromChapter() {
     const codes = chapter?.codes ?? [];
@@ -32,8 +37,18 @@ export default function BookReader() {
     setBook(undefined);
     setChapterIndex(0);
     setBody('');
-    loadBook(bookId).then(b => setBook(b ?? null));
-  }, [bookId]);
+    // Locked books never download their chunk; redeeming Pro re-runs this
+    // effect (locked flips false) and loads the book in place.
+    if (locked) return;
+    loadBook(bookId)
+      .then(b => setBook(b ?? null))
+      .catch(() => {
+        // Large book chunks may fail to load offline — fall back to the
+        // "Book not found" state instead of a perpetual spinner.
+        console.warn(`[book-reader] could not load book "${bookId}"`);
+        setBook(null);
+      });
+  }, [bookId, locked]);
 
   const chapter = book?.chapters?.[chapterIndex] ?? null;
 
@@ -49,6 +64,32 @@ export default function BookReader() {
   }, [chapter]);
 
   const subjectLabel = useMemo(() => ({ english: 'English Language', mathematics: 'Mathematics', science: 'Science' }[subjectId] ?? subjectId), [subjectId]);
+
+  // Print-ready Learner's Books are Pro-gated — show the upgrade gate
+  // instead of the content for free users.
+  if (locked) {
+    return (
+      <div className="py-10">
+        <Link to="/course" className="flex items-center gap-1 text-sm text-ink-soft hover:text-ink">
+          <ArrowLeft size={15} /> Course Library
+        </Link>
+        <div className="mx-auto mt-6 max-w-md rounded-2xl border border-line bg-card p-6 text-center space-y-3">
+          <Lock size={32} className="mx-auto text-accent" />
+          <p className="font-serif text-xl text-ink">This book is a Pro feature</p>
+          <p className="text-sm text-ink-soft">
+            Print-ready Learner's Books are included in Pro, along with unlimited AI generations.
+            Upgrade for GH₵50/month and get instant access.
+          </p>
+          <Link
+            to="/pro"
+            className="inline-flex min-h-12 items-center justify-center gap-2 rounded-xl bg-accent px-5 py-3 text-base font-semibold text-white shadow-sm transition hover:bg-accent-hover"
+          >
+            Unlock with Pro
+          </Link>
+        </div>
+      </div>
+    );
+  }
 
   if (book === undefined) {
     return (

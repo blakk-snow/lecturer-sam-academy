@@ -5,18 +5,17 @@ import { Button } from "../components/ui/Button";
 import { Card } from "../components/ui/Card";
 import { useStudent } from "../context/StudentContext";
 import { useAuth } from "../context/AuthContext";
-import { useUsage, FREE_MONTHLY_LIMIT, PRO_PRICE_GHS } from "../hooks/useUsage";
-import { openProCheckout, paymentsConfigured } from "../services/payments";
+import { useUsage, FREE_MONTHLY_LIMIT } from "../hooks/useUsage";
 import { EmailAuthForm } from "../components/auth/EmailAuthForm";
+import { UpgradePanel } from "../components/pro/UpgradePanel";
 
 /** Teacher account section — the main sign-in surface on mobile, where the
  *  desktop header (and its auth controls) is hidden. */
 function AccountCard() {
   const { user, loading, signInWithGoogle, signOut } = useAuth();
-  const { plan, used, remaining, proExpiresAt } = useUsage();
+  const { plan, remaining, proExpiresAt } = useUsage();
   const [signingIn, setSigningIn] = useState(false);
   const [showEmailForm, setShowEmailForm] = useState(false);
-  const [payNotice, setPayNotice] = useState(null);
 
   async function handleSignIn() {
     setSigningIn(true);
@@ -25,17 +24,6 @@ function AccountCard() {
     } finally {
       setSigningIn(false);
     }
-  }
-
-  function handleUpgrade() {
-    if (!user?.email) return;
-    setPayNotice(null);
-    openProCheckout({
-      email: user.email,
-      name: user.displayName ?? undefined,
-      onSuccess: () => setPayNotice('Payment received — your Pro plan activates within a minute.'),
-      onClose: () => setPayNotice('Payment window closed. Your plan was not changed.'),
-    });
   }
 
   return (
@@ -68,7 +56,7 @@ function AccountCard() {
                   />
                 ) : (
                   <div className="flex h-9 w-9 items-center justify-center rounded-full bg-accent/20 text-sm font-semibold text-accent">
-                    {(user.displayName ?? user.email ?? "?")[0].toUpperCase()}
+                    {((user.displayName || user.email || "?")[0] ?? "?").toUpperCase()}
                   </div>
                 )}
                 <div className="min-w-0">
@@ -84,32 +72,26 @@ function AccountCard() {
 
             {/* Plan + quota */}
             <div className="rounded-xl border border-line bg-paper p-4 space-y-3">
-              <div className="flex items-center justify-between gap-3 flex-wrap">
-                <div>
-                  <p className="text-sm font-semibold text-ink">
-                    {plan === "pro" ? "Pro plan" : "Free plan"}
+              <div>
+                <p className="text-sm font-semibold text-ink">
+                  {plan === "pro" ? "Pro plan" : "Free plan"}
+                </p>
+                {plan === "pro" ? (
+                  <p className="text-xs text-ink-soft">
+                    Unlimited AI generations{proExpiresAt ? ` until ${new Date(proExpiresAt).toLocaleDateString()}` : ""}.
                   </p>
-                  {plan === "pro" ? (
-                    <p className="text-xs text-ink-soft">
-                      Unlimited AI generations{proExpiresAt ? ` until ${new Date(proExpiresAt).toLocaleDateString()}` : ""}.
-                    </p>
-                  ) : (
-                    <p className="text-xs text-ink-soft">
-                      {remaining} of {FREE_MONTHLY_LIMIT} AI generations left this month.
-                    </p>
-                  )}
-                </div>
-                {plan !== "pro" && (
-                  <Button onClick={handleUpgrade} className="text-sm px-4 py-2 min-h-0">
-                    Upgrade to Pro — GH₵{PRO_PRICE_GHS}/month
-                  </Button>
+                ) : (
+                  <p className="text-xs text-ink-soft">
+                    {remaining} of {FREE_MONTHLY_LIMIT} AI generations left this month.
+                  </p>
                 )}
               </div>
-              {payNotice && (
-                <p className="text-xs text-ink-soft" role="status">{payNotice}</p>
-              )}
-              {plan !== "pro" && !paymentsConfigured() && (
-                <p className="text-xs text-ink-soft/70">Payments are being set up — check back soon.</p>
+              {plan === "pro" ? (
+                <Link to="/pro" className="inline-block text-xs text-accent hover:underline">
+                  See your Pro features →
+                </Link>
+              ) : (
+                <UpgradePanel />
               )}
             </div>
           </div>
@@ -163,8 +145,12 @@ export default function Profile() {
   async function onSubmit(event) {
     event.preventDefault();
     if (!name.trim()) return;
-    await saveProfile(name, fontSize);
-    navigate("/dashboard");
+    try {
+      await saveProfile(name, fontSize);
+      navigate("/dashboard");
+    } catch (err) {
+      window.alert(err?.message ?? 'Could not save your profile. Please try again.');
+    }
   }
 
   return (

@@ -63,8 +63,13 @@ export default function Onboarding() {
   }
 
   async function finish() {
-    await completeOnboarding();
-    navigate('/');
+    try {
+      await completeOnboarding();
+      navigate('/');
+    } catch (err) {
+      // Never trap the user in onboarding because of a settings write failure.
+      window.alert(err?.message ?? 'Could not save your progress. Please try again.');
+    }
   }
 
   const current = STEPS[step];

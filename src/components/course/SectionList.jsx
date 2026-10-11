@@ -6,7 +6,7 @@ import { ProgressBar } from "../ui/ProgressBar";
 export function SectionList({ unit, byLesson }) {
   return (
     <ol className="space-y-3">
-      {unit.sections.map((section) => {
+      {unit.sections.map((section, index) => {
         const sectionLessons = getLessonsBySection(section.id);
         const completed = sectionLessons.filter((lesson) => byLesson[lesson.id]?.status === "completed").length;
         const percent = sectionLessons.length
@@ -16,6 +16,9 @@ export function SectionList({ unit, byLesson }) {
           sectionLessons.find((lesson) => byLesson[lesson.id]?.status !== "completed") ??
           sectionLessons[0];
         const Icon = percent === 100 ? Check : percent > 0 ? ArrowRight : Circle;
+        const previousAvailableTitle = [...unit.sections.slice(0, index)]
+          .reverse()
+          .find((s) => s.available)?.title;
         const body = (
           <div className="rounded-2xl border border-line bg-card p-4">
             <div className="flex items-start gap-3">
@@ -25,7 +28,9 @@ export function SectionList({ unit, byLesson }) {
                 <p className="text-sm text-ink-soft">
                   {section.available
                     ? `${sectionLessons.length} lessons · ${percent}% complete`
-                    : "Available after Section 1"}
+                    : previousAvailableTitle
+                      ? `Available after ${previousAvailableTitle}`
+                      : "Coming soon"}
                 </p>
                 {section.available ? <div className="mt-2"><ProgressBar value={percent} /></div> : null}
               </div>

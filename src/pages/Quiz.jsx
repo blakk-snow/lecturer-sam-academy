@@ -5,7 +5,7 @@ import { Button } from "../components/ui/Button";
 import { ProgressBar } from "../components/ui/ProgressBar";
 import { useQuiz } from "../hooks/useQuiz";
 import { saveQuizResult } from "../db/attempts";
-import { completeLesson, touchLesson } from "../db/progress";
+import { completeLesson } from "../db/progress";
 import { getLessonsBySection } from "../data/lessons";
 import { scoreAttempts } from "../utils/scoring";
 
@@ -16,6 +16,7 @@ export default function Quiz() {
   const [index, setIndex] = useState(0);
   const [results, setResults] = useState({});
   const [locked, setLocked] = useState(false);
+  const [finishError, setFinishError] = useState(null);
 
   if (!quiz) {
     return <p>That quiz was not found.</p>;
@@ -26,22 +27,24 @@ export default function Quiz() {
 
   async function finish(nextResults) {
     const scored = scoreAttempts(Object.values(nextResults).map((correct) => ({ correct })));
-    const resultId = await saveQuizResult({
-      quizId: quiz.id,
-      score: scored.correct,
-      percentage: scored.percentage,
-    });
     const sectionLessons = getLessonsBySection(quiz.sectionId);
-    const last = sectionLessons[sectionLessons.length - 1];
-    if (last) {
-      await completeLesson(last.id, scored.percentage);
+    // Complete the lesson that hosts this quiz (not just the last lesson in
+    // the section), so the section's progress reflects what was practised.
+    const quizLesson = sectionLessons.find((lesson) => lesson.quizId === quiz.id)
+      ?? sectionLessons[sectionLessons.length - 1];
+    try {
+      const resultId = await saveQuizResult({
+        quizId: quiz.id,
+        score: scored.correct,
+        percentage: scored.percentage,
+      });
+      if (quizLesson) {
+        await completeLesson(quizLesson.id, scored.percentage);
+      }
+      navigate(`/results/${resultId}`);
+    } catch (err) {
+      setFinishError(err?.message ?? 'Could not save your results. Please try again.');
     }
-    await touchLesson(last?.id ?? sectionLessons[0]?.id, {
-      status: "completed",
-      mastery: scored.percentage,
-      percentage: scored.percentage,
-    });
-    navigate(`/results/${resultId}`);
   }
 
   function onResolved(result) {
@@ -70,6 +73,11 @@ export default function Quiz() {
           <QuestionCard key={question.id} question={question} onResolved={onResolved} />
         </div>
       ) : null}
+      {finishError && (
+        <p role="alert" className="rounded-xl border border-red-200 bg-red-50 px-4 py-2 text-sm text-red-700">
+          {finishError}
+        </p>
+      )}
       <Button className="w-full" disabled={!locked} onClick={goNext}>
         {index === questions.length - 1 ? "See results" : "Next question"}
       </Button>
